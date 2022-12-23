@@ -1,0 +1,1180 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AllGrouping.java",,,,2,9,10
+File,"AvgTicketAnalyzer.java",,,,3,21,1
+File,"AvgTicketAnalyzer.java",,,,3,21,1
+File,"Bridge.java",,,,9,57,21
+File,"Component.java",,,,4,21,17
+File,"Component.java",,,,4,21,17
+File,"Component.java",,,,4,21,17
+File,"Component.java",,,,3,14,13
+File,"Component.java",,,,4,21,17
+File,"Component.java",,,,4,20,17
+File,"ComponentExecutor.java",,,,9,33,9
+File,"ComponentExecutor.java",,,,9,33,9
+File,"ComponentExecutor.java",,,,4,23,6
+File,"ComponentExecutor.java",,,,7,28,9
+File,"ComponentExecutor.java",,,,9,33,9
+File,"ComponentExecutor.java",,,,10,38,9
+File,"Connection.java",,,,1,11,3
+File,"Connection.java",,,,1,9,3
+File,"Connection.java",,,,1,9,3
+File,"Connection.java",,,,1,11,3
+File,"Connection.java",,,,1,11,3
+File,"Connection.java",,,,1,13,4
+File,"EmissionEvent.java",,,,3,19,0
+File,"EmissionJob.java",,,,1,30,1
+File,"EmissionResolver.java",,,,3,29,0
+File,"EmissionTable.java",,,,3,21,9
+File,"Event.java",,,,0,3,4
+File,"Event.java",,,,0,3,4
+File,"Event.java",,,,0,3,4
+File,"Event.java",,,,0,4,8
+File,"Event.java",,,,0,4,8
+File,"Event.java",,,,0,3,4
+File,"EventCollector.java",,,,9,37,7
+File,"EventCollector.java",,,,9,37,7
+File,"EventCollector.java",,,,9,37,7
+File,"EventCollector.java",,,,9,37,7
+File,"EventDispatcher.java",,,,7,36,4
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventJoiner.java",,,,5,60,2
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,11,3
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,9,3
+File,"EventWindow.java",,,,5,24,6
+File,"EventWindow.java",,,,5,24,6
+File,"FieldsGrouping.java",,,,1,9,13
+File,"FieldsGrouping.java",,,,1,9,13
+File,"FieldsGrouping.java",,,,1,9,13
+File,"FieldsGrouping.java",,,,1,9,13
+File,"FieldsGrouping.java",,,,3,14,13
+File,"FixedTimeWindowingStrategy.java",,,,1,6,3
+File,"FixedTimeWindowingStrategy.java",,,,1,6,3
+File,"FraudDetectionJob.java",,,,1,25,4
+File,"FraudDetectionJob.java",,,,1,25,4
+File,"GroupByTransactionId.java",,,,1,10,0
+File,"GroupingStrategy.java",,,,0,4,8
+File,"GroupingStrategy.java",,,,0,4,8
+File,"GroupingStrategy.java",,,,0,5,9
+File,"GroupingStrategy.java",,,,0,4,8
+File,"GroupingStrategy.java",,,,0,4,8
+File,"InstanceExecutor.java",,,,5,27,8
+File,"InstanceExecutor.java",,,,5,27,8
+File,"InstanceExecutor.java",,,,3,16,8
+File,"InstanceExecutor.java",,,,5,27,8
+File,"InstanceExecutor.java",,,,5,27,8
+File,"Job.java",,,,5,24,16
+File,"Job.java",,,,5,24,16
+File,"Job.java",,,,5,24,20
+File,"Job.java",,,,5,24,16
+File,"Job.java",,,,5,24,16
+File,"Job.java",,,,5,24,16
+File,"JobStarter.java",,,,16,88,30
+File,"JobStarter.java",,,,11,56,21
+File,"JobStarter.java",,,,13,69,28
+File,"JobStarter.java",,,,16,88,30
+File,"JobStarter.java",,,,16,88,30
+File,"JobStarter.java",,,,17,105,43
+File,"JoinOperator.java",,,,3,13,9
+File,"Logger.java",,,,1,6,0
+File,"Logger.java",,,,1,6,0
+File,"Logger.java",,,,1,6,0
+File,"Logger.java",,,,1,6,0
+File,"Logger.java",,,,1,6,0
+File,"NameEventPair.java",,,,4,19,5
+File,"NamedEventQueue.java",,,,1,10,3
+File,"NamedStream.java",,,,0,1,20
+File,"NamedStreams.java",,,,4,20,8
+File,"Operator.java",,,,3,19,19
+File,"Operator.java",,,,3,20,19
+File,"Operator.java",,,,3,17,19
+File,"Operator.java",,,,5,23,24
+File,"Operator.java",,,,1,8,9
+File,"Operator.java",,,,3,19,19
+File,"OperatorExecutor.java",,,,5,29,12
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorInstanceExecutor.java",,,,9,40,15
+File,"OperatorInstanceExecutor.java",,,,7,34,13
+File,"OperatorInstanceExecutor.java",,,,5,30,13
+File,"OperatorInstanceExecutor.java",,,,7,34,13
+File,"OperatorInstanceExecutor.java",,,,10,45,15
+File,"ParallelizedVehicleCountJob1.java",,,,1,16,0
+File,"ParallelizedVehicleCountJob2.java",,,,1,16,1
+File,"ParallelizedVehicleCountJob3.java",,,,1,17,0
+File,"Process.java",,,,4,15,13
+File,"Process.java",,,,4,15,12
+File,"Process.java",,,,4,15,13
+File,"Process.java",,,,4,15,13
+File,"Process.java",,,,4,15,13
+File,"Process.java",,,,4,15,13
+File,"ScoreAggregator.java",,,,3,24,0
+File,"ScoreAggregator.java",,,,3,24,0
+File,"ScoreStorage.java",,,,4,20,9
+File,"ScoreStorage.java",,,,4,20,9
+File,"ScoreStorage.java",,,,4,20,9
+File,"SensorReader.java",,,,7,41,2
+File,"SensorReader.java",,,,8,49,6
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"SlidingTimeWindowingStrategy.java",,,,11,54,27
+File,"SlidingTimeWindowingStrategy.java",,,,11,54,27
+File,"Source.java",,,,1,8,12
+File,"Source.java",,,,1,11,12
+File,"Source.java",,,,1,8,8
+File,"Source.java",,,,1,10,12
+File,"Source.java",,,,1,10,12
+File,"Source.java",,,,1,8,12
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceExecutor.java",,,,6,31,13
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceInstanceExecutor.java",,,,7,32,13
+File,"SourceInstanceExecutor.java",,,,7,32,13
+File,"SourceInstanceExecutor.java",,,,7,32,13
+File,"SourceInstanceExecutor.java",,,,7,32,13
+File,"SourceInstanceExecutor.java",,,,5,28,13
+File,"State.java",,,,0,3,4
+File,"State.java",,,,0,3,4
+File,"Stateful.java",,,,0,5,16
+File,"Stateful.java",,,,0,5,16
+File,"Stream.java",,,,11,55,26
+File,"Stream.java",,,,7,38,25
+File,"Stream.java",,,,3,19,18
+File,"Stream.java",,,,9,47,25
+File,"Stream.java",,,,7,38,25
+File,"Stream.java",,,,3,17,18
+File,"StreamChannel.java",,,,3,16,9
+File,"StreamChannel.java",,,,2,14,9
+File,"StreamChannel.java",,,,2,14,9
+File,"StreamChannel.java",,,,2,13,9
+File,"StreamForkJob.java",,,,1,19,3
+File,"StreamMergeJob.java",,,,1,21,6
+File,"StreamSplitJob.java",,,,1,21,4
+File,"Streams.java",,,,5,21,13
+File,"Streams.java",,,,5,21,13
+File,"Streams.java",,,,5,21,13
+File,"Streams.java",,,,5,21,13
+File,"SystemUsageAnalyzer.java",,,,3,22,8
+File,"SystemUsageJob.java",,,,1,16,1
+File,"TemperatureEvent.java",,,,2,14,3
+File,"TemperatureEventSource.java",,,,9,62,20
+File,"TestWindowedAnalyzer.java",,,,4,24,0
+File,"TimedEvent.java",,,,0,4,8
+File,"TimedEvent.java",,,,0,4,8
+File,"TollBooth.java",,,,6,38,0
+File,"TransactionEvent.java",,,,2,25,3
+File,"TransactionEvent.java",,,,2,25,3
+File,"TransactionEvent.java",,,,3,27,3
+File,"TransactionFieldsGrouping.java",,,,1,10,0
+File,"TransactionFieldsGrouping.java",,,,1,10,0
+File,"TransactionScoreEvent.java",,,,1,10,3
+File,"TransactionScoreEvent.java",,,,1,10,3
+File,"TransactionScoreEvent.java",,,,1,10,3
+File,"TransactionSource.java",,,,9,64,21
+File,"TransactionSource.java",,,,10,68,21
+File,"TransactionSource.java",,,,9,64,21
+File,"UsageEvent.java",,,,2,15,3
+File,"UsageWriter.java",,,,3,20,0
+File,"UserAccountFieldsGrouping.java",,,,1,10,0
+File,"UserAccountFieldsGrouping.java",,,,1,10,0
+File,"UserAccountFieldsGrouping.java",,,,1,10,0
+File,"VehicleCountJob.java",,,,1,16,0
+File,"VehicleCounter.java",,,,4,27,0
+File,"VehicleCounter.java",,,,6,39,0
+File,"VehicleEvent.java",,,,2,11,0
+File,"VehicleEvent.java",,,,2,12,0
+File,"VehicleEvent.java",,,,2,20,0
+File,"VehicleEvent.java",,,,2,12,0
+File,"VehicleEvent.java",,,,2,11,0
+File,"VehicleEventSource.java",,,,9,58,20
+File,"VehicleTemperatureEvent.java",,,,2,23,0
+File,"VehicleTypeFieldsGrouping.java",,,,1,10,0
+File,"VehicleTypeFieldsGrouping.java",,,,1,10,0
+File,"WebServer.java",,,,13,82,0
+File,"WebServer.java",,,,13,84,0
+File,"WebServer.java",,,,13,77,0
+File,"WebServer.java",,,,13,84,0
+File,"WebServer.java",,,,13,84,0
+File,"WebServer.java",,,,13,84,0
+File,"WindowOperator.java",,,,3,13,10
+File,"WindowOperator.java",,,,3,13,10
+File,"WindowedAggregator.java",,,,6,38,0
+File,"WindowedProximityAnalyzer.java",,,,3,21,1
+File,"WindowedProximityAnalyzer.java",,,,3,21,1
+File,"WindowedStream.java",,,,2,12,9
+File,"WindowedStream.java",,,,4,19,11
+File,"WindowedTransactionCountAnalyzer.java",,,,3,21,1
+File,"WindowedTransactionCountAnalyzer.java",,,,3,21,1
+File,"WindowingOperator.java",,,,9,40,16
+File,"WindowingOperator.java",,,,5,24,15
+File,"WindowingStrategy.java",,,,0,7,12
+File,"WindowingStrategy.java",,,,0,7,12
+File,"WindowingTestJob.java",,,,1,18,2
+File,"ZoneFieldsGrouping.java",,,,1,9,0
+Package,"com",,,,0,0,0
+Package,"com.streamwork",,,,0,0,0
+Package,"com.streamwork.ch02",,,,0,0,0
+Package,"com.streamwork.ch02.api",,,,13,75,76
+Public Class,"com.streamwork.ch02.api.Component",2,50,50,3,13,13
+Public Constructor,"com.streamwork.ch02.api.Component.Component",,,,1,3,0
+Public Method,"com.streamwork.ch02.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch02.api.Component.getOutgoingStream",,,,1,3,5
+Public Abstract Class,"com.streamwork.ch02.api.Event",0,0,0,0,3,8
+Public Abstract Method,"com.streamwork.ch02.api.Event.getData",,,,0,1,4
+Public Class,"com.streamwork.ch02.api.Job",8,50,50,5,20,20
+Public Constructor,"com.streamwork.ch02.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch02.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch02.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch02.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch02.api.Operator",3,0,0,1,6,9
+Public Constructor,"com.streamwork.ch02.api.Operator.Operator",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch02.api.Operator.apply",,,,0,1,6
+Public Abstract Class,"com.streamwork.ch02.api.Source",2,0,0,1,6,8
+Public Constructor,"com.streamwork.ch02.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch02.api.Source.getEvents",,,,0,1,5
+Public Class,"com.streamwork.ch02.api.Stream",6,0,0,3,13,18
+Public Method,"com.streamwork.ch02.api.Stream.applyOperator",,,,2,7,5
+Public Method,"com.streamwork.ch02.api.Stream.getAppliedOperators",,,,1,3,4
+Package,"com.streamwork.ch02.engine",,,,45,249,70
+Public Abstract Class,"com.streamwork.ch02.engine.ComponentExecutor",5,75,75,4,18,6
+Public Constructor,"com.streamwork.ch02.engine.ComponentExecutor.ComponentExecutor",,,,1,3,0
+Public Method,"com.streamwork.ch02.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch02.engine.ComponentExecutor.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch02.engine.ComponentExecutor.setOutgoingQueue",,,,1,3,0
+Class,"com.streamwork.ch02.engine.Connection",2,0,0,1,8,3
+Public Constructor,"com.streamwork.ch02.engine.Connection.Connection",,,,1,4,0
+Public Class,"com.streamwork.ch02.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.streamwork.ch02.engine.EventQueue.EventQueue",,,,1,3,0
+Public Class,"com.streamwork.ch02.engine.JobStarter",15,57,47,11,47,21
+Public Constructor,"com.streamwork.ch02.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch02.engine.JobStarter.connectExecutors",,,,1,5,2
+Private Method,"com.streamwork.ch02.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch02.engine.JobStarter.setupConnections",,,,2,5,3
+Public Method,"com.streamwork.ch02.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch02.engine.JobStarter.startProcesses",,,,2,6,3
+Private Method,"com.streamwork.ch02.engine.JobStarter.traverseComponent",,,,2,9,1
+Public Class,"com.streamwork.ch02.engine.OperatorExecutor",6,0,0,5,26,12
+Public Constructor,"com.streamwork.ch02.engine.OperatorExecutor.OperatorExecutor",,,,1,4,0
+Method,"com.streamwork.ch02.engine.OperatorExecutor.runOnce",,,,4,19,8
+Public Abstract Class,"com.streamwork.ch02.engine.Process",1,0,0,2,14,12
+Public Constructor,"com.streamwork.ch02.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch02.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch02.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch02.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch02.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch02.engine.SourceExecutor",9,33,33,6,28,13
+Public Constructor,"com.streamwork.ch02.engine.SourceExecutor.SourceExecutor",,,,1,4,0
+Method,"com.streamwork.ch02.engine.SourceExecutor.runOnce",,,,4,17,8
+Public Method,"com.streamwork.ch02.engine.SourceExecutor.setIncomingQueue",,,,1,4,0
+Public Class,"com.streamwork.ch02.engine.WebServer",14,37,37,11,70,0
+Class,"com.streamwork.ch02.engine.WebServer.Edge",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch02.engine.WebServer.Edge.Edge",,,,1,5,0
+Class,"com.streamwork.ch02.engine.WebServer.Node",1,0,0,1,6,0
+Public Constructor,"com.streamwork.ch02.engine.WebServer.Node.Node",,,,1,4,0
+Public Constructor,"com.streamwork.ch02.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch02.engine.WebServer.indexHandler",,,,2,15,0
+Private Method,"com.streamwork.ch02.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch02.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch02.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch02.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch02.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch02.job",,,,14,96,2
+Class,"com.streamwork.ch02.job.SensorReader",13,33,33,7,35,2
+Public Constructor,"com.streamwork.ch02.job.SensorReader.SensorReader",,,,1,4,0
+Public Method,"com.streamwork.ch02.job.SensorReader.getEvents",,,,3,14,2
+Private Method,"com.streamwork.ch02.job.SensorReader.setupSocketReader",,,,3,14,0
+Public Class,"com.streamwork.ch02.job.VehicleCountJob",8,0,0,1,12,0
+Public Static Method,"com.streamwork.ch02.job.VehicleCountJob.main",,,,1,10,0
+Class,"com.streamwork.ch02.job.VehicleCounter",12,33,33,4,19,0
+Public Constructor,"com.streamwork.ch02.job.VehicleCounter.VehicleCounter",,,,1,1,0
+Public Method,"com.streamwork.ch02.job.VehicleCounter.apply",,,,1,8,0
+Private Method,"com.streamwork.ch02.job.VehicleCounter.printCountMap",,,,2,7,0
+Public Class,"com.streamwork.ch02.job.VehicleEvent",2,0,0,2,10,0
+Public Constructor,"com.streamwork.ch02.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.streamwork.ch02.job.VehicleEvent.getData",,,,1,4,0
+Package,"com.streamwork.ch03",,,,0,0,0
+Package,"com.streamwork.ch03.api",,,,22,132,123
+Public Class,"com.streamwork.ch03.api.Component",2,58,58,4,19,17
+Public Constructor,"com.streamwork.ch03.api.Component.Component",,,,1,4,0
+Public Method,"com.streamwork.ch03.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch03.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.streamwork.ch03.api.Component.getParallelism",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch03.api.Event",0,0,0,0,3,8
+Public Abstract Method,"com.streamwork.ch03.api.Event.getData",,,,0,1,4
+Public Class,"com.streamwork.ch03.api.FieldsGrouping",3,0,0,3,12,13
+Public Constructor,"com.streamwork.ch03.api.FieldsGrouping.FieldsGrouping",,,,1,2,0
+Public Method,"com.streamwork.ch03.api.FieldsGrouping.getInstance",,,,1,4,6
+Protected Method,"com.streamwork.ch03.api.FieldsGrouping.getKey",,,,1,3,7
+Public Interface,"com.streamwork.ch03.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.streamwork.ch03.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.streamwork.ch03.api.Job",8,50,50,5,20,16
+Public Constructor,"com.streamwork.ch03.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch03.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch03.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch03.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch03.api.Operator",5,0,0,3,17,19
+Public Constructor,"com.streamwork.ch03.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.streamwork.ch03.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.streamwork.ch03.api.Operator.apply",,,,0,1,6
+Public Method,"com.streamwork.ch03.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.streamwork.ch03.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch03.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.streamwork.ch03.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch03.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Abstract Class,"com.streamwork.ch03.api.Source",2,0,0,1,8,12
+Public Constructor,"com.streamwork.ch03.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch03.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.streamwork.ch03.api.Source.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch03.api.Stream",6,0,0,3,14,18
+Public Method,"com.streamwork.ch03.api.Stream.applyOperator",,,,2,7,5
+Public Method,"com.streamwork.ch03.api.Stream.getAppliedOperators",,,,1,3,4
+Package,"com.streamwork.ch03.engine",,,,69,365,103
+Public Abstract Class,"com.streamwork.ch03.engine.ComponentExecutor",3,40,40,7,26,9
+Public Constructor,"com.streamwork.ch03.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.streamwork.ch03.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch03.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.streamwork.ch03.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Method,"com.streamwork.ch03.engine.ComponentExecutor.setOutgoingQueue",,,,2,5,0
+Public Abstract Method,"com.streamwork.ch03.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.streamwork.ch03.engine.Connection",2,0,0,1,8,3
+Public Constructor,"com.streamwork.ch03.engine.Connection.Connection",,,,1,4,0
+Public Class,"com.streamwork.ch03.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.streamwork.ch03.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.streamwork.ch03.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.streamwork.ch03.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch03.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.streamwork.ch03.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.streamwork.ch03.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch03.engine.InstanceExecutor",4,77,77,3,12,8
+Public Constructor,"com.streamwork.ch03.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.streamwork.ch03.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch03.engine.InstanceExecutor.setOutgoingQueue",,,,1,3,0
+Public Class,"com.streamwork.ch03.engine.JobStarter",16,60,46,13,60,28
+Public Constructor,"com.streamwork.ch03.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch03.engine.JobStarter.connectExecutors",,,,2,14,9
+Private Method,"com.streamwork.ch03.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch03.engine.JobStarter.setupConnections",,,,2,5,3
+Public Method,"com.streamwork.ch03.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch03.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.streamwork.ch03.engine.JobStarter.traverseComponent",,,,2,9,1
+Public Class,"com.streamwork.ch03.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.streamwork.ch03.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.streamwork.ch03.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.streamwork.ch03.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch03.engine.OperatorInstanceExecutor",5,25,25,5,27,13
+Public Constructor,"com.streamwork.ch03.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch03.engine.OperatorInstanceExecutor.runOnce",,,,4,18,8
+Public Abstract Class,"com.streamwork.ch03.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.streamwork.ch03.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch03.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch03.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch03.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch03.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch03.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.streamwork.ch03.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.streamwork.ch03.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.streamwork.ch03.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch03.engine.SourceInstanceExecutor",6,25,25,5,25,13
+Public Constructor,"com.streamwork.ch03.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch03.engine.SourceInstanceExecutor.runOnce",,,,4,16,8
+Public Class,"com.streamwork.ch03.engine.WebServer",14,37,37,11,75,0
+Class,"com.streamwork.ch03.engine.WebServer.Edge",1,0,0,1,9,0
+Public Constructor,"com.streamwork.ch03.engine.WebServer.Edge.Edge",,,,1,7,0
+Class,"com.streamwork.ch03.engine.WebServer.Node",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch03.engine.WebServer.Node.Node",,,,1,5,0
+Public Constructor,"com.streamwork.ch03.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch03.engine.WebServer.indexHandler",,,,2,17,0
+Private Method,"com.streamwork.ch03.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch03.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch03.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch03.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch03.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch03.job",,,,19,149,7
+Public Class,"com.streamwork.ch03.job.ParallelizedVehicleCountJob1",8,0,0,1,12,0
+Public Static Method,"com.streamwork.ch03.job.ParallelizedVehicleCountJob1.main",,,,1,10,0
+Public Class,"com.streamwork.ch03.job.ParallelizedVehicleCountJob2",8,0,0,1,12,1
+Public Static Method,"com.streamwork.ch03.job.ParallelizedVehicleCountJob2.main",,,,1,10,1
+Public Class,"com.streamwork.ch03.job.ParallelizedVehicleCountJob3",9,0,0,1,12,0
+Public Static Method,"com.streamwork.ch03.job.ParallelizedVehicleCountJob3.main",,,,1,10,0
+Class,"com.streamwork.ch03.job.SensorReader",13,56,43,8,43,6
+Public Constructor,"com.streamwork.ch03.job.SensorReader.SensorReader",,,,1,4,0
+Public Method,"com.streamwork.ch03.job.SensorReader.getEvents",,,,3,14,2
+Public Method,"com.streamwork.ch03.job.SensorReader.setupInstance",,,,1,5,0
+Private Method,"com.streamwork.ch03.job.SensorReader.setupSocketReader",,,,3,13,4
+Class,"com.streamwork.ch03.job.VehicleCounter",13,60,60,6,30,0
+Public Constructor,"com.streamwork.ch03.job.VehicleCounter.VehicleCounter",,,,1,3,0
+Public Constructor,"com.streamwork.ch03.job.VehicleCounter.VehicleCounter",,,,1,3,0
+Public Method,"com.streamwork.ch03.job.VehicleCounter.apply",,,,1,8,0
+Private Method,"com.streamwork.ch03.job.VehicleCounter.printCountMap",,,,2,7,0
+Public Method,"com.streamwork.ch03.job.VehicleCounter.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch03.job.VehicleEvent",2,0,0,2,10,0
+Public Constructor,"com.streamwork.ch03.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.streamwork.ch03.job.VehicleEvent.getData",,,,1,4,0
+Package,"com.streamwork.ch04",,,,0,0,0
+Package,"com.streamwork.ch04.api",,,,40,215,155
+Public Class,"com.streamwork.ch04.api.Component",2,58,58,4,19,17
+Public Constructor,"com.streamwork.ch04.api.Component.Component",,,,1,4,0
+Public Method,"com.streamwork.ch04.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch04.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.streamwork.ch04.api.Component.getParallelism",,,,1,3,4
+Public Interface,"com.streamwork.ch04.api.Event",0,0,0,0,2,4
+Public Class,"com.streamwork.ch04.api.EventCollector",8,57,50,9,30,7
+Public Constructor,"com.streamwork.ch04.api.EventCollector.EventCollector",,,,1,2,0
+Public Method,"com.streamwork.ch04.api.EventCollector.add",,,,1,3,0
+Public Method,"com.streamwork.ch04.api.EventCollector.add",,,,2,5,1
+Public Method,"com.streamwork.ch04.api.EventCollector.clear",,,,2,5,0
+Public Method,"com.streamwork.ch04.api.EventCollector.getEventList",,,,1,3,0
+Public Method,"com.streamwork.ch04.api.EventCollector.getRegisteredChannels",,,,1,3,0
+Public Method,"com.streamwork.ch04.api.EventCollector.registerChannel",,,,1,4,0
+Public Interface,"com.streamwork.ch04.api.FieldsGrouping",3,0,0,1,7,13
+Public Method,"com.streamwork.ch04.api.FieldsGrouping.getInstance",,,,1,4,6
+Abstract Method,"com.streamwork.ch04.api.FieldsGrouping.getKey",,,,0,1,7
+Public Interface,"com.streamwork.ch04.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.streamwork.ch04.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.streamwork.ch04.api.Job",8,50,50,5,20,16
+Public Constructor,"com.streamwork.ch04.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch04.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch04.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch04.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch04.api.Operator",5,0,0,3,17,19
+Public Constructor,"com.streamwork.ch04.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.streamwork.ch04.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.streamwork.ch04.api.Operator.apply",,,,0,1,6
+Public Method,"com.streamwork.ch04.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.streamwork.ch04.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch04.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.streamwork.ch04.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch04.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Abstract Class,"com.streamwork.ch04.api.Source",2,0,0,1,8,12
+Public Constructor,"com.streamwork.ch04.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch04.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.streamwork.ch04.api.Source.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch04.api.Stream",10,40,19,7,31,25
+Public Method,"com.streamwork.ch04.api.Stream.applyOperator",,,,1,3,0
+Protected Method,"com.streamwork.ch04.api.Stream.applyOperator",,,,3,14,7
+Public Method,"com.streamwork.ch04.api.Stream.getAppliedOperators",,,,1,3,4
+Public Method,"com.streamwork.ch04.api.Stream.getChannels",,,,1,3,5
+Public Method,"com.streamwork.ch04.api.Stream.selectChannel",,,,1,3,0
+Public Class,"com.streamwork.ch04.api.StreamChannel",3,0,0,2,13,9
+Public Constructor,"com.streamwork.ch04.api.StreamChannel.StreamChannel",,,,1,4,0
+Public Method,"com.streamwork.ch04.api.StreamChannel.applyOperator",,,,1,4,0
+Public Class,"com.streamwork.ch04.api.Streams",4,33,0,5,19,13
+Private Constructor,"com.streamwork.ch04.api.Streams.Streams",,,,1,3,0
+Public Method,"com.streamwork.ch04.api.Streams.applyOperator",,,,2,6,5
+Public Static Method,"com.streamwork.ch04.api.Streams.of",,,,2,7,0
+Package,"com.streamwork.ch04.engine",,,,80,412,105
+Public Abstract Class,"com.streamwork.ch04.engine.ComponentExecutor",4,41,41,9,31,9
+Public Constructor,"com.streamwork.ch04.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.streamwork.ch04.engine.ComponentExecutor.addOutgoingQueue",,,,2,5,0
+Public Method,"com.streamwork.ch04.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch04.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.streamwork.ch04.engine.ComponentExecutor.registerChannel",,,,2,5,0
+Public Method,"com.streamwork.ch04.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Abstract Method,"com.streamwork.ch04.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.streamwork.ch04.engine.Connection",3,0,0,1,10,3
+Public Constructor,"com.streamwork.ch04.engine.Connection.Connection",,,,1,5,0
+Public Class,"com.streamwork.ch04.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.streamwork.ch04.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.streamwork.ch04.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.streamwork.ch04.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch04.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.streamwork.ch04.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.streamwork.ch04.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch04.engine.InstanceExecutor",7,75,75,5,21,8
+Public Constructor,"com.streamwork.ch04.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.streamwork.ch04.engine.InstanceExecutor.addOutgoingQueue",,,,2,9,0
+Public Method,"com.streamwork.ch04.engine.InstanceExecutor.registerChannel",,,,1,3,0
+Public Method,"com.streamwork.ch04.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Class,"com.streamwork.ch04.engine.JobStarter",19,69,50,16,77,30
+Public Constructor,"com.streamwork.ch04.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch04.engine.JobStarter.connectExecutors",,,,3,21,8
+Private Method,"com.streamwork.ch04.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch04.engine.JobStarter.setupConnections",,,,2,5,5
+Public Method,"com.streamwork.ch04.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch04.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.streamwork.ch04.engine.JobStarter.traverseComponent",,,,4,17,1
+Public Class,"com.streamwork.ch04.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.streamwork.ch04.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.streamwork.ch04.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.streamwork.ch04.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch04.engine.OperatorInstanceExecutor",8,25,25,7,31,13
+Public Constructor,"com.streamwork.ch04.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch04.engine.OperatorInstanceExecutor.runOnce",,,,6,22,8
+Public Abstract Class,"com.streamwork.ch04.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.streamwork.ch04.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch04.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch04.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch04.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch04.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch04.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.streamwork.ch04.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.streamwork.ch04.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.streamwork.ch04.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch04.engine.SourceInstanceExecutor",9,25,25,7,29,13
+Public Constructor,"com.streamwork.ch04.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch04.engine.SourceInstanceExecutor.runOnce",,,,6,20,8
+Public Class,"com.streamwork.ch04.engine.WebServer",14,37,37,11,77,0
+Class,"com.streamwork.ch04.engine.WebServer.Edge",2,0,0,1,10,0
+Public Constructor,"com.streamwork.ch04.engine.WebServer.Edge.Edge",,,,1,8,0
+Class,"com.streamwork.ch04.engine.WebServer.Node",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch04.engine.WebServer.Node.Node",,,,1,5,0
+Public Constructor,"com.streamwork.ch04.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch04.engine.WebServer.indexHandler",,,,2,18,0
+Private Method,"com.streamwork.ch04.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch04.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch04.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch04.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch04.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch04.extra",,,,22,184,39
+Class,"com.streamwork.ch04.extra.Bridge",13,55,44,9,48,21
+Public Constructor,"com.streamwork.ch04.extra.Bridge.Bridge",,,,1,5,9
+Public Method,"com.streamwork.ch04.extra.Bridge.getEvents",,,,4,17,3
+Public Method,"com.streamwork.ch04.extra.Bridge.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch04.extra.Bridge.setupSocketReader",,,,3,13,4
+Class,"com.streamwork.ch04.extra.Logger",3,0,0,1,5,0
+Public Static Method,"com.streamwork.ch04.extra.Logger.log",,,,1,3,0
+Public Class,"com.streamwork.ch04.extra.StreamForkJob",8,0,0,1,15,3
+Public Static Method,"com.streamwork.ch04.extra.StreamForkJob.main",,,,1,13,3
+Public Class,"com.streamwork.ch04.extra.StreamMergeJob",9,0,0,1,16,6
+Public Static Method,"com.streamwork.ch04.extra.StreamMergeJob.main",,,,1,14,6
+Public Class,"com.streamwork.ch04.extra.StreamSplitJob",9,0,0,1,17,4
+Public Static Method,"com.streamwork.ch04.extra.StreamSplitJob.main",,,,1,15,4
+Class,"com.streamwork.ch04.extra.TollBooth",14,60,60,6,32,0
+Public Constructor,"com.streamwork.ch04.extra.TollBooth.TollBooth",,,,1,3,0
+Public Constructor,"com.streamwork.ch04.extra.TollBooth.TollBooth",,,,1,3,0
+Public Method,"com.streamwork.ch04.extra.TollBooth.apply",,,,1,8,0
+Private Method,"com.streamwork.ch04.extra.TollBooth.printCountMap",,,,2,9,0
+Public Method,"com.streamwork.ch04.extra.TollBooth.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch04.extra.VehicleEvent",1,0,0,2,9,0
+Public Constructor,"com.streamwork.ch04.extra.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.streamwork.ch04.extra.VehicleEvent.getType",,,,1,3,0
+Class,"com.streamwork.ch04.extra.VehicleTypeFieldsGrouping",2,0,0,1,7,0
+Public Method,"com.streamwork.ch04.extra.VehicleTypeFieldsGrouping.getKey",,,,1,4,0
+Package,"com.streamwork.ch04.job",,,,32,257,43
+Class,"com.streamwork.ch04.job.AvgTicketAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch04.job.AvgTicketAnalyzer.AvgTicketAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch04.job.AvgTicketAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch04.job.AvgTicketAnalyzer.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch04.job.FraudDetectionJob",14,0,0,1,20,4
+Public Static Method,"com.streamwork.ch04.job.FraudDetectionJob.main",,,,1,18,4
+Class,"com.streamwork.ch04.job.GroupByTransactionId",3,0,0,1,7,0
+Public Method,"com.streamwork.ch04.job.GroupByTransactionId.getKey",,,,1,4,0
+Class,"com.streamwork.ch04.job.Logger",3,0,0,1,5,0
+Public Static Method,"com.streamwork.ch04.job.Logger.log",,,,1,3,0
+Class,"com.streamwork.ch04.job.ScoreAggregator",8,50,50,3,19,0
+Public Constructor,"com.streamwork.ch04.job.ScoreAggregator.ScoreAggregator",,,,1,4,0
+Public Method,"com.streamwork.ch04.job.ScoreAggregator.apply",,,,1,6,0
+Public Method,"com.streamwork.ch04.job.ScoreAggregator.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch04.job.ScoreStorage",5,33,33,4,16,9
+Public Constructor,"com.streamwork.ch04.job.ScoreStorage.ScoreStorage",,,,1,1,0
+Method,"com.streamwork.ch04.job.ScoreStorage.get",,,,2,7,6
+Method,"com.streamwork.ch04.job.ScoreStorage.put",,,,1,4,0
+Public Class,"com.streamwork.ch04.job.TransactionEvent",5,0,0,2,21,3
+Public Constructor,"com.streamwork.ch04.job.TransactionEvent.TransactionEvent",,,,1,8,0
+Public Method,"com.streamwork.ch04.job.TransactionEvent.toString",,,,1,5,0
+Public Class,"com.streamwork.ch04.job.TransactionScoreEvent",1,0,0,1,8,3
+Public Constructor,"com.streamwork.ch04.job.TransactionScoreEvent.TransactionScoreEvent",,,,1,4,0
+Class,"com.streamwork.ch04.job.TransactionSource",18,56,43,9,57,21
+Public Constructor,"com.streamwork.ch04.job.TransactionSource.TransactionSource",,,,1,4,7
+Public Method,"com.streamwork.ch04.job.TransactionSource.getEvents",,,,4,28,5
+Public Method,"com.streamwork.ch04.job.TransactionSource.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch04.job.TransactionSource.setupSocketReader",,,,3,13,4
+Class,"com.streamwork.ch04.job.UserAccountFieldsGrouping",2,0,0,1,7,0
+Public Method,"com.streamwork.ch04.job.UserAccountFieldsGrouping.getKey",,,,1,4,0
+Class,"com.streamwork.ch04.job.WindowedProximityAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch04.job.WindowedProximityAnalyzer.WindowedProximityAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch04.job.WindowedProximityAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch04.job.WindowedProximityAnalyzer.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch04.job.WindowedTransactionCountAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch04.job.WindowedTransactionCountAnalyzer.WindowedTransactionCountAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch04.job.WindowedTransactionCountAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch04.job.WindowedTransactionCountAnalyzer.setupInstance",,,,1,4,0
+Package,"com.streamwork.ch05",,,,0,0,0
+Package,"com.streamwork.ch05.api",,,,40,215,155
+Public Class,"com.streamwork.ch05.api.Component",2,58,58,4,19,17
+Public Constructor,"com.streamwork.ch05.api.Component.Component",,,,1,4,0
+Public Method,"com.streamwork.ch05.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch05.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.streamwork.ch05.api.Component.getParallelism",,,,1,3,4
+Public Interface,"com.streamwork.ch05.api.Event",0,0,0,0,2,4
+Public Class,"com.streamwork.ch05.api.EventCollector",8,57,50,9,30,7
+Public Constructor,"com.streamwork.ch05.api.EventCollector.EventCollector",,,,1,2,0
+Public Method,"com.streamwork.ch05.api.EventCollector.add",,,,1,3,0
+Public Method,"com.streamwork.ch05.api.EventCollector.add",,,,2,5,1
+Public Method,"com.streamwork.ch05.api.EventCollector.clear",,,,2,5,0
+Public Method,"com.streamwork.ch05.api.EventCollector.getEventList",,,,1,3,0
+Public Method,"com.streamwork.ch05.api.EventCollector.getRegisteredChannels",,,,1,3,0
+Public Method,"com.streamwork.ch05.api.EventCollector.registerChannel",,,,1,4,0
+Public Interface,"com.streamwork.ch05.api.FieldsGrouping",3,0,0,1,7,13
+Public Method,"com.streamwork.ch05.api.FieldsGrouping.getInstance",,,,1,4,6
+Abstract Method,"com.streamwork.ch05.api.FieldsGrouping.getKey",,,,0,1,7
+Public Interface,"com.streamwork.ch05.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.streamwork.ch05.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.streamwork.ch05.api.Job",8,50,50,5,20,16
+Public Constructor,"com.streamwork.ch05.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch05.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch05.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch05.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch05.api.Operator",5,0,0,3,17,19
+Public Constructor,"com.streamwork.ch05.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.streamwork.ch05.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.streamwork.ch05.api.Operator.apply",,,,0,1,6
+Public Method,"com.streamwork.ch05.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.streamwork.ch05.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch05.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.streamwork.ch05.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch05.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Abstract Class,"com.streamwork.ch05.api.Source",2,0,0,1,8,12
+Public Constructor,"com.streamwork.ch05.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch05.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.streamwork.ch05.api.Source.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch05.api.Stream",10,40,19,7,31,25
+Public Method,"com.streamwork.ch05.api.Stream.applyOperator",,,,1,3,0
+Protected Method,"com.streamwork.ch05.api.Stream.applyOperator",,,,3,14,7
+Public Method,"com.streamwork.ch05.api.Stream.getAppliedOperators",,,,1,3,4
+Public Method,"com.streamwork.ch05.api.Stream.getChannels",,,,1,3,5
+Public Method,"com.streamwork.ch05.api.Stream.selectChannel",,,,1,3,0
+Public Class,"com.streamwork.ch05.api.StreamChannel",3,0,0,2,13,9
+Public Constructor,"com.streamwork.ch05.api.StreamChannel.StreamChannel",,,,1,4,0
+Public Method,"com.streamwork.ch05.api.StreamChannel.applyOperator",,,,1,4,0
+Public Class,"com.streamwork.ch05.api.Streams",4,33,0,5,19,13
+Private Constructor,"com.streamwork.ch05.api.Streams.Streams",,,,1,3,0
+Public Method,"com.streamwork.ch05.api.Streams.applyOperator",,,,2,6,5
+Public Static Method,"com.streamwork.ch05.api.Streams.of",,,,2,7,0
+Package,"com.streamwork.ch05.engine",,,,80,412,105
+Public Abstract Class,"com.streamwork.ch05.engine.ComponentExecutor",4,41,41,9,31,9
+Public Constructor,"com.streamwork.ch05.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.streamwork.ch05.engine.ComponentExecutor.addOutgoingQueue",,,,2,5,0
+Public Method,"com.streamwork.ch05.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch05.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.streamwork.ch05.engine.ComponentExecutor.registerChannel",,,,2,5,0
+Public Method,"com.streamwork.ch05.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Abstract Method,"com.streamwork.ch05.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.streamwork.ch05.engine.Connection",3,0,0,1,10,3
+Public Constructor,"com.streamwork.ch05.engine.Connection.Connection",,,,1,5,0
+Public Class,"com.streamwork.ch05.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.streamwork.ch05.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.streamwork.ch05.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.streamwork.ch05.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch05.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.streamwork.ch05.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.streamwork.ch05.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch05.engine.InstanceExecutor",7,75,75,5,21,8
+Public Constructor,"com.streamwork.ch05.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.streamwork.ch05.engine.InstanceExecutor.addOutgoingQueue",,,,2,9,0
+Public Method,"com.streamwork.ch05.engine.InstanceExecutor.registerChannel",,,,1,3,0
+Public Method,"com.streamwork.ch05.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Class,"com.streamwork.ch05.engine.JobStarter",19,69,50,16,77,30
+Public Constructor,"com.streamwork.ch05.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch05.engine.JobStarter.connectExecutors",,,,3,21,8
+Private Method,"com.streamwork.ch05.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch05.engine.JobStarter.setupConnections",,,,2,5,5
+Public Method,"com.streamwork.ch05.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch05.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.streamwork.ch05.engine.JobStarter.traverseComponent",,,,4,17,1
+Public Class,"com.streamwork.ch05.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.streamwork.ch05.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.streamwork.ch05.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.streamwork.ch05.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch05.engine.OperatorInstanceExecutor",8,25,25,7,31,13
+Public Constructor,"com.streamwork.ch05.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch05.engine.OperatorInstanceExecutor.runOnce",,,,6,22,8
+Public Abstract Class,"com.streamwork.ch05.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.streamwork.ch05.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch05.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch05.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch05.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch05.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch05.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.streamwork.ch05.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.streamwork.ch05.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.streamwork.ch05.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch05.engine.SourceInstanceExecutor",9,25,25,7,29,13
+Public Constructor,"com.streamwork.ch05.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch05.engine.SourceInstanceExecutor.runOnce",,,,6,20,8
+Public Class,"com.streamwork.ch05.engine.WebServer",14,37,37,11,77,0
+Class,"com.streamwork.ch05.engine.WebServer.Edge",2,0,0,1,10,0
+Public Constructor,"com.streamwork.ch05.engine.WebServer.Edge.Edge",,,,1,8,0
+Class,"com.streamwork.ch05.engine.WebServer.Node",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch05.engine.WebServer.Node.Node",,,,1,5,0
+Public Constructor,"com.streamwork.ch05.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch05.engine.WebServer.indexHandler",,,,2,18,0
+Private Method,"com.streamwork.ch05.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch05.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch05.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch05.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch05.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch05.job",,,,28,218,48
+Class,"com.streamwork.ch05.job.Logger",3,0,0,1,5,0
+Public Static Method,"com.streamwork.ch05.job.Logger.log",,,,1,3,0
+Class,"com.streamwork.ch05.job.ScoreStorage",5,33,33,4,16,9
+Public Constructor,"com.streamwork.ch05.job.ScoreStorage.ScoreStorage",,,,1,1,0
+Method,"com.streamwork.ch05.job.ScoreStorage.get",,,,2,7,6
+Method,"com.streamwork.ch05.job.ScoreStorage.put",,,,1,4,0
+Class,"com.streamwork.ch05.job.SystemUsageAnalyzer",6,66,66,3,17,8
+Public Constructor,"com.streamwork.ch05.job.SystemUsageAnalyzer.SystemUsageAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch05.job.SystemUsageAnalyzer.apply",,,,1,5,8
+Public Method,"com.streamwork.ch05.job.SystemUsageAnalyzer.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch05.job.SystemUsageJob",9,0,0,1,13,1
+Public Static Method,"com.streamwork.ch05.job.SystemUsageJob.main",,,,1,11,1
+Public Class,"com.streamwork.ch05.job.TransactionEvent",5,0,0,2,21,3
+Public Constructor,"com.streamwork.ch05.job.TransactionEvent.TransactionEvent",,,,1,8,0
+Public Method,"com.streamwork.ch05.job.TransactionEvent.toString",,,,1,5,0
+Class,"com.streamwork.ch05.job.TransactionFieldsGrouping",3,0,0,1,7,0
+Public Method,"com.streamwork.ch05.job.TransactionFieldsGrouping.getKey",,,,1,4,0
+Public Class,"com.streamwork.ch05.job.TransactionScoreEvent",1,0,0,1,8,3
+Public Constructor,"com.streamwork.ch05.job.TransactionScoreEvent.TransactionScoreEvent",,,,1,4,0
+Class,"com.streamwork.ch05.job.TransactionSource",18,56,43,9,57,21
+Public Constructor,"com.streamwork.ch05.job.TransactionSource.TransactionSource",,,,1,4,7
+Public Method,"com.streamwork.ch05.job.TransactionSource.getEvents",,,,4,28,5
+Public Method,"com.streamwork.ch05.job.TransactionSource.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch05.job.TransactionSource.setupSocketReader",,,,3,13,4
+Public Class,"com.streamwork.ch05.job.UsageEvent",2,0,0,2,13,3
+Public Constructor,"com.streamwork.ch05.job.UsageEvent.UsageEvent",,,,1,4,0
+Public Method,"com.streamwork.ch05.job.UsageEvent.toString",,,,1,5,0
+Class,"com.streamwork.ch05.job.UsageWriter",6,66,66,3,15,0
+Public Constructor,"com.streamwork.ch05.job.UsageWriter.UsageWriter",,,,1,3,0
+Public Method,"com.streamwork.ch05.job.UsageWriter.apply",,,,1,4,0
+Public Method,"com.streamwork.ch05.job.UsageWriter.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch05.job.UserAccountFieldsGrouping",2,0,0,1,7,0
+Public Method,"com.streamwork.ch05.job.UserAccountFieldsGrouping.getKey",,,,1,4,0
+Package,"com.streamwork.ch07",,,,0,0,0
+Package,"com.streamwork.ch07.api",,,,69,371,265
+Public Class,"com.streamwork.ch07.api.Component",2,58,58,4,19,17
+Public Constructor,"com.streamwork.ch07.api.Component.Component",,,,1,4,0
+Public Method,"com.streamwork.ch07.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch07.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.streamwork.ch07.api.Component.getParallelism",,,,1,3,4
+Public Interface,"com.streamwork.ch07.api.Event",0,0,0,0,2,4
+Public Class,"com.streamwork.ch07.api.EventCollector",8,57,50,9,30,7
+Public Constructor,"com.streamwork.ch07.api.EventCollector.EventCollector",,,,1,2,0
+Public Method,"com.streamwork.ch07.api.EventCollector.add",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventCollector.add",,,,2,5,1
+Public Method,"com.streamwork.ch07.api.EventCollector.clear",,,,2,5,0
+Public Method,"com.streamwork.ch07.api.EventCollector.getEventList",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventCollector.getRegisteredChannels",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventCollector.registerChannel",,,,1,4,0
+Public Class,"com.streamwork.ch07.api.EventWindow",3,60,60,5,21,6
+Public Constructor,"com.streamwork.ch07.api.EventWindow.EventWindow",,,,1,4,0
+Public Method,"com.streamwork.ch07.api.EventWindow.add",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventWindow.getEndTime",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventWindow.getEvents",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.EventWindow.getStartTime",,,,1,3,0
+Public Interface,"com.streamwork.ch07.api.FieldsGrouping",3,0,0,1,7,13
+Public Method,"com.streamwork.ch07.api.FieldsGrouping.getInstance",,,,1,4,6
+Abstract Method,"com.streamwork.ch07.api.FieldsGrouping.getKey",,,,0,1,7
+Public Class,"com.streamwork.ch07.api.FixedTimeWindowingStrategy",0,0,0,1,5,3
+Public Constructor,"com.streamwork.ch07.api.FixedTimeWindowingStrategy.FixedTimeWindowingStrategy",,,,1,3,0
+Public Interface,"com.streamwork.ch07.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.streamwork.ch07.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.streamwork.ch07.api.Job",8,50,50,5,20,16
+Public Constructor,"com.streamwork.ch07.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch07.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch07.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch07.api.Operator",5,0,0,3,16,19
+Public Constructor,"com.streamwork.ch07.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.streamwork.ch07.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.streamwork.ch07.api.Operator.apply",,,,0,1,6
+Public Method,"com.streamwork.ch07.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.streamwork.ch07.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch07.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.streamwork.ch07.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch07.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Class,"com.streamwork.ch07.api.SlidingTimeWindowingStrategy",10,31,25,11,49,27
+Public Constructor,"com.streamwork.ch07.api.SlidingTimeWindowingStrategy.SlidingTimeWindowingStrategy",,,,1,5,0
+Public Method,"com.streamwork.ch07.api.SlidingTimeWindowingStrategy.add",,,,5,21,10
+Public Method,"com.streamwork.ch07.api.SlidingTimeWindowingStrategy.getEventWindows",,,,4,14,6
+Method,"com.streamwork.ch07.api.SlidingTimeWindowingStrategy.isLateEvent",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch07.api.Source",2,0,0,1,7,12
+Public Constructor,"com.streamwork.ch07.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch07.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.streamwork.ch07.api.Source.setupInstance",,,,0,1,4
+Public Interface,"com.streamwork.ch07.api.State",0,0,0,0,2,4
+Public Interface,"com.streamwork.ch07.api.Stateful",1,0,0,0,4,9
+Abstract Method,"com.streamwork.ch07.api.Stateful.getState",,,,0,1,5
+Abstract Method,"com.streamwork.ch07.api.Stateful.setupInstanceFromState",,,,0,1,4
+Public Class,"com.streamwork.ch07.api.Stream",14,57,28,9,40,25
+Public Method,"com.streamwork.ch07.api.Stream.applyOperator",,,,1,3,0
+Protected Method,"com.streamwork.ch07.api.Stream.applyOperator",,,,3,14,7
+Protected Method,"com.streamwork.ch07.api.Stream.applyWindowOperator",,,,1,6,0
+Public Method,"com.streamwork.ch07.api.Stream.getAppliedOperators",,,,1,3,4
+Public Method,"com.streamwork.ch07.api.Stream.getChannels",,,,1,3,5
+Public Method,"com.streamwork.ch07.api.Stream.selectChannel",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.Stream.withWindowing",,,,1,3,0
+Public Class,"com.streamwork.ch07.api.StreamChannel",2,0,0,2,12,9
+Public Constructor,"com.streamwork.ch07.api.StreamChannel.StreamChannel",,,,1,4,0
+Public Method,"com.streamwork.ch07.api.StreamChannel.applyOperator",,,,1,3,0
+Public Class,"com.streamwork.ch07.api.Streams",4,33,0,5,19,13
+Private Constructor,"com.streamwork.ch07.api.Streams.Streams",,,,1,3,0
+Public Method,"com.streamwork.ch07.api.Streams.applyOperator",,,,2,6,5
+Public Static Method,"com.streamwork.ch07.api.Streams.of",,,,2,7,0
+Public Interface,"com.streamwork.ch07.api.TimedEvent",0,0,0,0,3,4
+Abstract Method,"com.streamwork.ch07.api.TimedEvent.getTime",,,,0,1,4
+Public Abstract Class,"com.streamwork.ch07.api.WindowOperator",6,0,0,3,12,10
+Public Constructor,"com.streamwork.ch07.api.WindowOperator.WindowOperator",,,,1,3,0
+Public Constructor,"com.streamwork.ch07.api.WindowOperator.WindowOperator",,,,1,3,0
+Public Final Method,"com.streamwork.ch07.api.WindowOperator.apply",,,,1,3,6
+Public Abstract Method,"com.streamwork.ch07.api.WindowOperator.apply",,,,0,1,0
+Public Class,"com.streamwork.ch07.api.WindowedStream",2,0,0,2,11,9
+Public Constructor,"com.streamwork.ch07.api.WindowedStream.WindowedStream",,,,1,4,0
+Public Method,"com.streamwork.ch07.api.WindowedStream.applyOperator",,,,1,3,0
+Public Final Class,"com.streamwork.ch07.api.WindowingOperator",9,16,16,5,22,15
+Public Constructor,"com.streamwork.ch07.api.WindowingOperator.WindowingOperator",,,,1,5,0
+Public Final Method,"com.streamwork.ch07.api.WindowingOperator.apply",,,,3,10,6
+Public Method,"com.streamwork.ch07.api.WindowingOperator.setupInstance",,,,1,3,4
+Public Interface,"com.streamwork.ch07.api.WindowingStrategy",2,0,0,0,4,9
+Abstract Method,"com.streamwork.ch07.api.WindowingStrategy.add",,,,0,1,5
+Abstract Method,"com.streamwork.ch07.api.WindowingStrategy.getEventWindows",,,,0,1,4
+Package,"com.streamwork.ch07.engine",,,,82,418,107
+Public Abstract Class,"com.streamwork.ch07.engine.ComponentExecutor",4,41,41,9,31,9
+Public Constructor,"com.streamwork.ch07.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.streamwork.ch07.engine.ComponentExecutor.addOutgoingQueue",,,,2,5,0
+Public Method,"com.streamwork.ch07.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch07.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.streamwork.ch07.engine.ComponentExecutor.registerChannel",,,,2,5,0
+Public Method,"com.streamwork.ch07.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Abstract Method,"com.streamwork.ch07.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.streamwork.ch07.engine.Connection",3,0,0,1,10,3
+Public Constructor,"com.streamwork.ch07.engine.Connection.Connection",,,,1,5,0
+Public Class,"com.streamwork.ch07.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.streamwork.ch07.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.streamwork.ch07.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.streamwork.ch07.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch07.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.streamwork.ch07.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.streamwork.ch07.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch07.engine.InstanceExecutor",7,75,75,5,21,8
+Public Constructor,"com.streamwork.ch07.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.streamwork.ch07.engine.InstanceExecutor.addOutgoingQueue",,,,2,9,0
+Public Method,"com.streamwork.ch07.engine.InstanceExecutor.registerChannel",,,,1,3,0
+Public Method,"com.streamwork.ch07.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Class,"com.streamwork.ch07.engine.JobStarter",19,69,50,16,77,30
+Public Constructor,"com.streamwork.ch07.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch07.engine.JobStarter.connectExecutors",,,,3,21,8
+Private Method,"com.streamwork.ch07.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch07.engine.JobStarter.setupConnections",,,,2,5,5
+Public Method,"com.streamwork.ch07.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch07.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.streamwork.ch07.engine.JobStarter.traverseComponent",,,,4,17,1
+Public Class,"com.streamwork.ch07.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.streamwork.ch07.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.streamwork.ch07.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.streamwork.ch07.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch07.engine.OperatorInstanceExecutor",10,25,25,9,35,15
+Public Constructor,"com.streamwork.ch07.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch07.engine.OperatorInstanceExecutor.runOnce",,,,8,26,10
+Public Abstract Class,"com.streamwork.ch07.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.streamwork.ch07.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch07.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch07.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch07.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch07.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch07.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.streamwork.ch07.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.streamwork.ch07.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.streamwork.ch07.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch07.engine.SourceInstanceExecutor",9,25,25,7,29,13
+Public Constructor,"com.streamwork.ch07.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch07.engine.SourceInstanceExecutor.runOnce",,,,6,20,8
+Public Class,"com.streamwork.ch07.engine.WebServer",14,37,37,11,77,0
+Class,"com.streamwork.ch07.engine.WebServer.Edge",2,0,0,1,10,0
+Public Constructor,"com.streamwork.ch07.engine.WebServer.Edge.Edge",,,,1,8,0
+Class,"com.streamwork.ch07.engine.WebServer.Node",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch07.engine.WebServer.Node.Node",,,,1,5,0
+Public Constructor,"com.streamwork.ch07.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch07.engine.WebServer.indexHandler",,,,2,18,0
+Private Method,"com.streamwork.ch07.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch07.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch07.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch07.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch07.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch07.job",,,,42,326,45
+Class,"com.streamwork.ch07.job.AvgTicketAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch07.job.AvgTicketAnalyzer.AvgTicketAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch07.job.AvgTicketAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch07.job.AvgTicketAnalyzer.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch07.job.FraudDetectionJob",14,0,0,1,20,4
+Public Static Method,"com.streamwork.ch07.job.FraudDetectionJob.main",,,,1,18,4
+Class,"com.streamwork.ch07.job.Logger",3,0,0,1,5,0
+Public Static Method,"com.streamwork.ch07.job.Logger.log",,,,1,3,0
+Class,"com.streamwork.ch07.job.ScoreAggregator",8,50,50,3,19,0
+Public Constructor,"com.streamwork.ch07.job.ScoreAggregator.ScoreAggregator",,,,1,4,0
+Public Method,"com.streamwork.ch07.job.ScoreAggregator.apply",,,,1,6,0
+Public Method,"com.streamwork.ch07.job.ScoreAggregator.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch07.job.ScoreStorage",5,33,33,4,16,9
+Public Constructor,"com.streamwork.ch07.job.ScoreStorage.ScoreStorage",,,,1,1,0
+Method,"com.streamwork.ch07.job.ScoreStorage.get",,,,2,7,6
+Method,"com.streamwork.ch07.job.ScoreStorage.put",,,,1,4,0
+Class,"com.streamwork.ch07.job.TestWindowedAnalyzer",8,66,66,4,18,0
+Public Constructor,"com.streamwork.ch07.job.TestWindowedAnalyzer.TestWindowedAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch07.job.TestWindowedAnalyzer.apply",,,,2,8,0
+Public Method,"com.streamwork.ch07.job.TestWindowedAnalyzer.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch07.job.TransactionEvent",3,26,26,3,24,3
+Public Constructor,"com.streamwork.ch07.job.TransactionEvent.TransactionEvent",,,,1,8,0
+Public Method,"com.streamwork.ch07.job.TransactionEvent.getTime",,,,1,4,0
+Public Method,"com.streamwork.ch07.job.TransactionEvent.toString",,,,1,5,0
+Class,"com.streamwork.ch07.job.TransactionFieldsGrouping",3,0,0,1,7,0
+Public Method,"com.streamwork.ch07.job.TransactionFieldsGrouping.getKey",,,,1,4,0
+Public Class,"com.streamwork.ch07.job.TransactionScoreEvent",1,0,0,1,8,3
+Public Constructor,"com.streamwork.ch07.job.TransactionScoreEvent.TransactionScoreEvent",,,,1,4,0
+Class,"com.streamwork.ch07.job.TransactionSource",21,56,43,10,59,21
+Public Constructor,"com.streamwork.ch07.job.TransactionSource.TransactionSource",,,,1,4,7
+Public Method,"com.streamwork.ch07.job.TransactionSource.getEvents",,,,5,30,5
+Public Method,"com.streamwork.ch07.job.TransactionSource.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch07.job.TransactionSource.setupSocketReader",,,,3,13,4
+Class,"com.streamwork.ch07.job.UserAccountFieldsGrouping",2,0,0,1,7,0
+Public Method,"com.streamwork.ch07.job.UserAccountFieldsGrouping.getKey",,,,1,4,0
+Public Class,"com.streamwork.ch07.job.VehicleEvent",1,0,0,2,9,0
+Public Constructor,"com.streamwork.ch07.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.streamwork.ch07.job.VehicleEvent.getType",,,,1,3,0
+Class,"com.streamwork.ch07.job.VehicleTypeFieldsGrouping",2,0,0,1,7,0
+Public Method,"com.streamwork.ch07.job.VehicleTypeFieldsGrouping.getKey",,,,1,4,0
+Class,"com.streamwork.ch07.job.WindowedProximityAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch07.job.WindowedProximityAnalyzer.WindowedProximityAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch07.job.WindowedProximityAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch07.job.WindowedProximityAnalyzer.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch07.job.WindowedTransactionCountAnalyzer",7,66,66,3,16,1
+Public Constructor,"com.streamwork.ch07.job.WindowedTransactionCountAnalyzer.WindowedTransactionCountAnalyzer",,,,1,3,0
+Public Method,"com.streamwork.ch07.job.WindowedTransactionCountAnalyzer.apply",,,,1,5,1
+Public Method,"com.streamwork.ch07.job.WindowedTransactionCountAnalyzer.setupInstance",,,,1,4,0
+Public Class,"com.streamwork.ch07.job.WindowingTestJob",10,0,0,1,14,2
+Public Static Method,"com.streamwork.ch07.job.WindowingTestJob.main",,,,1,10,2
+Package,"com.streamwork.ch08",,,,0,0,0
+Package,"com.streamwork.ch08.api",,,,93,473,327
+Public Class,"com.streamwork.ch08.api.AllGrouping",2,0,0,2,7,10
+Public Constructor,"com.streamwork.ch08.api.AllGrouping.AllGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch08.api.AllGrouping.getInstance",,,,1,4,6
+Public Class,"com.streamwork.ch08.api.Component",2,58,58,4,18,17
+Public Constructor,"com.streamwork.ch08.api.Component.Component",,,,1,4,0
+Public Method,"com.streamwork.ch08.api.Component.getName",,,,1,3,4
+Public Method,"com.streamwork.ch08.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.streamwork.ch08.api.Component.getParallelism",,,,1,3,4
+Public Interface,"com.streamwork.ch08.api.Event",0,0,0,0,2,4
+Public Class,"com.streamwork.ch08.api.EventCollector",8,57,50,9,30,7
+Public Constructor,"com.streamwork.ch08.api.EventCollector.EventCollector",,,,1,2,0
+Public Method,"com.streamwork.ch08.api.EventCollector.add",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventCollector.add",,,,2,5,1
+Public Method,"com.streamwork.ch08.api.EventCollector.clear",,,,2,5,0
+Public Method,"com.streamwork.ch08.api.EventCollector.getEventList",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventCollector.getRegisteredChannels",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventCollector.registerChannel",,,,1,4,0
+Public Class,"com.streamwork.ch08.api.EventWindow",3,60,60,5,21,6
+Public Constructor,"com.streamwork.ch08.api.EventWindow.EventWindow",,,,1,4,0
+Public Method,"com.streamwork.ch08.api.EventWindow.add",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventWindow.getEndTime",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventWindow.getEvents",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.EventWindow.getStartTime",,,,1,3,0
+Public Interface,"com.streamwork.ch08.api.FieldsGrouping",3,0,0,1,7,13
+Public Method,"com.streamwork.ch08.api.FieldsGrouping.getInstance",,,,1,4,6
+Abstract Method,"com.streamwork.ch08.api.FieldsGrouping.getKey",,,,0,1,7
+Public Class,"com.streamwork.ch08.api.FixedTimeWindowingStrategy",0,0,0,1,5,3
+Public Constructor,"com.streamwork.ch08.api.FixedTimeWindowingStrategy.FixedTimeWindowingStrategy",,,,1,3,0
+Public Interface,"com.streamwork.ch08.api.GroupingStrategy",1,0,0,0,4,9
+Abstract Method,"com.streamwork.ch08.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.streamwork.ch08.api.Job",8,50,50,5,20,16
+Public Constructor,"com.streamwork.ch08.api.Job.Job",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.Job.addSource",,,,2,7,6
+Public Method,"com.streamwork.ch08.api.Job.getName",,,,1,3,3
+Public Method,"com.streamwork.ch08.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.streamwork.ch08.api.JoinOperator",5,0,0,3,11,9
+Public Constructor,"com.streamwork.ch08.api.JoinOperator.JoinOperator",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.JoinOperator.getGroupingStrategy",,,,2,5,5
+Public Class,"com.streamwork.ch08.api.NameEventPair",2,25,25,4,18,5
+Public Constructor,"com.streamwork.ch08.api.NameEventPair.NameEventPair",,,,1,4,0
+Public Method,"com.streamwork.ch08.api.NameEventPair.getEvent",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.NameEventPair.getStreamName",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.NameEventPair.toString",,,,1,4,0
+Public Class,"com.streamwork.ch08.api.NamedStreams",7,33,0,4,17,8
+Private Constructor,"com.streamwork.ch08.api.NamedStreams.NamedStreams",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.NamedStreams.join",,,,2,8,5
+Public Static Method,"com.streamwork.ch08.api.NamedStreams.of",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch08.api.Operator",6,40,0,5,21,24
+Public Constructor,"com.streamwork.ch08.api.Operator.Operator",,,,1,3,0
+Public Constructor,"com.streamwork.ch08.api.Operator.Operator",,,,1,3,0
+Public Constructor,"com.streamwork.ch08.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.streamwork.ch08.api.Operator.apply",,,,0,1,8
+Public Method,"com.streamwork.ch08.api.Operator.getGroupingStrategy",,,,1,3,4
+Method,"com.streamwork.ch08.api.Operator.getGroupingStrategyMap",,,,1,3,4
+Public Abstract Method,"com.streamwork.ch08.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.streamwork.ch08.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.streamwork.ch08.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.streamwork.ch08.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Class,"com.streamwork.ch08.api.SlidingTimeWindowingStrategy",10,31,25,11,49,27
+Public Constructor,"com.streamwork.ch08.api.SlidingTimeWindowingStrategy.SlidingTimeWindowingStrategy",,,,1,5,0
+Public Method,"com.streamwork.ch08.api.SlidingTimeWindowingStrategy.add",,,,5,21,10
+Public Method,"com.streamwork.ch08.api.SlidingTimeWindowingStrategy.getEventWindows",,,,4,14,6
+Method,"com.streamwork.ch08.api.SlidingTimeWindowingStrategy.isLateEvent",,,,1,3,0
+Public Abstract Class,"com.streamwork.ch08.api.Source",2,0,0,1,7,12
+Public Constructor,"com.streamwork.ch08.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.streamwork.ch08.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.streamwork.ch08.api.Source.setupInstance",,,,0,1,4
+Public Interface,"com.streamwork.ch08.api.State",0,0,0,0,2,4
+Public Interface,"com.streamwork.ch08.api.Stateful",1,0,0,0,4,9
+Abstract Method,"com.streamwork.ch08.api.Stateful.getState",,,,0,1,5
+Abstract Method,"com.streamwork.ch08.api.Stateful.setupInstanceFromState",,,,0,1,4
+Public Class,"com.streamwork.ch08.api.Stream",12,66,33,11,48,26
+Public Method,"com.streamwork.ch08.api.Stream.applyOperator",,,,1,3,0
+Method,"com.streamwork.ch08.api.Stream.applyOperator",,,,1,3,0
+Protected Method,"com.streamwork.ch08.api.Stream.applyOperator",,,,3,14,8
+Protected Method,"com.streamwork.ch08.api.Stream.applyWindowOperator",,,,1,6,0
+Public Method,"com.streamwork.ch08.api.Stream.getAppliedOperators",,,,1,3,4
+Public Method,"com.streamwork.ch08.api.Stream.getChannels",,,,1,3,5
+Public Method,"com.streamwork.ch08.api.Stream.selectChannel",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.Stream.withWindowing",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.Stream.withWindowing",,,,1,3,0
+Public Class,"com.streamwork.ch08.api.StreamChannel",2,0,0,3,15,9
+Public Constructor,"com.streamwork.ch08.api.StreamChannel.StreamChannel",,,,1,4,0
+Public Method,"com.streamwork.ch08.api.StreamChannel.applyOperator",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.StreamChannel.applyOperator",,,,1,3,0
+Public Class,"com.streamwork.ch08.api.Streams",4,33,0,5,19,13
+Private Constructor,"com.streamwork.ch08.api.Streams.Streams",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.Streams.applyOperator",,,,2,6,5
+Public Static Method,"com.streamwork.ch08.api.Streams.of",,,,2,7,0
+Public Interface,"com.streamwork.ch08.api.TimedEvent",0,0,0,0,3,4
+Abstract Method,"com.streamwork.ch08.api.TimedEvent.getTime",,,,0,1,4
+Public Abstract Class,"com.streamwork.ch08.api.WindowOperator",6,0,0,3,12,10
+Public Constructor,"com.streamwork.ch08.api.WindowOperator.WindowOperator",,,,1,3,0
+Public Constructor,"com.streamwork.ch08.api.WindowOperator.WindowOperator",,,,1,3,0
+Public Final Method,"com.streamwork.ch08.api.WindowOperator.apply",,,,1,3,6
+Public Abstract Method,"com.streamwork.ch08.api.WindowOperator.apply",,,,0,1,0
+Public Class,"com.streamwork.ch08.api.WindowedStream",3,50,50,4,17,11
+Public Constructor,"com.streamwork.ch08.api.WindowedStream.WindowedStream",,,,1,4,0
+Public Method,"com.streamwork.ch08.api.WindowedStream.applyOperator",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.WindowedStream.join",,,,1,3,0
+Public Method,"com.streamwork.ch08.api.WindowedStream.windowedJoin",,,,1,3,0
+Public Final Class,"com.streamwork.ch08.api.WindowingOperator",11,37,12,9,37,16
+Public Constructor,"com.streamwork.ch08.api.WindowingOperator.WindowingOperator",,,,1,6,0
+Public Constructor,"com.streamwork.ch08.api.WindowingOperator.WindowingOperator",,,,1,4,0
+Public Final Method,"com.streamwork.ch08.api.WindowingOperator.apply",,,,6,20,7
+Public Method,"com.streamwork.ch08.api.WindowingOperator.setupInstance",,,,1,3,4
+Public Interface,"com.streamwork.ch08.api.WindowingStrategy",2,0,0,0,4,9
+Abstract Method,"com.streamwork.ch08.api.WindowingStrategy.add",,,,0,1,5
+Abstract Method,"com.streamwork.ch08.api.WindowingStrategy.getEventWindows",,,,0,1,4
+Package,"com.streamwork.ch08.engine",,,,88,466,124
+Public Abstract Class,"com.streamwork.ch08.engine.ComponentExecutor",5,57,57,10,36,9
+Public Constructor,"com.streamwork.ch08.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.addOutgoingQueue",,,,2,5,0
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.getIncomingQueues",,,,1,3,0
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.registerChannel",,,,2,5,0
+Public Method,"com.streamwork.ch08.engine.ComponentExecutor.setIncomingQueues",,,,2,6,0
+Public Abstract Method,"com.streamwork.ch08.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.streamwork.ch08.engine.Connection",3,0,0,1,12,4
+Public Constructor,"com.streamwork.ch08.engine.Connection.Connection",,,,1,6,0
+Public Class,"com.streamwork.ch08.engine.EventDispatcher",9,50,50,7,32,4
+Public Constructor,"com.streamwork.ch08.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.streamwork.ch08.engine.EventDispatcher.runOnce",,,,4,18,0
+Public Method,"com.streamwork.ch08.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.streamwork.ch08.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.streamwork.ch08.engine.EventQueue",1,0,0,1,8,3
+Public Constructor,"com.streamwork.ch08.engine.EventQueue.EventQueue",,,,1,4,0
+Public Abstract Class,"com.streamwork.ch08.engine.InstanceExecutor",8,75,75,5,21,8
+Public Constructor,"com.streamwork.ch08.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.streamwork.ch08.engine.InstanceExecutor.addOutgoingQueue",,,,2,9,0
+Public Method,"com.streamwork.ch08.engine.InstanceExecutor.registerChannel",,,,1,3,0
+Public Method,"com.streamwork.ch08.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Class,"com.streamwork.ch08.engine.JobStarter",21,69,50,17,94,43
+Public Constructor,"com.streamwork.ch08.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.streamwork.ch08.engine.JobStarter.connectExecutors",,,,4,35,19
+Private Method,"com.streamwork.ch08.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.streamwork.ch08.engine.JobStarter.setupConnections",,,,2,5,5
+Public Method,"com.streamwork.ch08.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.streamwork.ch08.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.streamwork.ch08.engine.JobStarter.traverseComponent",,,,4,20,2
+Public Class,"com.streamwork.ch08.engine.NamedEventQueue",1,0,0,1,7,3
+Public Constructor,"com.streamwork.ch08.engine.NamedEventQueue.NamedEventQueue",,,,1,4,0
+Public Class,"com.streamwork.ch08.engine.OperatorExecutor",9,33,33,6,22,4
+Public Constructor,"com.streamwork.ch08.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.streamwork.ch08.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.streamwork.ch08.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch08.engine.OperatorInstanceExecutor",11,25,25,10,39,15
+Public Constructor,"com.streamwork.ch08.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch08.engine.OperatorInstanceExecutor.runOnce",,,,9,30,10
+Public Abstract Class,"com.streamwork.ch08.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.streamwork.ch08.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.streamwork.ch08.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.streamwork.ch08.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.streamwork.ch08.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.streamwork.ch08.engine.Process.start",,,,1,3,3
+Public Class,"com.streamwork.ch08.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.streamwork.ch08.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.streamwork.ch08.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.streamwork.ch08.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.streamwork.ch08.engine.SourceInstanceExecutor",9,25,25,7,29,13
+Public Constructor,"com.streamwork.ch08.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.streamwork.ch08.engine.SourceInstanceExecutor.runOnce",,,,6,20,8
+Public Class,"com.streamwork.ch08.engine.WebServer",14,37,37,11,77,0
+Class,"com.streamwork.ch08.engine.WebServer.Edge",2,0,0,1,10,0
+Public Constructor,"com.streamwork.ch08.engine.WebServer.Edge.Edge",,,,1,8,0
+Class,"com.streamwork.ch08.engine.WebServer.Node",1,0,0,1,7,0
+Public Constructor,"com.streamwork.ch08.engine.WebServer.Node.Node",,,,1,5,0
+Public Constructor,"com.streamwork.ch08.engine.WebServer.WebServer",,,,4,20,0
+Private Method,"com.streamwork.ch08.engine.WebServer.indexHandler",,,,2,18,0
+Private Method,"com.streamwork.ch08.engine.WebServer.planHandler",,,,1,8,0
+Public Method,"com.streamwork.ch08.engine.WebServer.start",,,,4,8,0
+Lambda Method,"com.streamwork.ch08.engine.WebServer.start.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"com.streamwork.ch08.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.streamwork.ch08.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.streamwork.ch08.job",,,,47,389,55
+Public Class,"com.streamwork.ch08.job.EmissionEvent",2,22,22,3,17,0
+Public Constructor,"com.streamwork.ch08.job.EmissionEvent.EmissionEvent",,,,1,5,0
+Public Method,"com.streamwork.ch08.job.EmissionEvent.getTime",,,,1,3,0
+Public Method,"com.streamwork.ch08.job.EmissionEvent.toString",,,,1,4,0
+Public Class,"com.streamwork.ch08.job.EmissionJob",17,0,0,1,21,1
+Public Static Method,"com.streamwork.ch08.job.EmissionJob.main",,,,1,17,1
+Class,"com.streamwork.ch08.job.EmissionResolver",8,50,50,3,25,0
+Public Constructor,"com.streamwork.ch08.job.EmissionResolver.EmissionResolver",,,,1,3,0
+Public Method,"com.streamwork.ch08.job.EmissionResolver.apply",,,,1,14,0
+Public Method,"com.streamwork.ch08.job.EmissionResolver.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch08.job.EmissionTable",4,25,25,3,18,9
+Public Constructor,"com.streamwork.ch08.job.EmissionTable.EmissionTable",,,,1,6,0
+Method,"com.streamwork.ch08.job.EmissionTable.getEmission",,,,2,8,6
+Class,"com.streamwork.ch08.job.EventJoiner",11,50,50,5,53,2
+Public Constructor,"com.streamwork.ch08.job.EventJoiner.EventJoiner",,,,1,3,0
+Public Method,"com.streamwork.ch08.job.EventJoiner.apply",,,,3,41,2
+Public Method,"com.streamwork.ch08.job.EventJoiner.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch08.job.Logger",3,0,0,1,5,0
+Public Static Method,"com.streamwork.ch08.job.Logger.log",,,,1,3,0
+Public Class,"com.streamwork.ch08.job.TemperatureEvent",2,0,0,2,12,3
+Public Constructor,"com.streamwork.ch08.job.TemperatureEvent.TemperatureEvent",,,,1,4,0
+Public Method,"com.streamwork.ch08.job.TemperatureEvent.toString",,,,1,4,0
+Class,"com.streamwork.ch08.job.TemperatureEventSource",16,56,43,9,53,20
+Public Constructor,"com.streamwork.ch08.job.TemperatureEventSource.TemperatureEventSource",,,,1,4,7
+Public Method,"com.streamwork.ch08.job.TemperatureEventSource.getEvents",,,,4,25,4
+Public Method,"com.streamwork.ch08.job.TemperatureEventSource.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch08.job.TemperatureEventSource.setupSocketReader",,,,3,13,4
+Public Class,"com.streamwork.ch08.job.VehicleEvent",2,0,0,2,18,0
+Public Constructor,"com.streamwork.ch08.job.VehicleEvent.VehicleEvent",,,,1,7,0
+Public Method,"com.streamwork.ch08.job.VehicleEvent.toString",,,,1,4,0
+Class,"com.streamwork.ch08.job.VehicleEventSource",15,56,43,9,53,20
+Public Constructor,"com.streamwork.ch08.job.VehicleEventSource.VehicleEventSource",,,,1,4,7
+Public Method,"com.streamwork.ch08.job.VehicleEventSource.getEvents",,,,4,25,4
+Public Method,"com.streamwork.ch08.job.VehicleEventSource.setupInstance",,,,1,5,5
+Private Method,"com.streamwork.ch08.job.VehicleEventSource.setupSocketReader",,,,3,13,4
+Public Class,"com.streamwork.ch08.job.VehicleTemperatureEvent",2,0,0,2,21,0
+Public Constructor,"com.streamwork.ch08.job.VehicleTemperatureEvent.VehicleTemperatureEvent",,,,1,8,0
+Public Method,"com.streamwork.ch08.job.VehicleTemperatureEvent.toString",,,,1,5,0
+Class,"com.streamwork.ch08.job.WindowedAggregator",11,33,33,6,30,0
+Public Constructor,"com.streamwork.ch08.job.WindowedAggregator.WindowedAggregator",,,,1,3,0
+Public Method,"com.streamwork.ch08.job.WindowedAggregator.apply",,,,4,20,0
+Public Method,"com.streamwork.ch08.job.WindowedAggregator.setupInstance",,,,1,4,0
+Class,"com.streamwork.ch08.job.ZoneFieldsGrouping",2,0,0,1,6,0
+Public Method,"com.streamwork.ch08.job.ZoneFieldsGrouping.getKey",,,,1,4,0
+File,"package-info.java",,,,0,1,5

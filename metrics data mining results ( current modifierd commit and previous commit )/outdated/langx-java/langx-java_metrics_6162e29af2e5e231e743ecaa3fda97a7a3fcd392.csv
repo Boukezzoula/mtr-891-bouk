@@ -1,0 +1,446 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Accessor.java",,,,0,19,8
+File,"Calenders.java",,,,7,24,16
+File,"DoubleNameValuePair.java",,,,2,8,0
+File,"Emptys.java",,,,20,65,0
+File,"Entry.java",,,,20,92,0
+File,"ExceptionMessage.java",,,,2,10,0
+File,"FieldAccessor.java",,,,20,80,0
+File,"Filter.java",,,,0,4,0
+File,"Holder.java",,,,4,15,0
+File,"IOs.java",,,,8,38,1
+File,"IdGenerator.java",,,,0,4,0
+File,"IllegalParameterException.java",,,,5,18,0
+File,"Initializable.java",,,,0,4,0
+File,"IntegerNameValuePair.java",,,,2,8,0
+File,"LineDelimiter.java",,,,9,56,12
+File,"LongNameValuePair.java",,,,2,8,0
+File,"NameValuePair.java",,,,4,15,3
+File,"NotNull.java",,,,0,11,0
+File,"Nullable.java",,,,0,11,0
+File,"Numbers.java",,,,77,271,110
+File,"Pair.java",,,,7,30,0
+File,"ParameterizationMessage.java",,,,7,33,11
+File,"ParameterizedTypeGetter.java",,,,1,9,16
+File,"ParameterizedTypeImpl.java",,,,44,176,6
+File,"Parser.java",,,,0,4,0
+File,"Preconditions.java",,,,5,17,13
+File,"PrimitiveArrays.java",,,,48,163,0
+File,"Primitives.java",,,,12,62,36
+File,"PropertiesAccessor.java",,,,17,59,0
+File,"Reflects.java",,,,84,312,29
+File,"RegExp.java",,,,15,86,58
+File,"RegexpPatternException.java",,,,1,7,0
+File,"ScriptLanguage.java",,,,1,7,0
+File,"SimpleScriptEngineFactory.java",,,,1,9,0
+File,"StringMaker.java",,,,50,170,0
+File,"StringMap.java",,,,9,33,0
+File,"StringMapAccessor.java",,,,16,57,0
+File,"StringNameValuePair.java",,,,2,8,0
+File,"Strings.java",,,,11,36,23
+File,"Threads.java",,,,2,12,10
+File,"Types.java",,,,91,302,47
+File,"UuidGenerator.java",,,,1,9,0
+Public Implicit Method,"clone",,,,0,,
+Package,"com",,,,0,0,0
+Package,"com.jn",,,,0,0,0
+Package,"com.jn.langx",,,,0,31,8
+Public Generic Interface,"com.jn.langx.Accessor",7,0,0,0,18,0
+TypeVariable,"com.jn.langx.Accessor.T",0,0,0,0,0,0
+Abstract Method,"com.jn.langx.Accessor.get",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getBoolean",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getBoolean",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getDouble",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getDouble",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getFloat",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getFloat",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getInteger",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getInteger",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getLong",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getLong",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getShort",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getShort",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getString",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.getString",,,,0,1,0
+Abstract Method,"com.jn.langx.Accessor.setTarget",,,,0,1,0
+Public Generic Interface,"com.jn.langx.Filter",0,0,0,0,3,0
+TypeVariable,"com.jn.langx.Filter.E",0,0,0,0,0,0
+Abstract Method,"com.jn.langx.Filter.accept",,,,0,1,0
+Public Generic Interface,"com.jn.langx.IdGenerator",1,0,0,0,3,0
+TypeVariable,"com.jn.langx.IdGenerator.E",0,0,0,0,0,0
+Abstract Method,"com.jn.langx.IdGenerator.get",,,,0,1,0
+Public Generic Interface,"com.jn.langx.Parser",0,0,0,0,3,0
+TypeVariable,"com.jn.langx.Parser.I",0,0,0,0,0,0
+TypeVariable,"com.jn.langx.Parser.O",0,0,0,0,0,0
+Abstract Method,"com.jn.langx.Parser.parse",,,,0,1,0
+Package,"com.jn.langx.annotation",,,,0,22,0
+Public Annotation,"com.jn.langx.annotation.NotNull",3,0,0,0,5,0
+Public Annotation,"com.jn.langx.annotation.Nullable",3,0,0,0,5,0
+Package,"com.jn.langx.exception",,,,7,28,0
+Public Class,"com.jn.langx.exception.ExceptionMessage",1,0,0,2,8,0
+Public Constructor,"com.jn.langx.exception.ExceptionMessage.ExceptionMessage",,,,1,3,0
+Public Constructor,"com.jn.langx.exception.ExceptionMessage.ExceptionMessage",,,,1,3,0
+Public Class,"com.jn.langx.exception.IllegalParameterException",3,0,0,5,17,0
+Public Constructor,"com.jn.langx.exception.IllegalParameterException.IllegalParameterException",,,,1,3,0
+Public Constructor,"com.jn.langx.exception.IllegalParameterException.IllegalParameterException",,,,1,3,0
+Public Constructor,"com.jn.langx.exception.IllegalParameterException.IllegalParameterException",,,,1,3,0
+Public Constructor,"com.jn.langx.exception.IllegalParameterException.IllegalParameterException",,,,1,3,0
+Public Constructor,"com.jn.langx.exception.IllegalParameterException.IllegalParameterException",,,,1,3,0
+Package,"com.jn.langx.lifecycle",,,,0,4,0
+Public Interface,"com.jn.langx.lifecycle.Initializable",0,0,0,0,3,0
+Abstract Method,"com.jn.langx.lifecycle.Initializable.init",,,,0,1,0
+Package,"com.jn.langx.script",,,,2,16,0
+Public Enum Type,"com.jn.langx.script.ScriptLanguage",3,,,1,5,0
+Public Static Method,"com.jn.langx.script.ScriptLanguage.main",,,,1,3,0
+Public Implicit Method,"com.jn.langx.script.ScriptLanguage.valueOf",,,,0,,
+Public Implicit Method,"com.jn.langx.script.ScriptLanguage.values",,,,0,,
+Public Class,"com.jn.langx.script.SimpleScriptEngineFactory",4,0,0,1,5,0
+Public Static Method,"com.jn.langx.script.SimpleScriptEngineFactory.getScriptEngine",,,,1,4,0
+Package,"com.jn.langx.text",,,,16,89,23
+Public Class,"com.jn.langx.text.LineDelimiter",6,75,75,9,52,12
+Public Constructor,"com.jn.langx.text.LineDelimiter.LineDelimiter",,,,1,3,0
+Public Method,"com.jn.langx.text.LineDelimiter.equals",,,,3,11,3
+Public Method,"com.jn.langx.text.LineDelimiter.getValue",,,,1,3,0
+Public Method,"com.jn.langx.text.LineDelimiter.hashCode",,,,1,4,3
+Public Method,"com.jn.langx.text.LineDelimiter.toString",,,,3,14,3
+Public Class,"com.jn.langx.text.ParameterizationMessage",5,16,16,7,30,11
+Public Constructor,"com.jn.langx.text.ParameterizationMessage.ParameterizationMessage",,,,1,3,0
+Public Constructor,"com.jn.langx.text.ParameterizationMessage.ParameterizationMessage",,,,2,11,0
+Public Constructor,"com.jn.langx.text.ParameterizationMessage.ParameterizationMessage",,,,1,2,0
+Public Method,"com.jn.langx.text.ParameterizationMessage.getMessage",,,,1,3,0
+Public Method,"com.jn.langx.text.ParameterizationMessage.setMessage",,,,1,3,0
+Public Method,"com.jn.langx.text.ParameterizationMessage.toString",,,,1,4,0
+Package,"com.jn.langx.util",,,,196,689,163
+Public Class,"com.jn.langx.util.Calenders",1,87,87,7,23,16
+Public Static Method,"com.jn.langx.util.Calenders.getMaxDay",,,,2,3,5
+Public Static Method,"com.jn.langx.util.Calenders.getNumberInWeek",,,,1,3,0
+Private Static Method,"com.jn.langx.util.Calenders.getNumberOfFirstDayInMonth",,,,2,10,5
+Private Static Method,"com.jn.langx.util.Calenders.isLeapYear",,,,2,3,6
+Public Class,"com.jn.langx.util.Emptys",12,0,0,20,62,0
+Public Static Method,"com.jn.langx.util.Emptys.isEmpty",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Emptys.isEmpty",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Emptys.isEmpty",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Emptys.isEmpty",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Emptys.isEmpty",,,,8,24,0
+Public Static Method,"com.jn.langx.util.Emptys.isZero",,,,8,24,0
+Public Class,"com.jn.langx.util.IOs",7,0,0,8,32,1
+Public Method,"com.jn.langx.util.IOs.close",,,,4,12,1
+Public Static Method,"com.jn.langx.util.IOs.readAsString",,,,2,9,0
+Public Static Method,"com.jn.langx.util.IOs.readAsString",,,,2,9,0
+Public Class,"com.jn.langx.util.Numbers",11,0,0,77,268,110
+Public Static Method,"com.jn.langx.util.Numbers.createBigDecimal",,,,3,9,10
+Public Static Method,"com.jn.langx.util.Numbers.createBigInteger",,,,2,6,9
+Public Static Method,"com.jn.langx.util.Numbers.createDouble",,,,2,6,9
+Public Static Method,"com.jn.langx.util.Numbers.createFloat",,,,2,6,9
+Public Static Method,"com.jn.langx.util.Numbers.createInteger",,,,2,6,1
+Public Static Method,"com.jn.langx.util.Numbers.createLong",,,,2,6,9
+Public Static Method,"com.jn.langx.util.Numbers.createNumber",,,,32,119,21
+Private Static Method,"com.jn.langx.util.Numbers.isAllZeros",,,,4,11,0
+Public Static Method,"com.jn.langx.util.Numbers.isDigits",,,,4,11,10
+Public Static Method,"com.jn.langx.util.Numbers.isNumber",,,,24,86,32
+Public Class,"com.jn.langx.util.Preconditions",3,0,0,5,16,0
+Private Constructor,"com.jn.langx.util.Preconditions.Preconditions",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Preconditions.checkArgument",,,,2,5,0
+Public Static Generic Method,"com.jn.langx.util.Preconditions.checkNotNull",,,,2,6,0
+TypeVariable,"com.jn.langx.util.Preconditions.checkNotNull.T",0,0,0,0,0,0
+Public Class,"com.jn.langx.util.PropertiesAccessor",9,82,0,17,56,0
+Public Constructor,"com.jn.langx.util.PropertiesAccessor.PropertiesAccessor",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.get",,,,1,4,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getBoolean",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getBoolean",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getDouble",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getDouble",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getFloat",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getFloat",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getInteger",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getInteger",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getLong",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getLong",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getShort",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getShort",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getString",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.getString",,,,1,3,0
+Public Method,"com.jn.langx.util.PropertiesAccessor.setTarget",,,,1,4,0
+Public Class,"com.jn.langx.util.StringMaker",2,40,36,50,169,0
+Public Constructor,"com.jn.langx.util.StringMaker.StringMaker",,,,1,5,0
+Private Constructor,"com.jn.langx.util.StringMaker.StringMaker",,,,1,6,0
+Public Method,"com.jn.langx.util.StringMaker.after",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.after",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.afterLast",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.afterLast",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.afterLast",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.before",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.before",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.before",,,,3,8,0
+Public Method,"com.jn.langx.util.StringMaker.beforeLast",,,,2,8,0
+Public Method,"com.jn.langx.util.StringMaker.beforeLast",,,,2,8,0
+Public Method,"com.jn.langx.util.StringMaker.beforeLast",,,,2,8,0
+Public Method,"com.jn.langx.util.StringMaker.clear",,,,1,5,0
+Public Method,"com.jn.langx.util.StringMaker.duplicate",,,,1,3,0
+Public Method,"com.jn.langx.util.StringMaker.getBeginIndex",,,,1,3,0
+Public Method,"com.jn.langx.util.StringMaker.getEndIndex",,,,1,3,0
+Private Method,"com.jn.langx.util.StringMaker.indexOf",,,,3,9,0
+Public Method,"com.jn.langx.util.StringMaker.isEmpty",,,,1,3,0
+Method,"com.jn.langx.util.StringMaker.lastIndexOf",,,,3,9,0
+Public Method,"com.jn.langx.util.StringMaker.lower",,,,1,4,0
+Public Method,"com.jn.langx.util.StringMaker.next",,,,1,5,0
+Public Method,"com.jn.langx.util.StringMaker.prev",,,,1,5,0
+Public Method,"com.jn.langx.util.StringMaker.reset",,,,1,4,0
+Public Method,"com.jn.langx.util.StringMaker.toString",,,,1,4,0
+Public Method,"com.jn.langx.util.StringMaker.upper",,,,1,4,0
+Public Method,"com.jn.langx.util.StringMaker.value",,,,1,3,0
+Public Class,"com.jn.langx.util.Strings",3,0,0,11,33,23
+Private Constructor,"com.jn.langx.util.Strings.Strings",,,,1,1,0
+Public Static Method,"com.jn.langx.util.Strings.isBlank",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Strings.isEmpty",,,,2,6,0
+Public Static Method,"com.jn.langx.util.Strings.isNotBlank",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Strings.isNotEmpty",,,,1,3,0
+Public Static Method,"com.jn.langx.util.Strings.join",,,,3,10,0
+Public Static Method,"com.jn.langx.util.Strings.truncate",,,,2,6,0
+Public Class,"com.jn.langx.util.UuidGenerator",3,0,0,1,6,0
+Public Method,"com.jn.langx.util.UuidGenerator.get",,,,1,4,0
+Package,"com.jn.langx.util.concurrent",,,,2,12,10
+Public Class,"com.jn.langx.util.concurrent.Threads",3,0,0,2,9,10
+Public Static Method,"com.jn.langx.util.concurrent.Threads.getAvailableThreadNum",,,,2,7,10
+Package,"com.jn.langx.util.reflect",,,,104,392,29
+Public Class,"com.jn.langx.util.reflect.FieldAccessor",11,88,0,20,78,0
+Public Constructor,"com.jn.langx.util.reflect.FieldAccessor.FieldAccessor",,,,1,3,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.get",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getBoolean",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getBoolean",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getDouble",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getDouble",,,,1,4,0
+Private Generic Method,"com.jn.langx.util.reflect.FieldAccessor.getFieldValue",,,,3,9,0
+TypeVariable,"com.jn.langx.util.reflect.FieldAccessor.getFieldValue.V",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getFloat",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getFloat",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getInteger",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getInteger",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getLong",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getLong",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getShort",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getShort",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getString",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.getString",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.FieldAccessor.setTarget",,,,1,3,0
+Public Class,"com.jn.langx.util.reflect.Reflects",26,0,0,84,303,29
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getAnnotation",,,,1,3,4
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getAnnotation.E",1,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getAnnotations",,,,1,3,6
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getAnyField",,,,3,11,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getAnyFieldValue",,,,3,11,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getAnyFieldValue.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getAnyFieldValueForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getAnyFieldValueForcedIfPresent.V",0,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getAnyMethod",,,,3,11,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getDeclaredAnnotations",,,,1,3,8
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getDeclaredField",,,,2,8,1
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getDeclaredFieldValue",,,,3,11,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getDeclaredFieldValue.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getDeclaredFieldValueForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getDeclaredFieldValueForcedIfPresent.V",0,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getDeclaredMethod",,,,2,9,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getFQNClassName",,,,1,3,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getFieldValue",,,,8,29,2
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getFieldValue.V",0,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getMethodString",,,,7,28,1
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getMethodString",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getMethodString",,,,2,8,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getPackageName",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getPublicField",,,,2,8,1
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getPublicFieldValue",,,,3,11,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getPublicFieldValue.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.getPublicFieldValueForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.getPublicFieldValueForcedIfPresent.V",0,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getPublicMethod",,,,2,9,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getSimpleClassName",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.getTypeName",,,,1,3,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invoke",,,,4,17,1
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invoke.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokeAnyMethod",,,,3,10,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokeAnyMethod.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokeAnyMethodForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokeAnyMethodForcedIfPresent.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokeDeclaredMethod",,,,3,10,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokeDeclaredMethod.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokeDeclaredMethodForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokeDeclaredMethodForcedIfPresent.V",0,0,0,0,0,0
+Private Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokeMethodOrNull",,,,5,15,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokeMethodOrNull.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokePublicMethod",,,,3,10,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokePublicMethod.V",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.Reflects.invokePublicMethodForcedIfPresent",,,,2,7,0
+TypeVariable,"com.jn.langx.util.reflect.Reflects.invokePublicMethodForcedIfPresent.V",0,0,0,0,0,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isAnnotationPresent",,,,1,3,5
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isAnonymous",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isAnonymousOrLocal",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isInnerClass",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isLocal",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.Reflects.isStatic",,,,1,3,0
+Package,"com.jn.langx.util.reflect.type",,,,196,712,105
+Public Generic Class,"com.jn.langx.util.reflect.type.ParameterizedTypeGetter",3,0,0,1,6,16
+TypeVariable,"com.jn.langx.util.reflect.type.ParameterizedTypeGetter.T",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeGetter.getType",,,,1,4,0
+Public Class,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl",13,73,66,28,172,6
+Public Static Final Class,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl",4,19,19,5,24,0
+Public Constructor,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl.GenericArrayTypeImpl",,,,1,3,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl.equals",,,,1,5,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl.getGenericComponentType",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl.hashCode",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.GenericArrayTypeImpl.toString",,,,1,4,0
+Public Constructor,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.ParameterizedTypeImpl",,,,4,16,1
+Public Static Final Class,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl",5,33,33,11,49,1
+Public Constructor,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.WildcardTypeImpl",,,,2,16,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.equals",,,,1,5,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.getLowerBounds",,,,2,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.getUpperBounds",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.hashCode",,,,2,5,1
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.WildcardTypeImpl.toString",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.canonicalize",,,,6,18,1
+Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.checkArgument",,,,2,5,0
+Static Generic Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.checkNotNull",,,,2,6,0
+TypeVariable,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.checkNotNull.T",0,0,0,0,0,0
+Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.checkNotPrimitive",,,,1,3,0
+Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.equal",,,,1,3,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.equals",,,,1,5,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.getActualTypeArguments",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.getOwnerType",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.getRawType",,,,1,4,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.hashCode",,,,1,6,0
+Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.hashCodeOrZero",,,,2,3,0
+Public Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.toString",,,,3,13,0
+Static Method,"com.jn.langx.util.reflect.type.ParameterizedTypeImpl.typeToString",,,,2,3,0
+Public Class,"com.jn.langx.util.reflect.type.PrimitiveArrays",8,0,0,48,162,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.unwrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Static Method,"com.jn.langx.util.reflect.type.PrimitiveArrays.wrap",,,,3,10,0
+Public Class,"com.jn.langx.util.reflect.type.Primitives",17,0,0,12,57,36
+Private Constructor,"com.jn.langx.util.reflect.type.Primitives.Primitives",,,,1,3,0
+Private Static Method,"com.jn.langx.util.reflect.type.Primitives.add",,,,1,5,0
+Private Static Method,"com.jn.langx.util.reflect.type.Primitives.checkNotNull",,,,2,6,0
+Public Static Method,"com.jn.langx.util.reflect.type.Primitives.isPrimitive",,,,1,3,3
+Public Static Method,"com.jn.langx.util.reflect.type.Primitives.isWrapperType",,,,1,3,6
+Public Static Generic Method,"com.jn.langx.util.reflect.type.Primitives.unwrap",,,,2,6,10
+TypeVariable,"com.jn.langx.util.reflect.type.Primitives.unwrap.T",0,0,0,0,0,0
+Public Static Generic Method,"com.jn.langx.util.reflect.type.Primitives.wrap",,,,2,6,10
+Public Static Method,"com.jn.langx.util.reflect.type.Primitives.wrap",,,,2,6,0
+TypeVariable,"com.jn.langx.util.reflect.type.Primitives.wrap.T",0,0,0,0,0,0
+Public Class,"com.jn.langx.util.reflect.type.Types",22,0,0,91,295,47
+Public Static Method,"com.jn.langx.util.reflect.type.Types.arrayOf",,,,1,3,6
+Public Static Method,"com.jn.langx.util.reflect.type.Types.checkPrimitiveArray",,,,13,36,0
+Private Static Method,"com.jn.langx.util.reflect.type.Types.declaringClassOf",,,,2,4,4
+Public Static Method,"com.jn.langx.util.reflect.type.Types.equal",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.equals",,,,11,41,7
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getGenericSupertype",,,,10,27,8
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getListParameterizedType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getMapParameterizedType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getParameterizedType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getParameterizedType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getParameterizedTypeWithOwnerType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getPrimitiveWrapClass",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.getRawType",,,,7,21,6
+Private Static Method,"com.jn.langx.util.reflect.type.Types.indexOf",,,,3,8,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.isClass",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.isParameterizedType",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.isPrimitive",,,,1,3,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.resolve",,,,18,62,1
+Private Static Method,"com.jn.langx.util.reflect.type.Types.resolveTypeVariable",,,,3,12,1
+Public Static Method,"com.jn.langx.util.reflect.type.Types.subtypeOf",,,,1,3,6
+Public Static Method,"com.jn.langx.util.reflect.type.Types.supertypeOf",,,,1,3,4
+Public Static Method,"com.jn.langx.util.reflect.type.Types.toClass",,,,5,18,0
+Public Static Method,"com.jn.langx.util.reflect.type.Types.typeToString",,,,6,24,1
+Package,"com.jn.langx.util.regexp",,,,16,93,58
+Public Class,"com.jn.langx.util.regexp.RegExp",14,42,28,11,77,58
+Interface,"com.jn.langx.util.regexp.RegExp.MutilTest",1,0,0,0,3,0
+Public Abstract Method,"com.jn.langx.util.regexp.RegExp.MutilTest.invoke",,,,0,1,0
+Public Constructor,"com.jn.langx.util.regexp.RegExp.RegExp",,,,1,3,0
+Public Constructor,"com.jn.langx.util.regexp.RegExp.RegExp",,,,1,4,0
+Public Static Method,"com.jn.langx.util.regexp.RegExp.getMatcher",,,,1,3,7
+Public Static Method,"com.jn.langx.util.regexp.RegExp.main",,,,1,21,15
+Anonymous Class,"com.jn.langx.util.regexp.RegExp.main.(Anon_1)",7,0,0,4,15,0
+Public Method,"com.jn.langx.util.regexp.RegExp.main.(Anon_1).invoke",,,,4,14,0
+Public Method,"com.jn.langx.util.regexp.RegExp.setIgnoreCase",,,,1,3,0
+Public Method,"com.jn.langx.util.regexp.RegExp.test",,,,3,17,6
+Public Method,"com.jn.langx.util.regexp.RegExp.test",,,,3,15,11
+Public Class,"com.jn.langx.util.regexp.RegexpPatternException",1,0,0,1,5,0
+Public Constructor,"com.jn.langx.util.regexp.RegexpPatternException.RegexpPatternException",,,,1,3,0
+Package,"com.jn.langx.util.struct",,,,68,274,3
+Public Class,"com.jn.langx.util.struct.DoubleNameValuePair",2,0,0,2,7,0
+Public Constructor,"com.jn.langx.util.struct.DoubleNameValuePair.DoubleNameValuePair",,,,1,2,0
+Public Constructor,"com.jn.langx.util.struct.DoubleNameValuePair.DoubleNameValuePair",,,,1,3,0
+Public Generic Class,"com.jn.langx.util.struct.Entry",8,35,7,20,86,0
+Public Constructor,"com.jn.langx.util.struct.Entry.Entry",,,,1,3,0
+Public Constructor,"com.jn.langx.util.struct.Entry.Entry",,,,1,4,0
+TypeVariable,"com.jn.langx.util.struct.Entry.K",0,0,0,0,0,0
+TypeVariable,"com.jn.langx.util.struct.Entry.V",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.struct.Entry.equals",,,,3,12,0
+Public Static Method,"com.jn.langx.util.struct.Entry.getMap",,,,5,20,0
+Public Static Method,"com.jn.langx.util.struct.Entry.getMapList",,,,5,25,0
+Public Method,"com.jn.langx.util.struct.Entry.hashCode",,,,1,4,0
+Public Static Method,"com.jn.langx.util.struct.Entry.newEntry",,,,4,15,0
+Public Generic Class,"com.jn.langx.util.struct.Holder",0,50,25,4,14,0
+Public Constructor,"com.jn.langx.util.struct.Holder.Holder",,,,1,2,0
+Public Constructor,"com.jn.langx.util.struct.Holder.Holder",,,,1,3,0
+TypeVariable,"com.jn.langx.util.struct.Holder.V",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.struct.Holder.get",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.Holder.set",,,,1,3,0
+Public Class,"com.jn.langx.util.struct.IntegerNameValuePair",2,0,0,2,7,0
+Public Constructor,"com.jn.langx.util.struct.IntegerNameValuePair.IntegerNameValuePair",,,,1,2,0
+Public Constructor,"com.jn.langx.util.struct.IntegerNameValuePair.IntegerNameValuePair",,,,1,3,0
+Public Class,"com.jn.langx.util.struct.LongNameValuePair",2,0,0,2,7,0
+Public Constructor,"com.jn.langx.util.struct.LongNameValuePair.LongNameValuePair",,,,1,2,0
+Public Constructor,"com.jn.langx.util.struct.LongNameValuePair.LongNameValuePair",,,,1,3,0
+Public Generic Class,"com.jn.langx.util.struct.NameValuePair",1,0,0,4,14,3
+Public Constructor,"com.jn.langx.util.struct.NameValuePair.NameValuePair",,,,1,4,0
+Public Constructor,"com.jn.langx.util.struct.NameValuePair.NameValuePair",,,,1,2,0
+TypeVariable,"com.jn.langx.util.struct.NameValuePair.V",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.struct.NameValuePair.getName",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.NameValuePair.setName",,,,1,3,0
+Public Abstract Generic Class,"com.jn.langx.util.struct.Pair",1,40,40,7,29,0
+TypeVariable,"com.jn.langx.util.struct.Pair.K",0,0,0,0,0,0
+TypeVariable,"com.jn.langx.util.struct.Pair.V",0,0,0,0,0,0
+Public Method,"com.jn.langx.util.struct.Pair.equals",,,,3,11,0
+Public Method,"com.jn.langx.util.struct.Pair.getKey",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.Pair.getValue",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.Pair.setKey",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.Pair.setValue",,,,1,5,0
+Public Class,"com.jn.langx.util.struct.StringMap",2,0,0,9,30,0
+Public Constructor,"com.jn.langx.util.struct.StringMap.StringMap",,,,1,3,0
+Public Constructor,"com.jn.langx.util.struct.StringMap.StringMap",,,,1,3,0
+Public Constructor,"com.jn.langx.util.struct.StringMap.StringMap",,,,1,3,0
+Public Constructor,"com.jn.langx.util.struct.StringMap.StringMap",,,,1,3,0
+Public Constructor,"com.jn.langx.util.struct.StringMap.StringMap",,,,1,3,0
+Public Static Method,"com.jn.langx.util.struct.StringMap.httpUrlParameters",,,,4,12,0
+Public Class,"com.jn.langx.util.struct.StringMapAccessor",10,87,0,16,55,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.get",,,,1,4,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getBoolean",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getBoolean",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getDouble",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getDouble",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getFloat",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getFloat",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getInteger",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getInteger",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getLong",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getLong",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getShort",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getShort",,,,1,3,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getString",,,,1,4,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.getString",,,,1,4,0
+Public Method,"com.jn.langx.util.struct.StringMapAccessor.setTarget",,,,1,4,0
+Public Class,"com.jn.langx.util.struct.StringNameValuePair",1,0,0,2,7,0
+Public Constructor,"com.jn.langx.util.struct.StringNameValuePair.StringNameValuePair",,,,1,2,0
+Public Constructor,"com.jn.langx.util.struct.StringNameValuePair.StringNameValuePair",,,,1,3,0

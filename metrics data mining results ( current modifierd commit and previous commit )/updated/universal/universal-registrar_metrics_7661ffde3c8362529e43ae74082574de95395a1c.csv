@@ -1,0 +1,396 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,0,50,5
+File,"AbstractDriver.java",,,,0,3,0
+File,"AbstractServlet.java",,,,3,20,0
+File,"ClientUniRegistrar.java",,,,73,267,23
+File,"CreateRequest.java",,,,15,80,9
+File,"CreateServlet.java",,,,9,44,4
+File,"CreateServlet.java",,,,10,49,3
+File,"CreateState.java",,,,6,34,6
+File,"DeactivateRequest.java",,,,15,79,9
+File,"DeactivateServlet.java",,,,10,50,3
+File,"DeactivateServlet.java",,,,9,44,4
+File,"DeactivateState.java",,,,6,35,6
+File,"DecryptionRequest.java",,,,14,75,9
+File,"DecryptionResponse.java",,,,8,42,9
+File,"Driver.java",,,,1,19,0
+File,"DummyExtension.java",,,,2,18,0
+File,"Extension.java",,,,6,31,0
+File,"ExtensionStatus.java",,,,7,33,0
+File,"HttpBindingServerUtil.java",,,,7,30,0
+File,"HttpDriver.java",,,,63,232,18
+File,"InitServlet.java",,,,10,39,0
+File,"JsonObject.java",,,,5,25,6
+File,"LocalUniRegistrar.java",,,,67,205,28
+File,"MethodsServlet.java",,,,7,38,4
+File,"PropertiesServlet.java",,,,9,41,4
+File,"PropertiesServlet.java",,,,7,37,4
+File,"RegistrationException.java",,,,16,70,6
+File,"ServletUtil.java",,,,7,32,0
+File,"SetSecretDecryptionResponses.java",,,,7,24,0
+File,"SetSecretSigningResponses.java",,,,7,23,0
+File,"SetState.java",,,,3,11,0
+File,"SetStateAction.java",,,,5,16,0
+File,"SetStateActionDecryptionRequests.java",,,,9,28,0
+File,"SetStateActionSigningRequests.java",,,,9,28,0
+File,"SetStateFailed.java",,,,7,24,1
+File,"SetStateFinished.java",,,,7,26,1
+File,"SetStateWait.java",,,,7,21,0
+File,"SigningRequest.java",,,,14,75,9
+File,"SigningResponse.java",,,,8,42,9
+File,"State.java",,,,14,76,9
+File,"UniRegistrar.java",,,,0,18,0
+File,"UpdateRequest.java",,,,17,91,9
+File,"UpdateServlet.java",,,,9,44,4
+File,"UpdateServlet.java",,,,10,50,3
+File,"UpdateState.java",,,,6,34,6
+File,"WebUniRegistrar.java",,,,20,63,3
+File,"applicationContext.xml.java",,,,0,50,5
+Package,"uniregistrar",,,,21,113,12
+Public Class,"uniregistrar.JsonObject",5,0,0,5,19,6
+Protected Constructor,"uniregistrar.JsonObject.JsonObject",,,,1,2,0
+Public Method,"uniregistrar.JsonObject.toJson",,,,1,3,0
+Public Method,"uniregistrar.JsonObject.toMap",,,,1,3,0
+Public Method,"uniregistrar.JsonObject.toString",,,,2,7,0
+Public Class,"uniregistrar.RegistrationException",8,66,16,16,64,6
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,6,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,6,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,2,7,0
+Public Method,"uniregistrar.RegistrationException.getDidRegistrationMetadata",,,,1,3,0
+Public Method,"uniregistrar.RegistrationException.getError",,,,1,3,0
+Public Method,"uniregistrar.RegistrationException.getState",,,,1,3,0
+Public Method,"uniregistrar.RegistrationException.toFailedState",,,,4,12,0
+Public Interface,"uniregistrar.UniRegistrar",10,0,0,0,9,0
+Public Abstract Method,"uniregistrar.UniRegistrar.create",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.deactivate",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.methods",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.properties",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.update",,,,0,1,0
+Package,"uniregistrar.client",,,,73,267,23
+Public Class,"uniregistrar.client.ClientUniRegistrar",33,86,77,73,238,23
+Public Constructor,"uniregistrar.client.ClientUniRegistrar.ClientUniRegistrar",,,,1,2,0
+Public Static Method,"uniregistrar.client.ClientUniRegistrar.create",,,,2,10,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.create",,,,12,36,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.deactivate",,,,12,36,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.getCreateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getHttpClient",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getMethodsUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.methods",,,,9,27,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.properties",,,,9,27,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.setCreateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setCreateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setHttpClient",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setMethodsUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.update",,,,12,36,3
+Package,"uniregistrar.driver",,,,1,22,0
+Public Abstract Class,"uniregistrar.driver.AbstractDriver",0,0,0,0,2,0
+Public Interface,"uniregistrar.driver.Driver",10,0,0,1,9,0
+Public Abstract Method,"uniregistrar.driver.Driver.create",,,,0,1,0
+Public Abstract Method,"uniregistrar.driver.Driver.deactivate",,,,0,1,0
+Public Method,"uniregistrar.driver.Driver.properties",,,,1,3,0
+Public Abstract Method,"uniregistrar.driver.Driver.update",,,,0,1,0
+Package,"uniregistrar.driver.http",,,,63,232,18
+Public Class,"uniregistrar.driver.http.HttpDriver",31,84,73,63,205,18
+Public Constructor,"uniregistrar.driver.http.HttpDriver.HttpDriver",,,,1,2,0
+Public Method,"uniregistrar.driver.http.HttpDriver.create",,,,10,34,3
+Public Method,"uniregistrar.driver.http.HttpDriver.deactivate",,,,10,34,3
+Public Method,"uniregistrar.driver.http.HttpDriver.getCreateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getHttpClient",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.properties",,,,8,18,3
+Public Method,"uniregistrar.driver.http.HttpDriver.remoteProperties",,,,10,27,3
+Public Method,"uniregistrar.driver.http.HttpDriver.setCreateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setCreateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setDeactivateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setHttpClient",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.update",,,,10,34,3
+Package,"uniregistrar.driver.servlet",,,,49,232,16
+Public Abstract Class,"uniregistrar.driver.servlet.AbstractServlet",4,0,0,3,14,0
+Static Method,"uniregistrar.driver.servlet.AbstractServlet.sendResponse",,,,3,11,0
+Public Class,"uniregistrar.driver.servlet.CreateServlet",16,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.CreateServlet.CreateServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.CreateServlet.doPost",,,,8,27,4
+Public Class,"uniregistrar.driver.servlet.DeactivateServlet",16,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.DeactivateServlet.DeactivateServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.DeactivateServlet.doPost",,,,8,27,4
+Public Class,"uniregistrar.driver.servlet.InitServlet",11,50,50,10,31,0
+Public Constructor,"uniregistrar.driver.servlet.InitServlet.InitServlet",,,,1,3,0
+Public Static Method,"uniregistrar.driver.servlet.InitServlet.getDriver",,,,1,3,0
+Public Method,"uniregistrar.driver.servlet.InitServlet.init",,,,7,17,0
+Public Static Method,"uniregistrar.driver.servlet.InitServlet.setDriver",,,,1,3,0
+Public Class,"uniregistrar.driver.servlet.PropertiesServlet",15,50,50,9,30,4
+Public Constructor,"uniregistrar.driver.servlet.PropertiesServlet.PropertiesServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.PropertiesServlet.doGet",,,,8,22,4
+Public Class,"uniregistrar.driver.servlet.UpdateServlet",16,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.UpdateServlet.UpdateServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.UpdateServlet.doPost",,,,8,27,4
+Package,"uniregistrar.driver.util",,,,7,30,0
+Public Class,"uniregistrar.driver.util.HttpBindingServerUtil",12,0,0,7,20,0
+Public Static Method,"uniregistrar.driver.util.HttpBindingServerUtil.httpStatusCodeForState",,,,5,12,0
+Public Static Method,"uniregistrar.driver.util.HttpBindingServerUtil.toHttpBodyStreamState",,,,2,5,0
+Package,"uniregistrar.local",,,,67,205,28
+Public Class,"uniregistrar.local.LocalUniRegistrar",38,72,44,67,179,28
+Public Constructor,"uniregistrar.local.LocalUniRegistrar.LocalUniRegistrar",,,,1,2,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.create",,,,14,36,7
+Public Method,"uniregistrar.local.LocalUniRegistrar.deactivate",,,,13,34,7
+Public Static Method,"uniregistrar.local.LocalUniRegistrar.fromConfigFile",,,,10,29,2
+Public Generic Method,"uniregistrar.local.LocalUniRegistrar.getDriver",,,,3,7,0
+TypeVariable,"uniregistrar.local.LocalUniRegistrar.getDriver.T",1,0,0,0,0,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.getDrivers",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.getExtensions",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.methods",,,,3,7,1
+Public Method,"uniregistrar.local.LocalUniRegistrar.properties",,,,6,13,1
+Public Method,"uniregistrar.local.LocalUniRegistrar.setDrivers",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.setExtensions",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.update",,,,13,34,7
+Package,"uniregistrar.local.extensions",,,,13,64,0
+Public Interface,"uniregistrar.local.extensions.Extension",10,0,0,6,22,0
+Public Static Abstract Class,"uniregistrar.local.extensions.Extension.AbstractExtension",0,0,0,0,2,0
+Public Method,"uniregistrar.local.extensions.Extension.afterCreate",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.Extension.afterDeactivate",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.Extension.afterUpdate",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.Extension.beforeCreate",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.Extension.beforeDeactivate",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.Extension.beforeUpdate",,,,1,3,0
+Public Class,"uniregistrar.local.extensions.ExtensionStatus",0,50,33,7,32,0
+Public Constructor,"uniregistrar.local.extensions.ExtensionStatus.ExtensionStatus",,,,1,3,0
+Public Constructor,"uniregistrar.local.extensions.ExtensionStatus.ExtensionStatus",,,,1,5,0
+Public Method,"uniregistrar.local.extensions.ExtensionStatus.or",,,,2,6,0
+Public Method,"uniregistrar.local.extensions.ExtensionStatus.skipDriver",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.ExtensionStatus.skipExtensionsAfter",,,,1,3,0
+Public Method,"uniregistrar.local.extensions.ExtensionStatus.skipExtensionsBefore",,,,1,3,0
+Package,"uniregistrar.local.extensions.impl",,,,2,18,0
+Public Class,"uniregistrar.local.extensions.impl.DummyExtension",10,0,0,2,8,0
+Public Method,"uniregistrar.local.extensions.impl.DummyExtension.afterCreate",,,,2,5,0
+Package,"uniregistrar.request",,,,77,381,45
+Public Class,"uniregistrar.request.CreateRequest",14,78,78,15,68,9
+Public Constructor,"uniregistrar.request.CreateRequest.CreateRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.CreateRequest.CreateRequest",,,,1,6,0
+Public Static Method,"uniregistrar.request.CreateRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.CreateRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.CreateRequest.getDidDocument",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.setDidDocument",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.CreateRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.CreateRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.CreateRequest.toString",,,,2,7,0
+Public Class,"uniregistrar.request.DeactivateRequest",13,78,78,15,68,9
+Public Constructor,"uniregistrar.request.DeactivateRequest.DeactivateRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.DeactivateRequest.DeactivateRequest",,,,1,6,0
+Public Static Method,"uniregistrar.request.DeactivateRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.DeactivateRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.getDid",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.setDid",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.DeactivateRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.DeactivateRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.DeactivateRequest.toString",,,,2,7,0
+Public Class,"uniregistrar.request.DecryptionResponse",13,62,37,8,34,9
+Private Constructor,"uniregistrar.request.DecryptionResponse.DecryptionResponse",,,,1,4,0
+Public Static Method,"uniregistrar.request.DecryptionResponse.build",,,,1,4,0
+Public Static Method,"uniregistrar.request.DecryptionResponse.build",,,,1,3,0
+Public Static Method,"uniregistrar.request.DecryptionResponse.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.DecryptionResponse.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.DecryptionResponse.fromMap",,,,1,3,0
+Public Method,"uniregistrar.request.DecryptionResponse.getDecryptedPayload",,,,1,4,0
+Public Method,"uniregistrar.request.DecryptionResponse.setDecryptedPayload",,,,1,4,0
+Public Final Class,"uniregistrar.request.SetSecretDecryptionResponses",9,0,0,7,19,0
+Private Constructor,"uniregistrar.request.SetSecretDecryptionResponses.SetSecretDecryptionResponses",,,,1,2,0
+Public Static Method,"uniregistrar.request.SetSecretDecryptionResponses.addSecretDecryptionResponse",,,,2,8,0
+Public Static Method,"uniregistrar.request.SetSecretDecryptionResponses.getSecretDecryptionResponses",,,,4,7,0
+Lambda Method,"uniregistrar.request.SetSecretDecryptionResponses.getSecretDecryptionResponses.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"uniregistrar.request.SetSecretDecryptionResponses.getSecretDecryptionResponses.(lambda_expr_2)",,,,1,1,0
+Public Final Class,"uniregistrar.request.SetSecretSigningResponses",8,0,0,7,19,0
+Private Constructor,"uniregistrar.request.SetSecretSigningResponses.SetSecretSigningResponses",,,,1,2,0
+Public Static Method,"uniregistrar.request.SetSecretSigningResponses.addSecretSigningResponse",,,,2,8,0
+Public Static Method,"uniregistrar.request.SetSecretSigningResponses.getSecretSigningResponses",,,,4,7,0
+Lambda Method,"uniregistrar.request.SetSecretSigningResponses.getSecretSigningResponses.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"uniregistrar.request.SetSecretSigningResponses.getSecretSigningResponses.(lambda_expr_2)",,,,1,1,0
+Public Class,"uniregistrar.request.SigningResponse",13,62,37,8,34,9
+Private Constructor,"uniregistrar.request.SigningResponse.SigningResponse",,,,1,4,0
+Public Static Method,"uniregistrar.request.SigningResponse.build",,,,1,4,0
+Public Static Method,"uniregistrar.request.SigningResponse.build",,,,1,3,0
+Public Static Method,"uniregistrar.request.SigningResponse.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.SigningResponse.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.SigningResponse.fromMap",,,,1,3,0
+Public Method,"uniregistrar.request.SigningResponse.getSignature",,,,1,4,0
+Public Method,"uniregistrar.request.SigningResponse.setSignature",,,,1,4,0
+Public Class,"uniregistrar.request.UpdateRequest",14,81,81,17,79,9
+Public Constructor,"uniregistrar.request.UpdateRequest.UpdateRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.UpdateRequest.UpdateRequest",,,,1,7,0
+Public Static Method,"uniregistrar.request.UpdateRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.UpdateRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getDid",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getDidDocument",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setDid",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setDidDocument",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.UpdateRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.UpdateRequest.toString",,,,2,7,0
+Package,"uniregistrar.state",,,,107,483,47
+Public Class,"uniregistrar.state.CreateState",12,0,0,6,23,6
+Private Constructor,"uniregistrar.state.CreateState.CreateState",,,,1,3,0
+Public Static Method,"uniregistrar.state.CreateState.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.CreateState.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.CreateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.CreateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.CreateState.fromMap",,,,1,3,0
+Public Class,"uniregistrar.state.DeactivateState",12,0,0,6,23,6
+Private Constructor,"uniregistrar.state.DeactivateState.DeactivateState",,,,1,3,0
+Public Static Method,"uniregistrar.state.DeactivateState.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.DeactivateState.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.DeactivateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.DeactivateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.DeactivateState.fromMap",,,,1,3,0
+Public Class,"uniregistrar.state.DecryptionRequest",13,78,64,14,67,9
+Private Constructor,"uniregistrar.state.DecryptionRequest.DecryptionRequest",,,,1,7,0
+Public Static Method,"uniregistrar.state.DecryptionRequest.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.DecryptionRequest.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.DecryptionRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.DecryptionRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.DecryptionRequest.fromMap",,,,1,3,0
+Public Method,"uniregistrar.state.DecryptionRequest.getEnc",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.getEncryptedPayload",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.getKid",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.getPayload",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.setEnc",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.setEncryptedPayload",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.setKid",,,,1,4,0
+Public Method,"uniregistrar.state.DecryptionRequest.setPayload",,,,1,4,0
+Public Class,"uniregistrar.state.SetState",3,0,0,3,10,0
+Private Constructor,"uniregistrar.state.SetState.SetState",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetState.getState",,,,1,3,0
+Public Static Method,"uniregistrar.state.SetState.setState",,,,1,3,0
+Public Class,"uniregistrar.state.SetStateAction",4,0,0,5,15,0
+Private Constructor,"uniregistrar.state.SetStateAction.SetStateAction",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateAction.getStateAction",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateAction.isStateAction",,,,1,3,0
+Public Static Method,"uniregistrar.state.SetStateAction.setStateAction",,,,1,4,0
+Public Final Class,"uniregistrar.state.SetStateActionDecryptionRequests",10,0,0,9,24,0
+Private Constructor,"uniregistrar.state.SetStateActionDecryptionRequests.SetStateActionDecryptionRequests",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateActionDecryptionRequests.addStateActionDecryptionRequest",,,,2,9,0
+Public Static Method,"uniregistrar.state.SetStateActionDecryptionRequests.getStateActionDecryptionRequests",,,,5,8,0
+Lambda Method,"uniregistrar.state.SetStateActionDecryptionRequests.getStateActionDecryptionRequests.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"uniregistrar.state.SetStateActionDecryptionRequests.getStateActionDecryptionRequests.(lambda_expr_2)",,,,1,1,0
+Public Static Method,"uniregistrar.state.SetStateActionDecryptionRequests.isStateActionDecryptPayload",,,,1,3,0
+Public Final Class,"uniregistrar.state.SetStateActionSigningRequests",10,0,0,9,24,0
+Private Constructor,"uniregistrar.state.SetStateActionSigningRequests.SetStateActionSigningRequests",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateActionSigningRequests.addStateActionSigningRequest",,,,2,9,0
+Public Static Method,"uniregistrar.state.SetStateActionSigningRequests.getStateActionSigningRequests",,,,5,8,0
+Lambda Method,"uniregistrar.state.SetStateActionSigningRequests.getStateActionSigningRequests.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"uniregistrar.state.SetStateActionSigningRequests.getStateActionSigningRequests.(lambda_expr_2)",,,,1,1,0
+Public Static Method,"uniregistrar.state.SetStateActionSigningRequests.isStateActionSignPayload",,,,1,3,0
+Public Class,"uniregistrar.state.SetStateFailed",4,0,0,7,23,1
+Private Constructor,"uniregistrar.state.SetStateFailed.SetStateFailed",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateFailed.getStateFailedError",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateFailed.getStateFailedReason",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateFailed.isStateFailed",,,,1,3,0
+Public Static Method,"uniregistrar.state.SetStateFailed.setStateFailed",,,,1,8,1
+Public Class,"uniregistrar.state.SetStateFinished",5,0,0,7,24,1
+Private Constructor,"uniregistrar.state.SetStateFinished.SetStateFinished",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateFinished.getStateFinishedDid",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateFinished.getStateFinishedSecret",,,,2,5,0
+Public Static Method,"uniregistrar.state.SetStateFinished.isStateFinished",,,,1,3,0
+Public Static Method,"uniregistrar.state.SetStateFinished.setStateFinished",,,,1,8,1
+Public Class,"uniregistrar.state.SetStateWait",4,0,0,7,20,0
+Private Constructor,"uniregistrar.state.SetStateWait.SetStateWait",,,,1,2,0
+Public Static Method,"uniregistrar.state.SetStateWait.getStateWait",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateWait.getStateWaittime",,,,2,4,0
+Public Static Method,"uniregistrar.state.SetStateWait.isStateWait",,,,1,3,0
+Public Static Method,"uniregistrar.state.SetStateWait.setStateWait",,,,1,5,0
+Public Class,"uniregistrar.state.SigningRequest",13,78,64,14,67,9
+Private Constructor,"uniregistrar.state.SigningRequest.SigningRequest",,,,1,7,0
+Public Static Method,"uniregistrar.state.SigningRequest.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.SigningRequest.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.SigningRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.SigningRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.SigningRequest.fromMap",,,,1,3,0
+Public Method,"uniregistrar.state.SigningRequest.getAlg",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.getKid",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.getPayload",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.getSerializedPayload",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.setAlg",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.setKid",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.setPayload",,,,1,4,0
+Public Method,"uniregistrar.state.SigningRequest.setSerializedPayload",,,,1,4,0
+Public Class,"uniregistrar.state.State",14,78,64,14,67,9
+Protected Constructor,"uniregistrar.state.State.State",,,,1,7,0
+Public Static Method,"uniregistrar.state.State.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.State.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.State.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.State.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.State.fromMap",,,,1,3,0
+Public Final Method,"uniregistrar.state.State.getDidDocumentMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.getDidRegistrationMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.getDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.setDidDocumentMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.setDidRegistrationMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.setDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.State.setJobId",,,,1,4,0
+Public Class,"uniregistrar.state.UpdateState",12,0,0,6,23,6
+Private Constructor,"uniregistrar.state.UpdateState.UpdateState",,,,1,3,0
+Public Static Method,"uniregistrar.state.UpdateState.build",,,,1,3,0
+Public Static Method,"uniregistrar.state.UpdateState.build",,,,1,4,0
+Public Static Method,"uniregistrar.state.UpdateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.UpdateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.UpdateState.fromMap",,,,1,3,0
+Package,"uniregistrar.web",,,,20,63,3
+Public Abstract Class,"uniregistrar.web.WebUniRegistrar",15,80,30,20,46,3
+Public Constructor,"uniregistrar.web.WebUniRegistrar.WebUniRegistrar",,,,1,3,0
+Public Method,"uniregistrar.web.WebUniRegistrar.create",,,,2,4,0
+Public Method,"uniregistrar.web.WebUniRegistrar.deactivate",,,,2,4,0
+Protected Method,"uniregistrar.web.WebUniRegistrar.doOptions",,,,1,6,0
+Public Method,"uniregistrar.web.WebUniRegistrar.getUniRegistrar",,,,1,3,0
+Public Method,"uniregistrar.web.WebUniRegistrar.handleRequest",,,,6,8,0
+Public Method,"uniregistrar.web.WebUniRegistrar.methods",,,,2,4,0
+Public Method,"uniregistrar.web.WebUniRegistrar.properties",,,,2,4,0
+Public Method,"uniregistrar.web.WebUniRegistrar.setUniRegistrar",,,,1,3,0
+Public Method,"uniregistrar.web.WebUniRegistrar.update",,,,2,4,0
+Package,"uniregistrar.web.servlet",,,,51,256,17
+Public Class,"uniregistrar.web.servlet.CreateServlet",17,0,0,10,36,3
+Protected Method,"uniregistrar.web.servlet.CreateServlet.doPost",,,,10,34,3
+Public Class,"uniregistrar.web.servlet.DeactivateServlet",17,0,0,10,37,3
+Protected Method,"uniregistrar.web.servlet.DeactivateServlet.doPost",,,,10,34,3
+Public Class,"uniregistrar.web.servlet.MethodsServlet",14,0,0,7,25,4
+Protected Method,"uniregistrar.web.servlet.MethodsServlet.doGet",,,,7,22,4
+Public Class,"uniregistrar.web.servlet.PropertiesServlet",14,0,0,7,25,4
+Protected Method,"uniregistrar.web.servlet.PropertiesServlet.doGet",,,,7,22,4
+Public Class,"uniregistrar.web.servlet.ServletUtil",8,0,0,7,25,0
+Static Method,"uniregistrar.web.servlet.ServletUtil.sendResponse",,,,7,22,0
+Public Class,"uniregistrar.web.servlet.UpdateServlet",17,0,0,10,37,3
+Protected Method,"uniregistrar.web.servlet.UpdateServlet.doPost",,,,10,34,3

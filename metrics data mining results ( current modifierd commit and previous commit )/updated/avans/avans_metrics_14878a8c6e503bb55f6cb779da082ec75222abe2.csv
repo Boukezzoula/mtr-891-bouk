@@ -1,0 +1,1071 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,0,120,0
+File,"AnnotationBasedDispatcherTest.java",,,,6,69,0
+File,"AvansServlet.java",,,,11,61,38
+File,"AvansWebApplicationTest.java",,,,43,467,3
+File,"BaseController.java",,,,0,4,0
+File,"BaseController.java",,,,2,20,6
+File,"BasicAPIResponse.java",,,,7,36,0
+File,"BasicModule.java",,,,0,4,0
+File,"BasicModule.java",,,,4,24,0
+File,"BeanParam.java",,,,0,9,0
+File,"BeanParamTest.java",,,,17,294,14
+File,"BeforeDispatchTrigger.java",,,,0,9,13
+File,"BeforeDispatchTriggerTest.java",,,,8,67,1
+File,"CLIModule.java",,,,1,17,0
+File,"CLIModule.java",,,,0,4,0
+File,"CharacterEscapesAgainstXSS.java",,,,3,22,2
+File,"Config.java",,,,0,4,0
+File,"Config.java",,,,0,8,0
+File,"ConfigProvider.java",,,,0,4,0
+File,"ConfigProvider.java",,,,5,36,0
+File,"ConnectionProvider.java",,,,3,36,3
+File,"ConnectionProvider.java",,,,0,4,0
+File,"Controller.java",,,,0,23,11
+File,"ControllerBase.java",,,,162,808,101
+File,"ControllerBaseTest.java",,,,153,1233,100
+File,"ControllerTestBase.java",,,,3,35,5
+File,"ControllerTestBase.java",,,,0,4,0
+File,"DataSourceConfig.java",,,,0,4,0
+File,"DataSourceConfig.java",,,,0,7,2
+File,"DataSourceProvider.java",,,,3,28,2
+File,"DataSourceProvider.java",,,,0,4,0
+File,"DefaultServlet.java",,,,0,4,0
+File,"DefaultServlet.java",,,,1,15,0
+File,"DefaultSessionCookieFactory.java",,,,4,47,3
+File,"DefaultSessionCookieFactoryTest.java",,,,1,18,0
+File,"DefaultWebSessionManager.java",,,,43,227,9
+File,"DefaultXSRFTokenCookieFactory.java",,,,6,61,8
+File,"DefaultXSRFTokenCookieFactoryTest.java",,,,1,29,2
+File,"Dispatcher.java",,,,0,4,0
+File,"Dispatcher.java",,,,25,151,15
+File,"Dispatcher.java",,,,5,41,3
+File,"ErrorPageRenderer.java",,,,0,6,7
+File,"FilterScanner.java",,,,14,67,3
+File,"Filters.java",,,,6,37,0
+File,"FreeMarkerView.java",,,,3,42,0
+File,"FreeMarkerViewTest.java",,,,5,59,2
+File,"FreemarkerConfigurationProvider.java",,,,8,59,4
+File,"FreemarkerConfigurationProvider.java",,,,0,4,0
+File,"FreemarkerView.java",,,,3,48,0
+File,"FreemarkerView.java",,,,0,4,0
+File,"GET.java",,,,0,10,0
+File,"GuiceServletConfig.java",,,,0,4,0
+File,"GuiceServletConfig.java",,,,5,41,2
+File,"HTMLFilter.java",,,,0,9,3
+File,"HTMLFilterProvider.java",,,,0,4,0
+File,"HTMLFilterTest.java",,,,4,40,0
+File,"HashMapSessionStore.java",,,,4,26,7
+File,"Helper.java",,,,5,26,0
+File,"Helper.java",,,,0,4,0
+File,"HtmlTemplateLoader.java",,,,6,38,0
+File,"HtmlTemplateLoader.java",,,,0,4,0
+File,"JDBCConfig.java",,,,0,8,0
+File,"JDBCConfig.java",,,,0,4,0
+File,"JSONErrorPageRenderer.java",,,,1,12,7
+File,"JSONParamReader.java",,,,0,7,3
+File,"JSONRendererProvider.java",,,,0,5,7
+File,"JacksonJsonParamReader.java",,,,6,48,7
+File,"JacksonJsonParamReaderBenchmark.java",,,,3,32,1
+File,"JacksonJsonParamReaderTest.java",,,,1,56,0
+File,"JacksonJsonView.java",,,,6,53,9
+File,"JacksonJsonViewBenchmark.java",,,,10,103,0
+File,"JacksonJsonViewTest.java",,,,117,640,6
+File,"JsonParam.java",,,,0,9,0
+File,"K.java",,,,10,53,23
+File,"Main.java",,,,1,15,0
+File,"MyController.java",,,,2,19,0
+File,"MySQLService.java",,,,2,14,3
+File,"MySQLService.java",,,,0,4,0
+File,"MySQLServiceTest.java",,,,0,4,0
+File,"MySQLServiceTest.java",,,,1,12,0
+File,"POST.java",,,,0,10,0
+File,"Param.java",,,,0,10,0
+File,"ParamProcessor.java",,,,0,12,21
+File,"ParamProcessorTest.java",,,,14,147,0
+File,"ParameterProcessorResult.java",,,,15,65,23
+File,"PathParam.java",,,,0,10,0
+File,"PooledConnectionProvider.java",,,,3,26,3
+File,"PooledConnectionProvider.java",,,,0,4,0
+File,"ResponseConverter.java",,,,0,10,18
+File,"ResponseConverterTest.java",,,,4,45,0
+File,"ResponseFilter.java",,,,0,9,12
+File,"ResponseFilterTest.java",,,,4,44,0
+File,"RootController.java",,,,7,58,1
+File,"RootController.java",,,,1,29,0
+File,"RootController.java",,,,0,4,0
+File,"RootControllerTest.java",,,,5,68,1
+File,"RootControllerTest.java",,,,0,4,0
+File,"RootControllerTest.java",,,,1,15,0
+File,"SampleCLI.java",,,,0,4,0
+File,"SampleCLI.java",,,,3,27,0
+File,"SampleCLITest.java",,,,0,4,0
+File,"SampleCLITest.java",,,,1,10,0
+File,"SecureRandomSessionIDGenerator.java",,,,2,20,13
+File,"SecureRandomSessionIDGeneratorTest.java",,,,2,23,0
+File,"Servlet.java",,,,0,4,0
+File,"Servlet.java",,,,3,39,2
+File,"SessionCookieFactory.java",,,,0,6,0
+File,"SessionIDGenerator.java",,,,0,4,0
+File,"SessionMixin.java",,,,4,28,0
+File,"SessionMixinTest.java",,,,10,195,5
+File,"SpyMemcachedSessionStore.java",,,,9,65,24
+File,"SpyMemcachedSessionStoreTest.java",,,,14,179,0
+File,"TestBase.java",,,,0,4,0
+File,"TestBase.java",,,,4,28,0
+File,"TextRendererProvider.java",,,,0,5,6
+File,"TinyORMProvider.java",,,,0,4,0
+File,"TinyORMProvider.java",,,,1,13,0
+File,"TinyValidatorValidator.java",,,,8,67,11
+File,"TinyValidatorValidatorTest.java",,,,12,189,7
+File,"UploadController.java",,,,2,30,0
+File,"UploadController.java",,,,0,4,0
+File,"UploadFile.java",,,,0,10,6
+File,"ValidatorProvider.java",,,,1,10,7
+File,"WebModule.java",,,,1,13,0
+File,"WebModule.java",,,,0,4,0
+File,"WebRequestScopedModule.java",,,,0,4,0
+File,"WebRequestScopedModule.java",,,,1,24,2
+File,"WebSessionManager.java",,,,0,17,45
+File,"WebSessionStore.java",,,,0,8,0
+File,"XSRFTokenCookieFactory.java",,,,0,6,3
+Public Implicit Method,"clone",,,,0,,
+Package,"com",,,,0,0,0
+Package,"com.example",,,,0,0,0
+Package,"com.example.kitchen",,,,0,0,0
+Package,"com.example.kitchen.controller",,,,12,126,2
+Public Class,"com.example.kitchen.controller.RootController",10,0,0,4,45,1
+Public Static Class,"com.example.kitchen.controller.RootController.MyObject",4,0,0,1,8,0
+Public Constructor,"com.example.kitchen.controller.RootController.MyObject.MyObject",,,,1,4,0
+Public Static Class,"com.example.kitchen.controller.RootController.MyObjectAPIResponse",3,50,50,2,12,0
+Public Constructor,"com.example.kitchen.controller.RootController.MyObjectAPIResponse.MyObjectAPIResponse",,,,1,3,0
+Public Constructor,"com.example.kitchen.controller.RootController.MyObjectAPIResponse.MyObjectAPIResponse",,,,1,4,0
+Public Static Class,"com.example.kitchen.controller.RootController.TmplParams",2,0,0,0,4,0
+Public Method,"com.example.kitchen.controller.RootController.getMustacheView",,,,1,4,0
+Public Method,"com.example.kitchen.controller.RootController.json",,,,1,4,0
+Public Method,"com.example.kitchen.controller.RootController.qqquery",,,,1,5,0
+Public Method,"com.example.kitchen.controller.RootController.root",,,,1,6,1
+Public Class,"com.example.kitchen.controller.RootControllerTest",21,37,37,5,49,1
+Public Method,"com.example.kitchen.controller.RootControllerTest.after",,,,2,6,0
+Public Method,"com.example.kitchen.controller.RootControllerTest.before",,,,1,14,1
+Public Method,"com.example.kitchen.controller.RootControllerTest.testJson",,,,1,15,0
+Public Method,"com.example.kitchen.controller.RootControllerTest.testRoot",,,,1,10,0
+Package,"me",,,,0,0,0
+Package,"me.geso",,,,0,0,0
+Package,"me.geso.avans",,,,439,3012,331
+Public Class,"me.geso.avans.AvansServlet",18,16,0,11,50,38
+Public Method,"me.geso.avans.AvansServlet.getDispatcher",,,,1,3,5
+Public Method,"me.geso.avans.AvansServlet.init",,,,6,25,12
+Public Method,"me.geso.avans.AvansServlet.registerClass",,,,1,3,5
+Public Method,"me.geso.avans.AvansServlet.registerPackage",,,,1,3,5
+Public Method,"me.geso.avans.AvansServlet.registerPackage",,,,1,3,5
+Public Method,"me.geso.avans.AvansServlet.service",,,,1,7,3
+Public Class,"me.geso.avans.AvansWebApplicationTest",19,50,50,17,426,3
+Public Static Class,"me.geso.avans.AvansWebApplicationTest.Foo",3,0,0,0,5,0
+Public Static Class,"me.geso.avans.AvansWebApplicationTest.MyController",26,0,0,24,140,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.callback",,,,2,7,0
+Lambda Method,"me.geso.avans.AvansWebApplicationTest.MyController.callback.(lambda_expr_1)",,,,1,4,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.escapeHTML",,,,1,6,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.jsonEasy",,,,1,4,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.jsonParam",,,,1,6,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.optionalString",,,,1,6,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.paramGet",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.paramPost",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.partArray",,,,3,18,0
+Lambda Method,"me.geso.avans.AvansWebApplicationTest.MyController.partArray.(lambda_expr_1)",,,,2,9,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.partSingle",,,,1,8,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.pathParamAnnotation",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.postForm",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.postMultipart",,,,1,9,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.query",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.queryParamAnnotation",,,,1,8,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.responseFilter",,,,1,4,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.root",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.uploadFile",,,,1,7,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.uploadFileArray",,,,2,12,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyController.uploadOptionalFile",,,,2,13,0
+Public Static Class,"me.geso.avans.AvansWebApplicationTest.MyServlet",10,0,0,1,13,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.MyServlet.service",,,,1,6,0
+Public Static Class,"me.geso.avans.AvansWebApplicationTest.StringAPIResponse",3,0,0,1,8,0
+Public Constructor,"me.geso.avans.AvansWebApplicationTest.StringAPIResponse.StringAPIResponse",,,,1,3,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.after",,,,2,6,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.before",,,,1,21,2
+Public Method,"me.geso.avans.AvansWebApplicationTest.test",,,,1,43,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testEscapeHTMLCharacters",,,,1,9,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testJson",,,,1,5,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testJsonEasy",,,,1,8,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testJsonParam",,,,1,20,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testNg",,,,1,41,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testOptionalString",,,,1,15,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testParamAnnotation",,,,1,17,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testPathParamAnnotation",,,,1,9,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testPostForm",,,,1,11,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testPostMultipart",,,,1,14,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testUploadFile",,,,1,10,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testUploadFileArray",,,,1,11,0
+Public Method,"me.geso.avans.AvansWebApplicationTest.testUploadOptionalFile",,,,1,16,1
+Public Class,"me.geso.avans.BasicAPIResponse",6,28,28,7,30,0
+Public Constructor,"me.geso.avans.BasicAPIResponse.BasicAPIResponse",,,,1,4,0
+Public Constructor,"me.geso.avans.BasicAPIResponse.BasicAPIResponse",,,,1,4,0
+Public Constructor,"me.geso.avans.BasicAPIResponse.BasicAPIResponse",,,,1,4,0
+Public Method,"me.geso.avans.BasicAPIResponse.getCode",,,,1,3,0
+Public Method,"me.geso.avans.BasicAPIResponse.getMessages",,,,1,3,0
+Public Method,"me.geso.avans.BasicAPIResponse.setCode",,,,1,3,0
+Public Method,"me.geso.avans.BasicAPIResponse.setMessages",,,,1,3,0
+Public Interface,"me.geso.avans.Controller",8,0,0,0,16,11
+Public Abstract Method,"me.geso.avans.Controller.computePluginStashValueIfAbsent",,,,0,3,3
+Public Abstract Method,"me.geso.avans.Controller.getPathParams",,,,0,1,0
+Public Abstract Method,"me.geso.avans.Controller.getPluginStashValue",,,,0,1,3
+Public Abstract Method,"me.geso.avans.Controller.getServletRequest",,,,0,1,0
+Abstract Method,"me.geso.avans.Controller.init",,,,0,3,0
+Public Abstract Method,"me.geso.avans.Controller.invoke",,,,0,3,0
+Public Abstract Method,"me.geso.avans.Controller.setPluginStashValue",,,,0,2,5
+Public Abstract Class,"me.geso.avans.ControllerBase",83,91,82,162,747,101
+Public Method,"me.geso.avans.ControllerBase.close",,,,1,3,0
+Public Method,"me.geso.avans.ControllerBase.computePluginStashValueIfAbsent",,,,2,8,0
+Lambda Method,"me.geso.avans.ControllerBase.computePluginStashValueIfAbsent.(lambda_expr_1)",,,,1,1,0
+Public Method,"me.geso.avans.ControllerBase.errorForbidden",,,,1,3,5
+Public Method,"me.geso.avans.ControllerBase.errorForbidden",,,,1,3,0
+Private Method,"me.geso.avans.ControllerBase.errorIllegalParameters",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBase.errorMethodNotAllowed",,,,1,3,5
+Protected Method,"me.geso.avans.ControllerBase.errorMissingMandatoryParameters",,,,1,7,0
+Public Method,"me.geso.avans.ControllerBase.errorNotFound",,,,1,3,5
+Public Method,"me.geso.avans.ControllerBase.filterHTML",,,,3,13,0
+Private Method,"me.geso.avans.ControllerBase.generatePluginStashKey",,,,1,3,0
+Private Method,"me.geso.avans.ControllerBase.getAllDeclaredFields",,,,2,9,0
+Public Method,"me.geso.avans.ControllerBase.getCurrentURL",,,,1,3,7
+Method,"me.geso.avans.ControllerBase.getFilters",,,,2,10,0
+Lambda Method,"me.geso.avans.ControllerBase.getFilters.(lambda_expr_1)",,,,1,5,0
+Private Method,"me.geso.avans.ControllerBase.getObjectFromParameterObjectValue",,,,74,303,4
+Lambda Method,"me.geso.avans.ControllerBase.getObjectFromParameterObjectValue.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"me.geso.avans.ControllerBase.getObjectFromParameterObjectValue.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"me.geso.avans.ControllerBase.getObjectFromParameterObjectValue.(lambda_expr_3)",,,,1,1,0
+Private Generic Method,"me.geso.avans.ControllerBase.getParameterValue",,,,21,101,10
+Lambda Method,"me.geso.avans.ControllerBase.getParameterValue.(lambda_expr_1)",,,,1,1,0
+TypeVariable,"me.geso.avans.ControllerBase.getParameterValue.T",0,0,0,0,0,0
+Public Method,"me.geso.avans.ControllerBase.getPathParams",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBase.getPluginStashValue",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBase.getServletRequest",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBase.handleException",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBase.init",,,,1,9,0
+Public Method,"me.geso.avans.ControllerBase.invoke",,,,4,22,0
+Private Method,"me.geso.avans.ControllerBase.logException",,,,2,40,4
+Private Method,"me.geso.avans.ControllerBase.makeResponse",,,,26,118,5
+Public Method,"me.geso.avans.ControllerBase.redirect",,,,1,3,6
+Public Method,"me.geso.avans.ControllerBase.redirect",,,,2,8,6
+Lambda Method,"me.geso.avans.ControllerBase.redirect.(lambda_expr_1)",,,,1,1,0
+Public Method,"me.geso.avans.ControllerBase.renderText",,,,2,10,6
+Private Method,"me.geso.avans.ControllerBase.setDefaultCharacterEncoding",,,,1,3,0
+Public Method,"me.geso.avans.ControllerBase.setPluginStashValue",,,,1,6,0
+Private Method,"me.geso.avans.ControllerBase.unwrapRuntimeException",,,,2,7,0
+Public Method,"me.geso.avans.ControllerBase.uriFor",,,,1,3,8
+Public Method,"me.geso.avans.ControllerBase.uriFor",,,,1,3,13
+Public Method,"me.geso.avans.ControllerBase.uriWith",,,,1,3,11
+Public Class,"me.geso.avans.ControllerBaseTest",23,0,0,4,1197,100
+Private Static Class,"me.geso.avans.ControllerBaseTest.Controller2",1,0,0,0,3,0
+Public Static Abstract Class,"me.geso.avans.ControllerBaseTest.Controller3",1,0,0,0,4,0
+Public Static Abstract Class,"me.geso.avans.ControllerBaseTest.ControllerX",4,0,0,1,8,0
+Public Method,"me.geso.avans.ControllerBaseTest.ControllerX.filterA2",,,,1,4,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.ControllerY",4,0,0,1,7,0
+Public Method,"me.geso.avans.ControllerBaseTest.ControllerY.filterA",,,,1,4,0
+Interface,"me.geso.avans.ControllerBaseTest.Mixin",2,0,0,1,5,0
+Public Method,"me.geso.avans.ControllerBaseTest.Mixin.filter",,,,1,3,0
+Interface,"me.geso.avans.ControllerBaseTest.MixinA",2,0,0,2,8,0
+Public Method,"me.geso.avans.ControllerBaseTest.MixinA.filterA",,,,1,3,0
+Public Method,"me.geso.avans.ControllerBaseTest.MixinA.filterA2",,,,1,3,0
+Interface,"me.geso.avans.ControllerBaseTest.MixinB",2,0,0,1,5,0
+Public Method,"me.geso.avans.ControllerBaseTest.MixinB.filterB",,,,1,3,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.MyController",3,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.MyController.filter",,,,1,3,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestArrays",8,0,0,17,164,19
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestArrays.Controller",9,0,0,8,34,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.bigIntegerArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.booleanArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.booleanObjectArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.intArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.integerArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.longArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.longObjectArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.Controller.stringArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays",,,,17,128,16
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_10)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_11)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_12)",,,,1,10,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_13)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_14)",,,,1,10,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_15)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_16)",,,,1,10,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_2)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_3)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_4)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_5)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_6)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_7)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_8)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestArrays.testArrays.(lambda_expr_9)",,,,1,6,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestForBadNumberFormatExeption",8,0,0,2,25,1
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestForBadNumberFormatExeption.Controller",3,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestForBadNumberFormatExeption.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestForBadNumberFormatExeption.shouldGetBigIntegerParam",,,,2,17,1
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestForBadNumberFormatExeption.shouldGetBigIntegerParam.(lambda_expr_1)",,,,1,10,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters",8,0,0,4,41,3
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.shouldGetBigIntegerParam",,,,4,33,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.shouldGetBigIntegerParam.(lambda_expr_1)",,,,1,7,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.shouldGetBigIntegerParam.(lambda_expr_2)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestForBigIntegerParameters.shouldGetBigIntegerParam.(lambda_expr_3)",,,,1,10,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL",14,0,0,4,62,8
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.Controller",5,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.Controller.a",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.testWithContextPath",,,,2,27,4
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.testWithContextPath.(lambda_expr_1)",,,,1,22,4
+Public Method,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.testX",,,,2,27,4
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestGetCurrentURL.testX.(lambda_expr_1)",,,,1,22,4
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestList",8,0,0,7,86,9
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestList.Controller",4,0,0,5,22,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.Controller.bigIntegerArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.Controller.booleanObjectArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.Controller.integerArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.Controller.longObjectArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.Controller.stringArrays",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestList.testList",,,,7,62,6
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_2)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_3)",,,,1,11,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_4)",,,,1,11,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_5)",,,,1,10,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestList.testList.(lambda_expr_6)",,,,1,10,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalDateTimeParameter.testX.(lambda_expr_4)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLocalTimeParameter.testX.(lambda_expr_4)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLong",8,0,0,4,40,3
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestLong.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLong.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestLong.testX",,,,4,32,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLong.testX.(lambda_expr_1)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLong.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestLong.testX.(lambda_expr_3)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter",8,0,0,4,42,1
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.Controller",4,0,0,2,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.Controller.root",,,,2,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.testX",,,,4,34,1
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalBooleanParameter.testX.(lambda_expr_3)",,,,1,13,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalDouble",8,0,0,4,38,6
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.testX",,,,4,30,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalDouble.testX.(lambda_expr_3)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalInt",8,0,0,4,38,6
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalInt.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalInt.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalInt.testX",,,,4,30,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalInt.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalInt.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalInt.testX.(lambda_expr_3)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.Controller",4,0,0,2,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.Controller.root",,,,2,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateParameter.testX.(lambda_expr_4)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.Controller",4,0,0,2,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.Controller.root",,,,2,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalDateTimeParameter.testX.(lambda_expr_4)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.Controller",4,0,0,2,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.Controller.root",,,,2,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLocalTimeParameter.testX.(lambda_expr_4)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLong",8,0,0,4,38,6
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalLong.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLong.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalLong.testX",,,,4,30,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLong.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLong.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalLong.testX.(lambda_expr_3)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter",8,0,0,4,38,1
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.testX",,,,4,30,1
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestOptionalStringParameter.testX.(lambda_expr_3)",,,,1,9,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestRedirect",8,0,0,2,23,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestRedirect.Controller",2,0,0,2,10,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirect.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirect.Controller.yyy",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirect.testX",,,,2,11,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestRedirect.testX.(lambda_expr_1)",,,,1,6,0
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters",13,0,0,3,52,5
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.Controller",7,0,0,4,28,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.Controller.a",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.Controller.b",,,,1,7,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.Controller.c",,,,1,8,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.Controller.z",,,,1,5,0
+Private Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.getPathQuery",,,,1,8,2
+Public Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.testX",,,,2,14,3
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestRedirectWithQueryParameters.testX.(lambda_expr_1)",,,,1,9,3
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestURIFor",14,0,0,4,101,6
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestURIFor.Controller",7,0,0,4,25,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.Controller.a",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.Controller.b",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.Controller.cd",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.Controller.cde",,,,1,7,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.testURIFor",,,,2,28,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestURIFor.testURIFor.(lambda_expr_1)",,,,1,23,2
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIFor.testURIForContextPath",,,,2,46,4
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestURIFor.testURIForContextPath.(lambda_expr_1)",,,,1,41,4
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestURIWith",14,0,0,2,29,1
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestURIWith.Controller",7,0,0,1,8,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIWith.Controller.b",,,,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestURIWith.testURIWith",,,,2,19,1
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestURIWith.testURIWith.(lambda_expr_1)",,,,1,14,1
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter",8,0,0,5,49,2
+Public Static Class,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.Controller",4,0,0,1,6,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.Controller.root",,,,1,4,0
+Public Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.testX",,,,5,41,2
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.testX.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.testX.(lambda_expr_2)",,,,1,8,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.testX.(lambda_expr_3)",,,,1,9,0
+Lambda Method,"me.geso.avans.ControllerBaseTest.TestlLocalDateParameter.testX.(lambda_expr_4)",,,,1,9,0
+Private Method,"me.geso.avans.ControllerBaseTest.method",,,,1,3,0
+Public Method,"me.geso.avans.ControllerBaseTest.test",,,,1,7,0
+Public Method,"me.geso.avans.ControllerBaseTest.test2",,,,1,8,1
+Public Method,"me.geso.avans.ControllerBaseTest.test3",,,,1,19,1
+Public Class,"me.geso.avans.Dispatcher",25,70,50,22,135,15
+Public Static Class,"me.geso.avans.Dispatcher.Action",2,33,33,3,15,0
+Public Constructor,"me.geso.avans.Dispatcher.Action.Action",,,,1,5,0
+Public Method,"me.geso.avans.Dispatcher.Action.getControllerClass",,,,1,3,0
+Public Method,"me.geso.avans.Dispatcher.Action.getMethod",,,,1,3,0
+Public Constructor,"me.geso.avans.Dispatcher.Dispatcher",,,,1,2,0
+Protected Method,"me.geso.avans.Dispatcher.buildController",,,,1,4,3
+Public Method,"me.geso.avans.Dispatcher.getRouter",,,,1,3,0
+Public Method,"me.geso.avans.Dispatcher.handler",,,,3,19,1
+Public Method,"me.geso.avans.Dispatcher.registerClass",,,,5,27,3
+Public Method,"me.geso.avans.Dispatcher.registerPackage",,,,4,22,4
+Public Method,"me.geso.avans.Dispatcher.registerPackage",,,,1,3,3
+Public Method,"me.geso.avans.Dispatcher.runController",,,,2,11,0
+Public Method,"me.geso.avans.Dispatcher.writeMethodNotAllowedErrorPage",,,,2,12,0
+Public Method,"me.geso.avans.Dispatcher.writeNotFoundErrorPage",,,,2,11,0
+Public Interface,"me.geso.avans.ErrorPageRenderer",2,0,0,0,4,7
+Public Abstract Method,"me.geso.avans.ErrorPageRenderer.renderError",,,,0,2,7
+Class,"me.geso.avans.FilterScanner",14,38,5,14,55,3
+Method,"me.geso.avans.FilterScanner.build",,,,1,8,0
+Public Method,"me.geso.avans.FilterScanner.scan",,,,6,18,3
+Method,"me.geso.avans.FilterScanner.scanMethod",,,,7,21,0
+Class,"me.geso.avans.Filters",1,66,66,6,34,0
+Constructor,"me.geso.avans.Filters.Filters",,,,1,12,0
+Public Method,"me.geso.avans.Filters.getBeforeDispatchTriggers",,,,1,3,0
+Public Method,"me.geso.avans.Filters.getHtmlFilters",,,,1,3,0
+Public Method,"me.geso.avans.Filters.getParamProcessors",,,,1,3,0
+Public Method,"me.geso.avans.Filters.getResponseConverters",,,,1,3,0
+Public Method,"me.geso.avans.Filters.getResponseFilters",,,,1,3,0
+Public Interface,"me.geso.avans.HTMLFilterProvider",1,0,0,0,3,0
+Public Abstract Method,"me.geso.avans.HTMLFilterProvider.filterHTML",,,,0,1,0
+Public Interface,"me.geso.avans.JSONErrorPageRenderer",5,0,0,1,9,7
+Public Method,"me.geso.avans.JSONErrorPageRenderer.renderError",,,,1,6,7
+Public Interface,"me.geso.avans.JSONParamReader",3,0,0,0,4,0
+Public Abstract Method,"me.geso.avans.JSONParamReader.readJsonParam",,,,0,2,0
+Public Interface,"me.geso.avans.JSONRendererProvider",1,0,0,0,3,7
+Public Abstract Method,"me.geso.avans.JSONRendererProvider.renderJSON",,,,0,1,7
+Public Class,"me.geso.avans.Main",5,0,0,1,11,0
+Public Static Method,"me.geso.avans.Main.main",,,,1,9,0
+Public Class,"me.geso.avans.ParameterProcessorResult",4,75,75,15,62,23
+Public Static Method,"me.geso.avans.ParameterProcessorResult.fromData",,,,1,6,6
+Public Static Method,"me.geso.avans.ParameterProcessorResult.fromWebResponse",,,,1,6,6
+Public Method,"me.geso.avans.ParameterProcessorResult.getData",,,,2,6,0
+Public Method,"me.geso.avans.ParameterProcessorResult.getIllegalParameter",,,,1,3,0
+Public Method,"me.geso.avans.ParameterProcessorResult.getMissingParameter",,,,2,6,0
+Public Method,"me.geso.avans.ParameterProcessorResult.getResponse",,,,2,6,0
+Public Method,"me.geso.avans.ParameterProcessorResult.hasData",,,,1,3,0
+Public Method,"me.geso.avans.ParameterProcessorResult.hasIllegalParameter",,,,1,3,0
+Public Method,"me.geso.avans.ParameterProcessorResult.hasMissingParameter",,,,1,3,0
+Public Method,"me.geso.avans.ParameterProcessorResult.hasResponse",,,,1,3,5
+Public Static Method,"me.geso.avans.ParameterProcessorResult.illegalParameter",,,,1,5,0
+Public Static Method,"me.geso.avans.ParameterProcessorResult.missingParameter",,,,1,6,6
+Public Interface,"me.geso.avans.TextRendererProvider",2,0,0,0,3,6
+Public Abstract Method,"me.geso.avans.TextRendererProvider.renderText",,,,0,1,6
+Public Interface,"me.geso.avans.ValidatorProvider",2,0,0,1,6,7
+Public Method,"me.geso.avans.ValidatorProvider.validateParameters",,,,1,4,7
+Package,"me.geso.avans.annotation",,,,17,362,20
+Public Annotation,"me.geso.avans.annotation.BeanParam",2,0,0,0,4,0
+Public Class,"me.geso.avans.annotation.BeanParamTest",20,0,0,10,262,14
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.BeanHasStaticField",3,0,0,0,6,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.Child",5,0,0,0,7,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController",13,0,0,5,74,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController.FileBean",5,0,0,0,9,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController.MyBean",7,0,0,0,21,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController.OBean",5,0,0,0,9,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.MyController.fileBean",,,,3,19,0
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.MyController.fileBean.(lambda_expr_1)",,,,2,7,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.MyController.foo",,,,1,4,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.MyController.oBean",,,,1,10,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController2",5,0,0,1,6,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.MyController2.jsonParam",,,,1,4,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.MyController3",5,0,0,1,7,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.MyController3.jsonParam",,,,1,5,0
+Public Static Class,"me.geso.avans.annotation.BeanParamTest.Parent",4,0,0,0,6,0
+Private Interface,"me.geso.avans.annotation.BeanParamTest.TestCallback",4,0,0,0,4,0
+Public Abstract Method,"me.geso.avans.annotation.BeanParamTest.TestCallback.call",,,,0,1,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.test",,,,2,68,2
+Private Method,"me.geso.avans.annotation.BeanParamTest.test",,,,2,17,0
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.test.(lambda_expr_1)",,,,1,60,2
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.test.(lambda_expr_1)",,,,1,6,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.testFileBean",,,,2,20,2
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.testFileBean.(lambda_expr_1)",,,,1,17,1
+Public Method,"me.geso.avans.annotation.BeanParamTest.testInheritanceShouldIgnoreStaticFields",,,,2,21,0
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.testInheritanceShouldIgnoreStaticFields.(lambda_expr_1)",,,,1,12,0
+Public Method,"me.geso.avans.annotation.BeanParamTest.testInheritanceWithBeanParam",,,,2,23,0
+Lambda Method,"me.geso.avans.annotation.BeanParamTest.testInheritanceWithBeanParam.(lambda_expr_1)",,,,1,14,0
+Public Annotation,"me.geso.avans.annotation.GET",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.annotation.GET.value",,,,0,1,0
+Public Annotation,"me.geso.avans.annotation.JsonParam",2,0,0,0,4,0
+Public Annotation,"me.geso.avans.annotation.POST",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.annotation.POST.value",,,,0,1,0
+Public Annotation,"me.geso.avans.annotation.Param",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.annotation.Param.value",,,,0,1,0
+Public Annotation,"me.geso.avans.annotation.PathParam",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.annotation.PathParam.value",,,,0,1,0
+Public Annotation,"me.geso.avans.annotation.UploadFile",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.annotation.UploadFile.value",,,,0,1,0
+Package,"me.geso.avans.annotationbased",,,,8,88,0
+Public Class,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest",10,0,0,5,51,0
+Public Interface,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.BasicAction",3,0,0,0,4,0
+Public Abstract Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.BasicAction.run",,,,0,1,0
+Public Static Class,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.MyApplication",0,0,0,0,2,0
+Public Static Class,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.MyServlet",9,0,0,1,16,0
+Public Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.MyServlet.service",,,,1,7,0
+Public Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.after",,,,2,6,0
+Public Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.before",,,,1,6,0
+Public Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.test",,,,1,7,0
+Public Method,"me.geso.avans.annotationbased.AnnotationBasedDispatcherTest.testPostForm",,,,1,7,0
+Public Class,"me.geso.avans.annotationbased.MyController",6,0,0,2,12,0
+Public Method,"me.geso.avans.annotationbased.MyController.postForm",,,,1,5,0
+Public Method,"me.geso.avans.annotationbased.MyController.root",,,,1,5,0
+Package,"me.geso.avans.freemarker",,,,8,101,2
+Public Class,"me.geso.avans.freemarker.FreeMarkerView",12,33,0,3,30,0
+Public Constructor,"me.geso.avans.freemarker.FreeMarkerView.FreeMarkerView",,,,1,6,0
+Public Constructor,"me.geso.avans.freemarker.FreeMarkerView.FreeMarkerView",,,,1,3,0
+Public Method,"me.geso.avans.freemarker.FreeMarkerView.render",,,,1,16,0
+Public Class,"me.geso.avans.freemarker.FreeMarkerViewTest",7,0,0,1,41,2
+Public Static Class,"me.geso.avans.freemarker.FreeMarkerViewTest.MyController",5,0,0,1,8,0
+Public Method,"me.geso.avans.freemarker.FreeMarkerViewTest.MyController.root",,,,1,6,0
+Public Static Abstract Class,"me.geso.avans.freemarker.FreeMarkerViewTest.MyControllerBase",10,0,0,3,21,2
+Private Static Method,"me.geso.avans.freemarker.FreeMarkerViewTest.MyControllerBase.buildConfiguration",,,,2,13,1
+Public Generic Method,"me.geso.avans.freemarker.FreeMarkerViewTest.MyControllerBase.render",,,,1,5,0
+TypeVariable,"me.geso.avans.freemarker.FreeMarkerViewTest.MyControllerBase.render.T",0,0,0,0,0,0
+Public Method,"me.geso.avans.freemarker.FreeMarkerViewTest.test",,,,1,10,0
+Package,"me.geso.avans.jackson",,,,146,954,25
+Public Class,"me.geso.avans.jackson.CharacterEscapesAgainstXSS",2,33,33,3,19,2
+Public Constructor,"me.geso.avans.jackson.CharacterEscapesAgainstXSS.CharacterEscapesAgainstXSS",,,,1,7,2
+Public Method,"me.geso.avans.jackson.CharacterEscapesAgainstXSS.getEscapeCodesForAscii",,,,1,4,0
+Public Method,"me.geso.avans.jackson.CharacterEscapesAgainstXSS.getEscapeSequence",,,,1,4,0
+Public Interface,"me.geso.avans.jackson.JacksonJsonParamReader",12,0,0,5,35,7
+Class,"me.geso.avans.jackson.JacksonJsonParamReader._PrivateStaticFields",5,100,100,1,9,1
+Private Static Method,"me.geso.avans.jackson.JacksonJsonParamReader._PrivateStaticFields.createObjectReader",,,,1,5,0
+Public Method,"me.geso.avans.jackson.JacksonJsonParamReader.readJsonParam",,,,5,24,6
+Lambda Method,"me.geso.avans.jackson.JacksonJsonParamReader.readJsonParam.(lambda_expr_1)",,,,1,1,0
+Public Class,"me.geso.avans.jackson.JacksonJsonParamReaderBenchmark",16,0,0,3,22,1
+Public Method,"me.geso.avans.jackson.JacksonJsonParamReaderBenchmark.bench",,,,3,20,1
+Lambda Method,"me.geso.avans.jackson.JacksonJsonParamReaderBenchmark.bench.(lambda_expr_1)",,,,2,9,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonParamReaderBenchmark.bench.(lambda_expr_1).(Anon_1)",0,0,0,0,0,0
+Public Class,"me.geso.avans.jackson.JacksonJsonParamReaderTest",10,0,0,1,50,0
+Public Method,"me.geso.avans.jackson.JacksonJsonParamReaderTest.test0",,,,1,48,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonParamReaderTest.test0.(Anon_1)",0,0,0,0,0,0
+Public Interface,"me.geso.avans.jackson.JacksonJsonView",7,0,0,5,44,9
+Class,"me.geso.avans.jackson.JacksonJsonView._PrivateStaticFields",4,100,100,1,17,1
+Private Static Method,"me.geso.avans.jackson.JacksonJsonView._PrivateStaticFields.createObjectMapper",,,,1,6,0
+Public Method,"me.geso.avans.jackson.JacksonJsonView.createObjectMapper",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonView.renderJSON",,,,1,3,6
+Public Method,"me.geso.avans.jackson.JacksonJsonView.renderJSON",,,,3,19,2
+Public Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark",8,0,0,2,87,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock",10,0,0,8,35,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.close",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.computePluginStashValueIfAbsent",,,,1,5,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.getPathParams",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.getPluginStashValue",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.getServletRequest",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.init",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.invoke",,,,1,6,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JacksonJsonViewMock.setPluginStashValue",,,,1,3,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JsonTest0",5,0,0,0,11,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.JsonTest1",4,0,0,0,7,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.bench",,,,2,32,0
+Lambda Method,"me.geso.avans.jackson.JacksonJsonViewBenchmark.bench.(lambda_expr_1)",,,,1,27,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.bench.(lambda_expr_1).(Anon_1)",0,0,0,0,5,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.bench.(lambda_expr_1).(Anon_2)",0,0,0,0,5,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewBenchmark.bench.(lambda_expr_1).(Anon_3)",1,0,0,0,5,0
+Public Class,"me.geso.avans.jackson.JacksonJsonViewTest",22,50,50,2,594,6
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.ControllerMock",2,0,0,1,6,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.ControllerMock.createObjectMapper",,,,1,4,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock",25,0,0,69,275,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.authenticate",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.changeSessionId",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getAsyncContext",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getAttribute",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getAttributeNames",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getAuthType",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getCharacterEncoding",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getContentLength",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getContentLengthLong",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getContentType",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getContextPath",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getCookies",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getDateHeader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getDispatcherType",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getHeader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getHeaderNames",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getHeaders",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getInputStream",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getIntHeader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getLocalAddr",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getLocalName",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getLocalPort",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getLocale",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getLocales",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getMethod",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getParameter",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getParameterMap",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getParameterNames",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getParameterValues",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getPart",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getParts",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getPathInfo",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getPathTranslated",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getProtocol",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getQueryString",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getReader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRealPath",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRemoteAddr",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRemoteHost",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRemotePort",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRemoteUser",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRequestDispatcher",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRequestURI",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRequestURL",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getRequestedSessionId",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getScheme",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getServerName",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getServerPort",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getServletContext",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getServletPath",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getSession",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getSession",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.getUserPrincipal",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isAsyncStarted",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isAsyncSupported",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isRequestedSessionIdFromCookie",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isRequestedSessionIdFromURL",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isRequestedSessionIdFromUrl",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isRequestedSessionIdValid",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isSecure",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.isUserInRole",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.login",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.logout",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.removeAttribute",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.setAttribute",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.setCharacterEncoding",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.startAsync",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.startAsync",,,,1,5,0
+Public Generic Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.upgrade",,,,1,5,0
+TypeVariable,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletRequestMock.upgrade.T",1,0,0,0,0,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock",8,0,0,37,129,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.addCookie",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.addDateHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.addHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.addIntHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.containsHeader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.encodeRedirectURL",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.encodeRedirectUrl",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.encodeURL",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.encodeUrl",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.flushBuffer",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getBufferSize",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getCharacterEncoding",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getContentType",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getHeader",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getHeaderNames",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getHeaders",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getLocale",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getOutputStream",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getStatus",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.getWriter",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.isCommitted",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.reset",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.resetBuffer",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.sendError",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.sendError",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.sendRedirect",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setBufferSize",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setCharacterEncoding",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setContentLength",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setContentLengthLong",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setContentType",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setDateHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setIntHeader",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setLocale",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setStatus",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.HttpServletResponseMock.setStatus",,,,1,3,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock",10,0,0,8,35,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.close",,,,1,3,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.computePluginStashValueIfAbsent",,,,1,5,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.getPathParams",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.getPluginStashValue",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.getServletRequest",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.init",,,,1,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.invoke",,,,1,6,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.JacksonJsonViewMock.setPluginStashValue",,,,1,3,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.JsonTest0",5,0,0,0,11,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.JsonTest0Inner",4,0,0,0,7,0
+Public Static Class,"me.geso.avans.jackson.JacksonJsonViewTest.JsonTest1",4,0,0,0,6,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.test0",,,,1,78,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_1)",0,0,0,0,5,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_2)",0,0,0,0,5,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_3)",1,0,0,0,5,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_4)",0,0,0,0,13,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_4).(Anon_5)",0,0,0,0,4,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.test0.(Anon_4).(Anon_6)",0,0,0,0,4,0
+Public Method,"me.geso.avans.jackson.JacksonJsonViewTest.testOverridableObjectMapper",,,,1,43,6
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.testOverridableObjectMapper.(Anon_7)",0,0,0,0,0,0
+Anonymous Class,"me.geso.avans.jackson.JacksonJsonViewTest.testOverridableObjectMapper.(Anon_8)",0,0,0,0,0,0
+Package,"me.geso.avans.session",,,,77,715,95
+Public Class,"me.geso.avans.session.DefaultSessionCookieFactory",6,60,60,3,41,3
+Public Static Class,"me.geso.avans.session.DefaultSessionCookieFactory.DefaultSessionCookieFactoryBuilder",5,0,0,1,15,0
+Public Method,"me.geso.avans.session.DefaultSessionCookieFactory.DefaultSessionCookieFactoryBuilder.build",,,,1,4,0
+Public Static Method,"me.geso.avans.session.DefaultSessionCookieFactory.builder",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultSessionCookieFactory.createCookie",,,,1,9,0
+Public Method,"me.geso.avans.session.DefaultSessionCookieFactory.getName",,,,1,4,0
+Public Class,"me.geso.avans.session.DefaultSessionCookieFactoryTest",3,0,0,1,13,0
+Public Method,"me.geso.avans.session.DefaultSessionCookieFactoryTest.test",,,,1,11,0
+Public Class,"me.geso.avans.session.DefaultWebSessionManager",16,80,22,26,218,9
+Public Constructor,"me.geso.avans.session.DefaultWebSessionManager.DefaultWebSessionManager",,,,1,12,0
+Private Static Class,"me.geso.avans.session.DefaultWebSessionManager.SessionData",9,72,60,17,75,0
+Constructor,"me.geso.avans.session.DefaultWebSessionManager.SessionData.SessionData",,,,1,7,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.getData",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.getLong",,,,4,17,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.getSessionId",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.getString",,,,3,12,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.isDirty",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.isFresh",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.remove",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.setDirty",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.setLong",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.setString",,,,1,4,0
+Public Static Method,"me.geso.avans.session.DefaultWebSessionManager.SessionData.startNewSession",,,,1,6,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.changeSessionId",,,,2,16,1
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.expire",,,,1,5,1
+Private Method,"me.geso.avans.session.DefaultWebSessionManager.generateSessionId",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.getLong",,,,1,4,0
+Private Method,"me.geso.avans.session.DefaultWebSessionManager.getSessionData",,,,4,17,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.getSessionId",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.getString",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.getXSRFToken",,,,1,4,0
+Private Method,"me.geso.avans.session.DefaultWebSessionManager.loadSession",,,,5,19,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.remove",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.responseFilter",,,,2,15,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.setLong",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.setString",,,,1,4,0
+Public Method,"me.geso.avans.session.DefaultWebSessionManager.validateXSRFToken",,,,3,13,7
+Public Class,"me.geso.avans.session.DefaultXSRFTokenCookieFactory",12,66,61,4,52,8
+Public Static Class,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.DefaultXSRFTokenCookieFactoryBuilder",6,50,50,2,17,7
+Constructor,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.DefaultXSRFTokenCookieFactoryBuilder.DefaultXSRFTokenCookieFactoryBuilder",,,,1,2,0
+Public Method,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.DefaultXSRFTokenCookieFactoryBuilder.build",,,,1,4,0
+Public Static Method,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.builder",,,,1,3,0
+Public Method,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.createCookie",,,,1,12,0
+Public Method,"me.geso.avans.session.DefaultXSRFTokenCookieFactory.createXSRFToken",,,,2,10,1
+Public Class,"me.geso.avans.session.DefaultXSRFTokenCookieFactoryTest",10,0,0,1,20,2
+Public Method,"me.geso.avans.session.DefaultXSRFTokenCookieFactoryTest.test",,,,1,18,2
+Public Class,"me.geso.avans.session.HashMapSessionStore",6,0,0,4,21,7
+Public Method,"me.geso.avans.session.HashMapSessionStore.load",,,,2,9,0
+Public Method,"me.geso.avans.session.HashMapSessionStore.remove",,,,1,4,0
+Public Method,"me.geso.avans.session.HashMapSessionStore.save",,,,1,4,0
+Public Class,"me.geso.avans.session.SecureRandomSessionIDGenerator",5,0,0,2,17,13
+Public Constructor,"me.geso.avans.session.SecureRandomSessionIDGenerator.SecureRandomSessionIDGenerator",,,,1,5,8
+Public Method,"me.geso.avans.session.SecureRandomSessionIDGenerator.generate",,,,1,8,0
+Public Class,"me.geso.avans.session.SecureRandomSessionIDGeneratorTest",7,0,0,2,17,0
+Public Method,"me.geso.avans.session.SecureRandomSessionIDGeneratorTest.test",,,,2,15,0
+Lambda Method,"me.geso.avans.session.SecureRandomSessionIDGeneratorTest.test.(lambda_expr_1)",,,,1,8,0
+Public Interface,"me.geso.avans.session.SessionCookieFactory",2,0,0,0,4,0
+Public Abstract Method,"me.geso.avans.session.SessionCookieFactory.createCookie",,,,0,1,0
+Public Abstract Method,"me.geso.avans.session.SessionCookieFactory.getName",,,,0,1,0
+Public Interface,"me.geso.avans.session.SessionIDGenerator",1,0,0,0,3,0
+Public Abstract Method,"me.geso.avans.session.SessionIDGenerator.generate",,,,0,1,0
+Public Interface,"me.geso.avans.session.SessionMixin",5,0,0,4,23,0
+Public Abstract Method,"me.geso.avans.session.SessionMixin.buildSessionManager",,,,0,1,0
+Public Method,"me.geso.avans.session.SessionMixin.getSession",,,,2,8,0
+Lambda Method,"me.geso.avans.session.SessionMixin.getSession.(lambda_expr_1)",,,,1,3,0
+Public Method,"me.geso.avans.session.SessionMixin.responseFilter",,,,2,11,0
+Public Class,"me.geso.avans.session.SessionMixinTest",19,0,0,1,167,5
+Public Static Class,"me.geso.avans.session.SessionMixinTest.MyController",21,0,0,9,65,5
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.buildSessionManager",,,,2,28,1
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.counter",,,,1,9,0
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.expire",,,,1,5,0
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.getSessionID",,,,1,4,0
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.getXSRFToken",,,,1,4,0
+Public Method,"me.geso.avans.session.SessionMixinTest.MyController.xsrfDetection",,,,3,11,0
+Public Method,"me.geso.avans.session.SessionMixinTest.test",,,,1,100,0
+Public Interface,"me.geso.avans.session.WebSessionManager",4,0,0,0,13,45
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.changeSessionId",,,,0,1,4
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.expire",,,,0,1,4
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.getLong",,,,0,1,6
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.getSessionId",,,,0,1,3
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.getString",,,,0,1,6
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.getXSRFToken",,,,0,1,0
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.remove",,,,0,1,5
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.responseFilter",,,,0,1,5
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.setLong",,,,0,1,6
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.setString",,,,0,1,6
+Public Abstract Method,"me.geso.avans.session.WebSessionManager.validateXSRFToken",,,,0,1,0
+Public Interface,"me.geso.avans.session.WebSessionStore",3,0,0,0,5,0
+Public Abstract Method,"me.geso.avans.session.WebSessionStore.load",,,,0,1,0
+Public Abstract Method,"me.geso.avans.session.WebSessionStore.remove",,,,0,1,0
+Public Abstract Method,"me.geso.avans.session.WebSessionStore.save",,,,0,1,0
+Public Interface,"me.geso.avans.session.XSRFTokenCookieFactory",2,0,0,0,4,3
+Public Abstract Method,"me.geso.avans.session.XSRFTokenCookieFactory.createCookie",,,,0,1,0
+Public Abstract Method,"me.geso.avans.session.XSRFTokenCookieFactory.createXSRFToken",,,,0,1,3
+Package,"me.geso.avans.session.spymemcached",,,,33,297,47
+Public Class,"me.geso.avans.session.spymemcached.K",10,0,0,6,47,23
+Public Static Generic Class,"me.geso.avans.session.spymemcached.K.ImmutablePair",2,50,50,4,21,0
+TypeVariable,"me.geso.avans.session.spymemcached.K.ImmutablePair.A",0,0,0,0,0,0
+TypeVariable,"me.geso.avans.session.spymemcached.K.ImmutablePair.B",0,0,0,0,0,0
+Public Constructor,"me.geso.avans.session.spymemcached.K.ImmutablePair.ImmutablePair",,,,1,4,0
+Public Method,"me.geso.avans.session.spymemcached.K.ImmutablePair.getKey",,,,1,4,0
+Public Method,"me.geso.avans.session.spymemcached.K.ImmutablePair.getValue",,,,1,4,0
+Public Method,"me.geso.avans.session.spymemcached.K.ImmutablePair.setValue",,,,1,5,0
+Public Static Generic Method,"me.geso.avans.session.spymemcached.K.list",,,,2,8,6
+TypeVariable,"me.geso.avans.session.spymemcached.K.list.T",0,0,0,0,0,0
+Public Static Generic Method,"me.geso.avans.session.spymemcached.K.map",,,,3,13,6
+TypeVariable,"me.geso.avans.session.spymemcached.K.map.Key",0,0,0,0,0,0
+TypeVariable,"me.geso.avans.session.spymemcached.K.map.Val",0,0,0,0,0,0
+Public Static Generic Method,"me.geso.avans.session.spymemcached.K.pair",,,,1,3,8
+TypeVariable,"me.geso.avans.session.spymemcached.K.pair.A",0,0,0,0,0,0
+TypeVariable,"me.geso.avans.session.spymemcached.K.pair.B",0,0,0,0,0,0
+Public Class,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore",13,40,19,9,53,24
+Public Constructor,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.SpyMemcachedSessionStore",,,,1,5,6
+Public Constructor,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.SpyMemcachedSessionStore",,,,1,8,18
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.load",,,,3,15,0
+Anonymous Class,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.load.(Anon_1)",0,0,0,0,1,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.remove",,,,1,4,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStore.save",,,,3,13,0
+Public Class,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest",23,50,50,6,139,0
+Public Static Class,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.MyController",25,75,75,8,62,0
+Public Static Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.MyController.buildMemcachedClient",,,,2,10,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.MyController.buildSessionManager",,,,2,26,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.MyController.root",,,,1,9,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.MyController.xsrfDetection",,,,3,11,0
+Public Static Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.afterClass",,,,1,4,0
+Public Static Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.beforeClass",,,,1,20,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.test",,,,1,13,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.testIntegration",,,,1,15,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.testNodata",,,,1,9,0
+Public Method,"me.geso.avans.session.spymemcached.SpyMemcachedSessionStoreTest.testRemove",,,,1,12,0
+Package,"me.geso.avans.tinyvalidator",,,,20,256,18
+Public Interface,"me.geso.avans.tinyvalidator.TinyValidatorValidator",17,0,0,8,52,11
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidator.createValidationFailedResponse",,,,1,5,6
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidator.validateParameters",,,,7,44,5
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidator.validateParameters.(lambda_expr_1)",,,,1,6,0
+Public Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest",21,0,0,7,163,7
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.Child",5,0,0,0,7,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.Foo",3,0,0,0,5,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.MyController",5,0,0,1,8,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.MyController.jsonParam",,,,1,5,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.MyController2",5,0,0,1,6,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.MyController2.jsonParam",,,,1,4,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.Parent",4,0,0,0,6,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.PatternController",5,0,0,1,6,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.PatternController.jsonParam",,,,1,4,0
+Public Static Class,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.PatternForm",5,0,0,0,7,0
+Public Interface,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.SubTestBody",3,0,0,0,5,0
+Abstract Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.SubTestBody.run",,,,0,2,0
+Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.subtest",,,,1,4,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testInheritanceWithBeanParam",,,,2,23,0
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testInheritanceWithBeanParam.(lambda_expr_1)",,,,1,14,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testJsonParamValidationFailed",,,,2,59,1
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testJsonParamValidationFailed.(lambda_expr_1)",,,,3,50,0
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testJsonParamValidationFailed.(lambda_expr_1).(lambda_expr_2)",,,,1,22,0
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testJsonParamValidationFailed.(lambda_expr_1).(lambda_expr_3)",,,,1,22,0
+Public Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testPattern",,,,2,24,0
+Lambda Method,"me.geso.avans.tinyvalidator.TinyValidatorValidatorTest.testPattern.(lambda_expr_1)",,,,1,12,0
+Package,"me.geso.avans.trigger",,,,34,392,68
+Public Annotation,"me.geso.avans.trigger.BeforeDispatchTrigger",2,0,0,0,4,13
+Public Class,"me.geso.avans.trigger.BeforeDispatchTriggerTest",10,0,0,4,53,1
+Public Static Class,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController",7,0,0,2,13,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController.beforeDispatch",,,,1,5,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController.index",,,,1,5,0
+Public Static Class,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController2",7,0,0,2,12,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController2.beforeDispatch",,,,1,5,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.MyController2.index",,,,1,5,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.testBeforeDispatchDoesNotReturnResponse",,,,2,13,0
+Lambda Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.testBeforeDispatchDoesNotReturnResponse.(lambda_expr_1)",,,,1,8,0
+Public Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.testBeforeDispatchReturnsResponse",,,,2,13,0
+Lambda Method,"me.geso.avans.trigger.BeforeDispatchTriggerTest.testBeforeDispatchReturnsResponse.(lambda_expr_1)",,,,1,8,0
+Public Annotation,"me.geso.avans.trigger.HTMLFilter",2,0,0,0,4,3
+Public Class,"me.geso.avans.trigger.HTMLFilterTest",9,0,0,2,29,0
+Public Static Class,"me.geso.avans.trigger.HTMLFilterTest.MyController",4,0,0,2,10,0
+Public Method,"me.geso.avans.trigger.HTMLFilterTest.MyController.foo",,,,1,4,0
+Public Method,"me.geso.avans.trigger.HTMLFilterTest.MyController.htmlFilter",,,,1,4,0
+Public Method,"me.geso.avans.trigger.HTMLFilterTest.test",,,,2,17,0
+Lambda Method,"me.geso.avans.trigger.HTMLFilterTest.test.(lambda_expr_1)",,,,1,9,0
+Public Annotation,"me.geso.avans.trigger.ParamProcessor",3,0,0,0,6,0
+Public Abstract Method,"me.geso.avans.trigger.ParamProcessor.targetAnnotation",,,,0,1,0
+Public Abstract Method,"me.geso.avans.trigger.ParamProcessor.targetClass",,,,0,1,0
+Public Class,"me.geso.avans.trigger.ParamProcessorTest",12,0,0,7,126,0
+Public Annotation,"me.geso.avans.trigger.ParamProcessorTest.MyAnnotation",2,0,0,0,4,0
+Public Annotation,"me.geso.avans.trigger.ParamProcessorTest.MyAnnotation2",2,0,0,0,4,0
+Public Static Class,"me.geso.avans.trigger.ParamProcessorTest.MyController",13,0,0,7,40,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.annotation",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.annotation2",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.index",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.paramAnnotation",,,,1,6,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.paramAnnotation2",,,,1,6,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.MyController.paramUpperQ",,,,2,13,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.test",,,,2,33,0
+Lambda Method,"me.geso.avans.trigger.ParamProcessorTest.test.(lambda_expr_1)",,,,1,25,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.testAnnotation",,,,2,19,0
+Lambda Method,"me.geso.avans.trigger.ParamProcessorTest.testAnnotation.(lambda_expr_1)",,,,1,11,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.testAnnotation2",,,,2,19,0
+Lambda Method,"me.geso.avans.trigger.ParamProcessorTest.testAnnotation2.(lambda_expr_1)",,,,1,11,0
+Public Method,"me.geso.avans.trigger.ParamProcessorTest.testIsAssignableFrom",,,,1,5,0
+Public Annotation,"me.geso.avans.trigger.ResponseConverter",3,0,0,0,5,0
+Public Abstract Method,"me.geso.avans.trigger.ResponseConverter.value",,,,0,1,0
+Public Class,"me.geso.avans.trigger.ResponseConverterTest",9,0,0,2,32,0
+Public Static Class,"me.geso.avans.trigger.ResponseConverterTest.MyController",5,0,0,2,10,0
+Public Method,"me.geso.avans.trigger.ResponseConverterTest.MyController.call",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ResponseConverterTest.MyController.responseFilter",,,,1,4,0
+Public Static Class,"me.geso.avans.trigger.ResponseConverterTest.MyValue",1,0,0,0,4,0
+Public Method,"me.geso.avans.trigger.ResponseConverterTest.test",,,,2,16,0
+Lambda Method,"me.geso.avans.trigger.ResponseConverterTest.test.(lambda_expr_1)",,,,1,9,0
+Public Annotation,"me.geso.avans.trigger.ResponseFilter",2,0,0,0,4,12
+Public Class,"me.geso.avans.trigger.ResponseFilterTest",9,0,0,2,33,0
+Public Static Class,"me.geso.avans.trigger.ResponseFilterTest.MyController",3,0,0,2,10,0
+Public Method,"me.geso.avans.trigger.ResponseFilterTest.MyController.call",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ResponseFilterTest.MyController.responseFilter",,,,1,4,0
+Public Method,"me.geso.avans.trigger.ResponseFilterTest.test",,,,2,21,0
+Lambda Method,"me.geso.avans.trigger.ResponseFilterTest.test.(lambda_expr_1)",,,,1,14,0
+Package,"me.geso.sample",,,,18,164,7
+Public Class,"me.geso.sample.DefaultServlet",6,0,0,1,8,0
+Protected Method,"me.geso.sample.DefaultServlet.doGet",,,,1,5,0
+Public Class,"me.geso.sample.Dispatcher",13,0,0,5,30,3
+Public Constructor,"me.geso.sample.Dispatcher.Dispatcher",,,,1,3,0
+Public Method,"me.geso.sample.Dispatcher.runController",,,,4,23,3
+Public Class,"me.geso.sample.GuiceServletConfig",9,33,0,4,30,2
+Private Method,"me.geso.sample.GuiceServletConfig.buildBasicModule",,,,2,8,0
+Public Method,"me.geso.sample.GuiceServletConfig.contextInitialized",,,,1,5,0
+Protected Method,"me.geso.sample.GuiceServletConfig.getInjector",,,,1,14,2
+Anonymous Class,"me.geso.sample.GuiceServletConfig.getInjector.(Anon_1)",4,0,0,1,6,2
+Protected Method,"me.geso.sample.GuiceServletConfig.getInjector.(Anon_1).configureServlets",,,,1,5,2
+Public Class,"me.geso.sample.Servlet",15,25,25,3,28,2
+Public Method,"me.geso.sample.Servlet.init",,,,1,6,0
+Public Method,"me.geso.sample.Servlet.service",,,,2,8,2
+Public Class,"me.geso.sample.TestBase",10,0,0,4,20,0
+Protected Method,"me.geso.sample.TestBase.getInjector",,,,1,5,0
+Public Static Method,"me.geso.sample.TestBase.setupClass",,,,3,12,0
+Package,"me.geso.sample.cli",,,,4,37,0
+Public Class,"me.geso.sample.cli.SampleCLI",10,33,0,3,18,0
+Public Constructor,"me.geso.sample.cli.SampleCLI.SampleCLI",,,,1,4,0
+Public Static Method,"me.geso.sample.cli.SampleCLI.main",,,,1,5,0
+Public Method,"me.geso.sample.cli.SampleCLI.run",,,,1,5,0
+Public Class,"me.geso.sample.cli.SampleCLITest",4,0,0,1,6,0
+Public Method,"me.geso.sample.cli.SampleCLITest.test",,,,1,4,0
+Package,"me.geso.sample.config",,,,0,23,2
+Public Class,"me.geso.sample.config.Config",3,0,0,0,6,0
+Public Class,"me.geso.sample.config.DataSourceConfig",1,0,0,0,5,2
+Public Class,"me.geso.sample.config.JDBCConfig",2,0,0,0,6,0
+Package,"me.geso.sample.controller",,,,9,129,11
+Public Abstract Class,"me.geso.sample.controller.BaseController",6,50,50,2,13,6
+Public Method,"me.geso.sample.controller.BaseController.freemarker",,,,1,3,0
+Public Method,"me.geso.sample.controller.BaseController.securityFilters",,,,1,6,6
+Public Abstract Class,"me.geso.sample.controller.ControllerTestBase",10,33,33,3,25,5
+Public Static Method,"me.geso.sample.controller.ControllerTestBase.controllerTestBaseAfterClass",,,,1,4,0
+Public Static Method,"me.geso.sample.controller.ControllerTestBase.controllerTestBaseBeforeClass",,,,1,14,5
+Protected Static Method,"me.geso.sample.controller.ControllerTestBase.mech",,,,1,3,0
+Public Class,"me.geso.sample.controller.RootController",13,0,0,1,17,0
+Public Method,"me.geso.sample.controller.RootController.index",,,,1,10,0
+Public Class,"me.geso.sample.controller.RootControllerTest",4,0,0,1,8,0
+Public Method,"me.geso.sample.controller.RootControllerTest.testRoot",,,,1,6,0
+Public Class,"me.geso.sample.controller.UploadController",14,0,0,2,17,0
+Public Method,"me.geso.sample.controller.UploadController.upload",,,,1,6,0
+Public Method,"me.geso.sample.controller.UploadController.uploadPost",,,,1,8,0
+Package,"me.geso.sample.module",,,,7,78,2
+Public Class,"me.geso.sample.module.BasicModule",4,0,0,4,20,0
+Public Constructor,"me.geso.sample.module.BasicModule.BasicModule",,,,1,3,0
+Public Constructor,"me.geso.sample.module.BasicModule.BasicModule",,,,1,3,0
+Protected Method,"me.geso.sample.module.BasicModule.configure",,,,2,11,0
+Public Class,"me.geso.sample.module.CLIModule",7,0,0,1,10,0
+Protected Method,"me.geso.sample.module.CLIModule.configure",,,,1,8,0
+Public Class,"me.geso.sample.module.WebModule",5,0,0,1,8,0
+Protected Method,"me.geso.sample.module.WebModule.configure",,,,1,6,0
+Public Class,"me.geso.sample.module.WebRequestScopedModule",10,0,0,1,14,2
+Protected Method,"me.geso.sample.module.WebRequestScopedModule.configure",,,,1,12,2
+Package,"me.geso.sample.provider",,,,15,139,8
+Public Class,"me.geso.sample.provider.ConfigProvider",13,0,0,5,27,0
+Public Method,"me.geso.sample.provider.ConfigProvider.get",,,,5,25,0
+Public Class,"me.geso.sample.provider.ConnectionProvider",10,0,0,3,28,3
+Public Method,"me.geso.sample.provider.ConnectionProvider.get",,,,3,15,0
+Public Class,"me.geso.sample.provider.DataSourceProvider",6,0,0,3,21,2
+Public Constructor,"me.geso.sample.provider.DataSourceProvider.DataSourceProvider",,,,2,14,2
+Public Method,"me.geso.sample.provider.DataSourceProvider.get",,,,1,4,0
+Public Class,"me.geso.sample.provider.PooledConnectionProvider",8,0,0,3,19,3
+Public Method,"me.geso.sample.provider.PooledConnectionProvider.get",,,,3,13,0
+Public Class,"me.geso.sample.provider.TinyORMProvider",4,0,0,1,8,0
+Public Method,"me.geso.sample.provider.TinyORMProvider.get",,,,1,4,0
+Package,"me.geso.sample.provider.web",,,,8,59,4
+Public Class,"me.geso.sample.provider.web.FreemarkerConfigurationProvider",16,16,0,8,43,4
+Public Constructor,"me.geso.sample.provider.web.FreemarkerConfigurationProvider.FreemarkerConfigurationProvider",,,,1,5,0
+Private Method,"me.geso.sample.provider.web.FreemarkerConfigurationProvider.buildTemplateLoader",,,,4,14,2
+Public Method,"me.geso.sample.provider.web.FreemarkerConfigurationProvider.get",,,,3,19,2
+Package,"me.geso.sample.service",,,,3,26,3
+Public Class,"me.geso.sample.service.MySQLService",4,0,0,2,10,3
+Public Constructor,"me.geso.sample.service.MySQLService.MySQLService",,,,1,4,0
+Public Method,"me.geso.sample.service.MySQLService.getJDBCMajorVersion",,,,1,3,0
+Public Class,"me.geso.sample.service.MySQLServiceTest",4,0,0,1,7,0
+Public Method,"me.geso.sample.service.MySQLServiceTest.testJDBCMajorVersion",,,,1,4,0
+Package,"me.geso.sample.view",,,,14,112,0
+Public Class,"me.geso.sample.view.FreemarkerView",16,27,27,3,34,0
+Public Constructor,"me.geso.sample.view.FreemarkerView.FreemarkerView",,,,1,9,0
+Public Method,"me.geso.sample.view.FreemarkerView.param",,,,1,4,0
+Public Method,"me.geso.sample.view.FreemarkerView.render",,,,1,13,0
+Public Class,"me.geso.sample.view.Helper",7,0,0,5,20,0
+Public Constructor,"me.geso.sample.view.Helper.Helper",,,,1,3,0
+Public Method,"me.geso.sample.view.Helper.currentURL",,,,1,3,0
+Public Method,"me.geso.sample.view.Helper.uriFor",,,,1,3,0
+Public Method,"me.geso.sample.view.Helper.uriFor",,,,1,4,0
+Public Method,"me.geso.sample.view.Helper.uriWith",,,,1,4,0
+Public Class,"me.geso.sample.view.HtmlTemplateLoader",5,19,19,5,33,0
+Public Constructor,"me.geso.sample.view.HtmlTemplateLoader.HtmlTemplateLoader",,,,1,3,0
+Public Method,"me.geso.sample.view.HtmlTemplateLoader.closeTemplateSource",,,,1,4,0
+Public Method,"me.geso.sample.view.HtmlTemplateLoader.findTemplateSource",,,,1,4,0
+Public Method,"me.geso.sample.view.HtmlTemplateLoader.getLastModified",,,,1,4,0
+Public Method,"me.geso.sample.view.HtmlTemplateLoader.getReader",,,,1,13,0
+Anonymous Class,"me.geso.sample.view.HtmlTemplateLoader.getReader.(Anon_1)",4,0,0,1,5,0
+Public Method,"me.geso.sample.view.HtmlTemplateLoader.getReader.(Anon_1).openStream",,,,1,4,0

@@ -1,0 +1,911 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbstractMetadataController.java",,,,40,257,110
+File,"AbstractScalarLayer.java",,,,44,163,171
+File,"AbstractTimeAggregatedLayer.java",,,,17,98,101
+File,"AbstractWmsController.java",,,,130,816,449
+File,"AdminController.java",,,,32,221,110
+File,"AnimatedGifEncoder.java",,,,61,318,241
+File,"Cache.java",,,,10,58,42
+File,"Charting.java",,,,49,370,161
+File,"ColorPalette.java",,,,46,295,185
+File,"Config.java",,,,56,319,154
+File,"Contact.java",,,,9,54,37
+File,"CurrentUpdateSequence.java",,,,1,9,40
+File,"DataReader.java",,,,29,161,183
+File,"Dataset.java",,,,59,361,214
+File,"Dataset.java",,,,0,18,97
+File,"DefaultDataReader.java",,,,10,130,132
+File,"FrontPageController.java",,,,2,25,43
+File,"FrontPageController.java",,,,2,25,40
+File,"GetFeatureInfoDataRequest.java",,,,11,47,43
+File,"GetFeatureInfoRequest.java",,,,5,31,46
+File,"GetMapDataRequest.java",,,,12,59,49
+File,"GetMapRequest.java",,,,6,37,51
+File,"GetMapStyleRequest.java",,,,25,114,89
+File,"GifFormat.java",,,,11,81,50
+File,"H2UsageLogger.java",,,,15,148,76
+File,"ImageFormat.java",,,,3,48,87
+File,"ImageProducer.java",,,,60,271,177
+File,"InvalidCrsException.java",,,,1,9,40
+File,"InvalidDimensionValueException.java",,,,1,9,40
+File,"InvalidFormatException.java",,,,1,8,39
+File,"InvalidPointException.java",,,,1,9,40
+File,"InvalidUpdateSequence.java",,,,1,8,40
+File,"JpegFormat.java",,,,7,39,36
+File,"KmzFormat.java",,,,16,143,68
+File,"LZWEncoder.java",,,,30,181,83
+File,"Layer.java",,,,0,33,149
+File,"LayerImpl.java",,,,26,159,100
+File,"LayerNotDefinedException.java",,,,1,9,37
+File,"LayerNotQueryableException.java",,,,1,8,40
+File,"MetadataException.java",,,,1,8,35
+File,"MissingDimensionValueException.java",,,,1,9,39
+File,"NSIDCSnowWaterDataReader.java",,,,21,122,98
+File,"NcwmsContext.java",,,,6,52,63
+File,"NcwmsController.java",,,,27,189,99
+File,"NcwmsCredentialsProvider.java",,,,4,44,40
+File,"NcwmsMetadataController.java",,,,13,99,58
+File,"NeuQuant.java",,,,63,331,103
+File,"OperationNotSupportedException.java",,,,1,9,39
+File,"Png32Format.java",,,,5,38,42
+File,"PngFormat.java",,,,7,39,36
+File,"RequestParams.java",,,,26,128,90
+File,"ScalarLayer.java",,,,0,21,147
+File,"ScreenshotController.java",,,,35,292,78
+File,"Server.java",,,,18,95,42
+File,"ServerConfig.java",,,,0,21,56
+File,"SimpleFormat.java",,,,2,24,64
+File,"SimpleVectorLayer.java",,,,26,122,45
+File,"StyleNotDefinedException.java",,,,1,8,39
+File,"TileCache.java",,,,8,84,101
+File,"TileCacheKey.java",,,,12,131,104
+File,"TiledLayer.java",,,,3,21,38
+File,"UsageLogEntry.java",,,,48,259,69
+File,"UsageLogger.java",,,,0,5,43
+File,"Users.java",,,,11,65,57
+File,"Variable.java",,,,32,160,88
+File,"VectorLayer.java",,,,0,6,34
+File,"VectorLayerImpl.java",,,,27,114,48
+File,"Wms1_1_1Exception.java",,,,4,18,41
+File,"WmsException.java",,,,3,18,36
+File,"WmsUtils.java",,,,85,440,252
+File,"WmsVersion.java",,,,10,54,49
+File,"package-info.java",,,,0,1,30
+File,"package-info.java",,,,0,1,32
+File,"package-info.java",,,,0,1,33
+File,"package-info.java",,,,0,1,36
+File,"package-info.java",,,,0,1,41
+File,"package-info.java",,,,0,1,30
+File,"package-info.java",,,,0,1,31
+File,"package-info.java",,,,0,1,44
+File,"package-info.java",,,,0,1,30
+File,"package-info.java",,,,0,1,31
+Package,"uk",,,,0,0,0
+Package,"uk.ac",,,,0,0,0
+Package,"uk.ac.rdg",,,,0,0,0
+Package,"uk.ac.rdg.resc",,,,0,0,0
+Package,"uk.ac.rdg.resc.ncwms",,,,0,0,0
+Package,"uk.ac.rdg.resc.ncwms.cache",,,,20,216,235
+Public Class,"uk.ac.rdg.resc.ncwms.cache.TileCache",18,55,55,8,70,74
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.get",,,,3,16,4
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.init",,,,1,26,16
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.put",,,,1,6,3
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.setCacheDirectory",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.setConfig",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCache.shutdown",,,,1,5,3
+Public Class,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey",13,53,53,12,121,77
+Public Constructor,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey.TileCacheKey",,,,5,55,20
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey.equals",,,,3,18,6
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey.hashCode",,,,1,5,7
+Private Method,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey.setGrid",,,,2,22,12
+Public Method,"uk.ac.rdg.resc.ncwms.cache.TileCacheKey.toString",,,,1,5,3
+Package,"uk.ac.rdg.resc.ncwms.config",,,,398,2462,1685
+Abstract Class,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer",8,66,50,5,90,74
+Anonymous Class,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.(Anon_1)",4,0,0,2,7,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.(Anon_1).get",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.(Anon_1).size",,,,1,3,0
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.AbstractTimeAggregatedLayer",,,,1,4,5
+Protected Static Class,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo",5,33,33,10,50,22
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.TimestepInfo",,,,3,14,9
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.equals",,,,3,10,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.getDateTime",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.getFilename",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.getIndexInFile",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.TimestepInfo.hashCode",,,,1,8,0
+Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.addTimestepInfo",,,,3,18,20
+Public Method,"uk.ac.rdg.resc.ncwms.config.AbstractTimeAggregatedLayer.getTimeValues",,,,1,5,13
+Public Class,"uk.ac.rdg.resc.ncwms.config.AdminController",21,59,50,32,208,83
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.displayAdminPage",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.displayDatasetStatusPage",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.displayEditVariablesPage",,,,4,22,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.displayLoadingPage",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.displayUsagePage",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.downloadUsageLog",,,,1,7,4
+Private Method,"uk.ac.rdg.resc.ncwms.config.AdminController.getDataset",,,,3,14,8
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.setConfig",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.setUsageLogger",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.updateConfig",,,,15,110,27
+Public Method,"uk.ac.rdg.resc.ncwms.config.AdminController.updateVariables",,,,3,22,13
+Public Class,"uk.ac.rdg.resc.ncwms.config.Cache",3,80,80,10,54,15
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.getElementLifetimeMinutes",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.getMaxNumItemsInMemory",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.getMaxNumItemsOnDisk",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.isEnableDiskStore",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.isEnabled",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.setElementLifetimeMinutes",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.setEnableDiskStore",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.setEnabled",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.setMaxNumItemsInMemory",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Cache.setMaxNumItemsOnDisk",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.config.Config",45,89,88,55,284,127
+Private Constructor,"uk.ac.rdg.resc.ncwms.config.Config.Config",,,,1,1,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.addDataset",,,,1,7,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.build",,,,2,8,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.changeDatasetId",,,,1,10,0
+Static Method,"uk.ac.rdg.resc.ncwms.config.Config.checkEmpty",,,,3,6,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getAllDatasets",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getAllowsGlobalCapabilities",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getCache",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getContact",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getContactEmail",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getContactName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getContactOrganization",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getContactTelephone",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getDatasetById",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getKeywords",,,,2,9,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getLastUpdateTime",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getMaxImageHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getMaxImageWidth",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getPaletteFilesLocation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getServer",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getServerAbstract",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getServiceProviderUrl",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getThreddsCatalogLocation",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.getTitle",,,,1,4,0
+Public Static Method,"uk.ac.rdg.resc.ncwms.config.Config.readConfig",,,,4,31,18
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.removeDataset",,,,2,7,2
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.save",,,,2,9,7
+Private Method,"uk.ac.rdg.resc.ncwms.config.Config.scheduleReloading",,,,1,16,13
+Anonymous Class,"uk.ac.rdg.resc.ncwms.config.Config.scheduleReloading.(Anon_1)",4,0,0,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.scheduleReloading.(Anon_1).run",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setApplicationContext",,,,2,14,7
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setCache",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setContact",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setCredentialsProvider",,,,1,4,1
+Method,"uk.ac.rdg.resc.ncwms.config.Config.setLastUpdateTime",,,,2,7,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setServer",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.setThreddsCatalogLocation",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.shutdown",,,,1,6,5
+Method,"uk.ac.rdg.resc.ncwms.config.Config.updateCredentialsProvider",,,,5,26,13
+Public Method,"uk.ac.rdg.resc.ncwms.config.Config.validate",,,,3,14,4
+Public Class,"uk.ac.rdg.resc.ncwms.config.Contact",4,66,66,9,51,10
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.Contact.Contact",,,,1,7,2
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.getEmail",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.getName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.getOrg",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.getTel",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.setEmail",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.setName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.setOrg",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Contact.setTel",,,,1,4,0
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.config.DataReader",31,85,85,29,140,156
+Protected Constructor,"uk.ac.rdg.resc.ncwms.config.DataReader.DataReader",,,,1,1,3
+Public Static Method,"uk.ac.rdg.resc.ncwms.config.DataReader.expandGlobExpression",,,,10,43,33
+Public Static Method,"uk.ac.rdg.resc.ncwms.config.DataReader.forName",,,,3,15,12
+Public Final Method,"uk.ac.rdg.resc.ncwms.config.DataReader.getAllLayers",,,,6,32,19
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.config.DataReader.read",,,,0,3,16
+Protected Abstract Method,"uk.ac.rdg.resc.ncwms.config.DataReader.readLayerMetadata",,,,0,2,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.DataReader.readTimeseries",,,,2,10,25
+Public Method,"uk.ac.rdg.resc.ncwms.config.DataReader.readVerticalSection",,,,3,10,21
+Private Method,"uk.ac.rdg.resc.ncwms.config.DataReader.updateLayers",,,,4,20,10
+Public Class,"uk.ac.rdg.resc.ncwms.config.Dataset",29,92,90,59,341,187
+Public Enum Type,"uk.ac.rdg.resc.ncwms.config.Dataset.State",1,,,0,7,8
+Public Implicit Method,"uk.ac.rdg.resc.ncwms.config.Dataset.State.valueOf",,,,0,,
+Public Implicit Method,"uk.ac.rdg.resc.ncwms.config.Dataset.State.values",,,,0,,
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.addVariable",,,,1,6,0
+Private Method,"uk.ac.rdg.resc.ncwms.config.Dataset.appendLoadingProgress",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.build",,,,2,9,6
+Private Method,"uk.ac.rdg.resc.ncwms.config.Dataset.doLoadLayers",,,,1,11,6
+Method,"uk.ac.rdg.resc.ncwms.config.Dataset.forceRefresh",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getCopyrightStatement",,,,2,10,7
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getDataReaderClass",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getException",,,,1,5,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getId",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getLastUpdateTime",,,,1,5,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getLayerById",,,,1,5,8
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getLayers",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getLoadingProgress",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getLocation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getMoreInfoUrl",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getState",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getTitle",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getUpdateInterval",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.getVariables",,,,1,4,8
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.isDisabled",,,,1,5,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.isError",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.isLoading",,,,1,7,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.isQueryable",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.isReady",,,,1,7,3
+Method,"uk.ac.rdg.resc.ncwms.config.Dataset.loadLayers",,,,5,30,19
+Private Method,"uk.ac.rdg.resc.ncwms.config.Dataset.needsRefresh",,,,6,32,10
+Private Method,"uk.ac.rdg.resc.ncwms.config.Dataset.readLayerConfig",,,,8,47,19
+Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setConfig",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setCopyrightStatement",,,,1,4,0
+Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setDataReaderClass",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setDisabled",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setId",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setLocation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setMoreInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setQueryable",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setTitle",,,,1,4,0
+Method,"uk.ac.rdg.resc.ncwms.config.Dataset.setUpdateInterval",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.toString",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Dataset.validate",,,,3,14,4
+Public Class,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader",14,0,0,10,118,105
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.closeDataset",,,,3,13,1
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.openDataset",,,,3,19,27
+Public Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.read",,,,1,22,20
+Protected Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.readLayerMetadata",,,,1,15,2
+Public Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.readTimeseries",,,,1,23,28
+Public Method,"uk.ac.rdg.resc.ncwms.config.DefaultDataReader.readVerticalSection",,,,1,22,20
+Public Class,"uk.ac.rdg.resc.ncwms.config.FrontPageController",10,0,0,2,17,13
+Protected Method,"uk.ac.rdg.resc.ncwms.config.FrontPageController.handleRequestInternal",,,,1,9,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.FrontPageController.setConfig",,,,1,4,3
+Final Class,"uk.ac.rdg.resc.ncwms.config.LayerImpl",28,70,40,25,144,73
+Static Class,"uk.ac.rdg.resc.ncwms.config.LayerImpl.FilenameAndTimeIndex",1,0,0,1,10,3
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.LayerImpl.FilenameAndTimeIndex.FilenameAndTimeIndex",,,,1,5,0
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.LayerImpl.LayerImpl",,,,1,6,0
+Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.findAndCheckFilenameAndTimeIndex",,,,3,21,17
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getApproxValueRange",,,,1,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getDataset",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getDefaultColorPalette",,,,1,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getDefaultNumColorBands",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getTitle",,,,2,7,6
+Private Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.getVariable",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.isLogScaling",,,,1,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.isQueryable",,,,1,5,4
+Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.readHorizontalDomain",,,,1,5,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.readHorizontalPoints",,,,1,9,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.readSinglePoint",,,,1,7,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.readTimeseries",,,,6,27,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.LayerImpl.readVerticalSection",,,,3,17,1
+Public Class,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader",29,0,0,9,97,71
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.latLonToIndex",,,,1,13,16
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.read",,,,6,34,22
+Protected Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata",,,,2,40,13
+Anonymous Class,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1)",9,0,0,12,22,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getChronology",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getDescription",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getElevationUnits",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getElevationValues",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getGeographicBoundingBox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getHorizontalGrid",,,,1,2,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getId",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getTimeValues",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getTitle",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).getUnits",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).isElevationPositive",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NSIDCSnowWaterDataReader.readLayerMetadata.(Anon_1).isElevationPressure",,,,1,1,0
+Public Class,"uk.ac.rdg.resc.ncwms.config.NcwmsContext",12,40,40,6,43,36
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsContext.getProperties",,,,1,6,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsContext.getWorkingDirectory",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsContext.init",,,,1,12,9
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsContext.setApplicationContext",,,,1,5,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsContext.setWorkingDirectory",,,,2,9,5
+Public Final Class,"uk.ac.rdg.resc.ncwms.config.NcwmsController",29,66,66,23,166,72
+Anonymous Class,"uk.ac.rdg.resc.ncwms.config.NcwmsController.(Anon_1)",7,0,0,4,20,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.(Anon_1).getLayer",,,,4,19,3
+Protected Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.dispatchWmsRequest",,,,10,54,21
+Private Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.getCapabilities",,,,5,40,14
+Private Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.getConfig",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.init",,,,1,6,5
+Protected Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.readDataGrid",,,,4,26,15
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.setTileCache",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsController.shutdown",,,,1,5,4
+Public Class,"uk.ac.rdg.resc.ncwms.config.NcwmsCredentialsProvider",12,33,33,4,33,13
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsCredentialsProvider.addCredentials",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsCredentialsProvider.getCredentials",,,,2,16,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsCredentialsProvider.init",,,,1,7,4
+Class,"uk.ac.rdg.resc.ncwms.config.NcwmsMetadataController",17,50,50,13,84,31
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.NcwmsMetadataController.NcwmsMetadataController",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.NcwmsMetadataController.handleRequest",,,,3,21,5
+Static Method,"uk.ac.rdg.resc.ncwms.config.NcwmsMetadataController.proxyRequest",,,,7,37,13
+Protected Method,"uk.ac.rdg.resc.ncwms.config.NcwmsMetadataController.showMenu",,,,2,17,6
+Public Class,"uk.ac.rdg.resc.ncwms.config.Server",4,88,88,18,92,15
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getAdminPassword",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getKeywords",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getMaxImageHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getMaxImageWidth",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getServerAbstract",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getTitle",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.getUrl",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.isAllowFeatureInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.isAllowGlobalCapabilities",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setAdminPassword",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setAllowFeatureInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setAllowGlobalCapabilities",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setKeywords",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setMaxImageHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setMaxImageWidth",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setServerAbstract",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setTitle",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Server.setUrl",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.config.Variable",13,87,86,32,152,61
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.Variable.formatColorScaleRange",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getColorScaleRange",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getDataset",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getId",,,,1,3,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getNumColorBands",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getPaletteName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.getTitle",,,,1,3,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.isLogScaling",,,,1,4,3
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.Variable.parseColorScaleRangeString",,,,5,29,11
+Private Static Method,"uk.ac.rdg.resc.ncwms.config.Variable.parseColorScaleRangeStrings",,,,2,7,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setColorScaleRange",,,,2,7,0
+Method,"uk.ac.rdg.resc.ncwms.config.Variable.setDataset",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setId",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setNumColorBands",,,,3,6,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setPaletteName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setScaling",,,,3,17,6
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.setTitle",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.Variable.validate",,,,5,25,12
+Final Class,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl",13,55,36,27,104,21
+Public Constructor,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.VectorLayerImpl",,,,1,5,1
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getApproxValueRange",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getBoundingBox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getChronology",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getCurrentTimeValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getDataset",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getDefaultColorPalette",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getDefaultElevationValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getDefaultNumColorBands",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getDefaultTimeValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getEastwardComponent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getElevationUnits",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getElevationValues",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getHorizontalGrid",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getId",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getLayerAbstract",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getName",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getNorthwardComponent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getTimeValues",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getTitle",,,,2,7,5
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getUnits",,,,1,2,0
+Private Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.getVariable",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.isElevationPositive",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.isElevationPressure",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.isLogScaling",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.config.VectorLayerImpl.isQueryable",,,,1,2,0
+Package,"uk.ac.rdg.resc.ncwms.controller",,,,354,2273,1393
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController",37,72,36,40,230,83
+Protected Constructor,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.AbstractMetadataController",,,,1,4,0
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.addTimeString",,,,2,10,1
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.getAnimationTimesteps",,,,3,16,0
+Private Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.getLayer",,,,2,9,5
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.getTimeString",,,,3,10,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.handleRequest",,,,8,39,2
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.onSameDay",,,,1,10,5
+Private Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.showAnimationTimesteps",,,,2,23,14
+Private Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.showLayerDetails",,,,9,51,25
+Protected Abstract Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.showMenu",,,,0,1,4
+Private Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.showMinMax",,,,4,30,12
+Private Method,"uk.ac.rdg.resc.ncwms.controller.AbstractMetadataController.showTimesteps",,,,5,22,8
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController",85,86,86,130,753,422
+Public Interface,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.LayerFactory",3,0,0,0,4,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.LayerFactory.getLayer",,,,0,1,4
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.allNull",,,,3,7,5
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.createVerticalSectionChart",,,,12,62,9
+Protected Abstract Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.dispatchWmsRequest",,,,0,4,12
+Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.findTIndex",,,,4,20,9
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.findTValue",,,,1,5,6
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.findTValues",,,,3,18,9
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getCapabilities",,,,9,62,53
+Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getElevationValue",,,,6,21,13
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getFeatureInfo",,,,12,89,28
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getLayerName",,,,3,14,7
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getLegendGraphic",,,,6,35,17
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getMap",,,,20,106,45
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getOptimalTransectDomain",,,,4,23,26
+Static Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getTimeValues",,,,7,23,17
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getTransect",,,,9,76,18
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getVerticalProfile",,,,13,84,19
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.getVerticalSection",,,,4,35,12
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.handleRequestInternal",,,,8,34,41
+Public Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.init",,,,2,10,9
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.readDataGrid",,,,1,6,27
+Public Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.setServerConfig",,,,1,3,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.setUsageLogger",,,,1,3,3
+Public Method,"uk.ac.rdg.resc.ncwms.controller.AbstractWmsController.shutdown",,,,1,1,4
+Final Class,"uk.ac.rdg.resc.ncwms.controller.Charting",58,0,0,27,321,134
+Private Static Class,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset",8,68,64,11,64,23
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.VerticalSectionDataset",,,,1,9,0
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.checkSeries",,,,2,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getItemCount",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getSeriesCount",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getSeriesKey",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getX",,,,1,5,2
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getY",,,,1,6,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.VerticalSectionDataset.getZ",,,,3,17,9
+Private Static Final Class,"uk.ac.rdg.resc.ncwms.controller.Charting.ZAxisAndValues",2,0,0,1,8,4
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.Charting.ZAxisAndValues.ZAxisAndValues",,,,1,4,0
+Public Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale",,,,1,35,21
+Anonymous Class,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale.(Anon_1)",6,0,0,10,30,17
+Private Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale.(Anon_1).getColourIndex",,,,7,16,16
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale.(Anon_1).getLowerBound",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale.(Anon_1).getPaint",,,,1,5,1
+Public Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createPaintScale.(Anon_1).getUpperBound",,,,1,4,0
+Public Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createTimeseriesPlot",,,,2,19,1
+Public Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createTransectPlot",,,,7,65,23
+Public Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createVerticalProfilePlot",,,,6,37,5
+Public Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.createVerticalSectionChart",,,,4,56,25
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.getAxisLabel",,,,1,3,0
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.getZAxisAndValues",,,,5,24,14
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.Charting.printTwoDecimals",,,,1,6,11
+Public Class,"uk.ac.rdg.resc.ncwms.controller.FrontPageController",10,0,0,2,17,16
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.FrontPageController.handleRequestInternal",,,,1,9,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.FrontPageController.setConfig",,,,1,4,3
+Public Class,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoDataRequest",6,50,50,11,44,16
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoDataRequest.GetFeatureInfoDataRequest",,,,8,26,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoDataRequest.getFeatureCount",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoDataRequest.getPixelColumn",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoDataRequest.getPixelRow",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoRequest",6,50,50,5,28,19
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoRequest.GetFeatureInfoRequest",,,,2,10,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoRequest.getDataRequest",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoRequest.getOutputFormat",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetFeatureInfoRequest.getWmsVersion",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest",4,80,71,12,56,22
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.GetMapDataRequest",,,,1,5,4
+Protected Constructor,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.GetMapDataRequest",,,,1,1,3
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getBbox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getCrsCode",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getElevationString",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getLayers",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getTimeString",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.getWidth",,,,1,4,0
+Protected Method,"uk.ac.rdg.resc.ncwms.controller.GetMapDataRequest.init",,,,3,12,4
+Public Class,"uk.ac.rdg.resc.ncwms.controller.GetMapRequest",7,50,50,6,34,24
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.GetMapRequest.GetMapRequest",,,,3,16,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapRequest.getDataRequest",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapRequest.getStyleRequest",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapRequest.getWmsVersion",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest",12,83,83,25,108,62
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.GetMapStyleRequest",,,,5,23,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getBackgroundColour",,,,1,4,0
+Static Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getColorScaleRange",,,,6,28,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getColorScaleRange",,,,1,4,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getImageFormat",,,,1,4,0
+Static Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getNumColourBands",,,,2,6,9
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getNumColourBands",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getOpacity",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.getStyles",,,,1,4,4
+Static Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.isLogScale",,,,4,8,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.isScaleLogarithmic",,,,1,4,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.GetMapStyleRequest.isTransparent",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.controller.RequestParams",11,81,9,26,122,63
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.RequestParams.RequestParams",,,,3,20,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getBoolean",,,,4,9,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getFloat",,,,3,17,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getMandatoryPositiveInt",,,,2,10,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getMandatoryString",,,,2,10,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getMandatoryWmsVersion",,,,2,9,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getPositiveInt",,,,2,6,6
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getString",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getString",,,,2,6,4
+Public Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.getWmsVersion",,,,2,9,7
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.RequestParams.parsePositiveInt",,,,3,18,0
+Public Class,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController",29,62,25,35,271,51
+Private Static Final Class,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.BoundingBox",0,0,0,0,7,0
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.buildURL",,,,6,29,2
+Public Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.createScreenshot",,,,2,13,5
+Private Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.createScreenshot",,,,13,143,22
+Private Static Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.downloadImage",,,,1,3,0
+Private Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.getImageFile",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.getScreenshot",,,,7,35,7
+Public Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.init",,,,4,27,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.ScreenshotController.setScreenshotCache",,,,1,4,3
+Public Interface,"uk.ac.rdg.resc.ncwms.controller.ServerConfig",5,0,0,0,15,24
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getContactEmail",,,,0,1,0
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getContactName",,,,0,1,0
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getContactOrganization",,,,0,1,0
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getContactTelephone",,,,0,1,0
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getKeywords",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getLastUpdateTime",,,,0,1,9
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getMaxImageHeight",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getMaxImageWidth",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getPaletteFilesLocation",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getServerAbstract",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getServiceProviderUrl",,,,0,1,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.controller.ServerConfig.getTitle",,,,0,1,1
+Public Class,"uk.ac.rdg.resc.ncwms.controller.TiledLayer",2,33,33,3,18,11
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.TiledLayer.TiledLayer",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.TiledLayer.getLayer",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.TiledLayer.getTiles",,,,1,4,0
+Class,"uk.ac.rdg.resc.ncwms.controller.WmsVersion",5,53,53,10,53,22
+Public Constructor,"uk.ac.rdg.resc.ncwms.controller.WmsVersion.WmsVersion",,,,4,23,9
+Public Method,"uk.ac.rdg.resc.ncwms.controller.WmsVersion.compareTo",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.controller.WmsVersion.equals",,,,3,11,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.WmsVersion.hashCode",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.controller.WmsVersion.toString",,,,1,4,3
+Package,"uk.ac.rdg.resc.ncwms.exceptions",,,,19,140,589
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.CurrentUpdateSequence",1,0,0,1,8,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.CurrentUpdateSequence.CurrentUpdateSequence",,,,1,5,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.InvalidCrsException",1,0,0,1,8,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.InvalidCrsException.InvalidCrsException",,,,1,5,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.InvalidDimensionValueException",1,0,0,1,8,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.InvalidDimensionValueException.InvalidDimensionValueException",,,,1,5,5
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.InvalidFormatException",1,0,0,1,7,12
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.InvalidFormatException.InvalidFormatException",,,,1,4,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.InvalidPointException",1,0,0,1,8,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.InvalidPointException.InvalidPointException",,,,1,5,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.InvalidUpdateSequence",1,0,0,1,7,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.InvalidUpdateSequence.InvalidUpdateSequence",,,,1,4,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.LayerNotDefinedException",1,0,0,1,8,10
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.LayerNotDefinedException.LayerNotDefinedException",,,,1,5,1
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.LayerNotQueryableException",1,0,0,1,7,13
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.LayerNotQueryableException.LayerNotQueryableException",,,,1,4,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.MetadataException",0,0,0,1,7,8
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.MetadataException.MetadataException",,,,1,4,0
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.MissingDimensionValueException",1,0,0,1,8,12
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.MissingDimensionValueException.MissingDimensionValueException",,,,1,5,4
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.OperationNotSupportedException",1,0,0,1,8,12
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.OperationNotSupportedException.OperationNotSupportedException",,,,1,5,3
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.StyleNotDefinedException",1,0,0,1,7,12
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.StyleNotDefinedException.StyleNotDefinedException",,,,1,4,3
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.Wms1_1_1Exception",4,0,0,4,17,14
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.Wms1_1_1Exception.Wms1_1_1Exception",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.exceptions.Wms1_1_1Exception.getCode",,,,2,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.exceptions.Wms1_1_1Exception.getMessage",,,,1,5,0
+Public Class,"uk.ac.rdg.resc.ncwms.exceptions.WmsException",1,33,33,3,17,9
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.WmsException.WmsException",,,,1,4,0
+Public Constructor,"uk.ac.rdg.resc.ncwms.exceptions.WmsException.WmsException",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.exceptions.WmsException.getCode",,,,1,4,0
+Package,"uk.ac.rdg.resc.ncwms.graphics",,,,311,1809,1202
+Class,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder",16,82,78,61,314,241
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.addFrame",,,,9,41,22
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.addFrame",,,,6,26,21
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.analyzePixels",,,,4,28,8
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.findClosest",,,,4,22,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.finish",,,,4,23,7
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.getImagePixels",,,,2,15,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setDelay",,,,1,3,6
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setDispose",,,,2,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setFrameRate",,,,2,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setQuality",,,,2,4,10
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setRepeat",,,,2,5,8
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setSize",,,,4,8,8
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.setTransparent",,,,1,3,11
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.start",,,,3,12,8
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.start",,,,2,11,6
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeGraphicCtrlExt",,,,3,24,17
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeImageDesc",,,,2,16,14
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeLSD",,,,1,10,11
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeNetscapeExt",,,,1,10,12
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writePalette",,,,2,7,3
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writePixels",,,,1,5,3
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeShort",,,,1,4,3
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.AnimatedGifEncoder.writeString",,,,2,5,3
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette",26,80,61,46,276,158
+Private Constructor,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.ColorPalette",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.createColorBar",,,,2,15,16
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.createLegend",,,,7,35,19
+Private Static Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.format",,,,3,9,4
+Public Static Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.get",,,,3,13,8
+Public Static Final Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.getAvailablePaletteNames",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.getColorModel",,,,5,29,20
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.getName",,,,1,1,1
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.getPalette",,,,8,49,27
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.getSize",,,,1,4,4
+Private Static Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.interpolate",,,,1,9,7
+Public Static Final Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.loadPalettes",,,,4,20,7
+Private Static Method,"uk.ac.rdg.resc.ncwms.graphics.ColorPalette.readColorPalette",,,,9,43,14
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.GifFormat",13,0,0,11,72,23
+Protected Constructor,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.GifFormat",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.getMimeType",,,,1,5,0
+Private Static Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.getRGBPalette",,,,2,17,5
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.supportsFullyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.supportsMultipleFrames",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.supportsPartiallyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.GifFormat.writeImage",,,,4,30,8
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat",17,0,0,3,36,60
+Public Static Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.get",,,,2,10,9
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.getMimeType",,,,0,1,3
+Public Static Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.getSupportedMimeTypes",,,,1,4,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.requiresLegend",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.supportsFullyTransparentPixels",,,,0,1,3
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.supportsMultipleFrames",,,,0,1,3
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.supportsPartiallyTransparentPixels",,,,0,1,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.ImageFormat.writeImage",,,,0,3,17
+Public Final Class,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer",26,84,64,36,251,150
+Public Static Final Class,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder",9,81,81,21,80,45
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.backgroundColour",,,,2,5,5
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.build",,,,6,18,8
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.colourScaleRange",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.height",,,,2,6,1
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.logarithmic",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.numColourBands",,,,2,7,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.opacity",,,,2,6,1
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.palette",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.style",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.transparent",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Builder.width",,,,2,6,1
+Private Static Final Class,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Components",2,0,0,3,11,0
+Public Constructor,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Components.Components",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Components.getMagnitudes",,,,2,3,0
+Private Constructor,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.ImageProducer",,,,1,2,1
+Public Enum Type,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Style",1,,,0,3,0
+Public Implicit Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Style.valueOf",,,,0,,
+Public Implicit Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.Style.values",,,,0,,
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.addFrame",,,,1,3,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.addFrame",,,,3,16,4
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.createImage",,,,7,41,32
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getColorModel",,,,1,3,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getColourIndex",,,,7,18,10
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getDataIndex",,,,1,5,5
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getDataIndex",,,,1,5,5
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getLegend",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getOpacity",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getPicHeight",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getPicWidth",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.getRenderedFrames",,,,3,12,11
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.isTransparent",,,,1,3,0
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.ImageProducer.setScale",,,,6,19,9
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat",7,0,0,7,33,9
+Protected Constructor,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.JpegFormat",,,,1,1,3
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.getMimeType",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.supportsFullyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.supportsMultipleFrames",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.supportsPartiallyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.JpegFormat.writeImage",,,,2,9,0
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat",20,0,0,16,129,41
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.getMimeType",,,,1,5,0
+Private Static Final Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.getPicFileName",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.requiresLegend",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.supportsFullyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.supportsMultipleFrames",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.supportsPartiallyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.KmzFormat.writeImage",,,,10,93,27
+Class,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder",3,80,63,30,178,80
+Constructor,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.LZWEncoder",,,,1,6,0
+Final Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.MAXCODE",,,,1,3,0
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.char_out",,,,2,5,0
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.cl_block",,,,1,6,0
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.cl_hash",,,,2,4,0
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.compress",,,,10,55,11
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.encode",,,,1,7,4
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.flush_char",,,,2,7,0
+Private Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.nextPixel",,,,2,7,0
+Method,"uk.ac.rdg.resc.ncwms.graphics.LZWEncoder.output",,,,8,33,3
+Class,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant",1,74,61,63,330,83
+Public Constructor,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.NeuQuant",,,,2,15,1
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.alterneigh",,,,8,34,1
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.altersingle",,,,1,6,1
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.colorMap",,,,3,14,0
+Protected Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.contest",,,,7,38,4
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.inxbuild",,,,8,45,7
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.learn",,,,15,62,3
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.map",,,,16,62,7
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.process",,,,1,6,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.NeuQuant.unbiasnet",,,,2,9,1
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.Png32Format",9,0,0,5,31,15
+Protected Constructor,"uk.ac.rdg.resc.ncwms.graphics.Png32Format.Png32Format",,,,1,1,3
+Private Static Method,"uk.ac.rdg.resc.ncwms.graphics.Png32Format.convertARGB",,,,1,12,5
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.Png32Format.getMimeType",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.Png32Format.writeImage",,,,2,10,0
+Public Class,"uk.ac.rdg.resc.ncwms.graphics.PngFormat",7,0,0,7,33,9
+Protected Constructor,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.PngFormat",,,,1,1,3
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.getMimeType",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.supportsFullyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.supportsMultipleFrames",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.supportsPartiallyTransparentPixels",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.graphics.PngFormat.writeImage",,,,2,9,0
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.graphics.SimpleFormat",8,0,0,2,17,37
+Public Final Method,"uk.ac.rdg.resc.ncwms.graphics.SimpleFormat.requiresLegend",,,,1,5,3
+Public Final Method,"uk.ac.rdg.resc.ncwms.graphics.SimpleFormat.writeImage",,,,1,7,14
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.graphics.SimpleFormat.writeImage",,,,0,2,11
+Package,"uk.ac.rdg.resc.ncwms.security",,,,11,66,88
+Public Class,"uk.ac.rdg.resc.ncwms.security.Users",5,0,0,3,58,30
+Private Class,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser",2,71,71,7,41,11
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.getAuthorities",,,,1,13,5
+Anonymous Class,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.getAuthorities.(Anon_1)",1,0,0,1,6,2
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.getAuthorities.(Anon_1).getAuthority",,,,1,4,2
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.getPassword",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.getUsername",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.isAccountNonExpired",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.isAccountNonLocked",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.isCredentialsNonExpired",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.AdminUser.isEnabled",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.loadUserByUsername",,,,2,9,3
+Public Method,"uk.ac.rdg.resc.ncwms.security.Users.setAdminPassword",,,,1,4,5
+Package,"uk.ac.rdg.resc.ncwms.usagelog",,,,48,265,144
+Public Class,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry",18,95,94,48,249,42
+Public Constructor,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.UsageLogEntry",,,,1,8,5
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getBackgroundColor",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getBbox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getClientHost",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getClientIpAddress",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getClientReferrer",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getClientUserAgent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getCrs",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getDatasetId",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getElevation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getExceptionClass",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getExceptionMessage",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getFeatureInfoLat",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getFeatureInfoLon",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getFeatureInfoPixelCol",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getFeatureInfoPixelRow",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getHttpMethod",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getLayer",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getMenu",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getNumTimeSteps",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getOutputFormat",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getRemoteServerUrl",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getRequestTime",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getStyle",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getTimeString",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getTimeToExtractDataMs",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getTransparent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getVariableId",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getWidth",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getWmsOperation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.getWmsVersion",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.isUsedCache",,,,1,4,4
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setException",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setFeatureInfoLocation",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setGetFeatureInfoRequest",,,,1,9,1
+Private Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setGetMapDataRequest",,,,1,10,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setGetMapRequest",,,,2,12,5
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setLayer",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setMenu",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setNumTimeSteps",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setOutputFormat",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setRemoteServerUrl",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setTimeToExtractDataMs",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setUsedCache",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setWmsOperation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogEntry.setWmsVersion",,,,1,4,0
+Public Interface,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogger",1,0,0,0,4,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.usagelog.UsageLogger.logUsage",,,,0,1,7
+Package,"uk.ac.rdg.resc.ncwms.usagelog.h2",,,,15,149,109
+Public Class,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger",28,55,55,15,125,49
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.close",,,,3,12,3
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.getDataSource",,,,1,4,5
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.init",,,,3,28,19
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.logUsage",,,,6,54,8
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.setUsageLogDirectory",,,,1,4,3
+Public Method,"uk.ac.rdg.resc.ncwms.usagelog.h2.H2UsageLogger.writeCsv",,,,1,7,3
+Package,"uk.ac.rdg.resc.ncwms.util",,,,85,441,283
+Public Class,"uk.ac.rdg.resc.ncwms.util.WmsUtils",54,0,0,83,403,225
+Anonymous Class,"uk.ac.rdg.resc.ncwms.util.WmsUtils.(Anon_1)",2,0,0,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.(Anon_1).compare",,,,1,4,0
+Private Constructor,"uk.ac.rdg.resc.ncwms.util.WmsUtils.WmsUtils",,,,1,1,1
+Private Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.addOrRemoveZeros",,,,5,12,4
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.createDirectory",,,,4,24,4
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.createUniqueLayerName",,,,1,4,6
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.dateTimeToISO8601",,,,1,4,3
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.estimateValueRange",,,,3,20,7
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.findTimeIndex",,,,1,4,15
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.findVectorLayers",,,,8,36,13
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.formatUTCTimeOnly",,,,1,4,4
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getCrs",,,,3,12,9
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getExceptionName",,,,1,4,6
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getImageGrid",,,,1,7,6
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getMagnitudes",,,,6,22,7
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getPeriodString",,,,7,32,11
+Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getRegularlySpacedTimeString",,,,4,19,12
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getTimeAxisUnits",,,,3,6,11
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getTimeStringForCapabilities",,,,19,88,41
+Class,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getTimeStringForCapabilities.SubList",0,33,33,1,6,0
+Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.getTimeStringForCapabilities.SubList.length",,,,1,1,0
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.isNcmlAggregation",,,,1,4,5
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.isOpendapLocation",,,,1,5,7
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.isVectorLayer",,,,1,4,5
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.iso8601ToDateTime",,,,2,12,6
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.nullArrayList",,,,1,6,3
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.parseBbox",,,,5,32,6
+Private Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.readDataSample",,,,2,12,2
+Public Static Method,"uk.ac.rdg.resc.ncwms.util.WmsUtils.removeDuplicatedWhiteSpace",,,,1,4,3
+Package,"uk.ac.rdg.resc.ncwms.wms",,,,70,364,673
+Public Abstract Class,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer",24,55,14,43,146,144
+Anonymous Class,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.(Anon_1)",3,0,0,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.(Anon_1).compare",,,,1,3,0
+Public Constructor,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.AbstractScalarLayer",,,,2,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.findAndCheckElevationIndex",,,,3,7,6
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.findAndCheckTimeIndex",,,,3,7,6
+Protected Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.findElevationIndex",,,,3,13,12
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getChronology",,,,2,8,5
+Protected Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getCurrentTimeIndex",,,,4,12,18
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getCurrentTimeValue",,,,2,7,9
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getDefaultColorPalette",,,,1,5,5
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getDefaultElevationValue",,,,3,13,17
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getDefaultTimeValue",,,,1,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getElevationUnits",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getElevationValues",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getGeographicBoundingBox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getHorizontalGrid",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getId",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getLayerAbstract",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getName",,,,1,5,6
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getTimeValues",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getTitle",,,,1,1,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.getUnits",,,,1,1,0
+Protected Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.hasElevationAxis",,,,1,1,4
+Protected Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.hasTimeAxis",,,,1,1,4
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.isElevationPositive",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.isElevationPressure",,,,1,2,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.isLogScaling",,,,1,5,5
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.readHorizontalPoints",,,,2,12,11
+Public Method,"uk.ac.rdg.resc.ncwms.wms.AbstractScalarLayer.readTimeseries",,,,2,10,13
+Public Interface,"uk.ac.rdg.resc.ncwms.wms.Dataset",5,0,0,0,15,64
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getCopyrightStatement",,,,0,1,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getException",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getId",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getLastUpdateTime",,,,0,1,11
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getLayerById",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getLayers",,,,0,1,4
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getMoreInfoUrl",,,,0,1,3
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.getTitle",,,,0,1,3
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.isDisabled",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.isError",,,,0,1,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.isLoading",,,,0,1,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Dataset.isReady",,,,0,1,6
+Public Interface,"uk.ac.rdg.resc.ncwms.wms.Layer",9,0,0,0,25,113
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getApproxValueRange",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getBoundingBox",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getChronology",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getCurrentTimeValue",,,,0,1,8
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getDataset",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getDefaultColorPalette",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getDefaultElevationValue",,,,0,1,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getDefaultNumColorBands",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getDefaultTimeValue",,,,0,1,9
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getElevationUnits",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getElevationValues",,,,0,1,8
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getHorizontalGrid",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getId",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getLayerAbstract",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getName",,,,0,1,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getTimeValues",,,,0,1,6
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getTitle",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.getUnits",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.isElevationPositive",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.isElevationPressure",,,,0,1,5
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.isLogScaling",,,,0,1,7
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.Layer.isQueryable",,,,0,1,3
+Public Interface,"uk.ac.rdg.resc.ncwms.wms.ScalarLayer",7,0,0,0,13,116
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.ScalarLayer.readHorizontalPoints",,,,0,3,29
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.ScalarLayer.readSinglePoint",,,,0,2,26
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.ScalarLayer.readTimeseries",,,,0,2,33
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.ScalarLayer.readVerticalSection",,,,0,3,28
+Public Class,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer",14,66,64,26,111,18
+Public Constructor,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.SimpleVectorLayer",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getApproxValueRange",,,,2,8,2
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getBoundingBox",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getChronology",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getCurrentTimeValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getDataset",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getDefaultColorPalette",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getDefaultElevationValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getDefaultNumColorBands",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getDefaultTimeValue",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getEastwardComponent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getElevationUnits",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getElevationValues",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getHorizontalGrid",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getId",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getLayerAbstract",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getName",,,,1,4,6
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getNorthwardComponent",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getTimeValues",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getTitle",,,,1,4,1
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.getUnits",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.isElevationPositive",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.isElevationPressure",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.isLogScaling",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.ncwms.wms.SimpleVectorLayer.isQueryable",,,,1,4,0
+Public Interface,"uk.ac.rdg.resc.ncwms.wms.VectorLayer",1,0,0,0,4,2
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.VectorLayer.getEastwardComponent",,,,0,1,1
+Public Abstract Method,"uk.ac.rdg.resc.ncwms.wms.VectorLayer.getNorthwardComponent",,,,0,1,1

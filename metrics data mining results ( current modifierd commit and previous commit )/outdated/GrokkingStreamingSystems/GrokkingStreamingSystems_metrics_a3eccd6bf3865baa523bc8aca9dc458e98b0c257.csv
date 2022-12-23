@@ -1,0 +1,390 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Bridge.java",,,,8,49,13
+File,"Bridge.java",,,,7,41,11
+File,"Bridge.java",,,,9,53,21
+File,"Component.java",,,,3,14,13
+File,"Component.java",,,,4,21,17
+File,"Component.java",,,,4,21,17
+File,"ComponentExecutor.java",,,,7,28,9
+File,"ComponentExecutor.java",,,,9,33,9
+File,"ComponentExecutor.java",,,,4,23,6
+File,"Connection.java",,,,1,11,3
+File,"Connection.java",,,,1,9,3
+File,"Connection.java",,,,1,9,3
+File,"Event.java",,,,0,4,8
+File,"Event.java",,,,0,4,8
+File,"Event.java",,,,0,4,8
+File,"EventCollector.java",,,,9,37,7
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventDispatcher.java",,,,5,29,4
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,9,3
+File,"EventQueue.java",,,,1,9,3
+File,"FieldsGrouping.java",,,,3,17,13
+File,"FieldsGrouping.java",,,,3,15,13
+File,"GroupingStrategy.java",,,,0,4,8
+File,"GroupingStrategy.java",,,,0,4,8
+File,"InstanceExecutor.java",,,,5,27,8
+File,"InstanceExecutor.java",,,,3,16,8
+File,"Job.java",,,,5,24,20
+File,"Job.java",,,,5,24,16
+File,"Job.java",,,,5,24,16
+File,"JobStarter.java",,,,15,80,29
+File,"JobStarter.java",,,,13,68,27
+File,"JobStarter.java",,,,11,56,21
+File,"Logger.java",,,,1,6,0
+File,"Operator.java",,,,3,20,19
+File,"Operator.java",,,,3,19,19
+File,"Operator.java",,,,1,8,9
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,6,26,4
+File,"OperatorExecutor.java",,,,5,29,12
+File,"OperatorInstanceExecutor.java",,,,5,30,13
+File,"OperatorInstanceExecutor.java",,,,7,34,13
+File,"ParallelizedVehicleCountJob.java",,,,1,17,0
+File,"ParallelizedVehicleCountJob1.java",,,,1,16,0
+File,"ParallelizedVehicleCountJob2.java",,,,1,16,1
+File,"ParallelizedVehicleCountJob3.java",,,,1,17,0
+File,"Process.java",,,,4,15,12
+File,"Process.java",,,,4,15,13
+File,"Process.java",,,,4,15,13
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"ShuffleGrouping.java",,,,3,15,12
+File,"Source.java",,,,1,11,12
+File,"Source.java",,,,1,8,8
+File,"Source.java",,,,1,10,12
+File,"SourceExecutor.java",,,,6,31,13
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceExecutor.java",,,,6,24,5
+File,"SourceInstanceExecutor.java",,,,7,32,13
+File,"SourceInstanceExecutor.java",,,,5,28,13
+File,"Stream.java",,,,7,38,25
+File,"Stream.java",,,,3,19,18
+File,"Stream.java",,,,3,17,18
+File,"StreamChannel.java",,,,2,14,9
+File,"StreamForkJob.java",,,,1,20,3
+File,"StreamMergeJob.java",,,,1,22,6
+File,"StreamSplitJob.java",,,,1,22,4
+File,"Streams.java",,,,5,21,13
+File,"TollBooth.java",,,,6,42,0
+File,"TollBooth.java",,,,6,39,0
+File,"TollBooth.java",,,,4,27,0
+File,"VehicleCountJob.java",,,,1,16,0
+File,"VehicleEvent.java",,,,2,12,0
+File,"VehicleEvent.java",,,,2,12,0
+File,"VehicleEvent.java",,,,2,12,0
+File,"WebServer.java",,,,0,1,0
+File,"WebServer.java",,,,8,30,0
+Package,"com",,,,0,0,0
+Package,"com.stream_work",,,,0,0,0
+Package,"com.stream_work.ch02",,,,0,0,0
+Package,"com.stream_work.ch02.api",,,,13,75,76
+Public Class,"com.stream_work.ch02.api.Component",2,50,50,3,12,13
+Public Constructor,"com.stream_work.ch02.api.Component.Component",,,,1,3,0
+Public Method,"com.stream_work.ch02.api.Component.getName",,,,1,3,4
+Public Method,"com.stream_work.ch02.api.Component.getOutgoingStream",,,,1,3,5
+Public Abstract Class,"com.stream_work.ch02.api.Event",0,0,0,0,3,8
+Public Abstract Method,"com.stream_work.ch02.api.Event.getData",,,,0,1,4
+Public Class,"com.stream_work.ch02.api.Job",8,50,50,5,20,20
+Public Constructor,"com.stream_work.ch02.api.Job.Job",,,,1,3,0
+Public Method,"com.stream_work.ch02.api.Job.addSource",,,,2,7,6
+Public Method,"com.stream_work.ch02.api.Job.getName",,,,1,3,3
+Public Method,"com.stream_work.ch02.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.stream_work.ch02.api.Operator",3,0,0,1,6,9
+Public Constructor,"com.stream_work.ch02.api.Operator.Operator",,,,1,3,0
+Public Abstract Method,"com.stream_work.ch02.api.Operator.apply",,,,0,1,6
+Public Abstract Class,"com.stream_work.ch02.api.Source",2,0,0,1,6,8
+Public Constructor,"com.stream_work.ch02.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.stream_work.ch02.api.Source.getEvents",,,,0,1,5
+Public Class,"com.stream_work.ch02.api.Stream",6,0,0,3,13,18
+Public Method,"com.stream_work.ch02.api.Stream.applyOperator",,,,2,7,5
+Public Method,"com.stream_work.ch02.api.Stream.getAppliedOperators",,,,1,3,4
+Package,"com.stream_work.ch02.engine",,,,40,202,70
+Public Abstract Class,"com.stream_work.ch02.engine.ComponentExecutor",5,75,75,4,18,6
+Public Constructor,"com.stream_work.ch02.engine.ComponentExecutor.ComponentExecutor",,,,1,3,0
+Public Method,"com.stream_work.ch02.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.stream_work.ch02.engine.ComponentExecutor.setIncomingQueue",,,,1,3,0
+Public Method,"com.stream_work.ch02.engine.ComponentExecutor.setOutgoingQueue",,,,1,3,0
+Class,"com.stream_work.ch02.engine.Connection",2,0,0,1,7,3
+Public Constructor,"com.stream_work.ch02.engine.Connection.Connection",,,,1,4,0
+Public Class,"com.stream_work.ch02.engine.EventQueue",0,0,0,1,6,3
+Public Constructor,"com.stream_work.ch02.engine.EventQueue.EventQueue",,,,1,3,0
+Public Class,"com.stream_work.ch02.engine.JobStarter",15,61,47,11,47,21
+Public Constructor,"com.stream_work.ch02.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.stream_work.ch02.engine.JobStarter.connectExecutors",,,,1,5,2
+Private Method,"com.stream_work.ch02.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.stream_work.ch02.engine.JobStarter.setupConnections",,,,2,5,3
+Public Method,"com.stream_work.ch02.engine.JobStarter.start",,,,1,6,4
+Private Method,"com.stream_work.ch02.engine.JobStarter.startProcesses",,,,2,6,3
+Private Method,"com.stream_work.ch02.engine.JobStarter.traverseComponent",,,,2,9,1
+Public Class,"com.stream_work.ch02.engine.OperatorExecutor",6,0,0,5,26,12
+Public Constructor,"com.stream_work.ch02.engine.OperatorExecutor.OperatorExecutor",,,,1,4,0
+Method,"com.stream_work.ch02.engine.OperatorExecutor.runOnce",,,,4,19,8
+Public Abstract Class,"com.stream_work.ch02.engine.Process",1,0,0,2,14,12
+Public Constructor,"com.stream_work.ch02.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.stream_work.ch02.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.stream_work.ch02.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.stream_work.ch02.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.stream_work.ch02.engine.Process.start",,,,1,3,3
+Public Class,"com.stream_work.ch02.engine.SourceExecutor",9,33,33,6,28,13
+Public Constructor,"com.stream_work.ch02.engine.SourceExecutor.SourceExecutor",,,,1,4,0
+Method,"com.stream_work.ch02.engine.SourceExecutor.runOnce",,,,4,17,8
+Public Method,"com.stream_work.ch02.engine.SourceExecutor.setIncomingQueue",,,,1,4,0
+Public Class,"com.stream_work.ch02.engine.WebServer",8,50,50,8,24,0
+Public Constructor,"com.stream_work.ch02.engine.WebServer.WebServer",,,,2,6,0
+Private Method,"com.stream_work.ch02.engine.WebServer.logicalPlanHandler",,,,1,3,0
+Private Method,"com.stream_work.ch02.engine.WebServer.physicalPlanHandler",,,,1,3,0
+Public Method,"com.stream_work.ch02.engine.WebServer.start",,,,4,10,0
+Lambda Method,"com.stream_work.ch02.engine.WebServer.start.(lambda_expr_1)",,,,1,5,0
+Lambda Method,"com.stream_work.ch02.engine.WebServer.start.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.stream_work.ch02.engine.WebServer.start.(lambda_expr_3)",,,,1,1,0
+Package,"com.stream_work.ch02.job",,,,14,96,11
+Class,"com.stream_work.ch02.job.Bridge",13,50,16,7,35,11
+Public Constructor,"com.stream_work.ch02.job.Bridge.Bridge",,,,1,4,5
+Public Method,"com.stream_work.ch02.job.Bridge.getEvents",,,,3,14,2
+Private Method,"com.stream_work.ch02.job.Bridge.setupSocketReader",,,,3,13,4
+Class,"com.stream_work.ch02.job.TollBooth",12,33,33,4,19,0
+Public Constructor,"com.stream_work.ch02.job.TollBooth.TollBooth",,,,1,1,0
+Public Method,"com.stream_work.ch02.job.TollBooth.apply",,,,1,8,0
+Private Method,"com.stream_work.ch02.job.TollBooth.printCountMap",,,,2,7,0
+Public Class,"com.stream_work.ch02.job.VehicleCountJob",8,0,0,1,12,0
+Public Static Method,"com.stream_work.ch02.job.VehicleCountJob.main",,,,1,10,0
+Public Class,"com.stream_work.ch02.job.VehicleEvent",2,0,0,2,10,0
+Public Constructor,"com.stream_work.ch02.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.stream_work.ch02.job.VehicleEvent.getData",,,,1,4,0
+Package,"com.stream_work.ch03",,,,0,0,0
+Package,"com.stream_work.ch03.api",,,,22,135,123
+Public Class,"com.stream_work.ch03.api.Component",2,58,58,4,18,17
+Public Constructor,"com.stream_work.ch03.api.Component.Component",,,,1,4,0
+Public Method,"com.stream_work.ch03.api.Component.getName",,,,1,3,4
+Public Method,"com.stream_work.ch03.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.stream_work.ch03.api.Component.getParallelism",,,,1,3,4
+Public Abstract Class,"com.stream_work.ch03.api.Event",0,0,0,0,3,8
+Public Abstract Method,"com.stream_work.ch03.api.Event.getData",,,,0,1,4
+Public Class,"com.stream_work.ch03.api.FieldsGrouping",2,0,0,3,13,13
+Public Constructor,"com.stream_work.ch03.api.FieldsGrouping.FieldsGrouping",,,,1,2,0
+Public Method,"com.stream_work.ch03.api.FieldsGrouping.getInstance",,,,1,4,6
+Protected Method,"com.stream_work.ch03.api.FieldsGrouping.getKey",,,,1,4,7
+Public Interface,"com.stream_work.ch03.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.stream_work.ch03.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.stream_work.ch03.api.Job",8,50,50,5,19,16
+Public Constructor,"com.stream_work.ch03.api.Job.Job",,,,1,3,0
+Public Method,"com.stream_work.ch03.api.Job.addSource",,,,2,7,6
+Public Method,"com.stream_work.ch03.api.Job.getName",,,,1,3,3
+Public Method,"com.stream_work.ch03.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.stream_work.ch03.api.Operator",5,0,0,3,17,19
+Public Constructor,"com.stream_work.ch03.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.stream_work.ch03.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.stream_work.ch03.api.Operator.apply",,,,0,1,6
+Public Method,"com.stream_work.ch03.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.stream_work.ch03.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.stream_work.ch03.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.stream_work.ch03.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.stream_work.ch03.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Abstract Class,"com.stream_work.ch03.api.Source",2,0,0,1,8,12
+Public Constructor,"com.stream_work.ch03.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.stream_work.ch03.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.stream_work.ch03.api.Source.setupInstance",,,,0,1,4
+Public Class,"com.stream_work.ch03.api.Stream",6,0,0,3,14,18
+Public Method,"com.stream_work.ch03.api.Stream.applyOperator",,,,2,7,5
+Public Method,"com.stream_work.ch03.api.Stream.getAppliedOperators",,,,1,3,4
+Package,"com.stream_work.ch03.engine",,,,56,282,102
+Public Abstract Class,"com.stream_work.ch03.engine.ComponentExecutor",3,40,40,7,26,9
+Public Constructor,"com.stream_work.ch03.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.stream_work.ch03.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.stream_work.ch03.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.stream_work.ch03.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Method,"com.stream_work.ch03.engine.ComponentExecutor.setOutgoingQueue",,,,2,5,0
+Public Abstract Method,"com.stream_work.ch03.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.stream_work.ch03.engine.Connection",2,0,0,1,7,3
+Public Constructor,"com.stream_work.ch03.engine.Connection.Connection",,,,1,4,0
+Public Class,"com.stream_work.ch03.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.stream_work.ch03.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.stream_work.ch03.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.stream_work.ch03.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.stream_work.ch03.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.stream_work.ch03.engine.EventQueue",0,0,0,1,5,3
+Public Constructor,"com.stream_work.ch03.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.stream_work.ch03.engine.InstanceExecutor",4,77,77,3,12,8
+Public Constructor,"com.stream_work.ch03.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.stream_work.ch03.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Method,"com.stream_work.ch03.engine.InstanceExecutor.setOutgoingQueue",,,,1,3,0
+Public Class,"com.stream_work.ch03.engine.JobStarter",15,67,46,13,59,27
+Public Constructor,"com.stream_work.ch03.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.stream_work.ch03.engine.JobStarter.connectExecutors",,,,2,14,9
+Private Method,"com.stream_work.ch03.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.stream_work.ch03.engine.JobStarter.setupConnections",,,,2,5,3
+Public Method,"com.stream_work.ch03.engine.JobStarter.start",,,,1,5,3
+Private Method,"com.stream_work.ch03.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.stream_work.ch03.engine.JobStarter.traverseComponent",,,,2,9,1
+Public Class,"com.stream_work.ch03.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.stream_work.ch03.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.stream_work.ch03.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.stream_work.ch03.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.stream_work.ch03.engine.OperatorInstanceExecutor",5,25,25,5,27,13
+Public Constructor,"com.stream_work.ch03.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.stream_work.ch03.engine.OperatorInstanceExecutor.runOnce",,,,4,18,8
+Public Abstract Class,"com.stream_work.ch03.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.stream_work.ch03.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.stream_work.ch03.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.stream_work.ch03.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.stream_work.ch03.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.stream_work.ch03.engine.Process.start",,,,1,3,3
+Public Class,"com.stream_work.ch03.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.stream_work.ch03.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.stream_work.ch03.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.stream_work.ch03.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.stream_work.ch03.engine.SourceInstanceExecutor",6,25,25,5,25,13
+Public Constructor,"com.stream_work.ch03.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.stream_work.ch03.engine.SourceInstanceExecutor.runOnce",,,,4,16,8
+Package,"com.stream_work.ch03.job",,,,20,166,14
+Class,"com.stream_work.ch03.job.Bridge",13,56,43,8,43,13
+Public Constructor,"com.stream_work.ch03.job.Bridge.Bridge",,,,1,4,7
+Public Method,"com.stream_work.ch03.job.Bridge.getEvents",,,,3,14,2
+Public Method,"com.stream_work.ch03.job.Bridge.setupInstance",,,,1,5,0
+Private Method,"com.stream_work.ch03.job.Bridge.setupSocketReader",,,,3,13,4
+Public Class,"com.stream_work.ch03.job.ParallelizedVehicleCountJob",9,0,0,1,12,0
+Public Static Method,"com.stream_work.ch03.job.ParallelizedVehicleCountJob.main",,,,1,10,0
+Public Class,"com.stream_work.ch03.job.ParallelizedVehicleCountJob1",8,0,0,1,12,0
+Public Static Method,"com.stream_work.ch03.job.ParallelizedVehicleCountJob1.main",,,,1,10,0
+Public Class,"com.stream_work.ch03.job.ParallelizedVehicleCountJob2",8,0,0,1,12,1
+Public Static Method,"com.stream_work.ch03.job.ParallelizedVehicleCountJob2.main",,,,1,10,1
+Public Class,"com.stream_work.ch03.job.ParallelizedVehicleCountJob3",9,0,0,1,12,0
+Public Static Method,"com.stream_work.ch03.job.ParallelizedVehicleCountJob3.main",,,,1,10,0
+Class,"com.stream_work.ch03.job.TollBooth",13,60,60,6,30,0
+Public Constructor,"com.stream_work.ch03.job.TollBooth.TollBooth",,,,1,3,0
+Public Constructor,"com.stream_work.ch03.job.TollBooth.TollBooth",,,,1,3,0
+Public Method,"com.stream_work.ch03.job.TollBooth.apply",,,,1,8,0
+Private Method,"com.stream_work.ch03.job.TollBooth.printCountMap",,,,2,7,0
+Public Method,"com.stream_work.ch03.job.TollBooth.setupInstance",,,,1,4,0
+Public Class,"com.stream_work.ch03.job.VehicleEvent",2,0,0,2,10,0
+Public Constructor,"com.stream_work.ch03.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.stream_work.ch03.job.VehicleEvent.getData",,,,1,4,0
+Package,"com.stream_work.ch04",,,,0,0,0
+Package,"com.stream_work.ch04.api",,,,42,222,159
+Public Class,"com.stream_work.ch04.api.Component",2,58,58,4,18,17
+Public Constructor,"com.stream_work.ch04.api.Component.Component",,,,1,4,0
+Public Method,"com.stream_work.ch04.api.Component.getName",,,,1,3,4
+Public Method,"com.stream_work.ch04.api.Component.getOutgoingStream",,,,1,3,5
+Public Method,"com.stream_work.ch04.api.Component.getParallelism",,,,1,3,4
+Public Abstract Class,"com.stream_work.ch04.api.Event",0,0,0,0,3,8
+Public Abstract Method,"com.stream_work.ch04.api.Event.getData",,,,0,1,4
+Public Class,"com.stream_work.ch04.api.EventCollector",8,57,50,9,29,7
+Public Constructor,"com.stream_work.ch04.api.EventCollector.EventCollector",,,,1,2,0
+Public Method,"com.stream_work.ch04.api.EventCollector.add",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.EventCollector.add",,,,2,5,1
+Public Method,"com.stream_work.ch04.api.EventCollector.clear",,,,2,5,0
+Public Method,"com.stream_work.ch04.api.EventCollector.getEventList",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.EventCollector.getRegisteredChannels",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.EventCollector.registerChannel",,,,1,4,0
+Public Class,"com.stream_work.ch04.api.FieldsGrouping",2,0,0,3,13,13
+Public Constructor,"com.stream_work.ch04.api.FieldsGrouping.FieldsGrouping",,,,1,2,0
+Public Method,"com.stream_work.ch04.api.FieldsGrouping.getInstance",,,,1,4,6
+Protected Method,"com.stream_work.ch04.api.FieldsGrouping.getKey",,,,1,4,7
+Public Interface,"com.stream_work.ch04.api.GroupingStrategy",1,0,0,0,3,8
+Abstract Method,"com.stream_work.ch04.api.GroupingStrategy.getInstance",,,,0,1,8
+Public Class,"com.stream_work.ch04.api.Job",8,50,50,5,19,16
+Public Constructor,"com.stream_work.ch04.api.Job.Job",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.Job.addSource",,,,2,7,6
+Public Method,"com.stream_work.ch04.api.Job.getName",,,,1,3,3
+Public Method,"com.stream_work.ch04.api.Job.getSources",,,,1,3,4
+Public Abstract Class,"com.stream_work.ch04.api.Operator",5,0,0,3,17,19
+Public Constructor,"com.stream_work.ch04.api.Operator.Operator",,,,1,4,1
+Public Constructor,"com.stream_work.ch04.api.Operator.Operator",,,,1,4,0
+Public Abstract Method,"com.stream_work.ch04.api.Operator.apply",,,,0,1,6
+Public Method,"com.stream_work.ch04.api.Operator.getGroupingStrategy",,,,1,3,4
+Public Abstract Method,"com.stream_work.ch04.api.Operator.setupInstance",,,,0,1,4
+Public Class,"com.stream_work.ch04.api.ShuffleGrouping",2,50,50,3,13,12
+Public Constructor,"com.stream_work.ch04.api.ShuffleGrouping.ShuffleGrouping",,,,1,1,0
+Public Method,"com.stream_work.ch04.api.ShuffleGrouping.getInstance",,,,2,8,6
+Public Abstract Class,"com.stream_work.ch04.api.Source",2,0,0,1,8,12
+Public Constructor,"com.stream_work.ch04.api.Source.Source",,,,1,3,0
+Public Abstract Method,"com.stream_work.ch04.api.Source.getEvents",,,,0,1,5
+Public Abstract Method,"com.stream_work.ch04.api.Source.setupInstance",,,,0,1,4
+Public Class,"com.stream_work.ch04.api.Stream",10,40,19,7,31,25
+Public Method,"com.stream_work.ch04.api.Stream.applyOperator",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.Stream.applyOperator",,,,3,14,7
+Public Method,"com.stream_work.ch04.api.Stream.getAppliedOperators",,,,1,3,4
+Public Method,"com.stream_work.ch04.api.Stream.getChannels",,,,1,3,5
+Public Method,"com.stream_work.ch04.api.Stream.selectChannel",,,,1,3,0
+Public Class,"com.stream_work.ch04.api.StreamChannel",3,0,0,2,13,9
+Public Constructor,"com.stream_work.ch04.api.StreamChannel.StreamChannel",,,,1,4,0
+Public Method,"com.stream_work.ch04.api.StreamChannel.applyOperator",,,,1,4,0
+Public Class,"com.stream_work.ch04.api.Streams",4,33,0,5,19,13
+Private Constructor,"com.stream_work.ch04.api.Streams.Streams",,,,1,3,0
+Public Method,"com.stream_work.ch04.api.Streams.applyOperator",,,,2,6,5
+Public Static Method,"com.stream_work.ch04.api.Streams.merge",,,,2,7,0
+Package,"com.stream_work.ch04.engine",,,,66,321,104
+Public Abstract Class,"com.stream_work.ch04.engine.ComponentExecutor",4,41,41,9,31,9
+Public Constructor,"com.stream_work.ch04.engine.ComponentExecutor.ComponentExecutor",,,,1,5,0
+Public Method,"com.stream_work.ch04.engine.ComponentExecutor.addOutgoingQueue",,,,2,5,0
+Public Method,"com.stream_work.ch04.engine.ComponentExecutor.getComponent",,,,1,3,0
+Public Method,"com.stream_work.ch04.engine.ComponentExecutor.getInstanceExecutors",,,,1,3,3
+Public Method,"com.stream_work.ch04.engine.ComponentExecutor.registerChannel",,,,2,5,0
+Public Method,"com.stream_work.ch04.engine.ComponentExecutor.setIncomingQueues",,,,2,5,0
+Public Abstract Method,"com.stream_work.ch04.engine.ComponentExecutor.start",,,,0,1,3
+Class,"com.stream_work.ch04.engine.Connection",3,0,0,1,9,3
+Public Constructor,"com.stream_work.ch04.engine.Connection.Connection",,,,1,5,0
+Public Class,"com.stream_work.ch04.engine.EventDispatcher",7,50,50,5,26,4
+Public Constructor,"com.stream_work.ch04.engine.EventDispatcher.EventDispatcher",,,,1,3,0
+Method,"com.stream_work.ch04.engine.EventDispatcher.runOnce",,,,2,12,0
+Public Method,"com.stream_work.ch04.engine.EventDispatcher.setIncomingQueue",,,,1,3,0
+Public Method,"com.stream_work.ch04.engine.EventDispatcher.setOutgoingQueues",,,,1,3,0
+Public Class,"com.stream_work.ch04.engine.EventQueue",0,0,0,1,5,3
+Public Constructor,"com.stream_work.ch04.engine.EventQueue.EventQueue",,,,1,3,0
+Public Abstract Class,"com.stream_work.ch04.engine.InstanceExecutor",7,75,75,5,21,8
+Public Constructor,"com.stream_work.ch04.engine.InstanceExecutor.InstanceExecutor",,,,1,1,0
+Public Method,"com.stream_work.ch04.engine.InstanceExecutor.addOutgoingQueue",,,,2,9,0
+Public Method,"com.stream_work.ch04.engine.InstanceExecutor.registerChannel",,,,1,3,0
+Public Method,"com.stream_work.ch04.engine.InstanceExecutor.setIncomingQueue",,,,1,3,0
+Public Class,"com.stream_work.ch04.engine.JobStarter",18,71,48,15,69,29
+Public Constructor,"com.stream_work.ch04.engine.JobStarter.JobStarter",,,,1,3,0
+Private Method,"com.stream_work.ch04.engine.JobStarter.connectExecutors",,,,3,21,8
+Private Method,"com.stream_work.ch04.engine.JobStarter.setupComponentExecutors",,,,2,7,5
+Private Method,"com.stream_work.ch04.engine.JobStarter.setupConnections",,,,2,5,5
+Public Method,"com.stream_work.ch04.engine.JobStarter.start",,,,1,5,3
+Private Method,"com.stream_work.ch04.engine.JobStarter.startProcesses",,,,3,9,3
+Private Method,"com.stream_work.ch04.engine.JobStarter.traverseComponent",,,,3,11,1
+Public Class,"com.stream_work.ch04.engine.OperatorExecutor",8,33,33,6,22,4
+Public Constructor,"com.stream_work.ch04.engine.OperatorExecutor.OperatorExecutor",,,,2,8,0
+Public Method,"com.stream_work.ch04.engine.OperatorExecutor.getGroupingStrategy",,,,1,3,0
+Public Method,"com.stream_work.ch04.engine.OperatorExecutor.start",,,,3,8,0
+Public Class,"com.stream_work.ch04.engine.OperatorInstanceExecutor",8,25,25,7,31,13
+Public Constructor,"com.stream_work.ch04.engine.OperatorInstanceExecutor.OperatorInstanceExecutor",,,,1,5,0
+Protected Method,"com.stream_work.ch04.engine.OperatorInstanceExecutor.runOnce",,,,6,22,8
+Public Abstract Class,"com.stream_work.ch04.engine.Process",1,0,0,2,14,13
+Public Constructor,"com.stream_work.ch04.engine.Process.Process",,,,1,7,0
+Anonymous Class,"com.stream_work.ch04.engine.Process.Process.(Anon_1)",1,0,0,2,4,0
+Public Method,"com.stream_work.ch04.engine.Process.Process.(Anon_1).run",,,,2,3,0
+Abstract Method,"com.stream_work.ch04.engine.Process.runOnce",,,,0,1,4
+Public Method,"com.stream_work.ch04.engine.Process.start",,,,1,3,3
+Public Class,"com.stream_work.ch04.engine.SourceExecutor",9,0,0,6,21,5
+Public Constructor,"com.stream_work.ch04.engine.SourceExecutor.SourceExecutor",,,,2,7,0
+Public Method,"com.stream_work.ch04.engine.SourceExecutor.setIncomingQueues",,,,1,4,0
+Public Method,"com.stream_work.ch04.engine.SourceExecutor.start",,,,3,8,0
+Public Class,"com.stream_work.ch04.engine.SourceInstanceExecutor",9,25,25,7,29,13
+Public Constructor,"com.stream_work.ch04.engine.SourceInstanceExecutor.SourceInstanceExecutor",,,,1,5,0
+Protected Method,"com.stream_work.ch04.engine.SourceInstanceExecutor.runOnce",,,,6,20,8
+Package,"com.stream_work.ch04.job",,,,21,177,34
+Class,"com.stream_work.ch04.job.Bridge",13,55,44,9,48,21
+Public Constructor,"com.stream_work.ch04.job.Bridge.Bridge",,,,1,5,9
+Public Method,"com.stream_work.ch04.job.Bridge.getEvents",,,,4,17,3
+Public Method,"com.stream_work.ch04.job.Bridge.setupInstance",,,,1,5,5
+Private Method,"com.stream_work.ch04.job.Bridge.setupSocketReader",,,,3,13,4
+Class,"com.stream_work.ch04.job.Logger",3,0,0,1,5,0
+Public Static Method,"com.stream_work.ch04.job.Logger.log",,,,1,3,0
+Public Class,"com.stream_work.ch04.job.StreamForkJob",8,0,0,1,15,3
+Public Static Method,"com.stream_work.ch04.job.StreamForkJob.main",,,,1,13,3
+Public Class,"com.stream_work.ch04.job.StreamMergeJob",9,0,0,1,16,6
+Public Static Method,"com.stream_work.ch04.job.StreamMergeJob.main",,,,1,14,6
+Public Class,"com.stream_work.ch04.job.StreamSplitJob",9,0,0,1,17,4
+Public Static Method,"com.stream_work.ch04.job.StreamSplitJob.main",,,,1,15,4
+Class,"com.stream_work.ch04.job.TollBooth",14,60,60,6,32,0
+Public Constructor,"com.stream_work.ch04.job.TollBooth.TollBooth",,,,1,3,0
+Public Constructor,"com.stream_work.ch04.job.TollBooth.TollBooth",,,,1,3,0
+Public Method,"com.stream_work.ch04.job.TollBooth.apply",,,,1,8,0
+Private Method,"com.stream_work.ch04.job.TollBooth.printCountMap",,,,2,9,0
+Public Method,"com.stream_work.ch04.job.TollBooth.setupInstance",,,,1,4,0
+Public Class,"com.stream_work.ch04.job.VehicleEvent",2,0,0,2,10,0
+Public Constructor,"com.stream_work.ch04.job.VehicleEvent.VehicleEvent",,,,1,3,0
+Public Method,"com.stream_work.ch04.job.VehicleEvent.getData",,,,1,4,0

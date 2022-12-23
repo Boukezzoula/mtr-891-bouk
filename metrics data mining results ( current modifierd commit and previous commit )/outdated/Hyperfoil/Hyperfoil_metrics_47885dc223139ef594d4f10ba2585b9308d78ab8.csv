@@ -1,0 +1,236 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"CommandBase.java",,,,0,7,3
+File,"Distribution.java",,,,11,48,3
+File,"Http1Test.java",,,,4,42,1
+File,"Http1xClient.java",,,,9,58,3
+File,"Http1xConnection.java",,,,19,123,4
+File,"Http2Client.java",,,,26,170,6
+File,"Http2Connection.java",,,,27,145,4
+File,"Http2Request.java",,,,8,52,3
+File,"HttpClient.java",,,,0,10,0
+File,"HttpClientBuilder.java",,,,0,12,0
+File,"HttpClientCommand.java",,,,18,160,6
+File,"HttpClientImpl.java",,,,28,159,8
+File,"HttpConnection.java",,,,0,8,3
+File,"HttpRequest.java",,,,1,14,3
+File,"Load.java",,,,38,228,5
+File,"Main.java",,,,5,35,33
+File,"NettyHttpClientBuilder.java",,,,8,49,0
+File,"Pacer.java",,,,15,69,16
+File,"Report.java",,,,20,137,3
+File,"StatisticsHandler.java",,,,10,48,3
+File,"Utils.java",,,,10,55,16
+Package,"com",,,,0,0,0
+Package,"com.julienviet",,,,0,0,0
+Package,"com.julienviet.httpclientbenchmark",,,,4,42,1
+Public Class,"com.julienviet.httpclientbenchmark.Http1Test",12,33,33,4,31,1
+Public Method,"com.julienviet.httpclientbenchmark.Http1Test.after",,,,1,4,0
+Public Method,"com.julienviet.httpclientbenchmark.Http1Test.before",,,,2,9,0
+Lambda Method,"com.julienviet.httpclientbenchmark.Http1Test.before.(lambda_expr_1)",,,,1,4,0
+Public Method,"com.julienviet.httpclientbenchmark.Http1Test.testNetty",,,,1,13,1
+Package,"http2",,,,0,0,0
+Package,"http2.bench",,,,26,145,55
+Public Abstract Class,"http2.bench.CommandBase",2,0,0,0,5,3
+Public Abstract Method,"http2.bench.CommandBase.run",,,,0,1,0
+Public Class,"http2.bench.Distribution",4,66,33,11,44,3
+Public Constructor,"http2.bench.Distribution.Distribution",,,,1,3,0
+Public Constructor,"http2.bench.Distribution.Distribution",,,,1,3,0
+Public Constructor,"http2.bench.Distribution.Distribution",,,,2,10,0
+Private Static Method,"http2.bench.Distribution.convert",,,,2,7,0
+Private Static Method,"http2.bench.Distribution.convert",,,,2,7,0
+Public Method,"http2.bench.Distribution.next",,,,3,10,0
+Public Class,"http2.bench.Main",6,0,0,5,31,33
+Public Static Class,"http2.bench.Main.MainCmd",1,0,0,0,3,0
+Public Static Method,"http2.bench.Main.main",,,,5,26,30
+Public Class,"http2.bench.Utils",6,77,66,10,50,16
+Public Static Method,"http2.bench.Utils.blackholeCpu",,,,2,8,0
+Public Static Method,"http2.bench.Utils.calibrateBlackhole",,,,3,15,4
+Public Static Method,"http2.bench.Utils.parseSize",,,,5,22,0
+Package,"http2.bench.client",,,,92,630,33
+Public Interface,"http2.bench.client.HttpClient",3,0,0,0,8,0
+Abstract Method,"http2.bench.client.HttpClient.bytesRead",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClient.bytesWritten",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClient.request",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClient.resetStatistics",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClient.shutdown",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClient.start",,,,0,1,0
+Public Interface,"http2.bench.client.HttpClientBuilder",4,0,0,0,10,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.build",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.concurrency",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.host",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.port",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.protocol",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.shutdown",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.size",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpClientBuilder.ssl",,,,0,1,0
+Public Class,"http2.bench.client.HttpClientCommand",26,50,50,18,143,6
+Private Static Method,"http2.bench.client.HttpClientCommand.parseDuration",,,,4,23,0
+Public Method,"http2.bench.client.HttpClientCommand.run",,,,14,92,0
+Public Interface,"http2.bench.client.HttpRequest",4,0,0,1,10,0
+Abstract Method,"http2.bench.client.HttpRequest.end",,,,0,1,0
+Method,"http2.bench.client.HttpRequest.end",,,,1,3,0
+Abstract Method,"http2.bench.client.HttpRequest.endHandler",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpRequest.headersHandler",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpRequest.putHeader",,,,0,1,0
+Abstract Method,"http2.bench.client.HttpRequest.resetHandler",,,,0,1,0
+Class,"http2.bench.client.Load",26,77,72,15,212,5
+Public Constructor,"http2.bench.client.Load.Load",,,,1,13,0
+Static Class,"http2.bench.client.Load.ScheduledRequest",0,50,50,1,7,0
+Public Constructor,"http2.bench.client.Load.ScheduledRequest.ScheduledRequest",,,,1,3,0
+Class,"http2.bench.client.Load.Worker",12,71,61,22,83,1
+Public Constructor,"http2.bench.client.Load.Worker.Worker",,,,1,3,0
+Public Constructor,"http2.bench.client.Load.Worker.Worker",,,,1,3,0
+Private Method,"http2.bench.client.Load.Worker.checkPending",,,,4,11,0
+Private Method,"http2.bench.client.Load.Worker.doRequest",,,,7,24,1
+Lambda Method,"http2.bench.client.Load.Worker.doRequest.(lambda_expr_1)",,,,2,6,0
+Lambda Method,"http2.bench.client.Load.Worker.doRequest.(lambda_expr_2)",,,,1,3,0
+Lambda Method,"http2.bench.client.Load.Worker.doRequest.(lambda_expr_3)",,,,1,6,1
+Private Method,"http2.bench.client.Load.Worker.doRequestInSlot",,,,4,18,0
+Private Method,"http2.bench.client.Load.Worker.runSlot",,,,1,5,0
+Private Method,"http2.bench.client.Load.Worker.runSlot",,,,4,14,0
+Lambda Method,"http2.bench.client.Load.Worker.runSlot.(lambda_expr_1)",,,,3,12,0
+Private Method,"http2.bench.client.Load.end",,,,1,23,0
+Private Method,"http2.bench.client.Load.printDetail",,,,3,13,0
+Lambda Method,"http2.bench.client.Load.printDetail.(lambda_expr_1)",,,,2,11,0
+Private Method,"http2.bench.client.Load.ratio",,,,1,5,0
+Private Method,"http2.bench.client.Load.readThroughput",,,,1,3,0
+Method,"http2.bench.client.Load.run",,,,7,37,1
+Lambda Method,"http2.bench.client.Load.run.(lambda_expr_1)",,,,1,3,0
+Private Method,"http2.bench.client.Load.writeThroughput",,,,1,3,0
+Public Class,"http2.bench.client.Pacer",2,76,55,15,67,14
+Public Constructor,"http2.bench.client.Pacer.Pacer",,,,1,3,1
+Public Constructor,"http2.bench.client.Pacer.Pacer",,,,1,5,0
+Public Method,"http2.bench.client.Pacer.acquire",,,,2,7,5
+Method,"http2.bench.client.Pacer.expectedNextOperationNanoTime",,,,1,3,3
+Private Method,"http2.bench.client.Pacer.nsecToNextOperation",,,,5,23,5
+Private Method,"http2.bench.client.Pacer.setCatchupRateMultiple",,,,1,4,0
+Public Method,"http2.bench.client.Pacer.setInitialStartTime",,,,1,3,0
+Private Method,"http2.bench.client.Pacer.setThroughout",,,,1,4,0
+Static Method,"http2.bench.client.Pacer.sleepNs",,,,2,6,0
+Class,"http2.bench.client.Report",15,75,72,20,128,3
+Public Constructor,"http2.bench.client.Report.Report",,,,1,5,0
+Method,"http2.bench.client.Report.columns",,,,1,6,0
+Method,"http2.bench.client.Report.format",,,,10,36,0
+Method,"http2.bench.client.Report.getMaxResponseTimeMillis",,,,1,3,0
+Method,"http2.bench.client.Report.getMinResponseTimeMillis",,,,1,3,0
+Method,"http2.bench.client.Report.getResponseTimeMillisPercentile",,,,1,3,0
+Method,"http2.bench.client.Report.header",,,,1,3,0
+Public Method,"http2.bench.client.Report.measures",,,,1,26,0
+Method,"http2.bench.client.Report.prettyPrint",,,,1,16,0
+Method,"http2.bench.client.Report.save",,,,2,7,0
+Package,"http2.bench.client.netty",,,,135,812,34
+Class,"http2.bench.client.netty.Http1xClient",13,40,40,7,44,3
+Constructor,"http2.bench.client.netty.Http1xClient.Http1xClient",,,,1,3,0
+Public Method,"http2.bench.client.netty.Http1xClient.bytesRead",,,,1,3,0
+Public Method,"http2.bench.client.netty.Http1xClient.bytesWritten",,,,1,3,0
+Method,"http2.bench.client.netty.Http1xClient.connect",,,,3,29,0
+Anonymous Class,"http2.bench.client.netty.Http1xClient.connect.(Anon_1)",9,0,0,2,12,0
+Protected Method,"http2.bench.client.netty.Http1xClient.connect.(Anon_1).initChannel",,,,2,11,0
+Lambda Method,"http2.bench.client.netty.Http1xClient.connect.(lambda_expr_1)",,,,2,7,0
+Public Method,"http2.bench.client.netty.Http1xClient.resetStatistics",,,,1,3,0
+Class,"http2.bench.client.netty.Http1xConnection",16,66,66,10,105,4
+Constructor,"http2.bench.client.netty.Http1xConnection.Http1xConnection",,,,1,3,0
+Private Class,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl",13,63,63,7,42,0
+Constructor,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.HttpRequestImpl",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.end",,,,2,9,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.endHandler",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.headersHandler",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.putHeader",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpRequestImpl.resetHandler",,,,1,5,0
+Private Class,"http2.bench.client.netty.Http1xConnection.HttpStream",6,37,37,2,17,0
+Constructor,"http2.bench.client.netty.Http1xConnection.HttpStream.HttpStream",,,,1,6,0
+Public Method,"http2.bench.client.netty.Http1xConnection.HttpStream.run",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.channelRead",,,,5,18,0
+Public Method,"http2.bench.client.netty.Http1xConnection.channelRegistered",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http1xConnection.context",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http1xConnection.isAvailable",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http1xConnection.request",,,,1,6,0
+Class,"http2.bench.client.netty.Http2Client",15,83,73,12,138,6
+Method,"http2.bench.client.netty.Http2Client.GET",,,,1,3,0
+Method,"http2.bench.client.netty.Http2Client.GET",,,,1,3,0
+Constructor,"http2.bench.client.netty.Http2Client.Http2Client",,,,1,4,0
+Method,"http2.bench.client.netty.Http2Client.POST",,,,1,3,0
+Class,"http2.bench.client.netty.Http2Client.TestClientHandler",10,62,12,6,32,1
+Public Constructor,"http2.bench.client.netty.Http2Client.TestClientHandler.TestClientHandler",,,,1,8,0
+Public Method,"http2.bench.client.netty.Http2Client.TestClientHandler.channelActive",,,,1,5,0
+Private Method,"http2.bench.client.netty.Http2Client.TestClientHandler.checkHandle",,,,2,8,1
+Public Method,"http2.bench.client.netty.Http2Client.TestClientHandler.handlerAdded",,,,2,7,0
+Class,"http2.bench.client.netty.Http2Client.TestClientHandlerBuilder",9,33,33,3,16,1
+Public Constructor,"http2.bench.client.netty.Http2Client.TestClientHandlerBuilder.TestClientHandlerBuilder",,,,1,3,0
+Protected Method,"http2.bench.client.netty.Http2Client.TestClientHandlerBuilder.build",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http2Client.TestClientHandlerBuilder.build",,,,1,6,1
+Anonymous Class,"http2.bench.client.netty.Http2Client.TestClientHandlerBuilder.build.(Anon_1)",0,0,0,0,0,0
+Public Method,"http2.bench.client.netty.Http2Client.bytesRead",,,,1,3,0
+Public Method,"http2.bench.client.netty.Http2Client.bytesWritten",,,,1,3,0
+Protected Method,"http2.bench.client.netty.Http2Client.channelInitializer",,,,1,46,0
+Anonymous Class,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2)",14,0,0,2,43,0
+Protected Method,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel",,,,2,42,0
+Anonymous Class,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_3)",11,0,0,2,13,0
+Protected Method,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_3).configurePipeline",,,,2,12,0
+Anonymous Class,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_4)",6,0,0,1,8,0
+Public Method,"http2.bench.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_4).channelActive",,,,1,7,0
+Public Method,"http2.bench.client.netty.Http2Client.connect",,,,3,14,1
+Lambda Method,"http2.bench.client.netty.Http2Client.connect.(lambda_expr_1)",,,,2,5,0
+Method,"http2.bench.client.netty.Http2Client.headers",,,,1,3,0
+Public Method,"http2.bench.client.netty.Http2Client.resetStatistics",,,,1,3,0
+Class,"http2.bench.client.netty.Http2Connection",16,73,73,10,130,4
+Constructor,"http2.bench.client.netty.Http2Connection.Http2Connection",,,,1,70,1
+Anonymous Class,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1)",15,0,0,16,56,0
+Private Method,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1).endStream",,,,2,8,0
+Public Method,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1).onDataRead",,,,4,14,0
+Public Method,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1).onHeadersRead",,,,5,17,0
+Public Method,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1).onRstStreamRead",,,,3,10,0
+Public Method,"http2.bench.client.netty.Http2Connection.Http2Connection.(Anon_1).onSettingsRead",,,,2,6,0
+Static Class,"http2.bench.client.netty.Http2Connection.Http2Stream",4,14,14,1,17,0
+Constructor,"http2.bench.client.netty.Http2Connection.Http2Stream.Http2Stream",,,,1,8,0
+Method,"http2.bench.client.netty.Http2Connection.bilto",,,,3,11,0
+Lambda Method,"http2.bench.client.netty.Http2Connection.bilto.(lambda_expr_1)",,,,2,9,0
+Public Method,"http2.bench.client.netty.Http2Connection.context",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http2Connection.incrementConnectionWindowSize",,,,2,8,0
+Public Method,"http2.bench.client.netty.Http2Connection.isAvailable",,,,1,4,0
+Private Method,"http2.bench.client.netty.Http2Connection.nextStreamId",,,,1,3,0
+Public Method,"http2.bench.client.netty.Http2Connection.request",,,,1,4,0
+Class,"http2.bench.client.netty.Http2Request",10,73,73,8,44,3
+Constructor,"http2.bench.client.netty.Http2Request.Http2Request",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http2Request.dataHandler",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http2Request.end",,,,2,7,0
+Public Method,"http2.bench.client.netty.Http2Request.endHandler",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http2Request.headersHandler",,,,1,5,0
+Public Method,"http2.bench.client.netty.Http2Request.putHeader",,,,1,4,0
+Public Method,"http2.bench.client.netty.Http2Request.resetHandler",,,,1,5,0
+Abstract Class,"http2.bench.client.netty.HttpClientImpl",27,81,73,26,143,8
+Constructor,"http2.bench.client.netty.HttpClientImpl.HttpClientImpl",,,,1,9,0
+Public Abstract Method,"http2.bench.client.netty.HttpClientImpl.bytesRead",,,,0,1,0
+Public Abstract Method,"http2.bench.client.netty.HttpClientImpl.bytesWritten",,,,0,1,0
+Private Method,"http2.bench.client.netty.HttpClientImpl.checkCreateConnections",,,,9,44,0
+Lambda Method,"http2.bench.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_1)",,,,7,33,0
+Lambda Method,"http2.bench.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_1).(lambda_expr_2)",,,,2,9,0
+Lambda Method,"http2.bench.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_3)",,,,1,3,0
+Private Method,"http2.bench.client.netty.HttpClientImpl.choose",,,,3,10,0
+Abstract Method,"http2.bench.client.netty.HttpClientImpl.connect",,,,0,1,0
+Method,"http2.bench.client.netty.HttpClientImpl.count",,,,1,3,0
+Static Method,"http2.bench.client.netty.HttpClientImpl.create",,,,5,25,4
+Public Method,"http2.bench.client.netty.HttpClientImpl.request",,,,2,8,0
+Public Abstract Method,"http2.bench.client.netty.HttpClientImpl.resetStatistics",,,,0,1,0
+Public Method,"http2.bench.client.netty.HttpClientImpl.shutdown",,,,3,17,0
+Public Method,"http2.bench.client.netty.HttpClientImpl.start",,,,2,9,0
+Public Interface,"http2.bench.client.netty.HttpConnection",3,0,0,0,5,0
+Abstract Method,"http2.bench.client.netty.HttpConnection.context",,,,0,1,0
+Abstract Method,"http2.bench.client.netty.HttpConnection.isAvailable",,,,0,1,0
+Abstract Method,"http2.bench.client.netty.HttpConnection.request",,,,0,1,0
+Public Class,"http2.bench.client.netty.NettyHttpClientBuilder",9,75,75,8,42,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.build",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.concurrency",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.host",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.port",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.protocol",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.shutdown",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.size",,,,1,4,0
+Public Method,"http2.bench.client.netty.NettyHttpClientBuilder.ssl",,,,1,5,0
+Class,"http2.bench.client.netty.StatisticsHandler",8,50,50,10,40,3
+Method,"http2.bench.client.netty.StatisticsHandler.bytesRead",,,,1,3,0
+Method,"http2.bench.client.netty.StatisticsHandler.bytesWritten",,,,1,3,0
+Public Method,"http2.bench.client.netty.StatisticsHandler.channelRead",,,,2,8,0
+Method,"http2.bench.client.netty.StatisticsHandler.reset",,,,1,4,0
+Private Method,"http2.bench.client.netty.StatisticsHandler.sizeOf",,,,3,9,0
+Public Method,"http2.bench.client.netty.StatisticsHandler.write",,,,2,8,0

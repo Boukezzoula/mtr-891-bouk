@@ -1,0 +1,548 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,2,16,20
+File,"AbstractClientChannelHandler.java",,,,17,90,21
+File,"AbstractCodec.java",,,,17,87,11
+File,"AbstractDecoderTest.java",,,,3,20,19
+File,"AbstractPing.java",,,,1,9,19
+File,"AbstractPong.java",,,,1,9,19
+File,"BlockingQueueSubscriptionIterator.java",,,,19,86,21
+File,"ChannelBufferUtil.java",,,,4,20,19
+File,"ClientChannelPipelineFactory.java",,,,3,21,22
+File,"ClientCodec.java",,,,13,74,24
+File,"ClientCodecTest.java",,,,17,119,19
+File,"ClientConnectMessage.java",,,,4,31,19
+File,"ClientMessage.java",,,,0,3,19
+File,"ClientPingMessage.java",,,,0,4,19
+File,"ClientPongMessage.java",,,,0,4,19
+File,"ClientPublishMessage.java",,,,8,47,20
+File,"ClientRequest.java",,,,0,3,21
+File,"ClientSubscribeMessage.java",,,,6,38,20
+File,"ClientUnsubscribeMessage.java",,,,6,34,19
+File,"CompletionHandler.java",,,,0,4,27
+File,"ConnectBody.java",,,,7,49,19
+File,"ConnectionStatus.java",,,,0,8,19
+File,"Constants.java",,,,1,12,38
+File,"DefaultPublication.java",,,,16,94,19
+File,"DefaultRequest.java",,,,17,76,19
+File,"DefaultSubscriptionTimeout.java",,,,10,61,19
+File,"Encodable.java",,,,0,5,19
+File,"ExceptionHandler.java",,,,0,4,21
+File,"HandlerRegistrar.java",,,,9,57,20
+File,"HandlerRegistration.java",,,,0,4,31
+File,"Message.java",,,,0,10,60
+File,"MessageHandler.java",,,,0,4,19
+File,"Nats.java",,,,133,698,279
+File,"NatsClosedException.java",,,,1,7,21
+File,"NatsDecodingException.java",,,,2,12,19
+File,"NatsEmptyServerListException.java",,,,1,7,21
+File,"NatsException.java",,,,2,9,21
+File,"NatsFunctionalTest.java",,,,20,157,22
+File,"NatsFuture.java",,,,0,10,67
+File,"NatsInterruptedException.java",,,,1,6,21
+File,"NatsLogger.java",,,,6,34,19
+File,"NatsServerException.java",,,,1,6,19
+File,"NatsServerProcess.java",,,,14,61,20
+File,"PerfTest.java",,,,12,70,5
+File,"Publication.java",,,,0,9,36
+File,"Request.java",,,,0,3,22
+File,"ServerCodec.java",,,,19,81,25
+File,"ServerCodecTest.java",,,,22,148,19
+File,"ServerConnectionFailedException.java",,,,1,7,19
+File,"ServerErrorMessage.java",,,,4,26,19
+File,"ServerInfoMessage.java",,,,3,22,20
+File,"ServerMessage.java",,,,0,3,19
+File,"ServerOkMessage.java",,,,1,11,19
+File,"ServerPingMessage.java",,,,0,3,19
+File,"ServerPongMessage.java",,,,0,4,19
+File,"ServerPublishMessage.java",,,,9,55,19
+File,"ServerReconnectFailed.java",,,,2,13,19
+File,"Subscription.java",,,,0,16,76
+File,"SubscriptionIterator.java",,,,0,15,55
+File,"SubscriptionTimeout.java",,,,0,8,41
+Public Class,"Test",7,0,0,2,10,20
+File,"Test.java",,,,2,16,20
+Public Static Method,"Test.main",,,,2,8,17
+File,"TimeoutHandler.java",,,,0,4,26
+Package,"nats",,,,23,155,248
+Public Generic Interface,"nats.CompletionHandler",0,0,0,0,3,6
+TypeVariable,"nats.CompletionHandler.T",1,0,0,0,0,0
+Abstract Method,"nats.CompletionHandler.onComplete",,,,0,1,6
+Public Final Class,"nats.Constants",2,0,0,1,10,22
+Private Constructor,"nats.Constants.Constants",,,,1,2,1
+Public Interface,"nats.HandlerRegistration",0,0,0,0,3,3
+Abstract Method,"nats.HandlerRegistration.remove",,,,0,1,3
+Public Class,"nats.NatsException",1,0,0,2,8,5
+Public Constructor,"nats.NatsException.NatsException",,,,1,3,0
+Public Constructor,"nats.NatsException.NatsException",,,,1,3,0
+Public Generic Interface,"nats.NatsFuture",4,0,0,0,8,40
+TypeVariable,"nats.NatsFuture.H",1,0,0,0,0,0
+Abstract Method,"nats.NatsFuture.addCompletionHandler",,,,0,1,7
+Abstract Method,"nats.NatsFuture.await",,,,0,1,5
+Abstract Method,"nats.NatsFuture.await",,,,0,1,11
+Abstract Method,"nats.NatsFuture.getCause",,,,0,1,6
+Abstract Method,"nats.NatsFuture.isDone",,,,0,1,6
+Abstract Method,"nats.NatsFuture.isSuccess",,,,0,1,5
+Public Class,"nats.NatsInterruptedException",1,0,0,1,5,5
+Public Constructor,"nats.NatsInterruptedException.NatsInterruptedException",,,,1,3,0
+Public Interface,"nats.NatsLogger",3,0,0,0,33,0
+Anonymous Class,"nats.NatsLogger.(Anon_1)",6,0,0,4,13,0
+Public Method,"nats.NatsLogger.(Anon_1).log",,,,2,6,0
+Public Method,"nats.NatsLogger.(Anon_1).log",,,,2,6,0
+Anonymous Class,"nats.NatsLogger.(Anon_2)",7,0,0,2,9,0
+Public Method,"nats.NatsLogger.(Anon_2).log",,,,1,4,0
+Public Method,"nats.NatsLogger.(Anon_2).log",,,,1,4,0
+Public Enum Type,"nats.NatsLogger.Level",1,,,0,5,0
+Public Implicit Method,"nats.NatsLogger.Level.valueOf",,,,0,,
+Public Implicit Method,"nats.NatsLogger.Level.values",,,,0,,
+Abstract Method,"nats.NatsLogger.log",,,,0,1,0
+Abstract Method,"nats.NatsLogger.log",,,,0,1,0
+Public Class,"nats.NatsServerException",1,0,0,1,5,3
+Public Constructor,"nats.NatsServerException.NatsServerException",,,,1,3,0
+Public Class,"nats.PerfTest",13,75,25,11,61,5
+Private Static Method,"nats.PerfTest.blockUntilConnected",,,,2,9,0
+Private Static Method,"nats.PerfTest.createMessage",,,,2,7,0
+Public Static Method,"nats.PerfTest.main",,,,4,22,2
+Private Static Method,"nats.PerfTest.time",,,,3,20,0
+Anonymous Class,"nats.PerfTest.time.(Anon_1)",4,0,0,1,5,0
+Public Method,"nats.PerfTest.time.(Anon_1).onMessage",,,,1,4,0
+Package,"nats.client",,,,243,1405,874
+Class,"nats.client.BlockingQueueSubscriptionIterator",10,41,41,13,81,5
+Anonymous Class,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1)",5,0,0,6,25,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).getBody",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).getReplyTo",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).getSubject",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).getSubscription",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).reply",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.(Anon_1).reply",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.close",,,,3,12,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.hasNext",,,,1,4,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.next",,,,3,12,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.next",,,,3,12,0
+Method,"nats.client.BlockingQueueSubscriptionIterator.push",,,,2,7,0
+Public Method,"nats.client.BlockingQueueSubscriptionIterator.remove",,,,1,4,0
+Public Interface,"nats.client.ConnectionStatus",2,0,0,0,6,0
+Abstract Method,"nats.client.ConnectionStatus.awaitConnectionClose",,,,0,1,0
+Abstract Method,"nats.client.ConnectionStatus.awaitServerReady",,,,0,1,0
+Abstract Method,"nats.client.ConnectionStatus.isConnected",,,,0,1,0
+Abstract Method,"nats.client.ConnectionStatus.isServerReady",,,,0,1,0
+Class,"nats.client.DefaultPublication",9,76,72,16,90,3
+Public Constructor,"nats.client.DefaultPublication.DefaultPublication",,,,1,6,0
+Public Method,"nats.client.DefaultPublication.addCompletionHandler",,,,2,11,0
+Public Method,"nats.client.DefaultPublication.await",,,,1,6,0
+Public Method,"nats.client.DefaultPublication.await",,,,1,7,0
+Public Method,"nats.client.DefaultPublication.getCause",,,,1,6,0
+Public Method,"nats.client.DefaultPublication.getMessage",,,,1,4,0
+Public Method,"nats.client.DefaultPublication.getReplyTo",,,,1,4,0
+Public Method,"nats.client.DefaultPublication.getSubject",,,,1,4,0
+Private Method,"nats.client.DefaultPublication.invokeListener",,,,2,7,0
+Public Method,"nats.client.DefaultPublication.isDone",,,,1,6,0
+Public Method,"nats.client.DefaultPublication.isSuccess",,,,1,6,0
+Method,"nats.client.DefaultPublication.setDone",,,,3,13,0
+Class,"nats.client.DefaultRequest",11,47,47,17,72,3
+Constructor,"nats.client.DefaultRequest.DefaultRequest",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.addCompletionHandler",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.addMessageHandler",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.await",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.await",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.close",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getCause",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getMaxMessages",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getMessage",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getQueueGroup",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getReceivedMessages",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getReplyTo",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.getSubject",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.isDone",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.isSuccess",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.iterator",,,,1,4,0
+Public Method,"nats.client.DefaultRequest.timeout",,,,1,4,0
+Class,"nats.client.DefaultSubscriptionTimeout",12,65,65,7,55,3
+Constructor,"nats.client.DefaultSubscriptionTimeout.DefaultSubscriptionTimeout",,,,1,20,0
+Anonymous Class,"nats.client.DefaultSubscriptionTimeout.DefaultSubscriptionTimeout.(Anon_1)",7,0,0,3,16,0
+Public Method,"nats.client.DefaultSubscriptionTimeout.DefaultSubscriptionTimeout.(Anon_1).run",,,,3,15,0
+Public Method,"nats.client.DefaultSubscriptionTimeout.addTimeoutHandler",,,,1,4,0
+Public Method,"nats.client.DefaultSubscriptionTimeout.await",,,,2,10,0
+Public Method,"nats.client.DefaultSubscriptionTimeout.cancel",,,,2,11,0
+Public Method,"nats.client.DefaultSubscriptionTimeout.getSubscription",,,,1,4,0
+Public Interface,"nats.client.ExceptionHandler",1,0,0,0,3,0
+Abstract Method,"nats.client.ExceptionHandler.onException",,,,0,1,0
+Generic Class,"nats.client.HandlerRegistrar",6,0,0,2,52,4
+Anonymous Class,"nats.client.HandlerRegistrar.(Anon_1)",1,0,0,1,4,1
+Public Method,"nats.client.HandlerRegistrar.(Anon_1).remove",,,,1,3,1
+Private Class,"nats.client.HandlerRegistrar.HandlerRegistrarEntry",3,33,33,3,15,0
+Private Constructor,"nats.client.HandlerRegistrar.HandlerRegistrarEntry.HandlerRegistrarEntry",,,,1,3,0
+Public Method,"nats.client.HandlerRegistrar.HandlerRegistrarEntry.getHandler",,,,1,3,0
+Public Method,"nats.client.HandlerRegistrar.HandlerRegistrarEntry.remove",,,,1,6,0
+TypeVariable,"nats.client.HandlerRegistrar.T",0,0,0,0,0,0
+Method,"nats.client.HandlerRegistrar.addHandler",,,,1,7,0
+Public Method,"nats.client.HandlerRegistrar.iterator",,,,1,22,0
+Anonymous Class,"nats.client.HandlerRegistrar.iterator.(Anon_2)",4,0,0,3,13,0
+Public Method,"nats.client.HandlerRegistrar.iterator.(Anon_2).hasNext",,,,1,4,0
+Public Method,"nats.client.HandlerRegistrar.iterator.(Anon_2).next",,,,1,4,0
+Public Method,"nats.client.HandlerRegistrar.iterator.(Anon_2).remove",,,,1,4,0
+Public Interface,"nats.client.Message",4,0,0,0,8,39
+Abstract Method,"nats.client.Message.getBody",,,,0,1,5
+Abstract Method,"nats.client.Message.getReplyTo",,,,0,1,5
+Abstract Method,"nats.client.Message.getSubject",,,,0,1,5
+Abstract Method,"nats.client.Message.getSubscription",,,,0,1,5
+Abstract Method,"nats.client.Message.reply",,,,0,1,8
+Abstract Method,"nats.client.Message.reply",,,,0,1,11
+Public Interface,"nats.client.MessageHandler",1,0,0,0,3,0
+Abstract Method,"nats.client.MessageHandler.onMessage",,,,0,1,0
+Public Class,"nats.client.Nats",46,90,75,42,644,263
+Public Static Class,"nats.client.Nats.Builder",12,90,90,14,64,67
+Public Method,"nats.client.Nats.Builder.addHost",,,,1,3,6
+Public Method,"nats.client.Nats.Builder.addHost",,,,2,7,6
+Public Method,"nats.client.Nats.Builder.automaticReconnect",,,,1,4,8
+Public Method,"nats.client.Nats.Builder.channelFactory",,,,1,4,6
+Public Method,"nats.client.Nats.Builder.connect",,,,2,6,6
+Public Method,"nats.client.Nats.Builder.debug",,,,1,4,0
+Public Method,"nats.client.Nats.Builder.exceptionHandler",,,,1,4,0
+Public Method,"nats.client.Nats.Builder.logger",,,,1,4,6
+Public Method,"nats.client.Nats.Builder.maxMessageSize",,,,1,4,6
+Public Method,"nats.client.Nats.Builder.maxReconnectAttempts",,,,1,4,6
+Public Method,"nats.client.Nats.Builder.pedantic",,,,1,4,6
+Public Method,"nats.client.Nats.Builder.reconnectWaitTime",,,,1,4,8
+Private Interface,"nats.client.Nats.HasPublication",1,0,0,0,3,0
+Abstract Method,"nats.client.Nats.HasPublication.getPublication",,,,0,1,0
+Private Constructor,"nats.client.Nats.Nats",,,,6,38,6
+Anonymous Class,"nats.client.Nats.Nats.(Anon_1)",5,0,0,1,5,0
+Public Method,"nats.client.Nats.Nats.(Anon_1).onException",,,,1,4,0
+Private Class,"nats.client.Nats.NatsConnectionStatus",4,61,50,8,43,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.awaitConnectionClose",,,,2,9,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.awaitServerReady",,,,1,7,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.channelClosed",,,,1,6,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.isConnected",,,,1,4,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.isServerReady",,,,1,4,0
+Public Method,"nats.client.Nats.NatsConnectionStatus.setServerReady",,,,2,8,0
+Private Static Class,"nats.client.Nats.NatsServer",5,62,62,9,50,3
+Public Constructor,"nats.client.Nats.NatsServer.NatsServer",,,,6,29,0
+Public Method,"nats.client.Nats.NatsServer.getConnectionAttempts",,,,1,5,0
+Public Method,"nats.client.Nats.NatsServer.incConnectionAttempts",,,,1,5,0
+Public Method,"nats.client.Nats.NatsServer.resetConnectionAttempts",,,,1,5,0
+Private Interface,"nats.client.Nats.NatsSubscription",1,0,0,0,4,0
+Abstract Method,"nats.client.Nats.NatsSubscription.getId",,,,0,1,0
+Abstract Method,"nats.client.Nats.NatsSubscription.onMessage",,,,0,1,0
+Private Static Class,"nats.client.Nats.Publish",2,0,0,2,11,0
+Public Constructor,"nats.client.Nats.Publish.Publish",,,,1,4,0
+Public Method,"nats.client.Nats.Publish.getPublication",,,,1,4,0
+Private Interface,"nats.client.Nats.ScheduledPublication",0,0,0,0,1,0
+Private Method,"nats.client.Nats.assertNatsOpen",,,,2,5,0
+Private Method,"nats.client.Nats.cleanupResources",,,,6,23,1
+Public Method,"nats.client.Nats.close",,,,2,12,4
+Anonymous Class,"nats.client.Nats.close.(Anon_6)",4,0,0,1,5,0
+Public Method,"nats.client.Nats.close.(Anon_6).operationComplete",,,,1,4,0
+Private Method,"nats.client.Nats.completePublication",,,,2,5,0
+Private Method,"nats.client.Nats.connect",,,,5,34,1
+Anonymous Class,"nats.client.Nats.connect.(Anon_5)",7,0,0,2,10,1
+Public Method,"nats.client.Nats.connect.(Anon_5).operationComplete",,,,2,9,1
+Private Method,"nats.client.Nats.createChannel",,,,2,109,6
+Anonymous Class,"nats.client.Nats.createChannel.(Anon_2)",9,0,0,4,17,0
+Public Method,"nats.client.Nats.createChannel.(Anon_2).handleDownstream",,,,2,8,0
+Public Method,"nats.client.Nats.createChannel.(Anon_2).handleUpstream",,,,2,8,0
+Anonymous Class,"nats.client.Nats.createChannel.(Anon_3)",34,0,0,18,84,6
+Public Method,"nats.client.Nats.createChannel.(Anon_3).channelClosed",,,,2,14,0
+Anonymous Class,"nats.client.Nats.createChannel.(Anon_3).channelClosed.(Anon_4)",2,0,0,1,5,0
+Public Method,"nats.client.Nats.createChannel.(Anon_3).channelClosed.(Anon_4).run",,,,1,4,0
+Public Method,"nats.client.Nats.createChannel.(Anon_3).errorResponse",,,,2,11,0
+Public Method,"nats.client.Nats.createChannel.(Anon_3).exceptionCaught",,,,2,10,0
+Protected Method,"nats.client.Nats.createChannel.(Anon_3).handleOrphanedPings",,,,1,3,1
+Protected Method,"nats.client.Nats.createChannel.(Anon_3).handleOrphanedRequests",,,,2,7,0
+Public Method,"nats.client.Nats.createChannel.(Anon_3).okResponse",,,,4,17,3
+Public Method,"nats.client.Nats.createChannel.(Anon_3).pongResponse",,,,1,3,1
+Public Method,"nats.client.Nats.createChannel.(Anon_3).publishedMessage",,,,2,11,0
+Public Method,"nats.client.Nats.createChannel.(Anon_3).serverInfo",,,,1,3,1
+Public Method,"nats.client.Nats.createChannel.(Anon_3).writeRequested",,,,1,4,0
+Public Static Method,"nats.client.Nats.createInbox",,,,1,7,6
+Public Method,"nats.client.Nats.getConnectionStatus",,,,1,3,0
+Public Method,"nats.client.Nats.publish",,,,1,3,8
+Public Method,"nats.client.Nats.publish",,,,1,3,7
+Public Method,"nats.client.Nats.publish",,,,1,6,9
+Private Method,"nats.client.Nats.publish",,,,2,10,0
+Public Method,"nats.client.Nats.request",,,,1,3,10
+Public Method,"nats.client.Nats.request",,,,1,3,11
+Public Method,"nats.client.Nats.request",,,,2,11,22
+Public Method,"nats.client.Nats.subscribe",,,,1,3,7
+Public Method,"nats.client.Nats.subscribe",,,,1,3,9
+Public Method,"nats.client.Nats.subscribe",,,,1,3,10
+Public Method,"nats.client.Nats.subscribe",,,,1,157,23
+Anonymous Class,"nats.client.Nats.subscribe.(Anon_7)",20,76,76,18,147,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).addMessageHandler",,,,1,14,0
+Anonymous Class,"nats.client.Nats.subscribe.(Anon_7).addMessageHandler.(Anon_8)",3,0,0,1,7,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).addMessageHandler.(Anon_8).remove",,,,1,6,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).close",,,,4,16,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).getId",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).getMaxMessages",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).getQueueGroup",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).getReceivedMessages",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).getSubject",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).iterator",,,,1,8,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage",,,,6,81,0
+Anonymous Class,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9)",11,0,0,10,52,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).getBody",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).getReplyTo",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).getSubject",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).getSubscription",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).reply",,,,2,7,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).reply",,,,2,18,0
+Anonymous Class,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).reply.(Anon_10)",4,0,0,2,9,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).reply.(Anon_10).getPublication",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).reply.(Anon_10).run",,,,1,4,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).onMessage.(Anon_9).toString",,,,2,10,0
+Public Method,"nats.client.Nats.subscribe.(Anon_7).timeout",,,,1,4,0
+Private Method,"nats.client.Nats.writeSubscription",,,,2,5,0
+Public Class,"nats.client.NatsClosedException",0,0,0,1,5,5
+Public Constructor,"nats.client.NatsClosedException.NatsClosedException",,,,1,3,0
+Public Class,"nats.client.NatsEmptyServerListException",0,0,0,1,5,5
+Public Constructor,"nats.client.NatsEmptyServerListException.NatsEmptyServerListException",,,,1,3,0
+Public Class,"nats.client.NatsFunctionalTest",14,63,18,11,145,6
+Interface,"nats.client.NatsFunctionalTest.NatsTestCase",2,0,0,0,3,0
+Abstract Method,"nats.client.NatsFunctionalTest.NatsTestCase.natsTest",,,,0,1,0
+Public Method,"nats.client.NatsFunctionalTest.blockingSubscribe",,,,1,14,0
+Anonymous Class,"nats.client.NatsFunctionalTest.blockingSubscribe.(Anon_1)",8,0,0,1,10,0
+Public Method,"nats.client.NatsFunctionalTest.blockingSubscribe.(Anon_1).natsTest",,,,1,9,0
+Public Method,"nats.client.NatsFunctionalTest.closeSubscription",,,,1,27,2
+Anonymous Class,"nats.client.NatsFunctionalTest.closeSubscription.(Anon_7)",10,0,0,1,23,2
+Public Method,"nats.client.NatsFunctionalTest.closeSubscription.(Anon_7).natsTest",,,,1,22,2
+Anonymous Class,"nats.client.NatsFunctionalTest.closeSubscription.(Anon_7).natsTest.(Anon_8)",4,0,0,1,5,0
+Public Method,"nats.client.NatsFunctionalTest.closeSubscription.(Anon_7).natsTest.(Anon_8).onMessage",,,,1,4,0
+Public Method,"nats.client.NatsFunctionalTest.connectAttemptWithBadUri",,,,1,4,1
+Public Method,"nats.client.NatsFunctionalTest.connectAttemptWithNoHosts",,,,1,4,0
+Public Method,"nats.client.NatsFunctionalTest.connectionTest",,,,1,9,0
+Public Method,"nats.client.NatsFunctionalTest.nonBlockingSubscribe",,,,1,19,0
+Anonymous Class,"nats.client.NatsFunctionalTest.nonBlockingSubscribe.(Anon_2)",8,0,0,1,15,0
+Public Method,"nats.client.NatsFunctionalTest.nonBlockingSubscribe.(Anon_2).natsTest",,,,1,14,0
+Anonymous Class,"nats.client.NatsFunctionalTest.nonBlockingSubscribe.(Anon_2).natsTest.(Anon_3)",4,0,0,1,5,0
+Public Method,"nats.client.NatsFunctionalTest.nonBlockingSubscribe.(Anon_2).natsTest.(Anon_3).onMessage",,,,1,4,0
+Protected Method,"nats.client.NatsFunctionalTest.runNatsTest",,,,1,10,0
+Public Method,"nats.client.NatsFunctionalTest.simpleRequestReply",,,,1,26,0
+Anonymous Class,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4)",8,0,0,1,22,0
+Public Method,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4).natsTest",,,,1,21,0
+Anonymous Class,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4).natsTest.(Anon_5)",4,0,0,1,7,0
+Public Method,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4).natsTest.(Anon_5).onMessage",,,,1,6,0
+Anonymous Class,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4).natsTest.(Anon_6)",6,0,0,1,6,0
+Public Method,"nats.client.NatsFunctionalTest.simpleRequestReply.(Anon_4).natsTest.(Anon_6).onMessage",,,,1,5,0
+Protected Method,"nats.client.NatsFunctionalTest.startNatsServer",,,,1,5,0
+Protected Method,"nats.client.NatsFunctionalTest.stopNatsServer",,,,1,4,0
+Public Method,"nats.client.NatsFunctionalTest.subscriptionEncoding",,,,1,16,0
+Anonymous Class,"nats.client.NatsFunctionalTest.subscriptionEncoding.(Anon_9)",13,0,0,1,12,0
+Public Method,"nats.client.NatsFunctionalTest.subscriptionEncoding.(Anon_9).natsTest",,,,1,11,0
+Public Class,"nats.client.NatsServerProcess",12,62,50,14,55,4
+Public Constructor,"nats.client.NatsServerProcess.NatsServerProcess",,,,1,3,0
+Public Method,"nats.client.NatsServerProcess.getPort",,,,1,3,0
+Public Method,"nats.client.NatsServerProcess.getUri",,,,1,3,1
+Private Static Method,"nats.client.NatsServerProcess.isPortAvailable",,,,2,8,0
+Public Static Method,"nats.client.NatsServerProcess.main",,,,1,8,0
+Public Method,"nats.client.NatsServerProcess.start",,,,3,11,0
+Public Method,"nats.client.NatsServerProcess.stop",,,,2,7,0
+Private Method,"nats.client.NatsServerProcess.waitForPort",,,,3,8,0
+Public Interface,"nats.client.Publication",1,0,0,0,5,15
+Abstract Method,"nats.client.Publication.getMessage",,,,0,1,5
+Abstract Method,"nats.client.Publication.getReplyTo",,,,0,1,5
+Abstract Method,"nats.client.Publication.getSubject",,,,0,1,5
+Public Interface,"nats.client.Request",0,0,0,0,2,6
+Public Class,"nats.client.ServerConnectionFailedException",1,0,0,1,5,3
+Public Constructor,"nats.client.ServerConnectionFailedException.ServerConnectionFailedException",,,,1,3,0
+Public Class,"nats.client.ServerReconnectFailed",1,0,0,2,10,3
+Public Constructor,"nats.client.ServerReconnectFailed.ServerReconnectFailed",,,,1,4,0
+Public Method,"nats.client.ServerReconnectFailed.getAddress",,,,1,3,0
+Public Interface,"nats.client.Subscription",8,0,0,0,12,55
+Abstract Method,"nats.client.Subscription.addMessageHandler",,,,0,1,7
+Abstract Method,"nats.client.Subscription.close",,,,0,2,4
+Abstract Method,"nats.client.Subscription.getMaxMessages",,,,0,1,7
+Abstract Method,"nats.client.Subscription.getQueueGroup",,,,0,1,5
+Abstract Method,"nats.client.Subscription.getReceivedMessages",,,,0,1,5
+Abstract Method,"nats.client.Subscription.getSubject",,,,0,1,5
+Abstract Method,"nats.client.Subscription.iterator",,,,0,2,15
+Abstract Method,"nats.client.Subscription.timeout",,,,0,1,7
+Public Interface,"nats.client.SubscriptionIterator",4,0,0,0,11,34
+Abstract Method,"nats.client.SubscriptionIterator.close",,,,0,2,6
+Abstract Method,"nats.client.SubscriptionIterator.hasNext",,,,0,2,9
+Abstract Method,"nats.client.SubscriptionIterator.next",,,,0,1,9
+Abstract Method,"nats.client.SubscriptionIterator.next",,,,0,2,6
+Abstract Method,"nats.client.SubscriptionIterator.remove",,,,0,2,4
+Public Interface,"nats.client.SubscriptionTimeout",3,0,0,0,6,19
+Abstract Method,"nats.client.SubscriptionTimeout.addTimeoutHandler",,,,0,1,7
+Abstract Method,"nats.client.SubscriptionTimeout.await",,,,0,1,3
+Abstract Method,"nats.client.SubscriptionTimeout.cancel",,,,0,1,5
+Abstract Method,"nats.client.SubscriptionTimeout.getSubscription",,,,0,1,4
+Public Interface,"nats.client.TimeoutHandler",1,0,0,0,3,5
+Abstract Method,"nats.client.TimeoutHandler.onTimeout",,,,0,1,5
+Package,"nats.codec",,,,167,1032,564
+Public Abstract Class,"nats.codec.AbstractClientChannelHandler",21,50,33,17,81,5
+Public Method,"nats.codec.AbstractClientChannelHandler.channelClosed",,,,1,11,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.errorResponse",,,,0,1,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.handleOrphanedPings",,,,0,1,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.handleOrphanedRequests",,,,0,1,0
+Public Method,"nats.codec.AbstractClientChannelHandler.messageReceived",,,,8,22,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.okResponse",,,,0,1,0
+Private Method,"nats.codec.AbstractClientChannelHandler.pollPingQueue",,,,2,10,0
+Private Method,"nats.codec.AbstractClientChannelHandler.pollRequestQueue",,,,2,10,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.pongResponse",,,,0,1,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.publishedMessage",,,,0,1,0
+Protected Abstract Method,"nats.codec.AbstractClientChannelHandler.serverInfo",,,,0,1,0
+Protected Method,"nats.codec.AbstractClientChannelHandler.serverPing",,,,1,3,0
+Public Method,"nats.codec.AbstractClientChannelHandler.writeRequested",,,,3,14,0
+Abstract Class,"nats.codec.AbstractCodec",13,61,55,17,77,11
+Protected Constructor,"nats.codec.AbstractCodec.AbstractCodec",,,,1,3,0
+Protected Constructor,"nats.codec.AbstractCodec.AbstractCodec",,,,1,3,0
+Protected Enum Type,"nats.codec.AbstractCodec.State",1,,,0,1,0
+Public Implicit Method,"nats.codec.AbstractCodec.State.valueOf",,,,0,,
+Public Implicit Method,"nats.codec.AbstractCodec.State.values",,,,0,,
+Protected Final Method,"nats.codec.AbstractCodec.decode",,,,7,32,0
+Protected Abstract Method,"nats.codec.AbstractCodec.decodeCommand",,,,0,1,0
+Protected Method,"nats.codec.AbstractCodec.expectBody",,,,1,4,0
+Protected Abstract Method,"nats.codec.AbstractCodec.handleBody",,,,0,1,0
+Private Method,"nats.codec.AbstractCodec.indexOf",,,,6,21,8
+Private Method,"nats.codec.AbstractCodec.throwTooLongFrameException",,,,1,5,0
+Public Abstract Generic Class,"nats.codec.AbstractDecoderTest",7,0,0,3,16,3
+Protected Generic Interface,"nats.codec.AbstractDecoderTest.DecoderAssertions",2,0,0,0,3,0
+TypeVariable,"nats.codec.AbstractDecoderTest.DecoderAssertions.T",0,0,0,0,0,0
+Abstract Method,"nats.codec.AbstractDecoderTest.DecoderAssertions.runAssertions",,,,0,1,0
+TypeVariable,"nats.codec.AbstractDecoderTest.T",0,0,0,0,0,0
+Protected Abstract Method,"nats.codec.AbstractDecoderTest.createDecoderEmbedder",,,,0,1,0
+Protected Method,"nats.codec.AbstractDecoderTest.decoderTest",,,,3,10,0
+Class,"nats.codec.AbstractPing",3,0,0,1,7,3
+Public Method,"nats.codec.AbstractPing.encode",,,,1,3,0
+Class,"nats.codec.AbstractPong",3,0,0,1,7,3
+Public Method,"nats.codec.AbstractPong.encode",,,,1,3,0
+Class,"nats.codec.ChannelBufferUtil",4,0,0,4,17,3
+Static Method,"nats.codec.ChannelBufferUtil.directBuffer",,,,1,3,0
+Static Method,"nats.codec.ChannelBufferUtil.directBuffer",,,,1,5,0
+Static Method,"nats.codec.ChannelBufferUtil.wrappedBuffer",,,,1,3,0
+Static Method,"nats.codec.ChannelBufferUtil.writeIntegerAsString",,,,1,3,0
+Public Class,"nats.codec.ClientChannelPipelineFactory",6,33,0,3,16,6
+Public Constructor,"nats.codec.ClientChannelPipelineFactory.ClientChannelPipelineFactory",,,,1,3,0
+Public Constructor,"nats.codec.ClientChannelPipelineFactory.ClientChannelPipelineFactory",,,,1,3,0
+Public Method,"nats.codec.ClientChannelPipelineFactory.getPipeline",,,,1,6,0
+Public Class,"nats.codec.ClientCodec",21,60,60,13,65,8
+Public Constructor,"nats.codec.ClientCodec.ClientCodec",,,,1,3,0
+Public Constructor,"nats.codec.ClientCodec.ClientCodec",,,,1,3,0
+Protected Method,"nats.codec.ClientCodec.decodeCommand",,,,7,32,1
+Protected Method,"nats.codec.ClientCodec.handleBody",,,,1,5,0
+Public Method,"nats.codec.ClientCodec.handleDownstream",,,,3,13,0
+Public Class,"nats.codec.ClientCodecTest",7,0,0,9,114,3
+Protected Method,"nats.codec.ClientCodecTest.createDecoderEmbedder",,,,1,4,0
+Public Method,"nats.codec.ClientCodecTest.publish",,,,1,17,0
+Anonymous Class,"nats.codec.ClientCodecTest.publish.(Anon_6)",6,0,0,1,10,0
+Public Method,"nats.codec.ClientCodecTest.publish.(Anon_6).runAssertions",,,,1,9,0
+Public Method,"nats.codec.ClientCodecTest.publishEmptyBody",,,,1,16,0
+Anonymous Class,"nats.codec.ClientCodecTest.publishEmptyBody.(Anon_7)",6,0,0,1,10,0
+Public Method,"nats.codec.ClientCodecTest.publishEmptyBody.(Anon_7).runAssertions",,,,1,9,0
+Public Method,"nats.codec.ClientCodecTest.publishWithReply",,,,1,18,0
+Anonymous Class,"nats.codec.ClientCodecTest.publishWithReply.(Anon_8)",6,0,0,1,10,0
+Public Method,"nats.codec.ClientCodecTest.publishWithReply.(Anon_8).runAssertions",,,,1,9,0
+Public Method,"nats.codec.ClientCodecTest.serverError",,,,1,12,0
+Anonymous Class,"nats.codec.ClientCodecTest.serverError.(Anon_1)",6,0,0,1,7,0
+Public Method,"nats.codec.ClientCodecTest.serverError.(Anon_1).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ClientCodecTest.serverInfo",,,,1,12,0
+Anonymous Class,"nats.codec.ClientCodecTest.serverInfo.(Anon_2)",6,0,0,1,7,0
+Public Method,"nats.codec.ClientCodecTest.serverInfo.(Anon_2).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ClientCodecTest.serverOk",,,,1,11,0
+Anonymous Class,"nats.codec.ClientCodecTest.serverOk.(Anon_3)",5,0,0,1,7,0
+Public Method,"nats.codec.ClientCodecTest.serverOk.(Anon_3).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ClientCodecTest.serverPing",,,,1,11,0
+Anonymous Class,"nats.codec.ClientCodecTest.serverPing.(Anon_4)",5,0,0,1,7,0
+Public Method,"nats.codec.ClientCodecTest.serverPing.(Anon_4).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ClientCodecTest.serverPong",,,,1,11,0
+Anonymous Class,"nats.codec.ClientCodecTest.serverPong.(Anon_5)",5,0,0,1,7,0
+Public Method,"nats.codec.ClientCodecTest.serverPong.(Anon_5).runAssertions",,,,1,6,0
+Public Class,"nats.codec.ClientConnectMessage",9,0,0,4,25,3
+Public Constructor,"nats.codec.ClientConnectMessage.ClientConnectMessage",,,,1,3,0
+Public Method,"nats.codec.ClientConnectMessage.encode",,,,2,15,0
+Public Method,"nats.codec.ClientConnectMessage.getBody",,,,1,3,0
+Public Interface,"nats.codec.ClientMessage",0,0,0,0,2,3
+Public Class,"nats.codec.ClientPingMessage",0,0,0,0,3,3
+Public Class,"nats.codec.ClientPongMessage",0,0,0,0,3,3
+Public Class,"nats.codec.ClientPublishMessage",5,57,38,8,44,4
+Public Constructor,"nats.codec.ClientPublishMessage.ClientPublishMessage",,,,1,5,1
+Public Constructor,"nats.codec.ClientPublishMessage.ClientPublishMessage",,,,1,3,0
+Public Method,"nats.codec.ClientPublishMessage.encode",,,,2,18,0
+Public Method,"nats.codec.ClientPublishMessage.getBody",,,,1,3,0
+Public Method,"nats.codec.ClientPublishMessage.getReplyTo",,,,1,3,0
+Public Method,"nats.codec.ClientPublishMessage.getSubject",,,,1,3,0
+Public Method,"nats.codec.ClientPublishMessage.setBody",,,,1,3,0
+Public Interface,"nats.codec.ClientRequest",0,0,0,0,2,5
+Public Class,"nats.codec.ClientSubscribeMessage",5,40,40,6,35,4
+Public Constructor,"nats.codec.ClientSubscribeMessage.ClientSubscribeMessage",,,,1,5,1
+Public Method,"nats.codec.ClientSubscribeMessage.encode",,,,2,15,0
+Public Method,"nats.codec.ClientSubscribeMessage.getId",,,,1,3,0
+Public Method,"nats.codec.ClientSubscribeMessage.getQueueGroup",,,,1,3,0
+Public Method,"nats.codec.ClientSubscribeMessage.getSubject",,,,1,3,0
+Public Class,"nats.codec.ClientUnsubscribeMessage",6,40,19,6,31,3
+Public Constructor,"nats.codec.ClientUnsubscribeMessage.ClientUnsubscribeMessage",,,,1,3,0
+Public Constructor,"nats.codec.ClientUnsubscribeMessage.ClientUnsubscribeMessage",,,,1,4,0
+Public Method,"nats.codec.ClientUnsubscribeMessage.encode",,,,2,13,0
+Public Method,"nats.codec.ClientUnsubscribeMessage.getId",,,,1,3,0
+Public Method,"nats.codec.ClientUnsubscribeMessage.getMaxMessages",,,,1,3,0
+Public Class,"nats.codec.ConnectBody",8,66,66,7,42,3
+Public Constructor,"nats.codec.ConnectBody.ConnectBody",,,,1,15,0
+Public Method,"nats.codec.ConnectBody.getPassword",,,,1,3,0
+Public Method,"nats.codec.ConnectBody.getUser",,,,1,3,0
+Public Method,"nats.codec.ConnectBody.isPedantic",,,,1,3,0
+Public Method,"nats.codec.ConnectBody.isVerbose",,,,1,3,0
+Public Static Method,"nats.codec.ConnectBody.parse",,,,2,9,0
+Public Interface,"nats.codec.Encodable",1,0,0,0,3,0
+Abstract Method,"nats.codec.Encodable.encode",,,,0,1,0
+Public Class,"nats.codec.NatsDecodingException",1,0,0,2,10,3
+Public Constructor,"nats.codec.NatsDecodingException.NatsDecodingException",,,,1,4,0
+Public Method,"nats.codec.NatsDecodingException.getCommand",,,,1,3,0
+Public Class,"nats.codec.ServerCodec",23,50,50,19,74,9
+Public Constructor,"nats.codec.ServerCodec.ServerCodec",,,,1,3,0
+Protected Method,"nats.codec.ServerCodec.decodeCommand",,,,14,50,6
+Protected Method,"nats.codec.ServerCodec.handleBody",,,,1,5,0
+Public Method,"nats.codec.ServerCodec.handleDownstream",,,,3,13,0
+Public Class,"nats.codec.ServerCodecTest",11,0,0,12,143,3
+Public Method,"nats.codec.ServerCodecTest.clientConnect",,,,1,14,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientConnect.(Anon_1)",7,0,0,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientConnect.(Anon_1).runAssertions",,,,1,7,0
+Public Method,"nats.codec.ServerCodecTest.clientPing",,,,1,11,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientPing.(Anon_3)",5,0,0,1,7,0
+Public Method,"nats.codec.ServerCodecTest.clientPing.(Anon_3).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ServerCodecTest.clientPong",,,,1,11,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientPong.(Anon_2)",5,0,0,1,7,0
+Public Method,"nats.codec.ServerCodecTest.clientPong.(Anon_2).runAssertions",,,,1,6,0
+Public Method,"nats.codec.ServerCodecTest.clientPublish",,,,1,15,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientPublish.(Anon_4)",6,0,0,1,9,0
+Public Method,"nats.codec.ServerCodecTest.clientPublish.(Anon_4).runAssertions",,,,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientPublishWithReply",,,,1,16,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientPublishWithReply.(Anon_5)",6,0,0,1,10,0
+Public Method,"nats.codec.ServerCodecTest.clientPublishWithReply.(Anon_5).runAssertions",,,,1,9,0
+Public Method,"nats.codec.ServerCodecTest.clientSubscribe",,,,1,14,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientSubscribe.(Anon_6)",6,0,0,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientSubscribe.(Anon_6).runAssertions",,,,1,7,0
+Public Method,"nats.codec.ServerCodecTest.clientSubscribeWithQueueGroup",,,,1,16,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientSubscribeWithQueueGroup.(Anon_7)",6,0,0,1,9,0
+Public Method,"nats.codec.ServerCodecTest.clientSubscribeWithQueueGroup.(Anon_7).runAssertions",,,,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientUnsubscribe",,,,1,13,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientUnsubscribe.(Anon_8)",6,0,0,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientUnsubscribe.(Anon_8).runAssertions",,,,1,7,0
+Public Method,"nats.codec.ServerCodecTest.clientUnsubscribeWithMaxMessages",,,,1,14,0
+Anonymous Class,"nats.codec.ServerCodecTest.clientUnsubscribeWithMaxMessages.(Anon_9)",6,0,0,1,8,0
+Public Method,"nats.codec.ServerCodecTest.clientUnsubscribeWithMaxMessages.(Anon_9).runAssertions",,,,1,7,0
+Protected Method,"nats.codec.ServerCodecTest.createDecoderEmbedder",,,,1,4,0
+Public Method,"nats.codec.ServerCodecTest.invalidMessage",,,,2,13,0
+Anonymous Class,"nats.codec.ServerCodecTest.invalidMessage.(Anon_10)",4,0,0,1,5,0
+Public Method,"nats.codec.ServerCodecTest.invalidMessage.(Anon_10).runAssertions",,,,1,4,0
+Public Class,"nats.codec.ServerErrorMessage",5,0,0,4,23,3
+Public Constructor,"nats.codec.ServerErrorMessage.ServerErrorMessage",,,,1,3,0
+Public Method,"nats.codec.ServerErrorMessage.encode",,,,2,12,0
+Public Method,"nats.codec.ServerErrorMessage.getErrorMessage",,,,1,3,0
+Public Class,"nats.codec.ServerInfoMessage",5,0,0,3,19,4
+Public Constructor,"nats.codec.ServerInfoMessage.ServerInfoMessage",,,,1,3,0
+Public Method,"nats.codec.ServerInfoMessage.encode",,,,1,9,0
+Public Method,"nats.codec.ServerInfoMessage.getInfo",,,,1,3,0
+Public Interface,"nats.codec.ServerMessage",0,0,0,0,2,3
+Public Class,"nats.codec.ServerOkMessage",4,0,0,1,9,3
+Public Method,"nats.codec.ServerOkMessage.encode",,,,1,4,0
+Public Class,"nats.codec.ServerPingMessage",0,0,0,0,2,3
+Public Class,"nats.codec.ServerPongMessage",0,0,0,0,3,3
+Public Class,"nats.codec.ServerPublishMessage",5,65,65,9,52,3
+Public Constructor,"nats.codec.ServerPublishMessage.ServerPublishMessage",,,,1,6,0
+Public Method,"nats.codec.ServerPublishMessage.encode",,,,2,20,0
+Public Method,"nats.codec.ServerPublishMessage.getBody",,,,1,3,0
+Public Method,"nats.codec.ServerPublishMessage.getId",,,,1,3,0
+Public Method,"nats.codec.ServerPublishMessage.getQueueGroup",,,,1,3,0
+Public Method,"nats.codec.ServerPublishMessage.getReplyTo",,,,1,3,0
+Public Method,"nats.codec.ServerPublishMessage.getSubject",,,,1,3,0
+Public Method,"nats.codec.ServerPublishMessage.setBody",,,,1,3,0

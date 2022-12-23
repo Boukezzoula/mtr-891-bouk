@@ -1,0 +1,126 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Backend.java",,,,0,5,3
+File,"HelloWorldHttp1Handler.java",,,,5,48,18
+File,"HelloWorldHttp2Handler.java",,,,20,104,29
+File,"HelloWorldHttp2HandlerBuilder.java",,,,3,24,16
+File,"Http2OrHttpHandler.java",,,,4,26,18
+File,"Http2ServerInitializer.java",,,,11,77,29
+File,"JettyServer.java",,,,7,74,5
+File,"Main.java",,,,8,53,33
+File,"NettyServer.java",,,,2,15,19
+File,"Server.java",,,,3,50,12
+File,"ServerBase.java",,,,0,13,3
+File,"ServerVerticle.java",,,,17,84,3
+File,"ServletServer.java",,,,28,135,4
+File,"UndertowServer.java",,,,6,83,3
+File,"VertxServer.java",,,,4,31,3
+Package,"http2",,,,0,0,0
+Package,"http2.bench",,,,8,71,39
+Public Enum Type,"http2.bench.Backend",1,,,0,4,3
+Public Implicit Method,"http2.bench.Backend.valueOf",,,,0,,
+Public Implicit Method,"http2.bench.Backend.values",,,,0,,
+Public Class,"http2.bench.Main",9,0,0,8,46,33
+Public Static Class,"http2.bench.Main.MainCmd",1,0,0,0,3,0
+Public Static Method,"http2.bench.Main.main",,,,8,41,30
+Public Abstract Class,"http2.bench.ServerBase",3,0,0,0,11,3
+Public Abstract Method,"http2.bench.ServerBase.run",,,,0,1,0
+Package,"http2.bench.jetty",,,,7,74,5
+Public Class,"http2.bench.jetty.JettyServer",20,80,80,6,57,5
+Private Static Method,"http2.bench.jetty.JettyServer.createAlpnProtocolFactory",,,,1,6,0
+Private Static Method,"http2.bench.jetty.JettyServer.createServer",,,,1,7,1
+Static Method,"http2.bench.jetty.JettyServer.password",,,,2,4,0
+Private Static Method,"http2.bench.jetty.JettyServer.prepareSsl",,,,1,9,0
+Public Method,"http2.bench.jetty.JettyServer.run",,,,1,25,1
+Anonymous Class,"http2.bench.jetty.JettyServer.run.(Anon_1)",9,0,0,1,5,0
+Public Method,"http2.bench.jetty.JettyServer.run.(Anon_1).handle",,,,1,4,0
+Package,"http2.bench.netty",,,,48,344,141
+Public Class,"http2.bench.netty.HelloWorldHttp1Handler",14,33,33,5,30,3
+Public Constructor,"http2.bench.netty.HelloWorldHttp1Handler.HelloWorldHttp1Handler",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp1Handler.channelRead0",,,,3,19,0
+Public Method,"http2.bench.netty.HelloWorldHttp1Handler.exceptionCaught",,,,1,5,0
+Public Final Class,"http2.bench.netty.HelloWorldHttp2Handler",16,0,0,20,86,15
+Constructor,"http2.bench.netty.HelloWorldHttp2Handler.HelloWorldHttp2Handler",,,,1,4,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.exceptionCaught",,,,1,6,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onDataRead",,,,2,8,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onGoAwayRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onHeadersRead",,,,2,10,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onHeadersRead",,,,1,5,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onPingAckRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onPingRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onPriorityRead",,,,1,4,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onPushPromiseRead",,,,1,4,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onRstStreamRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onSettingsAckRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onSettingsRead",,,,1,3,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onUnknownFrame",,,,1,4,0
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.onWindowUpdateRead",,,,1,3,0
+Private Method,"http2.bench.netty.HelloWorldHttp2Handler.sendResponse",,,,1,6,4
+Public Method,"http2.bench.netty.HelloWorldHttp2Handler.userEventTriggered",,,,2,10,5
+Public Final Class,"http2.bench.netty.HelloWorldHttp2HandlerBuilder",7,0,0,3,17,1
+Public Constructor,"http2.bench.netty.HelloWorldHttp2HandlerBuilder.HelloWorldHttp2HandlerBuilder",,,,1,2,1
+Public Method,"http2.bench.netty.HelloWorldHttp2HandlerBuilder.build",,,,1,4,0
+Protected Method,"http2.bench.netty.HelloWorldHttp2HandlerBuilder.build",,,,1,7,0
+Public Class,"http2.bench.netty.Http2OrHttpHandler",10,0,0,4,20,4
+Protected Constructor,"http2.bench.netty.Http2OrHttpHandler.Http2OrHttpHandler",,,,1,3,0
+Protected Method,"http2.bench.netty.Http2OrHttpHandler.configurePipeline",,,,3,14,0
+Public Class,"http2.bench.netty.Http2ServerInitializer",10,60,40,7,60,14
+Anonymous Class,"http2.bench.netty.Http2ServerInitializer.(Anon_1)",7,0,0,2,9,0
+Public Method,"http2.bench.netty.Http2ServerInitializer.(Anon_1).newUpgradeCodec",,,,2,8,0
+Public Constructor,"http2.bench.netty.Http2ServerInitializer.Http2ServerInitializer",,,,1,3,0
+Public Constructor,"http2.bench.netty.Http2ServerInitializer.Http2ServerInitializer",,,,2,7,0
+Private Static Class,"http2.bench.netty.Http2ServerInitializer.UserEventLogger",4,0,0,1,7,3
+Public Method,"http2.bench.netty.Http2ServerInitializer.UserEventLogger.userEventTriggered",,,,1,5,0
+Private Method,"http2.bench.netty.Http2ServerInitializer.configureClearText",,,,1,18,4
+Anonymous Class,"http2.bench.netty.Http2ServerInitializer.configureClearText.(Anon_2)",10,0,0,1,10,1
+Protected Method,"http2.bench.netty.Http2ServerInitializer.configureClearText.(Anon_2).channelRead0",,,,1,9,1
+Private Method,"http2.bench.netty.Http2ServerInitializer.configureSsl",,,,1,3,3
+Public Method,"http2.bench.netty.Http2ServerInitializer.initChannel",,,,2,8,0
+Public Final Class,"http2.bench.netty.NettyServer",6,0,0,2,10,4
+Public Method,"http2.bench.netty.NettyServer.run",,,,2,3,0
+Public Class,"http2.bench.netty.Server",19,0,0,3,34,12
+Static Method,"http2.bench.netty.Server.run",,,,3,32,8
+Package,"http2.bench.servlet",,,,28,135,4
+Public Class,"http2.bench.servlet.ServletServer",19,66,58,22,118,4
+Public Method,"http2.bench.servlet.ServletServer.getBackend",,,,1,3,0
+Public Method,"http2.bench.servlet.ServletServer.getRoot",,,,1,3,0
+Public Method,"http2.bench.servlet.ServletServer.handle",,,,8,33,0
+Lambda Method,"http2.bench.servlet.ServletServer.handle.(lambda_expr_1)",,,,3,12,0
+Lambda Method,"http2.bench.servlet.ServletServer.handle.(lambda_expr_2)",,,,1,1,0
+Private Method,"http2.bench.servlet.ServletServer.handlePostBlocking",,,,3,13,0
+Private Method,"http2.bench.servlet.ServletServer.handlePostNonBlocking",,,,2,32,1
+Anonymous Class,"http2.bench.servlet.ServletServer.handlePostNonBlocking.(Anon_1)",6,0,0,6,23,0
+Public Method,"http2.bench.servlet.ServletServer.handlePostNonBlocking.(Anon_1).onAllDataRead",,,,1,6,0
+Public Method,"http2.bench.servlet.ServletServer.handlePostNonBlocking.(Anon_1).onDataAvailable",,,,4,13,0
+Public Method,"http2.bench.servlet.ServletServer.handlePostNonBlocking.(Anon_1).onError",,,,1,3,0
+Public Method,"http2.bench.servlet.ServletServer.init",,,,1,8,0
+Public Method,"http2.bench.servlet.ServletServer.isBlocking",,,,1,3,0
+Private Method,"http2.bench.servlet.ServletServer.sendResponse",,,,1,5,0
+Public Method,"http2.bench.servlet.ServletServer.service",,,,1,4,0
+Public Method,"http2.bench.servlet.ServletServer.setBackend",,,,1,3,0
+Public Method,"http2.bench.servlet.ServletServer.setBlocking",,,,1,3,0
+Public Method,"http2.bench.servlet.ServletServer.setRoot",,,,1,3,0
+Package,"http2.bench.undertow",,,,6,83,3
+Public Class,"http2.bench.undertow.UndertowServer",24,66,66,6,62,3
+Private Static Method,"http2.bench.undertow.UndertowServer.createSSLContext",,,,1,15,0
+Static Method,"http2.bench.undertow.UndertowServer.password",,,,2,4,0
+Public Method,"http2.bench.undertow.UndertowServer.run",,,,3,33,0
+Lambda Method,"http2.bench.undertow.UndertowServer.run.(lambda_expr_1)",,,,1,4,0
+Package,"http2.bench.vertx",,,,21,115,6
+Public Class,"http2.bench.vertx.ServerVerticle",15,25,25,8,70,3
+Public Static Class,"http2.bench.vertx.ServerVerticle.JDK",1,0,0,1,5,0
+Public Constructor,"http2.bench.vertx.ServerVerticle.JDK.JDK",,,,1,3,0
+Public Static Class,"http2.bench.vertx.ServerVerticle.OPENSSL",1,0,0,1,5,0
+Public Constructor,"http2.bench.vertx.ServerVerticle.OPENSSL.OPENSSL",,,,1,3,0
+Public Constructor,"http2.bench.vertx.ServerVerticle.ServerVerticle",,,,1,3,0
+Public Method,"http2.bench.vertx.ServerVerticle.start",,,,7,53,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1)",,,,7,30,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_2)",,,,3,15,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_2).(lambda_expr_3)",,,,2,4,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_2).(lambda_expr_3).(lambda_expr_4)",,,,2,1,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_2).(lambda_expr_3).(lambda_expr_4).(lambda_expr_5)",,,,1,1,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_6)",,,,1,1,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_1).(lambda_expr_7)",,,,1,3,0
+Lambda Method,"http2.bench.vertx.ServerVerticle.start.(lambda_expr_8)",,,,2,7,0
+Public Class,"http2.bench.vertx.VertxServer",14,0,0,4,23,3
+Public Method,"http2.bench.vertx.VertxServer.run",,,,4,14,0
+Lambda Method,"http2.bench.vertx.VertxServer.run.(lambda_expr_1)",,,,2,7,0

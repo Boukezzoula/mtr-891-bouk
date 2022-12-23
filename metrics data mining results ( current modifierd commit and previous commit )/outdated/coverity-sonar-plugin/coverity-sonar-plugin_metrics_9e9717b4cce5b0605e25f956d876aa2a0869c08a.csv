@@ -1,0 +1,8 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"CoverityPlugin.java",,,,1,5,19
+Package,"org",,,,0,0,0
+Package,"org.sonar",,,,0,0,0
+Package,"org.sonar.plugins",,,,0,0,0
+Package,"org.sonar.plugins.coverity",,,,1,5,19
+Class,"org.sonar.plugins.coverity.CoverityPlugin",1,0,0,1,4,0
+Static Method,"org.sonar.plugins.coverity.CoverityPlugin.main",,,,1,2,0

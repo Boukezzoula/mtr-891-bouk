@@ -1,0 +1,280 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"CredentialsHelper.java",,,,13,90,4
+File,"CustomIssue.java",,,,8,38,0
+File,"DummyTest.java",,,,1,9,1
+File,"GitChangelogConfig.java",,,,121,722,0
+File,"GitChangelogConfigHelper.java",,,,5,67,0
+File,"GitChangelogDescriptor.java",,,,13,128,1
+File,"GitChangelogLeftsideBuildDecorator.java",,,,6,33,0
+File,"GitChangelogLogger.java",,,,5,21,0
+File,"GitChangelogMasterToSlaveCallable.java",,,,2,26,0
+File,"GitChangelogPerformer.java",,,,10,139,5
+File,"GitChangelogRecorder.java",,,,7,45,0
+File,"GitChangelogSummaryDecorator.java",,,,5,27,0
+File,"GitLogBasicChangelogPostPublisher.java",,,,6,57,0
+File,"GitLogBasicChangelogTokenMacro.java",,,,2,16,0
+File,"GitLogGenericPostPublishPerformer.java",,,,11,81,0
+File,"GitLogGenericPostPublishPerformerBuilder.java",,,,5,28,0
+File,"GitLogJiraFilterPostPublisher.java",,,,6,71,0
+File,"GitLogJiraFilterTokenMacro.java",,,,2,21,0
+File,"GitLogTokenMacro.java",,,,2,30,0
+File,"RemoteCallable.java",,,,30,175,21
+File,"RemoteResult.java",,,,7,31,0
+Package,"de",,,,0,0,0
+Package,"de.wellnerbou",,,,0,0,0
+Package,"de.wellnerbou.jenkins",,,,0,0,0
+Package,"de.wellnerbou.jenkins.gitchangelog",,,,0,0,0
+Package,"de.wellnerbou.jenkins.gitchangelog.callable",,,,2,26,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable",8,0,0,2,16,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable.GitChangelogMasterToSlaveCallable",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable.call",,,,1,9,0
+Package,"de.wellnerbou.jenkins.gitchangelog.publish",,,,28,237,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher",13,50,50,4,44,0
+Public Static Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl",4,0,0,2,11,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl.isApplicable",,,,1,4,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.GitLogBasicChangelogPostPublisher",,,,1,7,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.createChangelogProcessor",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.getRequiredMonitorService",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.perform",,,,1,14,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer",15,67,57,11,67,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.GitLogGenericPostPublishPerformer",,,,1,10,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.closePrintStreamIfWrittenToFile",,,,2,5,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.createGitChangelogArgs",,,,2,12,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.decideForPrintStream",,,,2,12,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.perform",,,,1,16,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.resolveAndExpandIfNotNull",,,,2,3,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.shouldWriteToFile",,,,1,3,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder",3,60,60,5,26,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.build",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.setChangelogProcessor",,,,1,5,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.withFromRev",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.withToRev",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.writeTofile",,,,1,4,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher",14,50,40,4,56,0
+Public Static Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl",4,0,0,2,11,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl.isApplicable",,,,1,4,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.GitLogJiraFilterPostPublisher",,,,1,13,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.createChangelogProcessor",,,,1,7,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.getRequiredMonitorService",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.perform",,,,1,14,0
+Package,"de.wellnerbou.jenkins.gitchangelog.tokenmacro",,,,6,67,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro",5,0,0,2,12,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro.acceptsMacroName",,,,1,4,0
+Protected Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro.createChangelogProcessor",,,,1,4,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro",6,50,50,2,17,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro.acceptsMacroName",,,,1,4,0
+Protected Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro.createChangelogProcessor",,,,1,7,0
+Public Abstract Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro",12,0,0,2,19,0
+Protected Abstract Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro.createChangelogProcessor",,,,0,1,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro.evaluate",,,,2,16,0
+Package,"org",,,,0,0,0
+Package,"org.jenkinsci",,,,0,0,0
+Package,"org.jenkinsci.plugins",,,,0,0,0
+Package,"org.jenkinsci.plugins.gitchangelog",,,,26,203,2
+Public Class,"org.jenkinsci.plugins.gitchangelog.DummyTest",1,0,0,1,6,1
+Public Method,"org.jenkinsci.plugins.gitchangelog.DummyTest.test",,,,1,4,1
+Public Final Class,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor",16,88,88,13,115,1
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.GitChangelogDescriptor",,,,2,7,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.doFillGitHubApiTokenCredentialsIdItems",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.doFillGitLabApiTokenCredentialsIdItems",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.doFillJiraUsernamePasswordCredentialsIdItems",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.getDisplayName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.getHelpFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.getNewConfig",,,,1,3,1
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.isApplicable",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogDescriptor.newInstance",,,,4,80,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger",6,80,19,5,17,0
+Private Constructor,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger.GitChangelogLogger",,,,1,1,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger.doLog",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger.doLog",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger.doLog",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogLogger.doLog",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder",14,42,42,7,29,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.GitChangelogRecorder",,,,1,1,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.GitChangelogRecorder",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.getConfig",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.getDescriptor",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.getRequiredMonitorService",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.perform",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.GitChangelogRecorder.setConfig",,,,1,3,0
+Package,"org.jenkinsci.plugins.gitchangelog.config",,,,147,917,4
+Public Class,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper",12,0,0,13,69,4
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.doFillApiTokenCredentialsIdItems",,,,1,8,2
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.doFillUserNamePasswordCredentialsIdItems",,,,1,9,2
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.findCredentials",,,,2,8,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.findSecretString",,,,3,13,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.findSecretUsernamePassword",,,,3,13,0
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.findUserCredentials",,,,2,10,0
+Private Static Generic Method,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.getAllCredentials",,,,1,6,0
+TypeVariable,"org.jenkinsci.plugins.gitchangelog.config.CredentialsHelper.getAllCredentials.C",1,0,0,0,0,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue",2,65,65,8,35,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.CustomIssue",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.getLink",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.getName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.getPattern",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.getTitle",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.setLink",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.setName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.CustomIssue.setPattern",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig",6,96,96,121,716,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.GitChangelogConfig",,,,1,4,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.GitChangelogConfig",,,,1,118,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getConfigFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getCreateFileTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getCreateFileTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getCustomIssues",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getDateFormat",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getFromReference",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getFromType",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitHubApi",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitHubApiTokenCredentialsId",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitHubIssuePattern",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitHubToken",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitLabApiTokenCredentialsId",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitLabProjectName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitLabServer",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getGitLabToken",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getIgnoreCommitsIfMessageMatches",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getIgnoreTagsIfNameMatches",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getJiraIssuePattern",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getJiraPassword",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getJiraServer",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getJiraUsername",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getJiraUsernamePasswordCredentialsId",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiPassword",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiTitle",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getMediaWikiUsername",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getNoIssueName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getReadableTagName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getShowSummaryTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getShowSummaryTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getSubDirectory",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getTimeZone",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getToReference",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getToType",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.getUntaggedName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isCreateFileUseTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isCreateFileUseTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isIgnoreCommitsWithoutIssue",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isMediaWikiUseTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isMediaWikiUseTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isShowSummary",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isShowSummaryUseTemplateContent",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isShowSummaryUseTemplateFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseConfigFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseGitHub",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseGitHubApiTokenCredentials",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseGitLab",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseGitLabApiTokenCredentials",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseIgnoreTagsIfNameMatches",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseJira",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseJiraUsernamePasswordCredentialsId",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseMediaWiki",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseReadableTagName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.isUseSubDirectory",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setConfigFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setCreateFileTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setCreateFileTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setCreateFileUseTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setCreateFileUseTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setCustomIssues",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setDateFormat",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setFromReference",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setFromType",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitHubApi",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitHubApiTokenCredentialsId",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitHubIssuePattern",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitHubToken",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitLabApiTokenCredentialsId",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitLabProjectName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitLabServer",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setGitLabToken",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setIgnoreCommitsIfMessageMatches",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setIgnoreCommitsWithoutIssue",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setIgnoreTagsIfNameMatches",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setJiraIssuePattern",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setJiraPassword",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setJiraServer",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setJiraUsername",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setJiraUsernamePasswordCredentialsId",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiPassword",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiTitle",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiUrl",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiUseTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiUseTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setMediaWikiUsername",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setNoIssueName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setReadableTagName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setShowSummary",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setShowSummaryTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setShowSummaryTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setShowSummaryUseTemplateContent",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setShowSummaryUseTemplateFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setSubDirectory",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setTimeZone",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setToReference",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setToType",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUntaggedName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseConfigFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseFile",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseGitHub",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseGitHubApiTokenCredentials",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseGitLab",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseGitLabApiTokenCredentials",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseIgnoreTagsIfNameMatches",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseJira",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseJiraUsernamePasswordCredentialsId",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseMediaWiki",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseReadableTagName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.setUseSubDirectory",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.showSummary",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.toFile",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfig.toString",,,,1,120,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper",10,50,0,3,48,0
+Public Enum Type,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.FROMTYPE",1,,,2,13,0
+Constructor,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.FROMTYPE.FROMTYPE",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.FROMTYPE.getReference",,,,1,3,0
+Public Implicit Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.FROMTYPE.valueOf",,,,0,,
+Public Implicit Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.FROMTYPE.values",,,,0,,
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.createNewConfig",,,,1,22,0
+Private Static Method,"org.jenkinsci.plugins.gitchangelog.config.GitChangelogConfigHelper.getResourceAsString",,,,2,10,0
+Package,"org.jenkinsci.plugins.gitchangelog.perform",,,,58,405,26
+Public Class,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator",4,66,66,6,29,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.GitChangelogLeftsideBuildDecorator",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.getDisplayName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.getIconFileName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.getText",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.getUrl",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogLeftsideBuildDecorator.getUrlName",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogPerformer",18,0,0,10,123,5
+Private Static Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogPerformer.expand",,,,2,73,5
+Public Static Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogPerformer.performerPerform",,,,4,28,0
+Private Static Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogPerformer.setApiTokenCredentials",,,,4,20,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator",4,60,60,5,23,0
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator.GitChangelogSummaryDecorator",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator.getDisplayName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator.getIconFileName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator.getText",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.GitChangelogSummaryDecorator.getUrlName",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.perform.RemoteCallable",15,44,44,30,153,21
+Public Constructor,"org.jenkinsci.plugins.gitchangelog.perform.RemoteCallable.RemoteCallable",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteCallable.call",,,,28,140,21
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteCallable.checkRoles",,,,1,2,0
+Public Class,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult",1,71,71,7,29,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.getLeftSideTitle",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.getLeftSideUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.getLog",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.getSummary",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.setLeftSide",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.setLog",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.gitchangelog.perform.RemoteResult.setSummary",,,,1,3,0

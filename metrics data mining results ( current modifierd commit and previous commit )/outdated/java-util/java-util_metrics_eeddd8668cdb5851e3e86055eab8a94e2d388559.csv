@@ -1,0 +1,51 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Lifecycle.java",,,,20,111,17
+File,"LifecycleStart.java",,,,0,10,15
+File,"LifecycleStop.java",,,,0,10,15
+File,"Logger.java",,,,25,93,17
+Package,"com",,,,0,0,0
+Package,"com.metamx",,,,0,0,0
+Package,"com.metamx.common",,,,0,0,0
+Package,"com.metamx.common.lifecycle",,,,20,131,47
+Public Class,"com.metamx.common.lifecycle.Lifecycle",7,40,0,7,105,2
+Private Static Class,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler",7,0,0,8,34,0
+Public Constructor,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.AnnotationBasedHandler",,,,1,4,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.start",,,,3,10,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.stop",,,,4,15,0
+Public Interface,"com.metamx.common.lifecycle.Lifecycle.Handler",1,0,0,0,5,0
+Public Abstract Method,"com.metamx.common.lifecycle.Lifecycle.Handler.start",,,,0,1,0
+Public Abstract Method,"com.metamx.common.lifecycle.Lifecycle.Handler.stop",,,,0,1,0
+Private Static Class,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler",7,22,22,5,35,0
+Public Constructor,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.StartCloseHandler",,,,2,11,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.start",,,,1,6,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.stop",,,,2,11,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.addHandler",,,,1,4,0
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance",,,,1,5,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance",,,,1,5,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.start",,,,2,6,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.stop",,,,2,7,0
+Public Annotation,"com.metamx.common.lifecycle.LifecycleStart",2,0,0,0,5,0
+Public Annotation,"com.metamx.common.lifecycle.LifecycleStop",2,0,0,0,5,0
+Package,"com.metamx.common.logger",,,,25,93,17
+Public Class,"com.metamx.common.logger.Logger",5,0,0,25,92,2
+Public Constructor,"com.metamx.common.logger.Logger.Logger",,,,1,4,0
+Public Constructor,"com.metamx.common.logger.Logger.Logger",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.debug",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.debug",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.error",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.error",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.fatal",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.fatal",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.info",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.info",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.isDebugEnabled",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.isInfoEnabled",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.isTraceEnabled",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.trace",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.trace",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.warn",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.warn",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.wtf",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.wtf",,,,1,4,0

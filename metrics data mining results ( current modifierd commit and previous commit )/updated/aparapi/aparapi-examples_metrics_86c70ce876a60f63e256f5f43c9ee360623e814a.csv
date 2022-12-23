@@ -1,0 +1,1655 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Access2DIntArray.java",,,,1,7,1
+File,"AccessBooleanArray.java",,,,3,13,28
+File,"AccessByteArray.java",,,,2,9,30
+File,"AccessDoubleArray.java",,,,2,9,25
+File,"AccessFloatArray.java",,,,2,9,24
+File,"AccessIntArray.java",,,,2,9,24
+File,"AccessLongArray.java",,,,2,9,24
+File,"AccessNested2DIntArray.java",,,,1,8,1
+File,"AccessShortArray.java",,,,2,9,24
+File,"AndOrAndPrecedence.java",,,,2,13,26
+File,"AndOrPrecedence.java",,,,2,12,25
+File,"AndOrPrecedence2.java",,,,2,12,25
+File,"AparapiSolution.java",,,,11,73,30
+File,"ArbitraryScope.java",,,,3,34,53
+File,"ArbitraryScope2.java",,,,3,35,54
+File,"ArbitraryScopeSimple.java",,,,1,14,27
+File,"ArrayTortureIssue35.java",,,,1,8,25
+File,"Assign2DIntArray.java",,,,1,7,1
+File,"AssignAndPassAsParameter.java",,,,2,13,28
+File,"AssignAndPassAsParameterSimple.java",,,,2,9,1
+File,"AssignField.java",,,,1,7,1
+File,"Atomic32Pragma.java",,,,1,8,29
+File,"AutoCleanUpArraysDemo.java",,,,1,16,0
+File,"BMatMul1D.java",,,,3,22,0
+File,"BMatMul2D.java",,,,3,22,0
+File,"BMatMul3D.java",,,,3,26,0
+File,"Body.java",,,,15,56,0
+File,"BooleanToggle.java",,,,1,7,40
+File,"Break.java",,,,3,12,1
+File,"BufferTransfer.java",,,,23,164,0
+File,"ByteParams.java",,,,2,12,25
+File,"ByteParamsSimple.java",,,,2,10,24
+File,"CallGetPassId.java",,,,1,7,19
+File,"CallObject.java",,,,2,14,1
+File,"CallObjectStatic.java",,,,2,13,25
+File,"CallRunSuper.java",,,,2,14,27
+File,"CallStaticFromAnonymousKernel.java",,,,8,42,5
+File,"CallStaticInAnotherClass.java",,,,3,16,28
+File,"CallSuper.java",,,,3,16,28
+File,"CallTwice.java",,,,2,11,25
+File,"CharArrayField.java",,,,1,7,22
+File,"CharAsParameter.java",,,,2,11,24
+File,"CharType.java",,,,1,9,23
+File,"ClassHasStaticFieldAccess.java",,,,3,12,29
+File,"ClassHasStaticMethod.java",,,,4,18,32
+File,"ClassHasStaticMethodSimple.java",,,,2,8,22
+File,"CleanUpArraysDemo.java",,,,1,21,0
+File,"CodeGenJUnitBase.java",,,,13,63,35
+File,"CompositeArbitraryScope.java",,,,12,73,96
+File,"ConfigurationDemo.java",,,,13,68,3
+File,"ConstantAssignInExpression.java",,,,2,9,24
+File,"Continue.java",,,,3,12,25
+File,"ContinueTorture.java",,,,6,28,0
+File,"ConvMatrix3x3Editor.java",,,,10,98,30
+File,"ConvMatrix3x3Editor.java",,,,10,98,30
+File,"Convolution.java",,,,9,61,30
+File,"ConvolutionOpenCL.java",,,,4,44,36
+File,"ConvolutionViewer.java",,,,3,61,32
+File,"CorrMatrixHost.java",,,,48,215,90
+File,"CorrMatrixKernel.java",,,,12,150,63
+File,"CorrMatrixTest.java",,,,14,95,45
+File,"CreateJUnitTests.java",,,,12,85,32
+File,"CustomConfigurationDemo.java",,,,3,32,3
+File,"DMatMul1D.java",,,,3,22,0
+File,"DMatMul2D.java",,,,3,22,0
+File,"DMatMul3D.java",,,,3,23,0
+File,"Diff.java",,,,43,186,42
+File,"DirectRecursion.java",,,,3,12,1
+File,"DoWhile.java",,,,2,11,24
+File,"Drem.java",,,,1,9,29
+File,"EarlyReturn.java",,,,2,11,24
+File,"EmptyWhileWithInc.java",,,,2,8,19
+File,"EntrypointRecursion.java",,,,2,12,1
+File,"Ex.java",,,,3,11,24
+File,"ExplicitBoolean.java",,,,11,53,2
+File,"FFTExample.java",,,,13,100,14
+File,"FMatMul1D.java",,,,3,22,0
+File,"FMatMul2D.java",,,,3,22,0
+File,"FMatMul3D.java",,,,3,23,0
+File,"FirstAssignInExpression.java",,,,2,11,24
+File,"FirstAssignInExpression2.java",,,,2,16,28
+File,"FloatParams.java",,,,2,11,24
+File,"FloatParamsSimple.java",,,,2,8,22
+File,"For.java",,,,2,9,22
+File,"ForAnd.java",,,,2,9,22
+File,"ForAndMandel.java",,,,2,27,46
+File,"ForAndMandelNoInitialize.java",,,,2,28,47
+File,"ForAsFirst.java",,,,2,7,20
+File,"ForBooleanToggle.java",,,,2,9,44
+File,"ForBreak.java",,,,4,15,1
+File,"ForEach.java",,,,3,13,1
+File,"ForIf.java",,,,3,11,24
+File,"ForIfMandel.java",,,,3,31,50
+File,"Frem.java",,,,1,9,28
+File,"Histogram.java",,,,12,81,10
+File,"HistogramIdeal.java",,,,7,68,16
+File,"IEEERemainderDouble.java",,,,1,10,29
+File,"IEEERemainderFloat.java",,,,1,10,28
+File,"IMatMul1D.java",,,,3,22,0
+File,"IMatMul2D.java",,,,3,22,0
+File,"IMatMul3D.java",,,,3,23,0
+File,"If.java",,,,2,10,23
+File,"IfAnd.java",,,,2,10,23
+File,"IfAndAnd.java",,,,2,10,23
+File,"IfAndAndAnd.java",,,,2,10,23
+File,"IfAndOrAnd.java",,,,2,10,23
+File,"IfBooleanAndAndAnd.java",,,,2,10,26
+File,"IfBooleanAndAndOr.java",,,,2,10,26
+File,"IfBooleanAndOrAnd.java",,,,2,10,26
+File,"IfBooleanAndOrOr.java",,,,2,10,26
+File,"IfBooleanOrAndAnd.java",,,,2,10,26
+File,"IfBooleanOrAndOr.java",,,,2,13,26
+File,"IfBooleanOrOrAnd.java",,,,2,10,26
+File,"IfBooleanOrOrOr.java",,,,2,10,26
+File,"IfElse.java",,,,2,12,25
+File,"IfElseAnd.java",,,,2,12,25
+File,"IfElseAndAndAnd.java",,,,2,12,25
+File,"IfElseIfElseIfElse.java",,,,4,17,83
+File,"IfElseNot__OrOr_And_.java",,,,2,12,25
+File,"IfElseOrOrAnd.java",,,,2,12,25
+File,"IfElseOrOrOr.java",,,,2,12,25
+File,"IfElse_And_Or_And.java",,,,2,13,26
+File,"IfElse_OrOr_And.java",,,,2,12,25
+File,"IfElse_Or_And_Or.java",,,,2,13,26
+File,"IfOr.java",,,,2,10,23
+File,"IfOrAndOr.java",,,,2,10,23
+File,"IfOrOr.java",,,,2,10,23
+File,"IfOrOrAnd.java",,,,2,10,23
+File,"IfOrOrOr.java",,,,2,10,23
+File,"If_IfElseIfElseElse_Else.java",,,,4,20,35
+File,"If_IfElse_Else.java",,,,3,17,30
+File,"If_IfElse_Else_IfElse_.java",,,,5,25,92
+File,"If_If_Else.java",,,,3,15,39
+File,"If_If_Else2.java",,,,2,13,26
+File,"If_If_Else_If_.java",,,,4,17,42
+File,"If_OrOr_And.java",,,,2,10,23
+File,"If_While_Else.java",,,,3,13,25
+File,"If_While_Else_While.java",,,,4,15,26
+File,"ImplementsInterface.java",,,,2,16,29
+File,"IncArrayArgContent.java",,,,2,10,26
+File,"IncField.java",,,,1,7,1
+File,"IndirectRecursion.java",,,,4,18,1
+File,"Interface.java",,,,2,16,1
+File,"Issue102.java",,,,9,45,0
+File,"Issue103.java",,,,6,31,4
+File,"Issue68.java",,,,33,165,11
+File,"Issue69.java",,,,8,29,0
+File,"JJMPEGPlayer.java",,,,10,85,38
+File,"KernelHelper.java",,,,0,3,44
+File,"KernelOkayInOpenCL.java",,,,2,15,3
+File,"KernelWithAlternateFallbackAlgorithm.java",,,,3,16,4
+File,"KernelWithoutAlternateFallbackAlgorithm.java",,,,1,8,4
+File,"LMatMul1D.java",,,,3,22,0
+File,"LMatMul2D.java",,,,3,22,0
+File,"LMatMul3D.java",,,,3,23,0
+File,"LegacyConfigurationDemo.java",,,,1,17,4
+File,"Life.java",,,,20,169,86
+File,"LoadCL.java",,,,5,39,3
+File,"Local.java",,,,22,230,59
+File,"LongCompare.java",,,,2,11,24
+File,"LongCompares.java",,,,2,11,24
+File,"LongRunningKernel.java",,,,4,22,3
+File,"Loops.java",,,,3,12,25
+File,"MDArray.java",,,,267,1108,0
+File,"Main.java",,,,20,226,62
+File,"Main.java",,,,21,146,85
+File,"Main.java",,,,4,25,48
+File,"Main.java",,,,4,26,30
+File,"Main.java",,,,12,122,94
+File,"Main.java",,,,19,149,89
+File,"Main.java",,,,21,230,64
+File,"Main.java",,,,11,98,53
+File,"Main.java",,,,4,41,30
+File,"Main2D.java",,,,16,129,77
+File,"Mandel.java",,,,19,181,94
+File,"MandelExample.java",,,,30,358,67
+File,"MandelSimple.java",,,,12,124,61
+File,"MathAbs.java",,,,2,13,27
+File,"MathDegRad.java",,,,2,11,25
+File,"MathFallThru.java",,,,1,13,30
+File,"MathMax.java",,,,2,13,31
+File,"MathMin.java",,,,2,13,31
+File,"MathRemainder.java",,,,2,11,27
+File,"MedianDemo.java",,,,5,78,14
+File,"MedianKernel7x7.java",,,,24,134,14
+File,"MedianSettings.java",,,,2,12,0
+File,"MultiContinue.java",,,,6,22,34
+File,"MultiPassKernelSwingWorkerDemo.java",,,,16,111,3
+File,"MultipleAssign.java",,,,1,9,22
+File,"MultipleAssignExpr.java",,,,2,12,25
+File,"NBody.java",,,,23,233,66
+File,"NaN.java",,,,1,7,20
+File,"NewLocalArray.java",,,,2,10,23
+File,"NonNullCheck.java",,,,2,9,24
+File,"NullCheck.java",,,,2,10,25
+File,"ObjectArrayCallHierarchy.java",,,,9,48,1
+File,"ObjectArrayCommonSuper.java",,,,6,37,1
+File,"ObjectArrayMemberAccess.java",,,,9,44,28
+File,"ObjectArrayMemberBadGetter.java",,,,4,25,2
+File,"ObjectArrayMemberBadSetter.java",,,,4,25,1
+File,"ObjectArrayMemberCall.java",,,,10,46,40
+File,"ObjectArrayMemberGetterSetter.java",,,,17,82,97
+File,"ObjectArrayMemberHierarchy.java",,,,10,47,41
+File,"ObjectArrayMemberNotFinal.java",,,,14,61,2
+File,"ObjectRefCopy.java",,,,1,14,1
+File,"ObjectWithinObject.java",,,,1,15,1
+File,"OrAndOrPrecedence.java",,,,2,13,26
+File,"OverloadMethod.java",,,,3,14,28
+File,"OverriddenKernelField.java",,,,4,21,29
+File,"PlayPen.java",,,,4,17,35
+File,"PostDecArrayItem.java",,,,2,12,26
+File,"PostDecByte.java",,,,2,10,27
+File,"PostDecLocal.java",,,,2,9,23
+File,"PostDecPostInc.java",,,,1,8,21
+File,"PostIncArrayIndexAndElement.java",,,,1,8,23
+File,"PostIncArrayItem.java",,,,2,12,26
+File,"PostIncArrayItemAsParameter.java",,,,2,13,28
+File,"PostIncArrayItemFieldIndex.java",,,,1,10,28
+File,"PostIncByte.java",,,,2,10,27
+File,"PostIncByteField.java",,,,2,10,1
+File,"PostIncInt.java",,,,2,10,23
+File,"PostIncIntField.java",,,,2,10,1
+File,"PostIncLocal.java",,,,2,9,23
+File,"PostIncLocalStandalone.java",,,,1,7,20
+File,"PostIncLocalTwice.java",,,,2,9,23
+File,"Pow4Example.java",,,,5,37,3
+File,"PreDecArrayIndexAndElement.java",,,,1,8,23
+File,"PreDecArrayItem.java",,,,1,10,26
+File,"PreDecPostInc.java",,,,1,8,22
+File,"PreIncArrayIndexAndElement.java",,,,1,8,23
+File,"PreIncArrayItem.java",,,,1,10,26
+File,"PreIncByte.java",,,,2,10,47
+File,"PreIncByteField.java",,,,2,10,1
+File,"PreIncInt.java",,,,2,10,23
+File,"PreIncIntField.java",,,,2,10,1
+File,"PreIncLocal.java",,,,2,9,24
+File,"PreIncLocalStandalone.java",,,,1,7,20
+File,"PreIncLocalTwice.java",,,,2,9,24
+File,"ProfilingDemo.java",,,,10,58,6
+File,"ProfilingDemoNoBinaryCaching.java",,,,1,8,3
+File,"ProgressAndCancelDemo.java",,,,20,145,4
+File,"PureJava.java",,,,9,58,30
+File,"PureJavaSolution.java",,,,3,27,0
+File,"RangeSize.java",,,,2,20,0
+File,"ReferenceSolution.java",,,,14,79,30
+File,"ReturnBooleanNewArray.java",,,,2,9,1
+File,"ReturnBooleanVarArray.java",,,,2,10,1
+File,"ReturnByteArrayNew.java",,,,2,9,1
+File,"ReturnByteArrayVar.java",,,,2,10,1
+File,"ReturnDoubleArrayNew.java",,,,2,9,1
+File,"ReturnDoubleArrayVar.java",,,,2,10,1
+File,"ReturnFloatArrayNew.java",,,,2,9,1
+File,"ReturnFloatArrayVar.java",,,,2,10,1
+File,"ReturnIntArrayNew.java",,,,2,9,1
+File,"ReturnIntArrayVar.java",,,,2,10,1
+File,"ReturnLongArrayNew.java",,,,2,9,1
+File,"ReturnLongArrayVar.java",,,,2,10,1
+File,"ReturnPostIncInt.java",,,,2,9,22
+File,"ReturnPreIncInt.java",,,,2,9,23
+File,"ReturnShortArrayNew.java",,,,2,9,1
+File,"ReturnShortArrayVar.java",,,,2,10,1
+File,"RightShifts.java",,,,1,10,29
+File,"SMatMul1D.java",,,,3,22,0
+File,"SMatMul2D.java",,,,3,22,0
+File,"SMatMul3D.java",,,,3,23,0
+File,"Seq.java",,,,19,220,63
+File,"Sequence.java",,,,1,6,19
+File,"Source.java",,,,24,115,35
+File,"SquareExample.java",,,,8,74,19
+File,"StaticFieldStore.java",,,,1,8,1
+File,"StaticMethodCall.java",,,,2,11,25
+File,"StopWatch.java",,,,2,11,0
+File,"SwapExample.java",,,,7,48,8
+File,"SwingDiff.java",,,,18,127,42
+File,"SynchronizedMethods.java",,,,5,22,1
+File,"Ternary.java",,,,3,10,23
+File,"TernaryAnd.java",,,,3,9,22
+File,"TernaryAndOr.java",,,,3,9,22
+File,"TernaryNested.java",,,,4,7,22
+File,"TernaryOr.java",,,,3,9,22
+File,"Test12x4_4x2.java",,,,10,447,288
+File,"TwoForLoops.java",,,,3,15,28
+File,"UnrelatedIfElsesWithCommonEndByte.java",,,,4,24,50
+File,"UnrelatedIfsWithCommonEndByte.java",,,,5,24,35
+File,"UnrelatedNestedIfElses.java",,,,4,25,35
+File,"UseObject.java",,,,1,14,1
+File,"UseObjectArrayLength.java",,,,1,12,28
+File,"UseStaticArray.java",,,,4,27,3
+File,"UsesArrayLength.java",,,,2,19,96
+File,"UsesNew.java",,,,1,8,1
+File,"UsesThrow.java",,,,6,21,2
+File,"Util.java",,,,11,47,0
+File,"VarargsForEach.java",,,,5,18,1
+File,"VarargsSimple.java",,,,5,18,1
+File,"While.java",,,,2,11,23
+File,"WhileAndMandel.java",,,,2,29,47
+File,"WhileEmptyLoop.java",,,,2,8,19
+File,"WhileFloatCompound.java",,,,3,14,28
+File,"WhileIf.java",,,,3,14,28
+File,"WhileIfElse.java",,,,3,16,29
+File,"WhileWithoutMutator.java",,,,2,8,20
+File,"While_If_IfElseElse.java",,,,9,47,62
+File,"WideInc.java",,,,1,7,20
+File,"WideLoad.java",,,,1,263,279
+File,"ZMatMul1D.java",,,,3,22,0
+File,"ZMatMul2D.java",,,,3,22,0
+File,"ZMatMul3D.java",,,,3,23,0
+Package,"com",,,,0,0,0
+Package,"com.syncleus",,,,0,0,0
+Package,"com.syncleus.aparapi",,,,110,579,230
+Public Class,"com.syncleus.aparapi.CodeGenJUnitBase",12,0,0,13,55,5
+Protected Method,"com.syncleus.aparapi.CodeGenJUnitBase.test",,,,12,50,5
+Protected Method,"com.syncleus.aparapi.CodeGenJUnitBase.test",,,,1,3,0
+Public Class,"com.syncleus.aparapi.CreateJUnitTests",13,0,0,11,77,2
+Private Static Method,"com.syncleus.aparapi.CreateJUnitTests.appendExpectedExceptions",,,,2,10,0
+Private Static Method,"com.syncleus.aparapi.CreateJUnitTests.appendExpectedOpenCL",,,,4,15,0
+Private Static Method,"com.syncleus.aparapi.CreateJUnitTests.appendTest",,,,1,5,0
+Public Static Method,"com.syncleus.aparapi.CreateJUnitTests.main",,,,4,45,2
+Anonymous Class,"com.syncleus.aparapi.CreateJUnitTests.main.(Anon_1)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.CreateJUnitTests.main.(Anon_1).accept",,,,1,4,0
+Public Class,"com.syncleus.aparapi.Diff",11,0,0,25,182,12
+Public Static Class,"com.syncleus.aparapi.Diff.DiffResult",6,46,46,9,80,0
+Public Static Class,"com.syncleus.aparapi.Diff.DiffResult.Block",3,19,19,9,38,0
+Public Constructor,"com.syncleus.aparapi.Diff.DiffResult.Block.Block",,,,1,5,0
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.Block.extend",,,,1,4,0
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.Block.toString",,,,7,22,0
+Constructor,"com.syncleus.aparapi.Diff.DiffResult.DiffResult",,,,1,4,0
+Public Enum Type,"com.syncleus.aparapi.Diff.DiffResult.TYPE",1,,,0,5,0
+Public Implicit Method,"com.syncleus.aparapi.Diff.DiffResult.TYPE.valueOf",,,,0,,
+Public Implicit Method,"com.syncleus.aparapi.Diff.DiffResult.TYPE.values",,,,0,,
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.add",,,,4,15,0
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.getLhs",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.getRhs",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Diff.DiffResult.toString",,,,2,7,0
+Static Method,"com.syncleus.aparapi.Diff.cleanIslands",,,,2,6,0
+Static Method,"com.syncleus.aparapi.Diff.costDiag",,,,3,11,0
+Public Static Method,"com.syncleus.aparapi.Diff.diff",,,,12,53,12
+Static Method,"com.syncleus.aparapi.Diff.hash",,,,2,7,0
+Public Static Method,"com.syncleus.aparapi.Diff.same",,,,6,23,0
+Public Class,"com.syncleus.aparapi.KernelHelper",0,0,0,0,2,12
+Public Class,"com.syncleus.aparapi.Source",14,81,81,24,106,5
+Enum Type,"com.syncleus.aparapi.Source.STATE",1,,,0,6,0
+Public Implicit Method,"com.syncleus.aparapi.Source.STATE.valueOf",,,,0,,
+Public Implicit Method,"com.syncleus.aparapi.Source.STATE.values",,,,0,,
+Public Constructor,"com.syncleus.aparapi.Source.Source",,,,12,47,2
+Public Method,"com.syncleus.aparapi.Source.getDoc",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getDocString",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getExceptions",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getExceptionsString",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getFile",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getJava",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getJavaString",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getOpenCL",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getOpenCLSectionCount",,,,1,3,0
+Public Method,"com.syncleus.aparapi.Source.getOpenCLString",,,,1,3,0
+Private Method,"com.syncleus.aparapi.Source.listToString",,,,2,7,0
+Public Class,"com.syncleus.aparapi.SwingDiff",39,80,60,17,103,12
+Public Constructor,"com.syncleus.aparapi.SwingDiff.SwingDiff",,,,6,52,8
+Anonymous Class,"com.syncleus.aparapi.SwingDiff.SwingDiff.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.SwingDiff.SwingDiff.(Anon_1).paint",,,,1,4,0
+Private Static Method,"com.syncleus.aparapi.SwingDiff.arrayToString",,,,2,7,0
+Private Static Method,"com.syncleus.aparapi.SwingDiff.getFileContent",,,,4,17,2
+Private Static Method,"com.syncleus.aparapi.SwingDiff.getFileContents",,,,4,17,2
+Public Static Method,"com.syncleus.aparapi.SwingDiff.main",,,,1,7,0
+Package,"com.syncleus.aparapi.examples",,,,0,0,0
+Package,"com.syncleus.aparapi.examples.effects",,,,12,122,94
+Public Class,"com.syncleus.aparapi.examples.effects.Main",18,0,0,6,107,64
+Public Static Class,"com.syncleus.aparapi.examples.effects.Main.MouseTrackKernel",1,0,0,3,33,27
+Public Constructor,"com.syncleus.aparapi.examples.effects.Main.MouseTrackKernel.MouseTrackKernel",,,,1,10,10
+Public Method,"com.syncleus.aparapi.examples.effects.Main.MouseTrackKernel.run",,,,2,13,5
+Public Static Method,"com.syncleus.aparapi.examples.effects.Main.main",,,,6,71,27
+Anonymous Class,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_2)",3,0,0,1,7,3
+Public Method,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_2).mouseMoved",,,,1,6,2
+Anonymous Class,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_3)",3,0,0,1,5,2
+Public Method,"com.syncleus.aparapi.examples.effects.Main.main.(Anon_3).windowClosing",,,,1,4,0
+Package,"com.syncleus.aparapi.examples.javaonedemo",,,,62,583,246
+Public Class,"com.syncleus.aparapi.examples.javaonedemo.Life",23,25,25,4,145,56
+Public Static Class,"com.syncleus.aparapi.examples.javaonedemo.Life.LifeKernel",7,22,22,6,56,35
+Public Constructor,"com.syncleus.aparapi.examples.javaonedemo.Life.LifeKernel.LifeKernel",,,,2,16,3
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Life.LifeKernel.nextGeneration",,,,1,6,1
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Life.LifeKernel.run",,,,3,24,11
+Public Static Method,"com.syncleus.aparapi.examples.javaonedemo.Life.main",,,,4,83,10
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_1)",9,0,0,6,28,2
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_1).paintComponent",,,,6,27,2
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_2)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_2).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_3)",5,0,0,3,9,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Life.main.(Anon_3).itemStateChanged",,,,3,8,0
+Public Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel",23,0,0,8,156,64
+Public Static Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel.MandelKernel",3,33,33,5,41,25
+Public Constructor,"com.syncleus.aparapi.examples.javaonedemo.Mandel.MandelKernel.MandelKernel",,,,2,10,9
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.MandelKernel.run",,,,2,16,4
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main",,,,8,110,28
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_1)",6,0,0,1,9,4
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_1).paintComponent",,,,1,8,4
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_2)",6,0,0,3,13,5
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_2).itemStateChanged",,,,3,12,5
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_3)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_3).mouseClicked",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_4)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.Mandel.main.(Anon_4).windowClosing",,,,1,4,0
+Public Class,"com.syncleus.aparapi.examples.javaonedemo.NBody",21,100,100,1,199,36
+Public Static Class,"com.syncleus.aparapi.examples.javaonedemo.NBody.NBodyKernel",3,44,44,7,72,16
+Public Constructor,"com.syncleus.aparapi.examples.javaonedemo.NBody.NBodyKernel.NBodyKernel",,,,3,20,7
+Protected Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.NBodyKernel.render",,,,2,14,4
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.NBodyKernel.run",,,,2,30,3
+Public Static Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main",,,,1,121,8
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_2)",5,0,0,3,9,6
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_2).itemStateChanged",,,,3,8,6
+Anonymous Class,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_3)",18,72,72,11,71,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_3).display",,,,6,37,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_3).dispose",,,,1,2,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_3).init",,,,3,14,0
+Public Method,"com.syncleus.aparapi.examples.javaonedemo.NBody.main.(Anon_3).reshape",,,,1,7,0
+Package,"com.syncleus.aparapi.examples.movie",,,,48,362,128
+Public Class,"com.syncleus.aparapi.examples.movie.AparapiSolution",1,0,0,2,67,0
+Public Static Class,"com.syncleus.aparapi.examples.movie.AparapiSolution.AparapiConvolution",4,41,37,7,42,0
+Public Constructor,"com.syncleus.aparapi.examples.movie.AparapiSolution.AparapiConvolution.AparapiConvolution",,,,1,8,0
+Public Method,"com.syncleus.aparapi.examples.movie.AparapiSolution.AparapiConvolution.apply",,,,1,4,0
+Public Method,"com.syncleus.aparapi.examples.movie.AparapiSolution.AparapiConvolution.processPixel",,,,3,11,0
+Public Method,"com.syncleus.aparapi.examples.movie.AparapiSolution.AparapiConvolution.run",,,,2,11,0
+Public Static Method,"com.syncleus.aparapi.examples.movie.AparapiSolution.main",,,,2,23,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.AparapiSolution.main.(Anon_1)",4,0,0,2,8,0
+Protected Method,"com.syncleus.aparapi.examples.movie.AparapiSolution.main.(Anon_1).processFrame",,,,2,6,0
+Public Class,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor",13,73,73,5,83,0
+Constructor,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor",,,,2,47,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1)",5,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1).stateChanged",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2)",6,0,0,4,12,0
+Public Method,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2).actionPerformed",,,,4,11,0
+Method,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.set",,,,2,7,0
+Protected Method,"com.syncleus.aparapi.examples.movie.ConvMatrix3x3Editor.updated",,,,1,1,0
+Public Abstract Class,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer",4,0,0,1,72,8
+Public Constructor,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer",,,,1,69,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1)",17,100,100,2,66,0
+Public Method,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run",,,,2,64,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_2).paint",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_3)",1,0,0,1,3,0
+Protected Method,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_3).updated",,,,1,2,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_4)",14,0,0,5,33,0
+Public Method,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_4).run",,,,5,32,0
+Protected Abstract Method,"com.syncleus.aparapi.examples.movie.JJMPEGPlayer.processFrame",,,,0,1,0
+Public Class,"com.syncleus.aparapi.examples.movie.PureJavaSolution",1,0,0,2,23,0
+Public Static Method,"com.syncleus.aparapi.examples.movie.PureJavaSolution.main",,,,2,21,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.PureJavaSolution.main.(Anon_1)",5,0,0,1,6,0
+Protected Method,"com.syncleus.aparapi.examples.movie.PureJavaSolution.main.(Anon_1).processFrame",,,,1,5,0
+Public Class,"com.syncleus.aparapi.examples.movie.ReferenceSolution",1,0,0,2,73,0
+Public Static Class,"com.syncleus.aparapi.examples.movie.ReferenceSolution.Convolution",4,45,33,10,48,0
+Public Constructor,"com.syncleus.aparapi.examples.movie.ReferenceSolution.Convolution.Convolution",,,,1,8,0
+Public Method,"com.syncleus.aparapi.examples.movie.ReferenceSolution.Convolution.apply",,,,4,10,0
+Public Method,"com.syncleus.aparapi.examples.movie.ReferenceSolution.Convolution.processPixel",,,,3,11,0
+Public Method,"com.syncleus.aparapi.examples.movie.ReferenceSolution.Convolution.run",,,,2,11,0
+Public Static Method,"com.syncleus.aparapi.examples.movie.ReferenceSolution.main",,,,2,23,0
+Anonymous Class,"com.syncleus.aparapi.examples.movie.ReferenceSolution.main.(Anon_1)",4,0,0,2,8,0
+Protected Method,"com.syncleus.aparapi.examples.movie.ReferenceSolution.main.(Anon_1).processFrame",,,,2,6,0
+Package,"com.syncleus.aparapi.examples.nbody",,,,62,680,186
+Public Class,"com.syncleus.aparapi.examples.nbody.Local",18,100,100,1,200,29
+Public Static Class,"com.syncleus.aparapi.examples.nbody.Local.NBodyKernel",4,42,42,8,81,18
+Public Constructor,"com.syncleus.aparapi.examples.nbody.Local.NBodyKernel.NBodyKernel",,,,3,21,6
+Protected Method,"com.syncleus.aparapi.examples.nbody.Local.NBodyKernel.render",,,,2,14,4
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.NBodyKernel.run",,,,3,37,5
+Public Static Method,"com.syncleus.aparapi.examples.nbody.Local.main",,,,1,114,1
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_2)",20,72,72,12,73,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_2).display",,,,7,38,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_2).init",,,,3,15,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Local.main.(Anon_2).reshape",,,,1,7,0
+Public Class,"com.syncleus.aparapi.examples.nbody.Main",20,100,100,1,198,34
+Public Static Class,"com.syncleus.aparapi.examples.nbody.Main.NBodyKernel",3,44,44,7,72,18
+Public Constructor,"com.syncleus.aparapi.examples.nbody.Main.NBodyKernel.NBodyKernel",,,,3,20,8
+Protected Method,"com.syncleus.aparapi.examples.nbody.Main.NBodyKernel.render",,,,2,14,5
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.NBodyKernel.run",,,,2,30,3
+Public Static Method,"com.syncleus.aparapi.examples.nbody.Main.main",,,,1,120,3
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_2)",20,72,72,12,78,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_2).display",,,,7,40,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Main.main.(Anon_2).reshape",,,,1,7,0
+Public Class,"com.syncleus.aparapi.examples.nbody.Seq",20,100,100,1,188,33
+Public Static Class,"com.syncleus.aparapi.examples.nbody.Seq.NBodyKernel",2,38,38,8,72,17
+Public Constructor,"com.syncleus.aparapi.examples.nbody.Seq.NBodyKernel.NBodyKernel",,,,3,19,7
+Protected Method,"com.syncleus.aparapi.examples.nbody.Seq.NBodyKernel.render",,,,2,14,5
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.NBodyKernel.run",,,,3,31,3
+Public Static Method,"com.syncleus.aparapi.examples.nbody.Seq.main",,,,1,109,3
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_2)",18,72,72,9,67,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_2).display",,,,4,29,1
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.syncleus.aparapi.examples.nbody.Seq.main.(Anon_2).reshape",,,,1,7,0
+Package,"com.syncleus.aparapi.examples.oopnbody",,,,35,282,62
+Public Final Class,"com.syncleus.aparapi.examples.oopnbody.Body",0,88,88,15,54,0
+Public Constructor,"com.syncleus.aparapi.examples.oopnbody.Body.Body",,,,1,6,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getM",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getVx",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getVy",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getVz",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getX",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getY",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.getZ",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setM",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setVx",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setVy",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setVz",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setX",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setY",,,,1,3,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Body.setZ",,,,1,3,0
+Public Class,"com.syncleus.aparapi.examples.oopnbody.Main",20,100,100,1,193,32
+Public Static Class,"com.syncleus.aparapi.examples.oopnbody.Main.NBodyKernel",4,53,53,9,78,15
+Public Constructor,"com.syncleus.aparapi.examples.oopnbody.Main.NBodyKernel.NBodyKernel",,,,3,20,7
+Protected Method,"com.syncleus.aparapi.examples.oopnbody.Main.NBodyKernel.render",,,,4,23,5
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.NBodyKernel.run",,,,2,28,3
+Public Static Method,"com.syncleus.aparapi.examples.oopnbody.Main.main",,,,1,109,4
+Anonymous Class,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_2)",17,72,72,9,67,2
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_2).display",,,,4,29,2
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.syncleus.aparapi.examples.oopnbody.Main.main.(Anon_2).reshape",,,,1,7,0
+Package,"com.syncleus.aparapi.sample",,,,0,0,0
+Package,"com.syncleus.aparapi.sample.add",,,,4,26,30
+Public Class,"com.syncleus.aparapi.sample.add.Main",4,0,0,3,23,0
+Public Static Method,"com.syncleus.aparapi.sample.add.Main.main",,,,3,21,0
+Anonymous Class,"com.syncleus.aparapi.sample.add.Main.main.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.add.Main.main.(Anon_1).run",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.blackscholes",,,,11,98,53
+Public Class,"com.syncleus.aparapi.sample.blackscholes.Main",8,0,0,2,95,23
+Public Static Class,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel",4,72,72,9,78,23
+Public Constructor,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel.BlackScholesKernel",,,,2,8,0
+Method,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel.phi",,,,2,17,4
+Public Method,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel.run",,,,1,24,0
+Public Method,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel.showArray",,,,3,10,0
+Public Method,"com.syncleus.aparapi.sample.blackscholes.Main.BlackScholesKernel.showResults",,,,1,4,0
+Public Static Method,"com.syncleus.aparapi.sample.blackscholes.Main.main",,,,2,15,0
+Package,"com.syncleus.aparapi.sample.configuration",,,,36,259,30
+Public Class,"com.syncleus.aparapi.sample.configuration.AutoCleanUpArraysDemo",5,0,0,1,14,0
+Public Static Method,"com.syncleus.aparapi.sample.configuration.AutoCleanUpArraysDemo.main",,,,1,12,0
+Public Class,"com.syncleus.aparapi.sample.configuration.CleanUpArraysDemo",5,0,0,1,19,0
+Public Static Method,"com.syncleus.aparapi.sample.configuration.CleanUpArraysDemo.main",,,,1,17,0
+Public Class,"com.syncleus.aparapi.sample.configuration.ConfigurationDemo",9,0,0,13,64,3
+Public Static Method,"com.syncleus.aparapi.sample.configuration.ConfigurationDemo.main",,,,3,13,0
+Private Static Method,"com.syncleus.aparapi.sample.configuration.ConfigurationDemo.runTests",,,,10,49,0
+Public Class,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo",6,0,0,1,28,3
+Public Static Method,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo.main",,,,1,26,0
+Anonymous Class,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo.main.(Anon_1)",3,0,0,1,5,0
+Protected Method,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo.main.(Anon_1).getPreferredDeviceTypes",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo.main.(Anon_2)",2,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.configuration.CustomConfigurationDemo.main.(Anon_2).isAllowDevice",,,,1,4,0
+Public Class,"com.syncleus.aparapi.sample.configuration.KernelOkayInOpenCL",5,50,50,2,14,3
+Private Method,"com.syncleus.aparapi.sample.configuration.KernelOkayInOpenCL.oops",,,,1,4,0
+Public Method,"com.syncleus.aparapi.sample.configuration.KernelOkayInOpenCL.run",,,,1,6,0
+Public Class,"com.syncleus.aparapi.sample.configuration.KernelWithAlternateFallbackAlgorithm",3,0,0,3,14,4
+Public Method,"com.syncleus.aparapi.sample.configuration.KernelWithAlternateFallbackAlgorithm.executeFallbackAlgorithm",,,,1,4,0
+Public Method,"com.syncleus.aparapi.sample.configuration.KernelWithAlternateFallbackAlgorithm.hasFallbackAlgorithm",,,,1,4,0
+Public Method,"com.syncleus.aparapi.sample.configuration.KernelWithAlternateFallbackAlgorithm.run",,,,1,4,1
+Public Class,"com.syncleus.aparapi.sample.configuration.KernelWithoutAlternateFallbackAlgorithm",3,0,0,1,6,4
+Public Method,"com.syncleus.aparapi.sample.configuration.KernelWithoutAlternateFallbackAlgorithm.run",,,,1,4,1
+Public Class,"com.syncleus.aparapi.sample.configuration.LegacyConfigurationDemo",6,0,0,1,14,4
+Public Static Method,"com.syncleus.aparapi.sample.configuration.LegacyConfigurationDemo.main",,,,1,12,0
+Public Class,"com.syncleus.aparapi.sample.configuration.ProfilingDemo",9,60,40,10,53,6
+Public Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemo.main",,,,4,25,3
+Private Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemo.newBlackScholesKernel",,,,2,7,0
+Private Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemo.printLastProfile",,,,1,7,0
+Private Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemo.runOnce",,,,2,6,0
+Private Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemo.runWarmup",,,,1,5,0
+Public Class,"com.syncleus.aparapi.sample.configuration.ProfilingDemoNoBinaryCaching",2,0,0,1,6,3
+Public Static Method,"com.syncleus.aparapi.sample.configuration.ProfilingDemoNoBinaryCaching.main",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.convolution",,,,35,322,158
+Public Class,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor",13,73,73,5,83,0
+Constructor,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor",,,,2,47,0
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1)",5,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1).stateChanged",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2)",6,0,0,4,12,0
+Public Method,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2).actionPerformed",,,,4,11,0
+Method,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.set",,,,2,7,0
+Protected Method,"com.syncleus.aparapi.sample.convolution.ConvMatrix3x3Editor.updated",,,,1,1,0
+Public Class,"com.syncleus.aparapi.sample.convolution.Convolution",4,0,0,2,57,0
+Static Final Class,"com.syncleus.aparapi.sample.convolution.Convolution.ImageConvolution",1,33,13,6,33,0
+Public Method,"com.syncleus.aparapi.sample.convolution.Convolution.ImageConvolution.applyConvolution",,,,1,8,0
+Public Method,"com.syncleus.aparapi.sample.convolution.Convolution.ImageConvolution.processPixel",,,,3,12,0
+Public Method,"com.syncleus.aparapi.sample.convolution.Convolution.ImageConvolution.run",,,,2,8,0
+Public Static Method,"com.syncleus.aparapi.sample.convolution.Convolution.main",,,,2,23,0
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.Convolution.main.(Anon_1)",3,0,0,1,7,0
+Protected Method,"com.syncleus.aparapi.sample.convolution.Convolution.main.(Anon_1).applyConvolution",,,,1,5,0
+Public Class,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL",5,0,0,2,37,6
+Interface,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL.Convolution",4,0,0,0,9,6
+Abstract Method,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL.Convolution.applyConvolution",,,,0,7,6
+Public Static Method,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL.main",,,,2,26,0
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL.main.(Anon_1)",3,0,0,2,9,0
+Protected Method,"com.syncleus.aparapi.sample.convolution.ConvolutionOpenCL.main.(Anon_1).applyConvolution",,,,2,7,0
+Public Abstract Class,"com.syncleus.aparapi.sample.convolution.ConvolutionViewer",13,0,0,2,48,2
+Public Constructor,"com.syncleus.aparapi.sample.convolution.ConvolutionViewer.ConvolutionViewer",,,,2,37,2
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.ConvolutionViewer.ConvolutionViewer.(Anon_1)",7,0,0,1,12,0
+Protected Method,"com.syncleus.aparapi.sample.convolution.ConvolutionViewer.ConvolutionViewer.(Anon_1).updated",,,,1,11,0
+Protected Abstract Method,"com.syncleus.aparapi.sample.convolution.ConvolutionViewer.applyConvolution",,,,0,1,0
+Public Class,"com.syncleus.aparapi.sample.convolution.PureJava",3,0,0,2,55,0
+Static Final Class,"com.syncleus.aparapi.sample.convolution.PureJava.ImageConvolution",1,33,13,6,32,0
+Public Method,"com.syncleus.aparapi.sample.convolution.PureJava.ImageConvolution.applyConvolution",,,,1,8,0
+Public Method,"com.syncleus.aparapi.sample.convolution.PureJava.ImageConvolution.processPixel",,,,3,12,0
+Public Method,"com.syncleus.aparapi.sample.convolution.PureJava.ImageConvolution.run",,,,2,7,0
+Public Static Method,"com.syncleus.aparapi.sample.convolution.PureJava.main",,,,2,21,0
+Anonymous Class,"com.syncleus.aparapi.sample.convolution.PureJava.main.(Anon_1)",3,0,0,1,5,0
+Protected Method,"com.syncleus.aparapi.sample.convolution.PureJava.main.(Anon_1).applyConvolution",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.extension",,,,96,901,198
+Public Class,"com.syncleus.aparapi.sample.extension.FFTExample",9,0,0,13,93,14
+Interface,"com.syncleus.aparapi.sample.extension.FFTExample.FFT",2,0,0,0,7,4
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.FFTExample.FFT.forward",,,,0,5,4
+Static Method,"com.syncleus.aparapi.sample.extension.FFTExample.fft",,,,9,56,10
+Public Static Method,"com.syncleus.aparapi.sample.extension.FFTExample.main",,,,4,28,0
+Public Class,"com.syncleus.aparapi.sample.extension.Histogram",9,0,0,10,74,10
+Interface,"com.syncleus.aparapi.sample.extension.Histogram.HistogramKernel",5,0,0,0,13,9
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.Histogram.HistogramKernel.bin256",,,,0,5,4
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.Histogram.HistogramKernel.histogram256",,,,0,6,5
+Public Static Method,"com.syncleus.aparapi.sample.extension.Histogram.main",,,,10,59,1
+Anonymous Class,"com.syncleus.aparapi.sample.extension.Histogram.main.(Anon_1)",2,0,0,2,7,0
+Public Method,"com.syncleus.aparapi.sample.extension.Histogram.main.(Anon_1).run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.sample.extension.HistogramIdeal",10,0,0,7,62,16
+Interface,"com.syncleus.aparapi.sample.extension.HistogramIdeal.HistogramKernel",4,0,0,0,13,9
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.HistogramIdeal.HistogramKernel.bin256",,,,0,5,4
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.HistogramIdeal.HistogramKernel.histogram256",,,,0,6,5
+Public Static Method,"com.syncleus.aparapi.sample.extension.HistogramIdeal.main",,,,7,47,6
+Class,"com.syncleus.aparapi.sample.extension.JavaMandelBrot",1,0,0,4,91,10
+Public Method,"com.syncleus.aparapi.sample.extension.JavaMandelBrot.createMandleBrot",,,,4,21,0
+Class,"com.syncleus.aparapi.sample.extension.JavaMandelBrotMultiThread",6,100,100,4,117,4
+Public Method,"com.syncleus.aparapi.sample.extension.JavaMandelBrotMultiThread.createMandleBrot",,,,4,47,4
+Anonymous Class,"com.syncleus.aparapi.sample.extension.JavaMandelBrotMultiThread.createMandleBrot.(Anon_1)",6,0,0,6,0,0
+Public Method,"com.syncleus.aparapi.sample.extension.JavaMandelBrotMultiThread.createMandleBrot.(Anon_1).run",,,,6,0,0
+Interface,"com.syncleus.aparapi.sample.extension.Mandel",3,0,0,0,8,5
+Abstract Method,"com.syncleus.aparapi.sample.extension.Mandel.createMandleBrot",,,,0,6,5
+Interface,"com.syncleus.aparapi.sample.extension.MandelBrot",3,0,0,0,8,5
+Abstract Method,"com.syncleus.aparapi.sample.extension.MandelBrot.createMandleBrot",,,,0,6,5
+Public Class,"com.syncleus.aparapi.sample.extension.MandelExample",29,0,0,9,131,18
+Public Static Method,"com.syncleus.aparapi.sample.extension.MandelExample.main",,,,9,124,15
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_2).paintComponent",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_3)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_3).mouseClicked",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_4)",5,0,0,4,11,0
+Public Method,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_4).itemStateChanged",,,,4,10,0
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_5)",3,0,0,1,4,1
+Public Method,"com.syncleus.aparapi.sample.extension.MandelExample.main.(Anon_5).windowClosing",,,,1,3,1
+Public Class,"com.syncleus.aparapi.sample.extension.MandelSimple",26,0,0,9,106,26
+Public Static Method,"com.syncleus.aparapi.sample.extension.MandelSimple.main",,,,9,102,15
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_1).paintComponent",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_3)",3,0,0,1,4,1
+Public Method,"com.syncleus.aparapi.sample.extension.MandelSimple.main.(Anon_3).windowClosing",,,,1,3,1
+Public Class,"com.syncleus.aparapi.sample.extension.Pow4Example",7,0,0,5,30,3
+Interface,"com.syncleus.aparapi.sample.extension.Pow4Example.Squarer",2,0,0,0,6,3
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.Pow4Example.Squarer.square",,,,0,4,3
+Public Static Method,"com.syncleus.aparapi.sample.extension.Pow4Example.main",,,,5,22,0
+Public Class,"com.syncleus.aparapi.sample.extension.SquareExample",8,0,0,8,64,19
+Interface,"com.syncleus.aparapi.sample.extension.SquareExample.Squarer",2,0,0,0,10,7
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.SquareExample.Squarer.square",,,,0,8,7
+Interface,"com.syncleus.aparapi.sample.extension.SquareExample.SquarerWithResource",2,0,0,0,6,3
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.SquareExample.SquarerWithResource.square",,,,0,4,3
+Interface,"com.syncleus.aparapi.sample.extension.SquareExample.SquarerWithSource",3,0,0,0,12,9
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.SquareExample.SquarerWithSource.square",,,,0,4,3
+Public Static Method,"com.syncleus.aparapi.sample.extension.SquareExample.main",,,,8,34,0
+Public Class,"com.syncleus.aparapi.sample.extension.StopWatch",3,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.sample.extension.StopWatch.print",,,,1,4,0
+Public Method,"com.syncleus.aparapi.sample.extension.StopWatch.start",,,,1,3,0
+Public Class,"com.syncleus.aparapi.sample.extension.SwapExample",7,0,0,7,42,8
+Interface,"com.syncleus.aparapi.sample.extension.SwapExample.Swapper",2,0,0,0,11,8
+Public Abstract Method,"com.syncleus.aparapi.sample.extension.SwapExample.Swapper.swap",,,,0,9,8
+Public Static Method,"com.syncleus.aparapi.sample.extension.SwapExample.main",,,,7,29,0
+Package,"com.syncleus.aparapi.sample.info",,,,4,41,30
+Public Class,"com.syncleus.aparapi.sample.info.Main",8,0,0,4,36,0
+Public Static Method,"com.syncleus.aparapi.sample.info.Main.main",,,,4,34,0
+Package,"com.syncleus.aparapi.sample.life",,,,21,146,85
+Public Class,"com.syncleus.aparapi.sample.life.Main",22,0,0,5,138,55
+Public Static Class,"com.syncleus.aparapi.sample.life.Main.LifeKernel",8,39,17,10,69,35
+Public Constructor,"com.syncleus.aparapi.sample.life.Main.LifeKernel.LifeKernel",,,,3,19,3
+Public Method,"com.syncleus.aparapi.sample.life.Main.LifeKernel.nextGeneration",,,,3,12,1
+Public Method,"com.syncleus.aparapi.sample.life.Main.LifeKernel.processPixel",,,,3,23,11
+Public Method,"com.syncleus.aparapi.sample.life.Main.LifeKernel.run",,,,1,4,0
+Public Static Method,"com.syncleus.aparapi.sample.life.Main.main",,,,5,66,10
+Anonymous Class,"com.syncleus.aparapi.sample.life.Main.main.(Anon_1)",7,0,0,5,18,2
+Public Method,"com.syncleus.aparapi.sample.life.Main.main.(Anon_1).paintComponent",,,,5,17,2
+Anonymous Class,"com.syncleus.aparapi.sample.life.Main.main.(Anon_2)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.life.Main.main.(Anon_2).actionPerformed",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.mandel",,,,35,278,166
+Public Class,"com.syncleus.aparapi.sample.mandel.Main",18,0,0,8,141,59
+Public Static Class,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel",3,58,56,8,53,24
+Public Constructor,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.MandelKernel",,,,2,10,8
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.getCount",,,,2,13,1
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.getRgbs",,,,1,3,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.resetImage",,,,1,5,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.run",,,,1,7,3
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.syncleus.aparapi.sample.mandel.Main.main",,,,8,82,18
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_3)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main.main.(Anon_3).windowClosing",,,,1,4,0
+Public Class,"com.syncleus.aparapi.sample.mandel.Main2D",18,0,0,8,121,47
+Public Static Class,"com.syncleus.aparapi.sample.mandel.Main2D.MandelKernel",3,33,33,5,37,20
+Public Constructor,"com.syncleus.aparapi.sample.mandel.Main2D.MandelKernel.MandelKernel",,,,2,8,6
+Public Method,"com.syncleus.aparapi.sample.mandel.Main2D.MandelKernel.run",,,,2,16,4
+Public Method,"com.syncleus.aparapi.sample.mandel.Main2D.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.syncleus.aparapi.sample.mandel.Main2D.main",,,,8,81,16
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_3)",4,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.mandel.Main2D.main.(Anon_3).windowClosing",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.median",,,,31,224,28
+Public Class,"com.syncleus.aparapi.sample.median.MedianDemo",18,0,0,5,71,14
+Private Static Method,"com.syncleus.aparapi.sample.median.MedianDemo.createMedianKernel",,,,1,9,0
+Public Static Method,"com.syncleus.aparapi.sample.median.MedianDemo.main",,,,4,49,11
+Public Class,"com.syncleus.aparapi.sample.median.MedianKernel7x7",5,74,68,23,132,14
+Anonymous Class,"com.syncleus.aparapi.sample.median.MedianKernel7x7.(Anon_1)",2,0,0,1,5,0
+Protected Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.(Anon_1).initialValue",,,,1,4,0
+Protected Final Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.median",,,,8,33,8
+Protected Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.populateWindow",,,,3,11,0
+Public Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.processImages",,,,1,5,0
+Public Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.run",,,,3,35,0
+Protected Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.setPixelWindowValue",,,,1,3,0
+Public Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.setUpWindow",,,,1,4,0
+Protected Final Method,"com.syncleus.aparapi.sample.median.MedianKernel7x7.valueForChannel",,,,6,15,0
+Public Class,"com.syncleus.aparapi.sample.median.MedianSettings",0,50,0,2,11,0
+Public Constructor,"com.syncleus.aparapi.sample.median.MedianSettings.MedianSettings",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.sample.median.MedianSettings.MedianSettings",,,,1,4,0
+Package,"com.syncleus.aparapi.sample.progress",,,,40,278,10
+Public Class,"com.syncleus.aparapi.sample.progress.LongRunningKernel",4,50,50,4,20,3
+Public Method,"com.syncleus.aparapi.sample.progress.LongRunningKernel.report",,,,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.LongRunningKernel.run",,,,3,10,0
+Public Class,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo",25,60,56,10,102,3
+Private Static Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.cancel",,,,1,3,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.createWorker",,,,1,24,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3)",4,0,0,4,21,0
+Protected Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).done",,,,1,6,0
+Protected Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).executeKernel",,,,2,10,0
+Protected Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).updatePassId",,,,1,4,0
+Public Static Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.main",,,,2,38,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_1)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_2)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_2).actionPerformed",,,,1,4,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.start",,,,2,10,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.MultiPassKernelSwingWorkerDemo.updateProgress",,,,4,17,0
+Public Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo",27,53,36,13,139,4
+Private Static Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.cancel",,,,1,3,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.executeKernel",,,,4,26,0
+Public Static Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main",,,,2,58,1
+Anonymous Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_1)",6,0,0,3,14,0
+Public Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_1).run",,,,3,13,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_2)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_2).actionPerformed",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_3)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.main.(Anon_3).actionPerformed",,,,1,4,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.start",,,,2,23,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.start.(Anon_4)",2,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.start.(Anon_4).run",,,,1,4,0
+Anonymous Class,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.start.(Anon_5)",3,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.start.(Anon_5).actionPerformed",,,,1,4,0
+Private Static Method,"com.syncleus.aparapi.sample.progress.ProgressAndCancelDemo.updateProgress",,,,4,18,0
+Package,"com.syncleus.aparapi.sample.squares",,,,4,25,48
+Public Class,"com.syncleus.aparapi.sample.squares.Main",3,0,0,3,22,18
+Public Static Method,"com.syncleus.aparapi.sample.squares.Main.main",,,,3,20,10
+Anonymous Class,"com.syncleus.aparapi.sample.squares.Main.main.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.sample.squares.Main.main.(Anon_1).run",,,,1,4,0
+Package,"com.syncleus.aparapi.test",,,,546,3222,5150
+Public Class,"com.syncleus.aparapi.test.Access2DIntArray",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.Access2DIntArray.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.AccessBooleanArray",0,0,0,3,12,0
+Public Method,"com.syncleus.aparapi.test.AccessBooleanArray.run",,,,3,9,0
+Public Class,"com.syncleus.aparapi.test.AccessByteArray",0,0,0,2,8,6
+Public Method,"com.syncleus.aparapi.test.AccessByteArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AccessDoubleArray",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.AccessDoubleArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AccessFloatArray",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.AccessFloatArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AccessIntArray",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.AccessIntArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AccessLongArray",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.AccessLongArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AccessNested2DIntArray",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.AccessNested2DIntArray.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.AccessShortArray",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.AccessShortArray.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.AndOrAndPrecedence",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.AndOrAndPrecedence.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.AndOrPrecedence",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.AndOrPrecedence.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.AndOrPrecedence2",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.AndOrPrecedence2.run",,,,2,9,0
+Class,"com.syncleus.aparapi.test.AnotherClass",0,0,0,1,5,0
+Public Static Method,"com.syncleus.aparapi.test.AnotherClass.foo",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ArbitraryScope",1,0,0,3,33,0
+Public Method,"com.syncleus.aparapi.test.ArbitraryScope.run",,,,3,28,0
+Public Class,"com.syncleus.aparapi.test.ArbitraryScope2",1,0,0,3,34,0
+Public Method,"com.syncleus.aparapi.test.ArbitraryScope2.run",,,,3,29,0
+Public Class,"com.syncleus.aparapi.test.ArbitraryScopeSimple",1,0,0,1,13,0
+Public Method,"com.syncleus.aparapi.test.ArbitraryScopeSimple.run",,,,1,11,0
+Public Class,"com.syncleus.aparapi.test.ArrayTortureIssue35",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.ArrayTortureIssue35.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.Assign2DIntArray",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.Assign2DIntArray.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.AssignAndPassAsParameter",0,66,66,2,12,0
+Method,"com.syncleus.aparapi.test.AssignAndPassAsParameter.actuallyDoIt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.AssignAndPassAsParameter.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.AssignAndPassAsParameterSimple",1,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.AssignAndPassAsParameterSimple.actuallyDoIt",,,,1,2,0
+Public Method,"com.syncleus.aparapi.test.AssignAndPassAsParameterSimple.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.AssignField",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.AssignField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.Atomic32Pragma",1,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.Atomic32Pragma.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.BooleanToggle",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.BooleanToggle.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.Break",1,0,0,3,11,0
+Public Method,"com.syncleus.aparapi.test.Break.run",,,,3,9,0
+Public Class,"com.syncleus.aparapi.test.ByteParams",1,100,100,2,11,1
+Method,"com.syncleus.aparapi.test.ByteParams.addEmUp2",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ByteParams.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.ByteParamsSimple",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ByteParamsSimple.addEmUp2",,,,1,2,0
+Public Method,"com.syncleus.aparapi.test.ByteParamsSimple.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.CallGetPassId",0,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.test.CallGetPassId.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallObject",1,0,0,1,12,0
+Static Class,"com.syncleus.aparapi.test.CallObject.Dummy",0,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.test.CallObject.Dummy.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CallObject.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallObjectStatic",1,0,0,1,11,0
+Static Class,"com.syncleus.aparapi.test.CallObjectStatic.Dummy",0,0,0,1,5,0
+Public Static Method,"com.syncleus.aparapi.test.CallObjectStatic.Dummy.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CallObjectStatic.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallRunSuper",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.CallRunSuper.run",,,,1,4,0
+Class,"com.syncleus.aparapi.test.CallRunSuperBase",1,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.CallRunSuperBase.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallStaticInAnotherClass",1,50,50,2,9,0
+Public Method,"com.syncleus.aparapi.test.CallStaticInAnotherClass.doodoo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CallStaticInAnotherClass.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallSuper",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.CallSuper.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CallSuper.run",,,,1,3,0
+Abstract Class,"com.syncleus.aparapi.test.CallSuperBase",0,0,0,1,5,0
+Method,"com.syncleus.aparapi.test.CallSuperBase.foo",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CallTwice",1,50,50,2,9,0
+Public Method,"com.syncleus.aparapi.test.CallTwice.getOne",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CallTwice.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CharArrayField",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.CharArrayField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.CharAsParameter",0,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.CharAsParameter.doIt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.CharAsParameter.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.CharType",2,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.CharType.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.ClassHasStaticFieldAccess",0,0,0,3,11,0
+Public Method,"com.syncleus.aparapi.test.ClassHasStaticFieldAccess.run",,,,3,7,0
+Public Class,"com.syncleus.aparapi.test.ClassHasStaticMethod",0,50,50,4,17,0
+Static Method,"com.syncleus.aparapi.test.ClassHasStaticMethod.getIntAndReturnIt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ClassHasStaticMethod.run",,,,3,11,0
+Public Class,"com.syncleus.aparapi.test.ClassHasStaticMethodSimple",0,0,0,2,7,0
+Public Method,"com.syncleus.aparapi.test.ClassHasStaticMethodSimple.run",,,,1,3,0
+Static Method,"com.syncleus.aparapi.test.ClassHasStaticMethodSimple.staticMethod",,,,1,2,0
+Public Class,"com.syncleus.aparapi.test.CompositeArbitraryScope",1,0,0,12,71,0
+Public Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.run",,,,2,16,0
+Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.t1",,,,2,9,0
+Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.t2",,,,2,11,0
+Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.t3",,,,2,10,0
+Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.t4",,,,2,11,0
+Method,"com.syncleus.aparapi.test.CompositeArbitraryScope.t5",,,,2,12,0
+Public Class,"com.syncleus.aparapi.test.ConstantAssignInExpression",1,0,0,2,8,1
+Method,"com.syncleus.aparapi.test.ConstantAssignInExpression.func",,,,1,2,1
+Public Method,"com.syncleus.aparapi.test.ConstantAssignInExpression.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.Continue",1,0,0,3,11,0
+Public Method,"com.syncleus.aparapi.test.Continue.run",,,,3,9,0
+Public Class,"com.syncleus.aparapi.test.ContinueTorture",0,77,77,6,27,0
+Method,"com.syncleus.aparapi.test.ContinueTorture.actuallyDoIt",,,,1,3,0
+Method,"com.syncleus.aparapi.test.ContinueTorture.actuallyDoIt2",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ContinueTorture.run",,,,4,15,0
+Public Class,"com.syncleus.aparapi.test.DirectRecursion",1,50,50,3,10,0
+Method,"com.syncleus.aparapi.test.DirectRecursion.fact",,,,2,3,0
+Public Method,"com.syncleus.aparapi.test.DirectRecursion.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.DoWhile",1,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.DoWhile.run",,,,2,8,0
+Public Class,"com.syncleus.aparapi.test.Drem",0,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.Drem.run",,,,1,3,0
+Final Class,"com.syncleus.aparapi.test.DummyOOA",0,80,80,10,37,1
+Public Constructor,"com.syncleus.aparapi.test.DummyOOA.DummyOOA",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.getBoolField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.getFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.getLongField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.getMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.isBoolField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.setBoolField",,,,1,3,1
+Public Method,"com.syncleus.aparapi.test.DummyOOA.setFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.setLongField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOA.setMem",,,,1,3,0
+Class,"com.syncleus.aparapi.test.DummyOOANF",0,80,80,10,37,1
+Public Constructor,"com.syncleus.aparapi.test.DummyOOANF.DummyOOANF",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.getBoolField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.getFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.getLongField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.getMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.isBoolField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.setBoolField",,,,1,3,1
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.setFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.setLongField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.DummyOOANF.setMem",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.EarlyReturn",1,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.EarlyReturn.run",,,,2,8,0
+Public Class,"com.syncleus.aparapi.test.EmptyWhileWithInc",0,0,0,2,7,0
+Public Method,"com.syncleus.aparapi.test.EmptyWhileWithInc.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.EntrypointRecursion",0,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.EntrypointRecursion.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.Ex",0,0,0,3,10,0
+Public Method,"com.syncleus.aparapi.test.Ex.run",,,,3,8,0
+Public Class,"com.syncleus.aparapi.test.FirstAssignInExpression",1,100,100,2,10,1
+Method,"com.syncleus.aparapi.test.FirstAssignInExpression.func",,,,1,2,1
+Public Method,"com.syncleus.aparapi.test.FirstAssignInExpression.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.FirstAssignInExpression2",0,0,0,2,15,0
+Public Method,"com.syncleus.aparapi.test.FirstAssignInExpression2.run",,,,2,13,0
+Public Class,"com.syncleus.aparapi.test.FloatParams",0,0,0,2,10,0
+Method,"com.syncleus.aparapi.test.FloatParams.addEmUp",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.FloatParams.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.FloatParamsSimple",0,0,0,2,7,0
+Method,"com.syncleus.aparapi.test.FloatParamsSimple.floatParams",,,,1,2,0
+Public Method,"com.syncleus.aparapi.test.FloatParamsSimple.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.For",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.For.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.ForAnd",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.ForAnd.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.ForAndMandel",1,0,0,2,26,0
+Public Method,"com.syncleus.aparapi.test.ForAndMandel.run",,,,2,21,0
+Public Class,"com.syncleus.aparapi.test.ForAndMandelNoInitialize",1,0,0,2,27,0
+Public Method,"com.syncleus.aparapi.test.ForAndMandelNoInitialize.run",,,,2,22,0
+Public Class,"com.syncleus.aparapi.test.ForAsFirst",0,0,0,2,6,0
+Public Method,"com.syncleus.aparapi.test.ForAsFirst.run",,,,2,4,0
+Public Class,"com.syncleus.aparapi.test.ForBooleanToggle",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.ForBooleanToggle.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.ForBreak",1,0,0,4,14,0
+Public Method,"com.syncleus.aparapi.test.ForBreak.run",,,,4,12,0
+Public Class,"com.syncleus.aparapi.test.ForEach",1,0,0,3,12,0
+Public Method,"com.syncleus.aparapi.test.ForEach.run",,,,3,8,0
+Public Class,"com.syncleus.aparapi.test.ForIf",1,0,0,3,10,0
+Public Method,"com.syncleus.aparapi.test.ForIf.run",,,,3,8,0
+Public Class,"com.syncleus.aparapi.test.ForIfMandel",1,0,0,3,30,0
+Public Method,"com.syncleus.aparapi.test.ForIfMandel.run",,,,3,25,0
+Public Class,"com.syncleus.aparapi.test.Frem",0,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.Frem.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.IEEERemainderDouble",0,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.IEEERemainderDouble.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.IEEERemainderFloat",0,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.IEEERemainderFloat.run",,,,1,3,0
+Interface,"com.syncleus.aparapi.test.IFoo",0,0,0,0,3,0
+Public Abstract Method,"com.syncleus.aparapi.test.IFoo.bar",,,,0,1,0
+Public Class,"com.syncleus.aparapi.test.If",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.If.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfAndAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfAndAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfAndAndAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfAndAndAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfAndOrAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfAndOrAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanAndAndAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanAndAndAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanAndAndOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanAndAndOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanAndOrAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanAndOrAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanAndOrOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanAndOrOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanOrAndAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanOrAndAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanOrAndOr",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanOrAndOr.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanOrOrAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanOrOrAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfBooleanOrOrOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfBooleanOrOrOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfElse",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElse.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElseAnd",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElseAnd.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElseAndAndAnd",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElseAndAndAnd.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElseIfElseIfElse",1,0,0,4,16,16
+Public Method,"com.syncleus.aparapi.test.IfElseIfElseIfElse.run",,,,4,14,0
+Public Class,"com.syncleus.aparapi.test.IfElseNot__OrOr_And_",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElseNot__OrOr_And_.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElseOrOrAnd",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElseOrOrAnd.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElseOrOrOr",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElseOrOrOr.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElse_And_Or_And",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.IfElse_And_Or_And.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.IfElse_OrOr_And",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.IfElse_OrOr_And.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.IfElse_Or_And_Or",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.IfElse_Or_And_Or.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.IfOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfOrAndOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfOrAndOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfOrOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfOrOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfOrOrAnd",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfOrOrAnd.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.IfOrOrOr",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.IfOrOrOr.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.If_IfElseIfElseElse_Else",1,0,0,4,19,0
+Public Method,"com.syncleus.aparapi.test.If_IfElseIfElseElse_Else.run",,,,4,17,0
+Public Class,"com.syncleus.aparapi.test.If_IfElse_Else",1,0,0,3,16,0
+Public Method,"com.syncleus.aparapi.test.If_IfElse_Else.run",,,,3,14,0
+Public Class,"com.syncleus.aparapi.test.If_IfElse_Else_IfElse_",1,0,0,5,24,54
+Public Method,"com.syncleus.aparapi.test.If_IfElse_Else_IfElse_.run",,,,5,22,0
+Public Class,"com.syncleus.aparapi.test.If_If_Else",1,0,0,3,14,11
+Public Method,"com.syncleus.aparapi.test.If_If_Else.run",,,,3,12,0
+Public Class,"com.syncleus.aparapi.test.If_If_Else2",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.If_If_Else2.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.If_If_Else_If_",1,0,0,4,16,12
+Public Method,"com.syncleus.aparapi.test.If_If_Else_If_.run",,,,4,14,0
+Public Class,"com.syncleus.aparapi.test.If_OrOr_And",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.If_OrOr_And.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.If_While_Else",0,0,0,3,12,0
+Public Method,"com.syncleus.aparapi.test.If_While_Else.run",,,,3,10,0
+Public Class,"com.syncleus.aparapi.test.If_While_Else_While",0,0,0,4,14,0
+Public Method,"com.syncleus.aparapi.test.If_While_Else_While.run",,,,4,12,0
+Public Class,"com.syncleus.aparapi.test.ImplementsInterface",1,50,25,2,11,0
+Public Method,"com.syncleus.aparapi.test.ImplementsInterface.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ImplementsInterface.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.IncArrayArgContent",0,50,50,2,9,0
+Public Method,"com.syncleus.aparapi.test.IncArrayArgContent.incit",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.IncArrayArgContent.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.IncField",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.IncField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.IndirectRecursion",1,66,66,4,16,0
+Method,"com.syncleus.aparapi.test.IndirectRecursion.bar",,,,1,3,0
+Method,"com.syncleus.aparapi.test.IndirectRecursion.foo",,,,2,6,0
+Public Method,"com.syncleus.aparapi.test.IndirectRecursion.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.Interface",2,0,0,1,15,0
+Public Interface,"com.syncleus.aparapi.test.Interface.Operator",0,0,0,0,3,0
+Public Abstract Method,"com.syncleus.aparapi.test.Interface.Operator.operate",,,,0,1,0
+Public Class,"com.syncleus.aparapi.test.Interface.SimpleAdder",0,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.test.Interface.SimpleAdder.operate",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.Interface.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.LongCompare",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.LongCompare.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.LongCompares",1,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.LongCompares.run",,,,2,8,0
+Public Class,"com.syncleus.aparapi.test.Loops",0,0,0,3,11,0
+Public Method,"com.syncleus.aparapi.test.Loops.run",,,,3,9,0
+Public Class,"com.syncleus.aparapi.test.MathAbs",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.MathAbs.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.MathDegRad",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.MathDegRad.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.MathFallThru",1,0,0,1,11,0
+Public Method,"com.syncleus.aparapi.test.MathFallThru.run",,,,1,7,0
+Public Class,"com.syncleus.aparapi.test.MathMax",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.MathMax.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.MathMin",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.MathMin.run",,,,2,9,0
+Public Class,"com.syncleus.aparapi.test.MathRemainder",1,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.MathRemainder.run",,,,2,7,0
+Public Class,"com.syncleus.aparapi.test.MultiContinue",1,0,0,6,21,0
+Public Method,"com.syncleus.aparapi.test.MultiContinue.run",,,,6,19,0
+Public Class,"com.syncleus.aparapi.test.MultipleAssign",1,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.MultipleAssign.run",,,,1,6,0
+Public Class,"com.syncleus.aparapi.test.MultipleAssignExpr",1,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.MultipleAssignExpr.run",,,,1,6,0
+Method,"com.syncleus.aparapi.test.MultipleAssignExpr.sum",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.NaN",1,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.test.NaN.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.NewLocalArray",1,100,100,2,9,0
+Public Method,"com.syncleus.aparapi.test.NewLocalArray.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.NonNullCheck",0,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.NonNullCheck.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.NullCheck",0,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.NullCheck.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy",1,50,50,3,46,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyOOA",0,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyOOA.funnyCall",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyOOA.funnyGet",,,,1,5,0
+Static Class,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyParent",0,25,25,4,17,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyParent.DummyParent",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyParent.call2",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyParent.getIntField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.DummyParent.setIntField",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.ObjectArrayCallHierarchy",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCallHierarchy.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayCommonSuper",3,0,0,2,35,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummyBrother",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummyBrother.getBrosInt",,,,1,3,0
+Static Class,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummyParent",0,0,0,2,9,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummyParent.DummyParent",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummyParent.getIntField",,,,1,3,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummySister",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.DummySister.getSisInt",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.ObjectArrayCommonSuper",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayCommonSuper.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberAccess",1,68,68,4,42,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA",0,40,40,5,20,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA.DummyOOA",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA.getFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA.getMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA.setFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.DummyOOA.setMem",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.ObjectArrayMemberAccess",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.getSomething",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberAccess.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter",1,25,25,2,23,1
+Final Class,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter.DummyOOA",0,66,66,2,11,1
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter.DummyOOA.getFloatField",,,,1,3,1
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter.DummyOOA.setFloatField",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter.ObjectArrayMemberBadGetter",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadGetter.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter",1,25,25,2,23,0
+Final Class,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter.DummyOOA",0,66,66,2,11,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter.DummyOOA.getFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter.DummyOOA.setFloatField",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter.ObjectArrayMemberBadSetter",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberBadSetter.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberCall",1,68,68,4,44,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA",0,33,16,6,21,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.DummyOOA",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.addEmUp",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.addEmUpPlusOne",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.addToMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.getMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.DummyOOA.setMem",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberCall.ObjectArrayMemberCall",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.getSomething",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberCall.run",,,,1,6,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberGetterSetter",2,60,55,4,31,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberGetterSetter.ObjectArrayMemberGetterSetter",,,,1,7,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberGetterSetter.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberGetterSetter.getSomething",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberGetterSetter.run",,,,1,11,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy",2,50,37,4,45,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyOOA",0,0,0,2,9,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyOOA.getFloatField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyOOA.setFloatField",,,,1,3,0
+Static Class,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyParent",0,25,0,4,15,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyParent.DummyParent",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyParent.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyParent.getIntField",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.DummyParent.setIntField",,,,1,3,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.ObjectArrayMemberHierarchy",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.getSomething",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberHierarchy.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.ObjectArrayMemberNotFinal",1,68,68,4,22,0
+Public Constructor,"com.syncleus.aparapi.test.ObjectArrayMemberNotFinal.ObjectArrayMemberNotFinal",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberNotFinal.bar",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberNotFinal.getSomething",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ObjectArrayMemberNotFinal.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.ObjectRefCopy",1,50,50,1,12,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectRefCopy.DummyOOA",0,0,0,0,4,0
+Public Method,"com.syncleus.aparapi.test.ObjectRefCopy.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.ObjectWithinObject",1,50,50,1,13,0
+Static Final Class,"com.syncleus.aparapi.test.ObjectWithinObject.DummyOOA",0,0,0,0,5,0
+Public Method,"com.syncleus.aparapi.test.ObjectWithinObject.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.OrAndOrPrecedence",1,0,0,2,12,0
+Public Method,"com.syncleus.aparapi.test.OrAndOrPrecedence.run",,,,2,10,0
+Public Class,"com.syncleus.aparapi.test.OverloadMethod",0,66,66,3,12,0
+Method,"com.syncleus.aparapi.test.OverloadMethod.foo",,,,1,3,0
+Method,"com.syncleus.aparapi.test.OverloadMethod.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.OverloadMethod.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.OverriddenKernelField",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.OverriddenKernelField.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.OverriddenKernelField.run",,,,1,3,0
+Class,"com.syncleus.aparapi.test.OverriddenKernelFieldParent",0,0,0,2,10,0
+Method,"com.syncleus.aparapi.test.OverriddenKernelFieldParent.foo",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.OverriddenKernelFieldParent.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PlayPen",1,0,0,4,16,0
+Public Method,"com.syncleus.aparapi.test.PlayPen.run",,,,4,14,0
+Public Class,"com.syncleus.aparapi.test.PostDecArrayItem",0,50,50,2,11,0
+Method,"com.syncleus.aparapi.test.PostDecArrayItem.actuallyDoIt",,,,1,2,0
+Public Method,"com.syncleus.aparapi.test.PostDecArrayItem.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostDecByte",1,0,0,2,9,4
+Method,"com.syncleus.aparapi.test.PostDecByte.incByte",,,,1,3,4
+Public Method,"com.syncleus.aparapi.test.PostDecByte.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostDecLocal",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.PostDecLocal.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.PostDecPostInc",1,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.PostDecPostInc.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.PostIncArrayIndexAndElement",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.PostIncArrayIndexAndElement.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostIncArrayItem",0,50,50,2,11,0
+Method,"com.syncleus.aparapi.test.PostIncArrayItem.actuallyDoIt",,,,1,2,0
+Public Method,"com.syncleus.aparapi.test.PostIncArrayItem.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostIncArrayItemAsParameter",0,66,66,2,12,0
+Method,"com.syncleus.aparapi.test.PostIncArrayItemAsParameter.actuallyDoIt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PostIncArrayItemAsParameter.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PostIncArrayItemFieldIndex",0,0,0,1,9,0
+Public Method,"com.syncleus.aparapi.test.PostIncArrayItemFieldIndex.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PostIncByte",1,0,0,2,9,4
+Method,"com.syncleus.aparapi.test.PostIncByte.incByte",,,,1,3,4
+Public Method,"com.syncleus.aparapi.test.PostIncByte.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostIncByteField",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.PostIncByteField.incByte",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PostIncByteField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PostIncInt",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.PostIncInt.foo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PostIncInt.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostIncIntField",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.PostIncIntField.incInt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PostIncIntField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PostIncLocal",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.PostIncLocal.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.PostIncLocalStandalone",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.PostIncLocalStandalone.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PostIncLocalTwice",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.PostIncLocalTwice.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.PreDecArrayIndexAndElement",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.PreDecArrayIndexAndElement.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreDecArrayItem",0,0,0,1,9,0
+Public Method,"com.syncleus.aparapi.test.PreDecArrayItem.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreDecPostInc",1,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.PreDecPostInc.run",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.PreIncArrayIndexAndElement",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.PreIncArrayIndexAndElement.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreIncArrayItem",0,0,0,1,9,0
+Public Method,"com.syncleus.aparapi.test.PreIncArrayItem.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreIncByte",1,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.PreIncByte.preIncByte",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PreIncByte.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreIncByteField",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.PreIncByteField.incByte",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PreIncByteField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PreIncInt",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.PreIncInt.preIncInt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PreIncInt.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreIncIntField",0,50,50,2,9,0
+Method,"com.syncleus.aparapi.test.PreIncIntField.preIncInt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.PreIncIntField.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.PreIncLocal",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.PreIncLocal.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.PreIncLocalStandalone",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.PreIncLocalStandalone.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.PreIncLocalTwice",1,0,0,2,8,0
+Public Method,"com.syncleus.aparapi.test.PreIncLocalTwice.run",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.ReturnBooleanNewArray",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnBooleanNewArray.returnBooleanNewArray",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnBooleanNewArray.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnBooleanVarArray",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnBooleanVarArray.returnBooleanVarArray",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnBooleanVarArray.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnByteArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnByteArrayNew.returnByteArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnByteArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnByteArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnByteArrayVar.returnByteArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnByteArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnDoubleArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnDoubleArrayNew.returnDoubleArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnDoubleArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnDoubleArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnDoubleArrayVar.returnDoubleArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnDoubleArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnFloatArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnFloatArrayNew.returnFloatArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnFloatArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnFloatArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnFloatArrayVar.returnFloatArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnFloatArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnIntArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnIntArrayNew.returnIntArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnIntArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnIntArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnIntArrayVar.returnIntArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnIntArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnLongArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnLongArrayNew.returnLongArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnLongArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnLongArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnLongArrayVar.returnLongArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnLongArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnPostIncInt",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnPostIncInt.returnPostIncInt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnPostIncInt.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnPreIncInt",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnPreIncInt.returnPreIncInt",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnPreIncInt.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnShortArrayNew",0,0,0,2,8,0
+Method,"com.syncleus.aparapi.test.ReturnShortArrayNew.returnShortArrayNew",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.ReturnShortArrayNew.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.ReturnShortArrayVar",0,0,0,2,9,0
+Method,"com.syncleus.aparapi.test.ReturnShortArrayVar.returnShortArrayVar",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.ReturnShortArrayVar.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.RightShifts",0,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.RightShifts.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.Sequence",1,0,0,1,5,0
+Public Method,"com.syncleus.aparapi.test.Sequence.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.StaticFieldStore",0,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.StaticFieldStore.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.StaticMethodCall",0,50,50,2,9,0
+Public Static Method,"com.syncleus.aparapi.test.StaticMethodCall.add",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.StaticMethodCall.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.SynchronizedMethods",0,66,66,5,21,0
+Method,"com.syncleus.aparapi.test.SynchronizedMethods.doIt",,,,1,3,0
+Method,"com.syncleus.aparapi.test.SynchronizedMethods.doIt2",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.SynchronizedMethods.run",,,,3,12,0
+Public Class,"com.syncleus.aparapi.test.Ternary",1,0,0,3,9,0
+Method,"com.syncleus.aparapi.test.Ternary.random",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.Ternary.run",,,,2,4,0
+Public Class,"com.syncleus.aparapi.test.TernaryAnd",1,0,0,3,8,0
+Method,"com.syncleus.aparapi.test.TernaryAnd.random",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.TernaryAnd.run",,,,2,3,0
+Public Class,"com.syncleus.aparapi.test.TernaryAndOr",1,0,0,3,8,0
+Method,"com.syncleus.aparapi.test.TernaryAndOr.random",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.TernaryAndOr.run",,,,2,3,0
+Public Class,"com.syncleus.aparapi.test.TernaryNested",1,0,0,4,6,0
+Public Method,"com.syncleus.aparapi.test.TernaryNested.run",,,,4,4,0
+Public Class,"com.syncleus.aparapi.test.TernaryOr",1,0,0,3,8,0
+Method,"com.syncleus.aparapi.test.TernaryOr.random",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.TernaryOr.run",,,,2,3,0
+Final Class,"com.syncleus.aparapi.test.TheOtherOne",0,0,0,3,12,0
+Public Constructor,"com.syncleus.aparapi.test.TheOtherOne.TheOtherOne",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.TheOtherOne.getMem",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.TheOtherOne.setMem",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.TwoForLoops",0,0,0,3,13,0
+Public Method,"com.syncleus.aparapi.test.TwoForLoops.run",,,,3,9,0
+Public Class,"com.syncleus.aparapi.test.UnrelatedIfElsesWithCommonEndByte",1,100,100,4,23,16
+Public Method,"com.syncleus.aparapi.test.UnrelatedIfElsesWithCommonEndByte.run",,,,4,18,0
+Public Class,"com.syncleus.aparapi.test.UnrelatedIfsWithCommonEndByte",1,100,100,5,23,3
+Public Method,"com.syncleus.aparapi.test.UnrelatedIfsWithCommonEndByte.run",,,,5,18,3
+Public Class,"com.syncleus.aparapi.test.UnrelatedNestedIfElses",1,100,100,4,24,0
+Public Method,"com.syncleus.aparapi.test.UnrelatedNestedIfElses.run",,,,4,19,0
+Public Class,"com.syncleus.aparapi.test.UseObject",1,0,0,1,12,0
+Class,"com.syncleus.aparapi.test.UseObject.Dummy",0,0,0,0,3,0
+Public Method,"com.syncleus.aparapi.test.UseObject.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.UseObjectArrayLength",1,0,0,1,10,0
+Final Class,"com.syncleus.aparapi.test.UseObjectArrayLength.Dummy",0,0,0,0,3,0
+Public Method,"com.syncleus.aparapi.test.UseObjectArrayLength.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.UsesArrayLength",1,16,16,2,17,7
+Method,"com.syncleus.aparapi.test.UsesArrayLength.actuallyDoIt",,,,1,6,3
+Public Method,"com.syncleus.aparapi.test.UsesArrayLength.run",,,,1,6,4
+Public Class,"com.syncleus.aparapi.test.UsesNew",1,0,0,1,7,0
+Public Method,"com.syncleus.aparapi.test.UsesNew.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.UsesThrow",2,50,50,6,20,1
+Method,"com.syncleus.aparapi.test.UsesThrow.doIt",,,,2,6,0
+Public Method,"com.syncleus.aparapi.test.UsesThrow.run",,,,4,11,1
+Public Class,"com.syncleus.aparapi.test.VarargsForEach",1,50,50,5,17,0
+Public Static Method,"com.syncleus.aparapi.test.VarargsForEach.max",,,,4,11,0
+Public Method,"com.syncleus.aparapi.test.VarargsForEach.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.VarargsSimple",1,50,50,5,17,0
+Public Static Method,"com.syncleus.aparapi.test.VarargsSimple.max",,,,4,11,0
+Public Method,"com.syncleus.aparapi.test.VarargsSimple.run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.While",1,0,0,2,10,0
+Public Method,"com.syncleus.aparapi.test.While.run",,,,2,8,0
+Public Class,"com.syncleus.aparapi.test.WhileAndMandel",1,0,0,2,28,0
+Public Method,"com.syncleus.aparapi.test.WhileAndMandel.run",,,,2,23,0
+Public Class,"com.syncleus.aparapi.test.WhileEmptyLoop",0,0,0,2,7,0
+Public Method,"com.syncleus.aparapi.test.WhileEmptyLoop.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.WhileFloatCompound",0,0,0,3,13,0
+Public Method,"com.syncleus.aparapi.test.WhileFloatCompound.randomFunc",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.WhileFloatCompound.run",,,,2,8,0
+Public Class,"com.syncleus.aparapi.test.WhileIf",0,0,0,3,13,1
+Public Method,"com.syncleus.aparapi.test.WhileIf.run",,,,3,11,1
+Public Class,"com.syncleus.aparapi.test.WhileIfElse",0,0,0,3,15,0
+Public Method,"com.syncleus.aparapi.test.WhileIfElse.run",,,,3,13,0
+Public Class,"com.syncleus.aparapi.test.WhileWithoutMutator",0,0,0,2,7,0
+Public Method,"com.syncleus.aparapi.test.WhileWithoutMutator.run",,,,2,5,0
+Public Class,"com.syncleus.aparapi.test.While_If_IfElseElse",0,0,0,9,46,0
+Public Method,"com.syncleus.aparapi.test.While_If_IfElseElse.run",,,,9,44,0
+Public Class,"com.syncleus.aparapi.test.WideInc",0,0,0,1,6,0
+Public Method,"com.syncleus.aparapi.test.WideInc.run",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.WideLoad",0,0,0,1,262,3
+Public Method,"com.syncleus.aparapi.test.WideLoad.run",,,,1,260,3
+Package,"com.syncleus.aparapi.test.runtime",,,,130,1109,316
+Class,"com.syncleus.aparapi.test.runtime.AnotherClass",0,0,0,1,5,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.AnotherClass.foo",,,,1,3,0
+Abstract Class,"com.syncleus.aparapi.test.runtime.ArrayAccess",0,33,33,3,15,0
+Protected Constructor,"com.syncleus.aparapi.test.runtime.ArrayAccess.ArrayAccess",,,,1,4,0
+Public Abstract Method,"com.syncleus.aparapi.test.runtime.ArrayAccess.getIntData",,,,0,1,0
+Public Method,"com.syncleus.aparapi.test.runtime.ArrayAccess.getLength",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.runtime.ArrayAccess.getOffset",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.runtime.BufferTransfer",10,33,33,7,157,0
+Public Static Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.AddKernel",1,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.AddKernel.run",,,,1,4,0
+Public Static Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.InOutKernel",1,0,0,1,8,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.InOutKernel.run",,,,1,4,0
+Private Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.TestKernel",5,16,16,7,40,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.TestKernel.run",,,,2,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.TestKernel.step",,,,5,14,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto",,,,1,31,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_2)",0,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_2).fill",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_3)",1,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_3).apply",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_4)",1,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.auto.(Anon_4).apply",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit",,,,1,37,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_5)",0,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_5).fill",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_6)",1,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_6).apply",,,,1,3,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_7)",1,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.explicit.(Anon_7).apply",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.inOutOnce",,,,1,14,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.BufferTransfer.inOutOnce.(Anon_1)",0,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.inOutOnce.(Anon_1).fill",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.issue60Auto",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.issue60Explicit",,,,1,5,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.BufferTransfer.setUpBeforeClass",,,,2,7,0
+Final Class,"com.syncleus.aparapi.test.runtime.BugDataObject",0,0,0,2,11,0
+Public Method,"com.syncleus.aparapi.test.runtime.BugDataObject.getValue",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.BugDataObject.setValue",,,,1,4,0
+Public Class,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel",3,0,0,5,32,5
+Public Static Method,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.fooBar",,,,1,3,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.main",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.test",,,,3,22,3
+Anonymous Class,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.test.(Anon_1)",3,0,0,2,8,3
+Public Method,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.test.(Anon_1).doodoo",,,,1,3,0
+Public Method,"com.syncleus.aparapi.test.runtime.CallStaticFromAnonymousKernel.test.(Anon_1).run",,,,1,4,2
+Public Class,"com.syncleus.aparapi.test.runtime.ExplicitBoolean",6,0,0,8,49,2
+Class,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.ExplicitBooleanTestKernel",1,33,33,3,21,2
+Public Constructor,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.ExplicitBooleanTestKernel.ExplicitBooleanTestKernel",,,,1,7,0
+Public Method,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.ExplicitBooleanTestKernel.go",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.ExplicitBooleanTestKernel.run",,,,1,4,0
+Private Static Method,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.printArray",,,,3,6,0
+Public Method,"com.syncleus.aparapi.test.runtime.ExplicitBoolean.test",,,,5,20,0
+Class,"com.syncleus.aparapi.test.runtime.IntMemoryArrayAccess",1,0,0,2,10,0
+Public Constructor,"com.syncleus.aparapi.test.runtime.IntMemoryArrayAccess.IntMemoryArrayAccess",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.IntMemoryArrayAccess.getIntData",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.runtime.Issue102",6,40,0,7,30,0
+Public Constructor,"com.syncleus.aparapi.test.runtime.Issue102.Issue102",,,,2,6,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.Issue102.main",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue102.run",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue102.test",,,,1,4,0
+Method,"com.syncleus.aparapi.test.runtime.Issue102.validate",,,,2,6,0
+Public Class,"com.syncleus.aparapi.test.runtime.Issue103",3,40,0,6,27,4
+Public Constructor,"com.syncleus.aparapi.test.runtime.Issue103.Issue103",,,,2,6,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.Issue103.main",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue103.run",,,,1,5,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue103.test",,,,1,4,0
+Method,"com.syncleus.aparapi.test.runtime.Issue103.validate",,,,1,3,4
+Public Class,"com.syncleus.aparapi.test.runtime.Issue68",4,0,0,3,138,11
+Private Class,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable",3,67,46,25,122,10
+Public Constructor,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.ColumnTableFNTRunnable",,,,2,12,1
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.columnScramble",,,,2,8,0
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.columnTableFNT",,,,6,34,4
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.inverseColumnTableFNT",,,,6,33,4
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.modAdd",,,,2,4,0
+Public Final Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.modMultiply",,,,2,4,0
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.modSubtract",,,,2,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.run",,,,2,7,0
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.ColumnTableFNTRunnable.setModulus",,,,1,4,1
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.getModulus",,,,1,3,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.Issue68.main",,,,1,6,0
+Private Method,"com.syncleus.aparapi.test.runtime.Issue68.transformColumns",,,,1,5,0
+Public Class,"com.syncleus.aparapi.test.runtime.Issue69",4,0,0,7,26,0
+Public Static Method,"com.syncleus.aparapi.test.runtime.Issue69.main",,,,7,24,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.Issue69.main.(Anon_1)",2,0,0,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.Issue69.main.(Anon_1).run",,,,1,3,0
+Public Class,"com.syncleus.aparapi.test.runtime.LoadCL",5,0,0,5,31,3
+Interface,"com.syncleus.aparapi.test.runtime.LoadCL.Squarer",2,0,0,0,6,3
+Public Abstract Method,"com.syncleus.aparapi.test.runtime.LoadCL.Squarer.square",,,,0,4,3
+Public Method,"com.syncleus.aparapi.test.runtime.LoadCL.test",,,,5,23,0
+Public Class,"com.syncleus.aparapi.test.runtime.RangeSize",3,0,0,2,16,0
+Public Method,"com.syncleus.aparapi.test.runtime.RangeSize.test384x320",,,,1,7,0
+Public Method,"com.syncleus.aparapi.test.runtime.RangeSize.test384x384",,,,1,7,0
+Public Class,"com.syncleus.aparapi.test.runtime.Test12x4_4x2",2,0,0,1,442,288
+Public Method,"com.syncleus.aparapi.test.runtime.Test12x4_4x2.test",,,,1,440,288
+Anonymous Class,"com.syncleus.aparapi.test.runtime.Test12x4_4x2.test.(Anon_1)",5,0,0,9,49,0
+Public Method,"com.syncleus.aparapi.test.runtime.Test12x4_4x2.test.(Anon_1).isAllowDevice",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.Test12x4_4x2.test.(Anon_1).run",,,,8,44,0
+Public Class,"com.syncleus.aparapi.test.runtime.UseStaticArray",3,0,0,4,22,3
+Public Static Method,"com.syncleus.aparapi.test.runtime.UseStaticArray.main",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.UseStaticArray.run",,,,1,4,0
+Public Method,"com.syncleus.aparapi.test.runtime.UseStaticArray.test",,,,2,9,3
+Public Class,"com.syncleus.aparapi.test.runtime.Util",4,0,0,10,45,0
+Interface,"com.syncleus.aparapi.test.runtime.Util.Comparer",0,0,0,0,3,0
+Abstract Method,"com.syncleus.aparapi.test.runtime.Util.Comparer.same",,,,0,1,0
+Interface,"com.syncleus.aparapi.test.runtime.Util.Filler",0,0,0,0,3,0
+Abstract Method,"com.syncleus.aparapi.test.runtime.Util.Filler.fill",,,,0,1,0
+Interface,"com.syncleus.aparapi.test.runtime.Util.Operator",0,0,0,0,3,0
+Abstract Method,"com.syncleus.aparapi.test.runtime.Util.Operator.apply",,,,0,1,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.apply",,,,2,5,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.fill",,,,2,5,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.same",,,,2,7,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.same",,,,1,7,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.same",,,,2,7,0
+Anonymous Class,"com.syncleus.aparapi.test.runtime.Util.same.(Anon_1)",1,0,0,1,0,0
+Public Method,"com.syncleus.aparapi.test.runtime.Util.same.(Anon_1).same",,,,1,0,0
+Static Method,"com.syncleus.aparapi.test.runtime.Util.zero",,,,1,3,0
+Package,"gov",,,,0,0,0
+Package,"gov.pnnl",,,,0,0,0
+Package,"gov.pnnl.aparapi",,,,0,0,0
+Package,"gov.pnnl.aparapi.matrix",,,,60,365,153
+Public Class,"gov.pnnl.aparapi.matrix.CorrMatrixHost",12,0,0,48,208,90
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.executeKernel",,,,5,24,14
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.humanReadableByteCount",,,,5,9,9
+Public Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.intersectionMatrix",,,,36,166,34
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.isPowerOfTwo",,,,1,3,9
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.roundToMultiple",,,,1,3,7
+Public Class,"gov.pnnl.aparapi.matrix.CorrMatrixKernel",1,60,60,12,148,63
+Public Constructor,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.CorrMatrixKernel",,,,1,9,3
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.naive_pop_intersect",,,,2,7,3
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.pop",,,,1,9,21
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.pop_intersect",,,,5,105,17
+Public Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.run",,,,3,10,2
+Package,"gov.pnnl.aparapi.sample",,,,0,0,0
+Package,"gov.pnnl.aparapi.sample.mdarray",,,,330,1580,0
+Class,"gov.pnnl.aparapi.sample.mdarray.BMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.BMatMul1D.BMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.BMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.BMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.BMatMul2D.BMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.BMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.BMatMul3D",1,0,0,3,24,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.BMatMul3D.BMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.BMatMul3D.run",,,,2,12,0
+Class,"gov.pnnl.aparapi.sample.mdarray.DMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.DMatMul1D.DMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.DMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.DMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.DMatMul2D.DMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.DMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.DMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.DMatMul3D.DMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.DMatMul3D.run",,,,2,9,0
+Class,"gov.pnnl.aparapi.sample.mdarray.FMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.FMatMul1D.FMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.FMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.FMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.FMatMul2D.FMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.FMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.FMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.FMatMul3D.FMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.FMatMul3D.run",,,,2,9,0
+Class,"gov.pnnl.aparapi.sample.mdarray.IMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.IMatMul1D.IMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.IMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.IMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.IMatMul2D.IMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.IMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.IMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.IMatMul3D.IMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.IMatMul3D.run",,,,2,9,0
+Class,"gov.pnnl.aparapi.sample.mdarray.LMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.LMatMul1D.LMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.LMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.LMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.LMatMul2D.LMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.LMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.LMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.LMatMul3D.LMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.LMatMul3D.run",,,,2,9,0
+Class,"gov.pnnl.aparapi.sample.mdarray.MDArray",24,83,82,267,1106,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Brun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Brun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Brun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Drun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Drun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Drun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Frun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Frun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Frun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Irun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Irun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Irun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Lrun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Lrun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Lrun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Srun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Srun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Srun3D",,,,5,30,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Zrun1D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Zrun2D",,,,4,28,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.Zrun3D",,,,5,31,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.checkResults",,,,5,12,0
+Public Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.main",,,,1,44,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"gov.pnnl.aparapi.sample.mdarray.MDArray.matMull",,,,5,13,0
+Class,"gov.pnnl.aparapi.sample.mdarray.SMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.SMatMul1D.SMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.SMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.SMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.SMatMul2D.SMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.SMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.SMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.SMatMul3D.SMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.SMatMul3D.run",,,,2,9,0
+Class,"gov.pnnl.aparapi.sample.mdarray.ZMatMul1D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.ZMatMul1D.ZMatMul1D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.ZMatMul1D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.ZMatMul2D",1,0,0,3,20,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.ZMatMul2D.ZMatMul2D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.ZMatMul2D.run",,,,2,8,0
+Class,"gov.pnnl.aparapi.sample.mdarray.ZMatMul3D",1,0,0,3,21,0
+Public Constructor,"gov.pnnl.aparapi.sample.mdarray.ZMatMul3D.ZMatMul3D",,,,1,6,0
+Public Method,"gov.pnnl.aparapi.sample.mdarray.ZMatMul3D.run",,,,2,9,0
+Package,"gov.pnnl.aparapi.test",,,,14,95,45
+Public Class,"gov.pnnl.aparapi.test.CorrMatrixTest",20,16,16,14,79,45
+Public Method,"gov.pnnl.aparapi.test.CorrMatrixTest.setup",,,,5,29,15
+Public Method,"gov.pnnl.aparapi.test.CorrMatrixTest.testCorrelationMatrix",,,,9,44,11

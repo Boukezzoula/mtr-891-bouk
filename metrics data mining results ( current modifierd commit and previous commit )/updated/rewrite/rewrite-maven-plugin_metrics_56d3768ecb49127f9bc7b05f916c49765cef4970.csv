@@ -1,0 +1,125 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,11,76,32
+File,"AbstractRewriteMojo.java",,,,16,138,1
+File,"AbstractRewriteMojoTest.java",,,,0,8,27
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"MavenLoggingMeterRegistry.java",,,,44,180,16
+File,"MavenProfileConfiguration.java",,,,8,38,0
+File,"MavenProfileProperty.java",,,,0,10,0
+Public Class,"MavenWrapperDownloader",17,0,0,10,72,17
+Private Static Method,"MavenWrapperDownloader.downloadFileFromURL",,,,2,19,0
+Anonymous Class,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1)",3,0,0,1,5,0
+Protected Method,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1).getPasswordAuthentication",,,,1,4,0
+File,"MavenWrapperDownloader.java",,,,11,76,32
+Public Static Method,"MavenWrapperDownloader.main",,,,8,43,3
+File,"MeterRegistryProvider.java",,,,21,98,2
+File,"RewriteDiffMojo.java",,,,6,45,16
+File,"RewriteFixMojo.java",,,,6,37,18
+File,"RewriteWarnMojo.java",,,,4,27,15
+File,"RewriteWarnMojoTest.java",,,,5,87,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+Package,"org",,,,0,0,0
+Package,"org.openrewrite",,,,0,0,0
+Package,"org.openrewrite.maven",,,,110,668,95
+Public Abstract Class,"org.openrewrite.maven.AbstractRewriteMojo",32,66,58,16,106,1
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.listChanges",,,,6,52,1
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listChanges.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listChanges.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listChanges.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listChanges.(lambda_expr_4)",,,,1,2,0
+Private Method,"org.openrewrite.maven.AbstractRewriteMojo.listJavaSources",,,,4,14,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listJavaSources.(lambda_expr_1)",,,,1,1,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.plan",,,,6,22,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.plan.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.plan.(lambda_expr_2)",,,,1,1,0
+Class,"org.openrewrite.maven.AbstractRewriteMojoTest",0,0,0,0,2,27
+Public Class,"org.openrewrite.maven.MavenLoggingMeterRegistry",33,92,92,23,160,1
+Public Constructor,"org.openrewrite.maven.MavenLoggingMeterRegistry.MavenLoggingMeterRegistry",,,,1,4,0
+Class,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer",10,62,37,12,37,1
+Constructor,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.Printer",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.count",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.humanReadableBaseUnit",,,,3,7,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.humanReadableByteCount",,,,2,7,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.id",,,,2,5,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.id.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.time",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.unitlessCount",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.value",,,,1,3,0
+Public Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close",,,,4,54,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_1)",,,,2,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2)",,,,10,44,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_10)",,,,1,5,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_11)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_4)",,,,1,4,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_5)",,,,1,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_6)",,,,1,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_7)",,,,1,6,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_8)",,,,1,4,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_9)",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.defaultHistogramConfig",,,,1,7,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.getBaseTimeUnit",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newCounter",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newDistributionSummary",,,,1,4,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionCounter",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionCounter.T",0,0,0,0,0,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionTimer",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionTimer.T",0,0,0,0,0,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newGauge",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newGauge.T",0,0,0,0,0,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newLongTaskTimer",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newMeter",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newTimer",,,,1,4,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.writeMeter",,,,8,20,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.writeMeter.(lambda_expr_1)",,,,7,16,0
+Public Class,"org.openrewrite.maven.MavenProfileConfiguration",8,0,0,8,32,0
+Public Method,"org.openrewrite.maven.MavenProfileConfiguration.toProfileConfiguration",,,,8,20,0
+Lambda Method,"org.openrewrite.maven.MavenProfileConfiguration.toProfileConfiguration.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenProfileConfiguration.toProfileConfiguration.(lambda_expr_2)",,,,1,1,0
+Public Class,"org.openrewrite.maven.MavenProfileProperty",2,0,0,0,8,0
+Public Class,"org.openrewrite.maven.MeterRegistryProvider",23,60,36,21,80,2
+Public Constructor,"org.openrewrite.maven.MeterRegistryProvider.MeterRegistryProvider",,,,1,6,0
+Private Method,"org.openrewrite.maven.MeterRegistryProvider.buildRegistry",,,,12,42,0
+Public Method,"org.openrewrite.maven.MeterRegistryProvider.close",,,,4,12,2
+Private Method,"org.openrewrite.maven.MeterRegistryProvider.getWebsocketClientTransport",,,,3,8,0
+Lambda Method,"org.openrewrite.maven.MeterRegistryProvider.getWebsocketClientTransport.(lambda_expr_1)",,,,1,2,0
+Public Method,"org.openrewrite.maven.MeterRegistryProvider.registry",,,,1,4,0
+Public Class,"org.openrewrite.maven.RewriteDiffMojo",16,0,0,6,33,1
+Public Method,"org.openrewrite.maven.RewriteDiffMojo.execute",,,,6,25,1
+Public Class,"org.openrewrite.maven.RewriteFixMojo",10,0,0,6,29,0
+Public Method,"org.openrewrite.maven.RewriteFixMojo.execute",,,,6,25,0
+Public Class,"org.openrewrite.maven.RewriteWarnMojo",7,0,0,4,19,0
+Public Method,"org.openrewrite.maven.RewriteWarnMojo.execute",,,,4,15,0
+Class,"org.openrewrite.maven.RewriteWarnMojoTest",35,33,33,5,61,0
+Method,"org.openrewrite.maven.RewriteWarnMojoTest.checkstyle",,,,1,6,0
+Private Method,"org.openrewrite.maven.RewriteWarnMojoTest.getMavenSettings",,,,1,6,0
+Public Method,"org.openrewrite.maven.RewriteWarnMojoTest.setUp",,,,3,45,0
+Package,"sample",,,,48,147,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,27,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,27,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,27,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0

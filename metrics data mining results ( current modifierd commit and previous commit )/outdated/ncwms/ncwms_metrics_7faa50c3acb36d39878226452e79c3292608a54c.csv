@@ -1,0 +1,145 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"NcwmsAdminServlet.java",,,,49,346,147
+File,"NcwmsApplicationServlet.java",,,,25,180,109
+File,"NcwmsCatalogue.java",,,,41,218,92
+File,"NcwmsConfig.java",,,,15,110,53
+File,"NcwmsConfigTest.java",,,,4,85,36
+File,"NcwmsContact.java",,,,11,68,27
+File,"NcwmsDynamicService.java",,,,19,88,25
+File,"NcwmsServerInfo.java",,,,25,147,28
+File,"NcwmsServlet.java",,,,17,93,99
+File,"SLDParserTester.java",,,,5,49,7
+File,"StandaloneAuthentication.java",,,,3,20,35
+File,"package-info.java",,,,0,1,32
+File,"package-info.java",,,,0,1,33
+Package,"uk",,,,0,0,0
+Package,"uk.ac",,,,0,0,0
+Package,"uk.ac.rdg",,,,0,0,0
+Package,"uk.ac.rdg.resc",,,,0,0,0
+Package,"uk.ac.rdg.resc.edal",,,,0,0,0
+Package,"uk.ac.rdg.resc.edal.ncwms",,,,135,858,514
+Public Class,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet",40,44,27,49,315,147
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.NcwmsAdminServlet",,,,1,3,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.displayEditVariablesPage",,,,3,20,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.displayMainAdminPage",,,,2,16,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.displayStatusPage",,,,3,19,0
+Protected Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.doGet",,,,4,17,12
+Protected Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.doPost",,,,3,15,15
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.init",,,,3,18,6
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.updateConfig",,,,22,159,66
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsAdminServlet.updateVariables",,,,8,42,14
+Public Class,"uk.ac.rdg.resc.edal.ncwms.NcwmsApplicationServlet",32,33,33,25,152,109
+Protected Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsApplicationServlet.doGet",,,,1,18,12
+Static Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsApplicationServlet.getVersion",,,,3,14,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsApplicationServlet.init",,,,21,114,59
+Public Class,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue",28,85,85,35,189,92
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.NcwmsCatalogue",,,,1,11,15
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getConfig",,,,1,3,4
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getContactInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getDatasetFromId",,,,8,38,24
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getDatasetTitle",,,,3,12,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getDynamicServiceFromLayerName",,,,4,13,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata",,,,3,42,7
+Anonymous Class,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1)",5,0,0,6,26,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getCopyright",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getDefaultPlottingParameters",,,,1,5,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getDescription",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getId",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getMoreInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerMetadata.(catch_2).(Anon_1).getTitle",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getLayerNameMapper",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getServerInfo",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getStyleCatalogue",,,,1,4,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.getXmlVariable",,,,2,10,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.isDisabled",,,,3,14,3
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.isDownloadable",,,,3,13,3
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsCatalogue.isQueryable",,,,3,13,3
+Public Class,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet",15,0,0,17,81,99
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet.NcwmsServlet",,,,1,3,3
+Private Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet.combineDatasetAndLayer",,,,2,7,20
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet.destroy",,,,1,5,0
+Protected Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet.dispatchWmsRequest",,,,10,44,40
+Public Method,"uk.ac.rdg.resc.edal.ncwms.NcwmsServlet.init",,,,3,19,3
+Public Class,"uk.ac.rdg.resc.edal.ncwms.StandaloneAuthentication",5,0,0,3,15,35
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.StandaloneAuthentication.StandaloneAuthentication",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.StandaloneAuthentication.authenticateByUsernamePassword",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.StandaloneAuthentication.retrieveUser",,,,1,4,0
+Package,"uk.ac.rdg.resc.edal.ncwms.config",,,,79,548,209
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig",28,69,58,15,89,53
+Private Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.NcwmsConfig",,,,1,3,0
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.NcwmsConfig",,,,1,4,0
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.NcwmsConfig",,,,1,7,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.addDynamicService",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.changeDynamicServiceId",,,,1,6,0
+Public Static Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.deserialise",,,,1,8,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.getContactInfo",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.getDynamicServices",,,,1,3,4
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.getServerInfo",,,,1,3,0
+Public Static Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.readFromFile",,,,2,15,6
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.removeDynamicService",,,,1,3,0
+Private Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.setDynamicServices",,,,2,8,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfig.toString",,,,1,13,0
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfigTest",20,25,25,4,71,36
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfigTest.setUp",,,,1,24,2
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfigTest.testDeserialise",,,,1,4,2
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfigTest.testInvalidLogSettings",,,,1,19,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsConfigTest.testSerialise",,,,1,6,0
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact",6,63,63,11,62,27
+Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.NcwmsContact",,,,1,2,0
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.NcwmsContact",,,,1,7,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.getEmail",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.getName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.getOrganisation",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.getTelephone",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.setEmail",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.setName",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.setOrganisation",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.setTelephone",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsContact.toString",,,,1,13,0
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService",6,88,88,19,81,25
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getAlias",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getCopyrightStatement",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getDataReaderClass",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getDatasetIdMatch",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getIdMatchPattern",,,,2,5,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getMoreInfo",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.getServicePath",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.isDisabled",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.isDownloadable",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.isQueryable",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setAlias",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setCopyrightStatement",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setDataReaderClass",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setDatasetIdMatch",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setDisabled",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setMoreInfo",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setQueryable",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsDynamicService.setServicePath",,,,1,3,0
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo",11,80,80,20,137,28
+Private Static Class,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.KeywordsAdapter",8,75,75,5,22,0
+Private Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.KeywordsAdapter.KeywordsAdapter",,,,1,1,0
+Public Static Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.KeywordsAdapter.getInstance",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.KeywordsAdapter.marshal",,,,2,9,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.KeywordsAdapter.unmarshal",,,,1,5,0
+Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.NcwmsServerInfo",,,,1,2,0
+Public Constructor,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.NcwmsServerInfo",,,,1,13,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.allowsFeatureInfo",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.allowsGlobalCapabilities",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getAbstract",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getKeywords",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getMaxImageHeight",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getMaxImageWidth",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getMaxSimultaneousLayers",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getName",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.getUrl",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setAllowFeatureInfo",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setAllowGlobalCapabilities",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setDescription",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setKeywords",,,,1,4,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setMaxImageHeight",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setMaxImageWidth",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setTitle",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.setUrl",,,,1,3,0
+Public Method,"uk.ac.rdg.resc.edal.ncwms.config.NcwmsServerInfo.toString",,,,1,21,0
+Public Class,"uk.ac.rdg.resc.edal.ncwms.config.SLDParserTester",22,0,0,5,35,7
+Public Static Method,"uk.ac.rdg.resc.edal.ncwms.config.SLDParserTester.main",,,,5,33,7

@@ -1,0 +1,912 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AESEncryptionUtils.java",,,,6,44,71
+File,"ActivationController.java",,,,18,133,60
+File,"ActivationController.java",,,,5,86,40
+File,"ActivationCreateRequest.java",,,,14,52,77
+File,"ActivationCreateResponse.java",,,,10,38,61
+File,"ActivationRecordEntity.java",,,,61,313,199
+File,"ActivationRemoveRequest.java",,,,0,3,21
+File,"ActivationRemoveResponse.java",,,,2,10,29
+File,"ActivationRepository.java",,,,0,15,46
+File,"ActivationServiceBehavior.java",,,,40,381,136
+File,"ActivationStatus.java",,,,2,16,55
+File,"ActivationStatusBlobInfo.java",,,,10,38,63
+File,"ActivationStatusConverter.java",,,,6,27,21
+File,"ActivationStatusRequest.java",,,,2,10,29
+File,"ActivationStatusResponse.java",,,,6,25,45
+File,"Application.java",,,,14,160,36
+File,"Application.java",,,,1,9,25
+File,"ApplicationConfiguration.java",,,,2,15,20
+File,"ApplicationController.java",,,,9,69,50
+File,"ApplicationEntity.java",,,,6,40,31
+File,"ApplicationRepository.java",,,,0,5,6
+File,"ApplicationServiceBehavior.java",,,,8,130,40
+File,"ApplicationTest.java",,,,3,49,16
+File,"ApplicationVersionEntity.java",,,,12,64,55
+File,"ApplicationVersionRepository.java",,,,0,8,16
+File,"AuditingServiceBehavior.java",,,,5,58,27
+File,"AuthenticationController.java",,,,1,17,32
+File,"ConfigurationUtils.java",,,,10,59,41
+File,"CryptoProviderUtil.java",,,,0,14,55
+File,"CryptoProviderUtilBouncyCastle.java",,,,9,65,69
+File,"CryptoProviderUtilFactory.java",,,,4,19,9
+File,"CryptoProviderUtilsSpongyCastle.java",,,,9,71,69
+File,"DefaultExceptionHandler.java",,,,6,50,39
+File,"EncryptedStorageUtil.java",,,,2,25,47
+File,"ErrorException.java",,,,3,19,17
+File,"ErrorModel.java",,,,6,25,32
+File,"GenerateVectorDataTest.java",,,,26,348,43
+File,"GenericServiceException.java",,,,5,30,35
+File,"GetStatusStep.java",,,,5,91,34
+File,"HMACHashUtilities.java",,,,2,24,26
+File,"IdentifierGenerator.java",,,,4,25,49
+File,"KeyConversionUtilsTest.java",,,,4,60,34
+File,"KeyGenerator.java",,,,11,87,68
+File,"LocalizationProvider.java",,,,5,30,0
+File,"MasterKeyPairEntity.java",,,,26,129,80
+File,"MasterKeyPairRepository.java",,,,0,6,26
+File,"ModelUtil.java",,,,10,39,38
+File,"PowerAuth.java",,,,0,17,9
+File,"PowerAuthAPIRequest.java",,,,4,15,37
+File,"PowerAuthAPIResponse.java",,,,6,27,55
+File,"PowerAuthActivationTest.java",,,,5,87,47
+File,"PowerAuthApiAuthentication.java",,,,10,50,46
+File,"PowerAuthApiAuthenticationEntryPoint.java",,,,2,27,21
+File,"PowerAuthApiJavaApplication.java",,,,1,9,22
+File,"PowerAuthApplicationConfiguration.java",,,,0,6,34
+File,"PowerAuthAuthentication.java",,,,19,72,89
+File,"PowerAuthAuthenticationException.java",,,,2,11,28
+File,"PowerAuthAuthenticationProvider.java",,,,21,143,68
+File,"PowerAuthClientActivation.java",,,,18,138,114
+File,"PowerAuthClientKeyFactory.java",,,,20,83,97
+File,"PowerAuthClientSignature.java",,,,1,14,34
+File,"PowerAuthClientVault.java",,,,6,53,46
+File,"PowerAuthConfiguration.java",,,,3,23,62
+File,"PowerAuthController.java",,,,19,128,154
+File,"PowerAuthDerivedKey.java",,,,3,26,45
+File,"PowerAuthEndpoint.java",,,,19,146,155
+File,"PowerAuthHttpBody.java",,,,5,24,30
+File,"PowerAuthHttpHeader.java",,,,5,42,58
+File,"PowerAuthInterceptor.java",,,,3,37,2
+File,"PowerAuthRequestCanonizationUtils.java",,,,10,59,21
+File,"PowerAuthRequestFilter.java",,,,4,39,31
+File,"PowerAuthServerActivation.java",,,,20,152,147
+File,"PowerAuthServerKeyFactory.java",,,,13,79,77
+File,"PowerAuthServerSignature.java",,,,1,15,33
+File,"PowerAuthServerVault.java",,,,2,33,30
+File,"PowerAuthService.java",,,,0,60,153
+File,"PowerAuthServiceClient.java",,,,42,234,243
+File,"PowerAuthServiceConfiguration.java",,,,7,39,33
+File,"PowerAuthServiceImpl.java",,,,41,323,29
+File,"PowerAuthSignatureTest.java",,,,7,105,37
+File,"PowerAuthSignatureTypes.java",,,,6,36,50
+File,"PowerAuthWebArgumentResolver.java",,,,2,22,0
+File,"PowerAuthWebServiceConfiguration.java",,,,2,27,32
+File,"PowerAuthWebServiceConfiguration.java",,,,2,27,15
+File,"PowerauthAdminApplication.java",,,,1,9,7
+File,"PrepareActivationStep.java",,,,7,166,43
+File,"QRUtil.java",,,,2,30,14
+File,"RESTControllerAdvice.java",,,,1,24,27
+File,"RESTErrorModel.java",,,,6,24,45
+File,"RESTRequestWrapper.java",,,,13,47,37
+File,"RESTResponseExceptionResolver.java",,,,3,40,29
+File,"RESTResponseWrapper.java",,,,19,63,46
+File,"RemoveStep.java",,,,6,124,42
+File,"ResettableStreamHttpServletRequest.java",,,,10,56,32
+File,"RestTemplateFactory.java",,,,1,20,27
+File,"SecureVaultController.java",,,,2,46,29
+File,"SecurityConfig.java",,,,1,20,23
+File,"ServiceError.java",,,,1,35,39
+File,"ServletInitializer.java",,,,1,9,21
+File,"ServletInitializer.java",,,,1,9,18
+File,"ServletInitializer.java",,,,1,9,3
+File,"SignatureAuditRepository.java",,,,0,9,36
+File,"SignatureEntity.java",,,,38,180,117
+File,"SignatureServiceBehavior.java",,,,9,132,55
+File,"SignatureUtils.java",,,,9,69,64
+File,"VaultTest.java",,,,3,58,20
+File,"VaultUnlockRequest.java",,,,0,3,21
+File,"VaultUnlockResponse.java",,,,4,17,37
+File,"VaultUnlockServiceBehavior.java",,,,3,66,27
+File,"VaultUnlockStep.java",,,,7,147,40
+File,"VerifySignatureStep.java",,,,10,151,42
+File,"WebApplicationConfig.java",,,,1,18,23
+File,"WebApplicationConfig.java",,,,5,40,27
+File,"WebServiceConfig.java",,,,3,36,39
+Package,"io",,,,0,0,0
+Package,"io.getlime",,,,0,0,0
+Package,"io.getlime.rest",,,,0,0,0
+Package,"io.getlime.rest.api",,,,2,18,40
+Public Class,"io.getlime.rest.api.PowerAuthApiJavaApplication",4,0,0,1,6,22
+Public Static Method,"io.getlime.rest.api.PowerAuthApiJavaApplication.main",,,,1,3,4
+Public Class,"io.getlime.rest.api.ServletInitializer",4,0,0,1,6,18
+Protected Method,"io.getlime.rest.api.ServletInitializer.configure",,,,1,4,0
+Package,"io.getlime.rest.api.configuration",,,,10,102,102
+Public Class,"io.getlime.rest.api.configuration.ApplicationConfiguration",4,0,0,2,11,20
+Public Method,"io.getlime.rest.api.configuration.ApplicationConfiguration.isAllowedApplicationKey",,,,1,4,0
+Public Method,"io.getlime.rest.api.configuration.ApplicationConfiguration.statusServiceCustomObject",,,,1,4,0
+Public Class,"io.getlime.rest.api.configuration.PowerAuthWebServiceConfiguration",7,50,50,2,20,32
+Public Method,"io.getlime.rest.api.configuration.PowerAuthWebServiceConfiguration.marshaller",,,,1,6,4
+Public Method,"io.getlime.rest.api.configuration.PowerAuthWebServiceConfiguration.powerAuthClient",,,,1,8,7
+Public Class,"io.getlime.rest.api.configuration.SecurityConfig",7,0,0,1,13,23
+Protected Method,"io.getlime.rest.api.configuration.SecurityConfig.configure",,,,1,7,1
+Public Class,"io.getlime.rest.api.configuration.WebApplicationConfig",9,0,0,5,29,27
+Public Method,"io.getlime.rest.api.configuration.WebApplicationConfig.addArgumentResolvers",,,,1,5,0
+Public Method,"io.getlime.rest.api.configuration.WebApplicationConfig.addInterceptors",,,,1,5,0
+Public Method,"io.getlime.rest.api.configuration.WebApplicationConfig.powerAuthFilterRegistration",,,,1,8,4
+Public Method,"io.getlime.rest.api.configuration.WebApplicationConfig.powerAuthInterceptor",,,,1,4,0
+Public Method,"io.getlime.rest.api.configuration.WebApplicationConfig.powerAuthWebArgumentResolver",,,,1,4,0
+Package,"io.getlime.rest.api.controller",,,,1,17,32
+Public Class,"io.getlime.rest.api.controller.AuthenticationController",8,0,0,1,9,32
+Public Method,"io.getlime.rest.api.controller.AuthenticationController.login",,,,1,5,11
+Package,"io.getlime.rest.api.errorhandling",,,,9,69,56
+Public Class,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler",16,0,0,3,38,39
+Class,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.ErrorBody",1,0,0,3,13,0
+Public Constructor,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.ErrorBody.ErrorBody",,,,1,4,0
+Public Method,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.ErrorBody.getMessage",,,,1,3,0
+Public Method,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.ErrorBody.setMessage",,,,1,3,0
+Public Method,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.handleErrorException",,,,1,6,6
+Public Method,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.handleException",,,,1,8,6
+Public Method,"io.getlime.rest.api.errorhandling.DefaultExceptionHandler.handleUnauthorizedException",,,,1,8,6
+Public Class,"io.getlime.rest.api.errorhandling.ErrorException",2,0,0,3,15,17
+Public Constructor,"io.getlime.rest.api.errorhandling.ErrorException.ErrorException",,,,1,4,3
+Public Constructor,"io.getlime.rest.api.errorhandling.ErrorException.ErrorException",,,,1,4,4
+Public Method,"io.getlime.rest.api.errorhandling.ErrorException.getErrors",,,,1,3,4
+Package,"io.getlime.rest.api.model",,,,54,225,444
+Public Class,"io.getlime.rest.api.model.ActivationCreateRequest",1,85,85,14,51,77
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getActivationIdShort",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getActivationName",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getActivationNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getApplicationKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getApplicationSignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getEncryptedDevicePublicKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.getExtras",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setActivationIdShort",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setActivationName",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setActivationNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setApplicationKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setApplicationSignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setEncryptedDevicePublicKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateRequest.setExtras",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.ActivationCreateResponse",1,80,80,10,37,61
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.getActivationNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.getEncryptedServerPublicKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.getEncryptedServerPublicKeySignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.getEphemeralPublicKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.setActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.setActivationNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.setEncryptedServerPublicKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.setEncryptedServerPublicKeySignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationCreateResponse.setEphemeralPublicKey",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.ActivationRemoveRequest",0,0,0,0,2,21
+Public Class,"io.getlime.rest.api.model.ActivationRemoveResponse",1,0,0,2,9,29
+Public Method,"io.getlime.rest.api.model.ActivationRemoveResponse.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationRemoveResponse.setActivationId",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.ActivationStatusRequest",1,0,0,2,9,29
+Public Method,"io.getlime.rest.api.model.ActivationStatusRequest.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusRequest.setActivationId",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.ActivationStatusResponse",2,66,66,6,23,45
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.getCustomObject",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.getEncryptedStatusBlob",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.setActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.setCustomObject",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ActivationStatusResponse.setEncryptedStatusBlob",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.ErrorModel",1,41,41,6,23,32
+Public Constructor,"io.getlime.rest.api.model.ErrorModel.ErrorModel",,,,1,5,5
+Public Method,"io.getlime.rest.api.model.ErrorModel.getCode",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ErrorModel.getLocalizedMessage",,,,1,3,5
+Public Method,"io.getlime.rest.api.model.ErrorModel.getMessage",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ErrorModel.setCode",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.ErrorModel.setMessage",,,,1,3,4
+Public Generic Class,"io.getlime.rest.api.model.PowerAuthAPIRequest",0,25,25,4,14,37
+Public Constructor,"io.getlime.rest.api.model.PowerAuthAPIRequest.PowerAuthAPIRequest",,,,1,2,3
+Public Constructor,"io.getlime.rest.api.model.PowerAuthAPIRequest.PowerAuthAPIRequest",,,,1,3,4
+TypeVariable,"io.getlime.rest.api.model.PowerAuthAPIRequest.T",0,0,0,0,0,0
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIRequest.getRequestObject",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIRequest.setRequestObject",,,,1,3,4
+Public Generic Class,"io.getlime.rest.api.model.PowerAuthAPIResponse",1,50,50,6,26,55
+Public Constructor,"io.getlime.rest.api.model.PowerAuthAPIResponse.PowerAuthAPIResponse",,,,1,4,5
+Public Constructor,"io.getlime.rest.api.model.PowerAuthAPIResponse.PowerAuthAPIResponse",,,,1,2,3
+Public Class,"io.getlime.rest.api.model.PowerAuthAPIResponse.Status",1,0,0,0,4,9
+TypeVariable,"io.getlime.rest.api.model.PowerAuthAPIResponse.T",0,0,0,0,0,0
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIResponse.getResponseObject",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIResponse.getStatus",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIResponse.setResponseObject",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.PowerAuthAPIResponse.setStatus",,,,1,3,4
+Public Class,"io.getlime.rest.api.model.VaultUnlockRequest",0,0,0,0,2,21
+Public Class,"io.getlime.rest.api.model.VaultUnlockResponse",1,50,50,4,16,37
+Public Method,"io.getlime.rest.api.model.VaultUnlockResponse.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.VaultUnlockResponse.getEncryptedVaultEncryptionKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.VaultUnlockResponse.setActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.model.VaultUnlockResponse.setEncryptedVaultEncryptionKey",,,,1,3,4
+Package,"io.getlime.rest.api.security",,,,0,0,0
+Package,"io.getlime.rest.api.security.annotation",,,,5,76,11
+Public Annotation,"io.getlime.rest.api.security.annotation.PowerAuth",4,0,0,0,11,9
+Abstract Method,"io.getlime.rest.api.security.annotation.PowerAuth.resourceId",,,,0,1,5
+Abstract Method,"io.getlime.rest.api.security.annotation.PowerAuth.signatureType",,,,0,5,4
+Public Class,"io.getlime.rest.api.security.annotation.PowerAuthInterceptor",15,0,0,3,24,2
+Public Method,"io.getlime.rest.api.security.annotation.PowerAuthInterceptor.preHandle",,,,3,19,2
+Public Class,"io.getlime.rest.api.security.annotation.PowerAuthWebArgumentResolver",11,0,0,2,13,0
+Public Method,"io.getlime.rest.api.security.annotation.PowerAuthWebArgumentResolver.resolveArgument",,,,1,6,0
+Public Method,"io.getlime.rest.api.security.annotation.PowerAuthWebArgumentResolver.supportsParameter",,,,1,4,0
+Package,"io.getlime.rest.api.security.application",,,,0,6,34
+Public Interface,"io.getlime.rest.api.security.application.PowerAuthApplicationConfiguration",2,0,0,0,4,13
+Public Abstract Method,"io.getlime.rest.api.security.application.PowerAuthApplicationConfiguration.isAllowedApplicationKey",,,,0,1,7
+Public Abstract Method,"io.getlime.rest.api.security.application.PowerAuthApplicationConfiguration.statusServiceCustomObject",,,,0,1,6
+Package,"io.getlime.rest.api.security.authentication",,,,29,122,135
+Public Class,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication",7,60,60,10,43,46
+Public Constructor,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.PowerAuthApiAuthentication",,,,1,3,3
+Public Constructor,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.PowerAuthApiAuthentication",,,,1,5,5
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getAuthorities",,,,1,6,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getCredentials",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getName",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getPrincipal",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.getUserId",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.setActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthApiAuthentication.setUserId",,,,1,3,4
+Public Class,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication",2,88,88,19,70,89
+Public Constructor,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.PowerAuthAuthentication",,,,1,3,3
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getApplicationKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getCredentials",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getData",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getHttpMethod",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getPrincipal",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getRequestUri",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getSignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.getSignatureType",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setActivationId",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setApplicationKey",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setData",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setHttpMethod",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setNonce",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setRequestUri",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setSignature",,,,1,3,4
+Public Method,"io.getlime.rest.api.security.authentication.PowerAuthAuthentication.setSignatureType",,,,1,3,4
+Package,"io.getlime.rest.api.security.controller",,,,7,132,69
+Public Class,"io.getlime.rest.api.security.controller.ActivationController",26,44,44,5,60,40
+Public Method,"io.getlime.rest.api.security.controller.ActivationController.createActivation",,,,1,26,5
+Public Method,"io.getlime.rest.api.security.controller.ActivationController.getActivationStatus",,,,2,12,5
+Public Method,"io.getlime.rest.api.security.controller.ActivationController.removeActivation",,,,2,12,8
+Public Class,"io.getlime.rest.api.security.controller.SecureVaultController",19,0,0,2,27,29
+Public Method,"io.getlime.rest.api.security.controller.SecureVaultController.unlockVault",,,,2,21,8
+Package,"io.getlime.rest.api.security.entrypoint",,,,2,27,21
+Public Class,"io.getlime.rest.api.security.entrypoint.PowerAuthApiAuthenticationEntryPoint",11,0,0,2,17,21
+Public Method,"io.getlime.rest.api.security.entrypoint.PowerAuthApiAuthenticationEntryPoint.commence",,,,2,14,0
+Package,"io.getlime.rest.api.security.exception",,,,2,11,28
+Public Class,"io.getlime.rest.api.security.exception.PowerAuthAuthenticationException",1,0,0,2,10,28
+Public Constructor,"io.getlime.rest.api.security.exception.PowerAuthAuthenticationException.PowerAuthAuthenticationException",,,,1,3,3
+Public Constructor,"io.getlime.rest.api.security.exception.PowerAuthAuthenticationException.PowerAuthAuthenticationException",,,,1,3,4
+Package,"io.getlime.rest.api.security.filter",,,,14,95,63
+Public Class,"io.getlime.rest.api.security.filter.PowerAuthRequestFilter",11,0,0,4,21,31
+Protected Method,"io.getlime.rest.api.security.filter.PowerAuthRequestFilter.doFilterInternal",,,,4,18,6
+Public Class,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest",8,66,33,5,45,32
+Private Static Class,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream",5,40,40,5,22,0
+Public Constructor,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream.CustomServletInputStream",,,,1,3,0
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream.isFinished",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream.isReady",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream.read",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.CustomServletInputStream.setReadListener",,,,1,4,0
+Public Constructor,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.ResettableStreamHttpServletRequest",,,,1,3,6
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.getInputStream",,,,1,4,0
+Public Method,"io.getlime.rest.api.security.filter.ResettableStreamHttpServletRequest.getRequestBody",,,,3,13,5
+Package,"io.getlime.rest.api.security.provider",,,,21,143,68
+Public Class,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider",27,83,25,21,118,68
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.authenticate",,,,3,31,0
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.supports",,,,2,7,0
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.validateRequestSignature",,,,1,7,9
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.validateRequestSignature",,,,12,53,20
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.validateRequestSignature",,,,2,6,10
+Public Method,"io.getlime.rest.api.security.provider.PowerAuthAuthenticationProvider.validateRequestSignature",,,,1,7,8
+Package,"io.getlime.security",,,,10,117,133
+Public Class,"io.getlime.security.Application",4,0,0,1,6,25
+Public Static Method,"io.getlime.security.Application.main",,,,1,3,4
+Public Class,"io.getlime.security.PowerAuthWebServiceConfiguration",7,50,50,2,19,15
+Public Method,"io.getlime.security.PowerAuthWebServiceConfiguration.marshaller",,,,1,6,4
+Public Method,"io.getlime.security.PowerAuthWebServiceConfiguration.powerAuthClient",,,,1,8,5
+Public Class,"io.getlime.security.PowerauthAdminApplication",4,0,0,1,6,7
+Public Static Method,"io.getlime.security.PowerauthAdminApplication.main",,,,1,3,4
+Public Class,"io.getlime.security.ServletInitializer",4,0,0,1,6,21
+Public Class,"io.getlime.security.ServletInitializer",4,0,0,1,6,3
+Protected Method,"io.getlime.security.ServletInitializer.configure",,,,1,4,0
+Protected Method,"io.getlime.security.ServletInitializer.configure",,,,1,4,0
+Public Class,"io.getlime.security.WebApplicationConfig",6,0,0,1,10,23
+Public Method,"io.getlime.security.WebApplicationConfig.configureHandlerExceptionResolvers",,,,1,7,0
+Public Class,"io.getlime.security.WebServiceConfig",10,0,0,3,24,39
+Public Method,"io.getlime.security.WebServiceConfig.countriesSchema",,,,1,4,5
+Public Method,"io.getlime.security.WebServiceConfig.defaultWsdl11Definition",,,,1,9,7
+Public Method,"io.getlime.security.WebServiceConfig.messageDispatcherServlet",,,,1,7,6
+Package,"io.getlime.security.admin",,,,0,0,0
+Package,"io.getlime.security.admin.controller",,,,27,202,110
+Public Class,"io.getlime.security.admin.controller.ActivationController",26,0,0,17,106,60
+Public Method,"io.getlime.security.admin.controller.ActivationController.activationCreate",,,,1,9,7
+Public Method,"io.getlime.security.admin.controller.ActivationController.activationCreateCommitAction",,,,1,5,6
+Public Method,"io.getlime.security.admin.controller.ActivationController.activationDetail",,,,5,37,6
+Public Method,"io.getlime.security.admin.controller.ActivationController.activationList",,,,2,18,7
+Anonymous Class,"io.getlime.security.admin.controller.ActivationController.activationList.(Anon_1)",2,0,0,1,5,0
+Public Method,"io.getlime.security.admin.controller.ActivationController.activationList.(Anon_1).compare",,,,1,4,0
+Public Method,"io.getlime.security.admin.controller.ActivationController.blockActivation",,,,2,8,7
+Public Method,"io.getlime.security.admin.controller.ActivationController.commitActivation",,,,2,8,7
+Public Method,"io.getlime.security.admin.controller.ActivationController.removeActivation",,,,2,8,7
+Public Method,"io.getlime.security.admin.controller.ActivationController.unblockActivation",,,,2,8,7
+Public Class,"io.getlime.security.admin.controller.ApplicationController",15,37,37,9,55,50
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationCreate",,,,1,4,5
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationCreateAction",,,,1,5,5
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationDetail",,,,1,9,6
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationList",,,,1,6,5
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationUpdateAction",,,,2,12,7
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationVersionCreate",,,,1,5,6
+Public Method,"io.getlime.security.admin.controller.ApplicationController.applicationVersionCreateAction",,,,1,5,6
+Public Method,"io.getlime.security.admin.controller.ApplicationController.homePage",,,,1,4,4
+Package,"io.getlime.security.client",,,,0,0,0
+Package,"io.getlime.security.client.app",,,,17,209,52
+Public Class,"io.getlime.security.client.app.Application",32,50,50,13,131,36
+Public Static Method,"io.getlime.security.client.app.Application.main",,,,1,3,4
+Public Method,"io.getlime.security.client.app.Application.run",,,,12,124,10
+Anonymous Class,"io.getlime.security.client.app.Application.run.(Anon_1)",3,0,0,1,5,0
+Public Method,"io.getlime.security.client.app.Application.run.(Anon_1).verify",,,,1,4,0
+Public Class,"io.getlime.security.client.app.ApplicationTest",14,0,0,3,36,16
+Public Method,"io.getlime.security.client.app.ApplicationTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.client.app.ApplicationTest.testPasswordEncryption",,,,2,29,6
+Package,"io.getlime.security.client.app.steps",,,,35,679,201
+Public Class,"io.getlime.security.client.app.steps.GetStatusStep",27,0,0,5,68,34
+Public Static Method,"io.getlime.security.client.app.steps.GetStatusStep.execute",,,,5,63,13
+Anonymous Class,"io.getlime.security.client.app.steps.GetStatusStep.execute.(Anon_1)",0,0,0,0,1,0
+Public Class,"io.getlime.security.client.app.steps.PrepareActivationStep",36,0,0,7,136,43
+Public Static Method,"io.getlime.security.client.app.steps.PrepareActivationStep.execute",,,,7,128,22
+Anonymous Class,"io.getlime.security.client.app.steps.PrepareActivationStep.execute.(Anon_1)",0,0,0,0,1,0
+Public Class,"io.getlime.security.client.app.steps.RemoveStep",38,0,0,6,91,42
+Public Static Method,"io.getlime.security.client.app.steps.RemoveStep.execute",,,,6,86,21
+Anonymous Class,"io.getlime.security.client.app.steps.RemoveStep.execute.(Anon_1)",0,0,0,0,1,0
+Public Class,"io.getlime.security.client.app.steps.VaultUnlockStep",40,0,0,7,112,40
+Public Static Method,"io.getlime.security.client.app.steps.VaultUnlockStep.execute",,,,7,105,19
+Anonymous Class,"io.getlime.security.client.app.steps.VaultUnlockStep.execute.(Anon_1)",0,0,0,0,1,0
+Public Class,"io.getlime.security.client.app.steps.VerifySignatureStep",37,0,0,10,121,42
+Public Static Method,"io.getlime.security.client.app.steps.VerifySignatureStep.execute",,,,10,114,21
+Anonymous Class,"io.getlime.security.client.app.steps.VerifySignatureStep.execute.(Anon_1)",0,0,0,0,1,0
+Package,"io.getlime.security.client.app.util",,,,13,104,115
+Public Class,"io.getlime.security.client.app.util.ConfigurationUtils",10,0,0,10,53,41
+Public Static Method,"io.getlime.security.client.app.util.ConfigurationUtils.getApplicationKey",,,,2,7,5
+Public Static Method,"io.getlime.security.client.app.util.ConfigurationUtils.getApplicationName",,,,2,7,5
+Public Static Method,"io.getlime.security.client.app.util.ConfigurationUtils.getApplicationSecret",,,,2,7,5
+Public Static Method,"io.getlime.security.client.app.util.ConfigurationUtils.getMasterKey",,,,4,27,5
+Public Class,"io.getlime.security.client.app.util.EncryptedStorageUtil",9,0,0,2,17,47
+Public Static Method,"io.getlime.security.client.app.util.EncryptedStorageUtil.getSignatureKnowledgeKey",,,,1,7,13
+Public Static Method,"io.getlime.security.client.app.util.EncryptedStorageUtil.storeSignatureKnowledgeKey",,,,1,8,13
+Public Class,"io.getlime.security.client.app.util.RestTemplateFactory",6,0,0,1,12,27
+Public Static Method,"io.getlime.security.client.app.util.RestTemplateFactory.defaultRestTemplate",,,,1,10,6
+Package,"io.getlime.security.powerauth",,,,0,0,0
+Package,"io.getlime.security.powerauth.activation",,,,5,87,47
+Public Class,"io.getlime.security.powerauth.activation.PowerAuthActivationTest",19,0,0,5,70,47
+Public Method,"io.getlime.security.powerauth.activation.PowerAuthActivationTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.activation.PowerAuthActivationTest.testActivationGenerate",,,,1,11,5
+Public Method,"io.getlime.security.powerauth.activation.PowerAuthActivationTest.testActivationProcess",,,,2,44,15
+Public Method,"io.getlime.security.powerauth.activation.PowerAuthActivationTest.testGenerateKeys",,,,1,8,4
+Package,"io.getlime.security.powerauth.client",,,,0,0,0
+Package,"io.getlime.security.powerauth.client.activation",,,,18,138,114
+Public Class,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation",26,77,77,18,114,114
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.computeApplicationSignature",,,,2,12,10
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.computeDevicePublicKeyFingerprint",,,,3,16,7
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.decryptServerPublicKey",,,,2,15,13
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.encryptDevicePublicKey",,,,2,13,10
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.generateActivationNonce",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.generateDeviceKeyPair",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.getStatusFromEncryptedBlob",,,,3,28,17
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.verifyActivationDataSignature",,,,2,9,13
+Public Method,"io.getlime.security.powerauth.client.activation.PowerAuthClientActivation.verifyServerDataSignature",,,,2,12,12
+Package,"io.getlime.security.powerauth.client.keyfactory",,,,20,83,97
+Public Class,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory",10,25,12,20,73,97
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateClientMasterSecretKey",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignatureBiometryKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignatureKnowledgeKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignaturePossessionKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateServerEncryptedVaultKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.generateServerTransportKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.keysForSignatureType",,,,7,21,8
+Public Method,"io.getlime.security.powerauth.client.keyfactory.PowerAuthClientKeyFactory.keysForSignatureType",,,,7,31,11
+Package,"io.getlime.security.powerauth.client.signature",,,,1,14,34
+Public Class,"io.getlime.security.powerauth.client.signature.PowerAuthClientSignature",4,0,0,1,9,34
+Public Method,"io.getlime.security.powerauth.client.signature.PowerAuthClientSignature.signatureForData",,,,1,6,13
+Package,"io.getlime.security.powerauth.client.vault",,,,6,53,46
+Public Class,"io.getlime.security.powerauth.client.vault.PowerAuthClientVault",11,0,0,6,40,46
+Public Method,"io.getlime.security.powerauth.client.vault.PowerAuthClientVault.decryptDevicePrivateKey",,,,2,12,8
+Public Method,"io.getlime.security.powerauth.client.vault.PowerAuthClientVault.decryptVaultEncryptionKey",,,,2,14,9
+Public Method,"io.getlime.security.powerauth.client.vault.PowerAuthClientVault.encryptDevicePrivateKey",,,,2,12,8
+Package,"io.getlime.security.powerauth.lib",,,,0,0,0
+Package,"io.getlime.security.powerauth.lib.config",,,,3,23,62
+Public Enum Type,"io.getlime.security.powerauth.lib.config.PowerAuthConfiguration",3,,,3,21,62
+Public Method,"io.getlime.security.powerauth.lib.config.PowerAuthConfiguration.getKeyConvertor",,,,2,6,4
+Public Method,"io.getlime.security.powerauth.lib.config.PowerAuthConfiguration.setKeyConvertor",,,,1,3,4
+Public Implicit Method,"io.getlime.security.powerauth.lib.config.PowerAuthConfiguration.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.lib.config.PowerAuthConfiguration.values",,,,0,,
+Package,"io.getlime.security.powerauth.lib.enums",,,,9,62,95
+Public Enum Type,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey",3,,,3,22,45
+Private Constructor,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey.PowerAuthDerivedKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey.getIndex",,,,1,3,4
+Public Static Method,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey.valueOf",,,,1,3,5
+Public Implicit Method,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.lib.enums.PowerAuthDerivedKey.values",,,,0,,
+Public Enum Type,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes",4,,,6,32,50
+Private Constructor,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.PowerAuthSignatureTypes",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.equalsName",,,,2,3,5
+Public Static Method,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.getEnumFromString",,,,2,8,6
+Public Method,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.toString",,,,1,4,0
+Public Implicit Method,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.lib.enums.PowerAuthSignatureTypes.values",,,,0,,
+Package,"io.getlime.security.powerauth.lib.generator",,,,15,112,117
+Public Class,"io.getlime.security.powerauth.lib.generator.IdentifierGenerator",4,50,50,4,21,49
+Public Method,"io.getlime.security.powerauth.lib.generator.IdentifierGenerator.generateActivationId",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.lib.generator.IdentifierGenerator.generateActivationIdShort",,,,1,5,7
+Public Method,"io.getlime.security.powerauth.lib.generator.IdentifierGenerator.generateActivationOTP",,,,1,5,7
+Private Method,"io.getlime.security.powerauth.lib.generator.IdentifierGenerator.generateBase32Token",,,,1,5,9
+Public Class,"io.getlime.security.powerauth.lib.generator.KeyGenerator",23,83,66,11,62,68
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.computeSharedKey",,,,3,16,9
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.deriveSecretKey",,,,2,12,11
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.deriveSecretKeyFromPassword",,,,2,12,8
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.generateKeyPair",,,,2,11,6
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.generateRandomBytes",,,,1,5,6
+Public Method,"io.getlime.security.powerauth.lib.generator.KeyGenerator.generateRandomSecretKey",,,,1,3,5
+Package,"io.getlime.security.powerauth.lib.model",,,,10,38,63
+Public Class,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo",0,80,80,10,37,63
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.getActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.getCounter",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.getFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.getMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.isValid",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.setActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.setCounter",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.setFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.setMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.lib.model.ActivationStatusBlobInfo.setValid",,,,1,3,5
+Package,"io.getlime.security.powerauth.lib.provider",,,,22,169,202
+Public Interface,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil",5,0,0,0,9,48
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertBytesToPrivateKey",,,,0,1,9
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertBytesToPublicKey",,,,0,1,9
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertBytesToSharedSecretKey",,,,0,1,7
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertPrivateKeyToBytes",,,,0,1,6
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertPublicKeyToBytes",,,,0,1,6
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.convertSharedSecretKeyToBytes",,,,0,1,7
+Abstract Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtil.getProviderName",,,,0,1,4
+Public Class,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle",22,0,0,9,45,69
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertBytesToPrivateKey",,,,2,13,9
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertBytesToPublicKey",,,,2,13,9
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertBytesToSharedSecretKey",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertPrivateKeyToBytes",,,,1,4,6
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertPublicKeyToBytes",,,,1,3,6
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.convertSharedSecretKeyToBytes",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilBouncyCastle.getProviderName",,,,1,4,4
+Public Final Class,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilFactory",5,0,0,4,17,9
+Public Static Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilFactory.getCryptoProviderUtils",,,,4,14,4
+Public Class,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle",22,0,0,9,51,69
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertBytesToPrivateKey",,,,2,14,9
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertBytesToPublicKey",,,,2,14,9
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertBytesToSharedSecretKey",,,,1,4,7
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertPrivateKeyToBytes",,,,1,5,6
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertPublicKeyToBytes",,,,1,4,6
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.convertSharedSecretKeyToBytes",,,,1,4,7
+Public Method,"io.getlime.security.powerauth.lib.provider.CryptoProviderUtilsSpongyCastle.getProviderName",,,,1,4,4
+Package,"io.getlime.security.powerauth.lib.util",,,,47,545,238
+Public Class,"io.getlime.security.powerauth.lib.util.AESEncryptionUtils",13,0,0,6,30,71
+Public Method,"io.getlime.security.powerauth.lib.util.AESEncryptionUtils.decrypt",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.lib.util.AESEncryptionUtils.decrypt",,,,2,11,13
+Public Method,"io.getlime.security.powerauth.lib.util.AESEncryptionUtils.encrypt",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.lib.util.AESEncryptionUtils.encrypt",,,,2,11,13
+Public Class,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest",24,0,0,26,327,43
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testActivationAccept",,,,3,53,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testDerivedKeyDerivation",,,,3,32,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testEncryptDevicePublicKey",,,,3,37,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testMasterKeyDerivation",,,,3,30,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testSignatureValidation",,,,7,84,9
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testVerifyActivationData",,,,3,34,4
+Public Method,"io.getlime.security.powerauth.lib.util.GenerateVectorDataTest.testVerifyServerPublicKeySignature",,,,3,50,4
+Public Class,"io.getlime.security.powerauth.lib.util.HMACHashUtilities",9,0,0,2,14,26
+Public Method,"io.getlime.security.powerauth.lib.util.HMACHashUtilities.hash",,,,2,12,6
+Public Class,"io.getlime.security.powerauth.lib.util.KeyConversionUtilsTest",22,0,0,4,40,34
+Public Constructor,"io.getlime.security.powerauth.lib.util.KeyConversionUtilsTest.KeyConversionUtilsTest",,,,1,2,3
+Public Method,"io.getlime.security.powerauth.lib.util.KeyConversionUtilsTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.lib.util.KeyConversionUtilsTest.testConvertPublicKey",,,,2,31,6
+Public Class,"io.getlime.security.powerauth.lib.util.SignatureUtils",18,0,0,9,53,64
+Public Method,"io.getlime.security.powerauth.lib.util.SignatureUtils.computeECDSASignature",,,,2,12,9
+Public Method,"io.getlime.security.powerauth.lib.util.SignatureUtils.computePowerAuthSignature",,,,4,24,14
+Public Method,"io.getlime.security.powerauth.lib.util.SignatureUtils.validateECDSASignature",,,,2,12,10
+Public Method,"io.getlime.security.powerauth.lib.util.SignatureUtils.validatePowerAuthSignature",,,,1,3,10
+Package,"io.getlime.security.powerauth.lib.util.http",,,,20,125,109
+Public Class,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpBody",3,0,0,5,21,30
+Public Static Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpBody.getSignatureBaseString",,,,5,19,9
+Public Class,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpHeader",5,0,0,5,37,58
+Public Static Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpHeader.getPowerAuthSignatureHTTPHeader",,,,1,10,10
+Private Static Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpHeader.headerField",,,,1,3,0
+Public Static Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthHttpHeader.parsePowerAuthSignatureHTTPHeader",,,,3,14,6
+Public Class,"io.getlime.security.powerauth.lib.util.http.PowerAuthRequestCanonizationUtils",9,0,0,6,49,21
+Public Static Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters",,,,6,45,15
+Anonymous Class,"io.getlime.security.powerauth.lib.util.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters.(Anon_1)",4,0,0,4,13,0
+Public Method,"io.getlime.security.powerauth.lib.util.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters.(Anon_1).compare",,,,4,12,0
+Package,"io.getlime.security.powerauth.server",,,,0,0,0
+Package,"io.getlime.security.powerauth.server.activation",,,,20,152,147
+Public Class,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation",27,79,79,20,127,147
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.computeDevicePublicKeyFingerprint",,,,3,16,8
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.computeServerDataSignature",,,,2,13,11
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.decryptDevicePublicKey",,,,2,15,12
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.encryptServerPublicKey",,,,2,19,18
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.encryptedStatusBlob",,,,2,21,17
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateActivationId",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateActivationIdShort",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateActivationNonce",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateActivationOTP",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateActivationSignature",,,,2,11,15
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.generateServerKeyPair",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.server.activation.PowerAuthServerActivation.validateApplicationSignature",,,,2,13,11
+Package,"io.getlime.security.powerauth.server.keyfactory",,,,13,79,77
+Public Class,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory",10,14,0,13,69,77
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerEndryptedVaultKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerMasterSecretKey",,,,1,5,9
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignatureBiometryKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignatureKnowledgeKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignaturePossessionKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.generateServerTransportKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.server.keyfactory.PowerAuthServerKeyFactory.keysForSignatureType",,,,7,31,7
+Package,"io.getlime.security.powerauth.server.signature",,,,1,15,33
+Public Class,"io.getlime.security.powerauth.server.signature.PowerAuthServerSignature",4,0,0,1,10,33
+Public Method,"io.getlime.security.powerauth.server.signature.PowerAuthServerSignature.verifySignatureForData",,,,1,7,11
+Package,"io.getlime.security.powerauth.server.vault",,,,2,33,30
+Public Class,"io.getlime.security.powerauth.server.vault.PowerAuthServerVault",13,0,0,2,19,30
+Public Method,"io.getlime.security.powerauth.server.vault.PowerAuthServerVault.encryptVaultEncryptionKey",,,,2,17,9
+Package,"io.getlime.security.powerauth.signature",,,,7,105,37
+Public Class,"io.getlime.security.powerauth.signature.PowerAuthSignatureTest",23,0,0,7,85,37
+Public Method,"io.getlime.security.powerauth.signature.PowerAuthSignatureTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.signature.PowerAuthSignatureTest.testSignatureForData",,,,6,78,12
+Package,"io.getlime.security.powerauth.vault",,,,3,58,20
+Public Class,"io.getlime.security.powerauth.vault.VaultTest",19,0,0,3,40,20
+Public Method,"io.getlime.security.powerauth.vault.VaultTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.vault.VaultTest.testVault",,,,2,33,10
+Package,"io.getlime.security.repository",,,,0,43,130
+Public Interface,"io.getlime.security.repository.ActivationRepository",7,0,0,0,7,25
+Abstract Method,"io.getlime.security.repository.ActivationRepository.findByApplicationIdAndUserId",,,,0,1,6
+Abstract Method,"io.getlime.security.repository.ActivationRepository.findByUserId",,,,0,1,5
+Abstract Method,"io.getlime.security.repository.ActivationRepository.findFirstByActivationId",,,,0,1,5
+Abstract Method,"io.getlime.security.repository.ActivationRepository.findFirstByApplicationIdAndActivationIdShortAndActivationStatusInAndTimestampActivationExpireAfter",,,,0,1,9
+Public Interface,"io.getlime.security.repository.ApplicationRepository",0,0,0,0,2,6
+Public Interface,"io.getlime.security.repository.ApplicationVersionRepository",4,0,0,0,4,10
+Public Abstract Method,"io.getlime.security.repository.ApplicationVersionRepository.findByApplicationId",,,,0,1,5
+Public Abstract Method,"io.getlime.security.repository.ApplicationVersionRepository.findByApplicationKey",,,,0,1,5
+Public Interface,"io.getlime.security.repository.MasterKeyPairRepository",2,0,0,0,3,5
+Abstract Method,"io.getlime.security.repository.MasterKeyPairRepository.findFirstByApplicationIdOrderByTimestampCreatedDesc",,,,0,1,5
+Public Interface,"io.getlime.security.repository.SignatureAuditRepository",4,0,0,0,4,15
+Abstract Method,"io.getlime.security.repository.SignatureAuditRepository.findByActivation_ApplicationIdAndActivation_UserIdAndTimestampCreatedBetween",,,,0,1,8
+Abstract Method,"io.getlime.security.repository.SignatureAuditRepository.findByActivation_UserIdAndTimestampCreatedBetween",,,,0,1,7
+Package,"io.getlime.security.repository.model",,,,8,43,76
+Public Enum Type,"io.getlime.security.repository.model.ActivationStatus",1,,,2,14,55
+Constructor,"io.getlime.security.repository.model.ActivationStatus.ActivationStatus",,,,1,3,0
+Public Method,"io.getlime.security.repository.model.ActivationStatus.getByte",,,,1,3,4
+Public Implicit Method,"io.getlime.security.repository.model.ActivationStatus.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.repository.model.ActivationStatus.values",,,,0,,
+Public Class,"io.getlime.security.repository.model.ActivationStatusConverter",5,0,0,6,23,21
+Public Method,"io.getlime.security.repository.model.ActivationStatusConverter.convertToDatabaseColumn",,,,1,4,0
+Public Method,"io.getlime.security.repository.model.ActivationStatusConverter.convertToEntityAttribute",,,,5,15,0
+Package,"io.getlime.security.repository.model.entity",,,,143,726,482
+Public Class,"io.getlime.security.repository.model.entity.ActivationRecordEntity",16,85,85,61,301,199
+Public Constructor,"io.getlime.security.repository.model.entity.ActivationRecordEntity.ActivationRecordEntity",,,,1,2,3
+Public Constructor,"io.getlime.security.repository.model.entity.ActivationRecordEntity.ActivationRecordEntity",,,,1,38,21
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.equals",,,,21,65,0
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getActivationId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getActivationIdShort",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getActivationName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getActivationOTP",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getApplication",,,,1,3,5
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getCounter",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getDevicePublicKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getExtras",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getMasterKeyPair",,,,1,3,6
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getServerPrivateKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getServerPublicKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getTimestampActivationExpire",,,,1,3,6
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getTimestampLastUsed",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.getUserId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.hashCode",,,,1,22,0
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setActivationId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setActivationIdShort",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setActivationName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setActivationOTP",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setApplication",,,,1,3,5
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setCounter",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setDevicePublicKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setExtras",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setMasterKeyPair",,,,1,3,6
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setServerPrivateKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setServerPublicKeyBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setTimestampActivationExpire",,,,1,3,6
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setTimestampLastUsed",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.setUserId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ActivationRecordEntity.toString",,,,1,22,0
+Public Class,"io.getlime.security.repository.model.entity.ApplicationEntity",9,61,61,6,31,31
+Public Constructor,"io.getlime.security.repository.model.entity.ApplicationEntity.ApplicationEntity",,,,1,1,3
+Public Constructor,"io.getlime.security.repository.model.entity.ApplicationEntity.ApplicationEntity",,,,1,6,6
+Public Method,"io.getlime.security.repository.model.entity.ApplicationEntity.getId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationEntity.getName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationEntity.setId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationEntity.setName",,,,1,3,4
+Public Class,"io.getlime.security.repository.model.entity.ApplicationVersionEntity",11,83,83,12,55,55
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getApplication",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getApplicationKey",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getApplicationSecret",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.getSupported",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setApplication",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setApplicationKey",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setApplicationSecret",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.ApplicationVersionEntity.setSupported",,,,1,3,4
+Public Class,"io.getlime.security.repository.model.entity.MasterKeyPairEntity",13,65,65,26,118,80
+Public Constructor,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.MasterKeyPairEntity",,,,1,2,3
+Public Constructor,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.MasterKeyPairEntity",,,,1,7,8
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.equals",,,,10,32,0
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getApplication",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getMasterKeyPrivateBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getMasterKeyPublicBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.getTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.hashCode",,,,1,11,0
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setApplication",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setMasterKeyPrivateBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setMasterKeyPublicBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setName",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.setTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.MasterKeyPairEntity.toString",,,,1,11,0
+Public Class,"io.getlime.security.repository.model.entity.SignatureEntity",18,76,76,38,166,117
+Public Constructor,"io.getlime.security.repository.model.entity.SignatureEntity.SignatureEntity",,,,1,2,3
+Public Constructor,"io.getlime.security.repository.model.entity.SignatureEntity.SignatureEntity",,,,1,13,13
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.equals",,,,14,44,0
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getActivation",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getActivationCounter",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getDataBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getNote",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getSignature",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getSignatureType",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.getValid",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.hashCode",,,,1,15,0
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setActivation",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setActivationCounter",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setDataBase64",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setId",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setNote",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setSignature",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setSignatureType",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setTimestampCreated",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.setValid",,,,1,3,4
+Public Method,"io.getlime.security.repository.model.entity.SignatureEntity.toString",,,,1,4,0
+Package,"io.getlime.security.service",,,,41,383,182
+Public Interface,"io.getlime.security.service.PowerAuthService",39,0,0,0,21,131
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.blockActivation",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.commitActivation",,,,0,1,8
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.createApplication",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.createApplicationVersion",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getActivatioListForUser",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getActivationStatus",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getApplicationDetail",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getApplicationList",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getErrorCodeList",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getSignatureAuditLog",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.getSystemStatus",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.initActivation",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.prepareActivation",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.removeActivation",,,,0,1,6
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.supportApplicationVersion",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.unblockActivation",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.unsupportApplicationVersion",,,,0,1,7
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.vaultUnlock",,,,0,1,9
+Public Abstract Method,"io.getlime.security.service.PowerAuthService.verifySignature",,,,0,1,10
+Public Class,"io.getlime.security.service.PowerAuthServiceImpl",72,82,80,41,257,29
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.blockActivation",,,,3,14,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.commitActivation",,,,3,14,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.createApplication",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.createApplicationVersion",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getActivatioListForUser",,,,2,12,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getActivationStatus",,,,2,11,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getApplicationDetail",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getApplicationList",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getErrorCodeList",,,,3,17,1
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getSignatureAuditLog",,,,2,14,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.getSystemStatus",,,,1,10,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.initActivation",,,,3,17,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.prepareActivation",,,,4,23,1
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.removeActivation",,,,2,11,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.supportApplicationVersion",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.unblockActivation",,,,3,14,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.unsupportApplicationVersion",,,,1,5,0
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.vaultUnlock",,,,4,30,3
+Public Method,"io.getlime.security.service.PowerAuthServiceImpl.verifySignature",,,,2,10,0
+Private Method,"io.getlime.security.service.PowerAuthServiceImpl.verifySignatureImplNonTransaction",,,,1,8,1
+Package,"io.getlime.security.service.behavior",,,,65,767,285
+Public Class,"io.getlime.security.service.behavior.ActivationServiceBehavior",48,59,59,40,336,136
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.blockActivation",,,,3,14,7
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.commitActivation",,,,4,24,11
+Private Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.deactivatePendingActivation",,,,2,6,6
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.getActivationList",,,,4,28,9
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.getActivationStatus",,,,4,78,29
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.initActivation",,,,13,89,26
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.prepareActivation",,,,5,54,27
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.removeActivation",,,,2,15,7
+Public Method,"io.getlime.security.service.behavior.ActivationServiceBehavior.unblockActivation",,,,3,15,7
+Public Class,"io.getlime.security.service.behavior.ApplicationServiceBehavior",28,38,38,8,106,40
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.createApplication",,,,1,29,8
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.createApplicationVersion",,,,1,20,6
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.getApplicationDetail",,,,2,18,5
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.getApplicationList",,,,2,12,4
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.supportApplicationVersion",,,,1,9,5
+Public Method,"io.getlime.security.service.behavior.ApplicationServiceBehavior.unsupportApplicationVersion",,,,1,9,5
+Public Class,"io.getlime.security.service.behavior.AuditingServiceBehavior",16,0,0,5,46,27
+Public Method,"io.getlime.security.service.behavior.AuditingServiceBehavior.getSignatureAuditLog",,,,4,28,9
+Public Method,"io.getlime.security.service.behavior.AuditingServiceBehavior.logSignatureAuditRecord",,,,1,13,11
+Public Class,"io.getlime.security.service.behavior.SignatureServiceBehavior",27,0,0,9,108,55
+Public Method,"io.getlime.security.service.behavior.SignatureServiceBehavior.verifySignature",,,,9,97,48
+Public Class,"io.getlime.security.service.behavior.VaultUnlockServiceBehavior",17,0,0,3,50,27
+Public Method,"io.getlime.security.service.behavior.VaultUnlockServiceBehavior.unlockVault",,,,3,44,20
+Package,"io.getlime.security.service.configuration",,,,7,39,33
+Public Class,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration",5,71,71,7,34,33
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.getApplicationDisplayName",,,,1,3,5
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.getApplicationEnvironment",,,,1,3,4
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.getApplicationName",,,,1,3,5
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.messageSource",,,,1,7,0
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.setApplicationDisplayName",,,,1,3,4
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.setApplicationEnvironment",,,,1,3,4
+Public Method,"io.getlime.security.service.configuration.PowerAuthServiceConfiguration.setApplicationName",,,,1,3,4
+Package,"io.getlime.security.service.controller",,,,61,326,338
+Public Class,"io.getlime.security.service.controller.PowerAuthController",10,0,0,19,82,154
+Public Method,"io.getlime.security.service.controller.PowerAuthController.blockActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.commitActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.createApplication",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.createApplicationVersion",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getActivatioListForUser",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getActivationStatus",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getApplicationDetail",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getApplicationList",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getErrorCodeList",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getSignatureAuditLog",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.getSystemStatus",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.initActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.prepareActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.removeActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.supportApplicationVersion",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.unblockActivation",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.unsupportApplicationVersion",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.vaultUnlock",,,,1,4,7
+Public Method,"io.getlime.security.service.controller.PowerAuthController.verifySignature",,,,1,4,7
+Public Class,"io.getlime.security.service.controller.RESTControllerAdvice",12,0,0,1,14,27
+Public Method,"io.getlime.security.service.controller.RESTControllerAdvice.returnGenericError",,,,1,11,6
+Public Class,"io.getlime.security.service.controller.RESTErrorModel",1,66,66,6,23,45
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.getCode",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.getLocalizedMessage",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.getMessage",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.setCode",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.setLocalizedMessage",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTErrorModel.setMessage",,,,1,3,4
+Public Generic Class,"io.getlime.security.service.controller.RESTRequestWrapper",3,16,16,13,45,37
+Public Constructor,"io.getlime.security.service.controller.RESTRequestWrapper.RESTRequestWrapper",,,,1,2,3
+Public Constructor,"io.getlime.security.service.controller.RESTRequestWrapper.RESTRequestWrapper",,,,1,3,4
+TypeVariable,"io.getlime.security.service.controller.RESTRequestWrapper.T",0,0,0,0,0,0
+Public Method,"io.getlime.security.service.controller.RESTRequestWrapper.equals",,,,7,22,0
+Public Method,"io.getlime.security.service.controller.RESTRequestWrapper.getRequestObject",,,,1,4,4
+Public Method,"io.getlime.security.service.controller.RESTRequestWrapper.hashCode",,,,2,7,0
+Public Method,"io.getlime.security.service.controller.RESTRequestWrapper.setRequestObject",,,,1,3,4
+Public Class,"io.getlime.security.service.controller.RESTResponseExceptionResolver",18,0,0,3,27,29
+Public Constructor,"io.getlime.security.service.controller.RESTResponseExceptionResolver.RESTResponseExceptionResolver",,,,1,3,3
+Protected Method,"io.getlime.security.service.controller.RESTResponseExceptionResolver.doResolveException",,,,2,21,4
+Public Generic Class,"io.getlime.security.service.controller.RESTResponseWrapper",4,37,37,19,61,46
+Public Constructor,"io.getlime.security.service.controller.RESTResponseWrapper.RESTResponseWrapper",,,,1,4,5
+Public Constructor,"io.getlime.security.service.controller.RESTResponseWrapper.RESTResponseWrapper",,,,1,2,3
+TypeVariable,"io.getlime.security.service.controller.RESTResponseWrapper.T",0,0,0,0,0,0
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.equals",,,,10,29,0
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.getResponseObject",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.getStatus",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.hashCode",,,,3,8,0
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.setResponseObject",,,,1,3,4
+Public Method,"io.getlime.security.service.controller.RESTResponseWrapper.setStatus",,,,1,3,4
+Package,"io.getlime.security.service.endpoint",,,,19,146,155
+Public Class,"io.getlime.security.service.endpoint.PowerAuthEndpoint",46,0,0,19,101,155
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.blockActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.commitActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.createApplication",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.createApplicationVersion",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getActivatioListForUser",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getActivationStatus",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getApplicationDetail",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getApplicationList",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getErrorCodeList",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.getSystemStatus",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.initActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.prepareActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.removeActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.supportApplicationVersion",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.unblockActivation",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.unsupportApplicationVersion",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.vaultUnlock",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.vaultUnlock",,,,1,5,7
+Public Method,"io.getlime.security.service.endpoint.PowerAuthEndpoint.verifySignature",,,,1,5,7
+Package,"io.getlime.security.service.exceptions",,,,5,30,35
+Public Class,"io.getlime.security.service.exceptions.GenericServiceException",3,60,60,5,27,35
+Public Constructor,"io.getlime.security.service.exceptions.GenericServiceException.GenericServiceException",,,,1,6,6
+Public Method,"io.getlime.security.service.exceptions.GenericServiceException.getCode",,,,1,3,4
+Public Method,"io.getlime.security.service.exceptions.GenericServiceException.getLocalizedMessage",,,,1,4,0
+Public Method,"io.getlime.security.service.exceptions.GenericServiceException.getMessage",,,,1,4,0
+Public Method,"io.getlime.security.service.exceptions.GenericServiceException.setCode",,,,1,3,4
+Package,"io.getlime.security.service.i18n",,,,5,30,0
+Public Class,"io.getlime.security.service.i18n.LocalizationProvider",6,0,0,5,24,0
+Public Method,"io.getlime.security.service.i18n.LocalizationProvider.buildExceptionForCode",,,,1,3,0
+Public Method,"io.getlime.security.service.i18n.LocalizationProvider.buildExceptionForCode",,,,1,5,0
+Public Method,"io.getlime.security.service.i18n.LocalizationProvider.getLocalizedErrorMessage",,,,1,3,0
+Public Method,"io.getlime.security.service.i18n.LocalizationProvider.getLocalizedErrorMessage",,,,1,3,0
+Public Method,"io.getlime.security.service.i18n.LocalizationProvider.messageSource",,,,1,7,0
+Package,"io.getlime.security.service.util",,,,10,39,38
+Public Class,"io.getlime.security.service.util.ModelUtil",8,0,0,10,33,38
+Public Static Method,"io.getlime.security.service.util.ModelUtil.calendarWithDate",,,,2,9,6
+Public Static Method,"io.getlime.security.service.util.ModelUtil.dateWithCalendar",,,,2,6,6
+Public Static Method,"io.getlime.security.service.util.ModelUtil.toServiceStatus",,,,6,16,5
+Package,"io.getlime.security.service.util.model",,,,1,35,39
+Public Class,"io.getlime.security.service.util.model.ServiceError",3,0,0,1,32,39
+Public Static Method,"io.getlime.security.service.util.model.ServiceError.allCodes",,,,1,17,0
+Package,"io.getlime.security.soap",,,,0,0,0
+Package,"io.getlime.security.soap.client",,,,42,234,243
+Public Class,"io.getlime.security.soap.client.PowerAuthServiceClient",46,0,0,42,188,243
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.blockActivation",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.blockActivation",,,,1,3,5
+Private Method,"io.getlime.security.soap.client.PowerAuthServiceClient.calendarWithDate",,,,2,10,7
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.commitActivation",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.commitActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.createApplication",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.createApplication",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.createApplicationVersion",,,,1,6,6
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.createApplicationVersion",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getActivationListForUser",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getActivationListForUser",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getActivationStatus",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getActivationStatus",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getApplicationDetail",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getApplicationDetail",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getApplicationList",,,,1,3,4
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getApplicationList",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getSignatureAuditLog",,,,1,8,9
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getSignatureAuditLog",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.getSignatureAuditLog",,,,1,7,8
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.initActivation",,,,1,3,6
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.initActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.initActivation",,,,1,4,4
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.initActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.initActivation",,,,3,12,8
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.prepareActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.prepareActivation",,,,1,11,11
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.removeActivation",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.removeActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.supportApplicationVersion",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.supportApplicationVersion",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unblockActivation",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unblockActivation",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unlockVault",,,,1,9,9
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unlockVault",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unsupportApplicationVersion",,,,1,5,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.unsupportApplicationVersion",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.verifySignature",,,,1,3,5
+Public Method,"io.getlime.security.soap.client.PowerAuthServiceClient.verifySignature",,,,1,9,9
+Package,"io.getlime.security.util",,,,2,30,14
+Public Class,"io.getlime.security.util.QRUtil",10,0,0,2,19,14
+Public Static Method,"io.getlime.security.util.QRUtil.encode",,,,2,17,8

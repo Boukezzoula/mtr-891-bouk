@@ -1,0 +1,403 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbstractRollingWindowTest.java",,,,2,23,0
+File,"Barrier.java",,,,2,11,0
+File,"BarrierImpl.java",,,,8,33,3
+File,"BitsetRollingWindow.java",,,,6,36,0
+File,"BitsetRollingWindowTest.java",,,,1,7,0
+File,"CircuitBreaker.java",,,,23,114,7
+File,"CircuitBreakerTest.java",,,,19,92,12
+File,"DefaultRollingWindowTest.java",,,,1,7,0
+File,"Delay.java",,,,0,4,0
+File,"Fallback.java",,,,8,36,0
+File,"FallbackFunction.java",,,,0,5,5
+File,"FallbackTest.java",,,,20,90,0
+File,"FixedJitter.java",,,,2,12,3
+File,"FixedJitterTest.java",,,,8,33,0
+File,"Jitter.java",,,,0,5,3
+File,"NaiveRollingWindow.java",,,,8,39,0
+File,"NaiveRollingWindowTest.java",,,,1,7,0
+File,"NoDelay.java",,,,1,7,1
+File,"Preconditions.java",,,,5,16,1
+File,"RandomJitter.java",,,,2,13,5
+File,"RandomJitterTest.java",,,,9,34,0
+File,"Retry.java",,,,12,59,3
+File,"RetryTest.java",,,,61,553,0
+File,"RollingWindow.java",,,,1,8,6
+File,"RunningStopwatch.java",,,,0,4,0
+File,"ScheduledExecutorTimeoutWatcher.java",,,,2,13,0
+File,"ScheduledExecutorTimeoutWatcherTest.java",,,,7,48,0
+File,"SetOfThrowables.java",,,,8,34,11
+File,"SetOfThrowablesTest.java",,,,10,87,0
+File,"SneakyThrow.java",,,,2,8,0
+File,"Stopwatch.java",,,,0,4,0
+File,"SystemStopwatch.java",,,,2,14,0
+File,"SystemStopwatchTest.java",,,,2,20,0
+File,"TestAction.java",,,,7,32,0
+File,"TestAction.java",,,,4,23,0
+File,"TestAction.java",,,,6,29,0
+File,"TestAction.java",,,,6,32,0
+File,"TestDelay.java",,,,7,39,0
+File,"TestException.java",,,,2,8,1
+File,"TestStopwatch.java",,,,3,16,0
+File,"TestThread.java",,,,7,35,2
+File,"TestTimeoutWatcher.java",,,,5,29,4
+File,"ThreadSleepDelay.java",,,,3,18,0
+File,"ThreadSleepDelayTest.java",,,,10,65,2
+File,"Timeout.java",,,,8,46,3
+File,"TimeoutExecution.java",,,,6,29,0
+File,"TimeoutTest.java",,,,19,121,0
+File,"TimeoutWatcher.java",,,,0,4,0
+Package,"com",,,,0,0,0
+Package,"com.github",,,,0,0,0
+Package,"com.github.ladicek",,,,0,0,0
+Package,"com.github.ladicek.oaken_ocean",,,,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core",,,,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core.circuit",,,,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core.circuit.breaker",,,,66,356,25
+Public Abstract Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.AbstractRollingWindowTest",2,0,0,2,20,0
+Protected Abstract Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.AbstractRollingWindowTest.createRollingWindow",,,,0,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.AbstractRollingWindowTest.specScenario1",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.AbstractRollingWindowTest.specScenario2",,,,1,9,0
+Final Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow",2,52,19,6,34,0
+Constructor,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow.BitsetRollingWindow",,,,1,5,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow.failureThresholdReached",,,,2,6,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow.nextIndex",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow.recordFailure",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindow.recordSuccess",,,,1,5,0
+Public Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindowTest",3,0,0,1,6,0
+Protected Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.BitsetRollingWindowTest.createRollingWindow",,,,1,4,0
+Public Generic Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker",12,71,45,23,105,7
+Public Constructor,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.CircuitBreaker",,,,1,12,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.call",,,,4,14,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.fromClosedToOpen",,,,2,6,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.fromHalfOpenToClosed",,,,2,6,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.fromHalfOpenToOpen",,,,2,6,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.fromOpenToHalfOpen",,,,2,6,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.inClosed",,,,5,17,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.inHalfOpen",,,,3,13,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreaker.inOpen",,,,2,8,0
+Public Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest",12,0,0,19,82,12
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.setUp",,,,1,4,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1",,,,12,46,7
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_10)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_11)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_4)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_5)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_6)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_7)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_8)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test1.(lambda_expr_9)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2",,,,6,27,5
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2.(lambda_expr_4)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.CircuitBreakerTest.test2.(lambda_expr_5)",,,,1,1,0
+Public Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.DefaultRollingWindowTest",2,0,0,1,6,0
+Protected Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.DefaultRollingWindowTest.createRollingWindow",,,,1,4,0
+Final Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow",1,50,19,8,38,0
+Constructor,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow.NaiveRollingWindow",,,,1,4,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow.failureThresholdReached",,,,4,12,0
+Private Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow.nextIndex",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow.recordFailure",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindow.recordSuccess",,,,1,5,0
+Public Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindowTest",3,0,0,1,6,0
+Protected Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.NaiveRollingWindowTest.createRollingWindow",,,,1,4,0
+Public Interface,"com.github.ladicek.oaken_ocean.core.circuit.breaker.RollingWindow",1,0,0,1,7,6
+Static Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.RollingWindow.create",,,,1,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.RollingWindow.recordFailure",,,,0,1,3
+Abstract Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.RollingWindow.recordSuccess",,,,0,1,3
+Public Generic Class,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction",7,33,0,4,18,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction.TestAction",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction.call",,,,2,8,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction.create",,,,1,4,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.circuit.breaker.TestAction.create.V",0,0,0,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core.fallback",,,,34,160,5
+Public Generic Class,"com.github.ladicek.oaken_ocean.core.fallback.Fallback",7,16,16,8,34,0
+Public Constructor,"com.github.ladicek.oaken_ocean.core.fallback.Fallback.Fallback",,,,1,5,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.fallback.Fallback.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.Fallback.call",,,,7,24,0
+Public Generic Interface,"com.github.ladicek.oaken_ocean.core.fallback.FallbackFunction",3,0,0,0,4,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.fallback.FallbackFunction.T",0,0,0,0,0,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackFunction.call",,,,0,1,0
+Public Class,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest",13,0,0,20,82,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_exceptionThenException",,,,2,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_exceptionThenException.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_exceptionThenValue",,,,2,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_exceptionThenValue.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenException",,,,3,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenException.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenException.(lambda_expr_2)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenValue",,,,3,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenValue.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.immediatelyReturning_valueThenValue.(lambda_expr_2)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_interruptedInAction",,,,3,10,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_interruptedInAction.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_interruptedInAction.(lambda_expr_2)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_interruptedInFallback",,,,2,15,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_interruptedInFallback.(lambda_expr_1)",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_selfInterruptedInAction",,,,3,15,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_selfInterruptedInAction.(lambda_expr_1)",,,,1,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_selfInterruptedInAction.(lambda_expr_2)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_selfInterruptedInFallback",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.fallback.FallbackTest.waitingOnBarrier_selfInterruptedInFallback.(lambda_expr_1)",,,,1,6,0
+Public Final Generic Class,"com.github.ladicek.oaken_ocean.core.fallback.TestAction",3,50,0,6,26,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.TestAction",,,,1,5,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.call",,,,3,10,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.immediatelyReturning",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.immediatelyReturning.V",0,0,0,0,0,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.waitingOnBarrier",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.fallback.TestAction.waitingOnBarrier.V",0,0,0,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core.retry",,,,121,874,17
+Public Interface,"com.github.ladicek.oaken_ocean.core.retry.Delay",1,0,0,0,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.retry.Delay.sleep",,,,0,1,0
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.FixedJitter",2,0,0,2,10,3
+Public Constructor,"com.github.ladicek.oaken_ocean.core.retry.FixedJitter.FixedJitter",,,,1,3,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.FixedJitter.generate",,,,1,4,0
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.FixedJitterTest",7,0,0,8,28,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.FixedJitterTest.negative",,,,3,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.FixedJitterTest.negative.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.FixedJitterTest.positive",,,,3,11,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.FixedJitterTest.zero",,,,2,7,0
+Public Interface,"com.github.ladicek.oaken_ocean.core.retry.Jitter",1,0,0,0,4,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.retry.Jitter.generate",,,,0,1,0
+Public Enum Type,"com.github.ladicek.oaken_ocean.core.retry.NoDelay",2,,,1,6,1
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.NoDelay.sleep",,,,1,3,0
+Public Implicit Method,"com.github.ladicek.oaken_ocean.core.retry.NoDelay.valueOf",,,,0,,
+Public Implicit Method,"com.github.ladicek.oaken_ocean.core.retry.NoDelay.values",,,,0,,
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.RandomJitter",3,0,0,2,10,5
+Public Constructor,"com.github.ladicek.oaken_ocean.core.retry.RandomJitter.RandomJitter",,,,1,3,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitter.generate",,,,1,4,1
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest",7,0,0,9,29,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest.negative",,,,3,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest.negative.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest.positive",,,,3,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest.zero",,,,3,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RandomJitterTest.zero.(lambda_expr_1)",,,,1,1,0
+Public Generic Class,"com.github.ladicek.oaken_ocean.core.retry.Retry",13,0,0,12,52,3
+Public Constructor,"com.github.ladicek.oaken_ocean.core.retry.Retry.Retry",,,,3,11,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.retry.Retry.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.Retry.call",,,,9,31,2
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.RetryTest",18,0,0,61,540,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_abortingException",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_interruptedInAction",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_interruptedInAction.(lambda_expr_1)",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_retriedException",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_selfInterruptedInAction",,,,2,17,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_selfInterruptedInAction.(lambda_expr_1)",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_unknownException",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_value",,,,2,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.immediatelyReturning_value.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_equalToMaxRetries",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_infiniteDuration",,,,1,14,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_infiniteRetries",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_interruptedInAction",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_interruptedInAction.(lambda_expr_1)",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_interruptedInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_lessThanMaxRetries",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_moreThanMaxRetries",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_selfInterruptedInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_totalDelayEqualToMaxDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_totalDelayLessThanMaxDuration",,,,1,14,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_totalDelayMoreThanMaxDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenAbortingException_unexpectedExceptionInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_equalToMaxRetries",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_infiniteDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_interruptedInAction",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_interruptedInAction.(lambda_expr_1)",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_interruptedInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_lessThanMaxRetries",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_moreThanMaxRetries",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_selfInterruptedInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_totalDelayEqualToMaxDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_totalDelayLessThanMaxDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_totalDelayMoreThanMaxDuration",,,,1,16,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenRetriedException_unexpectedExceptionInDelay",,,,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenSelfInterrupt",,,,2,17,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenSelfInterrupt.(lambda_expr_1)",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_equalToMaxRetries",,,,2,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_equalToMaxRetries.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_infiniteDuration",,,,2,14,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_infiniteDuration.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_infiniteRetries",,,,2,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_infiniteRetries.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_interruptedInAction",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_interruptedInAction.(lambda_expr_1)",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_interruptedInDelay",,,,2,13,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_interruptedInDelay.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_lessThanMaxRetries",,,,2,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_lessThanMaxRetries.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_moreThanMaxRetries",,,,2,10,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_moreThanMaxRetries.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_selfInterruptedInDelay",,,,2,13,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_selfInterruptedInDelay.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayEqualToMaxDuration",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayEqualToMaxDuration.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayLessThanMaxDuration",,,,2,14,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayLessThanMaxDuration.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayMoreThanMaxDuration",,,,2,16,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_totalDelayMoreThanMaxDuration.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_unexpectedExceptionInDelay",,,,2,13,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.initiallyFailing_retriedExceptionThenValue_unexpectedExceptionInDelay.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.RetryTest.setUp",,,,1,4,0
+Public Final Generic Class,"com.github.ladicek.oaken_ocean.core.retry.TestAction",4,60,30,6,28,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.retry.TestAction.TestAction",,,,1,5,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.retry.TestAction.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.TestAction.call",,,,2,8,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.retry.TestAction.immediatelyReturning",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.retry.TestAction.immediatelyReturning.V",0,0,0,0,0,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.retry.TestAction.initiallyFailing",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.retry.TestAction.initiallyFailing.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.TestAction.numberOfInvocations",,,,1,3,0
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.TestDelay",7,60,0,7,35,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.retry.TestDelay.TestDelay",,,,1,7,0
+Public Static Method,"com.github.ladicek.oaken_ocean.core.retry.TestDelay.exceptionThrowing",,,,1,4,0
+Public Static Method,"com.github.ladicek.oaken_ocean.core.retry.TestDelay.normal",,,,1,3,0
+Public Static Method,"com.github.ladicek.oaken_ocean.core.retry.TestDelay.selfInterrupting",,,,1,3,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.TestDelay.sleep",,,,3,12,0
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelay",5,0,0,3,15,0
+Public Constructor,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelay.ThreadSleepDelay",,,,1,4,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelay.sleep",,,,2,7,0
+Public Class,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest",11,0,0,10,59,2
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.negativeDelay",,,,2,4,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.negativeDelay.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.nullJitter",,,,2,4,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.nullJitter.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.positiveDelay_fixedJitter",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.positiveDelay_randomJitter",,,,1,8,1
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.positiveDelay_zeroJitter",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.zeroDelay_fixedJitter",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.zeroDelay_randomJitter",,,,1,8,1
+Public Method,"com.github.ladicek.oaken_ocean.core.retry.ThreadSleepDelayTest.zeroDelay_zeroJitter",,,,1,8,0
+Package,"com.github.ladicek.oaken_ocean.core.stopwatch",,,,7,58,0
+Public Interface,"com.github.ladicek.oaken_ocean.core.stopwatch.RunningStopwatch",0,0,0,0,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.stopwatch.RunningStopwatch.elapsedTimeInMillis",,,,0,1,0
+Public Interface,"com.github.ladicek.oaken_ocean.core.stopwatch.Stopwatch",1,0,0,0,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.stopwatch.Stopwatch.start",,,,0,1,0
+Public Class,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatch",3,0,0,1,13,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatch.start",,,,1,11,0
+Anonymous Class,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatch.start.(Anon_1)",3,0,0,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatch.start.(Anon_1).elapsedTimeInMillis",,,,1,5,0
+Public Class,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatchTest",7,0,0,2,15,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatchTest.delayedMeasurement",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.SystemStopwatchTest.immediateMeasurement",,,,1,5,0
+Public Class,"com.github.ladicek.oaken_ocean.core.stopwatch.TestStopwatch",2,50,50,2,15,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.TestStopwatch.setCurrentValue",,,,1,3,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.TestStopwatch.start",,,,1,9,0
+Anonymous Class,"com.github.ladicek.oaken_ocean.core.stopwatch.TestStopwatch.start.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.stopwatch.TestStopwatch.start.(Anon_1).elapsedTimeInMillis",,,,1,4,0
+Package,"com.github.ladicek.oaken_ocean.core.timeout",,,,54,322,7
+Public Class,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcher",4,0,0,2,10,0
+Public Constructor,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcher.ScheduledExecutorTimeoutWatcher",,,,1,3,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcher.schedule",,,,1,4,0
+Public Class,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest",11,50,50,7,40,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.notTimedOut",,,,1,8,0
+Private Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.run",,,,3,11,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.run.(lambda_expr_1)",,,,2,7,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.setUp",,,,1,5,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.tearDown",,,,1,4,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.ScheduledExecutorTimeoutWatcherTest.timedOut",,,,1,8,0
+Public Final Generic Class,"com.github.ladicek.oaken_ocean.core.timeout.TestAction",3,60,0,7,29,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.TestAction",,,,1,5,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.call",,,,3,10,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.delayed",,,,1,3,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.delayed",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.delayed.V",0,0,0,0,0,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.delayed.V",0,0,0,0,0,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.immediatelyReturning",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.timeout.TestAction.immediatelyReturning.V",0,0,0,0,0,0
+Public Final Class,"com.github.ladicek.oaken_ocean.core.timeout.TestTimeoutWatcher",10,50,50,5,26,4
+Public Constructor,"com.github.ladicek.oaken_ocean.core.timeout.TestTimeoutWatcher.TestTimeoutWatcher",,,,1,4,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TestTimeoutWatcher.schedule",,,,4,17,1
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TestTimeoutWatcher.schedule.(lambda_expr_1)",,,,2,10,1
+Public Generic Class,"com.github.ladicek.oaken_ocean.core.timeout.Timeout",9,0,0,8,41,3
+Public Constructor,"com.github.ladicek.oaken_ocean.core.timeout.Timeout.Timeout",,,,1,6,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.timeout.Timeout.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.Timeout.call",,,,7,29,3
+Final Class,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution",2,46,46,6,27,0
+Constructor,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution.TimeoutExecution",,,,1,5,0
+Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution.finish",,,,1,3,0
+Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution.hasTimedOut",,,,1,3,0
+Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution.timeoutAndInterrupt",,,,2,5,0
+Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutExecution.timeoutInMillis",,,,1,3,0
+Public Class,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest",15,41,41,19,111,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_exception_interruptedEarly",,,,1,10,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_exception_notTimedOut",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_exception_timedOut",,,,1,11,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_exception_timedOutNoninterruptibly",,,,1,12,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_interruptedEarly",,,,2,10,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_interruptedEarly.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_notTimedOut",,,,2,8,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_notTimedOut.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_timedOut",,,,2,11,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_timedOut.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_timedOutNoninterruptibly",,,,2,12,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.delayed_value_timedOutNoninterruptibly.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.immediatelyReturning_exception",,,,1,6,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.immediatelyReturning_value",,,,2,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.immediatelyReturning_value.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.negativeTimeout",,,,3,6,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.negativeTimeout.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.negativeTimeout.(lambda_expr_2)",,,,1,1,0
+Public Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutTest.setUp",,,,1,6,0
+Public Interface,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutWatcher",1,0,0,0,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.timeout.TimeoutWatcher.schedule",,,,0,1,0
+Package,"com.github.ladicek.oaken_ocean.core.util",,,,34,188,15
+Public Class,"com.github.ladicek.oaken_ocean.core.util.Preconditions",2,0,0,5,15,1
+Private Constructor,"com.github.ladicek.oaken_ocean.core.util.Preconditions.Preconditions",,,,1,1,1
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.util.Preconditions.check",,,,2,6,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.Preconditions.check.T",0,0,0,0,0,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.util.Preconditions.checkNotNull",,,,2,6,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.Preconditions.checkNotNull.T",0,0,0,0,0,0
+Public Class,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowables",7,50,0,8,29,11
+Private Constructor,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowables.SetOfThrowables",,,,1,3,0
+Public Static Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowables.create",,,,1,5,3
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowables.includes",,,,3,8,4
+Public Static Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowables.withoutCustomThrowables",,,,3,9,4
+Public Class,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest",9,0,0,10,82,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.normal_emptySet",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.normal_singletonSet_exception",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.normal_singletonSet_throwable",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.normal_twoElements_runtimeExceptionAndError",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.normal_twoElements_throwableAndException",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.withoutCustomThrowables_emptySet",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.withoutCustomThrowables_singletonSet_exception",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.withoutCustomThrowables_singletonSet_throwable",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.withoutCustomThrowables_twoElements_runtimeExceptionAndError",,,,1,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.SetOfThrowablesTest.withoutCustomThrowables_twoElements_throwableAndException",,,,1,8,0
+Public Class,"com.github.ladicek.oaken_ocean.core.util.SneakyThrow",2,0,0,2,7,0
+Private Constructor,"com.github.ladicek.oaken_ocean.core.util.SneakyThrow.SneakyThrow",,,,1,1,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.util.SneakyThrow.sneakyThrow",,,,1,4,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.SneakyThrow.sneakyThrow.E",1,0,0,0,0,0
+Public Class,"com.github.ladicek.oaken_ocean.core.util.TestException",0,0,0,2,7,1
+Public Constructor,"com.github.ladicek.oaken_ocean.core.util.TestException.TestException",,,,1,2,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.util.TestException.doThrow",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.TestException.doThrow.V",0,0,0,0,0,0
+Public Final Generic Class,"com.github.ladicek.oaken_ocean.core.util.TestThread",7,50,41,7,32,2
+Private Constructor,"com.github.ladicek.oaken_ocean.core.util.TestThread.TestThread",,,,1,3,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.TestThread.V",0,0,0,0,0,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.TestThread.await",,,,3,11,2
+Public Method,"com.github.ladicek.oaken_ocean.core.util.TestThread.run",,,,2,8,0
+Public Static Generic Method,"com.github.ladicek.oaken_ocean.core.util.TestThread.runOnTestThread",,,,1,5,0
+TypeVariable,"com.github.ladicek.oaken_ocean.core.util.TestThread.runOnTestThread.V",0,0,0,0,0,0
+Package,"com.github.ladicek.oaken_ocean.core.util.barrier",,,,10,44,3
+Public Interface,"com.github.ladicek.oaken_ocean.core.util.barrier.Barrier",2,0,0,2,10,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.util.barrier.Barrier.await",,,,0,1,0
+Static Method,"com.github.ladicek.oaken_ocean.core.util.barrier.Barrier.interruptible",,,,1,3,0
+Static Method,"com.github.ladicek.oaken_ocean.core.util.barrier.Barrier.noninterruptible",,,,1,3,0
+Abstract Method,"com.github.ladicek.oaken_ocean.core.util.barrier.Barrier.open",,,,0,1,0
+Final Class,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl",4,33,33,4,31,3
+Constructor,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.BarrierImpl",,,,1,3,0
+Private Static Class,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.Sync",0,0,0,4,12,0
+Method,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.Sync.isSignalled",,,,1,3,0
+Protected Method,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.Sync.tryAcquireShared",,,,2,3,0
+Protected Method,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.Sync.tryReleaseShared",,,,1,4,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.await",,,,2,8,0
+Public Method,"com.github.ladicek.oaken_ocean.core.util.barrier.BarrierImpl.open",,,,1,4,0

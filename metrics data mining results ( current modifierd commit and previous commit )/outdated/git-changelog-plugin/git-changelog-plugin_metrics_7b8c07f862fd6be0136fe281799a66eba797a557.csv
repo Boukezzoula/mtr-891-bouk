@@ -1,0 +1,58 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"GitChangelogMasterToSlaveCallable.java",,,,2,28,0
+File,"GitLogBasicChangelogPostPublisher.java",,,,6,53,0
+File,"GitLogBasicChangelogTokenMacro.java",,,,2,16,0
+File,"GitLogGenericPostPublishPerformer.java",,,,11,67,0
+File,"GitLogGenericPostPublishPerformerBuilder.java",,,,5,27,0
+File,"GitLogJiraFilterPostPublisher.java",,,,6,62,0
+File,"GitLogJiraFilterTokenMacro.java",,,,2,23,0
+File,"GitLogTokenMacro.java",,,,2,27,0
+Package,"de",,,,0,0,0
+Package,"de.wellnerbou",,,,0,0,0
+Package,"de.wellnerbou.jenkins",,,,0,0,0
+Package,"de.wellnerbou.jenkins.gitchangelog",,,,0,0,0
+Package,"de.wellnerbou.jenkins.gitchangelog.callable",,,,2,28,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable",8,0,0,2,14,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable.GitChangelogMasterToSlaveCallable",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.callable.GitChangelogMasterToSlaveCallable.call",,,,1,8,0
+Package,"de.wellnerbou.jenkins.gitchangelog.publish",,,,28,209,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher",13,50,50,4,40,0
+Public Static Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl",4,0,0,2,11,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.DescriptorImpl.isApplicable",,,,1,4,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.GitLogBasicChangelogPostPublisher",,,,1,6,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.createChangelogProcessor",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.getRequiredMonitorService",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogBasicChangelogPostPublisher.perform",,,,1,11,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer",15,67,57,11,53,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.GitLogGenericPostPublishPerformer",,,,1,6,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.closePrintStreamIfWrittenToFile",,,,2,5,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.createGitChangelogArgs",,,,2,11,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.decideForPrintStream",,,,2,9,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.perform",,,,1,10,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.resolveAndExpandIfNotNull",,,,2,3,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformer.shouldWriteToFile",,,,1,3,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder",3,60,60,5,25,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.build",,,,1,3,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.setChangelogProcessor",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.withFromRev",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.withToRev",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogGenericPostPublishPerformerBuilder.writeTofile",,,,1,4,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher",14,50,40,4,47,0
+Public Static Class,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl",4,0,0,2,11,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.DescriptorImpl.isApplicable",,,,1,4,0
+Public Constructor,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.GitLogJiraFilterPostPublisher",,,,1,8,0
+Private Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.createChangelogProcessor",,,,1,6,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.getRequiredMonitorService",,,,1,4,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.publish.GitLogJiraFilterPostPublisher.perform",,,,1,11,0
+Package,"de.wellnerbou.jenkins.gitchangelog.tokenmacro",,,,6,66,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro",5,0,0,2,12,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro.acceptsMacroName",,,,1,4,0
+Protected Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogBasicChangelogTokenMacro.createChangelogProcessor",,,,1,4,0
+Public Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro",6,50,50,2,19,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro.acceptsMacroName",,,,1,4,0
+Protected Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogJiraFilterTokenMacro.createChangelogProcessor",,,,1,7,0
+Public Abstract Class,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro",12,0,0,2,16,0
+Protected Abstract Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro.createChangelogProcessor",,,,0,1,0
+Public Method,"de.wellnerbou.jenkins.gitchangelog.tokenmacro.GitLogTokenMacro.evaluate",,,,2,13,0

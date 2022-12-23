@@ -1,0 +1,141 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"CIMClient.java",,,,35,209,52
+File,"CIMClientTest.java",,,,2,52,10
+File,"CLanguage.java",,,,2,17,32
+File,"ClientAuthenticationHandlerWSS.java",,,,13,85,16
+File,"CoverityFooter.java",,,,3,35,19
+File,"CoverityPlugin.java",,,,1,98,23
+File,"CoverityPluginMetrics.java",,,,1,47,20
+File,"CoverityPluginTest.java",,,,1,11,10
+File,"CoverityProfiles.java",,,,8,53,11
+File,"CoverityRules.java",,,,19,164,25
+File,"CoverityRulesRepositories.java",,,,1,33,13
+File,"CoveritySensor.java",,,,33,267,32
+File,"CoveritySensorTest.java",,,,9,88,15
+File,"CoverityUtil.java",,,,12,49,12
+File,"CoverityWidget.java",,,,3,19,11
+File,"CppLanguage.java",,,,2,17,32
+File,"CsLanguage.java",,,,2,17,32
+File,"CxxLanguage.java",,,,2,17,32
+File,"FileGenerator.java",,,,8,85,12
+File,"TripleFromDefects.java",,,,14,29,10
+Package,"org.sonar",,,,0,0,0
+Package,"org.sonar.plugins",,,,0,0,0
+Package,"org.sonar.plugins.coverity",,,,2,109,33
+Public Final Class,"org.sonar.plugins.coverity.CoverityPlugin",18,0,0,1,80,13
+Public Method,"org.sonar.plugins.coverity.CoverityPlugin.getExtensions",,,,1,69,12
+Public Class,"org.sonar.plugins.coverity.CoverityPluginTest",4,0,0,1,7,0
+Public Method,"org.sonar.plugins.coverity.CoverityPluginTest.testGetExtensions",,,,1,5,0
+Package,"org.sonar.plugins.coverity.base",,,,1,47,20
+Public Class,"org.sonar.plugins.coverity.base.CoverityPluginMetrics",5,100,100,1,42,8
+Public Method,"org.sonar.plugins.coverity.base.CoverityPluginMetrics.getMetrics",,,,1,4,0
+Package,"org.sonar.plugins.coverity.batch",,,,42,355,47
+Public Class,"org.sonar.plugins.coverity.batch.CoveritySensor",40,77,77,33,238,22
+Public Constructor,"org.sonar.plugins.coverity.batch.CoveritySensor.CoveritySensor",,,,1,8,4
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.analyse",,,,22,140,12
+Private Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getCoverityLogoMeasures",,,,1,44,0
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getDefectURL",,,,2,4,1
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getIssueMessage",,,,1,6,0
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getMainEvent",,,,3,8,0
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getResourceForFile",,,,1,6,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.shouldExecuteOnProject",,,,1,5,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.toString",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.batch.CoveritySensorTest",19,81,81,9,64,5
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.setUp",,,,1,7,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetCheckerProperties",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetCoverityLogoMeasures",,,,1,11,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetDefectURL",,,,1,13,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetIssueMessage",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetMainEvent",,,,2,14,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetResourceForFile",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testShouldExecuteOnProject",,,,1,4,1
+Package,"org.sonar.plugins.coverity.server",,,,36,318,177
+Public Class,"org.sonar.plugins.coverity.server.CLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CLanguage.CLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityProfiles",8,33,33,4,42,1
+Class,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile",7,0,0,4,19,1
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.CoverityProfile",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.createProfile",,,,2,9,1
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.toString",,,,1,4,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfiles",,,,1,7,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.provide",,,,2,8,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.toString",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityRules",26,86,79,18,142,9
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRules.CoverityRules",,,,1,2,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRules.CoverityRules",,,,1,3,0
+Class,"org.sonar.plugins.coverity.server.CoverityRules.InternalRule",1,0,0,1,14,0
+Constructor,"org.sonar.plugins.coverity.server.CoverityRules.InternalRule.InternalRule",,,,1,7,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityRules.define",,,,3,21,3
+Public Static Method,"org.sonar.plugins.coverity.server.CoverityRules.getMapOfRuleMaps",,,,1,3,0
+Private Static Method,"org.sonar.plugins.coverity.server.CoverityRules.getValue",,,,1,5,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityRules.parseRules",,,,11,67,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityRulesRepositories",7,0,0,1,16,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRulesRepositories.CoverityRulesRepositories",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CppLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CppLanguage.CppLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CppLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CsLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CsLanguage.CsLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CsLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CxxLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CxxLanguage.CxxLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CxxLanguage.getFileSuffixes",,,,1,4,0
+Package,"org.sonar.plugins.coverity.ui",,,,6,54,30
+Public Final Class,"org.sonar.plugins.coverity.ui.CoverityFooter",4,0,0,3,26,9
+Public Constructor,"org.sonar.plugins.coverity.ui.CoverityFooter.CoverityFooter",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ui.CoverityFooter.getHtml",,,,2,20,9
+Public Class,"org.sonar.plugins.coverity.ui.CoverityWidget",7,0,0,3,15,1
+Public Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getId",,,,1,3,0
+Protected Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getTemplatePath",,,,1,4,1
+Public Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getTitle",,,,1,3,0
+Package,"org.sonar.plugins.coverity.util",,,,20,134,24
+Public Class,"org.sonar.plugins.coverity.util.CoverityUtil",11,0,0,12,37,1
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,1,6,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,3,6,1
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.flattenCheckerSubcategoryId",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.getRuleKey",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.listFiles",,,,4,11,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.listFiles",,,,1,3,0
+Public Class,"org.sonar.plugins.coverity.util.FileGenerator",16,50,0,8,74,2
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.generateRulesFiles",,,,7,55,2
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.main",,,,1,10,0
+Package,"org.sonar.plugins.coverity.ws",,,,64,375,88
+Public Class,"org.sonar.plugins.coverity.ws.CIMClient",38,88,46,35,192,42
+Public Constructor,"org.sonar.plugins.coverity.ws.CIMClient.CIMClient",,,,1,7,0
+Private Method,"org.sonar.plugins.coverity.ws.CIMClient.attachAuthenticationHandler",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getConfigurationService",,,,2,17,4
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getDefectService",,,,2,17,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getDefects",,,,2,17,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getDefects",,,,2,16,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getHost",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getMapOfCheckerPropertyDataObj",,,,4,22,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getPassword",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getPort",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getProject",,,,2,10,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getProjectKey",,,,3,11,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getProjects",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getStaticStreams",,,,2,8,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getStream",,,,2,10,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getStreamDefectsForMergedDefects",,,,4,18,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getURL",,,,2,3,6
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getUser",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.isUseSSL",,,,1,3,0
+Public Class,"org.sonar.plugins.coverity.ws.CIMClientTest",14,0,0,2,37,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClientTest.testGetMapOfCheckerPropertyDataObj",,,,2,35,0
+Public Class,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS",22,75,75,12,66,6
+Public Constructor,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.ClientAuthenticationHandlerWSS",,,,2,19,1
+Private Class,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.SecurityEnvironmentHandler",2,0,0,1,4,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.SecurityEnvironmentHandler.handle",,,,1,2,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.close",,,,1,2,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.destroy",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.getHeaders",,,,1,6,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.handleFault",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.handleMessage",,,,4,17,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.init",,,,1,3,0
+Private Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.quote",,,,1,3,0
+Public Final Class,"org.sonar.plugins.coverity.ws.TripleFromDefects",2,0,0,14,28,0
+Public Constructor,"org.sonar.plugins.coverity.ws.TripleFromDefects.TripleFromDefects",,,,1,5,0
+Public Method,"org.sonar.plugins.coverity.ws.TripleFromDefects.equals",,,,9,11,0
+Public Method,"org.sonar.plugins.coverity.ws.TripleFromDefects.hashCode",,,,4,7,0

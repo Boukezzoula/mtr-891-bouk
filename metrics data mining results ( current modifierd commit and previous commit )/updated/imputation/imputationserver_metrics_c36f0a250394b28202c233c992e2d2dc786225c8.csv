@@ -1,0 +1,632 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AllTests.java",,,,0,11,0
+File,"BGzipLineWriter.java",,,,4,27,0
+File,"ChiSquareObject.java",,,,7,29,0
+File,"Chromosome.java",,,,26,84,0
+File,"CompressionEncryption.java",,,,15,152,15
+File,"FailureNotification.java",,,,10,64,3
+File,"FastQCStatistics.java",,,,127,624,55
+File,"FastQualityControl.java",,,,17,171,4
+File,"FastQualityControlTest.java",,,,27,215,41
+File,"FastVCFFileReader.java",,,,9,54,2
+File,"FileMerger.java",,,,26,175,1
+File,"FileUtil.java",,,,5,36,0
+File,"GeneticMap.java",,,,22,78,0
+File,"GeneticMapList.java",,,,9,47,0
+File,"GenomicTools.java",,,,55,307,6
+File,"GenotypeLine.java",,,,11,44,0
+File,"HadoopJobStep.java",,,,5,31,5
+File,"ImputationJobMinimac3.java",,,,41,210,8
+File,"ImputationMapperMinimac3.java",,,,14,179,12
+File,"ImputationMinimac3.java",,,,50,314,21
+File,"ImputationMinimac3Test.java",,,,52,518,84
+File,"ImputationPipelineMinimac3.java",,,,72,421,20
+File,"InputValidation.java",,,,50,315,11
+File,"InputValidationTest.java",,,,19,198,72
+File,"MergedVcfFile.java",,,,3,25,0
+File,"MinimalVariantContext.java",,,,29,103,0
+File,"ParallelHadoopJobStep.java",,,,27,141,2
+File,"PasswordCreator.java",,,,8,43,1
+File,"QualityControlObject.java",,,,4,17,0
+File,"RefPanel.java",,,,18,76,0
+File,"RefPanelList.java",,,,10,61,0
+File,"SnpStats.java",,,,32,105,0
+File,"Test.java",,,,5,78,4
+File,"Test2.java",,,,14,63,6
+File,"TestCluster.java",,,,8,59,3
+File,"TestSFTPServer.java",,,,5,52,0
+File,"VCFBuilder.java",,,,33,205,20
+File,"VCFLineParser.java",,,,18,105,5
+File,"VCFLineParserTest.java",,,,12,158,1
+File,"VcfChunk.java",,,,23,96,1
+File,"VcfChunkOutput.java",,,,15,82,0
+File,"VcfChunkUtil.java",,,,10,64,6
+File,"VcfFile.java",,,,26,94,0
+File,"VcfFileUtil.java",,,,35,223,5
+File,"VcfLiftOver.java",,,,11,89,4
+File,"WorkflowTestContext.java",,,,43,176,3
+Package,"genepi",,,,0,0,0
+Package,"genepi.imputationserver",,,,0,11,0
+Public Class,"genepi.imputationserver.AllTests",2,0,0,0,4,0
+Package,"genepi.imputationserver.steps",,,,240,1947,251
+Public Class,"genepi.imputationserver.steps.CompressionEncryption",27,0,0,15,127,15
+Private Method,"genepi.imputationserver.steps.CompressionEncryption.findFiles",,,,3,15,0
+Public Method,"genepi.imputationserver.steps.CompressionEncryption.run",,,,12,109,15
+Public Class,"genepi.imputationserver.steps.FailureNotification",10,0,0,10,58,3
+Public Method,"genepi.imputationserver.steps.FailureNotification.run",,,,10,56,3
+Public Class,"genepi.imputationserver.steps.FastQualityControl",22,0,0,17,155,4
+Public Method,"genepi.imputationserver.steps.FastQualityControl.run",,,,16,149,4
+Protected Method,"genepi.imputationserver.steps.FastQualityControl.setupTabix",,,,1,4,0
+Public Class,"genepi.imputationserver.steps.FastQualityControlTest",14,0,0,24,200,41
+Class,"genepi.imputationserver.steps.FastQualityControlTest.QcStatisticsMock",4,33,33,3,15,1
+Public Constructor,"genepi.imputationserver.steps.FastQualityControlTest.QcStatisticsMock.QcStatisticsMock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.QcStatisticsMock.getFolder",,,,1,4,1
+Protected Method,"genepi.imputationserver.steps.FastQualityControlTest.QcStatisticsMock.setupTabix",,,,1,4,0
+Protected Method,"genepi.imputationserver.steps.FastQualityControlTest.buildContext",,,,1,16,0
+Protected Method,"genepi.imputationserver.steps.FastQualityControlTest.run",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testCountAmountSplitsForSeveralContigs",,,,3,18,5
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testCountLinesInChunkMetaFile",,,,2,15,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testCountLinesInFailedChunkFile",,,,3,22,3
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testCountSamplesInCreatedChunk",,,,4,20,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testCountSitesForOneChunkedContig",,,,4,27,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testQcStatisticAllChunksExcluded",,,,1,10,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testQcStatistics",,,,1,13,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testQcStatisticsAllChunksFailed",,,,1,13,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testQcStatisticsAllChunksPassed",,,,1,10,4
+Public Method,"genepi.imputationserver.steps.FastQualityControlTest.testchrXSetup",,,,2,14,2
+Public Class,"genepi.imputationserver.steps.ImputationMinimac3",23,72,68,47,294,21
+Public Constructor,"genepi.imputationserver.steps.ImputationMinimac3.ImputationMinimac3",,,,1,4,0
+Private Method,"genepi.imputationserver.steps.ImputationMinimac3.convertChunkfile",,,,2,21,2
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3.onJobFinish",,,,3,15,3
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3.onJobStart",,,,1,4,0
+Private Method,"genepi.imputationserver.steps.ImputationMinimac3.printSummary",,,,6,24,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3.run",,,,20,162,14
+Anonymous Class,"genepi.imputationserver.steps.ImputationMinimac3.run.(Anon_1)",4,0,0,3,15,0
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3.run.(Anon_1).readConfigFile",,,,3,14,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3.setup",,,,1,4,0
+Private Method,"genepi.imputationserver.steps.ImputationMinimac3.updateMessage",,,,11,44,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3.updateProgress",,,,2,8,0
+Public Class,"genepi.imputationserver.steps.ImputationMinimac3Test",30,78,78,42,493,84
+Class,"genepi.imputationserver.steps.ImputationMinimac3Test.CompressionEncryptionMock",3,0,0,2,11,1
+Public Constructor,"genepi.imputationserver.steps.ImputationMinimac3Test.CompressionEncryptionMock.CompressionEncryptionMock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.CompressionEncryptionMock.getFolder",,,,1,4,1
+Class,"genepi.imputationserver.steps.ImputationMinimac3Test.ImputationMinimac3Mock",3,0,0,2,11,1
+Public Constructor,"genepi.imputationserver.steps.ImputationMinimac3Test.ImputationMinimac3Mock.ImputationMinimac3Mock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.ImputationMinimac3Mock.getFolder",,,,1,4,1
+Class,"genepi.imputationserver.steps.ImputationMinimac3Test.InputValidationMock",4,33,33,3,15,1
+Public Constructor,"genepi.imputationserver.steps.ImputationMinimac3Test.InputValidationMock.InputValidationMock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.InputValidationMock.getFolder",,,,1,4,1
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3Test.InputValidationMock.setupTabix",,,,1,4,0
+Class,"genepi.imputationserver.steps.ImputationMinimac3Test.QcStatisticsMock",4,33,33,3,15,1
+Public Constructor,"genepi.imputationserver.steps.ImputationMinimac3Test.QcStatisticsMock.QcStatisticsMock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.QcStatisticsMock.getFolder",,,,1,4,1
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3Test.QcStatisticsMock.setupTabix",,,,1,4,0
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3Test.buildContext",,,,2,41,0
+Private Method,"genepi.imputationserver.steps.ImputationMinimac3Test.importBinaries",,,,2,9,0
+Private Method,"genepi.imputationserver.steps.ImputationMinimac3Test.importRefPanel",,,,2,9,0
+Protected Method,"genepi.imputationserver.steps.ImputationMinimac3Test.run",,,,1,4,0
+Public Static Method,"genepi.imputationserver.steps.ImputationMinimac3Test.setUp",,,,1,4,0
+Public Static Method,"genepi.imputationserver.steps.ImputationMinimac3Test.tearDown",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWidthHttpUrl",,,,2,29,9
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWidthInvalidFileFormat",,,,1,10,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWidthInvalidHttpUrl",,,,1,10,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithEagle",,,,2,29,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithEagleAnd23AndMe",,,,1,10,4
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithHapiUr",,,,3,32,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithPhased",,,,2,29,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithSFTP",,,,2,33,9
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithShapeIt",,,,3,32,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testPipelineWithWrongSFTPCredentials",,,,1,12,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testchr23PipelinePhased",,,,3,32,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testchrXLeaveOneOutPipelinePhased",,,,5,38,7
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testchrXPipelinePhased",,,,3,32,5
+Public Method,"genepi.imputationserver.steps.ImputationMinimac3Test.testchrXPipelineWithEagle",,,,4,35,6
+Public Class,"genepi.imputationserver.steps.InputValidation",29,0,0,50,292,11
+Private Method,"genepi.imputationserver.steps.InputValidation.checkParameters",,,,15,77,5
+Private Method,"genepi.imputationserver.steps.InputValidation.checkVcfFiles",,,,21,143,5
+Private Method,"genepi.imputationserver.steps.InputValidation.importVcfFiles",,,,9,46,0
+Public Method,"genepi.imputationserver.steps.InputValidation.run",,,,4,21,1
+Protected Method,"genepi.imputationserver.steps.InputValidation.setupTabix",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.InputValidationTest",10,0,0,16,186,72
+Class,"genepi.imputationserver.steps.InputValidationTest.InputValidationMock",4,33,33,3,15,1
+Public Constructor,"genepi.imputationserver.steps.InputValidationTest.InputValidationMock.InputValidationMock",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.InputValidationTest.InputValidationMock.getFolder",,,,1,4,1
+Protected Method,"genepi.imputationserver.steps.InputValidationTest.InputValidationMock.setupTabix",,,,1,4,0
+Protected Method,"genepi.imputationserver.steps.InputValidationTest.buildContext",,,,1,11,0
+Protected Method,"genepi.imputationserver.steps.InputValidationTest.run",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testPhasedVcfWithShapeIt",,,,1,9,5
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testSingleUnphasedVcfWithEagle",,,,1,17,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testTabixIndexCreationChr1",,,,2,21,7
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testTabixIndexCreationChr20",,,,2,21,7
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testThreeUnphasedVcfWithEagle",,,,1,19,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testUnorderedVcfFile",,,,1,10,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testUnphasedVcfWithShapeIt",,,,1,9,5
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testWithInnsufficientSamples",,,,1,10,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testWithWrongReferencePanel",,,,1,9,5
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testWrongChromosomes",,,,1,10,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testWrongFiles",,,,1,9,6
+Public Method,"genepi.imputationserver.steps.InputValidationTest.testWrongVcfFile",,,,1,9,6
+Package,"genepi.imputationserver.steps.converter",,,,75,369,20
+Public Class,"genepi.imputationserver.steps.converter.Chromosome",1,0,0,26,82,0
+Public Static Method,"genepi.imputationserver.steps.converter.Chromosome.getChrLength",,,,26,55,0
+Public Class,"genepi.imputationserver.steps.converter.FileUtil",11,0,0,5,28,0
+Public Static Method,"genepi.imputationserver.steps.converter.FileUtil.gunzip",,,,3,17,0
+Public Static Method,"genepi.imputationserver.steps.converter.FileUtil.unzip",,,,2,9,0
+Public Class,"genepi.imputationserver.steps.converter.GenotypeLine",3,70,70,11,42,0
+Public Constructor,"genepi.imputationserver.steps.converter.GenotypeLine.GenotypeLine",,,,1,2,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.getChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.getGenotype",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.getPos",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.getRsid",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.parse",,,,2,10,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.setChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.setGenotype",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.setPos",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.GenotypeLine.setRsid",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.converter.VCFBuilder",37,82,82,33,173,20
+Public Constructor,"genepi.imputationserver.steps.converter.VCFBuilder.VCFBuilder",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.build",,,,19,105,19
+Private Method,"genepi.imputationserver.steps.converter.VCFBuilder.createVC",,,,2,11,0
+Private Method,"genepi.imputationserver.steps.converter.VCFBuilder.generateHeader",,,,1,12,0
+Private Method,"genepi.imputationserver.steps.converter.VCFBuilder.generateSequenceDictionary",,,,1,6,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.getExcludeList",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.getOutDirectory",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.getReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.isSplit",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.setExcludeList",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.setOutDirectory",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.setReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.setSplit",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.converter.VCFBuilder.setTempDirectory",,,,1,3,0
+Package,"genepi.imputationserver.steps.fastqc",,,,246,1290,73
+Public Class,"genepi.imputationserver.steps.fastqc.FastQCStatistics",44,95,91,127,589,55
+Private Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.chunkSummary",,,,7,31,6
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getAlleleMismatch",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getAlleleSwitch",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getAlternativeAlleles",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getComplicatedGenotypes",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getDuplicates",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getFilterFlag",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getFiltered",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getFoundInLegend",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getInvalidAlleles",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getLowCallRate",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getMatch",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getMonomorphic",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getMultiallelicSites",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getNoSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getNotFoundInLegend",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getOverallChunks",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getOverallSnps",,,,1,3,0
+Private Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getReader",,,,3,14,1
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getRemovedChunksCallRate",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getRemovedChunksOverlap",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getRemovedChunksSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getStrandFlipAndAlleleSwitch",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.getStrandFlipSimple",,,,1,3,0
+Private Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.initChunk",,,,2,19,1
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.makeDiploid",,,,5,23,1
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.prepareChrX",,,,9,50,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.processFile",,,,13,64,7
+Private Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.processLine",,,,43,178,28
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.run",,,,10,63,8
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setChainFile",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setChunkFileDir",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setChunkSize",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setChunksDir",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setInput",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setLegendFile",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setLiftOver",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setLowCallRate",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setMafFile",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setPhasingWindow",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setPopulation",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setRefSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastQCStatistics.setStatDir",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.fastqc.FastVCFFileReader",10,66,66,9,46,2
+Public Constructor,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.FastVCFFileReader",,,,1,10,1
+Public Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.getFileHeader",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.getGenotypedSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.getSamplesCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.getSnpsCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.getVariantContext",,,,1,3,0
+Protected Method,"genepi.imputationserver.steps.fastqc.FastVCFFileReader.parseLine",,,,3,13,1
+Public Class,"genepi.imputationserver.steps.fastqc.MinimalVariantContext",1,91,90,29,102,0
+Public Constructor,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.MinimalVariantContext",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getAlternateAllele",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getContig",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getFilters",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getHetCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getHomRefCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getHomVarCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getNSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getNoCallCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getRawLine",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getReferenceAllele",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.getStart",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.isCalled",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.isComplexIndel",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.isFiltered",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.isIndel",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.isMonomorphicInSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setAlternateAllele",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setCalled",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setContig",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setFilters",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setHetCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setHomRefCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setHomVarCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setNSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setNoCallCount",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setRawLine",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setReferenceAllele",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.MinimalVariantContext.setStart",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.fastqc.SnpStats",5,88,88,32,104,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getAlleleA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getAlleleB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getChisq",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getFrequencyA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getFrequencyB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getPosition",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getRefAlleleA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getRefAlleleB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getRefFrequencyA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getRefFrequencyB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.getType",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.isOverlapWithReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setAlleleA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setAlleleB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setChisq",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setFrequencyA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setFrequencyB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setOverlapWithReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setPosition",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setRefAlleleA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setRefAlleleB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setRefFrequencyA",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setRefFrequencyB",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.setType",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.SnpStats.toString",,,,6,11,0
+Public Class,"genepi.imputationserver.steps.fastqc.Test",10,0,0,5,72,4
+Public Static Method,"genepi.imputationserver.steps.fastqc.Test.loadFast",,,,2,28,0
+Public Static Method,"genepi.imputationserver.steps.fastqc.Test.loadUsingLib",,,,2,30,0
+Public Static Method,"genepi.imputationserver.steps.fastqc.Test.main",,,,1,12,4
+Public Class,"genepi.imputationserver.steps.fastqc.Test2",10,0,0,14,57,6
+Public Static Method,"genepi.imputationserver.steps.fastqc.Test2.compare",,,,13,50,0
+Public Static Method,"genepi.imputationserver.steps.fastqc.Test2.main",,,,1,5,6
+Public Class,"genepi.imputationserver.steps.fastqc.VCFLineParser",4,46,46,18,103,5
+Public Constructor,"genepi.imputationserver.steps.fastqc.VCFLineParser.VCFLineParser",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParser.parseLine",,,,17,84,5
+Public Class,"genepi.imputationserver.steps.fastqc.VCFLineParserTest",5,0,0,12,155,1
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testIndel",,,,1,12,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testMonomorphic",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testMonomorphic2",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testNormalLine",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithComplexFormat",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithComplexFormat2",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithComplexFormat3",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithFilter",,,,1,17,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithMissingGTFormat",,,,2,11,0
+Public Method,"genepi.imputationserver.steps.fastqc.VCFLineParserTest.testWithWrongColumns",,,,2,11,0
+Package,"genepi.imputationserver.steps.imputationMinimac3",,,,127,810,40
+Public Class,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3",16,92,91,41,196,8
+Public Constructor,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.ImputationJobMinimac3",,,,1,9,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.after",,,,1,4,1
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.cleanupJob",,,,2,9,0
+Protected Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.distribute",,,,5,18,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.getPhasing",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setChromosome",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setFolder",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setLogFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMapEagleHdfs",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMapHapiURHdfs",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMapHapiURPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMapShapeITHdfs",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMapShapeITPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setMinimacBin",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setNoCache",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setOutput",,,,1,5,1
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setPhasing",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setPopulation",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRefEagleHdfs",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRefPanel",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRefPanelHdfs",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRefPanelPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRefPatternEagle",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setRounds",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setWindow",,,,1,3,0
+Protected Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setupDistributedCache",,,,10,43,6
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationJobMinimac3.setupJob",,,,1,10,0
+Public Class,"genepi.imputationserver.steps.imputationMinimac3.ImputationMapperMinimac3",25,35,35,14,158,12
+Protected Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationMapperMinimac3.cleanup",,,,1,6,1
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationMapperMinimac3.map",,,,5,45,3
+Protected Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationMapperMinimac3.setup",,,,8,86,8
+Public Class,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3",20,93,92,72,407,20
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.execute",,,,17,105,8
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.fixInfoFile",,,,3,26,1
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.getNoSnps",,,,5,25,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.imputeVCF",,,,3,23,1
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.phaseWithEagle",,,,9,55,6
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.phaseWithHapiUr",,,,5,36,2
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.phaseWithShapeIt",,,,4,27,2
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setBgzipCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setEagleCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setHapiUrCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setHapiUrPreprocessCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMapEagleFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMapHapiURFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMapHapiURPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMapShapeITFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMapShapeITPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMinimacCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setMinimacWindow",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setPhasing",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setPhasingWindow",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setPopulation",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setRefEagleFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setRefEaglePattern",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setRefFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setRefPanelFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setReferencePanel",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setRounds",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setShapeItCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setTabixCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setVcf2HapCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.setVcfCookerCommand",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.imputationMinimac3.ImputationPipelineMinimac3.vcfToBed",,,,1,9,0
+Package,"genepi.imputationserver.steps.vcf",,,,127,700,16
+Public Class,"genepi.imputationserver.steps.vcf.BGzipLineWriter",7,16,16,4,19,0
+Public Constructor,"genepi.imputationserver.steps.vcf.BGzipLineWriter.BGzipLineWriter",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.vcf.BGzipLineWriter.close",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.BGzipLineWriter.write",,,,2,8,0
+Public Class,"genepi.imputationserver.steps.vcf.MergedVcfFile",7,0,0,3,14,0
+Public Constructor,"genepi.imputationserver.steps.vcf.MergedVcfFile.MergedVcfFile",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.MergedVcfFile.addFile",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.vcf.MergedVcfFile.close",,,,1,4,0
+Public Class,"genepi.imputationserver.steps.vcf.VcfChunk",5,89,88,23,94,1
+Public Constructor,"genepi.imputationserver.steps.vcf.VcfChunk.VcfChunk",,,,2,13,0
+Public Constructor,"genepi.imputationserver.steps.vcf.VcfChunk.VcfChunk",,,,1,2,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getEnd",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getId",,,,1,4,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getInReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getIndexFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getStart",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.getVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.isPhased",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.serialize",,,,2,5,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setEnd",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setInReference",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setIndexFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setPhased",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setStart",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.setVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunk.toString",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.vcf.VcfChunkOutput",2,86,86,15,80,0
+Public Constructor,"genepi.imputationserver.steps.vcf.VcfChunkOutput.VcfChunkOutput",,,,1,22,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getBedFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getBimFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getDoseFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getFamFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getHapFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getHapsCleanFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getHapsFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getImputedVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getInfoFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getInfoFixedFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getPhasedVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getPrefix",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getSampleFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfChunkOutput.getSnpsFilename",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.vcf.VcfChunkUtil",9,0,0,10,57,6
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfChunkUtil.mergeExcludedChunks",,,,10,55,6
+Public Class,"genepi.imputationserver.steps.vcf.VcfFile",3,91,88,26,92,0
+Public Constructor,"genepi.imputationserver.steps.vcf.VcfFile.VcfFile",,,,1,2,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getChromosome",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getChromosomes",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getChunkSize",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getChunks",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getFilenames",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getIndexFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getNoSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getNoSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getType",,,,2,7,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.getVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.isChrX",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.isPhased",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.isPhasedAutodetect",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setChrX",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setChromosomes",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setChunkSize",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setChunks",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setIndexFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setNoSamples",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setNoSnps",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setPhased",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setPhasedAutodetect",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.setVcfFilename",,,,1,3,0
+Public Method,"genepi.imputationserver.steps.vcf.VcfFile.toString",,,,1,5,0
+Public Class,"genepi.imputationserver.steps.vcf.VcfFileUtil",26,68,68,35,200,5
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.createIndex",,,,2,11,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.getBinary",,,,1,3,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.isChrX",,,,1,3,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.isValidChromosome",,,,1,3,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.load",,,,18,100,4
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.merge",,,,10,44,1
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.mergeGz",,,,1,4,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfFileUtil.setBinary",,,,1,3,0
+Public Class,"genepi.imputationserver.steps.vcf.VcfLiftOver",22,50,50,11,71,4
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfLiftOver.getBinary",,,,1,3,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfLiftOver.liftOver",,,,8,54,4
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfLiftOver.main",,,,1,7,0
+Public Static Method,"genepi.imputationserver.steps.vcf.VcfLiftOver.setBinary",,,,1,3,0
+Package,"genepi.imputationserver.util",,,,247,1292,21
+Public Class,"genepi.imputationserver.util.ChiSquareObject",0,57,57,7,28,0
+Public Constructor,"genepi.imputationserver.util.ChiSquareObject.ChiSquareObject",,,,1,5,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.getChisq",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.getP",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.getQ",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.setChisq",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.setP",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ChiSquareObject.setQ",,,,1,3,0
+Public Class,"genepi.imputationserver.util.FileMerger",19,0,0,24,158,1
+Public Static Class,"genepi.imputationserver.util.FileMerger.BgzipSplitOutputStream",3,0,0,2,10,0
+Public Constructor,"genepi.imputationserver.util.FileMerger.BgzipSplitOutputStream.BgzipSplitOutputStream",,,,1,3,0
+Public Method,"genepi.imputationserver.util.FileMerger.BgzipSplitOutputStream.close",,,,1,4,0
+Public Static Method,"genepi.imputationserver.util.FileMerger.mergeAndGz",,,,11,56,1
+Public Static Method,"genepi.imputationserver.util.FileMerger.splitIntoHeaderAndData",,,,3,17,0
+Public Static Method,"genepi.imputationserver.util.FileMerger.splitIntoHeaderAndData",,,,5,37,0
+Public Static Method,"genepi.imputationserver.util.FileMerger.splitIntoHeaderAndDataBgZip",,,,5,36,0
+Public Class,"genepi.imputationserver.util.GeneticMap",2,86,86,22,76,0
+Public Method,"genepi.imputationserver.util.GeneticMap.checkEagle",,,,2,6,0
+Public Method,"genepi.imputationserver.util.GeneticMap.checkHapiUR",,,,2,6,0
+Public Method,"genepi.imputationserver.util.GeneticMap.checkShapeIT",,,,2,6,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getId",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getMapEagle",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getMapHapiUR",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getMapPatternHapiUR",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getMapPatternShapeIT",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getMapShapeIT",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getRefEagle",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.getRefPatternEagle",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setId",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setMapEagle",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setMapHapiUR",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setMapPatternHapiUR",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setMapPatternShapeIT",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setMapShapeIT",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setRefEagle",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMap.setRefPatternEagle",,,,1,3,0
+Public Class,"genepi.imputationserver.util.GeneticMapList",10,58,50,9,39,0
+Public Constructor,"genepi.imputationserver.util.GeneticMapList.GeneticMapList",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMapList.add",,,,1,3,0
+Public Method,"genepi.imputationserver.util.GeneticMapList.getById",,,,3,8,0
+Public Method,"genepi.imputationserver.util.GeneticMapList.getMaps",,,,1,3,0
+Public Static Method,"genepi.imputationserver.util.GeneticMapList.loadFromFile",,,,2,15,0
+Public Method,"genepi.imputationserver.util.GeneticMapList.setMaps",,,,1,3,0
+Public Class,"genepi.imputationserver.util.GenomicTools",10,0,0,55,301,6
+Public Static Method,"genepi.imputationserver.util.GenomicTools.alleleMismatch",,,,1,4,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.alleleSwitch",,,,2,11,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.alleleSwitch",,,,2,10,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.calculateAlleleFreq",,,,2,29,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.calculateAlleleFreq",,,,2,29,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.chiSquare",,,,2,32,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.chiSquare",,,,2,32,1
+Public Static Method,"genepi.imputationserver.util.GenomicTools.complicatedGenotypes",,,,3,22,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.complicatedGenotypes",,,,3,21,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.getPanelSize",,,,7,18,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.getPopSize",,,,6,14,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.isValid",,,,1,6,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.match",,,,2,11,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.match",,,,2,10,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.strandFlip",,,,9,25,0
+Public Static Method,"genepi.imputationserver.util.GenomicTools.strandFlipAndAlleleSwitch",,,,9,25,0
+Public Abstract Class,"genepi.imputationserver.util.HadoopJobStep",6,0,0,5,26,5
+Public Method,"genepi.imputationserver.util.HadoopJobStep.executeHadoopJob",,,,2,13,3
+Public Method,"genepi.imputationserver.util.HadoopJobStep.kill",,,,3,10,2
+Public Abstract Class,"genepi.imputationserver.util.ParallelHadoopJobStep",24,79,79,23,125,2
+Class,"genepi.imputationserver.util.ParallelHadoopJobStep.BackgroundHadoopJob",5,41,41,4,21,0
+Public Constructor,"genepi.imputationserver.util.ParallelHadoopJobStep.BackgroundHadoopJob.BackgroundHadoopJob",,,,1,4,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.BackgroundHadoopJob.getContext",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.BackgroundHadoopJob.run",,,,1,6,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.BackgroundHadoopJob.setContext",,,,1,3,0
+Public Constructor,"genepi.imputationserver.util.ParallelHadoopJobStep.ParallelHadoopJobStep",,,,1,7,0
+Protected Method,"genepi.imputationserver.util.ParallelHadoopJobStep.executeJarInBackground",,,,1,8,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.getHadoopJob",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.getState",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.isCanceled",,,,1,3,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.kill",,,,4,17,2
+Protected Method,"genepi.imputationserver.util.ParallelHadoopJobStep.onJobFinish",,,,1,3,0
+Protected Method,"genepi.imputationserver.util.ParallelHadoopJobStep.onJobStart",,,,1,2,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.setup",,,,1,4,0
+Public Method,"genepi.imputationserver.util.ParallelHadoopJobStep.updateProgress",,,,9,35,0
+Protected Method,"genepi.imputationserver.util.ParallelHadoopJobStep.waitForAll",,,,2,6,0
+Public Class,"genepi.imputationserver.util.PasswordCreator",8,0,0,8,38,1
+Public Static Method,"genepi.imputationserver.util.PasswordCreator.createPassword",,,,1,3,0
+Public Static Method,"genepi.imputationserver.util.PasswordCreator.createPassword",,,,2,14,1
+Private Static Method,"genepi.imputationserver.util.PasswordCreator.shuffleAndCheck",,,,5,19,0
+Public Class,"genepi.imputationserver.util.QualityControlObject",1,50,50,4,16,0
+Public Method,"genepi.imputationserver.util.QualityControlObject.getMessage",,,,1,3,0
+Public Method,"genepi.imputationserver.util.QualityControlObject.isSuccess",,,,1,3,0
+Public Method,"genepi.imputationserver.util.QualityControlObject.setMessage",,,,1,3,0
+Public Method,"genepi.imputationserver.util.QualityControlObject.setSuccess",,,,1,3,0
+Public Class,"genepi.imputationserver.util.RefPanel",7,83,83,18,69,0
+Public Method,"genepi.imputationserver.util.RefPanel.existsLegend",,,,2,7,0
+Public Method,"genepi.imputationserver.util.RefPanel.existsReference",,,,2,7,0
+Public Method,"genepi.imputationserver.util.RefPanel.getBuild",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getHdfs",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getId",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getLegend",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getLegendPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.getVersion",,,,2,11,0
+Public Method,"genepi.imputationserver.util.RefPanel.setBuild",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.setHdfs",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.setId",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.setLegend",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.setLegendPattern",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanel.setPattern",,,,1,3,0
+Public Class,"genepi.imputationserver.util.RefPanelList",13,64,57,10,50,0
+Public Constructor,"genepi.imputationserver.util.RefPanelList.RefPanelList",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanelList.add",,,,1,3,0
+Public Method,"genepi.imputationserver.util.RefPanelList.getById",,,,3,8,0
+Public Method,"genepi.imputationserver.util.RefPanelList.getPanels",,,,1,3,0
+Public Static Method,"genepi.imputationserver.util.RefPanelList.loadFromFile",,,,2,15,0
+Public Static Method,"genepi.imputationserver.util.RefPanelList.saveToFile",,,,1,11,0
+Public Method,"genepi.imputationserver.util.RefPanelList.setPanels",,,,1,3,0
+Public Class,"genepi.imputationserver.util.TestCluster",15,65,65,8,46,3
+Private Constructor,"genepi.imputationserver.util.TestCluster.TestCluster",,,,1,2,0
+Public Static Method,"genepi.imputationserver.util.TestCluster.getInstance",,,,2,6,0
+Public Method,"genepi.imputationserver.util.TestCluster.start",,,,3,25,2
+Public Method,"genepi.imputationserver.util.TestCluster.stop",,,,2,6,1
+Public Class,"genepi.imputationserver.util.TestSFTPServer",11,0,0,2,35,0
+Public Constructor,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer",,,,1,27,0
+Anonymous Class,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_1)",3,0,0,1,11,0
+Public Method,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_1).createFileSystemView",,,,1,9,0
+Anonymous Class,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_1).createFileSystemView.(Anon_2)",6,0,0,1,6,0
+Public Method,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_1).createFileSystemView.(Anon_2).getVirtualUserDir",,,,1,5,0
+Anonymous Class,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_3)",5,0,0,1,5,0
+Public Method,"genepi.imputationserver.util.TestSFTPServer.TestSFTPServer.(Anon_3).authenticate",,,,1,4,0
+Public Method,"genepi.imputationserver.util.TestSFTPServer.stop",,,,1,3,0
+Public Class,"genepi.imputationserver.util.WorkflowTestContext",11,91,87,43,171,3
+Public Constructor,"genepi.imputationserver.util.WorkflowTestContext.WorkflowTestContext",,,,1,4,0
+Public Constructor,"genepi.imputationserver.util.WorkflowTestContext.WorkflowTestContext",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.beginTask",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.createLinkToFile",,,,1,4,1
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.endTask",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.get",,,,2,8,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getCounters",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getData",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getDescription",,,,5,14,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getHdfsTemp",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getInput",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getInputs",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getJobId",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getJobName",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getLocalTemp",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getOutput",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getSubmittedCounters",,,,2,7,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.getWorkingDirectory",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.hasInMemory",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.incCounter",,,,2,9,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.isVerbose",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.log",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.message",,,,1,4,0
+Private Method,"genepi.imputationserver.util.WorkflowTestContext.printAndKeep",,,,2,6,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.println",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.sendMail",,,,1,4,1
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.sendMail",,,,1,4,1
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setData",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setHdfsTemp",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setInput",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setLocalTemp",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setOutput",,,,1,4,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.setVerbose",,,,1,3,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.submitCounter",,,,1,5,0
+Public Method,"genepi.imputationserver.util.WorkflowTestContext.updateTask",,,,1,4,0

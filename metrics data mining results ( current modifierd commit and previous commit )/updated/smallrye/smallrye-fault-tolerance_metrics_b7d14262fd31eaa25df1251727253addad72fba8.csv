@@ -1,0 +1,921 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AsyncHelloService.java",,,,4,33,15
+File,"AsyncHelloService.java",,,,4,33,15
+File,"AsyncHelloService.java",,,,3,36,0
+File,"AsyncHelloService.java",,,,5,43,15
+File,"AsyncHelloService.java",,,,5,43,15
+File,"AsyncService.java",,,,1,15,15
+File,"AsynchronousCircuitBreakerTest.java",,,,8,51,21
+File,"AsynchronousCompletionStageFallbackTest.java",,,,4,34,15
+File,"AsynchronousCompletionStageRetryTest.java",,,,8,65,15
+File,"AsynchronousFallbackTest.java",,,,5,39,15
+File,"AsynchronousMethodNotFutureTest.java",,,,2,21,19
+File,"AsynchronousRequestContextTest.java",,,,2,21,19
+File,"AsynchronousRetryTest.java",,,,9,68,19
+File,"BaseService.java",,,,2,13,0
+File,"BasicCommand.java",,,,1,10,0
+File,"BulkheadConfig.java",,,,7,40,18
+File,"BulkheadFallbackRejectTest.java",,,,6,47,20
+File,"BulkheadTest.java",,,,5,49,20
+File,"BulkheadWaitRecorder.java",,,,6,40,18
+File,"CircuitBreakerConfig.java",,,,10,69,18
+File,"CircuitBreakerFailOnMetricsTest.java",,,,4,40,15
+File,"CircuitBreakerFailOnTest.java",,,,4,28,20
+File,"CircuitBreakerLastSuccessOpensTest.java",,,,8,54,20
+File,"CircuitBreakerRetryFallbackTest.java",,,,3,24,22
+File,"CircuitBreakerRollingWindowTest.java",,,,11,68,24
+File,"CircuitBreakerWithFallbackTest.java",,,,3,24,21
+File,"CommandInterceptorTest.java",,,,47,213,38
+File,"CommandListener.java",,,,4,17,40
+File,"CommandListenerTest.java",,,,8,71,21
+File,"CommandListenersProvider.java",,,,0,6,27
+File,"CompositeCommand.java",,,,20,114,30
+File,"CompositeObservableCommand.java",,,,28,162,27
+File,"ConfigParameterPriorityTest.java",,,,2,45,25
+File,"CustomExtension.java",,,,21,108,15
+File,"DefaultCommandListenersProvider.java",,,,2,19,20
+File,"DefaultFallbackHandlerProvider.java",,,,3,34,6
+File,"DefaultFaultToleranceOperationProvider.java",,,,11,50,23
+File,"DefaultHystrixConcurrencyStrategy.java",,,,7,64,26
+File,"DefaultMethodFallbackProvider.java",,,,1,17,6
+File,"DefaultMethodFallbackProvider.java",,,,1,17,6
+File,"ExecutionContextWithInvocationContext.java",,,,7,32,18
+File,"ExtensionAnnotationTest.java",,,,3,45,21
+File,"FailureNotHandledException.java",,,,1,8,21
+File,"FallbackConfig.java",,,,27,120,25
+File,"FallbackHandlerProvider.java",,,,0,7,26
+File,"FallbackRetryMetricsTest.java",,,,2,43,15
+File,"FaultToleranceApplicationArchiveProcessor.java",,,,4,39,20
+File,"FaultToleranceCommandExecutionHook.java",,,,2,13,0
+File,"FaultToleranceExtension.java",,,,1,11,19
+File,"FaultToleranceOperation.java",,,,48,213,23
+File,"FaultToleranceOperationProvider.java",,,,0,7,27
+File,"FaultToleranceOperations.java",,,,1,13,15
+File,"FaultyService.java",,,,2,12,23
+File,"FaultyService.java",,,,4,29,15
+File,"FutureStringFallbackHandler.java",,,,3,25,18
+File,"GenericConfig.java",,,,28,113,38
+File,"HelloService.java",,,,2,15,0
+File,"HelloService.java",,,,2,15,15
+File,"HelloService.java",,,,0,5,0
+File,"HystrixCommandBinding.java",,,,0,21,18
+File,"HystrixCommandInterceptor.java",,,,111,578,80
+File,"HystrixCommandSemaphoreCleanup.java",,,,5,30,19
+File,"HystrixExtension.java",,,,22,133,33
+File,"HystrixInitializer.java",,,,5,45,25
+File,"InterfaceFaultToleranceOperationsTest.java",,,,1,33,0
+File,"InvalidParameterizedFallbackMethod.java",,,,2,19,15
+File,"MetricNames.java",,,,2,32,0
+File,"MetricsCollector.java",,,,6,32,32
+File,"MetricsCollectorFactory.java",,,,58,246,11
+File,"MyFallbackHandler.java",,,,3,23,18
+File,"MyMicroservice.java",,,,23,112,21
+File,"MyRetryMicroservice.java",,,,11,60,16
+File,"MyService.java",,,,2,15,15
+File,"NonPublicFallbackMethodTest.java",,,,3,32,19
+File,"ParameterizedFallbackMethodTest.java",,,,2,21,19
+File,"PingService.java",,,,4,24,15
+File,"PingService.java",,,,3,21,15
+File,"PingService.java",,,,2,17,15
+File,"PingService.java",,,,2,13,15
+File,"PingService.java",,,,3,21,15
+File,"RequestContextCommandListener.java",,,,5,39,4
+File,"RequestContextCommandListener.java",,,,2,22,0
+File,"RequestFoo.java",,,,2,14,15
+File,"RetryConfig.java",,,,14,80,18
+File,"RetryContext.java",,,,22,96,31
+File,"RetryOnErrorTest.java",,,,3,26,19
+File,"RetryOnSubclassOverrideTest.java",,,,2,22,6
+File,"RetryTest.java",,,,18,110,19
+File,"RetryTestBean.java",,,,21,106,23
+File,"SecurityActions.java",,,,66,268,49
+File,"SecurityActions.java",,,,68,276,51
+File,"Service.java",,,,2,22,18
+File,"ShakyServiceClient.java",,,,2,15,16
+File,"SharedFallback.java",,,,1,8,18
+File,"SimpleCommand.java",,,,27,130,29
+File,"SimpleCommandTest.java",,,,3,21,15
+File,"StringFallbackHandler.java",,,,1,9,15
+File,"SuperCoolService.java",,,,3,23,15
+File,"SyncCircuitBreakerDisabledTest.java",,,,10,83,25
+File,"SynchronousCircuitBreaker.java",,,,46,216,37
+File,"TckDeploymentExceptionTransformer.java",,,,3,14,0
+File,"TestArchive.java",,,,2,17,20
+File,"TestHystrixConcurrencyStrategy.java",,,,0,10,15
+File,"TimeoutConfig.java",,,,6,37,18
+File,"TimeoutTest.java",,,,4,35,19
+File,"TimingOutService.java",,,,2,18,15
+File,"TracingConcurrencyStrategy.java",,,,9,48,3
+File,"TracingContextPropagationTest.java",,,,3,34,19
+File,"TracingInstaller.java",,,,3,17,6
+File,"UnconfiguredService.java",,,,1,11,16
+File,"WeldCommandListenersProvider.java",,,,7,51,1
+File,"WrongReturnType.java",,,,1,10,15
+Package,"io",,,,0,0,0
+Package,"io.smallrye",,,,0,0,0
+Package,"io.smallrye.faulttolerance",,,,393,2125,670
+Public Abstract Class,"io.smallrye.faulttolerance.BasicCommand",3,0,0,1,7,0
+Protected Constructor,"io.smallrye.faulttolerance.BasicCommand.BasicCommand",,,,1,3,0
+Abstract Method,"io.smallrye.faulttolerance.BasicCommand.getOperation",,,,0,1,0
+Abstract Method,"io.smallrye.faulttolerance.BasicCommand.setFailure",,,,0,1,0
+Public Interface,"io.smallrye.faulttolerance.CommandListener",3,0,0,4,13,16
+Method,"io.smallrye.faulttolerance.CommandListener.afterExecution",,,,1,2,5
+Method,"io.smallrye.faulttolerance.CommandListener.beforeExecution",,,,1,2,5
+Method,"io.smallrye.faulttolerance.CommandListener.compareTo",,,,1,4,0
+Method,"io.smallrye.faulttolerance.CommandListener.getPriority",,,,1,3,6
+Public Interface,"io.smallrye.faulttolerance.CommandListenersProvider",1,0,0,0,3,4
+Abstract Method,"io.smallrye.faulttolerance.CommandListenersProvider.getCommandListeners",,,,0,1,4
+Public Class,"io.smallrye.faulttolerance.CompositeCommand",23,71,60,20,98,15
+Protected Constructor,"io.smallrye.faulttolerance.CompositeCommand.CompositeCommand",,,,1,9,5
+Private Method,"io.smallrye.faulttolerance.CompositeCommand.counterOf",,,,3,13,0
+Public Static Method,"io.smallrye.faulttolerance.CompositeCommand.createAndQueue",,,,1,5,0
+Method,"io.smallrye.faulttolerance.CompositeCommand.getOperation",,,,1,4,0
+Static Method,"io.smallrye.faulttolerance.CompositeCommand.hystrixCommandGroupKey",,,,1,3,0
+Static Method,"io.smallrye.faulttolerance.CompositeCommand.hystrixCommandKey",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.CompositeCommand.initSetter",,,,1,14,1
+Protected Method,"io.smallrye.faulttolerance.CompositeCommand.run",,,,10,35,2
+Method,"io.smallrye.faulttolerance.CompositeCommand.setFailure",,,,1,4,0
+Public Class,"io.smallrye.faulttolerance.CompositeObservableCommand",28,69,52,17,143,12
+Protected Constructor,"io.smallrye.faulttolerance.CompositeObservableCommand.CompositeObservableCommand",,,,1,15,0
+Protected Method,"io.smallrye.faulttolerance.CompositeObservableCommand.construct",,,,7,59,3
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.construct.(lambda_expr_1)",,,,8,29,0
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.construct.(lambda_expr_1).(lambda_expr_2)",,,,4,15,0
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.construct.(lambda_expr_3)",,,,6,22,1
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.construct.(lambda_expr_3).(lambda_expr_4)",,,,5,20,1
+Private Method,"io.smallrye.faulttolerance.CompositeObservableCommand.counterOf",,,,3,13,0
+Public Static Method,"io.smallrye.faulttolerance.CompositeObservableCommand.create",,,,1,9,0
+Private Static Method,"io.smallrye.faulttolerance.CompositeObservableCommand.initSetter",,,,2,22,2
+Protected Method,"io.smallrye.faulttolerance.CompositeObservableCommand.resumeWithFallback",,,,3,17,0
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.resumeWithFallback.(lambda_expr_1)",,,,3,11,0
+Lambda Method,"io.smallrye.faulttolerance.CompositeObservableCommand.resumeWithFallback.(lambda_expr_1).(lambda_expr_2)",,,,2,8,0
+Public Class,"io.smallrye.faulttolerance.DefaultCommandListenersProvider",7,0,0,2,12,5
+Public Method,"io.smallrye.faulttolerance.DefaultCommandListenersProvider.getCommandListeners",,,,2,7,0
+Public Class,"io.smallrye.faulttolerance.DefaultFallbackHandlerProvider",6,100,100,2,25,6
+Public Generic Method,"io.smallrye.faulttolerance.DefaultFallbackHandlerProvider.get",,,,2,20,1
+Anonymous Class,"io.smallrye.faulttolerance.DefaultFallbackHandlerProvider.get.(Anon_1)",8,0,0,1,13,1
+Public Method,"io.smallrye.faulttolerance.DefaultFallbackHandlerProvider.get.(Anon_1).handle",,,,1,12,1
+TypeVariable,"io.smallrye.faulttolerance.DefaultFallbackHandlerProvider.get.T",0,0,0,0,0,0
+Public Class,"io.smallrye.faulttolerance.DefaultFaultToleranceOperationProvider",11,50,50,11,43,8
+Public Constructor,"io.smallrye.faulttolerance.DefaultFaultToleranceOperationProvider.DefaultFaultToleranceOperationProvider",,,,1,4,0
+Protected Method,"io.smallrye.faulttolerance.DefaultFaultToleranceOperationProvider.adaptBeanClass",,,,2,7,1
+Public Method,"io.smallrye.faulttolerance.DefaultFaultToleranceOperationProvider.get",,,,3,13,1
+Protected Method,"io.smallrye.faulttolerance.DefaultFaultToleranceOperationProvider.isMethodDeclaredInHierarchy",,,,5,15,0
+Public Class,"io.smallrye.faulttolerance.DefaultHystrixConcurrencyStrategy",15,33,33,7,49,11
+Public Method,"io.smallrye.faulttolerance.DefaultHystrixConcurrencyStrategy.getThreadPool",,,,2,12,0
+Public Method,"io.smallrye.faulttolerance.DefaultHystrixConcurrencyStrategy.getThreadPool",,,,3,20,0
+Public Method,"io.smallrye.faulttolerance.DefaultHystrixConcurrencyStrategy.initTreadManagerFactory",,,,2,10,0
+Class,"io.smallrye.faulttolerance.DefaultMethodFallbackProvider",12,0,0,1,10,6
+Class,"io.smallrye.faulttolerance.DefaultMethodFallbackProvider",7,0,0,1,13,6
+Static Method,"io.smallrye.faulttolerance.DefaultMethodFallbackProvider.getFallback",,,,1,8,1
+Static Method,"io.smallrye.faulttolerance.DefaultMethodFallbackProvider.getFallback",,,,1,11,1
+Class,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext",5,50,50,7,28,3
+Public Constructor,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.ExecutionContextWithInvocationContext",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.getFailure",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.getMethod",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.getParameters",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.getTarget",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.proceed",,,,1,3,0
+Method,"io.smallrye.faulttolerance.ExecutionContextWithInvocationContext.setFailure",,,,1,3,0
+Public Class,"io.smallrye.faulttolerance.FailureNotHandledException",0,0,0,1,6,6
+Public Constructor,"io.smallrye.faulttolerance.FailureNotHandledException.FailureNotHandledException",,,,1,3,0
+Public Interface,"io.smallrye.faulttolerance.FallbackHandlerProvider",2,0,0,0,3,5
+Abstract Generic Method,"io.smallrye.faulttolerance.FallbackHandlerProvider.get",,,,0,1,5
+TypeVariable,"io.smallrye.faulttolerance.FallbackHandlerProvider.get.T",0,0,0,0,0,0
+Public Class,"io.smallrye.faulttolerance.FaultToleranceCommandExecutionHook",4,0,0,2,10,0
+Public Generic Method,"io.smallrye.faulttolerance.FaultToleranceCommandExecutionHook.onExecutionError",,,,2,8,0
+TypeVariable,"io.smallrye.faulttolerance.FaultToleranceCommandExecutionHook.onExecutionError.T",0,0,0,0,0,0
+Public Interface,"io.smallrye.faulttolerance.FaultToleranceOperationProvider",3,0,0,0,3,6
+Abstract Method,"io.smallrye.faulttolerance.FaultToleranceOperationProvider.get",,,,0,1,6
+Public Class,"io.smallrye.faulttolerance.FaultToleranceOperations",6,0,0,1,8,0
+Public Method,"io.smallrye.faulttolerance.FaultToleranceOperations.get",,,,1,3,0
+Public Annotation,"io.smallrye.faulttolerance.HystrixCommandBinding",4,0,0,0,10,0
+Class,"io.smallrye.faulttolerance.HystrixCommandBinding.Literal",0,0,0,0,4,0
+Public Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor",71,85,83,62,518,65
+Static Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture",12,50,38,19,79,2
+Public Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.AsyncFuture",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.cancel",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.get",,,,6,23,1
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.get",,,,5,20,1
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.isCancellation",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.isCancelled",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.isDone",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.logResult",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.AsyncFuture.unwrapFuture",,,,2,8,0
+Private Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor.Cancelator",3,33,22,5,21,0
+Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.Cancelator.Cancelator",,,,1,3,0
+Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.Cancelator.cancel",,,,2,7,0
+Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.Cancelator.setCommand",,,,2,6,0
+Private Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata",22,46,46,15,66,5
+Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata.CommandMetadata",,,,7,34,4
+Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata.getFallback",,,,7,22,1
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata.getFallback.(lambda_expr_1)",,,,3,11,1
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata.getFallback.(lambda_expr_2)",,,,1,1,0
+Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.CommandMetadata.hasCircuitBreaker",,,,1,3,0
+Static Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture",4,50,50,6,26,0
+Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.FailedFuture",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.cancel",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.get",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.get",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.isCancelled",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.FailedFuture.isDone",,,,1,4,0
+Public Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.HystrixCommandInterceptor",,,,2,25,2
+Static Generic Class,"io.smallrye.faulttolerance.HystrixCommandInterceptor.ObservableCompletableFuture",9,33,33,4,27,0
+Constructor,"io.smallrye.faulttolerance.HystrixCommandInterceptor.ObservableCompletableFuture.ObservableCompletableFuture",,,,1,8,0
+TypeVariable,"io.smallrye.faulttolerance.HystrixCommandInterceptor.ObservableCompletableFuture.T",0,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.ObservableCompletableFuture.cancel",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.ObservableCompletableFuture.completeExceptionally",,,,2,8,0
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.errorProcessingHystrixRuntimeException",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.executeCommand",,,,7,40,1
+Public Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.getCause",,,,2,3,0
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.getRetryCause",,,,3,9,2
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.getSynchronousCircuitBreaker",,,,4,11,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.getSynchronousCircuitBreaker.(lambda_expr_1)",,,,1,1,0
+Private Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.initCommandSetter",,,,7,54,3
+Public Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.interceptCommand",,,,17,70,5
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.interceptCommand.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.interceptCommand.(lambda_expr_2)",,,,4,14,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.interceptCommand.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.interceptCommand.(lambda_expr_4)",,,,1,6,0
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.isHystrixWrapperForThrowable",,,,1,6,5
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.processHystrixRuntimeException",,,,14,45,3
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.unableToUnwrap",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.HystrixCommandInterceptor.unwrapExecutionException",,,,3,13,0
+Public Class,"io.smallrye.faulttolerance.HystrixExtension",33,60,60,8,103,18
+Public Static Generic Class,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType",7,44,44,11,40,0
+Public Constructor,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.HystrixInterceptorBindingAnnotatedType",,,,1,5,0
+TypeVariable,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.T",1,0,0,0,0,0
+Public Generic Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getAnnotation",,,,2,7,0
+TypeVariable,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getAnnotation.S",1,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getAnnotations",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getBaseType",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getConstructors",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getFields",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getJavaClass",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getMethods",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.getTypeClosure",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.HystrixInterceptorBindingAnnotatedType.isAnnotationPresent",,,,1,3,0
+Public Static Class,"io.smallrye.faulttolerance.HystrixExtension.PriorityLiteral",1,0,0,2,11,0
+Public Constructor,"io.smallrye.faulttolerance.HystrixExtension.PriorityLiteral.PriorityLiteral",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.HystrixExtension.PriorityLiteral.value",,,,1,4,0
+Method,"io.smallrye.faulttolerance.HystrixExtension.changeInterceptorPriority",,,,2,9,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixExtension.changeInterceptorPriority.(lambda_expr_1)",,,,2,5,0
+Lambda Method,"io.smallrye.faulttolerance.HystrixExtension.changeInterceptorPriority.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Method,"io.smallrye.faulttolerance.HystrixExtension.collectFaultToleranceOperations",,,,3,12,10
+Private Static Method,"io.smallrye.faulttolerance.HystrixExtension.getCacheKey",,,,1,3,0
+Method,"io.smallrye.faulttolerance.HystrixExtension.getFaultToleranceOperation",,,,1,3,0
+Method,"io.smallrye.faulttolerance.HystrixExtension.registerInterceptorBindings",,,,1,21,2
+Public Class,"io.smallrye.faulttolerance.HystrixInitializer",16,66,66,5,30,10
+Method,"io.smallrye.faulttolerance.HystrixInitializer.init",,,,1,2,0
+Method,"io.smallrye.faulttolerance.HystrixInitializer.onShutdown",,,,2,9,0
+Method,"io.smallrye.faulttolerance.HystrixInitializer.onStartup",,,,2,12,0
+Public Class,"io.smallrye.faulttolerance.RetryContext",21,70,63,22,88,16
+Constructor,"io.smallrye.faulttolerance.RetryContext.RetryContext",,,,1,7,0
+Public Method,"io.smallrye.faulttolerance.RetryContext.cancel",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.RetryContext.delayIfNeeded",,,,2,11,5
+Method,"io.smallrye.faulttolerance.RetryContext.getConfig",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.RetryContext.hasBeenRetried",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.RetryContext.isLastAttempt",,,,1,3,0
+Method,"io.smallrye.faulttolerance.RetryContext.nextRetry",,,,5,18,8
+Private Method,"io.smallrye.faulttolerance.RetryContext.retryOn",,,,4,11,0
+Lambda Method,"io.smallrye.faulttolerance.RetryContext.retryOn.(lambda_expr_1)",,,,1,1,0
+Method,"io.smallrye.faulttolerance.RetryContext.shouldRetry",,,,1,3,0
+Method,"io.smallrye.faulttolerance.RetryContext.shouldRetryOn",,,,4,12,3
+Lambda Method,"io.smallrye.faulttolerance.RetryContext.shouldRetryOn.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.smallrye.faulttolerance.RetryContext.toString",,,,1,5,0
+Final Class,"io.smallrye.faulttolerance.SecurityActions",25,0,0,63,248,33
+Private Static Class,"io.smallrye.faulttolerance.SecurityActions.ParametrizedParamsTranslator",6,0,0,3,17,0
+Method,"io.smallrye.faulttolerance.SecurityActions.ParametrizedParamsTranslator.getSuperclassTranslator",,,,1,6,0
+Method,"io.smallrye.faulttolerance.SecurityActions.ParametrizedParamsTranslator.translate",,,,2,7,0
+Private Constructor,"io.smallrye.faulttolerance.SecurityActions.SecurityActions",,,,1,2,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.doGetMethod",,,,6,28,0
+Static Method,"io.smallrye.faulttolerance.SecurityActions.getAnnotationMethod",,,,3,6,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.getAnnotationMethod.(lambda_expr_1)",,,,1,1,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.getArrayComponentType",,,,2,7,6
+Static Method,"io.smallrye.faulttolerance.SecurityActions.getDeclaredField",,,,3,6,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.getDeclaredField.(lambda_expr_1)",,,,1,1,0
+Static Method,"io.smallrye.faulttolerance.SecurityActions.getDeclaredMethod",,,,3,8,12
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.getDeclaredMethod.(lambda_expr_1)",,,,1,1,0
+Static Method,"io.smallrye.faulttolerance.SecurityActions.getDeclaredMethods",,,,2,6,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.getMethodFromClass",,,,3,12,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.getMethodFromClass.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.getMethodFromClass.(lambda_expr_2)",,,,1,1,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.incomingTypesForSuperclass",,,,5,18,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.isAccessible",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.isAccessibleFrom",,,,3,9,2
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.isArray",,,,2,7,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.parameterMatches",,,,8,37,1
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.parameterizedTypeMatches",,,,4,16,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.parametersMatch",,,,5,16,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.parametersMatch.(lambda_expr_1)",,,,4,12,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.prepareParamsTranslator",,,,4,15,9
+Static Method,"io.smallrye.faulttolerance.SecurityActions.setAccessible",,,,3,9,0
+Lambda Method,"io.smallrye.faulttolerance.SecurityActions.setAccessible.(lambda_expr_1)",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.typeArrayMatches",,,,4,14,0
+Private Static Method,"io.smallrye.faulttolerance.SecurityActions.wildcardTypeMatches",,,,1,10,0
+Public Class,"io.smallrye.faulttolerance.SimpleCommand",25,74,74,27,118,14
+Protected Constructor,"io.smallrye.faulttolerance.SimpleCommand.SimpleCommand",,,,1,13,8
+Public Method,"io.smallrye.faulttolerance.SimpleCommand.cancel",,,,3,8,0
+Public Method,"io.smallrye.faulttolerance.SimpleCommand.getCircuitBreaker",,,,1,3,0
+Public Static Method,"io.smallrye.faulttolerance.SimpleCommand.getCommandKey",,,,3,16,0
+Protected Method,"io.smallrye.faulttolerance.SimpleCommand.getFallback",,,,5,18,1
+Method,"io.smallrye.faulttolerance.SimpleCommand.getOperation",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.SimpleCommand.isFailureAssignableFromAnyFailureException",,,,3,9,0
+Protected Method,"io.smallrye.faulttolerance.SimpleCommand.run",,,,5,20,0
+Method,"io.smallrye.faulttolerance.SimpleCommand.setFailure",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.SimpleCommand.translateException",,,,4,14,0
+Public Class,"io.smallrye.faulttolerance.SimpleCommandTest",9,0,0,1,17,0
+Static Generic Class,"io.smallrye.faulttolerance.SimpleCommandTest.Foo",3,0,0,2,6,0
+TypeVariable,"io.smallrye.faulttolerance.SimpleCommandTest.Foo.T",0,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.SimpleCommandTest.Foo.ping",,,,1,2,0
+Public Method,"io.smallrye.faulttolerance.SimpleCommandTest.Foo.pong",,,,1,2,0
+Public Method,"io.smallrye.faulttolerance.SimpleCommandTest.testGetCommandKey",,,,1,9,0
+Public Class,"io.smallrye.faulttolerance.SynchronousCircuitBreaker",18,79,63,46,202,22
+Enum Type,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.Status",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.Status.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.Status.values",,,,0,,
+Constructor,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.SynchronousCircuitBreaker",,,,1,13,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.allowRequest",,,,4,13,4
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.attemptExecution",,,,6,21,4
+Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.executionFailed",,,,2,7,2
+Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.executionSucceeded",,,,3,10,2
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.failsOn",,,,3,9,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.getClosedTotal",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.getFailureCount",,,,3,9,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.getHalfOpenTotal",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.getOpenTotal",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.getTotalVal",,,,2,3,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isAfterDelay",,,,3,17,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isFailureThresholdReached",,,,2,9,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isHalfOpenAttemptAllowed",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isOpen",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isRequestVolumeThresholdReached",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.isSuccessThresholdReached",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.markNonSuccess",,,,1,3,1
+Public Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.markSuccess",,,,1,3,1
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.record",,,,2,6,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.reset",,,,1,5,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.toClosed",,,,1,8,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.toHalfOpen",,,,1,8,0
+Private Method,"io.smallrye.faulttolerance.SynchronousCircuitBreaker.toOpen",,,,3,17,0
+Public Class,"io.smallrye.faulttolerance.TestArchive",8,0,0,2,12,5
+Public Static Method,"io.smallrye.faulttolerance.TestArchive.createBase",,,,1,3,0
+Public Static Method,"io.smallrye.faulttolerance.TestArchive.createBase",,,,1,6,5
+Public Class,"io.smallrye.faulttolerance.TestHystrixConcurrencyStrategy",3,0,0,0,5,0
+Package,"io.smallrye.faulttolerance.async",,,,0,0,0
+Package,"io.smallrye.faulttolerance.async.circuitbreaker",,,,11,87,21
+Public Class,"io.smallrye.faulttolerance.async.circuitbreaker.AsyncHelloService",9,0,0,3,27,0
+Enum Type,"io.smallrye.faulttolerance.async.circuitbreaker.AsyncHelloService.Result",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsyncHelloService.Result.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsyncHelloService.Result.values",,,,0,,
+Public Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsyncHelloService.hello",,,,3,15,0
+Public Class,"io.smallrye.faulttolerance.async.circuitbreaker.AsynchronousCircuitBreakerTest",17,0,0,8,36,6
+Public Static Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsynchronousCircuitBreakerTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsynchronousCircuitBreakerTest.testAsyncCircuitBreaker",,,,7,28,2
+Lambda Method,"io.smallrye.faulttolerance.async.circuitbreaker.AsynchronousCircuitBreakerTest.testAsyncCircuitBreaker.(lambda_expr_1)",,,,3,9,1
+Package,"io.smallrye.faulttolerance.async.compstage",,,,0,0,0
+Package,"io.smallrye.faulttolerance.async.compstage.fallback",,,,8,67,30
+Public Class,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService",7,0,0,4,25,0
+Enum Type,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService.Result",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService.Result.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService.Result.values",,,,0,,
+Public Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsyncHelloService.hello",,,,3,14,0
+Public Class,"io.smallrye.faulttolerance.async.compstage.fallback.AsynchronousCompletionStageFallbackTest",13,0,0,4,24,0
+Public Static Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsynchronousCompletionStageFallbackTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsynchronousCompletionStageFallbackTest.testAsyncFallbackFutureCompletesExceptionally",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsynchronousCompletionStageFallbackTest.testAsyncFallbackMethodThrows",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.fallback.AsynchronousCompletionStageFallbackTest.testAsyncFallbackSuccess",,,,1,5,0
+Package,"io.smallrye.faulttolerance.async.compstage.retry",,,,13,108,30
+Public Class,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService",9,0,0,5,33,0
+Enum Type,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.Result",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.Result.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.Result.values",,,,0,,
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.retry",,,,3,15,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsyncHelloService.retryWithFallback",,,,1,6,0
+Public Class,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest",15,0,0,8,53,0
+Public Static Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.testAsyncRetryFallbackFutureCompletesExceptionally",,,,1,8,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.testAsyncRetryFallbackMethodThrows",,,,1,7,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.testAsyncRetryFutureCompletesExceptionally",,,,2,12,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.testAsyncRetryMethodThrows",,,,2,11,0
+Public Method,"io.smallrye.faulttolerance.async.compstage.retry.AsynchronousCompletionStageRetryTest.testAsyncRetrySuccess",,,,1,7,0
+Package,"io.smallrye.faulttolerance.async.fallback",,,,9,72,30
+Public Class,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService",7,0,0,4,25,0
+Enum Type,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService.Result",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService.Result.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService.Result.values",,,,0,,
+Public Method,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.async.fallback.AsyncHelloService.hello",,,,3,14,0
+Public Class,"io.smallrye.faulttolerance.async.fallback.AsynchronousFallbackTest",13,0,0,5,27,0
+Public Static Method,"io.smallrye.faulttolerance.async.fallback.AsynchronousFallbackTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.async.fallback.AsynchronousFallbackTest.testAsyncFallbackFutureCompletesExceptionally",,,,2,10,0
+Public Method,"io.smallrye.faulttolerance.async.fallback.AsynchronousFallbackTest.testAsyncFallbackMethodThrows",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.fallback.AsynchronousFallbackTest.testAsyncFallbackSuccess",,,,1,5,0
+Package,"io.smallrye.faulttolerance.async.future",,,,3,31,34
+Public Class,"io.smallrye.faulttolerance.async.future.AsynchronousMethodNotFutureTest",8,0,0,2,12,4
+Public Static Method,"io.smallrye.faulttolerance.async.future.AsynchronousMethodNotFutureTest.createTestArchive",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.async.future.AsynchronousMethodNotFutureTest.testIgnored",,,,1,3,0
+Public Class,"io.smallrye.faulttolerance.async.future.WrongReturnType",2,0,0,1,7,0
+Public Method,"io.smallrye.faulttolerance.async.future.WrongReturnType.ping",,,,1,4,0
+Package,"io.smallrye.faulttolerance.async.requestcontext",,,,7,72,49
+Public Class,"io.smallrye.faulttolerance.async.requestcontext.AsyncService",6,0,0,1,9,0
+Public Method,"io.smallrye.faulttolerance.async.requestcontext.AsyncService.perform",,,,1,4,0
+Public Class,"io.smallrye.faulttolerance.async.requestcontext.AsynchronousRequestContextTest",10,0,0,2,12,4
+Public Static Method,"io.smallrye.faulttolerance.async.requestcontext.AsynchronousRequestContextTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.requestcontext.AsynchronousRequestContextTest.testRequestContextActive",,,,1,4,0
+Public Class,"io.smallrye.faulttolerance.async.requestcontext.RequestContextCommandListener",6,0,0,2,15,0
+Public Method,"io.smallrye.faulttolerance.async.requestcontext.RequestContextCommandListener.afterExecution",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.async.requestcontext.RequestContextCommandListener.beforeExecution",,,,1,4,0
+Public Class,"io.smallrye.faulttolerance.async.requestcontext.RequestFoo",3,0,0,2,11,0
+Public Method,"io.smallrye.faulttolerance.async.requestcontext.RequestFoo.getFoo",,,,1,3,0
+Method,"io.smallrye.faulttolerance.async.requestcontext.RequestFoo.init",,,,1,4,0
+Package,"io.smallrye.faulttolerance.async.retry",,,,14,111,34
+Public Class,"io.smallrye.faulttolerance.async.retry.AsyncHelloService",9,0,0,5,33,0
+Enum Type,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.Result",1,,,0,5,0
+Public Implicit Method,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.Result.valueOf",,,,0,,
+Public Implicit Method,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.Result.values",,,,0,,
+Public Method,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.retry",,,,3,15,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsyncHelloService.retryWithFallback",,,,1,6,0
+Public Class,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest",14,0,0,9,56,4
+Public Static Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.testAsyncRetryFallbackFutureCompletesExceptionally",,,,2,12,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.testAsyncRetryFallbackMethodThrows",,,,1,7,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.testAsyncRetryFutureCompletesExceptionally",,,,2,12,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.testAsyncRetryMethodThrows",,,,2,11,0
+Public Method,"io.smallrye.faulttolerance.async.retry.AsynchronousRetryTest.testAsyncRetrySuccess",,,,1,7,0
+Package,"io.smallrye.faulttolerance.basic",,,,89,450,144
+Public Class,"io.smallrye.faulttolerance.basic.CommandInterceptorTest",25,53,53,47,197,23
+Public Static Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.deploy",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.shouldRunWithLongExecutionTime",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testCircuitHighSuccessThreshold",,,,9,27,4
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testCircuitOpenWithMoreRetries",,,,5,22,6
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testClassLevelCircuitOverride",,,,7,23,3
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testFallbackSuccess",,,,3,17,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testHelloAsync",,,,1,8,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testHelloAsyncTimeoutFallback",,,,1,8,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testRetryTimeout",,,,3,10,2
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testSayHelloBreaker",,,,3,15,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testSayHelloBreaker2",,,,9,30,4
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testSayHelloBreakerClassLevel",,,,3,15,0
+Public Method,"io.smallrye.faulttolerance.basic.CommandInterceptorTest.testTimeoutFallback",,,,1,6,0
+Public Class,"io.smallrye.faulttolerance.basic.FutureStringFallbackHandler",8,66,66,3,17,3
+Method,"io.smallrye.faulttolerance.basic.FutureStringFallbackHandler.dispose",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.basic.FutureStringFallbackHandler.handle",,,,1,4,0
+Static Method,"io.smallrye.faulttolerance.basic.FutureStringFallbackHandler.reset",,,,1,3,0
+Public Class,"io.smallrye.faulttolerance.basic.MyFallbackHandler",7,66,66,3,17,3
+Method,"io.smallrye.faulttolerance.basic.MyFallbackHandler.dispose",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.basic.MyFallbackHandler.handle",,,,1,4,0
+Static Method,"io.smallrye.faulttolerance.basic.MyFallbackHandler.reset",,,,1,3,0
+Public Class,"io.smallrye.faulttolerance.basic.MyMicroservice",16,84,84,23,104,6
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.getSayHelloBreakerCount",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.getSayHelloBreakerCount2",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.getSayHelloBreakerCount3",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.getSayHelloBreakerCount4",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.getSayHelloBreakerCount5",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHello",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloAsync",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloAsyncTimeoutFallback",,,,2,11,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloBreaker",,,,2,8,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloBreaker2",,,,2,8,1
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloBreakerClassLevel",,,,2,7,0
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloBreakerHighThreshold",,,,2,9,1
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloBreakerOverride",,,,2,8,1
+Public Method,"io.smallrye.faulttolerance.basic.MyMicroservice.sayHelloWithFallback",,,,2,10,0
+Public Class,"io.smallrye.faulttolerance.basic.MyRetryMicroservice",10,83,83,11,55,1
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getCounterForInvokingServiceA",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getCounterForInvokingServiceB",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getCounterForInvokingServiceC",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getCounterForInvokingServiceD",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getCounterForInvokingServiceE",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.getSayHelloRetry",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.sayHelloRetry",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.serviceA",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.serviceA",,,,2,11,1
+Public Method,"io.smallrye.faulttolerance.basic.MyRetryMicroservice.serviceB",,,,1,6,0
+Public Class,"io.smallrye.faulttolerance.basic.SharedFallback",1,0,0,1,6,3
+Method,"io.smallrye.faulttolerance.basic.SharedFallback.ping",,,,1,3,0
+Public Class,"io.smallrye.faulttolerance.basic.StringFallbackHandler",3,0,0,1,6,0
+Public Method,"io.smallrye.faulttolerance.basic.StringFallbackHandler.handle",,,,1,4,0
+Package,"io.smallrye.faulttolerance.bulkhead",,,,9,73,35
+Public Class,"io.smallrye.faulttolerance.bulkhead.BulkheadTest",17,0,0,5,31,5
+Public Static Method,"io.smallrye.faulttolerance.bulkhead.BulkheadTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.bulkhead.BulkheadTest.testWaitingQueue",,,,4,23,1
+Public Class,"io.smallrye.faulttolerance.bulkhead.PingService",8,0,0,4,17,0
+Public Method,"io.smallrye.faulttolerance.bulkhead.PingService.ping",,,,4,15,0
+Package,"io.smallrye.faulttolerance.bulkhead.reject",,,,8,60,35
+Public Class,"io.smallrye.faulttolerance.bulkhead.reject.BulkheadFallbackRejectTest",15,100,100,6,28,5
+Public Static Method,"io.smallrye.faulttolerance.bulkhead.reject.BulkheadFallbackRejectTest.createTestArchive",,,,1,5,1
+Public Method,"io.smallrye.faulttolerance.bulkhead.reject.BulkheadFallbackRejectTest.testFallbackNotRejected",,,,5,18,0
+Lambda Method,"io.smallrye.faulttolerance.bulkhead.reject.BulkheadFallbackRejectTest.testFallbackNotRejected.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.smallrye.faulttolerance.bulkhead.reject.PingService",3,0,0,2,10,0
+Public Method,"io.smallrye.faulttolerance.bulkhead.reject.PingService.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.bulkhead.reject.PingService.ping",,,,1,5,0
+Package,"io.smallrye.faulttolerance.circuitbreaker",,,,0,0,0
+Package,"io.smallrye.faulttolerance.circuitbreaker.failon",,,,7,49,35
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.failon.CircuitBreakerFailOnTest",10,0,0,4,19,5
+Public Static Method,"io.smallrye.faulttolerance.circuitbreaker.failon.CircuitBreakerFailOnTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.failon.CircuitBreakerFailOnTest.testCircuitBreakerOpens",,,,3,12,1
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.failon.PingService",8,33,33,3,16,0
+Method,"io.smallrye.faulttolerance.circuitbreaker.failon.PingService.getFallback",,,,1,3,0
+Method,"io.smallrye.faulttolerance.circuitbreaker.failon.PingService.getPingCounter",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.failon.PingService.ping",,,,1,6,0
+Package,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics",,,,6,57,30
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics.CircuitBreakerFailOnMetricsTest",9,0,0,4,31,0
+Public Static Method,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics.CircuitBreakerFailOnMetricsTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics.CircuitBreakerFailOnMetricsTest.test",,,,3,23,0
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics.PingService",7,0,0,2,13,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.failon.metrics.PingService.ping",,,,2,9,0
+Package,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess",,,,8,54,20
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest",11,0,0,5,40,5
+Static Class,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest.PingService",6,0,0,3,15,0
+Method,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest.PingService.getPingCounter",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest.PingService.ping",,,,2,8,0
+Public Static Method,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.lastsuccess.CircuitBreakerLastSuccessOpensTest.testCircuitBreakerOpens",,,,4,17,1
+Package,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow",,,,11,68,24
+Public Class,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest",12,0,0,8,54,9
+Static Class,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest.PingService",5,0,0,3,15,0
+Method,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest.PingService.getPingCounter",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest.PingService.ping",,,,2,8,0
+Public Static Method,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.circuitbreaker.rollingwindow.CircuitBreakerRollingWindowTest.testRollingWindow",,,,7,32,5
+Package,"io.smallrye.faulttolerance.command",,,,0,0,0
+Package,"io.smallrye.faulttolerance.command.listener",,,,17,137,37
+Public Class,"io.smallrye.faulttolerance.command.listener.CommandListenerTest",11,0,0,2,55,6
+Static Class,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.AlphaListener",5,0,0,2,11,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.AlphaListener.afterExecution",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.AlphaListener.beforeExecution",,,,1,4,0
+Static Class,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.BravoListener",7,0,0,4,20,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.BravoListener.afterExecution",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.BravoListener.beforeExecution",,,,1,4,0
+Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.BravoListener.destroyed",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.BravoListener.getPriority",,,,1,4,0
+Public Static Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.command.listener.CommandListenerTest.testListenerInvoked",,,,1,16,2
+Public Class,"io.smallrye.faulttolerance.command.listener.HelloService",5,0,0,2,11,0
+Public Method,"io.smallrye.faulttolerance.command.listener.HelloService.hello",,,,2,7,0
+Public Class,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider",11,0,0,4,37,1
+Public Method,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider.getCommandListeners",,,,4,30,1
+Anonymous Class,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider.getCommandListeners.(Anon_1)",3,0,0,3,14,0
+Public Method,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider.getCommandListeners.(Anon_1).afterExecution",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider.getCommandListeners.(Anon_1).beforeExecution",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.command.listener.WeldCommandListenersProvider.getCommandListeners.(Anon_1).getPriority",,,,1,4,0
+Package,"io.smallrye.faulttolerance.config",,,,209,981,209
+Public Class,"io.smallrye.faulttolerance.config.BulkheadConfig",11,80,80,7,32,3
+Public Constructor,"io.smallrye.faulttolerance.config.BulkheadConfig.BulkheadConfig",,,,1,3,0
+Public Constructor,"io.smallrye.faulttolerance.config.BulkheadConfig.BulkheadConfig",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.BulkheadConfig.getKeysToType",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.config.BulkheadConfig.initKeys",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.config.BulkheadConfig.validate",,,,3,11,0
+Public Class,"io.smallrye.faulttolerance.config.CircuitBreakerConfig",17,80,80,10,58,3
+Public Constructor,"io.smallrye.faulttolerance.config.CircuitBreakerConfig.CircuitBreakerConfig",,,,1,3,0
+Public Constructor,"io.smallrye.faulttolerance.config.CircuitBreakerConfig.CircuitBreakerConfig",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.CircuitBreakerConfig.getKeysToType",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.config.CircuitBreakerConfig.initKeys",,,,1,11,0
+Public Method,"io.smallrye.faulttolerance.config.CircuitBreakerConfig.validate",,,,6,25,0
+Public Class,"io.smallrye.faulttolerance.config.FallbackConfig",16,87,87,27,107,10
+Public Constructor,"io.smallrye.faulttolerance.config.FallbackConfig.FallbackConfig",,,,1,3,0
+Public Constructor,"io.smallrye.faulttolerance.config.FallbackConfig.FallbackConfig",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.FallbackConfig.getKeysToType",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.config.FallbackConfig.initKeys",,,,1,6,0
+Private Static Method,"io.smallrye.faulttolerance.config.FallbackConfig.isAssignableFrom",,,,6,18,7
+Private Static Method,"io.smallrye.faulttolerance.config.FallbackConfig.isAssignableFrom",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.FallbackConfig.isAssignableFrom",,,,5,18,0
+Public Method,"io.smallrye.faulttolerance.config.FallbackConfig.validate",,,,11,48,0
+Public Class,"io.smallrye.faulttolerance.config.FaultToleranceOperation",25,86,77,48,196,8
+Private Constructor,"io.smallrye.faulttolerance.config.FaultToleranceOperation.FaultToleranceOperation",,,,1,19,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getBeanClass",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getBulkhead",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getCircuitBreaker",,,,1,3,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig",,,,2,7,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig",,,,2,7,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig.A",1,0,0,0,0,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig.A",1,0,0,0,0,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig.C",1,0,0,0,0,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfig.C",1,0,0,0,0,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfigStatus",,,,5,20,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getConfigStatus.A",1,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getFallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getMethod",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getRetry",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.getTimeout",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.hasBulkhead",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.hasCircuitBreaker",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.hasFallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.hasRetry",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.hasTimeout",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAcceptableAsyncReturnType",,,,1,3,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAnnotated",,,,1,4,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAnnotated",,,,5,15,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAnnotated.A",1,0,0,0,0,0
+TypeVariable,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAnnotated.A",1,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAsync",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAsync",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isAsync",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isLegitimate",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.isValid",,,,2,8,0
+Public Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.of",,,,1,10,0
+Public Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.of",,,,1,10,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.returnsCompletionStage",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.returnsCompletionStage",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.returnsCompletionStage",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.toString",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.FaultToleranceOperation.validate",,,,7,21,3
+Public Abstract Generic Class,"io.smallrye.faulttolerance.config.GenericConfig",18,77,48,28,100,23
+Public Constructor,"io.smallrye.faulttolerance.config.GenericConfig.GenericConfig",,,,3,7,0
+Public Constructor,"io.smallrye.faulttolerance.config.GenericConfig.GenericConfig",,,,3,8,0
+Private Constructor,"io.smallrye.faulttolerance.config.GenericConfig.GenericConfig",,,,2,12,0
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.X",1,0,0,0,0,0
+Public Generic Method,"io.smallrye.faulttolerance.config.GenericConfig.get",,,,3,8,0
+Public Generic Method,"io.smallrye.faulttolerance.config.GenericConfig.get",,,,3,7,0
+Lambda Method,"io.smallrye.faulttolerance.config.GenericConfig.get.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.config.GenericConfig.get.(lambda_expr_1)",,,,1,1,0
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.get.U",0,0,0,0,0,0
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.get.U",0,0,0,0,0,0
+Private Static Generic Method,"io.smallrye.faulttolerance.config.GenericConfig.getAnnotationFromClass",,,,3,10,0
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.getAnnotationFromClass.A",1,0,0,0,0,0
+Protected Static Method,"io.smallrye.faulttolerance.config.GenericConfig.getConfig",,,,1,3,0
+Private Generic Method,"io.smallrye.faulttolerance.config.GenericConfig.getConfigFromAnnotation",,,,2,11,0
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.getConfigFromAnnotation.U",0,0,0,0,0,0
+Protected Method,"io.smallrye.faulttolerance.config.GenericConfig.getConfigKeyForClass",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.GenericConfig.getConfigKeyForMethod",,,,1,3,0
+Protected Abstract Method,"io.smallrye.faulttolerance.config.GenericConfig.getKeysToType",,,,0,1,0
+Public Method,"io.smallrye.faulttolerance.config.GenericConfig.getMethodInfo",,,,2,3,0
+Private Generic Method,"io.smallrye.faulttolerance.config.GenericConfig.lookup",,,,4,13,15
+TypeVariable,"io.smallrye.faulttolerance.config.GenericConfig.lookup.U",0,0,0,0,0,0
+Public Abstract Method,"io.smallrye.faulttolerance.config.GenericConfig.validate",,,,0,1,0
+Public Class,"io.smallrye.faulttolerance.config.InterfaceFaultToleranceOperationsTest",11,0,0,1,25,0
+Interface,"io.smallrye.faulttolerance.config.InterfaceFaultToleranceOperationsTest.Proxy",2,0,0,0,6,0
+Abstract Method,"io.smallrye.faulttolerance.config.InterfaceFaultToleranceOperationsTest.Proxy.ping",,,,0,1,0
+Abstract Method,"io.smallrye.faulttolerance.config.InterfaceFaultToleranceOperationsTest.Proxy.pong",,,,0,2,0
+Public Method,"io.smallrye.faulttolerance.config.InterfaceFaultToleranceOperationsTest.testInterfaceMethods",,,,1,17,0
+Public Class,"io.smallrye.faulttolerance.config.RetryConfig",13,88,88,14,71,3
+Public Constructor,"io.smallrye.faulttolerance.config.RetryConfig.RetryConfig",,,,1,3,0
+Public Constructor,"io.smallrye.faulttolerance.config.RetryConfig.RetryConfig",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.RetryConfig.getAbortOn",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.RetryConfig.getJitter",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.config.RetryConfig.getJitterDelayUnit",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.RetryConfig.getKeysToType",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.RetryConfig.getRetryOn",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.RetryConfig.initKeys",,,,1,13,0
+Public Method,"io.smallrye.faulttolerance.config.RetryConfig.validate",,,,6,23,0
+Final Class,"io.smallrye.faulttolerance.config.SecurityActions",27,0,0,65,254,35
+Private Static Class,"io.smallrye.faulttolerance.config.SecurityActions.ParametrizedParamsTranslator",6,0,0,3,17,0
+Method,"io.smallrye.faulttolerance.config.SecurityActions.ParametrizedParamsTranslator.getSuperclassTranslator",,,,1,6,0
+Method,"io.smallrye.faulttolerance.config.SecurityActions.ParametrizedParamsTranslator.translate",,,,2,7,0
+Private Constructor,"io.smallrye.faulttolerance.config.SecurityActions.SecurityActions",,,,1,2,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.doGetMethod",,,,8,35,2
+Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getAnnotationMethod",,,,3,6,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.getAnnotationMethod.(lambda_expr_1)",,,,1,1,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getArrayComponentType",,,,2,7,6
+Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getDeclaredField",,,,3,6,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.getDeclaredField.(lambda_expr_1)",,,,1,1,0
+Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getDeclaredMethod",,,,3,8,12
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.getDeclaredMethod.(lambda_expr_1)",,,,1,1,0
+Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getDeclaredMethods",,,,2,6,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.getMethodFromClass",,,,3,12,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.getMethodFromClass.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.getMethodFromClass.(lambda_expr_2)",,,,1,1,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.incomingTypesForSuperclass",,,,5,17,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.isAccessible",,,,1,3,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.isAccessibleFrom",,,,3,9,2
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.isArray",,,,2,7,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.parameterMatches",,,,8,37,1
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.parameterizedTypeMatches",,,,4,16,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.parametersMatch",,,,5,16,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.parametersMatch.(lambda_expr_1)",,,,4,12,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.prepareParamsTranslator",,,,4,15,9
+Static Method,"io.smallrye.faulttolerance.config.SecurityActions.setAccessible",,,,3,9,0
+Lambda Method,"io.smallrye.faulttolerance.config.SecurityActions.setAccessible.(lambda_expr_1)",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.typeArrayMatches",,,,4,14,0
+Private Static Method,"io.smallrye.faulttolerance.config.SecurityActions.wildcardTypeMatches",,,,1,10,0
+Public Class,"io.smallrye.faulttolerance.config.TimeoutConfig",12,80,80,6,28,3
+Public Constructor,"io.smallrye.faulttolerance.config.TimeoutConfig.TimeoutConfig",,,,1,3,0
+Public Constructor,"io.smallrye.faulttolerance.config.TimeoutConfig.TimeoutConfig",,,,1,3,0
+Protected Method,"io.smallrye.faulttolerance.config.TimeoutConfig.getKeysToType",,,,1,4,0
+Private Static Method,"io.smallrye.faulttolerance.config.TimeoutConfig.initKeys",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.config.TimeoutConfig.validate",,,,2,7,0
+Package,"io.smallrye.faulttolerance.config.extension",,,,25,164,52
+Public Class,"io.smallrye.faulttolerance.config.extension.CustomExtension",3,0,0,1,93,0
+Public Class,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral",6,0,0,9,41,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.abortOn",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.delay",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.delayUnit",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.durationUnit",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.jitter",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.jitterDelayUnit",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.maxDuration",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.maxRetries",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.RetryLiteral.retryOn",,,,1,5,0
+Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService",,,,1,50,0
+Anonymous Class,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1)",9,0,0,11,46,0
+Public Generic Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getAnnotation",,,,2,8,0
+TypeVariable,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getAnnotation.T",1,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getAnnotations",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getBaseType",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getConstructors",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getFields",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getJavaClass",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getMethods",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).getTypeClosure",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.config.extension.CustomExtension.configureService.(Anon_1).isAnnotationPresent",,,,2,7,0
+Public Class,"io.smallrye.faulttolerance.config.extension.ExtensionAnnotationTest",20,50,50,3,28,6
+Public Static Method,"io.smallrye.faulttolerance.config.extension.ExtensionAnnotationTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.config.extension.ExtensionAnnotationTest.testAnnotationAddedByExtension",,,,2,16,2
+Public Class,"io.smallrye.faulttolerance.config.extension.UnconfiguredService",3,0,0,1,8,1
+Public Method,"io.smallrye.faulttolerance.config.extension.UnconfiguredService.ping",,,,1,4,0
+Package,"io.smallrye.faulttolerance.config.priority",,,,4,57,48
+Public Class,"io.smallrye.faulttolerance.config.priority.ConfigParameterPriorityTest",18,50,50,2,29,10
+Public Static Method,"io.smallrye.faulttolerance.config.priority.ConfigParameterPriorityTest.createTestArchive",,,,1,7,0
+Public Method,"io.smallrye.faulttolerance.config.priority.ConfigParameterPriorityTest.testConfig",,,,1,17,6
+Public Class,"io.smallrye.faulttolerance.config.priority.FaultyService",2,0,0,2,9,8
+Public Method,"io.smallrye.faulttolerance.config.priority.FaultyService.bar",,,,1,2,0
+Public Method,"io.smallrye.faulttolerance.config.priority.FaultyService.foo",,,,1,3,0
+Package,"io.smallrye.faulttolerance.fallback",,,,6,45,36
+Public Class,"io.smallrye.faulttolerance.fallback.CircuitBreakerWithFallbackTest",9,0,0,3,16,6
+Public Static Method,"io.smallrye.faulttolerance.fallback.CircuitBreakerWithFallbackTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.fallback.CircuitBreakerWithFallbackTest.testCircuitBreakerOpens",,,,2,8,2
+Public Class,"io.smallrye.faulttolerance.fallback.PingService",7,33,33,3,16,0
+Method,"io.smallrye.faulttolerance.fallback.PingService.getFallback",,,,1,3,0
+Method,"io.smallrye.faulttolerance.fallback.PingService.getPingCounter",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.fallback.PingService.ping",,,,1,6,0
+Package,"io.smallrye.faulttolerance.fallback.retry",,,,6,47,37
+Public Class,"io.smallrye.faulttolerance.fallback.retry.CircuitBreakerRetryFallbackTest",9,0,0,3,15,7
+Public Static Method,"io.smallrye.faulttolerance.fallback.retry.CircuitBreakerRetryFallbackTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.fallback.retry.CircuitBreakerRetryFallbackTest.testCircuitBreakerOpens",,,,2,8,3
+Public Class,"io.smallrye.faulttolerance.fallback.retry.SuperCoolService",8,33,33,3,17,0
+Method,"io.smallrye.faulttolerance.fallback.retry.SuperCoolService.getCounter",,,,1,3,0
+Method,"io.smallrye.faulttolerance.fallback.retry.SuperCoolService.getFallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.fallback.retry.SuperCoolService.ping",,,,1,7,0
+Package,"io.smallrye.faulttolerance.fallback.retry.metrics",,,,4,58,30
+Public Class,"io.smallrye.faulttolerance.fallback.retry.metrics.FallbackRetryMetricsTest",9,0,0,2,34,0
+Public Static Method,"io.smallrye.faulttolerance.fallback.retry.metrics.FallbackRetryMetricsTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.fallback.retry.metrics.FallbackRetryMetricsTest.test",,,,1,26,0
+Public Class,"io.smallrye.faulttolerance.fallback.retry.metrics.MyService",5,0,0,2,11,0
+Public Method,"io.smallrye.faulttolerance.fallback.retry.metrics.MyService.getFallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.fallback.retry.metrics.MyService.hello",,,,1,5,0
+Package,"io.smallrye.faulttolerance.fallbackmethod",,,,0,0,0
+Package,"io.smallrye.faulttolerance.fallbackmethod.nonpublic",,,,7,61,34
+Public Class,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.FaultyService",7,0,0,4,22,0
+Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.FaultyService.fallback",,,,1,3,0
+Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.FaultyService.fallbackParameterized",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.FaultyService.foo",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.FaultyService.fooParameterized",,,,1,6,0
+Public Class,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.NonPublicFallbackMethodTest",12,33,33,3,22,4
+Public Static Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.NonPublicFallbackMethodTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.NonPublicFallbackMethodTest.testFallbackMethod",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.nonpublic.NonPublicFallbackMethodTest.testFallbackMethodParameterizedReturnType",,,,1,6,0
+Package,"io.smallrye.faulttolerance.fallbackmethod.parameterized",,,,4,40,34
+Public Class,"io.smallrye.faulttolerance.fallbackmethod.parameterized.InvalidParameterizedFallbackMethod",6,0,0,2,13,0
+Method,"io.smallrye.faulttolerance.fallbackmethod.parameterized.InvalidParameterizedFallbackMethod.fallbackParameterized",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.parameterized.InvalidParameterizedFallbackMethod.fooParameterized",,,,1,5,0
+Public Class,"io.smallrye.faulttolerance.fallbackmethod.parameterized.ParameterizedFallbackMethodTest",8,0,0,2,12,4
+Public Static Method,"io.smallrye.faulttolerance.fallbackmethod.parameterized.ParameterizedFallbackMethodTest.createTestArchive",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.fallbackmethod.parameterized.ParameterizedFallbackMethodTest.testIgnored",,,,1,3,0
+Package,"io.smallrye.faulttolerance.metadata",,,,4,40,6
+Public Class,"io.smallrye.faulttolerance.metadata.BaseService",4,0,0,2,10,0
+Public Method,"io.smallrye.faulttolerance.metadata.BaseService.retry",,,,2,6,0
+Public Class,"io.smallrye.faulttolerance.metadata.HelloService",1,0,0,0,3,0
+Public Class,"io.smallrye.faulttolerance.metadata.RetryOnSubclassOverrideTest",9,0,0,2,14,6
+Public Static Method,"io.smallrye.faulttolerance.metadata.RetryOnSubclassOverrideTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.metadata.RetryOnSubclassOverrideTest.testRetryOverriden",,,,1,6,1
+Package,"io.smallrye.faulttolerance.metrics",,,,72,350,61
+Public Class,"io.smallrye.faulttolerance.metrics.BulkheadWaitRecorder",13,33,16,6,32,3
+Public Constructor,"io.smallrye.faulttolerance.metrics.BulkheadWaitRecorder.BulkheadWaitRecorder",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.metrics.BulkheadWaitRecorder.beforeExecution",,,,2,9,0
+Private Method,"io.smallrye.faulttolerance.metrics.BulkheadWaitRecorder.histogramOf",,,,3,14,0
+Public Final Class,"io.smallrye.faulttolerance.metrics.MetricNames",3,0,0,2,30,0
+Private Constructor,"io.smallrye.faulttolerance.metrics.MetricNames.MetricNames",,,,1,2,0
+Public Static Method,"io.smallrye.faulttolerance.metrics.MetricNames.metricsPrefix",,,,1,3,0
+Public Interface,"io.smallrye.faulttolerance.metrics.MetricsCollector",4,0,0,0,28,32
+Anonymous Class,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1)",5,0,0,6,19,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).afterExecute",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).afterSuccess",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).beforeExecute",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).init",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).onError",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.(Anon_1).onProcessedError",,,,1,3,0
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.afterExecute",,,,0,1,5
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.afterSuccess",,,,0,1,5
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.beforeExecute",,,,0,1,5
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.init",,,,0,1,5
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.onError",,,,0,1,6
+Abstract Method,"io.smallrye.faulttolerance.metrics.MetricsCollector.onProcessedError",,,,0,1,6
+Public Class,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory",18,70,70,7,219,11
+Class,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl",26,91,88,49,182,11
+Constructor,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.MetricsCollectorImpl",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.afterExecute",,,,6,17,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.afterExecute.(lambda_expr_1)",,,,5,14,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.afterSuccess",,,,9,26,7
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.afterSuccess.(lambda_expr_1)",,,,8,23,7
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.beforeExecute",,,,5,19,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.beforeExecute.(lambda_expr_1)",,,,6,16,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.beforeExecute.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.beforeExecute.(lambda_expr_1).(lambda_expr_3)",,,,1,1,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.circuitBreakerFailsOn",,,,2,9,1
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.counterInc",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.counterOf",,,,3,13,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.gaugeRegister",,,,3,12,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.histogramOf",,,,3,13,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.histogramUpdate",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.init",,,,3,12,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.init.(lambda_expr_1)",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.onError",,,,8,29,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.onError.(lambda_expr_1)",,,,7,26,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.onProcessedError",,,,4,12,0
+Lambda Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.MetricsCollectorImpl.onProcessedError.(lambda_expr_1)",,,,3,9,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.createCollector",,,,2,8,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.getRegistry",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.isMetricsEnabled",,,,1,3,0
+Public Static Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.metadataOf",,,,1,7,0
+Private Method,"io.smallrye.faulttolerance.metrics.MetricsCollectorFactory.runSafely",,,,2,7,0
+Package,"io.smallrye.faulttolerance.retry",,,,39,216,42
+Public Class,"io.smallrye.faulttolerance.retry.RetryTest",22,45,45,18,90,4
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.cleanUp",,,,1,4,0
+Private Method,"io.smallrye.faulttolerance.retry.RetryTest.collectResultsAssumingFailures",,,,3,14,0
+Public Static Method,"io.smallrye.faulttolerance.retry.RetryTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldFallbackOnMaxDurationExceeded",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldFallbackOnNoRetryOnBulkhead",,,,3,12,0
+Lambda Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldFallbackOnNoRetryOnBulkhead.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldFallbackOnNoRetryOnBulkhead.(lambda_expr_2)",,,,1,1,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldNotFallbackIfTimeNotReached",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldNotRetryOnBulkheadExceptionIfNotSpecified",,,,2,10,0
+Lambda Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldNotRetryOnBulkheadExceptionIfNotSpecified.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldNotRetryOnTimeoutExceptionIfNotSpecified",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldRetryIndefinitely",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldRetryOnBulkheadExceptionIfSpecified",,,,2,11,0
+Lambda Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldRetryOnBulkheadExceptionIfSpecified.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTest.shouldRetryOnTimeoutExceptionIfSpecified",,,,1,5,0
+Public Class,"io.smallrye.faulttolerance.retry.RetryTestBean",17,30,7,21,97,8
+Private Method,"io.smallrye.faulttolerance.retry.RetryTestBean.call",,,,2,7,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithFallbackAndNoRetryOnBulkhead",,,,2,10,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithMaxDuration2s",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithMaxDuration500ms",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithNoRetryOnBulkhead",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithRetryOnBulkhead",,,,2,10,4
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithRetryOnOutOfMemoryError",,,,2,10,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithRetryOnTimeoutException",,,,2,10,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.callWithUnlimitedRetries",,,,2,9,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.fallback",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.retry.RetryTestBean.reset",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.retry.RetryTestBean.sleep",,,,2,6,0
+Package,"io.smallrye.faulttolerance.retryonerror",,,,5,41,19
+Public Class,"io.smallrye.faulttolerance.retryonerror.HelloService",7,0,0,2,11,0
+Public Method,"io.smallrye.faulttolerance.retryonerror.HelloService.retry",,,,2,7,0
+Public Class,"io.smallrye.faulttolerance.retryonerror.RetryOnErrorTest",9,0,0,3,17,4
+Public Static Method,"io.smallrye.faulttolerance.retryonerror.RetryOnErrorTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.retryonerror.RetryOnErrorTest.testRetry",,,,2,10,0
+Package,"io.smallrye.faulttolerance.sync",,,,12,98,41
+Public Class,"io.smallrye.faulttolerance.sync.ShakyServiceClient",3,0,0,2,12,1
+Method,"io.smallrye.faulttolerance.sync.ShakyServiceClient.ping",,,,2,7,0
+Public Class,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest",25,80,40,10,61,10
+Private Method,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest.assertInvocation",,,,1,3,0
+Private Method,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest.assertInvocation",,,,4,15,0
+Public Static Method,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest.createTestArchive",,,,1,7,0
+Private Method,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest.getCommandKey",,,,2,7,0
+Public Method,"io.smallrye.faulttolerance.sync.SyncCircuitBreakerDisabledTest.testDefaultHystrixCircuitBreakerUsed",,,,2,24,6
+Package,"io.smallrye.faulttolerance.tck",,,,18,133,62
+Public Class,"io.smallrye.faulttolerance.tck.FaultToleranceApplicationArchiveProcessor",13,0,0,4,28,5
+Public Method,"io.smallrye.faulttolerance.tck.FaultToleranceApplicationArchiveProcessor.process",,,,4,25,1
+Public Class,"io.smallrye.faulttolerance.tck.FaultToleranceExtension",7,0,0,1,7,4
+Public Method,"io.smallrye.faulttolerance.tck.FaultToleranceExtension.register",,,,1,5,0
+Public Class,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup",6,0,0,2,23,4
+Static Class,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.DummyCommand",6,0,0,3,14,0
+Protected Constructor,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.DummyCommand.DummyCommand",,,,1,3,0
+Static Method,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.DummyCommand.clearSemaphoreCache",,,,1,5,0
+Protected Method,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.DummyCommand.run",,,,1,4,0
+Method,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.init",,,,1,2,0
+Method,"io.smallrye.faulttolerance.tck.HystrixCommandSemaphoreCleanup.onShutdown",,,,1,4,0
+Public Class,"io.smallrye.faulttolerance.tck.RequestContextCommandListener",11,11,11,5,30,2
+Public Constructor,"io.smallrye.faulttolerance.tck.RequestContextCommandListener.RequestContextCommandListener",,,,1,6,0
+Public Method,"io.smallrye.faulttolerance.tck.RequestContextCommandListener.afterExecution",,,,2,11,0
+Public Method,"io.smallrye.faulttolerance.tck.RequestContextCommandListener.beforeExecution",,,,2,7,2
+Public Class,"io.smallrye.faulttolerance.tck.TckDeploymentExceptionTransformer",3,0,0,3,12,0
+Public Method,"io.smallrye.faulttolerance.tck.TckDeploymentExceptionTransformer.transform",,,,3,10,0
+Package,"io.smallrye.faulttolerance.timeout",,,,6,53,34
+Public Class,"io.smallrye.faulttolerance.timeout.TimeoutTest",13,50,50,4,24,4
+Public Static Method,"io.smallrye.faulttolerance.timeout.TimeoutTest.createTestArchive",,,,1,4,0
+Public Method,"io.smallrye.faulttolerance.timeout.TimeoutTest.testTimeout",,,,3,15,0
+Public Class,"io.smallrye.faulttolerance.timeout.TimingOutService",7,0,0,2,14,0
+Public Method,"io.smallrye.faulttolerance.timeout.TimingOutService.someSlowMethod",,,,2,10,0
+Package,"io.smallrye.faulttolerance.tracing",,,,17,121,46
+Public Class,"io.smallrye.faulttolerance.tracing.Service",7,50,50,2,16,3
+Public Method,"io.smallrye.faulttolerance.tracing.Service.fallback",,,,1,3,0
+Public Method,"io.smallrye.faulttolerance.tracing.Service.foo",,,,1,7,0
+Public Class,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy",4,0,0,6,41,3
+Private Static Generic Class,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.OpenTracingHystrixCallable",6,0,0,3,19,0
+Public Constructor,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.OpenTracingHystrixCallable.OpenTracingHystrixCallable",,,,2,8,0
+TypeVariable,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.OpenTracingHystrixCallable.S",0,0,0,0,0,0
+Public Method,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.OpenTracingHystrixCallable.call",,,,1,6,0
+Public Constructor,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.TracingConcurrencyStrategy",,,,1,4,0
+Public Generic Method,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.wrapCallable",,,,5,14,0
+TypeVariable,"io.smallrye.faulttolerance.tracing.TracingConcurrencyStrategy.wrapCallable.T",0,0,0,0,0,0
+Public Class,"io.smallrye.faulttolerance.tracing.TracingContextPropagationTest",10,0,0,3,23,4
+Public Static Method,"io.smallrye.faulttolerance.tracing.TracingContextPropagationTest.createTestArchive",,,,1,5,0
+Public Method,"io.smallrye.faulttolerance.tracing.TracingContextPropagationTest.testCircuitBreakerOpens",,,,2,15,1
+Public Class,"io.smallrye.faulttolerance.tracing.TracingInstaller",5,0,0,3,14,6
+Private Constructor,"io.smallrye.faulttolerance.tracing.TracingInstaller.TracingInstaller",,,,1,2,0
+Public Static Method,"io.smallrye.faulttolerance.tracing.TracingInstaller.wrap",,,,2,9,3

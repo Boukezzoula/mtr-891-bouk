@@ -1,0 +1,347 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbstractHudsonTestCaseDeletingInstanceDir.java",,,,1,15,11
+File,"ConfigHistoryListenerHelper.java",,,,12,86,90
+File,"ConfigInfo.java",,,,10,75,86
+File,"ConfigInfoComparator.java",,,,1,10,9
+File,"Diff.java",,,,107,482,310
+File,"DiffPrint.java",,,,84,343,172
+File,"HistoryDescr.java",,,,5,25,39
+File,"JobConfigBadgeAction.java",,,,25,118,67
+File,"JobConfigBadgeActionTest.java",,,,15,193,3
+File,"JobConfigHistory.java",,,,71,297,214
+File,"JobConfigHistoryActionFactory.java",,,,1,23,9
+File,"JobConfigHistoryBaseAction.java",,,,36,205,156
+File,"JobConfigHistoryBaseActionTest.java",,,,17,127,23
+File,"JobConfigHistoryConsts.java",,,,1,13,17
+File,"JobConfigHistoryJobListener.java",,,,11,73,19
+File,"JobConfigHistoryJobListenerTest.java",,,,7,85,14
+File,"JobConfigHistoryProjectAction.java",,,,19,122,82
+File,"JobConfigHistoryProjectActionTest.java",,,,5,60,8
+File,"JobConfigHistoryPurger.java",,,,21,94,28
+File,"JobConfigHistoryPurgerTest.java",,,,10,82,2
+File,"JobConfigHistoryRootAction.java",,,,44,222,120
+File,"JobConfigHistoryRootActionTest.java",,,,18,142,25
+File,"JobConfigHistorySaveableListener.java",,,,2,20,8
+File,"JobConfigHistoryTest.java",,,,34,276,36
+File,"PluginTest.java",,,,22,162,18
+Package,"bmsi",,,,0,0,0
+Package,"bmsi.util",,,,191,825,482
+Public Class,"bmsi.util.Diff",9,67,51,46,480,287
+Public Constructor,"bmsi.util.Diff.Diff",,,,1,6,7
+Static Class,"bmsi.util.Diff.ForwardScript",1,0,0,5,21,5
+Public Method,"bmsi.util.Diff.ForwardScript.build_script",,,,5,19,5
+Static Class,"bmsi.util.Diff.ReverseScript",1,0,0,5,19,5
+Public Method,"bmsi.util.Diff.ReverseScript.build_script",,,,5,17,3
+Public Interface,"bmsi.util.Diff.ScriptBuilder",1,0,0,0,6,8
+Public Abstract Method,"bmsi.util.Diff.ScriptBuilder.build_script",,,,0,4,8
+Public Static Class,"bmsi.util.Diff.change",0,0,0,1,14,20
+Public Constructor,"bmsi.util.Diff.change.change",,,,1,7,7
+Private Method,"bmsi.util.Diff.compareseq",,,,8,31,20
+Private Method,"bmsi.util.Diff.diag",,,,31,140,44
+Public Method,"bmsi.util.Diff.diff",,,,1,22,17
+Public Final Method,"bmsi.util.Diff.diff_2",,,,2,3,0
+Private Method,"bmsi.util.Diff.discard_confusing_lines",,,,1,4,2
+Class,"bmsi.util.Diff.file_data",4,58,45,50,192,103
+Method,"bmsi.util.Diff.file_data.clear",,,,1,3,5
+Private Method,"bmsi.util.Diff.file_data.discard",,,,3,13,3
+Method,"bmsi.util.Diff.file_data.discard_confusing_lines",,,,1,6,17
+Private Method,"bmsi.util.Diff.file_data.discardable",,,,6,21,9
+Method,"bmsi.util.Diff.file_data.equivCount",,,,2,6,4
+Constructor,"bmsi.util.Diff.file_data.file_data",,,,3,14,0
+Private Method,"bmsi.util.Diff.file_data.filterDiscards",,,,26,76,25
+Method,"bmsi.util.Diff.file_data.shift_boundaries",,,,8,45,26
+Private Method,"bmsi.util.Diff.shift_boundaries",,,,2,6,3
+Public Class,"bmsi.util.DiffPrint",15,0,0,15,330,139
+Public Static Abstract Class,"bmsi.util.DiffPrint.Base",7,84,83,21,86,49
+Protected Constructor,"bmsi.util.DiffPrint.Base.Base",,,,1,4,0
+Protected Method,"bmsi.util.DiffPrint.Base.analyze_hunk",,,,7,30,12
+Public Static Method,"bmsi.util.DiffPrint.Base.change_letter",,,,3,8,0
+Protected Method,"bmsi.util.DiffPrint.Base.hunkfun",,,,1,3,3
+Protected Method,"bmsi.util.DiffPrint.Base.print_1_line",,,,1,3,0
+Public Method,"bmsi.util.DiffPrint.Base.print_header",,,,1,3,5
+Protected Abstract Method,"bmsi.util.DiffPrint.Base.print_hunk",,,,0,1,0
+Protected Method,"bmsi.util.DiffPrint.Base.print_number_range",,,,2,6,7
+Public Method,"bmsi.util.DiffPrint.Base.print_script",,,,2,15,12
+Public Method,"bmsi.util.DiffPrint.Base.setOutput",,,,1,3,0
+Protected Method,"bmsi.util.DiffPrint.Base.setupOutput",,,,2,4,0
+Public Static Class,"bmsi.util.DiffPrint.ContextPrint",6,83,83,21,73,22
+Public Constructor,"bmsi.util.DiffPrint.ContextPrint.ContextPrint",,,,1,3,0
+Private Method,"bmsi.util.DiffPrint.ContextPrint.find_function",,,,1,3,1
+Protected Method,"bmsi.util.DiffPrint.ContextPrint.print_context_label",,,,3,11,2
+Protected Method,"bmsi.util.DiffPrint.ContextPrint.print_function",,,,3,9,0
+Public Method,"bmsi.util.DiffPrint.ContextPrint.print_header",,,,1,4,0
+Protected Method,"bmsi.util.DiffPrint.ContextPrint.print_hunk",,,,12,40,16
+Public Static Class,"bmsi.util.DiffPrint.EdPrint",3,0,0,8,33,16
+Public Constructor,"bmsi.util.DiffPrint.EdPrint.EdPrint",,,,1,3,0
+Protected Method,"bmsi.util.DiffPrint.EdPrint.print_hunk",,,,7,28,12
+Public Static Class,"bmsi.util.DiffPrint.NormalPrint",2,0,0,8,22,9
+Public Constructor,"bmsi.util.DiffPrint.NormalPrint.NormalPrint",,,,1,3,0
+Protected Method,"bmsi.util.DiffPrint.NormalPrint.print_hunk",,,,7,17,7
+Public Static Class,"bmsi.util.DiffPrint.UnifiedPrint",5,0,0,11,56,15
+Public Constructor,"bmsi.util.DiffPrint.UnifiedPrint.UnifiedPrint",,,,1,3,0
+Public Method,"bmsi.util.DiffPrint.UnifiedPrint.print_header",,,,1,4,0
+Protected Method,"bmsi.util.DiffPrint.UnifiedPrint.print_hunk",,,,7,41,8
+Private Method,"bmsi.util.DiffPrint.UnifiedPrint.print_number_range",,,,2,6,4
+Public Static Method,"bmsi.util.DiffPrint.main",,,,12,45,3
+Static Method,"bmsi.util.DiffPrint.slurp",,,,3,13,6
+Interface,"bmsi.util.UnaryPredicate",0,0,0,0,3,0
+Abstract Method,"bmsi.util.UnaryPredicate.execute",,,,0,1,0
+Public Implicit Method,"clone",,,,0,,
+Package,"hudson",,,,0,0,0
+Package,"hudson.plugins",,,,0,0,0
+Package,"hudson.plugins.jobConfigHistory",,,,388,2525,1084
+Public Abstract Class,"hudson.plugins.jobConfigHistory.AbstractHudsonTestCaseDeletingInstanceDir",6,0,0,1,10,11
+Protected Method,"hudson.plugins.jobConfigHistory.AbstractHudsonTestCaseDeletingInstanceDir.tearDown",,,,1,7,1
+Public Enum Type,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper",21,,,12,71,90
+Constructor,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.ConfigHistoryListenerHelper",,,,1,3,5
+Private Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.copyConfigFile",,,,1,14,12
+Private Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.createHistoryXmlFile",,,,2,16,10
+Public Final Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.createNewHistoryEntry",,,,4,14,14
+Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.getCurrentUser",,,,1,3,5
+Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.getIdFormatter",,,,1,3,6
+Private Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.getRootDir",,,,2,10,13
+Public Implicit Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.valueOf",,,,0,,
+Public Implicit Method,"hudson.plugins.jobConfigHistory.ConfigHistoryListenerHelper.values",,,,0,,
+Public Class,"hudson.plugins.jobConfigHistory.ConfigInfo",8,80,60,10,68,86
+Constructor,"hudson.plugins.jobConfigHistory.ConfigInfo.ConfigInfo",,,,1,9,9
+Public Static Method,"hudson.plugins.jobConfigHistory.ConfigInfo.create",,,,1,11,14
+Public Static Method,"hudson.plugins.jobConfigHistory.ConfigInfo.create",,,,1,11,14
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getDate",,,,1,4,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getFile",,,,1,4,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getIsJob",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getJob",,,,1,4,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getOperation",,,,1,4,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getUser",,,,1,4,5
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfo.getUserID",,,,1,4,5
+Final Class,"hudson.plugins.jobConfigHistory.ConfigInfoComparator",3,0,0,1,6,9
+Public Method,"hudson.plugins.jobConfigHistory.ConfigInfoComparator.compare",,,,1,3,1
+Public Class,"hudson.plugins.jobConfigHistory.HistoryDescr",1,60,60,5,24,39
+Public Constructor,"hudson.plugins.jobConfigHistory.HistoryDescr.HistoryDescr",,,,1,6,10
+Public Method,"hudson.plugins.jobConfigHistory.HistoryDescr.getOperation",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.HistoryDescr.getTimestamp",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.HistoryDescr.getUser",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.HistoryDescr.getUserID",,,,1,3,5
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction",23,73,65,25,101,67
+Public Constructor,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.JobConfigBadgeAction",,,,1,1,1
+Public Constructor,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.JobConfigBadgeAction",,,,1,5,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.createLink",,,,1,5,4
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.findLastRelevantConfigChangeDate",,,,3,10,9
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.getDisplayName",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.getIcon",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.getIconFileName",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.getTooltip",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.getUrlName",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.oldConfigsExist",,,,3,11,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.onStarted",,,,8,36,1
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.parseDate",,,,2,9,6
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeAction.showBadge",,,,1,3,7
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest",16,33,25,15,183,3
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.setUp",,,,1,5,0
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.shouldPageContainBadge",,,,3,22,1
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBadgeAction",,,,1,16,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBadgeAfterRename",,,,1,15,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBadgeConfigurationAnonymous",,,,1,14,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBadgeConfigurationWithPermissions",,,,1,16,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBuildWithoutHistoryDir",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testBuildWithoutHistoryEntries",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testCorrectLinkTargetsAfterRename",,,,1,24,2
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testCorrectShowDiffLinkWithMultipleChanges",,,,2,26,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testCorrectShowDiffLinkWithSingleChange",,,,1,23,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigBadgeActionTest.testProjectWithConfigsButMissingBuilds",,,,1,8,0
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistory",29,89,87,69,273,214
+Anonymous Class,"hudson.plugins.jobConfigHistory.JobConfigHistory.(Anon_1)",2,0,0,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.(Anon_1).accept",,,,1,3,0
+Anonymous Class,"hudson.plugins.jobConfigHistory.JobConfigHistory.(Anon_2)",3,0,0,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.(Anon_2).accept",,,,1,3,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.checkForPurgeByQuantity",,,,5,18,8
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.configure",,,,1,14,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.doCheckExcludePattern",,,,2,8,7
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.doCheckMaxDaysToKeepEntries",,,,3,10,7
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.doCheckMaxHistoryEntries",,,,3,10,7
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getConfigFile",,,,4,13,16
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getConfiguredHistoryRootDir",,,,3,14,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getDefaultExcludePattern",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getDefaultRootDir",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getExcludePattern",,,,1,3,3
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getExcludeRegexpPattern",,,,1,3,4
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getHistoryDir",,,,4,22,10
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getHistoryRootDir",,,,1,3,3
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getJobHistoryRootDir",,,,2,9,9
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getMaxDaysToKeepEntries",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getMaxHistoryEntries",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getSaveItemGroupConfiguration",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getSaveSystemConfiguration",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getShowBuildBadges",,,,1,3,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.getSkipDuplicateHistory",,,,1,3,3
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.hasDuplicateHistory",,,,5,19,8
+Private Static Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.isHistoryDir",,,,1,3,7
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.isSaveable",,,,6,20,17
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.loadRegex",,,,3,10,7
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.loadRegexpPatterns",,,,1,3,3
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.purgeHistoryByQuantity",,,,6,18,9
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.setMaxDaysToKeepEntries",,,,1,3,5
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.setMaxHistoryEntries",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.setSaveSystemConfiguration",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.setShowBuildBadges",,,,1,3,4
+Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.showBuildBadges",,,,4,10,6
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistory.start",,,,1,5,0
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryActionFactory",11,0,0,1,13,9
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryActionFactory.createFor",,,,1,10,3
+Public Abstract Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction",34,70,70,22,178,156
+Public Constructor,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.JobConfigHistoryBaseAction",,,,1,3,3
+Public Static Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView",10,0,0,7,60,65
+Public Static Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line",2,75,75,3,29,46
+Public Static Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.Item",2,66,66,4,14,23
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.Item.getCssClass",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.Item.getLineNumber",,,,2,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.Item.getText",,,,1,3,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.getLeft",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.getRight",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.Line.isSkipping",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.addLine",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.clearDuplicateLines",,,,5,22,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.SideBySideView.getLines",,,,1,3,5
+Protected Abstract Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.checkConfigurePermission",,,,0,1,5
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.checkTimestamp",,,,3,11,5
+Protected Abstract Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getAccessControlledObject",,,,0,1,5
+Protected Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getDiffAsString",,,,1,11,13
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getDiffLines",,,,10,66,9
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getDisplayName",,,,1,3,5
+Protected Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getHudson",,,,1,3,5
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getOutputType",,,,2,6,5
+Protected Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getPlugin",,,,1,3,5
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getRequestParameter",,,,1,3,7
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.getUrlName",,,,1,3,6
+Protected Abstract Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseAction.hasConfigurePermission",,,,0,1,7
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest",24,72,72,13,107,23
+Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction",,,,1,20,3
+Anonymous Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction.(Anon_1)",4,0,0,4,16,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction.(Anon_1).checkConfigurePermission",,,,1,4,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction.(Anon_1).getAccessControlledObject",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction.(Anon_1).getIconFileName",,,,1,3,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.createJobConfigHistoryBaseAction.(Anon_1).hasConfigurePermission",,,,1,4,0
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.makeResultPlatformIndependent",,,,1,3,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.setUp",,,,1,7,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.tearDown",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testClearDuplicateLines",,,,1,20,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testGetConfigXmlIllegalArgumentExceptionInvalidTimestamp",,,,2,9,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testGetConfigXmlIllegalArgumentExceptionNonExistingJobName",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testGetDiffFileStringStringDifferentLineLength",,,,1,5,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testGetDiffFileStringStringEmpty",,,,1,4,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testGetDiffFileStringStringSameLineLength",,,,1,7,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryBaseActionTest.testSecuredAccessToJobConfigHistoryPage",,,,2,16,2
+Public Final Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryConsts",1,0,0,1,12,17
+Private Constructor,"hudson.plugins.jobConfigHistory.JobConfigHistoryConsts.JobConfigHistoryConsts",,,,1,2,4
+Public Final Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListener",19,0,0,11,60,19
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListener.onCreated",,,,2,10,2
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListener.onDeleted",,,,3,17,1
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListener.onRenamed",,,,6,29,10
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest",24,66,66,7,72,14
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.setUp",,,,1,8,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.testCopyJob",,,,1,8,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.testCreation",,,,1,6,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.testNonAbstractProjects",,,,1,6,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.testRename",,,,1,11,1
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryJobListenerTest.testRenameErrors",,,,2,28,5
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction",28,53,15,19,101,82
+Public Constructor,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.JobConfigHistoryProjectAction",,,,1,4,4
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.checkConfigurePermission",,,,1,4,0
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.doDiffFiles",,,,1,6,14
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.doForwardToRestoreQuestion",,,,1,5,7
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.doRestore",,,,1,9,7
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getAccessControlledObject",,,,1,4,3
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getFile",,,,1,6,10
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getIconFileName",,,,2,4,7
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getJobConfigs",,,,3,15,7
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getLines",,,,1,13,7
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getOldConfigXml",,,,4,20,6
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.getProject",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectAction.hasConfigurePermission",,,,1,4,0
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectActionTest",10,0,0,5,55,8
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectActionTest.setUp",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectActionTest.testRestore",,,,2,23,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryProjectActionTest.testRestoreFromDiffFiles",,,,2,23,3
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger",20,66,50,21,80,28
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.deleteDirectory",,,,4,10,5
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.doRun",,,,5,20,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.getRecurrencePeriod",,,,1,4,0
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.isTooOld",,,,4,19,6
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.purgeHistoryByAge",,,,1,4,3
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurger.purgeSystemOrJobHistory",,,,6,18,6
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest",15,0,0,10,74,2
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.createDirectories",,,,3,9,2
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.createTimestamp",,,,1,6,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testHistoryPurgerWhenMaxDaysSetToZero",,,,1,10,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testJobHistoryPurger",,,,1,13,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testSystemHistoryPurger",,,,1,17,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testWithEmptyMaxAge",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testWithNegativeMaxAge",,,,1,4,0
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryPurgerTest.testWithWrongMaxAge",,,,1,9,0
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction",25,0,0,44,203,120
+Public Constructor,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.JobConfigHistoryRootAction",,,,1,3,3
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.checkConfigurePermission",,,,1,4,0
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.checkParameters",,,,3,9,7
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.createLinkToJobFiles",,,,2,10,8
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.doDiffFiles",,,,1,6,14
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getAccessControlledObject",,,,1,4,5
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getConfigs",,,,3,15,9
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getFile",,,,2,11,10
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getIconFileName",,,,2,7,7
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getJobConfigs",,,,8,33,9
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getLines",,,,2,18,8
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getOldConfigXml",,,,4,22,7
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getSingleConfigs",,,,5,22,8
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getSystemConfigs",,,,6,24,9
+Public Final Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.getUrlName",,,,1,4,6
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.hasConfigurePermission",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootAction.hasJobConfigurePermission",,,,1,3,5
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest",23,25,25,18,132,25
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.checkSystemPage",,,,1,7,4
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.setUp",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testFilterWithData",,,,3,37,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testFilterWithoutData",,,,2,8,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testFilterWithoutPermissions",,,,2,10,3
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testGetOldConfigXmlWithWrongParameters",,,,3,16,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testSingleDeletedJobHistoryPage",,,,3,19,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryRootActionTest.testSingleSystemHistoryPage",,,,3,26,5
+Public Final Class,"hudson.plugins.jobConfigHistory.JobConfigHistorySaveableListener",9,0,0,2,13,8
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistorySaveableListener.onChange",,,,2,9,2
+Public Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest",24,30,30,32,263,36
+Anonymous Class,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.(Anon_1)",1,0,0,2,8,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.(Anon_1).accept",,,,2,7,0
+Protected Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.setUp",,,,1,6,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testAbsPathHistoryRootDir",,,,2,19,4
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testChangedRootDir",,,,2,18,4
+Private Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testCreateRenameDeleteProject",,,,9,47,5
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testFormValidation",,,,2,17,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testJobConfigHistoryDefaults",,,,1,12,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testJobConfigHistoryPreConfigured",,,,2,27,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testMaxHistoryEntries",,,,4,23,0
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testPurgeByQuantity",,,,5,39,10
+Public Method,"hudson.plugins.jobConfigHistory.JobConfigHistoryTest.testSkipDuplicateHistory",,,,4,43,7
+Public Class,"hudson.plugins.jobConfigHistory.PluginTest",21,33,33,8,147,18
+Private Class,"hudson.plugins.jobConfigHistory.PluginTest.AllJobConfigHistoryPage",3,0,0,1,6,0
+Public Constructor,"hudson.plugins.jobConfigHistory.PluginTest.AllJobConfigHistoryPage.AllJobConfigHistoryPage",,,,1,4,0
+Private Class,"hudson.plugins.jobConfigHistory.PluginTest.BasicHistoryPage",5,0,0,2,12,1
+Public Constructor,"hudson.plugins.jobConfigHistory.PluginTest.BasicHistoryPage.BasicHistoryPage",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.BasicHistoryPage.getConfigOutputLinks",,,,1,5,1
+Private Class,"hudson.plugins.jobConfigHistory.PluginTest.ConfigPage",8,0,0,2,12,5
+Public Constructor,"hudson.plugins.jobConfigHistory.PluginTest.ConfigPage.ConfigPage",,,,1,3,5
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.ConfigPage.setNewDescription",,,,1,6,0
+Private Class,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage",8,0,0,6,23,0
+Public Constructor,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.HistoryPage",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.assertNoHistoryEntriesAvailable",,,,1,3,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.getDiffPage",,,,1,4,0
+Private Method,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.getTimestampRadioButton",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.setCheckedTimestamp1RadioButton",,,,1,3,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.HistoryPage.setCheckedTimestamp2RadioButton",,,,1,3,0
+Private Class,"hudson.plugins.jobConfigHistory.PluginTest.JobPage",5,33,33,3,14,1
+Public Constructor,"hudson.plugins.jobConfigHistory.PluginTest.JobPage.JobPage",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.JobPage.checkHistoryLink",,,,1,3,1
+Public Final Method,"hudson.plugins.jobConfigHistory.PluginTest.JobPage.getJobConfigHistoryLink",,,,1,3,0
+Protected Method,"hudson.plugins.jobConfigHistory.PluginTest.setUp",,,,1,5,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.testAllProjectsConfigurationHistoryPage",,,,1,3,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.testHistoryPageOfSingleSystemConfig",,,,3,23,5
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.testHistoryPageWithOutEntries",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.testJobPage",,,,1,4,0
+Public Method,"hudson.plugins.jobConfigHistory.PluginTest.testSaveConfiguration",,,,1,37,0

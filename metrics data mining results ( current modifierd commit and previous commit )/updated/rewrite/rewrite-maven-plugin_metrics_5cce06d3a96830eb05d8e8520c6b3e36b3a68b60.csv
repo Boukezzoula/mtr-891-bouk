@@ -1,0 +1,375 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,11,76,32
+File,"AbstractRewriteDryRunMojo.java",,,,16,104,25
+File,"AbstractRewriteMojo.java",,,,64,303,6
+File,"AbstractRewriteRunMojo.java",,,,32,153,32
+File,"ArtifactResolver.java",,,,8,57,0
+File,"BadSpacing.java",,,,0,3,0
+File,"BasicIT.java",,,,8,56,2
+File,"ConfigurableRewriteMojo.java",,,,21,155,19
+File,"ConfigureMojo.java",,,,10,98,5
+File,"ConfigureMojoIT.java",,,,2,22,0
+File,"ConfigureMojoITNoActiveRecipe.java",,,,2,26,0
+File,"CycloneDxBomMojo.java",,,,4,49,4
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"InitMojo.java",,,,13,108,6
+File,"InitMojoIT.java",,,,2,23,0
+File,"MavenLoggingMeterRegistry.java",,,,44,184,16
+File,"MavenMojoProjectParser.java",,,,76,441,48
+Public Class,"MavenWrapperDownloader",17,0,0,10,72,17
+Private Static Method,"MavenWrapperDownloader.downloadFileFromURL",,,,2,19,0
+Anonymous Class,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1)",3,0,0,1,5,0
+Protected Method,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1).getPasswordAuthentication",,,,1,4,0
+File,"MavenWrapperDownloader.java",,,,11,76,32
+Public Static Method,"MavenWrapperDownloader.main",,,,8,43,3
+File,"MeterRegistryProvider.java",,,,21,104,2
+File,"MyInterface.java",,,,0,3,0
+File,"MyInterface.java",,,,0,3,0
+File,"MyInterface.java",,,,0,3,0
+File,"MyInterface.java",,,,0,3,0
+File,"RecipeDescriptorTree.java",,,,17,64,8
+File,"RecipeDescriptorTreePrompter.java",,,,15,79,9
+File,"RemoveMojo.java",,,,4,53,5
+File,"RemoveMojoIT.java",,,,2,18,0
+File,"ResourceParser.java",,,,35,177,0
+File,"RewriteCycloneDxIT.java",,,,3,66,0
+File,"RewriteDiscoverIT.java",,,,16,77,0
+File,"RewriteDiscoverMojo.java",,,,20,108,21
+File,"RewriteDryRunIT.java",,,,8,42,0
+File,"RewriteDryRunMojo.java",,,,0,10,21
+File,"RewriteDryRunNoForkMojo.java",,,,0,8,6
+File,"RewriteRunIT.java",,,,4,29,0
+File,"RewriteRunMojo.java",,,,0,10,21
+File,"RewriteRunNoForkMojo.java",,,,0,8,21
+File,"SanitizedMarkerPrinter.java",,,,2,15,4
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+File,"SimplifyBooleanSample.java",,,,4,18,0
+Package,"org",,,,0,0,0
+Package,"org.openrewrite",,,,0,0,0
+Package,"org.openrewrite.maven",,,,417,2505,279
+Public Class,"org.openrewrite.maven.AbstractRewriteDryRunMojo",18,0,0,16,92,10
+Public Method,"org.openrewrite.maven.AbstractRewriteDryRunMojo.execute",,,,16,85,2
+Lambda Method,"org.openrewrite.maven.AbstractRewriteDryRunMojo.execute.(lambda_expr_1)",,,,2,7,0
+Public Abstract Class,"org.openrewrite.maven.AbstractRewriteMojo",55,82,75,47,265,6
+Public Static Class,"org.openrewrite.maven.AbstractRewriteMojo.ResultsContainer",7,30,30,17,54,1
+Public Constructor,"org.openrewrite.maven.AbstractRewriteMojo.ResultsContainer.ResultsContainer",,,,6,17,1
+Public Method,"org.openrewrite.maven.AbstractRewriteMojo.ResultsContainer.getFirstException",,,,9,24,0
+Public Method,"org.openrewrite.maven.AbstractRewriteMojo.ResultsContainer.getProjectRoot",,,,1,3,0
+Public Method,"org.openrewrite.maven.AbstractRewriteMojo.ResultsContainer.isNotEmpty",,,,1,3,0
+Private Method,"org.openrewrite.maven.AbstractRewriteMojo.collectBasePaths",,,,4,12,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.environment",,,,5,22,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.executionContext",,,,2,6,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.executionContext.(lambda_expr_1)",,,,1,4,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.getBaseDir",,,,3,14,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.getRecipeClassloader",,,,4,20,0
+Public Static Method,"org.openrewrite.maven.AbstractRewriteMojo.getRecipeDescriptor",,,,3,6,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.getRecipeDescriptor.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.getRecipeDescriptor.(lambda_expr_2)",,,,1,1,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.listResults",,,,18,86,5
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listResults.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.listResults.(lambda_expr_2)",,,,2,6,1
+Private Method,"org.openrewrite.maven.AbstractRewriteMojo.logRecipe",,,,6,19,0
+Lambda Method,"org.openrewrite.maven.AbstractRewriteMojo.logRecipe.(lambda_expr_1)",,,,2,6,0
+Protected Method,"org.openrewrite.maven.AbstractRewriteMojo.logRecipesThatMadeChanges",,,,2,8,0
+Public Class,"org.openrewrite.maven.AbstractRewriteRunMojo",24,0,0,32,140,17
+Public Method,"org.openrewrite.maven.AbstractRewriteRunMojo.execute",,,,19,92,8
+Private Static Method,"org.openrewrite.maven.AbstractRewriteRunMojo.writeAfter",,,,13,46,4
+Public Class,"org.openrewrite.maven.ArtifactResolver",16,22,22,8,43,0
+Public Constructor,"org.openrewrite.maven.ArtifactResolver.ArtifactResolver",,,,1,5,0
+Public Method,"org.openrewrite.maven.ArtifactResolver.createArtifact",,,,2,7,0
+Public Method,"org.openrewrite.maven.ArtifactResolver.resolveArtifactsAndDependencies",,,,5,25,0
+Lambda Method,"org.openrewrite.maven.ArtifactResolver.resolveArtifactsAndDependencies.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.BasicIT",8,0,0,8,51,2
+Method,"org.openrewrite.maven.BasicIT.groupid_artifactid_should_be_ok",,,,1,8,0
+Method,"org.openrewrite.maven.BasicIT.null_check_profile_activation",,,,2,15,0
+Lambda Method,"org.openrewrite.maven.BasicIT.null_check_profile_activation.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.BasicIT.resolves_maven_properties_from_user_provided_system_properties",,,,3,11,1
+Lambda Method,"org.openrewrite.maven.BasicIT.resolves_maven_properties_from_user_provided_system_properties.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.BasicIT.resolves_maven_properties_from_user_provided_system_properties.(lambda_expr_2)",,,,1,1,0
+Method,"org.openrewrite.maven.BasicIT.resolves_settings",,,,2,12,1
+Lambda Method,"org.openrewrite.maven.BasicIT.resolves_settings.(lambda_expr_1)",,,,1,1,0
+Public Abstract Class,"org.openrewrite.maven.ConfigurableRewriteMojo",15,92,92,21,149,19
+Protected Method,"org.openrewrite.maven.ConfigurableRewriteMojo.getActiveRecipes",,,,4,19,0
+Protected Method,"org.openrewrite.maven.ConfigurableRewriteMojo.getActiveStyles",,,,4,14,0
+Protected Method,"org.openrewrite.maven.ConfigurableRewriteMojo.getExclusions",,,,2,9,0
+Protected Method,"org.openrewrite.maven.ConfigurableRewriteMojo.getPlainTextMasks",,,,2,21,8
+Protected Method,"org.openrewrite.maven.ConfigurableRewriteMojo.getRecipeArtifactCoordinates",,,,3,10,0
+Private Static Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toLinkedHashSet",,,,3,6,0
+Lambda Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toLinkedHashSet.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toLinkedHashSet.(lambda_expr_2)",,,,1,1,0
+Private Static Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toSet",,,,3,6,0
+Lambda Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toSet.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.ConfigurableRewriteMojo.toSet.(lambda_expr_2)",,,,1,1,0
+Public Class,"org.openrewrite.maven.ConfigureMojo",30,66,50,10,77,5
+Public Method,"org.openrewrite.maven.ConfigureMojo.execute",,,,4,28,0
+Protected Method,"org.openrewrite.maven.ConfigureMojo.getConfiguration",,,,3,12,0
+Lambda Method,"org.openrewrite.maven.ConfigureMojo.getConfiguration.(lambda_expr_1)",,,,1,1,0
+Protected Method,"org.openrewrite.maven.ConfigureMojo.getExecutions",,,,3,14,0
+Lambda Method,"org.openrewrite.maven.ConfigureMojo.getExecutions.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.ConfigureMojoIT",7,0,0,2,18,0
+Method,"org.openrewrite.maven.ConfigureMojoIT.single_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.ConfigureMojoIT.single_project.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.ConfigureMojoITNoActiveRecipe",6,0,0,2,16,0
+Method,"org.openrewrite.maven.ConfigureMojoITNoActiveRecipe.single_project",,,,2,10,0
+Lambda Method,"org.openrewrite.maven.ConfigureMojoITNoActiveRecipe.single_project.(lambda_expr_1)",,,,1,3,0
+Public Class,"org.openrewrite.maven.CycloneDxBomMojo",16,50,50,4,34,4
+Private Method,"org.openrewrite.maven.CycloneDxBomMojo.buildCycloneDxBom",,,,2,14,1
+Public Method,"org.openrewrite.maven.CycloneDxBomMojo.execute",,,,2,12,0
+Public Class,"org.openrewrite.maven.InitMojo",30,75,62,13,91,6
+Public Method,"org.openrewrite.maven.InitMojo.execute",,,,5,31,0
+Protected Method,"org.openrewrite.maven.InitMojo.getConfiguration",,,,3,12,0
+Lambda Method,"org.openrewrite.maven.InitMojo.getConfiguration.(lambda_expr_1)",,,,1,1,0
+Protected Method,"org.openrewrite.maven.InitMojo.getExecutions",,,,3,14,0
+Lambda Method,"org.openrewrite.maven.InitMojo.getExecutions.(lambda_expr_1)",,,,1,1,0
+Protected Method,"org.openrewrite.maven.InitMojo.getVersion",,,,2,6,1
+Public Class,"org.openrewrite.maven.InitMojoIT",7,0,0,2,19,0
+Method,"org.openrewrite.maven.InitMojoIT.single_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.InitMojoIT.single_project.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.MavenLoggingMeterRegistry",35,92,92,23,163,1
+Public Constructor,"org.openrewrite.maven.MavenLoggingMeterRegistry.MavenLoggingMeterRegistry",,,,1,4,0
+Class,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer",11,62,37,12,38,1
+Constructor,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.Printer",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.count",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.humanReadableBaseUnit",,,,3,7,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.humanReadableByteCount",,,,2,8,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.id",,,,2,5,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.id.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.time",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.unitlessCount",,,,1,3,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.Printer.value",,,,1,3,0
+Public Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close",,,,4,54,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_1)",,,,2,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2)",,,,10,44,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_10)",,,,1,5,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_11)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_4)",,,,1,4,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_5)",,,,1,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_6)",,,,1,7,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_7)",,,,1,6,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_8)",,,,1,4,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.close.(lambda_expr_2).(lambda_expr_9)",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.defaultHistogramConfig",,,,1,7,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.getBaseTimeUnit",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newCounter",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newDistributionSummary",,,,1,4,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionCounter",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionCounter.T",0,0,0,0,0,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionTimer",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newFunctionTimer.T",0,0,0,0,0,0
+Protected Generic Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newGauge",,,,1,4,0
+TypeVariable,"org.openrewrite.maven.MavenLoggingMeterRegistry.newGauge.T",0,0,0,0,0,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newLongTaskTimer",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newMeter",,,,1,4,0
+Protected Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.newTimer",,,,1,4,0
+Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.writeMeter",,,,8,20,0
+Lambda Method,"org.openrewrite.maven.MavenLoggingMeterRegistry.writeMeter.(lambda_expr_1)",,,,7,16,0
+Public Class,"org.openrewrite.maven.MavenMojoProjectParser",73,87,83,76,388,33
+Public Constructor,"org.openrewrite.maven.MavenMojoProjectParser.MavenMojoProjectParser",,,,1,14,0
+Private Static Generic Method,"org.openrewrite.maven.MavenMojoProjectParser.addProvenance",,,,4,11,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.addProvenance.(lambda_expr_1)",,,,3,9,0
+TypeVariable,"org.openrewrite.maven.MavenMojoProjectParser.addProvenance.S",1,0,0,0,0,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.applyStyles",,,,3,8,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.applyStyles.(lambda_expr_1)",,,,1,1,0
+Private Static Method,"org.openrewrite.maven.MavenMojoProjectParser.buildRawRepositories",,,,5,15,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.buildRawRepositories.(lambda_expr_1)",,,,3,6,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.buildSettings",,,,6,41,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.buildSettings.(lambda_expr_1)",,,,3,12,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.buildSettings.(lambda_expr_2)",,,,1,7,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.buildSettings.(lambda_expr_3)",,,,1,9,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.collectPoms",,,,6,20,8
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.generateProvenance",,,,3,27,0
+Private Static Method,"org.openrewrite.maven.MavenMojoProjectParser.getPomCache",,,,6,28,1
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.gitProvenance",,,,2,9,1
+Private Static Method,"org.openrewrite.maven.MavenMojoProjectParser.isJvm64Bit",,,,1,3,2
+Private Static Method,"org.openrewrite.maven.MavenMojoProjectParser.listJavaSources",,,,4,12,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.listJavaSources.(lambda_expr_1)",,,,1,1,0
+Public Method,"org.openrewrite.maven.MavenMojoProjectParser.listSourceFiles",,,,8,43,2
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.listSourceFiles.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.listSourceFiles.(lambda_expr_2)",,,,4,10,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.logDebug",,,,1,3,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.logError",,,,1,3,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.logInfo",,,,1,3,0
+Public Method,"org.openrewrite.maven.MavenMojoProjectParser.parseMaven",,,,13,52,2
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.parseMaven.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.parseMaven.(lambda_expr_2)",,,,1,1,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.pathsToOtherMavenProjects",,,,3,6,3
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.pathsToOtherMavenProjects.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.pathsToOtherMavenProjects.(lambda_expr_2)",,,,1,1,0
+Private Static Method,"org.openrewrite.maven.MavenMojoProjectParser.pomPath",,,,2,7,1
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.processMainSources",,,,3,34,7
+Lambda Method,"org.openrewrite.maven.MavenMojoProjectParser.processMainSources.(lambda_expr_1)",,,,1,1,0
+Private Method,"org.openrewrite.maven.MavenMojoProjectParser.processTestSources",,,,2,29,3
+Public Method,"org.openrewrite.maven.MavenMojoProjectParser.resetTypeCache",,,,1,3,3
+Public Class,"org.openrewrite.maven.MeterRegistryProvider",24,60,36,21,85,2
+Public Constructor,"org.openrewrite.maven.MeterRegistryProvider.MeterRegistryProvider",,,,1,6,0
+Private Method,"org.openrewrite.maven.MeterRegistryProvider.buildRegistry",,,,12,42,0
+Public Method,"org.openrewrite.maven.MeterRegistryProvider.close",,,,4,12,2
+Private Method,"org.openrewrite.maven.MeterRegistryProvider.getWebsocketClientTransport",,,,3,8,0
+Lambda Method,"org.openrewrite.maven.MeterRegistryProvider.getWebsocketClientTransport.(lambda_expr_1)",,,,1,2,0
+Public Method,"org.openrewrite.maven.MeterRegistryProvider.registry",,,,1,4,0
+Public Class,"org.openrewrite.maven.RemoveMojo",22,0,0,4,36,5
+Public Method,"org.openrewrite.maven.RemoveMojo.execute",,,,4,25,0
+Public Class,"org.openrewrite.maven.RemoveMojoIT",6,0,0,2,14,0
+Method,"org.openrewrite.maven.RemoveMojoIT.single_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RemoveMojoIT.single_project.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.ResourceParser",34,72,70,29,156,0
+Public Constructor,"org.openrewrite.maven.ResourceParser.ResourceParser",,,,1,8,0
+Private Method,"org.openrewrite.maven.ResourceParser.isExcluded",,,,4,10,0
+Private Method,"org.openrewrite.maven.ResourceParser.isIgnoredDirectory",,,,3,8,0
+Private Method,"org.openrewrite.maven.ResourceParser.isOverSizeThreshold",,,,1,3,0
+Private Method,"org.openrewrite.maven.ResourceParser.isParsedAsPlainText",,,,5,14,0
+Public Method,"org.openrewrite.maven.ResourceParser.parse",,,,4,16,0
+Lambda Method,"org.openrewrite.maven.ResourceParser.parse.(lambda_expr_1)",,,,1,1,0
+Public Generic Method,"org.openrewrite.maven.ResourceParser.parseSourceFiles",,,,9,83,0
+Anonymous Class,"org.openrewrite.maven.ResourceParser.parseSourceFiles.(Anon_1)",7,0,0,6,24,0
+Public Method,"org.openrewrite.maven.ResourceParser.parseSourceFiles.(Anon_1).preVisitDirectory",,,,2,7,0
+Public Method,"org.openrewrite.maven.ResourceParser.parseSourceFiles.(Anon_1).visitFile",,,,4,16,0
+Lambda Method,"org.openrewrite.maven.ResourceParser.parseSourceFiles.(lambda_expr_1)",,,,8,17,0
+TypeVariable,"org.openrewrite.maven.ResourceParser.parseSourceFiles.S",1,0,0,0,0,0
+Private Method,"org.openrewrite.maven.ResourceParser.pathMatchers",,,,2,5,0
+Lambda Method,"org.openrewrite.maven.ResourceParser.pathMatchers.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.RewriteCycloneDxIT",7,0,0,3,61,0
+Method,"org.openrewrite.maven.RewriteCycloneDxIT.multi_module_with_cross_module_dependencies",,,,1,23,0
+Method,"org.openrewrite.maven.RewriteCycloneDxIT.multi_module_with_independent_modules",,,,1,22,0
+Method,"org.openrewrite.maven.RewriteCycloneDxIT.single_project",,,,1,10,0
+Public Class,"org.openrewrite.maven.RewriteDiscoverIT",6,0,0,8,72,0
+Class,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup",5,0,0,6,33,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_detail",,,,2,10,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_detail.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_recipe_lookup_case_insensitive",,,,2,9,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_recipe_lookup_case_insensitive.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_recursion",,,,2,10,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.RecipeLookup.rewrite_discover_recursion.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_default",,,,3,14,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_default.(lambda_expr_1)",,,,2,2,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_default.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_default.(lambda_expr_3)",,,,2,2,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_default.(lambda_expr_3).(lambda_expr_4)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_multi_module",,,,3,10,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_multi_module.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_multi_module.(lambda_expr_2)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_rewrite_yml",,,,2,9,0
+Lambda Method,"org.openrewrite.maven.RewriteDiscoverIT.rewrite_discover_rewrite_yml.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.RewriteDiscoverMojo",18,60,46,20,93,21
+Public Method,"org.openrewrite.maven.RewriteDiscoverMojo.execute",,,,4,21,0
+Private Method,"org.openrewrite.maven.RewriteDiscoverMojo.writeDiscovery",,,,5,24,0
+Private Method,"org.openrewrite.maven.RewriteDiscoverMojo.writeRecipeDescriptor",,,,11,32,2
+Public Class,"org.openrewrite.maven.RewriteDryRunIT",6,0,0,8,38,0
+Method,"org.openrewrite.maven.RewriteDryRunIT.fail_on_dry_run",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteDryRunIT.fail_on_dry_run.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDryRunIT.multi_module_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteDryRunIT.multi_module_project.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDryRunIT.recipe_order",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteDryRunIT.recipe_order.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteDryRunIT.single_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteDryRunIT.single_project.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.RewriteDryRunMojo",2,0,0,0,5,6
+Public Class,"org.openrewrite.maven.RewriteDryRunNoForkMojo",1,0,0,0,4,6
+Public Class,"org.openrewrite.maven.RewriteRunIT",7,0,0,4,23,0
+Method,"org.openrewrite.maven.RewriteRunIT.multi_module_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteRunIT.multi_module_project.(lambda_expr_1)",,,,1,1,0
+Method,"org.openrewrite.maven.RewriteRunIT.single_project",,,,2,8,0
+Lambda Method,"org.openrewrite.maven.RewriteRunIT.single_project.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.openrewrite.maven.RewriteRunMojo",2,0,0,0,5,6
+Public Class,"org.openrewrite.maven.RewriteRunNoForkMojo",1,0,0,0,4,6
+Public Class,"org.openrewrite.maven.SanitizedMarkerPrinter",5,0,0,2,10,4
+Public Method,"org.openrewrite.maven.SanitizedMarkerPrinter.afterSyntax",,,,1,4,0
+Public Method,"org.openrewrite.maven.SanitizedMarkerPrinter.beforeSyntax",,,,1,4,0
+Package,"org.openrewrite.maven.ui",,,,32,144,32
+Public Class,"org.openrewrite.maven.ui.RecipeDescriptorTree",10,75,50,17,59,8
+Public Constructor,"org.openrewrite.maven.ui.RecipeDescriptorTree.RecipeDescriptorTree",,,,1,3,0
+Public Constructor,"org.openrewrite.maven.ui.RecipeDescriptorTree.RecipeDescriptorTree",,,,1,4,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addChild",,,,1,5,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addChild",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addPath",,,,5,12,2
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addPath",,,,2,5,0
+Lambda Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addPath.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.addPath.(lambda_expr_2)",,,,1,1,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.compareTo",,,,1,4,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.getChildren",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.getDisplayName",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.getParent",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.getRecipeDescriptor",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTree.setRecipeDescriptor",,,,1,4,0
+Public Class,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter",16,60,19,15,70,9
+Public Constructor,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter.RecipeDescriptorTreePrompter",,,,1,3,0
+Public Method,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter.execute",,,,1,6,0
+Private Static Method,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter.isNumber",,,,2,8,0
+Private Method,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter.prompt",,,,2,9,0
+Private Method,"org.openrewrite.maven.ui.RecipeDescriptorTreePrompter.select",,,,9,35,6
+File,"package-info.java",,,,0,1,15
+File,"package-info.java",,,,0,1,15
+Package,"sample",,,,112,358,0
+Public Class,"sample.BadSpacing",0,0,0,0,2,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,28,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Public Interface,"sample.MyInterface",0,0,0,0,2,0
+Public Interface,"sample.MyInterface",0,0,0,0,2,0
+Public Interface,"sample.MyInterface",0,0,0,0,2,0
+Public Interface,"sample.MyInterface",0,0,0,0,2,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0

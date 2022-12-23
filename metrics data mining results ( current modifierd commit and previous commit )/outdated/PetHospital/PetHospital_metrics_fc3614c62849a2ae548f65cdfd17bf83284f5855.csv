@@ -1,0 +1,1545 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,11,76,32
+File,"Article.java",,,,1,24,28
+File,"ArticleAdminController.java",,,,9,106,37
+File,"ArticleController.java",,,,7,96,25
+File,"ArticleMapper.java",,,,0,15,61
+File,"ArticleService.java",,,,0,15,61
+File,"ArticleServiceImpl.java",,,,9,49,7
+File,"ArticleType.java",,,,1,18,19
+File,"ArticleTypeAdminController.java",,,,9,92,33
+File,"ArticleTypeMapper.java",,,,0,13,49
+File,"ArticleTypeService.java",,,,0,13,49
+File,"ArticleTypeServiceImpl.java",,,,7,41,7
+File,"Assay.java",,,,0,12,25
+File,"AssayAdminController.java",,,,9,95,27
+File,"AssayController.java",,,,3,60,20
+File,"AssayMapper.java",,,,0,12,43
+File,"AssayService.java",,,,0,12,43
+File,"AssayServiceImpl.java",,,,6,37,7
+File,"Carousel.java",,,,1,19,22
+File,"CarouselAdminController.java",,,,9,93,28
+File,"CarouselMapper.java",,,,0,12,43
+File,"CarouselService.java",,,,0,12,43
+File,"CarouselServiceImpl.java",,,,6,37,7
+File,"CustomDateSerializer.java",,,,1,14,7
+File,"CustomDateTimeSerializer.java",,,,1,14,7
+File,"Customer.java",,,,1,30,37
+File,"CustomerAdminController.java",,,,10,96,29
+File,"CustomerController.java",,,,16,184,67
+File,"CustomerMapper.java",,,,0,16,67
+File,"CustomerReturnList.java",,,,1,31,43
+File,"CustomerReturnListAdminController.java",,,,12,147,60
+File,"CustomerReturnListGoods.java",,,,0,18,46
+File,"CustomerReturnListGoodsMapper.java",,,,0,11,37
+File,"CustomerReturnListGoodsService.java",,,,0,11,37
+File,"CustomerReturnListGoodsServiceImpl.java",,,,5,33,7
+File,"CustomerReturnListMapper.java",,,,0,13,48
+File,"CustomerReturnListService.java",,,,0,13,48
+File,"CustomerReturnListServiceImpl.java",,,,7,41,7
+File,"CustomerService.java",,,,0,16,67
+File,"CustomerServiceImpl.java",,,,10,53,7
+File,"DamageList.java",,,,0,13,28
+File,"DamageListAdminController.java",,,,8,106,40
+File,"DamageListGoods.java",,,,0,17,43
+File,"DamageListGoodsMapper.java",,,,0,9,25
+File,"DamageListGoodsService.java",,,,0,8,25
+File,"DamageListGoodsServiceImpl.java",,,,3,24,7
+File,"DamageListMapper.java",,,,0,12,42
+File,"DamageListService.java",,,,0,12,42
+File,"DamageListServiceImpl.java",,,,6,37,7
+File,"DateUtil.java",,,,11,63,45
+File,"DrawImageController.java",,,,7,70,58
+File,"Equipment.java",,,,0,11,25
+File,"EquipmentAdminController.java",,,,11,118,49
+File,"EquipmentMapper.java",,,,0,17,61
+File,"EquipmentService.java",,,,0,15,61
+File,"EquipmentServiceImpl.java",,,,9,49,7
+File,"EquipmentType.java",,,,1,18,19
+File,"EquipmentTypeAdminController.java",,,,12,113,34
+File,"EquipmentTypeMapper.java",,,,0,14,49
+File,"EquipmentTypeService.java",,,,0,13,49
+File,"EquipmentTypeServiceImpl.java",,,,7,41,7
+File,"Favorite.java",,,,0,10,19
+File,"FavoriteMapper.java",,,,0,10,32
+File,"FavoriteService.java",,,,0,10,32
+File,"FavoriteServiceImpl.java",,,,4,29,7
+File,"FosterCare.java",,,,0,16,37
+File,"FosterCareAdminController.java",,,,16,142,28
+File,"FosterCareController.java",,,,2,56,20
+File,"FosterCareMapper.java",,,,0,12,43
+File,"FosterCareService.java",,,,0,12,43
+File,"FosterCareServiceImpl.java",,,,6,37,7
+File,"Goods.java",,,,1,44,74
+File,"GoodsAdminController.java",,,,25,227,81
+File,"GoodsController.java",,,,22,195,57
+File,"GoodsMapper.java",,,,0,23,107
+File,"GoodsService.java",,,,0,23,107
+File,"GoodsServiceImpl.java",,,,17,81,7
+File,"GoodsType.java",,,,1,22,25
+File,"GoodsTypeAdminController.java",,,,11,101,38
+File,"GoodsTypeMapper.java",,,,0,10,37
+File,"GoodsTypeService.java",,,,0,10,37
+File,"GoodsTypeServiceImpl.java",,,,5,32,7
+File,"GoodsUnit.java",,,,1,14,13
+File,"GoodsUnitAdminController.java",,,,4,51,29
+File,"GoodsUnitMapper.java",,,,0,10,36
+File,"GoodsUnitService.java",,,,0,10,36
+File,"GoodsUnitServiceImpl.java",,,,5,32,7
+File,"IndexController.java",,,,5,52,32
+File,"Inquiry.java",,,,0,17,40
+File,"InquiryAdminController.java",,,,21,158,47
+File,"InquiryController.java",,,,10,127,38
+File,"InquiryMapper.java",,,,0,12,43
+File,"InquiryService.java",,,,0,12,43
+File,"InquiryServiceImpl.java",,,,6,37,7
+File,"Log.java",,,,2,27,28
+File,"LogAdminController.java",,,,5,62,16
+File,"LogMapper.java",,,,0,9,25
+File,"LogService.java",,,,0,9,25
+File,"LogServiceImpl.java",,,,3,30,7
+File,"MathUtil.java",,,,1,6,13
+Public Class,"MavenWrapperDownloader",17,0,0,10,72,17
+Private Static Method,"MavenWrapperDownloader.downloadFileFromURL",,,,2,19,0
+Anonymous Class,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1)",3,0,0,1,5,0
+Protected Method,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1).getPasswordAuthentication",,,,1,4,0
+File,"MavenWrapperDownloader.java",,,,11,76,32
+Public Static Method,"MavenWrapperDownloader.main",,,,8,43,3
+File,"MedicalRecord.java",,,,0,12,25
+File,"MedicalRecordAdminController.java",,,,9,95,27
+File,"MedicalRecordController.java",,,,3,60,20
+File,"MedicalRecordMapper.java",,,,0,12,43
+File,"MedicalRecordService.java",,,,0,12,43
+File,"MedicalRecordServiceImpl.java",,,,6,37,7
+File,"Menu.java",,,,0,11,25
+File,"MenuMapper.java",,,,0,9,32
+File,"MenuService.java",,,,0,9,32
+File,"MenuServiceImpl.java",,,,4,28,7
+File,"MyRealm.java",,,,5,57,20
+File,"OverflowList.java",,,,0,14,28
+File,"OverflowListAdminController.java",,,,8,105,40
+File,"OverflowListGoods.java",,,,0,18,43
+File,"OverflowListGoodsMapper.java",,,,0,8,25
+File,"OverflowListGoodsService.java",,,,0,8,25
+File,"OverflowListGoodsServiceImpl.java",,,,3,24,7
+File,"OverflowListMapper.java",,,,0,12,42
+File,"OverflowListService.java",,,,0,12,40
+File,"OverflowListServiceImpl.java",,,,6,37,7
+File,"PageBean.java",,,,6,26,16
+File,"PageUtil.java",,,,16,67,28
+File,"Pet.java",,,,0,11,25
+File,"PetController.java",,,,6,54,21
+File,"PetHospitalApplication.java",,,,1,11,3
+File,"PetMapper.java",,,,0,13,49
+File,"PetService.java",,,,0,13,49
+File,"PetServiceImpl.java",,,,7,41,7
+File,"PethospitalApplicationTests.java",,,,1,9,0
+File,"PurchaseList.java",,,,1,34,43
+File,"PurchaseListAdminController.java",,,,12,148,61
+File,"PurchaseListGoods.java",,,,0,18,46
+File,"PurchaseListGoodsMapper.java",,,,0,11,31
+File,"PurchaseListGoodsService.java",,,,0,10,31
+File,"PurchaseListGoodsServiceImpl.java",,,,4,29,7
+File,"PurchaseListMapper.java",,,,0,13,48
+File,"PurchaseListService.java",,,,0,13,48
+File,"PurchaseListServiceImpl.java",,,,7,41,7
+File,"Reservation.java",,,,0,19,46
+File,"ReservationAdminController.java",,,,35,214,53
+File,"ReservationController.java",,,,11,147,52
+File,"ReservationMapper.java",,,,0,12,43
+File,"ReservationService.java",,,,0,12,43
+File,"ReservationServiceImpl.java",,,,6,37,7
+File,"ReturnList.java",,,,1,33,43
+File,"ReturnListAdminController.java",,,,12,148,60
+File,"ReturnListGoods.java",,,,0,18,46
+File,"ReturnListGoodsMapper.java",,,,0,10,31
+File,"ReturnListGoodsService.java",,,,0,10,31
+File,"ReturnListGoodsServiceImpl.java",,,,4,29,7
+File,"ReturnListMapper.java",,,,0,13,48
+File,"ReturnListService.java",,,,0,13,48
+File,"ReturnListServiceImpl.java",,,,7,41,7
+File,"ReturnVisit.java",,,,0,13,28
+File,"ReturnVisitAdminController.java",,,,9,95,27
+File,"ReturnVisitController.java",,,,3,60,20
+File,"ReturnVisitMapper.java",,,,0,12,43
+File,"ReturnVisitService.java",,,,0,12,43
+File,"ReturnVisitServiceImpl.java",,,,6,37,7
+File,"Role.java",,,,0,8,16
+File,"RoleAdminController.java",,,,19,147,71
+File,"RoleMapper.java",,,,0,15,58
+File,"RoleMenu.java",,,,0,8,16
+File,"RoleMenuMapper.java",,,,0,5,20
+File,"RoleMenuService.java",,,,0,5,20
+File,"RoleMenuServiceImpl.java",,,,2,18,7
+File,"RoleService.java",,,,0,15,60
+File,"RoleServiceImpl.java",,,,9,49,7
+File,"SaleCount.java",,,,0,9,19
+File,"SaleList.java",,,,1,32,43
+File,"SaleListAdminController.java",,,,24,208,81
+File,"SaleListController.java",,,,3,64,14
+File,"SaleListGoods.java",,,,0,21,49
+File,"SaleListGoodsMapper.java",,,,0,11,37
+File,"SaleListGoodsService.java",,,,0,11,37
+File,"SaleListGoodsServiceImpl.java",,,,5,33,7
+File,"SaleListMapper.java",,,,0,18,74
+File,"SaleListService.java",,,,0,18,74
+File,"SaleListServiceImpl.java",,,,11,58,7
+File,"ShiroConfig.java",,,,6,80,56
+File,"ShoppingCart.java",,,,0,12,16
+File,"ShoppingCartItem.java",,,,0,10,16
+File,"ShoppingController.java",,,,29,192,73
+File,"StartupRunner.java",,,,6,62,16
+File,"StringUtil.java",,,,8,34,31
+File,"Suggestion.java",,,,0,12,25
+File,"SuggestionAdminController.java",,,,9,86,25
+File,"SuggestionController.java",,,,4,57,22
+File,"SuggestionMapper.java",,,,0,13,49
+File,"SuggestionService.java",,,,0,13,49
+File,"SuggestionServiceImpl.java",,,,7,41,7
+File,"Supplier.java",,,,1,21,25
+File,"SupplierAdminController.java",,,,7,73,33
+File,"SupplierMapper.java",,,,0,13,49
+File,"SupplierService.java",,,,0,13,49
+File,"SupplierServiceImpl.java",,,,7,41,7
+File,"Tackle.java",,,,0,9,19
+File,"TackleAdminController.java",,,,10,108,49
+File,"TackleMapper.java",,,,0,13,49
+File,"TackleOutLog.java",,,,0,15,34
+File,"TackleOutLogAdminController.java",,,,9,119,41
+File,"TackleOutLogMapper.java",,,,0,12,43
+File,"TackleOutLogService.java",,,,0,12,43
+File,"TackleOutLogServiceImpl.java",,,,6,38,7
+File,"TackleService.java",,,,0,13,49
+File,"TackleServiceImpl.java",,,,7,41,7
+File,"UseEquipmentLog.java",,,,0,15,34
+File,"UseEquipmentLogAdminController.java",,,,9,120,41
+File,"UseEquipmentLogMapper.java",,,,0,12,43
+File,"UseEquipmentLogService.java",,,,0,12,43
+File,"UseEquipmentLogServiceImpl.java",,,,6,37,7
+File,"User.java",,,,1,27,31
+File,"UserAdminController.java",,,,16,150,57
+File,"UserController.java",,,,14,126,48
+File,"UserMapper.java",,,,0,15,61
+File,"UserRole.java",,,,0,8,16
+File,"UserRoleMapper.java",,,,0,7,26
+File,"UserRoleService.java",,,,0,7,26
+File,"UserRoleServiceImpl.java",,,,3,22,7
+File,"UserService.java",,,,0,15,61
+File,"UserServiceImpl.java",,,,9,49,7
+File,"Vaccine.java",,,,0,12,25
+File,"VaccineAdminController.java",,,,9,95,27
+File,"VaccineController.java",,,,3,60,20
+File,"VaccineMapper.java",,,,0,12,43
+File,"VaccineService.java",,,,0,12,43
+File,"VaccineServiceImpl.java",,,,6,37,7
+Package,"com",,,,0,0,0
+Package,"com.ledao",,,,2,20,3
+Public Class,"com.ledao.PetHospitalApplication",5,0,0,1,7,3
+Public Static Method,"com.ledao.PetHospitalApplication.main",,,,1,3,0
+Class,"com.ledao.PethospitalApplicationTests",2,0,0,1,6,0
+Method,"com.ledao.PethospitalApplicationTests.contextLoads",,,,1,3,0
+Package,"com.ledao.config",,,,6,80,56
+Public Class,"com.ledao.config.ShiroConfig",12,0,0,6,67,56
+Public Method,"com.ledao.config.ShiroConfig.advisorAutoProxyCreator",,,,1,7,5
+Public Method,"com.ledao.config.ShiroConfig.authorizationAttributeSourceAdvisor",,,,1,6,0
+Public Method,"com.ledao.config.ShiroConfig.lifecycleBeanPostProcessor",,,,1,4,4
+Public Method,"com.ledao.config.ShiroConfig.myRealm",,,,1,5,5
+Public Method,"com.ledao.config.ShiroConfig.securityManager",,,,1,6,1
+Public Method,"com.ledao.config.ShiroConfig.shirFilter",,,,1,36,34
+Package,"com.ledao.controller",,,,148,1660,607
+Public Class,"com.ledao.controller.ArticleController",20,37,37,7,79,25
+Private Method,"com.ledao.controller.ArticleController.getLastAndNextArticle",,,,3,14,7
+Public Method,"com.ledao.controller.ArticleController.list",,,,1,21,7
+Public Method,"com.ledao.controller.ArticleController.search",,,,2,21,0
+Public Method,"com.ledao.controller.ArticleController.view",,,,1,15,6
+Public Class,"com.ledao.controller.AssayController",18,25,25,3,43,20
+Public Method,"com.ledao.controller.AssayController.assayDetails",,,,1,11,6
+Public Method,"com.ledao.controller.AssayController.myAssay",,,,2,24,7
+Public Class,"com.ledao.controller.CustomerController",27,76,76,16,157,67
+Public Method,"com.ledao.controller.CustomerController.existUserWithUserName",,,,2,12,6
+Public Method,"com.ledao.controller.CustomerController.login",,,,3,25,8
+Public Method,"com.ledao.controller.CustomerController.logout",,,,1,10,6
+Public Method,"com.ledao.controller.CustomerController.myPet",,,,1,19,5
+Public Method,"com.ledao.controller.CustomerController.personalCenter",,,,1,9,5
+Public Method,"com.ledao.controller.CustomerController.personalCenterModifyMessage",,,,1,9,5
+Public Method,"com.ledao.controller.CustomerController.petAdd",,,,1,9,5
+Public Method,"com.ledao.controller.CustomerController.petDetails",,,,1,11,6
+Public Method,"com.ledao.controller.CustomerController.petModify",,,,1,11,6
+Public Method,"com.ledao.controller.CustomerController.save",,,,4,32,8
+Public Class,"com.ledao.controller.DrawImageController",17,0,0,7,61,58
+Public Method,"com.ledao.controller.DrawImageController.drawImage",,,,1,18,16
+Private Method,"com.ledao.controller.DrawImageController.drawRandomLine",,,,2,11,7
+Private Method,"com.ledao.controller.DrawImageController.drawRandomNum",,,,2,19,14
+Private Method,"com.ledao.controller.DrawImageController.setBackGround",,,,1,4,7
+Private Method,"com.ledao.controller.DrawImageController.setBorder",,,,1,4,7
+Public Class,"com.ledao.controller.FosterCareController",17,50,50,2,39,20
+Public Method,"com.ledao.controller.FosterCareController.fosterCareDetails",,,,1,11,6
+Public Method,"com.ledao.controller.FosterCareController.myFosterCare",,,,1,20,7
+Public Class,"com.ledao.controller.GoodsController",27,50,37,22,177,57
+Public Method,"com.ledao.controller.GoodsController.addFavorite",,,,1,10,6
+Public Method,"com.ledao.controller.GoodsController.deleteFavorite",,,,1,7,6
+Public Method,"com.ledao.controller.GoodsController.list",,,,3,37,11
+Public Method,"com.ledao.controller.GoodsController.myFavorite",,,,2,24,5
+Private Method,"com.ledao.controller.GoodsController.saveCurrentBrowseGoods",,,,6,21,6
+Public Method,"com.ledao.controller.GoodsController.search",,,,3,28,7
+Private Method,"com.ledao.controller.GoodsController.setGoodsFavorite",,,,4,12,5
+Public Method,"com.ledao.controller.GoodsController.view",,,,2,28,6
+Public Class,"com.ledao.controller.IndexController",3,0,0,5,48,32
+Public Method,"com.ledao.controller.IndexController.contact",,,,1,9,5
+Public Method,"com.ledao.controller.IndexController.login",,,,1,9,5
+Public Method,"com.ledao.controller.IndexController.register",,,,1,9,5
+Public Method,"com.ledao.controller.IndexController.root",,,,1,9,5
+Public Method,"com.ledao.controller.IndexController.shoppingCart",,,,1,9,5
+Public Class,"com.ledao.controller.InquiryController",25,44,44,10,105,38
+Public Method,"com.ledao.controller.InquiryController.createInquiry",,,,1,13,5
+Public Method,"com.ledao.controller.InquiryController.deleteInquiry",,,,2,9,0
+Public Method,"com.ledao.controller.InquiryController.inquiryDetails",,,,1,11,6
+Public Method,"com.ledao.controller.InquiryController.inquiryModify",,,,1,15,6
+Public Method,"com.ledao.controller.InquiryController.myInquiry",,,,1,19,6
+Public Method,"com.ledao.controller.InquiryController.save",,,,4,28,8
+Public Class,"com.ledao.controller.MedicalRecordController",18,25,25,3,43,20
+Public Method,"com.ledao.controller.MedicalRecordController.medicalRecordDetails",,,,1,11,6
+Public Method,"com.ledao.controller.MedicalRecordController.myMedicalRecord",,,,2,24,7
+Public Class,"com.ledao.controller.PetController",16,0,0,6,36,21
+Public Method,"com.ledao.controller.PetController.delete",,,,2,8,6
+Public Method,"com.ledao.controller.PetController.save",,,,4,20,8
+Public Class,"com.ledao.controller.ReservationController",24,44,44,11,125,52
+Public Method,"com.ledao.controller.ReservationController.addBeauticianReservation",,,,1,13,5
+Public Method,"com.ledao.controller.ReservationController.addDoctorReservation",,,,1,13,5
+Public Method,"com.ledao.controller.ReservationController.delete",,,,1,6,6
+Public Method,"com.ledao.controller.ReservationController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.ReservationController.myReservation",,,,2,23,5
+Public Method,"com.ledao.controller.ReservationController.reservationDetails",,,,1,11,6
+Public Method,"com.ledao.controller.ReservationController.reservationModify",,,,1,15,6
+Public Method,"com.ledao.controller.ReservationController.reserveSuccess",,,,1,9,5
+Public Method,"com.ledao.controller.ReservationController.save",,,,2,21,6
+Public Class,"com.ledao.controller.ReturnVisitController",18,25,25,3,43,20
+Public Method,"com.ledao.controller.ReturnVisitController.myReturnVisit",,,,2,24,7
+Public Method,"com.ledao.controller.ReturnVisitController.returnVisitDetails",,,,1,11,6
+Public Class,"com.ledao.controller.SaleListController",18,33,33,3,47,14
+Public Method,"com.ledao.controller.SaleListController.mySaleList",,,,1,20,7
+Public Method,"com.ledao.controller.SaleListController.mySaleListDetails",,,,2,17,0
+Public Class,"com.ledao.controller.ShoppingController",27,77,73,29,180,73
+Public Method,"com.ledao.controller.ShoppingController.addShoppingCartItem",,,,1,8,7
+Public Method,"com.ledao.controller.ShoppingController.buy",,,,1,5,7
+Private Method,"com.ledao.controller.ShoppingController.checkShoppingCart",,,,6,30,12
+Public Method,"com.ledao.controller.ShoppingController.genCode",,,,2,11,6
+Private Method,"com.ledao.controller.ShoppingController.getCount",,,,3,17,6
+Public Method,"com.ledao.controller.ShoppingController.removeShoppingCartItem",,,,3,15,7
+Public Method,"com.ledao.controller.ShoppingController.submitOrder",,,,2,32,8
+Public Method,"com.ledao.controller.ShoppingController.submitSuccess",,,,2,18,5
+Public Method,"com.ledao.controller.ShoppingController.updateShoppingCartItem",,,,9,30,8
+Public Class,"com.ledao.controller.SuggestionController",15,0,0,4,43,22
+Public Method,"com.ledao.controller.SuggestionController.myWord",,,,1,22,7
+Public Method,"com.ledao.controller.SuggestionController.save",,,,3,15,8
+Public Class,"com.ledao.controller.UserController",28,79,70,14,101,48
+Public Method,"com.ledao.controller.UserController.getAllMenuByParentId",,,,3,12,7
+Public Method,"com.ledao.controller.UserController.getMenuByParentId",,,,3,20,14
+Public Method,"com.ledao.controller.UserController.loadMenuInfo",,,,1,5,7
+Public Method,"com.ledao.controller.UserController.loadUserInfo",,,,1,6,6
+Public Method,"com.ledao.controller.UserController.login",,,,5,38,0
+Public Method,"com.ledao.controller.UserController.saveRole",,,,1,8,7
+Public Class,"com.ledao.controller.VaccineController",18,25,25,3,43,20
+Public Method,"com.ledao.controller.VaccineController.myVaccine",,,,2,24,7
+Public Method,"com.ledao.controller.VaccineController.vaccineDetails",,,,1,11,6
+Package,"com.ledao.controller.admin",,,,368,3618,1269
+Public Class,"com.ledao.controller.admin.ArticleAdminController",26,60,60,9,83,37
+Public Method,"com.ledao.controller.admin.ArticleAdminController.ckeditorUpload",,,,1,12,10
+Public Method,"com.ledao.controller.admin.ArticleAdminController.delete",,,,2,14,6
+Public Method,"com.ledao.controller.admin.ArticleAdminController.findById",,,,1,5,0
+Public Method,"com.ledao.controller.admin.ArticleAdminController.list",,,,2,18,8
+Public Method,"com.ledao.controller.admin.ArticleAdminController.save",,,,3,20,6
+Public Class,"com.ledao.controller.admin.ArticleTypeAdminController",20,37,37,9,76,33
+Public Method,"com.ledao.controller.admin.ArticleTypeAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.ArticleTypeAdminController.delete",,,,3,20,6
+Public Method,"com.ledao.controller.admin.ArticleTypeAdminController.list",,,,1,16,8
+Public Method,"com.ledao.controller.admin.ArticleTypeAdminController.save",,,,3,20,6
+Public Class,"com.ledao.controller.admin.AssayAdminController",20,33,33,9,80,27
+Public Method,"com.ledao.controller.admin.AssayAdminController.delete",,,,2,12,6
+Public Method,"com.ledao.controller.admin.AssayAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.AssayAdminController.save",,,,6,41,6
+Public Class,"com.ledao.controller.admin.CarouselAdminController",21,16,16,9,73,28
+Public Method,"com.ledao.controller.admin.CarouselAdminController.delete",,,,3,17,6
+Public Method,"com.ledao.controller.admin.CarouselAdminController.list",,,,1,14,7
+Public Method,"com.ledao.controller.admin.CarouselAdminController.save",,,,5,30,8
+Public Class,"com.ledao.controller.admin.CustomerAdminController",23,33,33,10,75,29
+Public Method,"com.ledao.controller.admin.CustomerAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.CustomerAdminController.delete",,,,2,13,0
+Public Method,"com.ledao.controller.admin.CustomerAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.CustomerAdminController.save",,,,5,29,8
+Public Class,"com.ledao.controller.admin.CustomerReturnListAdminController",33,62,62,12,126,60
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.delete",,,,1,10,7
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.list",,,,1,15,6
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.listCount",,,,2,23,7
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.save",,,,2,22,14
+Anonymous Class,"com.ledao.controller.admin.CustomerReturnListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Method,"com.ledao.controller.admin.CustomerReturnListAdminController.update",,,,1,10,6
+Public Class,"com.ledao.controller.admin.DamageListAdminController",33,63,63,8,81,40
+Public Method,"com.ledao.controller.admin.DamageListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.DamageListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.DamageListAdminController.list",,,,1,13,6
+Public Method,"com.ledao.controller.admin.DamageListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.DamageListAdminController.save",,,,2,22,14
+Anonymous Class,"com.ledao.controller.admin.DamageListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Class,"com.ledao.controller.admin.EquipmentAdminController",17,33,33,11,101,49
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.listIsUse",,,,1,15,8
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.listNoUse",,,,1,15,8
+Public Method,"com.ledao.controller.admin.EquipmentAdminController.save",,,,4,25,6
+Public Class,"com.ledao.controller.admin.EquipmentTypeAdminController",24,40,40,12,89,34
+Public Method,"com.ledao.controller.admin.EquipmentTypeAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.EquipmentTypeAdminController.delete",,,,4,23,6
+Public Method,"com.ledao.controller.admin.EquipmentTypeAdminController.list",,,,1,14,7
+Public Method,"com.ledao.controller.admin.EquipmentTypeAdminController.save",,,,5,30,8
+Public Class,"com.ledao.controller.admin.FosterCareAdminController",27,40,40,16,122,28
+Public Method,"com.ledao.controller.admin.FosterCareAdminController.delete",,,,2,12,6
+Public Method,"com.ledao.controller.admin.FosterCareAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.FosterCareAdminController.list",,,,6,36,8
+Public Method,"com.ledao.controller.admin.FosterCareAdminController.payFosterCare",,,,1,11,0
+Public Method,"com.ledao.controller.admin.FosterCareAdminController.save",,,,6,45,6
+Public Class,"com.ledao.controller.admin.GoodsAdminController",29,54,54,25,204,81
+Public Method,"com.ledao.controller.admin.GoodsAdminController.delete",,,,4,21,6
+Public Method,"com.ledao.controller.admin.GoodsAdminController.deleteStock",,,,2,16,6
+Public Method,"com.ledao.controller.admin.GoodsAdminController.genGoodsCode",,,,3,16,5
+Public Method,"com.ledao.controller.admin.GoodsAdminController.list",,,,2,18,8
+Public Method,"com.ledao.controller.admin.GoodsAdminController.listAlarm",,,,1,8,5
+Public Method,"com.ledao.controller.admin.GoodsAdminController.listHasInventoryQuantity",,,,1,14,9
+Public Method,"com.ledao.controller.admin.GoodsAdminController.listInventory",,,,5,34,8
+Public Method,"com.ledao.controller.admin.GoodsAdminController.listNoInventoryQuantity",,,,1,14,9
+Public Method,"com.ledao.controller.admin.GoodsAdminController.save",,,,5,35,10
+Public Method,"com.ledao.controller.admin.GoodsAdminController.saveStore",,,,1,14,8
+Public Class,"com.ledao.controller.admin.GoodsTypeAdminController",17,53,40,11,85,38
+Public Method,"com.ledao.controller.admin.GoodsTypeAdminController.delete",,,,3,20,6
+Private Method,"com.ledao.controller.admin.GoodsTypeAdminController.getAllByParentId",,,,3,12,6
+Private Method,"com.ledao.controller.admin.GoodsTypeAdminController.getByParentId",,,,3,20,13
+Public Method,"com.ledao.controller.admin.GoodsTypeAdminController.loadTreeInfo",,,,1,6,6
+Public Method,"com.ledao.controller.admin.GoodsTypeAdminController.save",,,,1,17,0
+Public Class,"com.ledao.controller.admin.GoodsUnitAdminController",12,12,12,4,39,29
+Public Method,"com.ledao.controller.admin.GoodsUnitAdminController.comboList",,,,1,5,5
+Public Method,"com.ledao.controller.admin.GoodsUnitAdminController.delete",,,,1,9,6
+Public Method,"com.ledao.controller.admin.GoodsUnitAdminController.listAll",,,,1,8,5
+Public Method,"com.ledao.controller.admin.GoodsUnitAdminController.save",,,,1,9,6
+Public Class,"com.ledao.controller.admin.InquiryAdminController",22,33,33,21,141,47
+Public Method,"com.ledao.controller.admin.InquiryAdminController.delete",,,,3,17,6
+Public Method,"com.ledao.controller.admin.InquiryAdminController.listAllInquiry",,,,4,24,8
+Public Method,"com.ledao.controller.admin.InquiryAdminController.listWebInquiry",,,,4,25,8
+Public Method,"com.ledao.controller.admin.InquiryAdminController.managerSave",,,,3,16,6
+Public Method,"com.ledao.controller.admin.InquiryAdminController.myInquiryAnswer",,,,4,25,8
+Public Method,"com.ledao.controller.admin.InquiryAdminController.save",,,,3,22,6
+Public Class,"com.ledao.controller.admin.LogAdminController",23,50,50,5,42,16
+Public Method,"com.ledao.controller.admin.LogAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.LogAdminController.list",,,,4,28,8
+Public Class,"com.ledao.controller.admin.MedicalRecordAdminController",20,33,33,9,80,27
+Public Method,"com.ledao.controller.admin.MedicalRecordAdminController.delete",,,,2,12,6
+Public Method,"com.ledao.controller.admin.MedicalRecordAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.MedicalRecordAdminController.save",,,,6,41,6
+Public Class,"com.ledao.controller.admin.OverflowListAdminController",33,63,63,8,81,40
+Public Method,"com.ledao.controller.admin.OverflowListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.OverflowListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.OverflowListAdminController.list",,,,1,13,6
+Public Method,"com.ledao.controller.admin.OverflowListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.OverflowListAdminController.save",,,,2,22,14
+Anonymous Class,"com.ledao.controller.admin.OverflowListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Class,"com.ledao.controller.admin.PurchaseListAdminController",34,62,62,12,126,61
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.delete",,,,1,10,7
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.list",,,,1,15,6
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.listCount",,,,2,20,7
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.save",,,,2,25,15
+Anonymous Class,"com.ledao.controller.admin.PurchaseListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Method,"com.ledao.controller.admin.PurchaseListAdminController.update",,,,1,10,6
+Public Class,"com.ledao.controller.admin.ReservationAdminController",23,37,37,35,196,53
+Public Method,"com.ledao.controller.admin.ReservationAdminController.dealReservation",,,,4,20,7
+Public Method,"com.ledao.controller.admin.ReservationAdminController.delete",,,,3,19,6
+Public Method,"com.ledao.controller.admin.ReservationAdminController.list",,,,7,36,8
+Public Method,"com.ledao.controller.admin.ReservationAdminController.listMyReservation",,,,7,36,9
+Public Method,"com.ledao.controller.admin.ReservationAdminController.listNotHandleBeautician",,,,7,37,8
+Public Method,"com.ledao.controller.admin.ReservationAdminController.listNotHandleDoctor",,,,7,37,8
+Public Class,"com.ledao.controller.admin.ReturnListAdminController",33,62,62,12,123,60
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.delete",,,,1,10,7
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.list",,,,1,15,6
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.listCount",,,,2,20,7
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.save",,,,2,22,14
+Anonymous Class,"com.ledao.controller.admin.ReturnListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Method,"com.ledao.controller.admin.ReturnListAdminController.update",,,,1,10,6
+Public Class,"com.ledao.controller.admin.ReturnVisitAdminController",20,33,33,9,80,27
+Public Method,"com.ledao.controller.admin.ReturnVisitAdminController.delete",,,,2,12,6
+Public Method,"com.ledao.controller.admin.ReturnVisitAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.ReturnVisitAdminController.save",,,,6,41,6
+Public Class,"com.ledao.controller.admin.RoleAdminController",26,62,60,19,131,71
+Public Method,"com.ledao.controller.admin.RoleAdminController.delete",,,,1,11,7
+Public Method,"com.ledao.controller.admin.RoleAdminController.getAllCheckMenuByParentId",,,,3,12,7
+Public Method,"com.ledao.controller.admin.RoleAdminController.getCheckMenuByParentId",,,,4,20,12
+Public Method,"com.ledao.controller.admin.RoleAdminController.list",,,,1,16,9
+Public Method,"com.ledao.controller.admin.RoleAdminController.listAll",,,,1,8,5
+Public Method,"com.ledao.controller.admin.RoleAdminController.loadCheckMenuInfo",,,,2,10,8
+Public Method,"com.ledao.controller.admin.RoleAdminController.save",,,,4,24,7
+Public Method,"com.ledao.controller.admin.RoleAdminController.saveMenuSet",,,,3,16,9
+Public Class,"com.ledao.controller.admin.SaleListAdminController",37,66,66,24,189,81
+Public Method,"com.ledao.controller.admin.SaleListAdminController.countSaleByDay",,,,6,33,11
+Public Method,"com.ledao.controller.admin.SaleListAdminController.countSaleByMonth",,,,6,33,10
+Public Method,"com.ledao.controller.admin.SaleListAdminController.delete",,,,1,10,7
+Public Method,"com.ledao.controller.admin.SaleListAdminController.genCode",,,,2,13,6
+Public Method,"com.ledao.controller.admin.SaleListAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.SaleListAdminController.list",,,,1,15,6
+Public Method,"com.ledao.controller.admin.SaleListAdminController.listCount",,,,2,20,7
+Public Method,"com.ledao.controller.admin.SaleListAdminController.listGoods",,,,2,11,6
+Public Method,"com.ledao.controller.admin.SaleListAdminController.save",,,,2,22,14
+Anonymous Class,"com.ledao.controller.admin.SaleListAdminController.save.(Anon_1)",0,0,0,0,1,0
+Public Method,"com.ledao.controller.admin.SaleListAdminController.update",,,,1,10,6
+Public Class,"com.ledao.controller.admin.SuggestionAdminController",21,22,22,9,70,25
+Public Method,"com.ledao.controller.admin.SuggestionAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.SuggestionAdminController.list",,,,4,26,8
+Public Method,"com.ledao.controller.admin.SuggestionAdminController.save",,,,3,21,6
+Public Class,"com.ledao.controller.admin.SupplierAdminController",17,12,12,7,57,33
+Public Method,"com.ledao.controller.admin.SupplierAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.SupplierAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.SupplierAdminController.list",,,,1,14,8
+Public Method,"com.ledao.controller.admin.SupplierAdminController.save",,,,2,14,6
+Public Class,"com.ledao.controller.admin.TackleAdminController",16,8,8,10,93,49
+Public Method,"com.ledao.controller.admin.TackleAdminController.comboList",,,,2,8,6
+Public Method,"com.ledao.controller.admin.TackleAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.TackleAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.TackleAdminController.listIsOut",,,,1,15,8
+Public Method,"com.ledao.controller.admin.TackleAdminController.listNoOut",,,,1,15,8
+Public Method,"com.ledao.controller.admin.TackleAdminController.save",,,,3,19,6
+Public Class,"com.ledao.controller.admin.TackleOutLogAdminController",26,29,29,9,100,41
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.beginTackleOutLog",,,,2,21,7
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.endTackleOutLog",,,,1,17,6
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.TackleOutLogAdminController.save",,,,2,16,6
+Public Class,"com.ledao.controller.admin.UseEquipmentLogAdminController",26,29,29,9,100,41
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.beginUseEquipmentLog",,,,2,21,7
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.delete",,,,2,13,6
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.endUseEquipmentLog",,,,1,17,6
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.initBinder",,,,1,6,1
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.UseEquipmentLogAdminController.save",,,,2,16,6
+Public Class,"com.ledao.controller.admin.UserAdminController",31,51,51,16,129,57
+Public Method,"com.ledao.controller.admin.UserAdminController.comboList",,,,2,9,6
+Public Method,"com.ledao.controller.admin.UserAdminController.delete",,,,1,11,6
+Public Method,"com.ledao.controller.admin.UserAdminController.list",,,,3,27,8
+Public Method,"com.ledao.controller.admin.UserAdminController.logout",,,,1,7,6
+Public Method,"com.ledao.controller.admin.UserAdminController.modifyPassword",,,,1,13,8
+Public Method,"com.ledao.controller.admin.UserAdminController.save",,,,5,30,8
+Public Method,"com.ledao.controller.admin.UserAdminController.saveRoleSet",,,,3,18,8
+Public Class,"com.ledao.controller.admin.VaccineAdminController",20,33,33,9,80,27
+Public Method,"com.ledao.controller.admin.VaccineAdminController.delete",,,,2,12,6
+Public Method,"com.ledao.controller.admin.VaccineAdminController.list",,,,1,15,8
+Public Method,"com.ledao.controller.admin.VaccineAdminController.save",,,,6,41,6
+Package,"com.ledao.entity",,,,24,835,1383
+Public Class,"com.ledao.entity.Article",7,42,42,1,20,28
+Public Method,"com.ledao.entity.Article.toString",,,,1,9,0
+Public Class,"com.ledao.entity.ArticleType",5,25,25,1,15,19
+Public Method,"com.ledao.entity.ArticleType.toString",,,,1,8,0
+Public Class,"com.ledao.entity.Assay",5,0,0,0,9,25
+Public Class,"com.ledao.entity.Carousel",4,19,19,1,17,22
+Public Method,"com.ledao.entity.Carousel.toString",,,,1,9,0
+Public Class,"com.ledao.entity.CustomDateSerializer",7,0,0,1,7,7
+Public Method,"com.ledao.entity.CustomDateSerializer.serialize",,,,1,5,0
+Public Class,"com.ledao.entity.CustomDateTimeSerializer",7,0,0,1,7,7
+Public Method,"com.ledao.entity.CustomDateTimeSerializer.serialize",,,,1,5,0
+Public Class,"com.ledao.entity.Customer",4,50,50,1,24,37
+Public Method,"com.ledao.entity.Customer.toString",,,,1,10,0
+Public Class,"com.ledao.entity.CustomerReturnList",10,66,66,1,25,43
+Public Method,"com.ledao.entity.CustomerReturnList.toString",,,,1,10,0
+Public Class,"com.ledao.entity.CustomerReturnListGoods",5,0,0,0,16,46
+Public Class,"com.ledao.entity.DamageList",5,0,0,0,10,28
+Public Class,"com.ledao.entity.DamageListGoods",5,0,0,0,15,43
+Public Class,"com.ledao.entity.Equipment",4,0,0,0,9,25
+Public Class,"com.ledao.entity.EquipmentType",4,0,0,1,16,19
+Public Method,"com.ledao.entity.EquipmentType.toString",,,,1,9,0
+Public Class,"com.ledao.entity.Favorite",5,0,0,0,7,19
+Public Class,"com.ledao.entity.FosterCare",6,0,0,0,13,37
+Public Class,"com.ledao.entity.Goods",8,73,73,1,39,74
+Public Method,"com.ledao.entity.Goods.toString",,,,1,11,0
+Public Class,"com.ledao.entity.GoodsType",5,50,50,1,18,25
+Public Method,"com.ledao.entity.GoodsType.toString",,,,1,8,0
+Public Class,"com.ledao.entity.GoodsUnit",4,0,0,1,12,13
+Public Method,"com.ledao.entity.GoodsUnit.toString",,,,1,7,0
+Public Class,"com.ledao.entity.Inquiry",7,0,0,0,14,40
+Public Class,"com.ledao.entity.Log",6,85,85,2,23,28
+Public Constructor,"com.ledao.entity.Log.Log",,,,1,4,0
+Public Constructor,"com.ledao.entity.Log.Log",,,,1,2,0
+Public Class,"com.ledao.entity.MedicalRecord",5,0,0,0,9,25
+Public Class,"com.ledao.entity.Menu",3,0,0,0,9,25
+Public Class,"com.ledao.entity.OverflowList",5,0,0,0,10,28
+Public Class,"com.ledao.entity.OverflowListGoods",5,0,0,0,15,43
+Public Class,"com.ledao.entity.PageBean",0,55,55,6,25,16
+Public Constructor,"com.ledao.entity.PageBean.PageBean",,,,1,5,0
+Public Method,"com.ledao.entity.PageBean.getPage",,,,1,3,0
+Public Method,"com.ledao.entity.PageBean.getPageSize",,,,1,3,0
+Public Method,"com.ledao.entity.PageBean.getStart",,,,1,3,0
+Public Method,"com.ledao.entity.PageBean.setPage",,,,1,3,0
+Public Method,"com.ledao.entity.PageBean.setPageSize",,,,1,3,0
+Public Class,"com.ledao.entity.Pet",4,0,0,0,9,25
+Public Class,"com.ledao.entity.PurchaseList",10,58,58,1,26,43
+Public Method,"com.ledao.entity.PurchaseList.toString",,,,1,11,0
+Public Class,"com.ledao.entity.PurchaseListGoods",5,0,0,0,16,46
+Public Class,"com.ledao.entity.Reservation",7,0,0,0,16,46
+Public Class,"com.ledao.entity.ReturnList",10,58,58,1,26,43
+Public Method,"com.ledao.entity.ReturnList.toString",,,,1,11,0
+Public Class,"com.ledao.entity.ReturnListGoods",5,0,0,0,16,46
+Public Class,"com.ledao.entity.ReturnVisit",5,0,0,0,10,28
+Public Class,"com.ledao.entity.Role",3,0,0,0,6,16
+Public Class,"com.ledao.entity.RoleMenu",4,0,0,0,6,16
+Public Class,"com.ledao.entity.SaleCount",2,0,0,0,7,19
+Public Class,"com.ledao.entity.SaleList",10,58,58,1,26,43
+Public Method,"com.ledao.entity.SaleList.toString",,,,1,11,0
+Public Class,"com.ledao.entity.SaleListGoods",6,0,0,0,17,49
+Public Class,"com.ledao.entity.ShoppingCart",4,0,0,0,7,16
+Public Class,"com.ledao.entity.ShoppingCartItem",3,0,0,0,7,16
+Public Class,"com.ledao.entity.Suggestion",6,0,0,0,9,25
+Public Class,"com.ledao.entity.Supplier",4,16,16,1,19,25
+Public Method,"com.ledao.entity.Supplier.toString",,,,1,10,0
+Public Class,"com.ledao.entity.Tackle",3,0,0,0,7,19
+Public Class,"com.ledao.entity.TackleOutLog",6,0,0,0,12,34
+Public Class,"com.ledao.entity.UseEquipmentLog",6,0,0,0,12,34
+Public Class,"com.ledao.entity.User",5,37,37,1,22,31
+Public Method,"com.ledao.entity.User.toString",,,,1,10,0
+Public Class,"com.ledao.entity.UserRole",4,0,0,0,6,16
+Public Class,"com.ledao.entity.Vaccine",5,0,0,0,9,25
+Package,"com.ledao.mapper",,,,0,501,1835
+Public Interface,"com.ledao.mapper.ArticleMapper",5,0,0,0,11,54
+Abstract Method,"com.ledao.mapper.ArticleMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.findByTypeId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.getLast",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.getNext",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.ArticleTypeMapper",6,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ArticleTypeMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.AssayMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.AssayMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.AssayMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.AssayMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.AssayMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.AssayMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.AssayMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.CarouselMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.CarouselMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CarouselMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CarouselMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CarouselMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CarouselMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CarouselMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.CustomerMapper",6,0,0,0,12,60
+Abstract Method,"com.ledao.mapper.CustomerMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.findByContact",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.findByUserName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.getCountByUserName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.CustomerReturnListGoodsMapper",5,0,0,0,7,30
+Abstract Method,"com.ledao.mapper.CustomerReturnListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListGoodsMapper.deleteByCustomerReturnListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListGoodsMapper.getTotalByGoodsId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListGoodsMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListGoodsMapper.listByCustomerReturnListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.CustomerReturnListMapper",5,0,0,0,9,41
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.findByCustomerReturnNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.getTodayMaxCustomerReturnNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.CustomerReturnListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.DamageListGoodsMapper",3,0,0,0,5,18
+Abstract Method,"com.ledao.mapper.DamageListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListGoodsMapper.deleteByDamageListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListGoodsMapper.listByDamageListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.DamageListMapper",5,0,0,0,8,35
+Abstract Method,"com.ledao.mapper.DamageListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListMapper.findByDamageNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListMapper.getTodayMaxDamageNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.DamageListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.DamageListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.EquipmentMapper",6,0,0,0,11,54
+Abstract Method,"com.ledao.mapper.EquipmentMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.getCountByEquipmentTypeId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.getCountByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.EquipmentTypeMapper",6,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.EquipmentTypeMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.FavoriteMapper",5,0,0,0,6,25
+Abstract Method,"com.ledao.mapper.FavoriteMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FavoriteMapper.delete",,,,0,1,7
+Abstract Method,"com.ledao.mapper.FavoriteMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FavoriteMapper.list",,,,0,1,6
+Public Interface,"com.ledao.mapper.FosterCareMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.FosterCareMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FosterCareMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FosterCareMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FosterCareMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FosterCareMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.FosterCareMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.GoodsMapper",6,0,0,0,19,100
+Abstract Method,"com.ledao.mapper.GoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.findByTypeId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getCountByBigTypeId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getCountHasInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getCountInventory",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getCountNoInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.getMaxGoodsCode",,,,0,1,5
+Abstract Method,"com.ledao.mapper.GoodsMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.listAlarm",,,,0,1,5
+Abstract Method,"com.ledao.mapper.GoodsMapper.listByBigTypeId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.listHasInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.listInventory",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.listNoInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.GoodsTypeMapper",3,0,0,0,7,30
+Abstract Method,"com.ledao.mapper.GoodsTypeMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsTypeMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsTypeMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsTypeMapper.findByParentId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsTypeMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.GoodsUnitMapper",3,0,0,0,7,29
+Abstract Method,"com.ledao.mapper.GoodsUnitMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsUnitMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsUnitMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.GoodsUnitMapper.listAll",,,,0,1,5
+Abstract Method,"com.ledao.mapper.GoodsUnitMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.InquiryMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.InquiryMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.InquiryMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.InquiryMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.InquiryMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.InquiryMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.InquiryMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.LogMapper",5,0,0,0,5,18
+Abstract Method,"com.ledao.mapper.LogMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.LogMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.LogMapper.list",,,,0,1,6
+Public Interface,"com.ledao.mapper.MedicalRecordMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MedicalRecordMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.MenuMapper",3,0,0,0,6,25
+Abstract Method,"com.ledao.mapper.MenuMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MenuMapper.findByParentId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.MenuMapper.findByParentIdAndRoleId",,,,0,1,7
+Abstract Method,"com.ledao.mapper.MenuMapper.findByRoleId",,,,0,1,6
+Public Interface,"com.ledao.mapper.OverflowListGoodsMapper",3,0,0,0,5,18
+Abstract Method,"com.ledao.mapper.OverflowListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListGoodsMapper.deleteByOverflowListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListGoodsMapper.listByOverflowListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.OverflowListMapper",5,0,0,0,8,35
+Abstract Method,"com.ledao.mapper.OverflowListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListMapper.findByOverflowNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListMapper.getTodayMaxOverflowNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.OverflowListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.OverflowListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.PetMapper",6,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.PetMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PetMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.PurchaseListGoodsMapper",4,0,0,0,6,24
+Abstract Method,"com.ledao.mapper.PurchaseListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListGoodsMapper.deleteByPurchaseListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListGoodsMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListGoodsMapper.listByPurchaseListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.PurchaseListMapper",5,0,0,0,9,41
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.findByPurchaseNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.getTodayMaxPurchaseNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.PurchaseListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.ReservationMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.ReservationMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReservationMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReservationMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReservationMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReservationMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReservationMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.ReturnListGoodsMapper",4,0,0,0,6,24
+Abstract Method,"com.ledao.mapper.ReturnListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListGoodsMapper.deleteByReturnListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListGoodsMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListGoodsMapper.listByReturnListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.ReturnListMapper",5,0,0,0,9,41
+Abstract Method,"com.ledao.mapper.ReturnListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListMapper.findByReturnNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListMapper.getTodayMaxReturnNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.ReturnListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.ReturnVisitMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.ReturnVisitMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.RoleMapper",6,0,0,0,11,53
+Abstract Method,"com.ledao.mapper.RoleMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.findByRoleName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.findByUserId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.RoleMapper.listAll",,,,0,1,5
+Abstract Method,"com.ledao.mapper.RoleMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.RoleMenuMapper",1,0,0,0,4,13
+Abstract Method,"com.ledao.mapper.RoleMenuMapper.add",,,,0,1,7
+Abstract Method,"com.ledao.mapper.RoleMenuMapper.deleteByRoleId",,,,0,1,6
+Public Interface,"com.ledao.mapper.SaleListGoodsMapper",5,0,0,0,7,30
+Abstract Method,"com.ledao.mapper.SaleListGoodsMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListGoodsMapper.deleteBySaleListId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListGoodsMapper.getTotalByGoodsId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListGoodsMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListGoodsMapper.listBySaleListId",,,,0,1,6
+Public Interface,"com.ledao.mapper.SaleListMapper",6,0,0,0,13,67
+Abstract Method,"com.ledao.mapper.SaleListMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.countSaleByDay",,,,0,1,7
+Abstract Method,"com.ledao.mapper.SaleListMapper.countSaleByMonth",,,,0,1,7
+Abstract Method,"com.ledao.mapper.SaleListMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.findBySaleNumber",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.findCurrentOneOrderByCustomerId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.getTodayMaxSaleNumber",,,,0,1,5
+Abstract Method,"com.ledao.mapper.SaleListMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SaleListMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.SuggestionMapper",5,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.SuggestionMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.getCountTodaySuggestion",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SuggestionMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.SupplierMapper",6,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.SupplierMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.SupplierMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.TackleMapper",6,0,0,0,9,42
+Abstract Method,"com.ledao.mapper.TackleMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.TackleOutLogMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.TackleOutLogMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.UseEquipmentLogMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UseEquipmentLogMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.UserMapper",6,0,0,0,10,54
+Abstract Method,"com.ledao.mapper.UserMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.findByName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.findByTrueName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.findByUserName",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.getTotal",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserMapper.update",,,,0,1,6
+Public Interface,"com.ledao.mapper.UserRoleMapper",1,0,0,0,5,19
+Abstract Method,"com.ledao.mapper.UserRoleMapper.add",,,,0,1,7
+Abstract Method,"com.ledao.mapper.UserRoleMapper.deleteByRoleId",,,,0,1,6
+Abstract Method,"com.ledao.mapper.UserRoleMapper.deleteByUserId",,,,0,1,6
+Public Interface,"com.ledao.mapper.VaccineMapper",5,0,0,0,8,36
+Abstract Method,"com.ledao.mapper.VaccineMapper.add",,,,0,1,6
+Abstract Method,"com.ledao.mapper.VaccineMapper.delete",,,,0,1,6
+Abstract Method,"com.ledao.mapper.VaccineMapper.findById",,,,0,1,6
+Abstract Method,"com.ledao.mapper.VaccineMapper.getCount",,,,0,1,6
+Abstract Method,"com.ledao.mapper.VaccineMapper.list",,,,0,1,6
+Abstract Method,"com.ledao.mapper.VaccineMapper.update",,,,0,1,6
+Package,"com.ledao.realm",,,,5,57,20
+Public Class,"com.ledao.realm.MyRealm",20,33,33,5,36,20
+Protected Method,"com.ledao.realm.MyRealm.doGetAuthenticationInfo",,,,2,11,7
+Protected Method,"com.ledao.realm.MyRealm.doGetAuthorizationInfo",,,,3,17,6
+Package,"com.ledao.run",,,,6,62,16
+Public Class,"com.ledao.run.StartupRunner",18,71,46,6,49,16
+Public Method,"com.ledao.run.StartupRunner.contextDestroyed",,,,1,3,0
+Public Method,"com.ledao.run.StartupRunner.contextInitialized",,,,1,4,0
+Public Method,"com.ledao.run.StartupRunner.loadData",,,,3,22,9
+Public Method,"com.ledao.run.StartupRunner.run",,,,1,4,0
+Package,"com.ledao.service",,,,0,496,1835
+Public Interface,"com.ledao.service.ArticleService",5,0,0,0,11,54
+Abstract Method,"com.ledao.service.ArticleService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.findByTypeId",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.getLast",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.getNext",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleService.update",,,,0,1,6
+Public Interface,"com.ledao.service.ArticleTypeService",6,0,0,0,9,42
+Abstract Method,"com.ledao.service.ArticleTypeService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ArticleTypeService.update",,,,0,1,6
+Public Interface,"com.ledao.service.AssayService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.AssayService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.AssayService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.AssayService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.AssayService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.AssayService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.AssayService.update",,,,0,1,6
+Public Interface,"com.ledao.service.CarouselService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.CarouselService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.CarouselService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.CarouselService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.CarouselService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.CarouselService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.CarouselService.update",,,,0,1,6
+Public Interface,"com.ledao.service.CustomerReturnListGoodsService",5,0,0,0,7,30
+Abstract Method,"com.ledao.service.CustomerReturnListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListGoodsService.deleteByCustomerReturnListId",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListGoodsService.getTotalByGoodsId",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListGoodsService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListGoodsService.listByCustomerReturnListId",,,,0,1,6
+Public Interface,"com.ledao.service.CustomerReturnListService",5,0,0,0,9,41
+Abstract Method,"com.ledao.service.CustomerReturnListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListService.findByCustomerReturnNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListService.getTodayMaxCustomerReturnNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.CustomerReturnListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerReturnListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.CustomerService",6,0,0,0,12,60
+Abstract Method,"com.ledao.service.CustomerService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.findByContact",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.findByUserName",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.getCountByUserName",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.CustomerService.update",,,,0,1,6
+Public Interface,"com.ledao.service.DamageListGoodsService",3,0,0,0,5,18
+Abstract Method,"com.ledao.service.DamageListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListGoodsService.deleteByDamageListId",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListGoodsService.listByDamageListId",,,,0,1,6
+Public Interface,"com.ledao.service.DamageListService",5,0,0,0,8,35
+Abstract Method,"com.ledao.service.DamageListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListService.findByDamageNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListService.getTodayMaxDamageNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.DamageListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.DamageListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.EquipmentService",6,0,0,0,11,54
+Abstract Method,"com.ledao.service.EquipmentService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.getCountByEquipmentTypeId",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.getCountByName",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentService.update",,,,0,1,6
+Public Interface,"com.ledao.service.EquipmentTypeService",6,0,0,0,9,42
+Abstract Method,"com.ledao.service.EquipmentTypeService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.EquipmentTypeService.update",,,,0,1,6
+Public Interface,"com.ledao.service.FavoriteService",5,0,0,0,6,25
+Abstract Method,"com.ledao.service.FavoriteService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.FavoriteService.delete",,,,0,1,7
+Abstract Method,"com.ledao.service.FavoriteService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.FavoriteService.list",,,,0,1,6
+Public Interface,"com.ledao.service.FosterCareService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.FosterCareService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.FosterCareService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.FosterCareService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.FosterCareService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.FosterCareService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.FosterCareService.update",,,,0,1,6
+Public Interface,"com.ledao.service.GoodsService",6,0,0,0,19,100
+Abstract Method,"com.ledao.service.GoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.findByTypeId",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getCountByBigTypeId",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getCountHasInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getCountInventory",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getCountNoInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.getMaxGoodsCode",,,,0,1,5
+Abstract Method,"com.ledao.service.GoodsService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.listAlarm",,,,0,1,5
+Abstract Method,"com.ledao.service.GoodsService.listByBigTypeId",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.listHasInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.listInventory",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.listNoInventoryQuantityByCodeOrName",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsService.update",,,,0,1,6
+Public Interface,"com.ledao.service.GoodsTypeService",3,0,0,0,7,30
+Abstract Method,"com.ledao.service.GoodsTypeService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsTypeService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsTypeService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsTypeService.findByParentId",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsTypeService.update",,,,0,1,6
+Public Interface,"com.ledao.service.GoodsUnitService",3,0,0,0,7,29
+Abstract Method,"com.ledao.service.GoodsUnitService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsUnitService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsUnitService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.GoodsUnitService.listAll",,,,0,1,5
+Abstract Method,"com.ledao.service.GoodsUnitService.update",,,,0,1,6
+Public Interface,"com.ledao.service.InquiryService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.InquiryService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.InquiryService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.InquiryService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.InquiryService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.InquiryService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.InquiryService.update",,,,0,1,6
+Public Interface,"com.ledao.service.LogService",5,0,0,0,5,18
+Abstract Method,"com.ledao.service.LogService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.LogService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.LogService.list",,,,0,1,6
+Public Interface,"com.ledao.service.MedicalRecordService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.MedicalRecordService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.MedicalRecordService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.MedicalRecordService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.MedicalRecordService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.MedicalRecordService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.MedicalRecordService.update",,,,0,1,6
+Public Interface,"com.ledao.service.MenuService",3,0,0,0,6,25
+Abstract Method,"com.ledao.service.MenuService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.MenuService.findByParentId",,,,0,1,6
+Abstract Method,"com.ledao.service.MenuService.findByParentIdAndRoleId",,,,0,1,7
+Abstract Method,"com.ledao.service.MenuService.findByRoleId",,,,0,1,6
+Public Interface,"com.ledao.service.OverflowListGoodsService",3,0,0,0,5,18
+Abstract Method,"com.ledao.service.OverflowListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListGoodsService.deleteByOverflowListId",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListGoodsService.listByOverflowListId",,,,0,1,6
+Public Interface,"com.ledao.service.OverflowListService",5,0,0,0,8,35
+Abstract Method,"com.ledao.service.OverflowListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListService.findByOverflowNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListService.getTodayMaxOverflowNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.OverflowListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.OverflowListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.PetService",6,0,0,0,9,42
+Abstract Method,"com.ledao.service.PetService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.PetService.update",,,,0,1,6
+Public Interface,"com.ledao.service.PurchaseListGoodsService",4,0,0,0,6,24
+Abstract Method,"com.ledao.service.PurchaseListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListGoodsService.deleteByPurchaseListId",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListGoodsService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListGoodsService.listByPurchaseListId",,,,0,1,6
+Public Interface,"com.ledao.service.PurchaseListService",5,0,0,0,9,41
+Abstract Method,"com.ledao.service.PurchaseListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListService.findByPurchaseNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListService.getTodayMaxPurchaseNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.PurchaseListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.PurchaseListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.ReservationService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.ReservationService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ReservationService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.ReservationService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.ReservationService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.ReservationService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ReservationService.update",,,,0,1,6
+Public Interface,"com.ledao.service.ReturnListGoodsService",4,0,0,0,6,24
+Abstract Method,"com.ledao.service.ReturnListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListGoodsService.deleteByReturnListId",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListGoodsService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListGoodsService.listByReturnListId",,,,0,1,6
+Public Interface,"com.ledao.service.ReturnListService",5,0,0,0,9,41
+Abstract Method,"com.ledao.service.ReturnListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListService.findByReturnNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListService.getTodayMaxReturnNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.ReturnListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.ReturnVisitService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.ReturnVisitService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnVisitService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnVisitService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnVisitService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnVisitService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.ReturnVisitService.update",,,,0,1,6
+Public Interface,"com.ledao.service.RoleMenuService",1,0,0,0,4,13
+Abstract Method,"com.ledao.service.RoleMenuService.add",,,,0,1,7
+Abstract Method,"com.ledao.service.RoleMenuService.deleteByRoleId",,,,0,1,6
+Public Interface,"com.ledao.service.RoleService",6,0,0,0,11,53
+Abstract Method,"com.ledao.service.RoleService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.findByRoleName",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.findByUserId",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.RoleService.listAll",,,,0,1,5
+Abstract Method,"com.ledao.service.RoleService.update",,,,0,1,6
+Public Interface,"com.ledao.service.SaleListGoodsService",5,0,0,0,7,30
+Abstract Method,"com.ledao.service.SaleListGoodsService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListGoodsService.deleteBySaleListId",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListGoodsService.getTotalByGoodsId",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListGoodsService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListGoodsService.listBySaleListId",,,,0,1,6
+Public Interface,"com.ledao.service.SaleListService",6,0,0,0,13,67
+Abstract Method,"com.ledao.service.SaleListService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.countSaleByDay",,,,0,1,7
+Abstract Method,"com.ledao.service.SaleListService.countSaleByMonth",,,,0,1,7
+Abstract Method,"com.ledao.service.SaleListService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.findBySaleNumber",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.findCurrentOneOrderByCustomerId",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.getTodayMaxSaleNumber",,,,0,1,5
+Abstract Method,"com.ledao.service.SaleListService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.SaleListService.update",,,,0,1,6
+Public Interface,"com.ledao.service.SuggestionService",5,0,0,0,9,42
+Abstract Method,"com.ledao.service.SuggestionService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.getCountTodaySuggestion",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.SuggestionService.update",,,,0,1,6
+Public Interface,"com.ledao.service.SupplierService",6,0,0,0,9,42
+Abstract Method,"com.ledao.service.SupplierService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.SupplierService.update",,,,0,1,6
+Public Interface,"com.ledao.service.TackleOutLogService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.TackleOutLogService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleOutLogService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleOutLogService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleOutLogService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleOutLogService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleOutLogService.update",,,,0,1,6
+Public Interface,"com.ledao.service.TackleService",6,0,0,0,9,42
+Abstract Method,"com.ledao.service.TackleService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.TackleService.update",,,,0,1,6
+Public Interface,"com.ledao.service.UseEquipmentLogService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.UseEquipmentLogService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.UseEquipmentLogService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.UseEquipmentLogService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.UseEquipmentLogService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.UseEquipmentLogService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.UseEquipmentLogService.update",,,,0,1,6
+Public Interface,"com.ledao.service.UserRoleService",1,0,0,0,5,19
+Abstract Method,"com.ledao.service.UserRoleService.add",,,,0,1,7
+Abstract Method,"com.ledao.service.UserRoleService.deleteByRoleId",,,,0,1,6
+Abstract Method,"com.ledao.service.UserRoleService.deleteByUserId",,,,0,1,6
+Public Interface,"com.ledao.service.UserService",6,0,0,0,11,54
+Abstract Method,"com.ledao.service.UserService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.findByName",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.findByTrueName",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.findByUserName",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.getTotal",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.UserService.update",,,,0,1,6
+Public Interface,"com.ledao.service.VaccineService",5,0,0,0,8,36
+Abstract Method,"com.ledao.service.VaccineService.add",,,,0,1,6
+Abstract Method,"com.ledao.service.VaccineService.delete",,,,0,1,6
+Abstract Method,"com.ledao.service.VaccineService.findById",,,,0,1,6
+Abstract Method,"com.ledao.service.VaccineService.getCount",,,,0,1,6
+Abstract Method,"com.ledao.service.VaccineService.list",,,,0,1,6
+Abstract Method,"com.ledao.service.VaccineService.update",,,,0,1,6
+Package,"com.ledao.service.impl",,,,259,1565,287
+Public Class,"com.ledao.service.impl.ArticleServiceImpl",9,0,0,9,41,7
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.findByTypeId",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.getLast",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.getNext",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.ArticleTypeServiceImpl",10,0,0,7,33,7
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ArticleTypeServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.AssayServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.AssayServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.AssayServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.AssayServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.AssayServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.AssayServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.AssayServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.CarouselServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.CarouselServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl",9,0,0,5,25,7
+Public Method,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl.deleteByCustomerReturnListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl.getTotalByGoodsId",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListGoodsServiceImpl.listByCustomerReturnListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.CustomerReturnListServiceImpl",9,0,0,7,33,7
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.findByCustomerReturnNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.getTodayMaxCustomerReturnNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerReturnListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.CustomerServiceImpl",10,0,0,10,45,7
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.findByContact",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.findByUserName",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.getCountByUserName",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.CustomerServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.DamageListGoodsServiceImpl",7,0,0,3,17,7
+Public Method,"com.ledao.service.impl.DamageListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListGoodsServiceImpl.deleteByDamageListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListGoodsServiceImpl.listByDamageListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.DamageListServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.findByDamageNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.getTodayMaxDamageNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.DamageListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.EquipmentServiceImpl",10,0,0,9,41,7
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.getCountByEquipmentTypeId",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.getCountByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.EquipmentTypeServiceImpl",10,0,0,7,33,7
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.EquipmentTypeServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.FavoriteServiceImpl",9,0,0,4,21,7
+Public Method,"com.ledao.service.impl.FavoriteServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.FavoriteServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.FavoriteServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.FavoriteServiceImpl.list",,,,1,4,0
+Public Class,"com.ledao.service.impl.FosterCareServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.FosterCareServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.GoodsServiceImpl",10,0,0,17,73,7
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.findByTypeId",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getCountByBigTypeId",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getCountHasInventoryQuantityByCodeOrName",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getCountInventory",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getCountNoInventoryQuantityByCodeOrName",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.getMaxGoodsCode",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.listAlarm",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.listByBigTypeId",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.listHasInventoryQuantityByCodeOrName",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.listInventory",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.listNoInventoryQuantityByCodeOrName",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.GoodsTypeServiceImpl",7,0,0,5,25,7
+Public Method,"com.ledao.service.impl.GoodsTypeServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsTypeServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsTypeServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsTypeServiceImpl.findByParentId",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsTypeServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.GoodsUnitServiceImpl",7,0,0,5,25,7
+Public Method,"com.ledao.service.impl.GoodsUnitServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsUnitServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsUnitServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsUnitServiceImpl.listAll",,,,1,4,0
+Public Method,"com.ledao.service.impl.GoodsUnitServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.InquiryServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.InquiryServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.LogServiceImpl",11,33,33,3,20,7
+Public Method,"com.ledao.service.impl.LogServiceImpl.add",,,,1,5,0
+Public Method,"com.ledao.service.impl.LogServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.LogServiceImpl.list",,,,1,4,0
+Public Class,"com.ledao.service.impl.MedicalRecordServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.MedicalRecordServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.MenuServiceImpl",7,0,0,4,21,7
+Public Method,"com.ledao.service.impl.MenuServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.MenuServiceImpl.findByParentId",,,,1,4,0
+Public Method,"com.ledao.service.impl.MenuServiceImpl.findByParentIdAndRoleId",,,,1,4,0
+Public Method,"com.ledao.service.impl.MenuServiceImpl.findByRoleId",,,,1,4,0
+Public Class,"com.ledao.service.impl.OverflowListGoodsServiceImpl",7,0,0,3,17,7
+Public Method,"com.ledao.service.impl.OverflowListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListGoodsServiceImpl.deleteByOverflowListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListGoodsServiceImpl.listByOverflowListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.OverflowListServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.findByOverflowNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.getTodayMaxOverflowNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.OverflowListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.PetServiceImpl",10,0,0,7,33,7
+Public Method,"com.ledao.service.impl.PetServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.PetServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.PurchaseListGoodsServiceImpl",8,0,0,4,21,7
+Public Method,"com.ledao.service.impl.PurchaseListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListGoodsServiceImpl.deleteByPurchaseListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListGoodsServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListGoodsServiceImpl.listByPurchaseListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.PurchaseListServiceImpl",9,0,0,7,33,7
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.findByPurchaseNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.getTodayMaxPurchaseNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.PurchaseListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.ReservationServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReservationServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.ReturnListGoodsServiceImpl",8,0,0,4,21,7
+Public Method,"com.ledao.service.impl.ReturnListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListGoodsServiceImpl.deleteByReturnListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListGoodsServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListGoodsServiceImpl.listByReturnListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.ReturnListServiceImpl",9,0,0,7,33,7
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.findByReturnNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.getTodayMaxReturnNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.ReturnVisitServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.ReturnVisitServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.RoleMenuServiceImpl",5,0,0,2,13,7
+Public Method,"com.ledao.service.impl.RoleMenuServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleMenuServiceImpl.deleteByRoleId",,,,1,4,0
+Public Class,"com.ledao.service.impl.RoleServiceImpl",10,0,0,9,41,7
+Public Method,"com.ledao.service.impl.RoleServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.findByRoleName",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.findByUserId",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.listAll",,,,1,4,0
+Public Method,"com.ledao.service.impl.RoleServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.SaleListGoodsServiceImpl",9,0,0,5,25,7
+Public Method,"com.ledao.service.impl.SaleListGoodsServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListGoodsServiceImpl.deleteBySaleListId",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListGoodsServiceImpl.getTotalByGoodsId",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListGoodsServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListGoodsServiceImpl.listBySaleListId",,,,1,4,0
+Public Class,"com.ledao.service.impl.SaleListServiceImpl",10,0,0,11,49,7
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.countSaleByDay",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.countSaleByMonth",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.findBySaleNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.findCurrentOneOrderByCustomerId",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.getTodayMaxSaleNumber",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.SaleListServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.SuggestionServiceImpl",9,0,0,7,33,7
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.getCountTodaySuggestion",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.SuggestionServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.SupplierServiceImpl",10,0,0,7,33,7
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.SupplierServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.TackleOutLogServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleOutLogServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.TackleServiceImpl",10,0,0,7,33,7
+Public Method,"com.ledao.service.impl.TackleServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.TackleServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.UseEquipmentLogServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.UseEquipmentLogServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.UserRoleServiceImpl",5,0,0,3,17,7
+Public Method,"com.ledao.service.impl.UserRoleServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserRoleServiceImpl.deleteByRoleId",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserRoleServiceImpl.deleteByUserId",,,,1,4,0
+Public Class,"com.ledao.service.impl.UserServiceImpl",10,0,0,9,41,7
+Public Method,"com.ledao.service.impl.UserServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.findByName",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.findByTrueName",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.findByUserName",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.getTotal",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.UserServiceImpl.update",,,,1,4,0
+Public Class,"com.ledao.service.impl.VaccineServiceImpl",9,0,0,6,29,7
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.add",,,,1,4,0
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.delete",,,,1,4,0
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.findById",,,,1,4,0
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.getCount",,,,1,4,0
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.list",,,,1,4,0
+Public Method,"com.ledao.service.impl.VaccineServiceImpl.update",,,,1,4,0
+Package,"com.ledao.util",,,,36,170,117
+Public Class,"com.ledao.util.DateUtil",9,0,0,11,57,45
+Public Static Method,"com.ledao.util.DateUtil.dateFormat",,,,1,4,0
+Public Static Method,"com.ledao.util.DateUtil.formatDate",,,,2,8,8
+Public Static Method,"com.ledao.util.DateUtil.formatString",,,,2,7,8
+Public Static Method,"com.ledao.util.DateUtil.getCurrentDateStr",,,,1,5,6
+Public Static Method,"com.ledao.util.DateUtil.getCurrentDateStr2",,,,1,5,0
+Public Static Method,"com.ledao.util.DateUtil.getRangeDates",,,,2,13,8
+Public Static Method,"com.ledao.util.DateUtil.getRangeMonths",,,,2,13,8
+Public Class,"com.ledao.util.MathUtil",1,0,0,1,5,13
+Public Static Method,"com.ledao.util.MathUtil.format2Bit",,,,1,3,6
+Public Class,"com.ledao.util.PageUtil",2,0,0,16,66,28
+Public Static Method,"com.ledao.util.PageUtil.genPagination",,,,8,32,11
+Public Static Method,"com.ledao.util.PageUtil.genPagination2",,,,8,32,10
+Public Class,"com.ledao.util.StringUtil",3,0,0,8,33,31
+Public Static Method,"com.ledao.util.StringUtil.formatCode",,,,2,10,6
+Public Static Method,"com.ledao.util.StringUtil.formatLike",,,,2,7,6
+Public Static Method,"com.ledao.util.StringUtil.isEmpty",,,,2,7,6
+Public Static Method,"com.ledao.util.StringUtil.isNotEmpty",,,,2,7,6

@@ -1,0 +1,658 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"All.java",,,,41,194,25
+File,"AparapiSolution.java",,,,11,73,30
+File,"AutoCleanUpArraysDemo.java",,,,1,16,25
+File,"BMatMul1D.java",,,,3,22,25
+File,"BMatMul2D.java",,,,3,22,25
+File,"BMatMul3D.java",,,,3,26,25
+File,"Body.java",,,,15,56,25
+File,"CleanUpArraysDemo.java",,,,1,21,25
+File,"ConfigurationDemo.java",,,,13,68,28
+File,"ConvMatrix3x3Editor.java",,,,10,98,55
+File,"ConvMatrix3x3Editor.java",,,,10,98,30
+File,"Convolution.java",,,,9,67,55
+File,"ConvolutionOpenCL.java",,,,5,50,61
+File,"ConvolutionViewer.java",,,,3,61,57
+File,"CorrMatrixHost.java",,,,48,215,90
+File,"CorrMatrixKernel.java",,,,12,150,63
+File,"CorrMatrixTest.java",,,,14,95,45
+File,"CustomConfigurationDemo.java",,,,3,32,28
+File,"DMatMul1D.java",,,,3,22,25
+File,"DMatMul2D.java",,,,3,22,25
+File,"DMatMul3D.java",,,,3,23,25
+File,"FFTExample.java",,,,13,101,35
+File,"FMatMul1D.java",,,,3,22,25
+File,"FMatMul2D.java",,,,3,22,25
+File,"FMatMul3D.java",,,,3,23,25
+File,"Histogram.java",,,,12,81,35
+File,"HistogramIdeal.java",,,,7,68,41
+File,"IMatMul1D.java",,,,3,22,25
+File,"IMatMul2D.java",,,,3,22,25
+File,"IMatMul3D.java",,,,3,23,25
+File,"JJMPEGPlayer.java",,,,10,85,38
+File,"JavaMandelBrot.java",,,,4,96,25
+File,"JavaMandelBrotMultiThread.java",,,,10,125,29
+File,"KernelOkayInOpenCL.java",,,,2,15,28
+File,"KernelWithAlternateFallbackAlgorithm.java",,,,3,16,29
+File,"KernelWithoutAlternateFallbackAlgorithm.java",,,,1,8,29
+File,"LMatMul1D.java",,,,3,22,25
+File,"LMatMul2D.java",,,,3,22,25
+File,"LMatMul3D.java",,,,3,23,25
+File,"LegacyConfigurationDemo.java",,,,1,17,29
+File,"Life.java",,,,20,169,111
+File,"Local.java",,,,22,230,80
+File,"LongRunningKernel.java",,,,4,22,28
+File,"MDArray.java",,,,267,1108,25
+File,"Main.java",,,,11,98,78
+File,"Main.java",,,,8,54,27
+File,"Main.java",,,,19,149,114
+File,"Main.java",,,,12,122,119
+File,"Main.java",,,,21,146,110
+File,"Main.java",,,,4,25,73
+File,"Main.java",,,,20,226,87
+File,"Main.java",,,,4,26,55
+File,"Main.java",,,,4,41,55
+File,"Main.java",,,,21,230,89
+File,"Main2D.java",,,,16,129,102
+File,"Mandel.java",,,,0,21,40
+File,"Mandel.java",,,,19,181,119
+File,"MandelBrot.java",,,,0,15,40
+File,"MandelExample.java",,,,16,142,73
+File,"MandelSimple.java",,,,12,117,71
+File,"MedianDemo.java",,,,5,79,28
+File,"MedianKernel7x7.java",,,,24,134,39
+File,"MedianSettings.java",,,,2,12,25
+File,"MultiPassKernelSwingWorkerDemo.java",,,,16,111,28
+File,"NBody.java",,,,23,233,80
+File,"Pow4Example.java",,,,5,38,28
+File,"ProfilingDemo.java",,,,10,57,31
+File,"ProfilingDemoNoBinaryCaching.java",,,,1,8,28
+File,"ProgressAndCancelDemo.java",,,,20,145,29
+File,"PureJava.java",,,,9,64,55
+File,"PureJavaSolution.java",,,,3,27,0
+File,"ReferenceSolution.java",,,,14,79,30
+File,"SMatMul1D.java",,,,3,22,25
+File,"SMatMul2D.java",,,,3,22,25
+File,"SMatMul3D.java",,,,3,23,25
+File,"Seq.java",,,,19,220,88
+File,"SquareExample.java",,,,8,74,44
+File,"StopWatch.java",,,,2,11,25
+File,"SwapExample.java",,,,7,48,33
+File,"ZMatMul1D.java",,,,3,22,25
+File,"ZMatMul2D.java",,,,3,22,25
+File,"ZMatMul3D.java",,,,3,23,25
+Package,"com",,,,0,0,0
+Package,"com.aparapi",,,,0,0,0
+Package,"com.aparapi.examples",,,,41,194,25
+Public Class,"com.aparapi.examples.All",42,0,0,41,176,25
+Public Static Method,"com.aparapi.examples.All.main",,,,4,58,0
+Private Static Method,"com.aparapi.examples.All.selected",,,,37,116,0
+Package,"com.aparapi.examples.add",,,,4,26,55
+Public Class,"com.aparapi.examples.add.Main",6,0,0,3,23,25
+Public Static Method,"com.aparapi.examples.add.Main.main",,,,3,21,0
+Anonymous Class,"com.aparapi.examples.add.Main.main.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.aparapi.examples.add.Main.main.(Anon_1).run",,,,1,4,0
+Package,"com.aparapi.examples.blackscholes",,,,11,98,78
+Public Class,"com.aparapi.examples.blackscholes.Main",9,0,0,2,95,48
+Public Static Class,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel",4,72,72,9,78,23
+Public Constructor,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel.BlackScholesKernel",,,,2,8,0
+Method,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel.phi",,,,2,17,4
+Public Method,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel.run",,,,1,24,0
+Public Method,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel.showArray",,,,3,10,0
+Public Method,"com.aparapi.examples.blackscholes.Main.BlackScholesKernel.showResults",,,,1,4,0
+Public Static Method,"com.aparapi.examples.blackscholes.Main.main",,,,2,15,0
+Package,"com.aparapi.examples.configuration",,,,36,258,280
+Public Class,"com.aparapi.examples.configuration.AutoCleanUpArraysDemo",5,0,0,1,14,25
+Public Static Method,"com.aparapi.examples.configuration.AutoCleanUpArraysDemo.main",,,,1,12,0
+Public Class,"com.aparapi.examples.configuration.CleanUpArraysDemo",5,0,0,1,19,25
+Public Static Method,"com.aparapi.examples.configuration.CleanUpArraysDemo.main",,,,1,17,0
+Public Class,"com.aparapi.examples.configuration.ConfigurationDemo",10,0,0,13,64,28
+Public Static Method,"com.aparapi.examples.configuration.ConfigurationDemo.main",,,,3,13,0
+Private Static Method,"com.aparapi.examples.configuration.ConfigurationDemo.runTests",,,,10,49,0
+Public Class,"com.aparapi.examples.configuration.CustomConfigurationDemo",6,0,0,1,28,28
+Public Static Method,"com.aparapi.examples.configuration.CustomConfigurationDemo.main",,,,1,26,0
+Anonymous Class,"com.aparapi.examples.configuration.CustomConfigurationDemo.main.(Anon_1)",3,0,0,1,5,0
+Protected Method,"com.aparapi.examples.configuration.CustomConfigurationDemo.main.(Anon_1).getPreferredDeviceTypes",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.configuration.CustomConfigurationDemo.main.(Anon_2)",2,0,0,1,5,0
+Public Method,"com.aparapi.examples.configuration.CustomConfigurationDemo.main.(Anon_2).isAllowDevice",,,,1,4,0
+Public Class,"com.aparapi.examples.configuration.KernelOkayInOpenCL",5,50,50,2,14,28
+Private Method,"com.aparapi.examples.configuration.KernelOkayInOpenCL.oops",,,,1,4,0
+Public Method,"com.aparapi.examples.configuration.KernelOkayInOpenCL.run",,,,1,6,0
+Public Class,"com.aparapi.examples.configuration.KernelWithAlternateFallbackAlgorithm",4,0,0,3,14,29
+Public Method,"com.aparapi.examples.configuration.KernelWithAlternateFallbackAlgorithm.executeFallbackAlgorithm",,,,1,4,0
+Public Method,"com.aparapi.examples.configuration.KernelWithAlternateFallbackAlgorithm.hasFallbackAlgorithm",,,,1,4,0
+Public Method,"com.aparapi.examples.configuration.KernelWithAlternateFallbackAlgorithm.run",,,,1,4,1
+Public Class,"com.aparapi.examples.configuration.KernelWithoutAlternateFallbackAlgorithm",3,0,0,1,6,29
+Public Method,"com.aparapi.examples.configuration.KernelWithoutAlternateFallbackAlgorithm.run",,,,1,4,1
+Public Class,"com.aparapi.examples.configuration.LegacyConfigurationDemo",6,0,0,1,14,29
+Public Static Method,"com.aparapi.examples.configuration.LegacyConfigurationDemo.main",,,,1,12,0
+Public Class,"com.aparapi.examples.configuration.ProfilingDemo",11,60,40,10,53,31
+Public Static Method,"com.aparapi.examples.configuration.ProfilingDemo.main",,,,4,25,3
+Private Static Method,"com.aparapi.examples.configuration.ProfilingDemo.newBlackScholesKernel",,,,2,7,0
+Private Static Method,"com.aparapi.examples.configuration.ProfilingDemo.printLastProfile",,,,1,7,0
+Private Static Method,"com.aparapi.examples.configuration.ProfilingDemo.runOnce",,,,2,6,0
+Private Static Method,"com.aparapi.examples.configuration.ProfilingDemo.runWarmup",,,,1,5,0
+Public Class,"com.aparapi.examples.configuration.ProfilingDemoNoBinaryCaching",2,0,0,1,6,28
+Public Static Method,"com.aparapi.examples.configuration.ProfilingDemoNoBinaryCaching.main",,,,1,4,0
+Package,"com.aparapi.examples.convolution",,,,36,340,283
+Public Class,"com.aparapi.examples.convolution.ConvMatrix3x3Editor",13,73,73,5,83,25
+Constructor,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor",,,,2,47,0
+Anonymous Class,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1)",5,0,0,1,7,0
+Public Method,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1).stateChanged",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2)",6,0,0,4,12,0
+Public Method,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2).actionPerformed",,,,4,11,0
+Method,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.set",,,,2,7,0
+Protected Method,"com.aparapi.examples.convolution.ConvMatrix3x3Editor.updated",,,,1,1,0
+Public Class,"com.aparapi.examples.convolution.Convolution",8,0,0,2,62,25
+Static Final Class,"com.aparapi.examples.convolution.Convolution.ImageConvolution",1,33,13,6,33,0
+Public Method,"com.aparapi.examples.convolution.Convolution.ImageConvolution.applyConvolution",,,,1,8,0
+Public Method,"com.aparapi.examples.convolution.Convolution.ImageConvolution.processPixel",,,,3,12,0
+Public Method,"com.aparapi.examples.convolution.Convolution.ImageConvolution.run",,,,2,8,0
+Public Static Method,"com.aparapi.examples.convolution.Convolution.main",,,,2,28,0
+Anonymous Class,"com.aparapi.examples.convolution.Convolution.main.(Anon_1)",3,0,0,1,7,0
+Protected Method,"com.aparapi.examples.convolution.Convolution.main.(Anon_1).applyConvolution",,,,1,5,0
+Public Class,"com.aparapi.examples.convolution.ConvolutionOpenCL",8,0,0,3,42,31
+Interface,"com.aparapi.examples.convolution.ConvolutionOpenCL.Convolution",5,0,0,0,9,6
+Abstract Method,"com.aparapi.examples.convolution.ConvolutionOpenCL.Convolution.applyConvolution",,,,0,7,6
+Public Static Method,"com.aparapi.examples.convolution.ConvolutionOpenCL.main",,,,3,31,0
+Anonymous Class,"com.aparapi.examples.convolution.ConvolutionOpenCL.main.(Anon_1)",4,0,0,2,9,0
+Protected Method,"com.aparapi.examples.convolution.ConvolutionOpenCL.main.(Anon_1).applyConvolution",,,,2,7,0
+Public Abstract Class,"com.aparapi.examples.convolution.ConvolutionViewer",13,0,0,2,48,27
+Public Constructor,"com.aparapi.examples.convolution.ConvolutionViewer.ConvolutionViewer",,,,2,37,2
+Anonymous Class,"com.aparapi.examples.convolution.ConvolutionViewer.ConvolutionViewer.(Anon_1)",7,0,0,1,12,0
+Protected Method,"com.aparapi.examples.convolution.ConvolutionViewer.ConvolutionViewer.(Anon_1).updated",,,,1,11,0
+Protected Abstract Method,"com.aparapi.examples.convolution.ConvolutionViewer.applyConvolution",,,,0,1,0
+Public Class,"com.aparapi.examples.convolution.PureJava",7,0,0,2,60,25
+Static Final Class,"com.aparapi.examples.convolution.PureJava.ImageConvolution",1,33,13,6,32,0
+Public Method,"com.aparapi.examples.convolution.PureJava.ImageConvolution.applyConvolution",,,,1,8,0
+Public Method,"com.aparapi.examples.convolution.PureJava.ImageConvolution.processPixel",,,,3,12,0
+Public Method,"com.aparapi.examples.convolution.PureJava.ImageConvolution.run",,,,2,7,0
+Public Static Method,"com.aparapi.examples.convolution.PureJava.main",,,,2,26,0
+Anonymous Class,"com.aparapi.examples.convolution.PureJava.main.(Anon_1)",3,0,0,1,5,0
+Protected Method,"com.aparapi.examples.convolution.PureJava.main.(Anon_1).applyConvolution",,,,1,4,0
+Package,"com.aparapi.examples.effects",,,,12,122,119
+Public Class,"com.aparapi.examples.effects.Main",19,0,0,6,107,89
+Public Static Class,"com.aparapi.examples.effects.Main.MouseTrackKernel",1,0,0,3,33,27
+Public Constructor,"com.aparapi.examples.effects.Main.MouseTrackKernel.MouseTrackKernel",,,,1,10,10
+Public Method,"com.aparapi.examples.effects.Main.MouseTrackKernel.run",,,,2,13,5
+Public Static Method,"com.aparapi.examples.effects.Main.main",,,,6,71,27
+Anonymous Class,"com.aparapi.examples.effects.Main.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.aparapi.examples.effects.Main.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.aparapi.examples.effects.Main.main.(Anon_2)",3,0,0,1,7,3
+Public Method,"com.aparapi.examples.effects.Main.main.(Anon_2).mouseMoved",,,,1,6,2
+Anonymous Class,"com.aparapi.examples.effects.Main.main.(Anon_3)",3,0,0,1,5,2
+Public Method,"com.aparapi.examples.effects.Main.main.(Anon_3).windowClosing",,,,1,4,0
+Package,"com.aparapi.examples.extension",,,,96,937,519
+Public Class,"com.aparapi.examples.extension.FFTExample",10,0,0,13,94,35
+Interface,"com.aparapi.examples.extension.FFTExample.FFT",3,0,0,0,8,0
+Public Abstract Method,"com.aparapi.examples.extension.FFTExample.FFT.forward",,,,0,5,0
+Static Method,"com.aparapi.examples.extension.FFTExample.fft",,,,9,56,10
+Public Static Method,"com.aparapi.examples.extension.FFTExample.main",,,,4,28,0
+Public Class,"com.aparapi.examples.extension.Histogram",11,0,0,10,74,35
+Interface,"com.aparapi.examples.extension.Histogram.HistogramKernel",6,0,0,0,13,9
+Public Abstract Method,"com.aparapi.examples.extension.Histogram.HistogramKernel.bin256",,,,0,5,4
+Public Abstract Method,"com.aparapi.examples.extension.Histogram.HistogramKernel.histogram256",,,,0,6,5
+Public Static Method,"com.aparapi.examples.extension.Histogram.main",,,,10,59,1
+Anonymous Class,"com.aparapi.examples.extension.Histogram.main.(Anon_1)",2,0,0,2,7,0
+Public Method,"com.aparapi.examples.extension.Histogram.main.(Anon_1).run",,,,2,6,0
+Public Class,"com.aparapi.examples.extension.HistogramIdeal",11,0,0,7,62,41
+Interface,"com.aparapi.examples.extension.HistogramIdeal.HistogramKernel",5,0,0,0,13,9
+Public Abstract Method,"com.aparapi.examples.extension.HistogramIdeal.HistogramKernel.bin256",,,,0,5,4
+Public Abstract Method,"com.aparapi.examples.extension.HistogramIdeal.HistogramKernel.histogram256",,,,0,6,5
+Public Static Method,"com.aparapi.examples.extension.HistogramIdeal.main",,,,7,47,6
+Public Class,"com.aparapi.examples.extension.JavaMandelBrot",2,0,0,4,91,25
+Public Method,"com.aparapi.examples.extension.JavaMandelBrot.createMandleBrot",,,,4,21,0
+Public Class,"com.aparapi.examples.extension.JavaMandelBrotMultiThread",7,100,100,4,117,29
+Public Method,"com.aparapi.examples.extension.JavaMandelBrotMultiThread.createMandleBrot",,,,4,47,4
+Anonymous Class,"com.aparapi.examples.extension.JavaMandelBrotMultiThread.createMandleBrot.(Anon_1)",6,0,0,6,0,0
+Public Method,"com.aparapi.examples.extension.JavaMandelBrotMultiThread.createMandleBrot.(Anon_1).run",,,,6,0,0
+Public Interface,"com.aparapi.examples.extension.Mandel",4,0,0,0,9,5
+Abstract Method,"com.aparapi.examples.extension.Mandel.createMandleBrot",,,,0,6,5
+Public Interface,"com.aparapi.examples.extension.MandelBrot",4,0,0,0,9,5
+Abstract Method,"com.aparapi.examples.extension.MandelBrot.createMandleBrot",,,,0,6,5
+Public Class,"com.aparapi.examples.extension.MandelExample",30,0,0,9,131,43
+Public Static Method,"com.aparapi.examples.extension.MandelExample.main",,,,9,124,15
+Anonymous Class,"com.aparapi.examples.extension.MandelExample.main.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.extension.MandelExample.main.(Anon_1).paintComponent",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.extension.MandelExample.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.extension.MandelExample.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.extension.MandelExample.main.(Anon_3)",5,0,0,4,11,0
+Public Method,"com.aparapi.examples.extension.MandelExample.main.(Anon_3).itemStateChanged",,,,4,10,0
+Anonymous Class,"com.aparapi.examples.extension.MandelExample.main.(Anon_4)",3,0,0,1,4,1
+Public Method,"com.aparapi.examples.extension.MandelExample.main.(Anon_4).windowClosing",,,,1,3,1
+Public Class,"com.aparapi.examples.extension.MandelSimple",27,0,0,9,106,41
+Public Static Method,"com.aparapi.examples.extension.MandelSimple.main",,,,9,102,15
+Anonymous Class,"com.aparapi.examples.extension.MandelSimple.main.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.extension.MandelSimple.main.(Anon_1).paintComponent",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.extension.MandelSimple.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.extension.MandelSimple.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.extension.MandelSimple.main.(Anon_3)",3,0,0,1,4,1
+Public Method,"com.aparapi.examples.extension.MandelSimple.main.(Anon_3).windowClosing",,,,1,3,1
+Public Class,"com.aparapi.examples.extension.Pow4Example",8,0,0,5,31,28
+Interface,"com.aparapi.examples.extension.Pow4Example.Squarer",3,0,0,0,7,3
+Public Abstract Method,"com.aparapi.examples.extension.Pow4Example.Squarer.square",,,,0,4,3
+Public Static Method,"com.aparapi.examples.extension.Pow4Example.main",,,,5,22,0
+Public Class,"com.aparapi.examples.extension.SquareExample",10,0,0,8,64,44
+Interface,"com.aparapi.examples.extension.SquareExample.Squarer",3,0,0,0,10,7
+Public Abstract Method,"com.aparapi.examples.extension.SquareExample.Squarer.square",,,,0,8,7
+Interface,"com.aparapi.examples.extension.SquareExample.SquarerWithResource",3,0,0,0,6,3
+Public Abstract Method,"com.aparapi.examples.extension.SquareExample.SquarerWithResource.square",,,,0,4,3
+Interface,"com.aparapi.examples.extension.SquareExample.SquarerWithSource",4,0,0,0,12,9
+Public Abstract Method,"com.aparapi.examples.extension.SquareExample.SquarerWithSource.square",,,,0,4,3
+Public Static Method,"com.aparapi.examples.extension.SquareExample.main",,,,8,34,0
+Public Class,"com.aparapi.examples.extension.StopWatch",3,0,0,2,10,25
+Public Method,"com.aparapi.examples.extension.StopWatch.print",,,,1,4,0
+Public Method,"com.aparapi.examples.extension.StopWatch.start",,,,1,3,0
+Public Class,"com.aparapi.examples.extension.SwapExample",8,0,0,7,42,33
+Interface,"com.aparapi.examples.extension.SwapExample.Swapper",3,0,0,0,11,8
+Public Abstract Method,"com.aparapi.examples.extension.SwapExample.Swapper.swap",,,,0,9,8
+Public Static Method,"com.aparapi.examples.extension.SwapExample.main",,,,7,29,0
+Package,"com.aparapi.examples.info",,,,4,41,55
+Public Class,"com.aparapi.examples.info.Main",8,0,0,4,36,25
+Public Static Method,"com.aparapi.examples.info.Main.main",,,,4,34,0
+Package,"com.aparapi.examples.javaonedemo",,,,62,583,310
+Public Class,"com.aparapi.examples.javaonedemo.Life",24,25,25,4,145,81
+Public Static Class,"com.aparapi.examples.javaonedemo.Life.LifeKernel",8,22,22,6,56,35
+Public Constructor,"com.aparapi.examples.javaonedemo.Life.LifeKernel.LifeKernel",,,,2,16,3
+Public Method,"com.aparapi.examples.javaonedemo.Life.LifeKernel.nextGeneration",,,,1,6,1
+Public Method,"com.aparapi.examples.javaonedemo.Life.LifeKernel.run",,,,3,24,11
+Public Static Method,"com.aparapi.examples.javaonedemo.Life.main",,,,4,83,10
+Anonymous Class,"com.aparapi.examples.javaonedemo.Life.main.(Anon_1)",10,0,0,6,28,2
+Public Method,"com.aparapi.examples.javaonedemo.Life.main.(Anon_1).paintComponent",,,,6,27,2
+Anonymous Class,"com.aparapi.examples.javaonedemo.Life.main.(Anon_2)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.javaonedemo.Life.main.(Anon_2).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.javaonedemo.Life.main.(Anon_3)",6,0,0,3,9,0
+Public Method,"com.aparapi.examples.javaonedemo.Life.main.(Anon_3).itemStateChanged",,,,3,8,0
+Public Class,"com.aparapi.examples.javaonedemo.Mandel",26,0,0,8,156,89
+Public Static Class,"com.aparapi.examples.javaonedemo.Mandel.MandelKernel",3,33,33,5,41,25
+Public Constructor,"com.aparapi.examples.javaonedemo.Mandel.MandelKernel.MandelKernel",,,,2,10,9
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.MandelKernel.run",,,,2,16,4
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.aparapi.examples.javaonedemo.Mandel.main",,,,8,110,28
+Anonymous Class,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_1)",6,0,0,1,9,4
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_1).paintComponent",,,,1,8,4
+Anonymous Class,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_2)",7,0,0,3,13,5
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_2).itemStateChanged",,,,3,12,5
+Anonymous Class,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_3)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_3).mouseClicked",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_4)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.javaonedemo.Mandel.main.(Anon_4).windowClosing",,,,1,4,0
+Public Class,"com.aparapi.examples.javaonedemo.NBody",23,100,100,1,199,50
+Public Static Class,"com.aparapi.examples.javaonedemo.NBody.NBodyKernel",4,44,44,7,72,12
+Public Constructor,"com.aparapi.examples.javaonedemo.NBody.NBodyKernel.NBodyKernel",,,,3,20,3
+Protected Method,"com.aparapi.examples.javaonedemo.NBody.NBodyKernel.render",,,,2,14,4
+Public Method,"com.aparapi.examples.javaonedemo.NBody.NBodyKernel.run",,,,2,30,3
+Public Static Method,"com.aparapi.examples.javaonedemo.NBody.main",,,,1,121,1
+Anonymous Class,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_2)",6,0,0,3,9,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_2).itemStateChanged",,,,3,8,0
+Anonymous Class,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_3)",18,72,72,11,71,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_3).display",,,,6,37,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_3).dispose",,,,1,2,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_3).init",,,,3,14,0
+Public Method,"com.aparapi.examples.javaonedemo.NBody.main.(Anon_3).reshape",,,,1,7,0
+Package,"com.aparapi.examples.life",,,,21,146,110
+Public Class,"com.aparapi.examples.life.Main",22,0,0,5,138,80
+Public Static Class,"com.aparapi.examples.life.Main.LifeKernel",9,39,17,10,69,35
+Public Constructor,"com.aparapi.examples.life.Main.LifeKernel.LifeKernel",,,,3,19,3
+Public Method,"com.aparapi.examples.life.Main.LifeKernel.nextGeneration",,,,3,12,1
+Public Method,"com.aparapi.examples.life.Main.LifeKernel.processPixel",,,,3,23,11
+Public Method,"com.aparapi.examples.life.Main.LifeKernel.run",,,,1,4,0
+Public Static Method,"com.aparapi.examples.life.Main.main",,,,5,66,10
+Anonymous Class,"com.aparapi.examples.life.Main.main.(Anon_1)",8,0,0,5,18,2
+Public Method,"com.aparapi.examples.life.Main.main.(Anon_1).paintComponent",,,,5,17,2
+Anonymous Class,"com.aparapi.examples.life.Main.main.(Anon_2)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.life.Main.main.(Anon_2).actionPerformed",,,,1,4,0
+Package,"com.aparapi.examples.mandel",,,,35,278,216
+Public Class,"com.aparapi.examples.mandel.Main",20,0,0,8,141,84
+Public Static Class,"com.aparapi.examples.mandel.Main.MandelKernel",3,58,56,8,53,24
+Public Constructor,"com.aparapi.examples.mandel.Main.MandelKernel.MandelKernel",,,,2,10,8
+Public Method,"com.aparapi.examples.mandel.Main.MandelKernel.getCount",,,,2,13,1
+Public Method,"com.aparapi.examples.mandel.Main.MandelKernel.getRgbs",,,,1,3,0
+Public Method,"com.aparapi.examples.mandel.Main.MandelKernel.resetImage",,,,1,5,0
+Public Method,"com.aparapi.examples.mandel.Main.MandelKernel.run",,,,1,7,3
+Public Method,"com.aparapi.examples.mandel.Main.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.aparapi.examples.mandel.Main.main",,,,8,82,18
+Anonymous Class,"com.aparapi.examples.mandel.Main.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.aparapi.examples.mandel.Main.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.aparapi.examples.mandel.Main.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.mandel.Main.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.mandel.Main.main.(Anon_3)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.mandel.Main.main.(Anon_3).windowClosing",,,,1,4,0
+Public Class,"com.aparapi.examples.mandel.Main2D",20,0,0,8,121,72
+Public Static Class,"com.aparapi.examples.mandel.Main2D.MandelKernel",3,33,33,5,37,20
+Public Constructor,"com.aparapi.examples.mandel.Main2D.MandelKernel.MandelKernel",,,,2,8,6
+Public Method,"com.aparapi.examples.mandel.Main2D.MandelKernel.run",,,,2,16,4
+Public Method,"com.aparapi.examples.mandel.Main2D.MandelKernel.setScaleAndOffset",,,,1,5,0
+Public Static Method,"com.aparapi.examples.mandel.Main2D.main",,,,8,81,16
+Anonymous Class,"com.aparapi.examples.mandel.Main2D.main.(Anon_1)",3,0,0,1,4,0
+Public Method,"com.aparapi.examples.mandel.Main2D.main.(Anon_1).paintComponent",,,,1,3,0
+Anonymous Class,"com.aparapi.examples.mandel.Main2D.main.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.mandel.Main2D.main.(Anon_2).mouseClicked",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.mandel.Main2D.main.(Anon_3)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.mandel.Main2D.main.(Anon_3).windowClosing",,,,1,4,0
+Package,"com.aparapi.examples.mapreduce",,,,8,54,27
+Public Class,"com.aparapi.examples.mapreduce.Main",7,0,0,3,50,27
+Public Static Method,"com.aparapi.examples.mapreduce.Main.main",,,,3,48,12
+Anonymous Class,"com.aparapi.examples.mapreduce.Main.main.(Anon_1)",2,0,0,3,10,0
+Public Method,"com.aparapi.examples.mapreduce.Main.main.(Anon_1).run",,,,3,9,0
+Anonymous Class,"com.aparapi.examples.mapreduce.Main.main.(Anon_2)",2,0,0,2,8,0
+Public Method,"com.aparapi.examples.mapreduce.Main.main.(Anon_2).run",,,,2,7,0
+Package,"com.aparapi.examples.mdarray",,,,330,1580,550
+Class,"com.aparapi.examples.mdarray.BMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.BMatMul1D.BMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.BMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.BMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.BMatMul2D.BMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.BMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.BMatMul3D",1,0,0,3,24,25
+Public Constructor,"com.aparapi.examples.mdarray.BMatMul3D.BMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.BMatMul3D.run",,,,2,12,0
+Class,"com.aparapi.examples.mdarray.DMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.DMatMul1D.DMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.DMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.DMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.DMatMul2D.DMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.DMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.DMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.DMatMul3D.DMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.DMatMul3D.run",,,,2,9,0
+Class,"com.aparapi.examples.mdarray.FMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.FMatMul1D.FMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.FMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.FMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.FMatMul2D.FMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.FMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.FMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.FMatMul3D.FMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.FMatMul3D.run",,,,2,9,0
+Class,"com.aparapi.examples.mdarray.IMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.IMatMul1D.IMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.IMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.IMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.IMatMul2D.IMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.IMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.IMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.IMatMul3D.IMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.IMatMul3D.run",,,,2,9,0
+Class,"com.aparapi.examples.mdarray.LMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.LMatMul1D.LMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.LMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.LMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.LMatMul2D.LMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.LMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.LMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.LMatMul3D.LMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.LMatMul3D.run",,,,2,9,0
+Public Class,"com.aparapi.examples.mdarray.MDArray",25,83,82,267,1106,25
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Brun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Brun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Brun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Drun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Drun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Drun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Frun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Frun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Frun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Irun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Irun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Irun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Lrun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Lrun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Lrun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Srun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Srun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Srun3D",,,,5,30,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Zrun1D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Zrun2D",,,,4,28,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.Zrun3D",,,,5,31,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,3,8,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,4,10,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.checkResults",,,,5,12,0
+Public Static Method,"com.aparapi.examples.mdarray.MDArray.main",,,,1,44,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,4,11,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Private Static Method,"com.aparapi.examples.mdarray.MDArray.matMull",,,,5,13,0
+Class,"com.aparapi.examples.mdarray.SMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.SMatMul1D.SMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.SMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.SMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.SMatMul2D.SMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.SMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.SMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.SMatMul3D.SMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.SMatMul3D.run",,,,2,9,0
+Class,"com.aparapi.examples.mdarray.ZMatMul1D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.ZMatMul1D.ZMatMul1D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.ZMatMul1D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.ZMatMul2D",1,0,0,3,20,25
+Public Constructor,"com.aparapi.examples.mdarray.ZMatMul2D.ZMatMul2D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.ZMatMul2D.run",,,,2,8,0
+Class,"com.aparapi.examples.mdarray.ZMatMul3D",1,0,0,3,21,25
+Public Constructor,"com.aparapi.examples.mdarray.ZMatMul3D.ZMatMul3D",,,,1,6,0
+Public Method,"com.aparapi.examples.mdarray.ZMatMul3D.run",,,,2,9,0
+Package,"com.aparapi.examples.median",,,,31,225,92
+Public Class,"com.aparapi.examples.median.MedianDemo",20,0,0,5,71,28
+Private Static Method,"com.aparapi.examples.median.MedianDemo.createMedianKernel",,,,1,9,0
+Public Static Method,"com.aparapi.examples.median.MedianDemo.main",,,,4,49,0
+Public Class,"com.aparapi.examples.median.MedianKernel7x7",5,74,68,23,132,39
+Anonymous Class,"com.aparapi.examples.median.MedianKernel7x7.(Anon_1)",2,0,0,1,5,0
+Protected Method,"com.aparapi.examples.median.MedianKernel7x7.(Anon_1).initialValue",,,,1,4,0
+Protected Final Method,"com.aparapi.examples.median.MedianKernel7x7.median",,,,8,33,8
+Protected Method,"com.aparapi.examples.median.MedianKernel7x7.populateWindow",,,,3,11,0
+Public Method,"com.aparapi.examples.median.MedianKernel7x7.processImages",,,,1,5,0
+Public Method,"com.aparapi.examples.median.MedianKernel7x7.run",,,,3,35,0
+Protected Method,"com.aparapi.examples.median.MedianKernel7x7.setPixelWindowValue",,,,1,3,0
+Public Method,"com.aparapi.examples.median.MedianKernel7x7.setUpWindow",,,,1,4,0
+Protected Final Method,"com.aparapi.examples.median.MedianKernel7x7.valueForChannel",,,,6,15,0
+Public Class,"com.aparapi.examples.median.MedianSettings",0,50,0,2,11,25
+Public Constructor,"com.aparapi.examples.median.MedianSettings.MedianSettings",,,,1,3,0
+Public Constructor,"com.aparapi.examples.median.MedianSettings.MedianSettings",,,,1,4,0
+Package,"com.aparapi.examples.movie",,,,48,362,128
+Public Class,"com.aparapi.examples.movie.AparapiSolution",1,0,0,2,67,0
+Public Static Class,"com.aparapi.examples.movie.AparapiSolution.AparapiConvolution",5,41,37,7,42,0
+Public Constructor,"com.aparapi.examples.movie.AparapiSolution.AparapiConvolution.AparapiConvolution",,,,1,8,0
+Public Method,"com.aparapi.examples.movie.AparapiSolution.AparapiConvolution.apply",,,,1,4,0
+Public Method,"com.aparapi.examples.movie.AparapiSolution.AparapiConvolution.processPixel",,,,3,11,0
+Public Method,"com.aparapi.examples.movie.AparapiSolution.AparapiConvolution.run",,,,2,11,0
+Public Static Method,"com.aparapi.examples.movie.AparapiSolution.main",,,,2,23,0
+Anonymous Class,"com.aparapi.examples.movie.AparapiSolution.main.(Anon_1)",4,0,0,2,8,0
+Protected Method,"com.aparapi.examples.movie.AparapiSolution.main.(Anon_1).processFrame",,,,2,6,0
+Public Class,"com.aparapi.examples.movie.ConvMatrix3x3Editor",13,73,73,5,83,0
+Constructor,"com.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor",,,,2,47,0
+Anonymous Class,"com.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1)",5,0,0,1,7,0
+Public Method,"com.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_1).stateChanged",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2)",6,0,0,4,12,0
+Public Method,"com.aparapi.examples.movie.ConvMatrix3x3Editor.ConvMatrix3x3Editor.(Anon_2).actionPerformed",,,,4,11,0
+Method,"com.aparapi.examples.movie.ConvMatrix3x3Editor.set",,,,2,7,0
+Protected Method,"com.aparapi.examples.movie.ConvMatrix3x3Editor.updated",,,,1,1,0
+Public Abstract Class,"com.aparapi.examples.movie.JJMPEGPlayer",4,0,0,1,72,8
+Public Constructor,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer",,,,1,69,0
+Anonymous Class,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1)",17,100,100,2,66,0
+Public Method,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run",,,,2,64,0
+Anonymous Class,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_2)",3,0,0,1,7,0
+Public Method,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_2).paint",,,,1,6,0
+Anonymous Class,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_3)",1,0,0,1,3,0
+Protected Method,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_3).updated",,,,1,2,0
+Anonymous Class,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_4)",14,0,0,5,33,0
+Public Method,"com.aparapi.examples.movie.JJMPEGPlayer.JJMPEGPlayer.(Anon_1).run.(Anon_4).run",,,,5,32,0
+Protected Abstract Method,"com.aparapi.examples.movie.JJMPEGPlayer.processFrame",,,,0,1,0
+Public Class,"com.aparapi.examples.movie.PureJavaSolution",1,0,0,2,23,0
+Public Static Method,"com.aparapi.examples.movie.PureJavaSolution.main",,,,2,21,0
+Anonymous Class,"com.aparapi.examples.movie.PureJavaSolution.main.(Anon_1)",5,0,0,1,6,0
+Protected Method,"com.aparapi.examples.movie.PureJavaSolution.main.(Anon_1).processFrame",,,,1,5,0
+Public Class,"com.aparapi.examples.movie.ReferenceSolution",1,0,0,2,73,0
+Public Static Class,"com.aparapi.examples.movie.ReferenceSolution.Convolution",5,45,33,10,48,0
+Public Constructor,"com.aparapi.examples.movie.ReferenceSolution.Convolution.Convolution",,,,1,8,0
+Public Method,"com.aparapi.examples.movie.ReferenceSolution.Convolution.apply",,,,4,10,0
+Public Method,"com.aparapi.examples.movie.ReferenceSolution.Convolution.processPixel",,,,3,11,0
+Public Method,"com.aparapi.examples.movie.ReferenceSolution.Convolution.run",,,,2,11,0
+Public Static Method,"com.aparapi.examples.movie.ReferenceSolution.main",,,,2,23,0
+Anonymous Class,"com.aparapi.examples.movie.ReferenceSolution.main.(Anon_1)",4,0,0,2,8,0
+Protected Method,"com.aparapi.examples.movie.ReferenceSolution.main.(Anon_1).processFrame",,,,2,6,0
+Package,"com.aparapi.examples.nbody",,,,62,680,257
+Public Class,"com.aparapi.examples.nbody.Local",19,100,100,1,200,50
+Public Static Class,"com.aparapi.examples.nbody.Local.NBodyKernel",5,42,42,8,81,14
+Public Constructor,"com.aparapi.examples.nbody.Local.NBodyKernel.NBodyKernel",,,,3,21,2
+Protected Method,"com.aparapi.examples.nbody.Local.NBodyKernel.render",,,,2,14,4
+Public Method,"com.aparapi.examples.nbody.Local.NBodyKernel.run",,,,3,37,5
+Public Static Method,"com.aparapi.examples.nbody.Local.main",,,,1,114,1
+Anonymous Class,"com.aparapi.examples.nbody.Local.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.nbody.Local.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.nbody.Local.main.(Anon_2)",21,72,72,12,73,1
+Public Method,"com.aparapi.examples.nbody.Local.main.(Anon_2).display",,,,7,38,1
+Public Method,"com.aparapi.examples.nbody.Local.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.aparapi.examples.nbody.Local.main.(Anon_2).init",,,,3,15,0
+Public Method,"com.aparapi.examples.nbody.Local.main.(Anon_2).reshape",,,,1,7,0
+Public Class,"com.aparapi.examples.nbody.Main",21,100,100,1,198,59
+Public Static Class,"com.aparapi.examples.nbody.Main.NBodyKernel",4,44,44,7,72,18
+Public Constructor,"com.aparapi.examples.nbody.Main.NBodyKernel.NBodyKernel",,,,3,20,8
+Protected Method,"com.aparapi.examples.nbody.Main.NBodyKernel.render",,,,2,14,5
+Public Method,"com.aparapi.examples.nbody.Main.NBodyKernel.run",,,,2,30,3
+Public Static Method,"com.aparapi.examples.nbody.Main.main",,,,1,120,3
+Anonymous Class,"com.aparapi.examples.nbody.Main.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.nbody.Main.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.nbody.Main.main.(Anon_2)",21,72,72,12,78,1
+Public Method,"com.aparapi.examples.nbody.Main.main.(Anon_2).display",,,,7,40,1
+Public Method,"com.aparapi.examples.nbody.Main.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.aparapi.examples.nbody.Main.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.aparapi.examples.nbody.Main.main.(Anon_2).reshape",,,,1,7,0
+Public Class,"com.aparapi.examples.nbody.Seq",20,100,100,1,188,58
+Public Static Class,"com.aparapi.examples.nbody.Seq.NBodyKernel",2,38,38,8,72,17
+Public Constructor,"com.aparapi.examples.nbody.Seq.NBodyKernel.NBodyKernel",,,,3,19,7
+Protected Method,"com.aparapi.examples.nbody.Seq.NBodyKernel.render",,,,2,14,5
+Public Method,"com.aparapi.examples.nbody.Seq.NBodyKernel.run",,,,3,31,3
+Public Static Method,"com.aparapi.examples.nbody.Seq.main",,,,1,109,3
+Anonymous Class,"com.aparapi.examples.nbody.Seq.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.nbody.Seq.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.nbody.Seq.main.(Anon_2)",18,72,72,9,67,1
+Public Method,"com.aparapi.examples.nbody.Seq.main.(Anon_2).display",,,,4,29,1
+Public Method,"com.aparapi.examples.nbody.Seq.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.aparapi.examples.nbody.Seq.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.aparapi.examples.nbody.Seq.main.(Anon_2).reshape",,,,1,7,0
+Package,"com.aparapi.examples.oopnbody",,,,35,282,112
+Public Final Class,"com.aparapi.examples.oopnbody.Body",0,88,88,15,54,25
+Public Constructor,"com.aparapi.examples.oopnbody.Body.Body",,,,1,6,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getM",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getVx",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getVy",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getVz",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getX",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getY",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.getZ",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setM",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setVx",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setVy",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setVz",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setX",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setY",,,,1,3,0
+Public Method,"com.aparapi.examples.oopnbody.Body.setZ",,,,1,3,0
+Public Class,"com.aparapi.examples.oopnbody.Main",21,100,100,1,193,57
+Public Static Class,"com.aparapi.examples.oopnbody.Main.NBodyKernel",5,53,53,9,78,15
+Public Constructor,"com.aparapi.examples.oopnbody.Main.NBodyKernel.NBodyKernel",,,,3,20,7
+Protected Method,"com.aparapi.examples.oopnbody.Main.NBodyKernel.render",,,,4,23,5
+Public Method,"com.aparapi.examples.oopnbody.Main.NBodyKernel.run",,,,2,28,3
+Public Static Method,"com.aparapi.examples.oopnbody.Main.main",,,,1,109,4
+Anonymous Class,"com.aparapi.examples.oopnbody.Main.main.(Anon_1)",4,0,0,1,5,0
+Public Method,"com.aparapi.examples.oopnbody.Main.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.oopnbody.Main.main.(Anon_2)",17,72,72,9,67,2
+Public Method,"com.aparapi.examples.oopnbody.Main.main.(Anon_2).display",,,,4,29,2
+Public Method,"com.aparapi.examples.oopnbody.Main.main.(Anon_2).dispose",,,,1,2,0
+Public Method,"com.aparapi.examples.oopnbody.Main.main.(Anon_2).init",,,,3,18,0
+Public Method,"com.aparapi.examples.oopnbody.Main.main.(Anon_2).reshape",,,,1,7,0
+Package,"com.aparapi.examples.progress",,,,40,278,85
+Public Class,"com.aparapi.examples.progress.LongRunningKernel",4,50,50,4,20,28
+Public Method,"com.aparapi.examples.progress.LongRunningKernel.report",,,,1,5,0
+Public Method,"com.aparapi.examples.progress.LongRunningKernel.run",,,,3,10,0
+Public Class,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo",25,60,56,10,102,28
+Private Static Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.cancel",,,,1,3,0
+Private Static Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.createWorker",,,,1,24,0
+Anonymous Class,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3)",5,0,0,4,21,0
+Protected Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).done",,,,1,6,0
+Protected Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).executeKernel",,,,2,10,0
+Protected Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.createWorker.(Anon_3).updatePassId",,,,1,4,0
+Public Static Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.main",,,,2,38,0
+Anonymous Class,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_1)",3,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_1).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_2)",3,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.main.(Anon_2).actionPerformed",,,,1,4,0
+Private Static Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.start",,,,2,10,0
+Private Static Method,"com.aparapi.examples.progress.MultiPassKernelSwingWorkerDemo.updateProgress",,,,4,17,0
+Public Class,"com.aparapi.examples.progress.ProgressAndCancelDemo",27,53,36,13,139,29
+Private Static Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.cancel",,,,1,3,0
+Private Static Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.executeKernel",,,,4,26,0
+Public Static Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.main",,,,2,58,1
+Anonymous Class,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_1)",6,0,0,3,14,0
+Public Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_1).run",,,,3,13,0
+Anonymous Class,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_2)",3,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_2).actionPerformed",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_3)",3,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.main.(Anon_3).actionPerformed",,,,1,4,0
+Private Static Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.start",,,,2,23,0
+Anonymous Class,"com.aparapi.examples.progress.ProgressAndCancelDemo.start.(Anon_4)",2,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.start.(Anon_4).run",,,,1,4,0
+Anonymous Class,"com.aparapi.examples.progress.ProgressAndCancelDemo.start.(Anon_5)",3,0,0,1,5,0
+Public Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.start.(Anon_5).actionPerformed",,,,1,4,0
+Private Static Method,"com.aparapi.examples.progress.ProgressAndCancelDemo.updateProgress",,,,4,18,0
+Package,"com.aparapi.examples.squares",,,,4,25,73
+Public Class,"com.aparapi.examples.squares.Main",5,0,0,3,22,43
+Public Static Method,"com.aparapi.examples.squares.Main.main",,,,3,20,10
+Anonymous Class,"com.aparapi.examples.squares.Main.main.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.aparapi.examples.squares.Main.main.(Anon_1).run",,,,1,4,0
+Package,"gov",,,,0,0,0
+Package,"gov.pnnl",,,,0,0,0
+Package,"gov.pnnl.aparapi",,,,0,0,0
+Package,"gov.pnnl.aparapi.matrix",,,,60,365,153
+Public Class,"gov.pnnl.aparapi.matrix.CorrMatrixHost",14,0,0,48,208,90
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.executeKernel",,,,5,24,14
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.humanReadableByteCount",,,,5,9,9
+Public Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.intersectionMatrix",,,,36,166,34
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.isPowerOfTwo",,,,1,3,9
+Private Static Method,"gov.pnnl.aparapi.matrix.CorrMatrixHost.roundToMultiple",,,,1,3,7
+Public Class,"gov.pnnl.aparapi.matrix.CorrMatrixKernel",1,60,60,12,148,63
+Public Constructor,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.CorrMatrixKernel",,,,1,9,3
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.naive_pop_intersect",,,,2,7,3
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.pop",,,,1,9,21
+Private Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.pop_intersect",,,,5,105,17
+Public Method,"gov.pnnl.aparapi.matrix.CorrMatrixKernel.run",,,,3,10,2
+Package,"gov.pnnl.aparapi.test",,,,14,95,45
+Public Class,"gov.pnnl.aparapi.test.CorrMatrixTest",20,16,16,14,79,45
+Public Method,"gov.pnnl.aparapi.test.CorrMatrixTest.setup",,,,5,29,15
+Public Method,"gov.pnnl.aparapi.test.CorrMatrixTest.testCorrelationMatrix",,,,9,44,11

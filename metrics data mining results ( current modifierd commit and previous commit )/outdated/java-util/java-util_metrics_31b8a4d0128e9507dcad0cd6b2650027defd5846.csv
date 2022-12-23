@@ -1,0 +1,1321 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Accumulator.java",,,,0,5,17
+File,"Accumulators.java",,,,2,17,17
+File,"AggregatingMap.java",,,,2,14,17
+File,"BaseSequence.java",,,,18,129,21
+File,"BaseSequenceTest.java",,,,8,59,17
+File,"BinaryFn.java",,,,0,5,17
+File,"BinaryTransformIterable.java",,,,3,31,17
+File,"BinaryTransformIterator.java",,,,8,44,17
+File,"ByteBufferUtils.java",,,,2,28,17
+File,"CSVParser.java",,,,14,101,15
+File,"CSVParserFactory.java",,,,3,17,17
+File,"CSVParserTest.java",,,,6,65,0
+File,"CloseQuietly.java",,,,2,17,18
+File,"CloseableIterator.java",,,,0,6,17
+File,"Comparators.java",,,,8,52,31
+File,"ComparatorsTest.java",,,,2,53,17
+File,"ConcatSequence.java",,,,5,120,19
+File,"ConcatSequenceTest.java",,,,17,188,17
+File,"Config.java",,,,1,12,17
+File,"CountingMap.java",,,,4,32,17
+File,"DefaultingHashMap.java",,,,3,23,17
+File,"DelegatingYieldingAccumulator.java",,,,5,31,17
+File,"DelimitedParser.java",,,,16,107,15
+File,"DelimitedParserFactory.java",,,,3,20,17
+File,"DelimitedParserTest.java",,,,6,65,0
+File,"DroppingIterable.java",,,,2,19,17
+File,"DroppingIterator.java",,,,8,40,17
+File,"DurationCoercible.java",,,,3,23,17
+File,"ExecuteWhenDoneYielder.java",,,,6,38,18
+File,"ExecutorExecutingSequence.java",,,,17,110,17
+File,"ExecutorExecutingSequenceTest.java",,,,18,127,17
+File,"ExecutorServiceConfig.java",,,,1,14,17
+File,"ExecutorServices.java",,,,4,36,15
+File,"FileSmoosher.java",,,,40,263,22
+File,"FilteredSequence.java",,,,8,57,17
+File,"FilteredSequenceTest.java",,,,4,33,17
+File,"FilteringAccumulator.java",,,,3,22,17
+File,"FilteringYieldingAccumulator.java",,,,8,46,17
+File,"Fns.java",,,,4,27,17
+File,"FunctionalIterable.java",,,,16,85,17
+File,"FunctionalIterableTest.java",,,,10,105,17
+File,"FunctionalIterator.java",,,,18,93,17
+File,"FunctionalIteratorTest.java",,,,10,106,17
+File,"FunctionalThreadFactory.java",,,,9,58,17
+File,"Granularity.java",,,,110,625,27
+File,"IAE.java",,,,2,12,17
+File,"ISE.java",,,,2,12,17
+File,"IteratorWithBaggage.java",,,,5,38,17
+File,"JSONParser.java",,,,14,77,16
+File,"JSONParserFactory.java",,,,1,10,17
+File,"JSONParserTest.java",,,,2,33,0
+File,"JodaUtils.java",,,,22,102,20
+File,"JodaUtilsTest.java",,,,6,92,20
+File,"LazySequence.java",,,,3,22,17
+File,"Lifecycle.java",,,,41,237,117
+File,"LifecycleStart.java",,,,0,10,15
+File,"LifecycleStop.java",,,,0,10,15
+File,"LifecycleTest.java",,,,7,102,2
+File,"LimitedSequence.java",,,,15,105,6
+File,"LimitedSequenceTest.java",,,,6,77,2
+File,"LimitedYieldingAccumulator.java",,,,6,38,2
+File,"Logger.java",,,,26,100,17
+File,"MapUtils.java",,,,33,142,17
+File,"MappedSequence.java",,,,3,25,17
+File,"MappedSequenceTest.java",,,,4,32,17
+File,"MappingAccumulator.java",,,,2,19,17
+File,"MappingYieldingAccumulator.java",,,,5,34,17
+File,"MergeIterable.java",,,,3,27,17
+File,"MergeIterator.java",,,,9,58,17
+File,"MergeIteratorTest.java",,,,2,35,17
+File,"MergeSequence.java",,,,17,123,17
+File,"MergeSequenceTest.java",,,,14,128,17
+File,"Metadata.java",,,,4,29,17
+File,"MoreIterators.java",,,,14,84,25
+File,"Pair.java",,,,19,82,17
+File,"Parser.java",,,,0,9,15
+File,"ParserFactory.java",,,,0,6,24
+File,"ParserUtils.java",,,,12,63,23
+File,"Parsers.java",,,,3,22,19
+File,"Props.java",,,,1,11,0
+File,"RE.java",,,,2,12,17
+File,"ResourceClosingSequence.java",,,,4,35,2
+File,"ResourceClosingSequenceTest.java",,,,2,29,2
+File,"ResourceClosingYielder.java",,,,6,36,2
+File,"RetryUtils.java",,,,5,39,0
+File,"RetryUtilsTest.java",,,,13,116,0
+File,"ScheduledExecutorFactory.java",,,,0,6,15
+File,"ScheduledExecutors.java",,,,19,151,40
+File,"Sequence.java",,,,0,6,28
+File,"SequenceTestHelper.java",,,,9,128,17
+File,"Sequences.java",,,,16,92,18
+File,"SimpleExecutorConfig.java",,,,3,24,17
+File,"SimpleSequence.java",,,,4,28,17
+File,"Smoosh.java",,,,7,65,17
+File,"SmooshedFileMapper.java",,,,15,102,19
+File,"SmooshedFileMapperTest.java",,,,13,110,19
+File,"SmooshedWriter.java",,,,0,9,2
+File,"SortedMergeIterable.java",,,,3,36,17
+File,"SortedMergeIterator.java",,,,10,65,24
+File,"SortedMergeIteratorTest.java",,,,4,30,17
+File,"StreamUtils.java",,,,6,64,18
+File,"TestGranularity.java",,,,36,479,33
+File,"TestSequence.java",,,,8,48,17
+File,"TimestampParser.java",,,,15,92,2
+File,"TimestampParserTest.java",,,,3,26,75
+File,"Timing.java",,,,3,20,17
+File,"ToLowerCaseParser.java",,,,6,37,18
+File,"ToLowerCaseParserFactory.java",,,,2,15,17
+File,"TrinaryFn.java",,,,0,5,17
+File,"TrinaryTransformIterable.java",,,,3,35,17
+File,"TrinaryTransformIterator.java",,,,9,53,17
+File,"UOE.java",,,,2,12,17
+File,"UnsupportedSequence.java",,,,2,18,2
+File,"Utils.java",,,,8,53,19
+File,"YieldSign.java",,,,0,5,17
+File,"Yielder.java",,,,0,8,56
+File,"Yielders.java",,,,5,33,17
+File,"YieldingAccumulator.java",,,,3,18,23
+File,"YieldingAccumulators.java",,,,2,17,17
+File,"YieldingSequenceBase.java",,,,1,18,5
+Package,"com",,,,0,0,0
+Package,"com.metamx",,,,0,0,0
+Package,"com.metamx.common",,,,264,1848,254
+Public Class,"com.metamx.common.ByteBufferUtils",7,0,0,2,23,2
+Public Static Method,"com.metamx.common.ByteBufferUtils.unmap",,,,2,9,0
+Public Enum Type,"com.metamx.common.Granularity",14,,,24,606,12
+Anonymous Class,"com.metamx.common.Granularity.(Anon_1)",12,80,80,9,50,0
+Public Method,"com.metamx.common.Granularity.(Anon_1).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_1).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_1).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_1).toDate",,,,2,15,0
+Public Method,"com.metamx.common.Granularity.(Anon_1).truncate",,,,1,7,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_2)",12,80,80,9,46,0
+Public Method,"com.metamx.common.Granularity.(Anon_2).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_2).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_2).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_2).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_2).truncate",,,,1,8,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_3)",10,0,0,6,34,0
+Public Method,"com.metamx.common.Granularity.(Anon_3).getFormatter",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_3).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_3).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_3).toDate",,,,2,9,0
+Public Method,"com.metamx.common.Granularity.(Anon_3).truncate",,,,1,9,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_4)",12,80,80,9,47,0
+Public Method,"com.metamx.common.Granularity.(Anon_4).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_4).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_4).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_4).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_4).truncate",,,,1,9,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_5)",10,0,0,6,35,0
+Public Method,"com.metamx.common.Granularity.(Anon_5).getFormatter",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_5).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_5).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_5).toDate",,,,2,9,0
+Public Method,"com.metamx.common.Granularity.(Anon_5).truncate",,,,1,10,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_6)",12,80,80,9,45,0
+Public Method,"com.metamx.common.Granularity.(Anon_6).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_6).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_6).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_6).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_6).truncate",,,,1,7,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_7)",11,100,100,6,37,0
+Public Method,"com.metamx.common.Granularity.(Anon_7).getFormatter",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_7).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_7).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_7).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_7).truncate",,,,1,8,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_8)",12,80,80,9,46,0
+Public Method,"com.metamx.common.Granularity.(Anon_8).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_8).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_8).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_8).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_8).truncate",,,,1,8,0
+Anonymous Class,"com.metamx.common.Granularity.(Anon_9)",12,80,80,9,47,0
+Public Method,"com.metamx.common.Granularity.(Anon_9).getFormatter",,,,4,14,0
+Public Method,"com.metamx.common.Granularity.(Anon_9).getUnits",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_9).numIn",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.(Anon_9).toDate",,,,2,10,0
+Public Method,"com.metamx.common.Granularity.(Anon_9).truncate",,,,1,9,0
+Public Enum Type,"com.metamx.common.Granularity.Formatter",1,,,0,6,0
+Public Implicit Method,"com.metamx.common.Granularity.Formatter.valueOf",,,,0,,
+Public Implicit Method,"com.metamx.common.Granularity.Formatter.values",,,,0,,
+Public Class,"com.metamx.common.Granularity.IntervalIterable",4,0,0,2,13,0
+Public Constructor,"com.metamx.common.Granularity.IntervalIterable.IntervalIterable",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.IntervalIterable.iterator",,,,1,5,0
+Public Class,"com.metamx.common.Granularity.IntervalIterator",6,41,33,5,33,0
+Public Constructor,"com.metamx.common.Granularity.IntervalIterator.IntervalIterator",,,,1,6,0
+Public Method,"com.metamx.common.Granularity.IntervalIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.IntervalIterator.next",,,,2,11,0
+Public Method,"com.metamx.common.Granularity.IntervalIterator.remove",,,,1,5,0
+Public Class,"com.metamx.common.Granularity.ReverseIntervalIterable",4,0,0,2,13,0
+Public Constructor,"com.metamx.common.Granularity.ReverseIntervalIterable.ReverseIntervalIterable",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.ReverseIntervalIterable.iterator",,,,1,5,0
+Public Class,"com.metamx.common.Granularity.ReverseIntervalIterator",6,41,33,5,32,0
+Public Constructor,"com.metamx.common.Granularity.ReverseIntervalIterator.ReverseIntervalIterator",,,,1,6,0
+Public Method,"com.metamx.common.Granularity.ReverseIntervalIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.Granularity.ReverseIntervalIterator.next",,,,2,11,0
+Public Method,"com.metamx.common.Granularity.ReverseIntervalIterator.remove",,,,1,5,0
+Public Final Method,"com.metamx.common.Granularity.bucket",,,,1,5,1
+Public Final Method,"com.metamx.common.Granularity.decrement",,,,1,4,0
+Public Final Method,"com.metamx.common.Granularity.decrement",,,,1,4,0
+Protected Final Method,"com.metamx.common.Granularity.getDateValues",,,,7,22,0
+Public Abstract Method,"com.metamx.common.Granularity.getFormatter",,,,0,1,0
+Public Final Method,"com.metamx.common.Granularity.getFormatter",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.getIterable",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.getIterable",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.getReverseIterable",,,,1,4,0
+Public Method,"com.metamx.common.Granularity.getReverseIterable",,,,1,4,0
+Public Abstract Method,"com.metamx.common.Granularity.getUnits",,,,0,1,0
+Public Final Method,"com.metamx.common.Granularity.increment",,,,1,4,0
+Public Final Method,"com.metamx.common.Granularity.increment",,,,1,4,0
+Public Abstract Method,"com.metamx.common.Granularity.numIn",,,,0,1,0
+Public Abstract Method,"com.metamx.common.Granularity.toDate",,,,0,1,0
+Public Method,"com.metamx.common.Granularity.toDate",,,,1,4,0
+Public Final Method,"com.metamx.common.Granularity.toPath",,,,1,4,0
+Public Final Method,"com.metamx.common.Granularity.toPath",,,,1,4,0
+Public Final Method,"com.metamx.common.Granularity.toPath",,,,1,4,0
+Public Abstract Method,"com.metamx.common.Granularity.truncate",,,,0,1,0
+Public Implicit Method,"com.metamx.common.Granularity.valueOf",,,,0,,
+Public Implicit Method,"com.metamx.common.Granularity.values",,,,0,,
+Public Final Method,"com.metamx.common.Granularity.widen",,,,3,13,4
+Public Class,"com.metamx.common.IAE",1,0,0,2,11,2
+Public Constructor,"com.metamx.common.IAE.IAE",,,,1,4,0
+Public Constructor,"com.metamx.common.IAE.IAE",,,,1,4,0
+Public Class,"com.metamx.common.ISE",1,0,0,2,11,2
+Public Constructor,"com.metamx.common.ISE.ISE",,,,1,4,0
+Public Constructor,"com.metamx.common.ISE.ISE",,,,1,4,0
+Public Class,"com.metamx.common.JodaUtils",11,0,0,21,91,2
+Public Static Method,"com.metamx.common.JodaUtils.condenseIntervals",,,,5,24,0
+Public Static Method,"com.metamx.common.JodaUtils.maxDateTime",,,,6,18,0
+Public Static Method,"com.metamx.common.JodaUtils.minDateTime",,,,6,18,0
+Public Static Method,"com.metamx.common.JodaUtils.overlaps",,,,1,13,0
+Anonymous Class,"com.metamx.common.JodaUtils.overlaps.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.JodaUtils.overlaps.(Anon_1).apply",,,,1,5,0
+Public Static Method,"com.metamx.common.JodaUtils.umbrellaInterval",,,,3,15,0
+Public Class,"com.metamx.common.JodaUtilsTest",10,0,0,6,85,2
+Public Method,"com.metamx.common.JodaUtilsTest.testCondenseIntervalsMixedUp",,,,2,27,0
+Public Method,"com.metamx.common.JodaUtilsTest.testCondenseIntervalsSimple",,,,1,24,0
+Public Method,"com.metamx.common.JodaUtilsTest.testUmbrellaIntervalsNull",,,,2,13,0
+Public Method,"com.metamx.common.JodaUtilsTest.testUmbrellaIntervalsSimple",,,,1,18,0
+Public Class,"com.metamx.common.MapUtils",10,0,0,32,138,2
+Public Static Method,"com.metamx.common.MapUtils.getDouble",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getDouble",,,,4,16,0
+Public Static Method,"com.metamx.common.MapUtils.getInt",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getInt",,,,4,16,0
+Public Static Method,"com.metamx.common.MapUtils.getList",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getList",,,,4,16,0
+Public Static Method,"com.metamx.common.MapUtils.getLong",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getLong",,,,4,16,0
+Public Static Method,"com.metamx.common.MapUtils.getMap",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getMap",,,,4,16,0
+Public Static Method,"com.metamx.common.MapUtils.getString",,,,1,4,0
+Public Static Method,"com.metamx.common.MapUtils.getString",,,,3,11,0
+Public Static Generic Method,"com.metamx.common.MapUtils.lookupStringValInMap",,,,2,9,0
+TypeVariable,"com.metamx.common.MapUtils.lookupStringValInMap.RetVal",0,0,0,0,0,0
+Public Static Method,"com.metamx.common.MapUtils.stringFromMapFn",,,,1,11,0
+Anonymous Class,"com.metamx.common.MapUtils.stringFromMapFn.(Anon_1)",4,0,0,1,6,0
+Public Method,"com.metamx.common.MapUtils.stringFromMapFn.(Anon_1).apply",,,,1,5,0
+Public Generic Class,"com.metamx.common.Pair",4,50,37,16,79,2
+Public Constructor,"com.metamx.common.Pair.Pair",,,,1,5,0
+TypeVariable,"com.metamx.common.Pair.T1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.Pair.T2",0,0,0,0,0,0
+Public Method,"com.metamx.common.Pair.equals",,,,7,18,0
+Public Method,"com.metamx.common.Pair.hashCode",,,,3,7,0
+Public Static Generic Method,"com.metamx.common.Pair.lhsComparator",,,,1,11,0
+Anonymous Class,"com.metamx.common.Pair.lhsComparator.(Anon_3)",2,0,0,1,6,0
+Public Method,"com.metamx.common.Pair.lhsComparator.(Anon_3).compare",,,,1,5,0
+TypeVariable,"com.metamx.common.Pair.lhsComparator.T1",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.Pair.lhsFn",,,,1,11,0
+Anonymous Class,"com.metamx.common.Pair.lhsFn.(Anon_1)",2,0,0,1,6,0
+Public Method,"com.metamx.common.Pair.lhsFn.(Anon_1).apply",,,,1,5,0
+TypeVariable,"com.metamx.common.Pair.lhsFn.T1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.Pair.lhsFn.T2",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.Pair.of",,,,1,3,0
+TypeVariable,"com.metamx.common.Pair.of.T1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.Pair.of.T2",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.Pair.rhsFn",,,,1,11,0
+Anonymous Class,"com.metamx.common.Pair.rhsFn.(Anon_2)",2,0,0,1,6,0
+Public Method,"com.metamx.common.Pair.rhsFn.(Anon_2).apply",,,,1,5,0
+TypeVariable,"com.metamx.common.Pair.rhsFn.T1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.Pair.rhsFn.T2",0,0,0,0,0,0
+Public Method,"com.metamx.common.Pair.toString",,,,1,8,0
+Public Class,"com.metamx.common.Props",4,0,0,1,7,0
+Public Static Method,"com.metamx.common.Props.fromFilename",,,,1,5,0
+Public Class,"com.metamx.common.RE",1,0,0,2,11,2
+Public Constructor,"com.metamx.common.RE.RE",,,,1,4,0
+Public Constructor,"com.metamx.common.RE.RE",,,,1,4,0
+Public Class,"com.metamx.common.RetryUtils",12,0,0,5,32,0
+Private Static Method,"com.metamx.common.RetryUtils.awaitNextRetry",,,,1,9,0
+Public Static Generic Method,"com.metamx.common.RetryUtils.retry",,,,4,19,0
+TypeVariable,"com.metamx.common.RetryUtils.retry.T",0,0,0,0,0,0
+Public Class,"com.metamx.common.RetryUtilsTest",9,0,0,6,109,0
+Anonymous Class,"com.metamx.common.RetryUtilsTest.(Anon_1)",4,0,0,1,6,0
+Public Method,"com.metamx.common.RetryUtilsTest.(Anon_1).apply",,,,1,5,0
+Public Method,"com.metamx.common.RetryUtilsTest.testEventualFailure",,,,2,26,0
+Anonymous Class,"com.metamx.common.RetryUtilsTest.testEventualFailure.(Anon_3)",6,0,0,1,7,0
+Public Method,"com.metamx.common.RetryUtilsTest.testEventualFailure.(Anon_3).call",,,,1,6,0
+Public Method,"com.metamx.common.RetryUtilsTest.testEventualSuccess",,,,1,23,0
+Anonymous Class,"com.metamx.common.RetryUtilsTest.testEventualSuccess.(Anon_4)",6,0,0,2,10,0
+Public Method,"com.metamx.common.RetryUtilsTest.testEventualSuccess.(Anon_4).call",,,,2,9,0
+Public Method,"com.metamx.common.RetryUtilsTest.testExceptionPredicateNotMatching",,,,2,29,0
+Anonymous Class,"com.metamx.common.RetryUtilsTest.testExceptionPredicateNotMatching.(Anon_5)",6,0,0,2,10,0
+Public Method,"com.metamx.common.RetryUtilsTest.testExceptionPredicateNotMatching.(Anon_5).call",,,,2,9,0
+Public Method,"com.metamx.common.RetryUtilsTest.testImmediateSuccess",,,,1,20,0
+Anonymous Class,"com.metamx.common.RetryUtilsTest.testImmediateSuccess.(Anon_2)",5,0,0,1,7,0
+Public Method,"com.metamx.common.RetryUtilsTest.testImmediateSuccess.(Anon_2).call",,,,1,6,0
+Public Class,"com.metamx.common.StreamUtils",11,0,0,6,54,3
+Public Static Method,"com.metamx.common.StreamUtils.copyAndClose",,,,1,10,0
+Public Static Method,"com.metamx.common.StreamUtils.copyToFileAndClose",,,,1,13,0
+Public Static Method,"com.metamx.common.StreamUtils.copyToFileAndClose",,,,1,13,0
+Public Static Method,"com.metamx.common.StreamUtils.copyWithTimeout",,,,3,14,0
+Public Class,"com.metamx.common.TestGranularity",23,71,71,26,462,18
+Private Class,"com.metamx.common.TestGranularity.PathDate",3,0,0,1,12,3
+Private Constructor,"com.metamx.common.TestGranularity.PathDate.PathDate",,,,1,6,0
+Private Class,"com.metamx.common.TestGranularity.TestInterval",9,59,59,9,49,0
+Public Constructor,"com.metamx.common.TestGranularity.TestInterval.TestInterval",,,,1,11,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getDays",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getHours",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getInterval",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getMinutes",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getMonths",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getSeconds",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getWeeks",,,,1,4,0
+Public Method,"com.metamx.common.TestGranularity.TestInterval.getYears",,,,1,4,0
+Private Method,"com.metamx.common.TestGranularity.checkToDate",,,,7,40,2
+Public Method,"com.metamx.common.TestGranularity.testBucket",,,,1,13,1
+Public Method,"com.metamx.common.TestGranularity.testDayToDate",,,,1,24,1
+Public Method,"com.metamx.common.TestGranularity.testFifteenMinuteToDate",,,,1,31,1
+Public Method,"com.metamx.common.TestGranularity.testGetIterable",,,,2,26,0
+Public Method,"com.metamx.common.TestGranularity.testGetReverseIterable",,,,2,26,0
+Public Method,"com.metamx.common.TestGranularity.testGetUnits",,,,1,11,0
+Public Method,"com.metamx.common.TestGranularity.testHiveFormat",,,,1,22,1
+Public Method,"com.metamx.common.TestGranularity.testHourToDate",,,,1,24,1
+Public Method,"com.metamx.common.TestGranularity.testMinuteToDate",,,,1,24,1
+Public Method,"com.metamx.common.TestGranularity.testMonthToDate",,,,1,24,1
+Public Method,"com.metamx.common.TestGranularity.testNumIn",,,,2,22,0
+Public Method,"com.metamx.common.TestGranularity.testSecondToDate",,,,1,24,1
+Public Method,"com.metamx.common.TestGranularity.testSixHourToDate",,,,1,30,1
+Public Method,"com.metamx.common.TestGranularity.testTruncate",,,,1,12,0
+Public Method,"com.metamx.common.TestGranularity.testWiden",,,,1,13,0
+Public Method,"com.metamx.common.TestGranularity.testYearToDate",,,,1,24,1
+Public Class,"com.metamx.common.Timing",6,0,0,3,17,2
+Public Static Generic Method,"com.metamx.common.Timing.timeBenchmark",,,,1,8,0
+TypeVariable,"com.metamx.common.Timing.timeBenchmark.RetType",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.Timing.timeBenchmarkWrapException",,,,2,7,0
+TypeVariable,"com.metamx.common.Timing.timeBenchmarkWrapException.RetType",0,0,0,0,0,0
+Public Class,"com.metamx.common.UOE",1,0,0,2,11,2
+Public Constructor,"com.metamx.common.UOE.UOE",,,,1,4,0
+Public Constructor,"com.metamx.common.UOE.UOE",,,,1,4,0
+Package,"com.metamx.common.collect",,,,28,183,78
+Public Generic Class,"com.metamx.common.collect.AggregatingMap",1,0,0,2,12,0
+TypeVariable,"com.metamx.common.collect.AggregatingMap.K",0,0,0,0,0,0
+Public Method,"com.metamx.common.collect.AggregatingMap.add",,,,2,9,0
+Public Generic Class,"com.metamx.common.collect.CountingMap",5,0,0,3,25,0
+TypeVariable,"com.metamx.common.collect.CountingMap.K",0,0,0,0,0,0
+Public Method,"com.metamx.common.collect.CountingMap.add",,,,2,7,0
+Public Method,"com.metamx.common.collect.CountingMap.entrySet",,,,1,14,0
+Anonymous Class,"com.metamx.common.collect.CountingMap.entrySet.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.collect.CountingMap.entrySet.(Anon_1).apply",,,,1,5,0
+Public Class,"com.metamx.common.collect.MoreIterators",2,0,0,3,80,10
+Private Static Class,"com.metamx.common.collect.MoreIterators.RunOnlyOnce",1,25,25,3,17,0
+Public Constructor,"com.metamx.common.collect.MoreIterators.RunOnlyOnce.RunOnlyOnce",,,,1,4,0
+Public Method,"com.metamx.common.collect.MoreIterators.RunOnlyOnce.run",,,,2,8,0
+Public Static Generic Method,"com.metamx.common.collect.MoreIterators.after",,,,1,32,5
+Anonymous Class,"com.metamx.common.collect.MoreIterators.after.(Anon_2)",5,33,33,5,27,1
+Public Method,"com.metamx.common.collect.MoreIterators.after.(Anon_2).hasNext",,,,2,9,0
+Public Method,"com.metamx.common.collect.MoreIterators.after.(Anon_2).next",,,,2,11,1
+Public Method,"com.metamx.common.collect.MoreIterators.after.(Anon_2).remove",,,,1,5,0
+TypeVariable,"com.metamx.common.collect.MoreIterators.after.X",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.collect.MoreIterators.before",,,,1,25,5
+Anonymous Class,"com.metamx.common.collect.MoreIterators.before.(Anon_1)",4,0,0,3,20,0
+Public Method,"com.metamx.common.collect.MoreIterators.before.(Anon_1).hasNext",,,,1,6,0
+Public Method,"com.metamx.common.collect.MoreIterators.before.(Anon_1).next",,,,1,6,0
+Public Method,"com.metamx.common.collect.MoreIterators.before.(Anon_1).remove",,,,1,6,0
+TypeVariable,"com.metamx.common.collect.MoreIterators.before.X",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.collect.MoreIterators.bracket",,,,1,4,0
+TypeVariable,"com.metamx.common.collect.MoreIterators.bracket.X",0,0,0,0,0,0
+Public Class,"com.metamx.common.collect.Utils",6,0,0,8,46,4
+Public Static Generic Method,"com.metamx.common.collect.Utils.zipMap",,,,1,6,0
+Public Static Generic Method,"com.metamx.common.collect.Utils.zipMap",,,,2,16,2
+TypeVariable,"com.metamx.common.collect.Utils.zipMap.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMap.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMap.V",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMap.V",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.collect.Utils.zipMapPartial",,,,2,9,0
+Public Static Generic Method,"com.metamx.common.collect.Utils.zipMapPartial",,,,3,12,2
+TypeVariable,"com.metamx.common.collect.Utils.zipMapPartial.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMapPartial.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMapPartial.V",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.collect.Utils.zipMapPartial.V",0,0,0,0,0,0
+Package,"com.metamx.common.concurrent",,,,36,289,121
+Public Abstract Class,"com.metamx.common.concurrent.ExecutorServiceConfig",4,0,0,1,11,2
+Public Abstract Method,"com.metamx.common.concurrent.ExecutorServiceConfig.getFormatString",,,,0,3,0
+Public Method,"com.metamx.common.concurrent.ExecutorServiceConfig.getNumThreads",,,,1,5,0
+Public Class,"com.metamx.common.concurrent.ExecutorServices",5,0,0,2,31,0
+Public Static Method,"com.metamx.common.concurrent.ExecutorServices.create",,,,1,10,0
+Public Static Generic Method,"com.metamx.common.concurrent.ExecutorServices.manageLifecycle",,,,1,18,0
+Anonymous Class,"com.metamx.common.concurrent.ExecutorServices.manageLifecycle.(Anon_1)",4,0,0,2,11,0
+Public Method,"com.metamx.common.concurrent.ExecutorServices.manageLifecycle.(Anon_1).start",,,,1,4,0
+Public Method,"com.metamx.common.concurrent.ExecutorServices.manageLifecycle.(Anon_1).stop",,,,1,5,0
+TypeVariable,"com.metamx.common.concurrent.ExecutorServices.manageLifecycle.T",1,0,0,0,0,0
+Public Class,"com.metamx.common.concurrent.FunctionalThreadFactory",5,50,0,6,55,2
+Public Constructor,"com.metamx.common.concurrent.FunctionalThreadFactory.FunctionalThreadFactory",,,,1,13,0
+Public Constructor,"com.metamx.common.concurrent.FunctionalThreadFactory.FunctionalThreadFactory",,,,1,4,0
+Anonymous Class,"com.metamx.common.concurrent.FunctionalThreadFactory.FunctionalThreadFactory.(Anon_1)",4,0,0,1,7,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.FunctionalThreadFactory.(Anon_1).newThread",,,,1,5,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.daemonize",,,,1,14,0
+Anonymous Class,"com.metamx.common.concurrent.FunctionalThreadFactory.daemonize.(Anon_3)",2,0,0,1,8,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.daemonize.(Anon_3).apply",,,,1,6,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.newThread",,,,1,5,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.transform",,,,1,4,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.transformThread",,,,1,11,0
+Anonymous Class,"com.metamx.common.concurrent.FunctionalThreadFactory.transformThread.(Anon_2)",4,0,0,1,6,0
+Public Method,"com.metamx.common.concurrent.FunctionalThreadFactory.transformThread.(Anon_2).newThread",,,,1,5,0
+Public Interface,"com.metamx.common.concurrent.ScheduledExecutorFactory",2,0,0,0,4,0
+Public Abstract Method,"com.metamx.common.concurrent.ScheduledExecutorFactory.create",,,,0,1,0
+Public Class,"com.metamx.common.concurrent.ScheduledExecutors",12,0,0,10,142,25
+Public Enum Type,"com.metamx.common.concurrent.ScheduledExecutors.Signal",1,,,0,4,0
+Public Implicit Method,"com.metamx.common.concurrent.ScheduledExecutors.Signal.valueOf",,,,0,,
+Public Implicit Method,"com.metamx.common.concurrent.ScheduledExecutors.Signal.values",,,,0,,
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.createFactory",,,,1,10,0
+Anonymous Class,"com.metamx.common.concurrent.ScheduledExecutors.createFactory.(Anon_5)",4,0,0,1,5,0
+Public Method,"com.metamx.common.concurrent.ScheduledExecutors.createFactory.(Anon_5).create",,,,1,4,0
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.fixed",,,,1,6,0
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate",,,,1,4,3
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate",,,,1,17,4
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate",,,,1,4,0
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate",,,,1,31,0
+Anonymous Class,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate.(Anon_3)",5,0,0,1,7,0
+Public Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate.(Anon_3).call",,,,1,6,0
+Anonymous Class,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate.(Anon_4)",7,0,0,3,16,0
+Public Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleAtFixedRate.(Anon_4).run",,,,3,14,0
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay",,,,1,4,4
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay",,,,1,22,5
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay",,,,1,4,5
+Public Static Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay",,,,1,32,4
+Anonymous Class,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay.(Anon_1)",4,0,0,1,8,1
+Public Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay.(Anon_1).call",,,,1,6,1
+Anonymous Class,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay.(Anon_2)",7,0,0,3,17,0
+Public Method,"com.metamx.common.concurrent.ScheduledExecutors.scheduleWithFixedDelay.(Anon_2).run",,,,3,16,0
+Public Class,"com.metamx.common.concurrent.SimpleExecutorConfig",2,33,33,3,23,2
+Public Constructor,"com.metamx.common.concurrent.SimpleExecutorConfig.SimpleExecutorConfig",,,,1,8,0
+Public Method,"com.metamx.common.concurrent.SimpleExecutorConfig.getFormatString",,,,1,5,0
+Public Method,"com.metamx.common.concurrent.SimpleExecutorConfig.getNumThreads",,,,1,5,0
+Package,"com.metamx.common.config",,,,4,35,34
+Public Class,"com.metamx.common.config.Config",3,0,0,1,9,2
+Public Static Method,"com.metamx.common.config.Config.createFactory",,,,1,6,0
+Public Class,"com.metamx.common.config.DurationCoercible",4,0,0,2,18,2
+Public Method,"com.metamx.common.config.DurationCoercible.accept",,,,2,15,0
+Anonymous Class,"com.metamx.common.config.DurationCoercible.accept.(Anon_1)",4,0,0,1,6,0
+Public Method,"com.metamx.common.config.DurationCoercible.accept.(Anon_1).coerce",,,,1,5,0
+Package,"com.metamx.common.guava",,,,358,2882,884
+Public Generic Interface,"com.metamx.common.guava.Accumulator",0,0,0,0,4,0
+TypeVariable,"com.metamx.common.guava.Accumulator.AccumulatedType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Accumulator.InType",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.Accumulator.accumulate",,,,0,1,0
+Public Class,"com.metamx.common.guava.Accumulators",1,0,0,1,15,2
+Public Static Generic Method,"com.metamx.common.guava.Accumulators.list",,,,1,12,0
+Anonymous Class,"com.metamx.common.guava.Accumulators.list.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.Accumulators.list.(Anon_1).accumulate",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.Accumulators.list.ListType",1,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Accumulators.list.T",0,0,0,0,0,0
+Public Generic Class,"com.metamx.common.guava.BaseSequence",15,60,19,9,122,6
+Public Constructor,"com.metamx.common.guava.BaseSequence.BaseSequence",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.IterType",1,0,0,0,0,0
+Public Generic Interface,"com.metamx.common.guava.BaseSequence.IteratorMaker",0,0,0,0,5,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.IteratorMaker.IterType",1,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.IteratorMaker.T",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.BaseSequence.IteratorMaker.cleanup",,,,0,1,0
+Public Abstract Method,"com.metamx.common.guava.BaseSequence.IteratorMaker.make",,,,0,1,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.BaseSequence.accumulate",,,,1,12,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.accumulate.OutType",0,0,0,0,0,0
+Private Generic Method,"com.metamx.common.guava.BaseSequence.makeYielder",,,,3,60,2
+Anonymous Class,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_2)",4,0,0,1,7,0
+Public Method,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_2).close",,,,1,5,0
+Anonymous Class,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_3)",9,0,0,6,33,2
+Public Method,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_3).close",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_3).get",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_3).isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequence.makeYielder.(Anon_3).next",,,,3,17,2
+TypeVariable,"com.metamx.common.guava.BaseSequence.makeYielder.OutType",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.BaseSequence.simple",,,,1,17,0
+Anonymous Class,"com.metamx.common.guava.BaseSequence.simple.(Anon_1)",4,0,0,2,11,0
+Public Method,"com.metamx.common.guava.BaseSequence.simple.(Anon_1).cleanup",,,,1,4,0
+Public Method,"com.metamx.common.guava.BaseSequence.simple.(Anon_1).make",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.BaseSequence.simple.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.BaseSequence.toYielder",,,,3,17,2
+TypeVariable,"com.metamx.common.guava.BaseSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.BaseSequenceTest",10,0,0,3,53,2
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator",,,,1,38,0
+Anonymous Class,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1)",4,0,0,2,29,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).cleanup",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).make",,,,1,22,0
+Anonymous Class,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).make.(Anon_2)",3,0,0,3,16,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).make.(Anon_2).hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).make.(Anon_2).next",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testExceptionThrownInIterator.(Anon_1).make.(Anon_2).remove",,,,1,5,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testNothing",,,,1,6,0
+Public Method,"com.metamx.common.guava.BaseSequenceTest.testSanity",,,,1,6,0
+Public Class,"com.metamx.common.guava.CloseQuietly",4,0,0,2,12,3
+Public Static Method,"com.metamx.common.guava.CloseQuietly.close",,,,2,9,1
+Public Class,"com.metamx.common.guava.Comparators",2,0,0,4,48,16
+Anonymous Class,"com.metamx.common.guava.Comparators.(Anon_3)",3,0,0,2,11,0
+Public Method,"com.metamx.common.guava.Comparators.(Anon_3).compare",,,,2,9,0
+Public Static Generic Method,"com.metamx.common.guava.Comparators.comparable",,,,1,12,6
+Anonymous Class,"com.metamx.common.guava.Comparators.comparable.(Anon_2)",3,0,0,1,6,0
+Public Method,"com.metamx.common.guava.Comparators.comparable.(Anon_2).compare",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Comparators.comparable.T",1,0,0,0,0,0
+Public Static Method,"com.metamx.common.guava.Comparators.intervals",,,,1,5,0
+Public Static Method,"com.metamx.common.guava.Comparators.intervalsByStartThenEnd",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.Comparators.inverse",,,,1,11,8
+Anonymous Class,"com.metamx.common.guava.Comparators.inverse.(Anon_1)",2,0,0,1,6,0
+Public Method,"com.metamx.common.guava.Comparators.inverse.(Anon_1).compare",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Comparators.inverse.T",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.ComparatorsTest",8,0,0,2,47,2
+Public Method,"com.metamx.common.guava.ComparatorsTest.testIntervals",,,,1,32,0
+Public Method,"com.metamx.common.guava.ComparatorsTest.testInverse",,,,1,12,0
+Public Generic Class,"com.metamx.common.guava.ConcatSequence",6,0,0,3,116,4
+Public Constructor,"com.metamx.common.guava.ConcatSequence.ConcatSequence",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.ConcatSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ConcatSequence.accumulate",,,,1,14,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequence.accumulate.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.ConcatSequence.accumulate.(Anon_1).accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ConcatSequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ConcatSequence.toYielder",,,,1,93,2
+Anonymous Class,"com.metamx.common.guava.ConcatSequence.toYielder.(Anon_2)",2,0,0,1,12,0
+Public Method,"com.metamx.common.guava.ConcatSequence.toYielder.(Anon_2).accumulate",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.ConcatSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.ConcatSequenceTest",21,0,0,10,177,2
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAccumulationMultiple",,,,1,11,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAccumulationMultipleAndEmpty",,,,1,12,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAccumulationMultipleAndEmpty1",,,,1,13,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAccumulationMultipleAndEmpty2",,,,1,13,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAccumulationSingle",,,,1,9,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAll",,,,3,33,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequenceTest.testAll.(Anon_5)",4,0,0,1,7,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testAll.(Anon_5).apply",,,,1,5,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence",,,,1,57,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_1)",6,0,0,2,15,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_1).cleanup",,,,1,5,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_1).make",,,,1,8,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_2)",3,0,0,1,8,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_2).accumulate",,,,1,6,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_3)",3,0,0,1,8,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequence.(Anon_3).accumulate",,,,1,6,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequenceWhenExceptionThrown",,,,1,26,0
+Anonymous Class,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequenceWhenExceptionThrown.(Anon_4)",8,0,0,2,15,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequenceWhenExceptionThrown.(Anon_4).cleanup",,,,1,5,0
+Public Method,"com.metamx.common.guava.ConcatSequenceTest.testClosingOfSequenceSequenceWhenExceptionThrown.(Anon_4).make",,,,1,8,0
+Public Generic Class,"com.metamx.common.guava.DefaultingHashMap",2,0,0,3,20,2
+Public Constructor,"com.metamx.common.guava.DefaultingHashMap.DefaultingHashMap",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.DefaultingHashMap.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.DefaultingHashMap.V",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.DefaultingHashMap.get",,,,2,10,0
+Public Generic Class,"com.metamx.common.guava.DelegatingYieldingAccumulator",1,0,0,5,30,2
+Public Constructor,"com.metamx.common.guava.DelegatingYieldingAccumulator.DelegatingYieldingAccumulator",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.DelegatingYieldingAccumulator.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.DelegatingYieldingAccumulator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.DelegatingYieldingAccumulator.accumulate",,,,1,5,0
+Public Method,"com.metamx.common.guava.DelegatingYieldingAccumulator.reset",,,,1,5,0
+Public Method,"com.metamx.common.guava.DelegatingYieldingAccumulator.yield",,,,1,5,0
+Public Method,"com.metamx.common.guava.DelegatingYieldingAccumulator.yielded",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.DroppingIterable",2,0,0,2,17,2
+Public Constructor,"com.metamx.common.guava.DroppingIterable.DroppingIterable",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.DroppingIterable.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.DroppingIterable.iterator",,,,1,4,0
+Public Generic Class,"com.metamx.common.guava.DroppingIterator",1,33,33,8,38,2
+Public Constructor,"com.metamx.common.guava.DroppingIterator.DroppingIterator",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.DroppingIterator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.DroppingIterator.hasNext",,,,3,10,0
+Public Method,"com.metamx.common.guava.DroppingIterator.next",,,,3,10,0
+Public Method,"com.metamx.common.guava.DroppingIterator.remove",,,,1,4,0
+Public Generic Class,"com.metamx.common.guava.ExecuteWhenDoneYielder",4,26,26,6,35,0
+Public Constructor,"com.metamx.common.guava.ExecuteWhenDoneYielder.ExecuteWhenDoneYielder",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.ExecuteWhenDoneYielder.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.ExecuteWhenDoneYielder.close",,,,2,8,0
+Public Method,"com.metamx.common.guava.ExecuteWhenDoneYielder.get",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecuteWhenDoneYielder.isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecuteWhenDoneYielder.next",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.ExecutorExecutingSequence",9,50,50,8,103,2
+Public Constructor,"com.metamx.common.guava.ExecutorExecutingSequence.ExecutorExecutingSequence",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequence.accumulate",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.ExecutorExecutingSequence.accumulate.(Anon_1)",4,0,0,1,7,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.accumulate.(Anon_1).call",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequence.accumulate.OutType",0,0,0,0,0,0
+Private Generic Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder",,,,1,44,0
+Anonymous Class,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3)",8,0,0,6,39,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).close",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).get",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).next",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).next.(Anon_4)",5,0,0,1,7,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.(Anon_3).next.(Anon_4).call",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequence.makeYielder.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequence.toYielder",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.ExecutorExecutingSequence.toYielder.(Anon_2)",5,0,0,1,7,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequence.toYielder.(Anon_2).call",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.ExecutorExecutingSequenceTest",10,0,0,2,112,2
+Public Static Class,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor",14,80,80,16,85,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.awaitTermination",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.execute",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.getTimesCalled",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAll",,,,1,5,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAll",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAll.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAll.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAny",,,,1,5,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAny",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAny.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.invokeAny.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.isShutdown",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.isTerminated",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.reset",,,,1,4,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.shutdown",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.shutdownNow",,,,1,5,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.submit",,,,2,11,0
+Public Generic Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.submit",,,,1,5,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.submit",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.submit.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.ExecutorExecutingSequenceTest.TestExecutor.submit.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.testSanity",,,,1,12,0
+Public Method,"com.metamx.common.guava.ExecutorExecutingSequenceTest.testSanity2",,,,1,12,0
+Public Generic Class,"com.metamx.common.guava.FilteredSequence",7,25,25,4,54,2
+Public Constructor,"com.metamx.common.guava.FilteredSequence.FilteredSequence",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.FilteredSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FilteredSequence.accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.FilteredSequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FilteredSequence.toYielder",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.FilteredSequence.toYielder.OutType",0,0,0,0,0,0
+Private Generic Method,"com.metamx.common.guava.FilteredSequence.wrapYielder",,,,1,28,0
+Anonymous Class,"com.metamx.common.guava.FilteredSequence.wrapYielder.(Anon_1)",4,0,0,4,21,0
+Public Method,"com.metamx.common.guava.FilteredSequence.wrapYielder.(Anon_1).close",,,,1,5,0
+Public Method,"com.metamx.common.guava.FilteredSequence.wrapYielder.(Anon_1).get",,,,1,5,0
+Public Method,"com.metamx.common.guava.FilteredSequence.wrapYielder.(Anon_1).isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.FilteredSequence.wrapYielder.(Anon_1).next",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.FilteredSequence.wrapYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.FilteredSequenceTest",11,0,0,3,26,2
+Public Method,"com.metamx.common.guava.FilteredSequenceTest.testSanity",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.FilteredSequenceTest.testSanity.(Anon_1)",2,0,0,1,6,0
+Public Method,"com.metamx.common.guava.FilteredSequenceTest.testSanity.(Anon_1).apply",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.FilteringAccumulator",2,0,0,3,20,2
+Public Constructor,"com.metamx.common.guava.FilteringAccumulator.FilteringAccumulator",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.FilteringAccumulator.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FilteringAccumulator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FilteringAccumulator.accumulate",,,,2,8,0
+Public Generic Class,"com.metamx.common.guava.FilteringYieldingAccumulator",2,44,44,8,44,2
+Public Constructor,"com.metamx.common.guava.FilteringYieldingAccumulator.FilteringYieldingAccumulator",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.FilteringYieldingAccumulator.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FilteringYieldingAccumulator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FilteringYieldingAccumulator.accumulate",,,,3,11,0
+Public Method,"com.metamx.common.guava.FilteringYieldingAccumulator.didSomething",,,,1,4,0
+Public Method,"com.metamx.common.guava.FilteringYieldingAccumulator.reset",,,,1,6,0
+Public Method,"com.metamx.common.guava.FilteringYieldingAccumulator.yield",,,,1,5,0
+Public Method,"com.metamx.common.guava.FilteringYieldingAccumulator.yielded",,,,1,5,0
+Public Class,"com.metamx.common.guava.Fns",2,0,0,2,24,2
+Public Static Generic Method,"com.metamx.common.guava.Fns.getFromMap",,,,1,11,0
+Anonymous Class,"com.metamx.common.guava.Fns.getFromMap.(Anon_2)",3,0,0,1,6,0
+Public Method,"com.metamx.common.guava.Fns.getFromMap.(Anon_2).apply",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Fns.getFromMap.KeyType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Fns.getFromMap.OutType",0,0,0,0,0,0
+Public Static Method,"com.metamx.common.guava.Fns.splitFn",,,,1,10,0
+Anonymous Class,"com.metamx.common.guava.Fns.splitFn.(Anon_1)",2,0,0,1,5,0
+Public Method,"com.metamx.common.guava.Fns.splitFn.(Anon_1).apply",,,,1,4,0
+Public Generic Class,"com.metamx.common.guava.FunctionalIterable",10,19,0,16,75,2
+Public Constructor,"com.metamx.common.guava.FunctionalIterable.FunctionalIterable",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterable.binaryTransform",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.binaryTransform.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.binaryTransform.RetType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.concat",,,,2,7,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.concat",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterable.create",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.create.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.drop",,,,1,4,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.filter",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterable.fromConcatenation",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterable.fromConcatenation",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.fromConcatenation.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.fromConcatenation.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.iterator",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterable.keep",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.keep.RetType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterable.limit",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterable.transform",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.transform.RetType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterable.transformCat",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.transformCat.RetType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterable.trinaryTransform",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.trinaryTransform.InType1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.trinaryTransform.InType2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterable.trinaryTransform.RetType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.FunctionalIterableTest",8,0,0,5,97,2
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testDrop",,,,1,11,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testFilter",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIterableTest.testFilter.(Anon_4)",2,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testFilter.(Anon_4).apply",,,,1,5,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testKeep",,,,1,23,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIterableTest.testKeep.(Anon_3)",3,0,0,2,10,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testKeep.(Anon_3).apply",,,,2,8,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testTransform",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIterableTest.testTransform.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testTransform.(Anon_1).apply",,,,1,5,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testTransformCat",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIterableTest.testTransformCat.(Anon_2)",4,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIterableTest.testTransformCat.(Anon_2).apply",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.FunctionalIterator",9,17,0,18,83,2
+Public Constructor,"com.metamx.common.guava.FunctionalIterator.FunctionalIterator",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterator.binaryTransform",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.binaryTransform.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.binaryTransform.RetType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.concat",,,,2,7,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.concat",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterator.create",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.create.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.drop",,,,1,4,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.filter",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterator.fromConcatenation",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.FunctionalIterator.fromConcatenation",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.fromConcatenation.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.fromConcatenation.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.hasNext",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterator.keep",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.keep.RetType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.limit",,,,1,4,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.next",,,,1,4,0
+Public Method,"com.metamx.common.guava.FunctionalIterator.remove",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterator.transform",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.transform.RetType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterator.transformCat",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.transformCat.RetType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.FunctionalIterator.trinaryTransform",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.trinaryTransform.InType1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.trinaryTransform.InType2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.FunctionalIterator.trinaryTransform.RetType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.FunctionalIteratorTest",9,0,0,5,97,2
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testDrop",,,,1,11,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testFilter",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIteratorTest.testFilter.(Anon_4)",2,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testFilter.(Anon_4).apply",,,,1,5,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testKeep",,,,1,23,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIteratorTest.testKeep.(Anon_3)",3,0,0,2,10,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testKeep.(Anon_3).apply",,,,2,8,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testTransform",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIteratorTest.testTransform.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testTransform.(Anon_1).apply",,,,1,5,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testTransformCat",,,,1,20,0
+Anonymous Class,"com.metamx.common.guava.FunctionalIteratorTest.testTransformCat.(Anon_2)",4,0,0,1,7,0
+Public Method,"com.metamx.common.guava.FunctionalIteratorTest.testTransformCat.(Anon_2).apply",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.IteratorWithBaggage",2,40,40,5,33,2
+Public Constructor,"com.metamx.common.guava.IteratorWithBaggage.IteratorWithBaggage",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.IteratorWithBaggage.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.IteratorWithBaggage.close",,,,1,5,0
+Public Method,"com.metamx.common.guava.IteratorWithBaggage.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.IteratorWithBaggage.next",,,,1,5,0
+Public Method,"com.metamx.common.guava.IteratorWithBaggage.remove",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.LazySequence",5,0,0,3,20,2
+Public Constructor,"com.metamx.common.guava.LazySequence.LazySequence",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.LazySequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.LazySequence.accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.LazySequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.LazySequence.toYielder",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.LazySequence.toYielder.OutType",0,0,0,0,0,0
+Public Generic Class,"com.metamx.common.guava.LimitedSequence",6,25,25,2,102,6
+Public Constructor,"com.metamx.common.guava.LimitedSequence.LimitedSequence",,,,1,10,0
+Private Generic Class,"com.metamx.common.guava.LimitedSequence.LimitedYielder",5,19,19,7,44,0
+Public Constructor,"com.metamx.common.guava.LimitedSequence.LimitedYielder.LimitedYielder",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.LimitedSequence.LimitedYielder.OutType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.LimitedSequence.LimitedYielder.close",,,,1,5,0
+Public Method,"com.metamx.common.guava.LimitedSequence.LimitedYielder.get",,,,1,5,0
+Public Method,"com.metamx.common.guava.LimitedSequence.LimitedYielder.isDone",,,,1,8,0
+Public Method,"com.metamx.common.guava.LimitedSequence.LimitedYielder.next",,,,3,13,0
+Private Generic Class,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator",2,33,33,6,34,2
+Public Constructor,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator.LimitedYieldingAccumulator",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator.accumulate",,,,4,20,2
+Private Method,"com.metamx.common.guava.LimitedSequence.LimitedYieldingAccumulator.withinThreshold",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.LimitedSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.LimitedSequence.toYielder",,,,1,9,0
+TypeVariable,"com.metamx.common.guava.LimitedSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.LimitedSequenceTest",12,0,0,4,68,2
+Private Static Class,"com.metamx.common.guava.LimitedSequenceTest.IntAdditionAccumulator",2,0,0,1,8,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.IntAdditionAccumulator.accumulate",,,,1,5,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.testNoSideEffects",,,,1,27,0
+Anonymous Class,"com.metamx.common.guava.LimitedSequenceTest.testNoSideEffects.(Anon_1)",4,0,0,1,8,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.testNoSideEffects.(Anon_1).apply",,,,1,6,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.testOne",,,,1,10,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.testSanityAccumulate",,,,1,10,0
+Public Method,"com.metamx.common.guava.LimitedSequenceTest.testTwo",,,,1,10,0
+Public Generic Class,"com.metamx.common.guava.LimitedYieldingAccumulator",1,46,46,6,37,2
+Public Constructor,"com.metamx.common.guava.LimitedYieldingAccumulator.LimitedYieldingAccumulator",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.LimitedYieldingAccumulator.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.LimitedYieldingAccumulator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.LimitedYieldingAccumulator.accumulate",,,,2,9,0
+Public Method,"com.metamx.common.guava.LimitedYieldingAccumulator.reset",,,,1,5,0
+Public Method,"com.metamx.common.guava.LimitedYieldingAccumulator.yield",,,,1,5,0
+Public Method,"com.metamx.common.guava.LimitedYieldingAccumulator.yielded",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.MappedSequence",7,0,0,3,23,2
+Public Constructor,"com.metamx.common.guava.MappedSequence.MappedSequence",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.MappedSequence.Out",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.MappedSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.MappedSequence.accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.MappedSequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.MappedSequence.toYielder",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.MappedSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.MappedSequenceTest",10,0,0,3,26,2
+Public Method,"com.metamx.common.guava.MappedSequenceTest.testSanity",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.MappedSequenceTest.testSanity.(Anon_1)",2,0,0,1,6,0
+Public Method,"com.metamx.common.guava.MappedSequenceTest.testSanity.(Anon_1).apply",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.MappingAccumulator",2,0,0,2,17,2
+TypeVariable,"com.metamx.common.guava.MappingAccumulator.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.MappingAccumulator.MappedType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.MappingAccumulator.MappingAccumulator",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.MappingAccumulator.OutType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.MappingAccumulator.accumulate",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.MappingYieldingAccumulator",2,30,30,5,32,2
+TypeVariable,"com.metamx.common.guava.MappingYieldingAccumulator.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.MappingYieldingAccumulator.MappedType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.MappingYieldingAccumulator.MappingYieldingAccumulator",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.MappingYieldingAccumulator.OutType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.MappingYieldingAccumulator.accumulate",,,,1,5,0
+Public Method,"com.metamx.common.guava.MappingYieldingAccumulator.reset",,,,1,5,0
+Public Method,"com.metamx.common.guava.MappingYieldingAccumulator.yield",,,,1,5,0
+Public Method,"com.metamx.common.guava.MappingYieldingAccumulator.yielded",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.MergeIterable",6,0,0,3,22,2
+Public Constructor,"com.metamx.common.guava.MergeIterable.MergeIterable",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.MergeIterable.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.MergeIterable.iterator",,,,2,9,0
+Public Generic Class,"com.metamx.common.guava.MergeIterator",10,25,25,8,50,2
+Public Constructor,"com.metamx.common.guava.MergeIterator.MergeIterator",,,,3,23,0
+Anonymous Class,"com.metamx.common.guava.MergeIterator.MergeIterator.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.MergeIterator.MergeIterator.(Anon_1).compare",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.MergeIterator.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.MergeIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.MergeIterator.next",,,,3,13,0
+Public Method,"com.metamx.common.guava.MergeIterator.remove",,,,1,5,0
+Public Class,"com.metamx.common.guava.MergeIteratorTest",9,0,0,2,29,2
+Public Method,"com.metamx.common.guava.MergeIteratorTest.testSanity",,,,1,13,0
+Public Method,"com.metamx.common.guava.MergeIteratorTest.testScrewsUpOnOutOfOrder",,,,1,13,0
+Public Generic Class,"com.metamx.common.guava.MergeSequence",5,0,0,2,117,2
+Public Constructor,"com.metamx.common.guava.MergeSequence.MergeSequence",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.MergeSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.MergeSequence.toYielder",,,,1,105,0
+Anonymous Class,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_1).apply",,,,1,5,0
+Anonymous Class,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2)",12,0,0,6,86,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).accumulate",,,,1,31,0
+Anonymous Class,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).accumulate.(Anon_3)",2,0,0,3,15,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).accumulate.(Anon_3).accumulate",,,,1,7,0
+Constructor,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).accumulate.(Anon_3).queue.add",,,,1,1,0
+Constructor,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).accumulate.(Anon_3).yielder.close",,,,1,1,0
+Private Generic Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder",,,,5,53,0
+Anonymous Class,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.(Anon_4)",6,0,0,5,24,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.(Anon_4).close",,,,2,7,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.(Anon_4).get",,,,1,5,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.(Anon_4).isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.(Anon_4).next",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.MergeSequence.toYielder.(Anon_2).makeYielder.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.MergeSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.MergeSequenceTest",13,0,0,14,121,2
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testHierarchicalMerge",,,,1,18,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testMergeEmpties",,,,2,15,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testMergeEmpties1",,,,2,15,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testMergeEmpties2",,,,2,16,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testMergeOne",,,,1,12,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testSanity",,,,2,14,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testScrewsUpOnOutOfOrder",,,,2,14,0
+Public Method,"com.metamx.common.guava.MergeSequenceTest.testWorksWhenBeginningOutOfOrder",,,,2,14,0
+Public Generic Class,"com.metamx.common.guava.ResourceClosingSequence",9,0,0,4,30,2
+Public Constructor,"com.metamx.common.guava.ResourceClosingSequence.ResourceClosingSequence",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.ResourceClosingSequence.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.ResourceClosingSequence.toYielder",,,,3,20,0
+TypeVariable,"com.metamx.common.guava.ResourceClosingSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.ResourceClosingSequenceTest",10,0,0,1,21,2
+Public Method,"com.metamx.common.guava.ResourceClosingSequenceTest.testSanity",,,,1,18,0
+Anonymous Class,"com.metamx.common.guava.ResourceClosingSequenceTest.testSanity.(Anon_1)",4,0,0,1,6,0
+Public Method,"com.metamx.common.guava.ResourceClosingSequenceTest.testSanity.(Anon_1).close",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.ResourceClosingYielder",2,19,19,6,33,2
+TypeVariable,"com.metamx.common.guava.ResourceClosingYielder.OutType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.ResourceClosingYielder.ResourceClosingYielder",,,,1,5,0
+Public Method,"com.metamx.common.guava.ResourceClosingYielder.close",,,,2,8,0
+Public Method,"com.metamx.common.guava.ResourceClosingYielder.get",,,,1,5,0
+Public Method,"com.metamx.common.guava.ResourceClosingYielder.isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.ResourceClosingYielder.next",,,,1,5,0
+Public Generic Interface,"com.metamx.common.guava.Sequence",3,0,0,0,5,0
+TypeVariable,"com.metamx.common.guava.Sequence.T",0,0,0,0,0,0
+Public Abstract Generic Method,"com.metamx.common.guava.Sequence.accumulate",,,,0,1,0
+TypeVariable,"com.metamx.common.guava.Sequence.accumulate.OutType",0,0,0,0,0,0
+Public Abstract Generic Method,"com.metamx.common.guava.Sequence.toYielder",,,,0,1,0
+TypeVariable,"com.metamx.common.guava.Sequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.SequenceTestHelper",10,0,0,4,122,2
+Public Static Method,"com.metamx.common.guava.SequenceTestHelper.testAll",,,,1,4,0
+Public Static Method,"com.metamx.common.guava.SequenceTestHelper.testAll",,,,1,5,0
+Public Static Method,"com.metamx.common.guava.SequenceTestHelper.testYield",,,,1,5,0
+Public Static Method,"com.metamx.common.guava.SequenceTestHelper.testYield",,,,1,106,0
+Anonymous Class,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_1)",5,75,75,2,21,0
+Public Method,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_1).accumulate",,,,2,11,0
+Anonymous Class,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_2)",6,0,0,1,9,0
+Public Method,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_2).accumulate",,,,1,6,0
+Anonymous Class,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_3)",2,0,0,1,7,0
+Public Method,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_3).accumulate",,,,1,5,0
+Anonymous Class,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_4)",2,0,0,1,7,0
+Public Method,"com.metamx.common.guava.SequenceTestHelper.testYield.(Anon_4).accumulate",,,,1,5,0
+Public Class,"com.metamx.common.guava.Sequences",21,0,0,12,82,3
+Private Static Class,"com.metamx.common.guava.Sequences.EmptySequence",5,0,0,2,13,0
+Public Generic Method,"com.metamx.common.guava.Sequences.EmptySequence.accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Sequences.EmptySequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.Sequences.EmptySequence.toYielder",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Sequences.EmptySequence.toYielder.OutType",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.concat",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.concat",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.concat",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.concat.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Sequences.concat.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Sequences.concat.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.empty",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Sequences.empty.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.filter",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.filter.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.limit",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.limit.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.map",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.map.From",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Sequences.map.To",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.simple",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.simple.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.sort",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.Sequences.sort.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.toList",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.toList.ListType",1,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Sequences.toList.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.withBaggage",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.Sequences.withBaggage.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.Sequences.withEffect",,,,1,18,0
+Anonymous Class,"com.metamx.common.guava.Sequences.withEffect.(Anon_1)",7,0,0,2,13,0
+Public Generic Method,"com.metamx.common.guava.Sequences.withEffect.(Anon_1).accumulate",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.Sequences.withEffect.(Anon_1).accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.Sequences.withEffect.(Anon_1).toYielder",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Sequences.withEffect.(Anon_1).toYielder.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.Sequences.withEffect.T",0,0,0,0,0,0
+Public Generic Class,"com.metamx.common.guava.SimpleSequence",1,0,0,2,26,2
+Public Constructor,"com.metamx.common.guava.SimpleSequence.SimpleSequence",,,,1,19,0
+Anonymous Class,"com.metamx.common.guava.SimpleSequence.SimpleSequence.(Anon_1)",4,0,0,2,11,0
+Public Method,"com.metamx.common.guava.SimpleSequence.SimpleSequence.(Anon_1).cleanup",,,,1,4,0
+Public Method,"com.metamx.common.guava.SimpleSequence.SimpleSequence.(Anon_1).make",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.SimpleSequence.T",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.SimpleSequence.create",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.SimpleSequence.create.T",0,0,0,0,0,0
+Public Generic Class,"com.metamx.common.guava.TestSequence",9,66,50,6,44,2
+TypeVariable,"com.metamx.common.guava.TestSequence.T",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.TestSequence.TestSequence",,,,1,17,0
+Anonymous Class,"com.metamx.common.guava.TestSequence.TestSequence.(Anon_1)",5,0,0,2,11,0
+Public Method,"com.metamx.common.guava.TestSequence.TestSequence.(Anon_1).cleanup",,,,1,5,0
+Public Method,"com.metamx.common.guava.TestSequence.TestSequence.(Anon_1).make",,,,1,5,0
+Public Generic Method,"com.metamx.common.guava.TestSequence.accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.TestSequence.accumulate.OutType",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.TestSequence.create",,,,1,4,0
+Public Static Generic Method,"com.metamx.common.guava.TestSequence.create",,,,1,4,0
+TypeVariable,"com.metamx.common.guava.TestSequence.create.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.TestSequence.create.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.TestSequence.isClosed",,,,1,4,0
+Public Generic Method,"com.metamx.common.guava.TestSequence.toYielder",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.TestSequence.toYielder.OutType",0,0,0,0,0,0
+Public Class,"com.metamx.common.guava.UnsupportedSequence",5,0,0,2,17,2
+Public Generic Method,"com.metamx.common.guava.UnsupportedSequence.accumulate",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.UnsupportedSequence.accumulate.OutType",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.UnsupportedSequence.toYielder",,,,1,7,0
+TypeVariable,"com.metamx.common.guava.UnsupportedSequence.toYielder.OutType",0,0,0,0,0,0
+Public Generic Interface,"com.metamx.common.guava.YieldSign",0,0,0,0,4,0
+TypeVariable,"com.metamx.common.guava.YieldSign.T",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.YieldSign.yield",,,,0,1,0
+Public Generic Interface,"com.metamx.common.guava.Yielder",0,0,0,0,6,26
+TypeVariable,"com.metamx.common.guava.Yielder.T",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.Yielder.get",,,,0,1,7
+Public Abstract Method,"com.metamx.common.guava.Yielder.isDone",,,,0,1,9
+Public Abstract Method,"com.metamx.common.guava.Yielder.next",,,,0,1,10
+Public Class,"com.metamx.common.guava.Yielders",2,0,0,1,29,2
+Public Static Generic Method,"com.metamx.common.guava.Yielders.done",,,,1,26,0
+Anonymous Class,"com.metamx.common.guava.Yielders.done.(Anon_1)",4,0,0,4,21,0
+Public Method,"com.metamx.common.guava.Yielders.done.(Anon_1).close",,,,1,5,0
+Public Method,"com.metamx.common.guava.Yielders.done.(Anon_1).get",,,,1,5,0
+Public Method,"com.metamx.common.guava.Yielders.done.(Anon_1).isDone",,,,1,5,0
+Public Method,"com.metamx.common.guava.Yielders.done.(Anon_1).next",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.Yielders.done.T",0,0,0,0,0,0
+Public Abstract Generic Class,"com.metamx.common.guava.YieldingAccumulator",0,0,0,3,17,8
+TypeVariable,"com.metamx.common.guava.YieldingAccumulator.AccumulatedType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.YieldingAccumulator.InType",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.YieldingAccumulator.accumulate",,,,0,1,0
+Public Method,"com.metamx.common.guava.YieldingAccumulator.reset",,,,1,4,0
+Public Method,"com.metamx.common.guava.YieldingAccumulator.yield",,,,1,4,0
+Public Method,"com.metamx.common.guava.YieldingAccumulator.yielded",,,,1,4,0
+Public Class,"com.metamx.common.guava.YieldingAccumulators",2,0,0,1,16,2
+Public Static Generic Method,"com.metamx.common.guava.YieldingAccumulators.fromAccumulator",,,,1,13,0
+Anonymous Class,"com.metamx.common.guava.YieldingAccumulators.fromAccumulator.(Anon_1)",3,0,0,1,6,0
+Public Method,"com.metamx.common.guava.YieldingAccumulators.fromAccumulator.(Anon_1).accumulate",,,,1,5,0
+TypeVariable,"com.metamx.common.guava.YieldingAccumulators.fromAccumulator.AccumulatedType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.YieldingAccumulators.fromAccumulator.InType",0,0,0,0,0,0
+Public Abstract Generic Class,"com.metamx.common.guava.YieldingSequenceBase",5,0,0,1,14,5
+TypeVariable,"com.metamx.common.guava.YieldingSequenceBase.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.guava.YieldingSequenceBase.accumulate",,,,1,11,0
+TypeVariable,"com.metamx.common.guava.YieldingSequenceBase.accumulate.OutType",0,0,0,0,0,0
+Package,"com.metamx.common.guava.nary",,,,40,304,160
+Public Generic Interface,"com.metamx.common.guava.nary.BinaryFn",0,0,0,0,4,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryFn.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryFn.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryFn.Type2",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.nary.BinaryFn.apply",,,,0,1,0
+Public Generic Class,"com.metamx.common.guava.nary.BinaryTransformIterable",4,33,0,3,29,2
+Public Constructor,"com.metamx.common.guava.nary.BinaryTransformIterable.BinaryTransformIterable",,,,1,10,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.Type2",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.nary.BinaryTransformIterable.create",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.create.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.create.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterable.create.Type2",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.BinaryTransformIterable.iterator",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.nary.BinaryTransformIterator",4,46,26,8,41,2
+Public Constructor,"com.metamx.common.guava.nary.BinaryTransformIterator.BinaryTransformIterator",,,,1,6,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.Type2",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.nary.BinaryTransformIterator.create",,,,1,8,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.create.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.create.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.BinaryTransformIterator.create.Type2",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.BinaryTransformIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.nary.BinaryTransformIterator.next",,,,4,11,0
+Public Method,"com.metamx.common.guava.nary.BinaryTransformIterator.remove",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.nary.SortedMergeIterable",5,33,0,3,33,2
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterable.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterable.OutType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.nary.SortedMergeIterable.SortedMergeIterable",,,,1,12,0
+Public Static Generic Method,"com.metamx.common.guava.nary.SortedMergeIterable.create",,,,1,9,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterable.create.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterable.create.OutType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.SortedMergeIterable.iterator",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.nary.SortedMergeIterator",7,50,30,10,59,9
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterator.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterator.OutType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.nary.SortedMergeIterator.SortedMergeIterator",,,,1,12,0
+Public Static Generic Method,"com.metamx.common.guava.nary.SortedMergeIterator.create",,,,1,9,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterator.create.InType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.SortedMergeIterator.create.OutType",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.SortedMergeIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.nary.SortedMergeIterator.next",,,,6,21,0
+Public Method,"com.metamx.common.guava.nary.SortedMergeIterator.remove",,,,1,5,0
+Public Class,"com.metamx.common.guava.nary.SortedMergeIteratorTest",9,0,0,1,24,2
+Public Method,"com.metamx.common.guava.nary.SortedMergeIteratorTest.testSanity",,,,1,21,0
+Anonymous Class,"com.metamx.common.guava.nary.SortedMergeIteratorTest.testSanity.(Anon_1)",2,0,0,3,7,0
+Public Method,"com.metamx.common.guava.nary.SortedMergeIteratorTest.testSanity.(Anon_1).apply",,,,3,5,0
+Public Generic Interface,"com.metamx.common.guava.nary.TrinaryFn",0,0,0,0,4,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryFn.OutType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryFn.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryFn.Type2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryFn.Type3",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.guava.nary.TrinaryFn.apply",,,,0,1,0
+Public Generic Class,"com.metamx.common.guava.nary.TrinaryTransformIterable",4,33,0,3,33,2
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.RetType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.nary.TrinaryTransformIterable.TrinaryTransformIterable",,,,1,12,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.Type2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.Type3",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.nary.TrinaryTransformIterable.create",,,,1,9,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.create.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.create.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.create.Type2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterable.create.Type3",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.TrinaryTransformIterable.iterator",,,,1,5,0
+Public Generic Class,"com.metamx.common.guava.nary.TrinaryTransformIterator",4,44,25,9,50,2
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.RetType",0,0,0,0,0,0
+Public Constructor,"com.metamx.common.guava.nary.TrinaryTransformIterator.TrinaryTransformIterator",,,,1,12,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.Type2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.Type3",0,0,0,0,0,0
+Public Static Generic Method,"com.metamx.common.guava.nary.TrinaryTransformIterator.create",,,,1,9,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.create.RetType",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.create.Type1",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.create.Type2",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.guava.nary.TrinaryTransformIterator.create.Type3",0,0,0,0,0,0
+Public Method,"com.metamx.common.guava.nary.TrinaryTransformIterator.hasNext",,,,1,5,0
+Public Method,"com.metamx.common.guava.nary.TrinaryTransformIterator.next",,,,5,12,0
+Public Method,"com.metamx.common.guava.nary.TrinaryTransformIterator.remove",,,,1,5,0
+Package,"com.metamx.common.io",,,,0,0,0
+Package,"com.metamx.common.io.smoosh",,,,79,578,96
+Public Class,"com.metamx.common.io.smoosh.FileSmoosher",31,72,52,21,232,7
+Public Constructor,"com.metamx.common.io.smoosh.FileSmoosher.FileSmoosher",,,,1,9,0
+Public Constructor,"com.metamx.common.io.smoosh.FileSmoosher.FileSmoosher",,,,1,6,0
+Private Constructor,"com.metamx.common.io.smoosh.FileSmoosher.FileSmoosher",,,,1,12,0
+Public Static Class,"com.metamx.common.io.smoosh.FileSmoosher.Outer",9,71,60,10,56,0
+Constructor,"com.metamx.common.io.smoosh.FileSmoosher.Outer.Outer",,,,1,6,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.addToOffset",,,,2,8,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.bytesLeft",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.close",,,,1,6,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.getCurrOffset",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.getFileNum",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.isOpen",,,,1,5,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.write",,,,1,6,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.Outer.write",,,,1,5,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.add",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.add",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.add",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.add",,,,5,22,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter",,,,4,59,0
+Anonymous Class,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1)",10,60,40,9,43,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1).close",,,,3,14,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1).isOpen",,,,1,5,0
+Private Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1).verifySize",,,,3,11,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1).write",,,,1,5,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.addWithSmooshedWriter.(Anon_1).write",,,,1,5,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.close",,,,2,27,0
+Public Method,"com.metamx.common.io.smoosh.FileSmoosher.getInternalFilenames",,,,1,4,0
+Private Method,"com.metamx.common.io.smoosh.FileSmoosher.getNewCurrOut",,,,1,7,0
+Static Method,"com.metamx.common.io.smoosh.FileSmoosher.makeChunkFile",,,,1,4,0
+Static Method,"com.metamx.common.io.smoosh.FileSmoosher.metaFile",,,,1,4,0
+Class,"com.metamx.common.io.smoosh.Metadata",0,50,50,4,28,2
+Constructor,"com.metamx.common.io.smoosh.Metadata.Metadata",,,,1,10,0
+Public Method,"com.metamx.common.io.smoosh.Metadata.getEndOffset",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.Metadata.getFileNum",,,,1,4,0
+Public Method,"com.metamx.common.io.smoosh.Metadata.getStartOffset",,,,1,4,0
+Public Class,"com.metamx.common.io.smoosh.Smoosh",10,0,0,6,55,2
+Public Static Method,"com.metamx.common.io.smoosh.Smoosh.map",,,,1,4,0
+Public Static Method,"com.metamx.common.io.smoosh.Smoosh.smoosh",,,,1,22,0
+Public Static Method,"com.metamx.common.io.smoosh.Smoosh.smoosh",,,,2,13,0
+Public Static Method,"com.metamx.common.io.smoosh.Smoosh.smoosh",,,,2,13,0
+Anonymous Class,"com.metamx.common.io.smoosh.Smoosh.smoosh.(Anon_1)",3,0,0,1,7,0
+Public Method,"com.metamx.common.io.smoosh.Smoosh.smoosh.(Anon_1).apply",,,,1,5,0
+Public Class,"com.metamx.common.io.smoosh.SmooshedFileMapper",22,53,40,15,83,4
+Private Constructor,"com.metamx.common.io.smoosh.SmooshedFileMapper.SmooshedFileMapper",,,,1,8,0
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapper.close",,,,2,7,0
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapper.getInternalFilenames",,,,1,4,0
+Public Static Method,"com.metamx.common.io.smoosh.SmooshedFileMapper.load",,,,7,39,0
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapper.mapFile",,,,4,19,0
+Public Class,"com.metamx.common.io.smoosh.SmooshedFileMapperTest",17,0,0,13,100,4
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapperTest.testBehaviorWhenReportedSizesLargeAndExceptionIgnored",,,,5,35,1
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapperTest.testBehaviorWhenReportedSizesSmall",,,,3,26,0
+Public Method,"com.metamx.common.io.smoosh.SmooshedFileMapperTest.testSanity",,,,5,36,1
+Public Interface,"com.metamx.common.io.smoosh.SmooshedWriter",2,0,0,0,4,0
+Public Abstract Method,"com.metamx.common.io.smoosh.SmooshedWriter.write",,,,0,1,0
+Package,"com.metamx.common.lifecycle",,,,48,359,149
+Public Class,"com.metamx.common.lifecycle.Lifecycle",21,78,29,27,218,102
+Private Static Class,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler",7,0,0,8,34,0
+Public Constructor,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.AnnotationBasedHandler",,,,1,4,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.start",,,,3,10,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.AnnotationBasedHandler.stop",,,,4,15,0
+Public Interface,"com.metamx.common.lifecycle.Lifecycle.Handler",1,0,0,0,5,0
+Public Abstract Method,"com.metamx.common.lifecycle.Lifecycle.Handler.start",,,,0,1,0
+Public Abstract Method,"com.metamx.common.lifecycle.Lifecycle.Handler.stop",,,,0,1,0
+Public Constructor,"com.metamx.common.lifecycle.Lifecycle.Lifecycle",,,,2,7,0
+Public Enum Type,"com.metamx.common.lifecycle.Lifecycle.Stage",1,,,0,5,0
+Public Implicit Method,"com.metamx.common.lifecycle.Lifecycle.Stage.valueOf",,,,0,,
+Public Implicit Method,"com.metamx.common.lifecycle.Lifecycle.Stage.values",,,,0,,
+Private Static Class,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler",7,22,22,5,35,0
+Public Constructor,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.StartCloseHandler",,,,2,11,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.start",,,,1,6,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.StartCloseHandler.stop",,,,2,11,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.addHandler",,,,1,4,7
+Public Method,"com.metamx.common.lifecycle.Lifecycle.addHandler",,,,2,9,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance",,,,1,5,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance",,,,1,5,8
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addManagedInstance.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartHandler",,,,1,4,6
+Public Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartHandler",,,,3,11,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartManagedInstance",,,,1,5,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartManagedInstance",,,,1,5,8
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartManagedInstance.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartManagedInstance.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartStartCloseInstance",,,,1,5,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartStartCloseInstance",,,,1,5,8
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartStartCloseInstance.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addMaybeStartStartCloseInstance.T",0,0,0,0,0,0
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance",,,,1,5,7
+Public Generic Method,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance",,,,1,5,8
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance.T",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.lifecycle.Lifecycle.addStartCloseInstance.T",0,0,0,0,0,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.join",,,,1,17,0
+Anonymous Class,"com.metamx.common.lifecycle.Lifecycle.join.(Anon_1)",3,0,0,1,8,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.join.(Anon_1).run",,,,1,6,0
+Private Static Method,"com.metamx.common.lifecycle.Lifecycle.stagesOrdered",,,,1,4,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.start",,,,3,12,0
+Public Method,"com.metamx.common.lifecycle.Lifecycle.stop",,,,5,24,0
+Public Annotation,"com.metamx.common.lifecycle.LifecycleStart",2,0,0,0,5,0
+Public Annotation,"com.metamx.common.lifecycle.LifecycleStop",2,0,0,0,5,0
+Public Class,"com.metamx.common.lifecycle.LifecycleTest",9,0,0,2,96,2
+Public Static Class,"com.metamx.common.lifecycle.LifecycleTest.ObjectToBeLifecycled",3,22,22,3,26,0
+Public Constructor,"com.metamx.common.lifecycle.LifecycleTest.ObjectToBeLifecycled.ObjectToBeLifecycled",,,,1,10,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.ObjectToBeLifecycled.close",,,,1,5,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.ObjectToBeLifecycled.start",,,,1,5,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.testAddToLifecycleInStartMethod",,,,1,43,0
+Anonymous Class,"com.metamx.common.lifecycle.LifecycleTest.testAddToLifecycleInStartMethod.(Anon_1)",6,0,0,2,25,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.testAddToLifecycleInStartMethod.(Anon_1).start",,,,1,19,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.testAddToLifecycleInStartMethod.(Anon_1).stop",,,,1,4,0
+Public Method,"com.metamx.common.lifecycle.LifecycleTest.testSanity",,,,1,24,0
+Package,"com.metamx.common.logger",,,,26,100,17
+Public Class,"com.metamx.common.logger.Logger",8,5,5,26,97,2
+Public Constructor,"com.metamx.common.logger.Logger.Logger",,,,1,4,0
+Public Constructor,"com.metamx.common.logger.Logger.Logger",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.debug",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.debug",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.error",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.error",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.info",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.info",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.isDebugEnabled",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.isInfoEnabled",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.isTraceEnabled",,,,1,4,0
+Private Method,"com.metamx.common.logger.Logger.safeFormat",,,,3,13,0
+Public Method,"com.metamx.common.logger.Logger.trace",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.trace",,,,2,6,0
+Public Method,"com.metamx.common.logger.Logger.warn",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.warn",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.wtf",,,,1,4,0
+Public Method,"com.metamx.common.logger.Logger.wtf",,,,1,4,0
+Package,"com.metamx.common.parsers",,,,106,771,307
+Public Class,"com.metamx.common.parsers.CSVParser",20,75,50,12,87,0
+Public Constructor,"com.metamx.common.parsers.CSVParser.CSVParser",,,,2,27,0
+Public Constructor,"com.metamx.common.parsers.CSVParser.CSVParser",,,,1,5,0
+Public Constructor,"com.metamx.common.parsers.CSVParser.CSVParser",,,,1,5,0
+Anonymous Class,"com.metamx.common.parsers.CSVParser.CSVParser.(Anon_1)",6,0,0,2,15,0
+Public Method,"com.metamx.common.parsers.CSVParser.CSVParser.(Anon_1).apply",,,,2,14,0
+Public Method,"com.metamx.common.parsers.CSVParser.getFieldNames",,,,1,5,0
+Public Method,"com.metamx.common.parsers.CSVParser.getListDelimiter",,,,1,4,0
+Public Method,"com.metamx.common.parsers.CSVParser.parse",,,,3,15,0
+Public Method,"com.metamx.common.parsers.CSVParser.setFieldNames",,,,1,6,0
+Public Method,"com.metamx.common.parsers.CSVParser.setFieldNames",,,,2,10,0
+Public Class,"com.metamx.common.parsers.CSVParserFactory",6,0,0,3,14,2
+Public Method,"com.metamx.common.parsers.CSVParserFactory.makeParser",,,,3,11,0
+Public Class,"com.metamx.common.parsers.CSVParserTest",8,0,0,6,60,0
+Public Method,"com.metamx.common.parsers.CSVParserTest.testCSVParserWithHeader",,,,1,13,0
+Public Method,"com.metamx.common.parsers.CSVParserTest.testCSVParserWithoutHeader",,,,1,12,0
+Public Method,"com.metamx.common.parsers.CSVParserTest.testInvalidHeader",,,,2,16,0
+Public Method,"com.metamx.common.parsers.CSVParserTest.testValidHeader",,,,2,16,0
+Public Generic Interface,"com.metamx.common.parsers.CloseableIterator",0,0,0,0,3,2
+TypeVariable,"com.metamx.common.parsers.CloseableIterator.T",0,0,0,0,0,0
+Public Class,"com.metamx.common.parsers.DelimitedParser",18,75,55,14,94,0
+Public Constructor,"com.metamx.common.parsers.DelimitedParser.DelimitedParser",,,,3,24,0
+Public Constructor,"com.metamx.common.parsers.DelimitedParser.DelimitedParser",,,,1,9,0
+Public Constructor,"com.metamx.common.parsers.DelimitedParser.DelimitedParser",,,,1,5,0
+Anonymous Class,"com.metamx.common.parsers.DelimitedParser.DelimitedParser.(Anon_1)",6,0,0,2,15,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.DelimitedParser.(Anon_1).apply",,,,2,14,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.getDelimiter",,,,1,4,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.getFieldNames",,,,1,5,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.getListDelimiter",,,,1,4,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.parse",,,,3,15,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.setFieldNames",,,,1,6,0
+Public Method,"com.metamx.common.parsers.DelimitedParser.setFieldNames",,,,2,10,0
+Public Class,"com.metamx.common.parsers.DelimitedParserFactory",6,0,0,3,17,2
+Public Method,"com.metamx.common.parsers.DelimitedParserFactory.makeParser",,,,3,14,0
+Public Class,"com.metamx.common.parsers.DelimitedParserTest",8,0,0,6,60,0
+Public Method,"com.metamx.common.parsers.DelimitedParserTest.testInvalidHeader",,,,2,16,0
+Public Method,"com.metamx.common.parsers.DelimitedParserTest.testTSVParserWithHeader",,,,1,13,0
+Public Method,"com.metamx.common.parsers.DelimitedParserTest.testTSVParserWithoutHeader",,,,1,12,0
+Public Method,"com.metamx.common.parsers.DelimitedParserTest.testValidHeader",,,,2,16,0
+Public Class,"com.metamx.common.parsers.JSONParser",17,40,19,12,64,1
+Anonymous Class,"com.metamx.common.parsers.JSONParser.(Anon_1)",3,0,0,2,6,1
+Public Method,"com.metamx.common.parsers.JSONParser.(Anon_1).apply",,,,2,5,1
+Public Constructor,"com.metamx.common.parsers.JSONParser.JSONParser",,,,1,3,0
+Public Constructor,"com.metamx.common.parsers.JSONParser.JSONParser",,,,1,4,0
+Public Method,"com.metamx.common.parsers.JSONParser.getFieldNames",,,,1,5,0
+Public Method,"com.metamx.common.parsers.JSONParser.parse",,,,8,33,0
+Public Method,"com.metamx.common.parsers.JSONParser.setFieldNames",,,,1,6,0
+Public Class,"com.metamx.common.parsers.JSONParserFactory",5,0,0,1,8,2
+Public Method,"com.metamx.common.parsers.JSONParserFactory.makeParser",,,,1,5,0
+Public Class,"com.metamx.common.parsers.JSONParserTest",8,0,0,2,27,0
+Public Method,"com.metamx.common.parsers.JSONParserTest.testSimple",,,,1,11,0
+Public Method,"com.metamx.common.parsers.JSONParserTest.testWithFields",,,,1,12,0
+Public Generic Interface,"com.metamx.common.parsers.Parser",4,0,0,0,5,0
+TypeVariable,"com.metamx.common.parsers.Parser.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.parsers.Parser.V",0,0,0,0,0,0
+Public Abstract Method,"com.metamx.common.parsers.Parser.getFieldNames",,,,0,1,0
+Public Abstract Method,"com.metamx.common.parsers.Parser.parse",,,,0,1,0
+Public Abstract Method,"com.metamx.common.parsers.Parser.setFieldNames",,,,0,1,0
+Public Interface,"com.metamx.common.parsers.ParserFactory",3,0,0,0,4,7
+Public Abstract Method,"com.metamx.common.parsers.ParserFactory.makeParser",,,,0,1,7
+Public Class,"com.metamx.common.parsers.ParserUtils",9,0,0,10,55,8
+Anonymous Class,"com.metamx.common.parsers.ParserUtils.(Anon_1)",2,0,0,2,9,0
+Public Method,"com.metamx.common.parsers.ParserUtils.(Anon_1).apply",,,,2,8,0
+Public Static Method,"com.metamx.common.parsers.ParserUtils.createTimestampParser",,,,1,4,8
+Public Static Method,"com.metamx.common.parsers.ParserUtils.findDuplicates",,,,3,14,0
+Public Static Method,"com.metamx.common.parsers.ParserUtils.generateFieldNames",,,,2,8,0
+Public Static Method,"com.metamx.common.parsers.ParserUtils.stripQuotes",,,,2,8,0
+Public Static Method,"com.metamx.common.parsers.ParserUtils.validateFields",,,,2,7,0
+Public Class,"com.metamx.common.parsers.Parsers",2,0,0,1,19,4
+Public Static Generic Method,"com.metamx.common.parsers.Parsers.toFunction",,,,1,16,4
+Anonymous Class,"com.metamx.common.parsers.Parsers.toFunction.(Anon_1)",6,0,0,2,11,4
+Public Method,"com.metamx.common.parsers.Parsers.toFunction.(Anon_1).apply",,,,2,10,0
+TypeVariable,"com.metamx.common.parsers.Parsers.toFunction.K",0,0,0,0,0,0
+TypeVariable,"com.metamx.common.parsers.Parsers.toFunction.V",0,0,0,0,0,0
+Public Class,"com.metamx.common.parsers.TimestampParser",8,0,0,7,84,2
+Public Static Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser",,,,7,80,2
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_1)",6,0,0,3,12,0
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_1).apply",,,,3,11,0
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_2)",5,0,0,1,7,0
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_2).apply",,,,1,6,0
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_3)",6,0,0,1,7,0
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_3).apply",,,,1,6,0
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_4)",7,0,0,1,9,1
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_4).apply",,,,1,8,1
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_5)",6,0,0,1,7,0
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_5).apply",,,,1,6,0
+Anonymous Class,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_6)",6,0,0,1,7,0
+Public Method,"com.metamx.common.parsers.TimestampParser.createTimestampParser.(Anon_6).apply",,,,1,6,0
+Public Class,"com.metamx.common.parsers.TimestampParserTest",6,0,0,3,19,75
+Public Method,"com.metamx.common.parsers.TimestampParserTest.testAuto",,,,1,6,0
+Public Method,"com.metamx.common.parsers.TimestampParserTest.testRuby",,,,1,5,0
+Public Method,"com.metamx.common.parsers.TimestampParserTest.testStripQuotes",,,,1,5,0
+Public Class,"com.metamx.common.parsers.ToLowerCaseParser",8,0,0,6,32,3
+Public Constructor,"com.metamx.common.parsers.ToLowerCaseParser.ToLowerCaseParser",,,,1,4,0
+Public Method,"com.metamx.common.parsers.ToLowerCaseParser.getFieldNames",,,,1,5,0
+Public Method,"com.metamx.common.parsers.ToLowerCaseParser.parse",,,,3,14,1
+Public Method,"com.metamx.common.parsers.ToLowerCaseParser.setFieldNames",,,,1,5,0
+Public Class,"com.metamx.common.parsers.ToLowerCaseParserFactory",5,0,0,2,13,2
+Public Constructor,"com.metamx.common.parsers.ToLowerCaseParserFactory.ToLowerCaseParserFactory",,,,1,4,0
+Public Method,"com.metamx.common.parsers.ToLowerCaseParserFactory.makeParser",,,,1,5,0

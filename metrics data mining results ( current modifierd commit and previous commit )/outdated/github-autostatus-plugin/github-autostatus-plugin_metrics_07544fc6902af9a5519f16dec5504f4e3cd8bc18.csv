@@ -1,0 +1,854 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbstractNotifierConfig.java",,,,3,35,5
+File,"AbstractNotifierConfigTest.java",,,,3,32,0
+File,"BuildBlockedAction.java",,,,5,21,43
+File,"BuildBlockedActionTest.java",,,,4,24,36
+File,"BuildNotifier.java",,,,4,25,56
+File,"BuildNotifierConstants.java",,,,2,23,27
+File,"BuildNotifierConstantsTest.java",,,,4,38,27
+File,"BuildNotifierManager.java",,,,16,63,82
+File,"BuildNotifierManagerTest.java",,,,16,132,58
+File,"BuildQueueListener.java",,,,8,34,36
+File,"BuildQueueListenerTest.java",,,,6,68,29
+File,"BuildStage.java",,,,23,102,27
+File,"BuildStageTest.java",,,,17,121,0
+File,"BuildState.java",,,,6,27,30
+File,"BuildStateTest.java",,,,0,3,27
+File,"BuildStateTest.java",,,,5,26,0
+File,"BuildStatus.java",,,,34,123,3
+File,"BuildStatusAction.java",,,,40,173,108
+File,"BuildStatusActionTest.java",,,,13,133,63
+File,"BuildStatusConfig.java",,,,63,314,266
+File,"BuildStatusConfigTest.java",,,,42,333,105
+File,"BuildStatusJobListener.java",,,,17,98,66
+File,"BuildStatusJobListenerTest.java",,,,8,68,31
+File,"CodeCoverage.java",,,,41,154,35
+File,"CodeCoverageTest.java",,,,9,94,5
+File,"ConfigurationAsCodeTest.java",,,,2,48,3
+File,"DeclarativePipelineTest.java",,,,8,207,28
+File,"GithubBuildNotifier.java",,,,11,68,52
+File,"GithubBuildNotifierTest.java",,,,12,87,58
+File,"GithubBuildStatusGraphListener.java",,,,66,283,116
+File,"GithubBuildStatusGraphListenerTest.java",,,,25,312,40
+File,"GithubNotificationConfig.java",,,,33,171,85
+File,"GithubNotificationConfigTest.java",,,,7,94,60
+File,"HttpNotifier.java",,,,22,158,23
+File,"HttpNotifierConfig.java",,,,10,52,40
+File,"HttpNotifierConfigTest.java",,,,9,86,1
+File,"HttpNotifierTest.java",,,,21,248,6
+File,"InfluxDbLineBuilder.java",,,,12,55,5
+File,"InfluxDbLineBuilderTest.java",,,,9,53,0
+File,"InfluxDbNotifier.java",,,,41,252,60
+File,"InfluxDbNotifierConfig.java",,,,19,104,91
+File,"InfluxDbNotifierConfigTest.java",,,,14,142,28
+File,"InfluxDbNotifierSchemas.java",,,,14,450,37
+File,"InfluxDbNotifierSchemasTest.java",,,,13,80,3
+File,"InfluxDbNotifierTest.java",,,,21,243,46
+File,"ScriptedPipelineTest.java",,,,3,102,16
+File,"SkipSerialisation.java",,,,0,9,0
+File,"StatsdClient.java",,,,16,103,61
+File,"StatsdNotifier.java",,,,23,117,91
+File,"StatsdNotifierConfig.java",,,,12,55,59
+File,"StatsdNotifierConfigTest.java",,,,15,113,27
+File,"StatsdNotifierTest.java",,,,14,114,52
+File,"StatsdWrapper.java",,,,0,5,40
+File,"TestCase.java",,,,26,89,27
+File,"TestCaseTest.java",,,,8,66,27
+File,"TestResults.java",,,,17,79,27
+File,"TestResultsTest.java",,,,8,85,27
+File,"TestSuite.java",,,,17,73,27
+File,"TestSuiteTest.java",,,,10,79,27
+Package,"org",,,,0,0,0
+Package,"org.jenkinsci",,,,0,0,0
+Package,"org.jenkinsci.plugins",,,,0,0,0
+Package,"org.jenkinsci.plugins.githubautostatus",,,,355,2265,1132
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction",1,40,40,5,19,20
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction.BuildBlockedAction",,,,1,3,0
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction.BuildBlockedAction",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction.getTimeBlocked",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction.getTimeReleased",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedAction.setTimeReleased",,,,1,3,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildBlockedActionTest",3,0,0,4,21,13
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildBlockedActionTest.BuildBlockedActionTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedActionTest.testDefaultConstructorOverrideStart",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedActionTest.testDefaultConstructorSetsStart",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildBlockedActionTest.testGetSetTimeReleased",,,,1,7,3
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildQueueListener",8,0,0,8,28,13
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildQueueListener.BuildQueueListener",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListener.onEnterBlocked",,,,3,10,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListener.onLeaveBlocked",,,,4,13,3
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest",14,0,0,6,55,6
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.BuildQueueListenerTest",,,,1,2,0
+Static Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.setFinal",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.testEnterBlockedNotPlaceHolder",,,,1,9,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.testEnterBlockedPlaceHolder",,,,1,11,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.testLeaveBlockedNotPlaceholderTask",,,,1,8,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildQueueListenerTest.testLeaveBlockedUpdatesAction",,,,1,13,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction",18,83,74,40,156,85
+Protected Constructor,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.BuildStatusAction",,,,2,13,0
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.BuildStatusAction.(lambda_expr_1)",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addBuildStatus",,,,1,6,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addGenericNotifier",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addGithubNotifier",,,,2,5,5
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addGlobalProperties",,,,3,9,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addHttpNotifier",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addInfluxDbNotifier",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.addStatsdNotifier",,,,1,4,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.close",,,,3,7,4
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.close.(lambda_expr_1)",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.connectNotifiers",,,,6,28,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.getBranchName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.getJobName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.getRepoName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.getRepoOwner",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.isIsDeclarativePipeline",,,,1,3,5
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.newAction",,,,1,3,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.sendNonStageError",,,,1,8,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.sendNotifications",,,,3,8,5
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.sendNotifications.(lambda_expr_1)",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.setBranchName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.setIsDeclarativePipeline",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.setRepoName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.setRepoOwner",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.updateBuildStatusForJob",,,,1,4,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.updateBuildStatusForStage",,,,3,11,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusAction.updateBuildStatusForStage",,,,1,3,6
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest",26,67,67,13,107,40
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.BuildStatusActionTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.setUp",,,,1,24,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.setUpClass",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testAddBuildStatusGitHub",,,,1,6,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testCloseUpdatesPendingStatuses",,,,1,7,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testIgnoreInvalidStageGitHub",,,,1,6,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testInitialStage",,,,1,7,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testIsDeclarativePipelineFalse",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testIsDeclarativePipelineTrue",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testSendUnsentPendingStages",,,,1,6,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testStageErrorGitHub",,,,1,8,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusActionTest.testStageSuccessGitHub",,,,1,8,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig",36,95,95,63,280,243
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.BuildStatusConfig",,,,3,11,3
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.addCompatibilityAliases",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.configure",,,,1,5,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doCheckCredentialsId",,,,6,19,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doCheckHttpCredentialsId",,,,1,3,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doCheckHttpEndpoint",,,,2,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doFillCredentialsIdItems",,,,2,14,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doFillDbVersionItems",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.doFillHttpCredentialsIdItems",,,,1,3,6
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.get",,,,1,3,5
+Public Static Generic Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getCredentials",,,,1,7,0
+TypeVariable,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getCredentials.T",1,0,0,0,0,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getCredentialsId",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getDbVersion",,,,1,1,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getDisplayName",,,,1,4,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getEnableGithub",,,,1,3,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getEnableHttp",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getEnableInfluxDb",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getEnableStatsd",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getHttpCredentialsId",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getHttpEndpoint",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getHttpVerifySSL",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getIgnoreSendingTestCoverageToInflux",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getIgnoreSendingTestResultsToInflux",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getInfluxDbDatabase",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getInfluxDbRetentionPolicy",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getInfluxDbUrl",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getStatsdBucket",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getStatsdHost",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getStatsdMaxSize",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.getStatsdPort",,,,1,3,5
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.readObject",,,,1,3,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.readResolve",,,,4,16,2
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setCredentialsId",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setDbVersion",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setDbVersion",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setEnableGithub",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setEnableHttp",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setEnableInfluxDb",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setEnableStatsd",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setHttpCredentialsId",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setHttpEndpoint",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setHttpVerifySSL",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setIgnoreSendingTestCoverageToInflux",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setIgnoreSendingTestResultsToInflux",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setInfluxDbDatabase",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setInfluxDbRetentionPolicy",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setInfluxDbUrl",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setStatsdBucket",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setStatsdHost",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setStatsdMaxSize",,,,1,5,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfig.setStatsdPort",,,,1,5,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest",23,87,87,42,308,82
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.BuildStatusConfigTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.setUp",,,,1,5,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckCredentialsFound",,,,1,7,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckCredentialsIdEmpty",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckCredentialsNotFound",,,,1,7,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpCredentialsFound",,,,1,7,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpCredentialsIdEmpty",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpCredentialsNotFound",,,,1,7,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpEndpointEmpty",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpEndpointInvalid",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoCheckHttpEndpointValid",,,,1,6,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoFillCredentialsIdItemsAddsCurrent",,,,1,12,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoFillCredentialsIdItemsAddsFromCredentialsStore",,,,1,14,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoFillHttpCredentialsIdItemsAddsCurrent",,,,1,12,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testDoFillHttpCredentialsIdItemsAddsFromCredentialsStore",,,,1,14,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testGetCredentialsId",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testGetDisplayName",,,,1,7,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testGetEnableStatsd",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testHttpEndpoint",,,,1,8,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testHttpGetCredentialsId",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testIgnoreSendingTestCoverageToInfluxDbFalse",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testIgnoreSendingTestCoverageToInfluxDbTrue",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testIgnoreSendingTestResultsToInfluxDbFalse",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testIgnoreSendingTestResultsToInfluxDbTrue",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testInfluxDbDatabase",,,,1,8,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testInfluxDbRetentionPolicy",,,,1,8,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testInfluxDbUrl",,,,1,8,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableGithubFalse",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableGithubTrue",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableHttpFalse",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableHttpTrue",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableInfluxDbFalse",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetEnableInfluxDbTrue",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetHttpVerifySSLFalse",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testSetHttpVerifySSLTrue",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testStatsdBucket",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testStatsdMaxSize",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testStatsdPort",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusConfigTest.testStatsdUrl",,,,1,8,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener",28,0,0,17,79,43
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.enableFreeStyleBuild",,,,1,12,5
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.getBlockedTime",,,,2,4,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.getCoverageData",,,,3,11,8
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.getLogger",,,,1,3,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.getParameters",,,,3,10,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.getTestData",,,,1,4,6
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.log",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.onCompleted",,,,4,25,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListener.onStarted",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest",16,0,0,8,53,8
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.BuildStatusJobListenerTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.setUp",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.testOnCompletedFailure",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.testOnCompletedNoBuildAction",,,,1,10,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.BuildStatusJobListenerTest.testOnCompletedSuccess",,,,1,14,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.ConfigurationAsCodeTest",13,100,100,2,36,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.ConfigurationAsCodeTest.should_support_configuration_as_code",,,,1,22,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.ConfigurationAsCodeTest.should_support_configuration_export",,,,1,9,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener",48,0,0,66,258,93
+Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.buildStateForStage",,,,9,32,7
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.buildStatusActionFor",,,,2,8,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.checkEnableBuildStatus",,,,8,44,10
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.convertList",,,,11,36,6
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.convertList.(lambda_expr_1)",,,,3,10,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.getAllStageNames",,,,4,16,8
+Protected Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.getDeclarativeStages",,,,4,15,6
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.getLogger",,,,1,3,5
+Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.getTime",,,,2,8,7
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.isDeclarativePipelineJob",,,,2,7,6
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.isStage",,,,1,4,8
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.log",,,,1,3,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.onNewHead",,,,13,50,11
+Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.resultForStage",,,,5,15,0
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.resultForStage.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.resultForStage.(lambda_expr_2)",,,,1,1,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListener.runFor",,,,3,14,6
+Public Class,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest",40,95,95,25,282,17
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.GithubBuildStatusGraphListenerTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.buildStateForStageError",,,,1,12,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.buildStateForStageFailedAndContinued",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.buildStateForStageSkippedConditional",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.buildStateForStageSkippedUnstable",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.buildStateForStageSuccess",,,,1,10,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.createStage",,,,1,5,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.createStages",,,,2,10,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.getStageList",,,,2,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.setUp",,,,1,13,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testAtomNode",,,,1,19,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testAtomNodeAddsAction",,,,1,15,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testBuildStateForStageWithError",,,,1,11,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testBuildStateForStageWithTag",,,,1,12,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testComplexPipeline",,,,1,26,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testGetTime",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testGetTimeNoEndTime",,,,1,11,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testGetTimeNoStartTime",,,,1,11,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testStageNode",,,,1,19,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.GithubBuildStatusGraphListenerTest.testStepEndNode",,,,1,30,4
+Public Class,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest",6,46,46,13,74,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.setUp",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1Coverage",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1Job",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1Stage",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1TestCase",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1TestSuite",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV1Tests",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2Coverage",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2Job",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2Stage",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2TestCase",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2TestSuite",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.InfluxDbNotifierSchemasTest.testV2Tests",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.StatsdClient",13,71,50,13,94,38
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.StatsdClient.StatsdClient",,,,1,17,7
+Anonymous Class,"org.jenkinsci.plugins.githubautostatus.StatsdClient.StatsdClient.(Anon_1)",2,0,0,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.StatsdClient.(Anon_1).run",,,,1,4,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.execLocked",,,,1,9,5
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.getInstance",,,,3,10,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.increment",,,,1,10,6
+Anonymous Class,"org.jenkinsci.plugins.githubautostatus.StatsdClient.increment.(Anon_2)",3,0,0,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.increment.(Anon_2).run",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.newClient",,,,6,28,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.time",,,,1,10,6
+Anonymous Class,"org.jenkinsci.plugins.githubautostatus.StatsdClient.time.(Anon_3)",3,0,0,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdClient.time.(Anon_3).run",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig",10,66,66,12,52,36
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.fromGlobalConfig",,,,7,29,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.getExternalizedID",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.getStatsdBucket",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.getStatsdHost",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.getStatsdMaxSize",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfig.getStatsdPort",,,,1,3,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest",13,74,74,15,99,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.StatsdNotifierConfigTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.setUp",,,,1,11,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetExternalizedId",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdBucket",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdDisabled",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdHost",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdHostEmpty",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdMaxSize",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdPort",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdPortEmpty",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdPortNotANumber",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.StatsdNotifierConfigTest.testGetStatsdPortNull",,,,1,7,0
+Public Interface,"org.jenkinsci.plugins.githubautostatus.StatsdWrapper",1,0,0,0,4,12
+Abstract Method,"org.jenkinsci.plugins.githubautostatus.StatsdWrapper.increment",,,,0,1,6
+Abstract Method,"org.jenkinsci.plugins.githubautostatus.StatsdWrapper.time",,,,0,1,6
+Package,"org.jenkinsci.plugins.githubautostatus.config",,,,98,716,310
+Public Abstract Class,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfig",14,0,0,3,20,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfig.getHttpClient",,,,3,18,5
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfig.getHttpClient.(lambda_expr_1)",,,,1,1,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfigTest",12,0,0,3,19,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfigTest.setUp",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfigTest.testGetHttpClient",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.AbstractNotifierConfigTest.testGetHttpClientIgnoreSSLVerify",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig",30,85,72,33,142,62
+Private Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.extractBranchInfo",,,,4,14,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.extractCommitSha",,,,4,14,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.extractGHRepositoryInfo",,,,9,50,7
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.fromRun",,,,1,3,6
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.fromRun",,,,6,22,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getBranchName",,,,1,3,5
+Private Static Generic Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getCredentials",,,,1,7,0
+TypeVariable,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getCredentials.T",1,0,0,0,0,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getLogger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getRepo",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getRepoName",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getRepoOwner",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.getShaString",,,,1,3,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.log",,,,1,3,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfig.log",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest",31,71,71,7,60,37
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.GithubNotificationConfigTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.setUp",,,,1,6,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.testConfigBranchSource",,,,1,32,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.GithubNotificationConfigTest.testDisabledInConfig",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig",6,72,72,10,47,40
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.fromGlobalConfig",,,,2,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getBranchName",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getCredentials",,,,2,7,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getHttpCredentialsId",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getHttpEndpoint",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getHttpVerifySSL",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getRepoName",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfig.getRepoOwner",,,,1,3,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest",13,81,81,9,71,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.setUp",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetBranchName",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetCredentialsEmpty",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetCredentialsNotEmpty",,,,1,12,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetHttpCredentialsId",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetHttpEndpoint",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetHttpVerifySSL",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetRepoName",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.HttpNotifierConfigTest.testGetRepoOwner",,,,1,6,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig",18,85,84,19,90,68
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.fromGlobalConfig",,,,2,17,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getBranchName",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getCredentials",,,,2,7,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getDbVersion",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getHttpClient",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getIgnoreSendingTestCoverageToInflux",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getIgnoreSendingTestResultsToInflux",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getInfluxDbDatabase",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getInfluxDbRetentionPolicy",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getInfluxDbUrlString",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getRepoName",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getRepoOwner",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.getSchema",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfig.influxDbIsReachable",,,,3,18,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest",13,80,80,14,125,5
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.InfluxDbNotifierConfigTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.setUp",,,,1,13,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetBranchName",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetCredentialsEmpty",,,,1,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetCredentialsNotEmpty",,,,1,15,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetIgnoreSendingTestCoverageToInflux",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetIgnoreSendingTestResultsToInflux",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetInfluxDbDatabase",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetInfluxDbRetentionPolicy",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetInfluxDbUrlString",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetRepoName",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testGetRepoOwner",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testinfluxDbIsReachableFalse",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.config.InfluxDbNotifierConfigTest.testinfluxDbIsReachableMalformed",,,,1,7,0
+Package,"org.jenkinsci.plugins.githubautostatus.integration",,,,11,309,44
+Public Class,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest",18,57,57,8,190,28
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.setUp",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testAbort",,,,2,32,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testCaughtException",,,,1,29,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testCaughtExceptionSetStageAbort",,,,1,27,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testCaughtExceptionSetStageFail",,,,1,41,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testFail",,,,1,26,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.DeclarativePipelineTest.testSuccess",,,,1,26,4
+Public Class,"org.jenkinsci.plugins.githubautostatus.integration.ScriptedPipelineTest",15,50,50,3,85,16
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.ScriptedPipelineTest.testScriptedFail",,,,1,28,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.ScriptedPipelineTest.testScriptedOutOfStageError",,,,1,27,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.integration.ScriptedPipelineTest.testScriptedSuccess",,,,1,24,4
+Package,"org.jenkinsci.plugins.githubautostatus.model",,,,221,1127,262
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.BuildStage",7,82,71,17,95,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.BuildStage",,,,1,3,0
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.BuildStage",,,,2,10,0
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.BuildStage",,,,1,3,0
+Public Enum Type,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.State",3,,,6,29,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.State.fromResult",,,,6,17,0
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.State.valueOf",,,,0,,
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.State.values",,,,0,,
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.addAllToEnvironment",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.addToEnvironment",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.getBuildState",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.getDuration",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.getRun",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.getStageName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.isPassed",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.isStage",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.setBuildState",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.setIsStage",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.setRun",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStage.setStageName",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest",7,0,0,17,115,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testAddAllToEnvironment",,,,1,9,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testAddAllToEnvironmentOverrideDuration",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testAddToEnvironment",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testAddToEnvironmentOverrideDuration",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testGetStageName",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStateCompletedError",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStateCompletedSuccess",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStatePending",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStateSkippedConditional",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStateSkippedFailure",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testSetStateSkippedUnstable",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStateCompletedError",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStateCompletedSuccess",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStatePending",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStateSkippedConditional",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStateSkippedFailure",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStageTest.testStateSkippedUnstable",,,,1,5,0
+Public Enum Type,"org.jenkinsci.plugins.githubautostatus.model.BuildState",3,,,6,24,7
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.BuildState.fromResult",,,,6,16,0
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.BuildState.valueOf",,,,0,,
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.BuildState.values",,,,0,,
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest",3,0,0,5,22,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest.testFromResultAborted",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest.testFromResultFailure",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest.testFromResultNotBuilt",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest.testFromResultSuccess",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStateTest.testFromResultUnstable",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus",7,93,93,34,120,3
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.BuildStatus",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.addStage",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getBlockedTime",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getBranch",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getBuildNumber",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getBuildUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getCoverage",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getDuration",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getJobName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getRepoName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getRepoOwner",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getResult",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getStages",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getTestResult",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getTimestamp",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.getTrigger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.isBlocked",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.isPassed",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setBlocked",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setBlockedTime",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setBranch",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setBuildNumber",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setBuildUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setCoverage",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setDuration",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setJobName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setPassed",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setRepoName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setRepoOwner",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setResult",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setStages",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setTestResult",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setTimestamp",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.BuildStatus.setTrigger",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage",10,88,73,41,145,12
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.equals",,,,3,13,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.fromCobertura",,,,3,17,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.fromJacoco",,,,8,30,8
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getClasses",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getConditionals",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getFiles",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getInstructions",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getLines",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getMethods",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.getPackages",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.hashCode",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setClasses",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setClasses",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setConditionals",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setConditionals",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setFiles",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setFiles",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setInstructions",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setLines",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setLines",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setMethods",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setMethods",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setPackages",,,,2,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverage.setPackages",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest",18,0,0,9,78,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.setUp",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.testFromCobertura",,,,1,21,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.testFromCoberturaNull",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.testFromJacoco",,,,1,29,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.testFromJacocoNull",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.CodeCoverageTest.testFromJacoco_null",,,,1,4,0
+Public Annotation,"org.jenkinsci.plugins.githubautostatus.model.SkipSerialisation",2,0,0,0,4,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestCase",5,80,60,26,86,4
+Public Enum Type,"org.jenkinsci.plugins.githubautostatus.model.TestCase.TestCaseResult",1,,,0,5,0
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.TestCaseResult.valueOf",,,,0,,
+Public Implicit Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.TestCaseResult.values",,,,0,,
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.equals",,,,3,11,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.fromCaseResult",,,,4,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.getFailedCount",,,,2,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.getName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.getPassedCount",,,,2,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.getResult",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.getSkippedCount",,,,2,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.hashCode",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.isFailed",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.isPassed",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.isSkipped",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.setFailed",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.setName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.setPassed",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCase.setSkipped",,,,2,6,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest",6,0,0,8,61,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.TestCaseTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialFailedFalse",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialFailedTrue",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialName",,,,1,9,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialPassedFalse",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialPassedTrue",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialSkippedFalse",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestCaseTest.testInitialSkippedTrue",,,,1,8,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestResults",10,72,56,17,71,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.TestResults.TestResults",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.equals",,,,3,10,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.fromJUnitTestResults",,,,4,20,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.getFailedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.getPassedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.getSkippedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.getTestSuites",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.hashCode",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.setFailedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.setPassedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.setSkippedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResults.setTestSuites",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest",11,0,0,8,72,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.TestResultsTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testGetSetFailedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testGetSetPassedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testGetSetSkippedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testGetSetTestSuites",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testfromJUnitTestResultsEmpty",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testfromJUnitTestResultsNotEmpty",,,,1,23,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestResultsTest.testfromJUnitTestResultsNull",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestSuite",6,82,68,17,69,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.TestSuite",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.addTestCases",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.equals",,,,3,12,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getDuration",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getFailedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getPassedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getSkippedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.getTestCases",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.hashCode",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.setDuration",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.setFailedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.setName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.setPassedTestCaseCount",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuite.setSkippedTestCaseCount",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest",6,90,90,10,74,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.TestSuiteTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testAddTestCases",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testAddTestCasesCounts",,,,1,15,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetNameInitial",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetSetDuration",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetSetFailedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetSetName",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetSetPassedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetSetSkippedTestCaseCount",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.model.TestSuiteTest.testGetTestCasesInitial",,,,1,7,0
+Package,"org.jenkinsci.plugins.githubautostatus.notifiers",,,,242,2129,707
+Public Abstract Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier",6,83,83,4,20,33
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.all",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.getLong",,,,2,7,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.isEnabled",,,,0,1,5
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.notifyBuildStageStatus",,,,0,1,6
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.notifyFinalBuildStatus",,,,0,1,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifier.wantsOutOfStageErrors",,,,1,3,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstants",2,0,0,2,21,4
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstants.getLong",,,,2,7,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstantsTest",4,0,0,4,33,4
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstantsTest.BuildNotifierConstantsTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstantsTest.testConstants",,,,1,16,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstantsTest.testGetLong",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierConstantsTest.testGetLongWithDefaultValue",,,,1,6,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager",16,78,57,16,54,59
+Private Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.BuildNotifierManager",,,,1,4,6
+Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addBuildNotifier",,,,2,7,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addGenericNotifier",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addGithubNotifier",,,,1,4,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addHttpNotifier",,,,1,3,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addInfluxDbNotifier",,,,1,4,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.addStatsdBuildNotifier",,,,1,4,6
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.newInstance",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.notifyBuildStageStatus",,,,2,5,5
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.notifyBuildStageStatus.(lambda_expr_1)",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.notifyFinalBuildStatus",,,,2,5,6
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.notifyFinalBuildStatus.(lambda_expr_1)",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.sendNonStageError",,,,3,7,7
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManager.sendNonStageError.(lambda_expr_1)",,,,2,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest",22,81,81,16,117,35
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.BuildNotifierManagerTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.setUp",,,,1,5,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddBuildNotifierDisabled",,,,1,7,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddBuildNotifierEnabled",,,,1,7,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddGithubNotifier",,,,1,7,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddHttpNotifier",,,,1,7,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddHttpNotifierDisabled",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testAddInfluxDbNotifierDisabled",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testInitialization",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testNotifyBuildStageStatus",,,,1,9,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testNotifyFinalBuildStatus",,,,1,7,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testSendNonStageErrorWantsFalse",,,,1,12,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildNotifierManagerTest.testSendNonStageErrorWantsTrue",,,,1,12,3
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.BuildStateTest",0,0,0,0,2,4
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier",16,66,66,11,60,29
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.GithubBuildNotifier",,,,1,5,7
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.getLogger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.isEnabled",,,,1,4,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.log",,,,1,3,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.log",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.notifyBuildStageStatus",,,,5,18,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifier.notifyFinalBuildStatus",,,,1,3,6
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest",14,69,69,12,73,35
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.GithubBuildNotifierTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.setUp",,,,1,5,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testDisabled",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testEnabled",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testNonStageError",,,,1,9,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testNotifyFinalBuildStatus",,,,1,6,4
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testSendError",,,,1,8,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testSendPending",,,,1,7,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.GithubBuildNotifierTest.testSendSuccess",,,,1,8,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier",36,74,66,20,128,0
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.HttpNotifier",,,,3,29,0
+Anonymous Class,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.HttpNotifier.(Anon_1)",4,0,0,2,9,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.HttpNotifier.(Anon_1).shouldSkipClass",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.HttpNotifier.(Anon_1).shouldSkipField",,,,1,4,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.constructBuildStatus",,,,2,25,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.getLogger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.isEnabled",,,,1,4,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.log",,,,1,3,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.log",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.notifyBuildStageStatus",,,,2,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.notifyFinalBuildStatus",,,,4,15,0
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.notifyFinalBuildStatus.(lambda_expr_1)",,,,1,1,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifier.sendData",,,,5,29,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest",38,81,66,21,218,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.assertCommonBuildStatusProperties",,,,1,11,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.createParameter",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.setUp",,,,3,42,1
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.setUp.(lambda_expr_1)",,,,2,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testBasicAuth",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testBasicAuthNull",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testIsEnabledFalse",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testIsEnabledTrue",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusCompletedError",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusCompletedSuccess",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusPending",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusSkippedConditional",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusSkippedFailure",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyBuildStageStatusSkippedUnstable",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusError",,,,1,12,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusIoException",,,,2,14,0
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusIoException.(lambda_expr_1)",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusNoTestResults",,,,1,15,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusWithCoverage",,,,1,15,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.HttpNotifierTest.testNotifyFinalBuildStatusWithTestResults",,,,1,15,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder",7,66,66,12,51,5
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.InfluxDbLineBuilder",,,,1,3,0
+Public Generic Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.appendFieldValue",,,,1,4,0
+TypeVariable,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.appendFieldValue.T",0,0,0,0,0,0
+Public Generic Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.appendTagValue",,,,1,4,0
+TypeVariable,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.appendTagValue.T",0,0,0,0,0,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.build",,,,7,27,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.escapeFieldValue",,,,1,3,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilder.escapeTagValue",,,,1,5,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest",5,50,50,9,48,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendFloatFieldValue",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendFloatFieldValueRound",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendIntFieldValue",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendIntTagValue",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendStringFieldValue",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendStringTagValue",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.appendTwoFieldTwoTag",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.build",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbLineBuilderTest.setUp",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier",35,56,41,41,227,37
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.InfluxDbNotifier",,,,9,37,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.getLogger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.isEnabled",,,,1,4,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.log",,,,1,3,0
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.log",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyBuildStageStatus",,,,4,22,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyCoverage",,,,3,23,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyFinalBuildStatus",,,,6,31,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyTestCase",,,,2,19,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyTestResults",,,,4,22,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.notifyTestSuite",,,,3,23,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.postData",,,,5,25,5
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifier.wantsOutOfStageErrors",,,,1,4,5
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas",3,0,0,2,449,14
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.FieldNames",1,0,0,0,34,0
+Public Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.FieldNames.Coverage",1,0,0,0,9,0
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.FieldNames.Test",1,0,0,0,5,0
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.FieldNames.TestCase",1,0,0,0,3,0
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.FieldNames.TestSuite",2,0,0,0,5,0
+Public Interface,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo",1,0,0,0,379,6
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1",9,0,0,6,142,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatCoverage",,,,1,27,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatJob",,,,1,24,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatStage",,,,1,22,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatTestCase",,,,1,23,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatTestSuite",,,,1,24,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V1.formatTests",,,,1,20,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2",9,0,0,6,164,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatCoverage",,,,1,31,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatJob",,,,1,27,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatStage",,,,1,25,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatTestCase",,,,1,28,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatTestSuite",,,,1,28,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.V2.formatTests",,,,1,23,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatCoverage",,,,0,14,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatJob",,,,0,12,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatStage",,,,0,11,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatTestCase",,,,0,12,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatTestSuite",,,,0,12,0
+Public Abstract Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SchemaInfo.formatTests",,,,0,10,0
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.SeriesNames",1,0,0,0,8,0
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.TagNames",2,0,0,0,16,3
+Private Static Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.TagNames.Test",1,0,0,0,4,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.getSchema",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierSchemas.getSchemaCount",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest",34,73,73,21,212,23
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.InfluxDbNotifierTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.TestDefaultNull",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.TestDefaultsEmptyString",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.setUp",,,,2,31,2
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.setUp.(lambda_expr_1)",,,,1,7,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.setUpClass",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testBasicAuth",,,,1,16,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testDisabledEmptyConfig",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testIsDisabledUrl",,,,1,6,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testIsEnabled",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNonStageError",,,,1,21,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyBuildStageStatus",,,,1,12,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyBuildStageStatusHttpError",,,,1,13,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyBuildStageStatusIoException",,,,2,14,1
+Lambda Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyBuildStageStatusIoException.(lambda_expr_1)",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyBuildStageStatusPending",,,,1,8,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyFinalBuildStateFailed",,,,1,16,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testNotifyFinalBuildStateSuccess",,,,1,14,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testUrl",,,,1,5,1
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.InfluxDbNotifierTest.testUrlRetention",,,,1,6,1
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier",15,57,57,23,108,68
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.StatsdNotifier",,,,1,4,0
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.StatsdNotifier",,,,1,4,0
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.collapseEmptyBuckets",,,,1,3,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.getBranchPath",,,,1,4,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.getLogger",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.isEnabled",,,,1,3,5
+Private Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.log",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.notifyBuildStageStatus",,,,5,30,7
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.notifyFinalBuildStatus",,,,4,25,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.sanitizeAll",,,,1,3,8
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.sanitizeBuildNumber",,,,2,6,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.sanitizeKey",,,,1,3,6
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.sendNonStageError",,,,2,10,6
+Private Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifier.statsdSanitizeKey",,,,1,3,7
+Public Class,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest",16,52,52,14,104,29
+Public Constructor,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.StatsdNotifierTest",,,,1,2,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.setUp",,,,1,11,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.setUpClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.tearDown",,,,1,3,0
+Public Static Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.tearDownClass",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testGetBranchPath",,,,1,7,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testIsDisabled",,,,1,6,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testIsEnabled",,,,1,5,3
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testNotifyBuildStageStatus",,,,1,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testNotifyBuildStageStatusPending",,,,1,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testNotifyFinalBuildStatus",,,,1,14,0
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testSanitizeAll",,,,1,5,2
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testSanitizeBuildNumber",,,,1,5,2
+Public Method,"org.jenkinsci.plugins.githubautostatus.notifiers.StatsdNotifierTest.testSendNonStageError",,,,1,7,0

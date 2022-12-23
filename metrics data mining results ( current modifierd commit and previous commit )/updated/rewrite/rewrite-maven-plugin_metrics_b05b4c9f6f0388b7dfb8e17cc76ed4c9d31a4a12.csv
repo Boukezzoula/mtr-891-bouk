@@ -1,0 +1,7 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"RewriteCheckstyleMojo.java",,,,1,15,0
+Package,"org",,,,0,0,0
+Package,"org.openrewrite",,,,0,0,0
+Package,"org.openrewrite.maven",,,,1,15,0
+Public Class,"org.openrewrite.maven.RewriteCheckstyleMojo",6,100,100,1,8,0
+Public Method,"org.openrewrite.maven.RewriteCheckstyleMojo.execute",,,,1,3,0

@@ -1,0 +1,82 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AvroName.java",,,,5,12,0
+File,"ElasticConnection.java",,,,8,58,17
+File,"ElasticSourceConnector.java",,,,10,106,21
+File,"ElasticSourceConnectorConfig.java",,,,7,226,16
+File,"ElasticSourceTask.java",,,,36,267,59
+File,"ElasticSourceTaskConfig.java",,,,1,13,19
+File,"SchemaConverter.java",,,,19,99,16
+File,"SchemaConverterTest.java",,,,4,88,27
+File,"StructConverter.java",,,,14,85,16
+File,"Utils.java",,,,7,37,15
+File,"Version.java",,,,0,4,15
+Package,"com",,,,0,0,0
+Package,"com.github",,,,0,0,0
+Package,"com.github.dariobalinzo",,,,17,332,37
+Public Class,"com.github.dariobalinzo.ElasticSourceConnector",24,61,61,10,85,21
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.config",,,,1,4,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.start",,,,3,37,6
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.stop",,,,1,5,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.taskClass",,,,1,4,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.taskConfigs",,,,3,25,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.version",,,,1,4,0
+Public Class,"com.github.dariobalinzo.ElasticSourceConnectorConfig",8,0,0,7,218,1
+Public Constructor,"com.github.dariobalinzo.ElasticSourceConnectorConfig.ElasticSourceConnectorConfig",,,,1,3,0
+Protected Constructor,"com.github.dariobalinzo.ElasticSourceConnectorConfig.ElasticSourceConnectorConfig",,,,1,3,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addConnectorOptions",,,,1,33,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addDatabaseOptions",,,,1,74,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addModeOptions",,,,1,34,0
+Protected Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.baseConfigDef",,,,1,7,0
+Public Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.main",,,,1,3,0
+Package,"com.github.dariobalinzo.schema",,,,42,284,59
+Public Class,"com.github.dariobalinzo.schema.AvroName",1,0,0,5,11,0
+Private Static Method,"com.github.dariobalinzo.schema.AvroName.filterInvalidCharacters",,,,1,3,0
+Public Static Method,"com.github.dariobalinzo.schema.AvroName.from",,,,2,3,0
+Public Static Method,"com.github.dariobalinzo.schema.AvroName.from",,,,2,3,0
+Public Class,"com.github.dariobalinzo.schema.SchemaConverter",13,0,0,19,94,1
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertDocumentSchema",,,,10,26,1
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertListSchema",,,,7,46,0
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertMapSchema",,,,1,12,0
+Public Method,"com.github.dariobalinzo.schema.SchemaConverter.convertToAvro",,,,1,8,0
+Public Class,"com.github.dariobalinzo.schema.SchemaConverterTest",7,0,0,4,81,12
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertLists",,,,1,19,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertListsOfObject",,,,1,21,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertNestedObject",,,,1,23,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertSimpleSchema",,,,1,15,3
+Public Class,"com.github.dariobalinzo.schema.StructConverter",17,0,0,14,78,1
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertDocumentStruct",,,,5,15,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertListOfObject",,,,1,16,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertListToAvroArray",,,,5,20,1
+Lambda Method,"com.github.dariobalinzo.schema.StructConverter.convertListToAvroArray.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.dariobalinzo.schema.StructConverter.convertToAvro",,,,1,5,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.covertMapToAvroStruct",,,,1,13,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.isScalar",,,,1,7,0
+Package,"com.github.dariobalinzo.task",,,,37,280,78
+Public Class,"com.github.dariobalinzo.task.ElasticSourceTask",42,76,72,36,242,44
+Public Constructor,"com.github.dariobalinzo.task.ElasticSourceTask.ElasticSourceTask",,,,1,2,0
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.closeScrollQuietly",,,,1,7,6
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.executeScroll",,,,4,30,13
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.fetchLastOffset",,,,9,44,16
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.initEsConnection",,,,2,29,0
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.parseSearchResult",,,,5,38,6
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.poll",,,,5,22,0
+Lambda Method,"com.github.dariobalinzo.task.ElasticSourceTask.poll.(lambda_expr_1)",,,,3,11,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.setupTest",,,,2,21,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.start",,,,3,18,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.stop",,,,3,8,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.version",,,,1,4,0
+Public Class,"com.github.dariobalinzo.task.ElasticSourceTaskConfig",4,0,0,1,7,4
+Public Constructor,"com.github.dariobalinzo.task.ElasticSourceTaskConfig.ElasticSourceTaskConfig",,,,1,3,0
+Package,"com.github.dariobalinzo.utils",,,,15,99,47
+Public Class,"com.github.dariobalinzo.utils.ElasticConnection",12,44,44,8,46,17
+Public Constructor,"com.github.dariobalinzo.utils.ElasticConnection.ElasticConnection",,,,1,9,1
+Public Constructor,"com.github.dariobalinzo.utils.ElasticConnection.ElasticConnection",,,,2,15,1
+Lambda Method,"com.github.dariobalinzo.utils.ElasticConnection.ElasticConnection.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.dariobalinzo.utils.ElasticConnection.closeQuietly",,,,2,7,0
+Public Method,"com.github.dariobalinzo.utils.ElasticConnection.getClient",,,,1,3,0
+Public Method,"com.github.dariobalinzo.utils.ElasticConnection.getConnectionRetryBackoff",,,,1,3,0
+Public Method,"com.github.dariobalinzo.utils.ElasticConnection.getMaxConnectionAttempts",,,,1,3,0
+Public Class,"com.github.dariobalinzo.utils.Utils",10,0,0,7,28,15
+Public Static Method,"com.github.dariobalinzo.utils.Utils.getIndexList",,,,4,15,0
+Public Static Method,"com.github.dariobalinzo.utils.Utils.groupPartitions",,,,3,10,0
+Public Class,"com.github.dariobalinzo.utils.Version",1,0,0,0,3,15

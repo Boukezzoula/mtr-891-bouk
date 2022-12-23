@@ -1,0 +1,531 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"App.java",,,,1,8,4
+File,"AppTest.java",,,,1,11,6
+File,"BaseBenchmarkTestCase.java",,,,4,34,0
+File,"Benchmark.java",,,,7,34,0
+File,"BenchmarkBuilder.java",,,,1,7,8
+File,"BenchmarkDistributionTestCase.java",,,,2,20,0
+File,"BenchmarkFactory.java",,,,1,6,0
+File,"BenchmarkImpl.java",,,,3,28,0
+File,"BodyValidator.java",,,,0,3,19
+File,"HeaderValidator.java",,,,0,3,19
+File,"Http1xClient.java",,,,9,58,3
+File,"Http1xConnection.java",,,,20,128,4
+File,"Http2Client.java",,,,26,170,6
+File,"Http2Connection.java",,,,28,150,4
+File,"Http2Request.java",,,,8,51,3
+File,"HttpClient.java",,,,1,9,19
+File,"HttpClient.java",,,,0,11,0
+File,"HttpClientBuilder.java",,,,0,13,0
+File,"HttpClientCommand.java",,,,10,90,7
+File,"HttpClientImpl.java",,,,29,163,11
+File,"HttpClientProvider.java",,,,2,18,0
+File,"HttpClientRunner.java",,,,22,188,6
+File,"HttpConnection.java",,,,0,10,3
+File,"HttpMethod.java",,,,1,10,0
+File,"HttpProtocol.java",,,,3,19,19
+File,"HttpProtocol.java",,,,5,22,0
+File,"HttpRequest.java",,,,1,14,3
+File,"HttpSequence.java",,,,2,13,19
+File,"HttpValidator.java",,,,1,8,19
+File,"HttpVerticle.java",,,,5,30,23
+File,"HttpWorkload.java",,,,3,17,19
+File,"HttpWorkloadBuilder.java",,,,8,24,19
+File,"HttpsProtocol.java",,,,5,22,0
+File,"Load.java",,,,36,220,9
+File,"Main.java",,,,4,30,33
+File,"MainWorkerVerticle.java",,,,14,66,32
+File,"NettyHttpClientBuilder.java",,,,11,59,0
+File,"Pacer.java",,,,15,69,16
+File,"PacerStrategy.java",,,,0,4,0
+File,"Protocol.java",,,,0,6,0
+File,"Protocol.java",,,,0,6,19
+File,"Protocol.java",,,,0,3,0
+File,"Protocols.java",,,,6,19,0
+File,"Report.java",,,,20,137,3
+File,"Request.java",,,,0,5,0
+File,"Result.java",,,,0,3,0
+File,"ResultStatus.java",,,,0,4,19
+File,"SLA.java",,,,0,3,0
+File,"SailRocketMain.java",,,,13,67,28
+File,"ScalingStrategy.java",,,,0,5,0
+File,"Scenario.java",,,,0,4,0
+File,"Sequence.java",,,,0,6,19
+File,"Sequence.java",,,,0,4,0
+File,"SimplBechmarkTestCase.java",,,,2,17,1
+File,"Simulation.java",,,,0,4,0
+File,"StatefulSequence.java",,,,0,4,0
+File,"StatisticsHandler.java",,,,10,48,3
+File,"Test.java",,,,1,10,0
+File,"Url.java",,,,7,35,1
+File,"UrlBuilder.java",,,,12,32,0
+File,"User.java",,,,0,3,0
+File,"Utils.java",,,,10,55,16
+File,"Validator.java",,,,0,4,19
+File,"VerticleWorker.java",,,,0,5,19
+File,"VertxHttpClient.java",,,,28,157,0
+File,"VertxHttpClientBuilder.java",,,,10,63,0
+File,"WorkerMessage.java",,,,4,25,19
+File,"WorkerMessageCodec.java",,,,5,39,35
+File,"WorkerStatus.java",,,,4,17,19
+File,"Workload.java",,,,0,5,19
+Package,"http2",,,,0,0,0
+Package,"http2.bench",,,,14,85,49
+Public Class,"http2.bench.Main",13,0,0,4,23,33
+Public Static Method,"http2.bench.Main.main",,,,4,21,30
+Public Class,"http2.bench.Utils",6,77,66,10,50,16
+Public Static Method,"http2.bench.Utils.blackholeCpu",,,,2,8,0
+Public Static Method,"http2.bench.Utils.calibrateBlackhole",,,,3,15,4
+Public Static Method,"http2.bench.Utils.parseSize",,,,5,22,0
+Package,"http2.bench.client",,,,10,90,7
+Public Class,"http2.bench.client.HttpClientCommand",17,0,0,2,75,7
+Public Static Class,"http2.bench.client.HttpClientCommand.HttpClientProviderConverter",5,0,0,4,12,1
+Public Method,"http2.bench.client.HttpClientCommand.HttpClientProviderConverter.convert",,,,4,10,1
+Public Static Class,"http2.bench.client.HttpClientCommand.HttpVersionConverter",4,0,0,4,11,0
+Public Method,"http2.bench.client.HttpClientCommand.HttpVersionConverter.convert",,,,4,9,0
+Public Method,"http2.bench.client.HttpClientCommand.execute",,,,2,24,0
+Package,"io",,,,0,0,0
+Package,"io.sailrocket",,,,2,19,10
+Public Class,"io.sailrocket.App",3,0,0,1,7,4
+Public Static Method,"io.sailrocket.App.main",,,,1,4,0
+Public Class,"io.sailrocket.AppTest",1,0,0,1,8,6
+Public Method,"io.sailrocket.AppTest.shouldAnswerWithTrue",,,,1,5,3
+Package,"io.sailrocket.api",,,,10,92,8
+Public Abstract Class,"io.sailrocket.api.Benchmark",5,88,88,7,32,0
+Public Constructor,"io.sailrocket.api.Benchmark.Benchmark",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.agents",,,,1,4,0
+Public Method,"io.sailrocket.api.Benchmark.endpoint",,,,1,4,0
+Public Abstract Method,"io.sailrocket.api.Benchmark.run",,,,0,1,0
+Public Method,"io.sailrocket.api.Benchmark.scale",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.simulation",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.sla",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.users",,,,1,4,0
+Public Class,"io.sailrocket.api.BenchmarkBuilder",1,0,0,1,5,8
+Public Method,"io.sailrocket.api.BenchmarkBuilder.BenchmarkBuilderTestCase",,,,1,3,1
+Public Class,"io.sailrocket.api.BenchmarkFactory",1,0,0,1,5,0
+Public Static Method,"io.sailrocket.api.BenchmarkFactory.buildBenchmark",,,,1,3,0
+Public Interface,"io.sailrocket.api.Request",1,0,0,0,4,0
+Abstract Method,"io.sailrocket.api.Request.check",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Request.endpoint",,,,0,1,0
+Public Interface,"io.sailrocket.api.Result",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.SLA",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.ScalingStrategy",1,0,0,0,4,0
+Abstract Method,"io.sailrocket.api.ScalingStrategy.then",,,,0,1,0
+Abstract Method,"io.sailrocket.api.ScalingStrategy.user",,,,0,1,0
+Public Interface,"io.sailrocket.api.Scenario",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.Scenario.sequence",,,,0,1,0
+Public Interface,"io.sailrocket.api.Sequence",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.Sequence.request",,,,0,1,0
+Public Interface,"io.sailrocket.api.Simulation",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.Simulation.scenario",,,,0,1,0
+Public Interface,"io.sailrocket.api.StatefulSequence",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.StatefulSequence.request",,,,0,1,0
+Public Class,"io.sailrocket.api.Test",5,0,0,1,6,0
+Public Static Method,"io.sailrocket.api.Test.main",,,,1,4,0
+Public Interface,"io.sailrocket.api.User",0,0,0,0,2,0
+Package,"io.sailrocket.benchmark",,,,0,0,0
+Package,"io.sailrocket.benchmark.standalone",,,,6,51,1
+Public Abstract Class,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase",9,66,66,4,24,0
+Public Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.after",,,,1,4,0
+Public Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.before",,,,2,9,0
+Lambda Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.before.(lambda_expr_1)",,,,1,4,0
+Public Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.runSimpleBenchmarkTest",,,,1,4,0
+Public Class,"io.sailrocket.benchmark.standalone.SimplBechmarkTestCase",3,0,0,1,13,1
+Class,"io.sailrocket.benchmark.standalone.SimplBechmarkTestCase.SimpleBenchmark",1,0,0,1,6,1
+Public Constructor,"io.sailrocket.benchmark.standalone.SimplBechmarkTestCase.SimpleBenchmark.SimpleBenchmark",,,,1,4,1
+Public Method,"io.sailrocket.benchmark.standalone.SimplBechmarkTestCase.before",,,,1,5,0
+Package,"io.sailrocket.core",,,,3,55,114
+Public Class,"io.sailrocket.core.BenchmarkImpl",8,0,0,3,22,0
+Public Constructor,"io.sailrocket.core.BenchmarkImpl.BenchmarkImpl",,,,1,3,0
+Public Method,"io.sailrocket.core.BenchmarkImpl.run",,,,2,17,0
+Public Interface,"io.sailrocket.core.BodyValidator",0,0,0,0,2,0
+Public Interface,"io.sailrocket.core.HeaderValidator",0,0,0,0,2,0
+Public Interface,"io.sailrocket.core.Protocol",2,0,0,0,4,0
+Abstract Method,"io.sailrocket.core.Protocol.baseUrl",,,,0,1,0
+Abstract Method,"io.sailrocket.core.Protocol.headers",,,,0,1,0
+Public Generic Interface,"io.sailrocket.core.Sequence",2,0,0,0,4,0
+TypeVariable,"io.sailrocket.core.Sequence.V",1,0,0,0,0,0
+Abstract Method,"io.sailrocket.core.Sequence.protocol",,,,0,1,0
+Abstract Method,"io.sailrocket.core.Sequence.validators",,,,0,1,0
+Public Interface,"io.sailrocket.core.Validator",0,0,0,0,3,0
+Abstract Method,"io.sailrocket.core.Validator.validate",,,,0,1,0
+Public Generic Interface,"io.sailrocket.core.Workload",1,0,0,0,4,0
+TypeVariable,"io.sailrocket.core.Workload.S",1,0,0,0,0,0
+Abstract Method,"io.sailrocket.core.Workload.name",,,,0,1,0
+Abstract Method,"io.sailrocket.core.Workload.run",,,,0,1,0
+Package,"io.sailrocket.core.client",,,,97,680,37
+Public Interface,"io.sailrocket.core.client.HttpClient",4,0,0,0,9,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.bytesRead",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.bytesWritten",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.inflight",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.request",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.resetStatistics",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.shutdown",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClient.start",,,,0,1,0
+Public Interface,"io.sailrocket.core.client.HttpClientBuilder",4,0,0,0,11,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.build",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.concurrency",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.host",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.port",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.protocol",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.shutdown",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.size",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.ssl",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientBuilder.threads",,,,0,1,0
+Public Enum Type,"io.sailrocket.core.client.HttpClientProvider",2,,,0,15,0
+Anonymous Class,"io.sailrocket.core.client.HttpClientProvider.(Anon_1)",3,0,0,1,5,0
+Public Method,"io.sailrocket.core.client.HttpClientProvider.(Anon_1).builder",,,,1,4,0
+Anonymous Class,"io.sailrocket.core.client.HttpClientProvider.(Anon_2)",3,0,0,1,5,0
+Public Method,"io.sailrocket.core.client.HttpClientProvider.(Anon_2).builder",,,,1,4,0
+Public Abstract Method,"io.sailrocket.core.client.HttpClientProvider.builder",,,,0,1,0
+Public Implicit Method,"io.sailrocket.core.client.HttpClientProvider.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.core.client.HttpClientProvider.values",,,,0,,
+Public Class,"io.sailrocket.core.client.HttpClientRunner",25,56,56,20,173,6
+Public Constructor,"io.sailrocket.core.client.HttpClientRunner.HttpClientRunner",,,,1,25,0
+Public Constructor,"io.sailrocket.core.client.HttpClientRunner.HttpClientRunner",,,,1,2,0
+Private Static Method,"io.sailrocket.core.client.HttpClientRunner.parseDuration",,,,4,23,0
+Public Method,"io.sailrocket.core.client.HttpClientRunner.run",,,,14,106,0
+Anonymous Class,"io.sailrocket.core.client.HttpClientRunner.run.(Anon_1)",4,0,0,2,8,0
+Public Method,"io.sailrocket.core.client.HttpClientRunner.run.(Anon_1).run",,,,2,7,0
+Public Enum Type,"io.sailrocket.core.client.HttpMethod",3,,,1,9,0
+Constructor,"io.sailrocket.core.client.HttpMethod.HttpMethod",,,,1,4,0
+Public Implicit Method,"io.sailrocket.core.client.HttpMethod.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.core.client.HttpMethod.values",,,,0,,
+Public Interface,"io.sailrocket.core.client.HttpRequest",4,0,0,1,10,0
+Abstract Method,"io.sailrocket.core.client.HttpRequest.end",,,,0,1,0
+Method,"io.sailrocket.core.client.HttpRequest.end",,,,1,3,0
+Abstract Method,"io.sailrocket.core.client.HttpRequest.endHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpRequest.headersHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpRequest.putHeader",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpRequest.resetHandler",,,,0,1,0
+Class,"io.sailrocket.core.client.Load",25,74,68,13,204,9
+Public Constructor,"io.sailrocket.core.client.Load.Load",,,,1,13,0
+Static Class,"io.sailrocket.core.client.Load.ScheduledRequest",0,50,50,1,7,0
+Public Constructor,"io.sailrocket.core.client.Load.ScheduledRequest.ScheduledRequest",,,,1,3,0
+Class,"io.sailrocket.core.client.Load.Worker",13,71,61,22,83,3
+Public Constructor,"io.sailrocket.core.client.Load.Worker.Worker",,,,1,3,0
+Public Constructor,"io.sailrocket.core.client.Load.Worker.Worker",,,,1,3,0
+Private Method,"io.sailrocket.core.client.Load.Worker.checkPending",,,,4,11,0
+Private Method,"io.sailrocket.core.client.Load.Worker.doRequest",,,,7,24,1
+Lambda Method,"io.sailrocket.core.client.Load.Worker.doRequest.(lambda_expr_1)",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.Load.Worker.doRequest.(lambda_expr_2)",,,,1,3,0
+Lambda Method,"io.sailrocket.core.client.Load.Worker.doRequest.(lambda_expr_3)",,,,1,6,1
+Private Method,"io.sailrocket.core.client.Load.Worker.doRequestInSlot",,,,4,18,0
+Private Method,"io.sailrocket.core.client.Load.Worker.runSlot",,,,1,5,0
+Private Method,"io.sailrocket.core.client.Load.Worker.runSlot",,,,4,14,2
+Lambda Method,"io.sailrocket.core.client.Load.Worker.runSlot.(lambda_expr_1)",,,,3,12,2
+Private Method,"io.sailrocket.core.client.Load.end",,,,1,23,0
+Public Method,"io.sailrocket.core.client.Load.printDetails",,,,1,9,3
+Private Method,"io.sailrocket.core.client.Load.ratio",,,,1,5,0
+Private Method,"io.sailrocket.core.client.Load.readThroughput",,,,1,3,0
+Method,"io.sailrocket.core.client.Load.run",,,,7,33,0
+Lambda Method,"io.sailrocket.core.client.Load.run.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"io.sailrocket.core.client.Load.run.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.client.Load.run.(lambda_expr_3)",,,,1,1,0
+Private Method,"io.sailrocket.core.client.Load.writeThroughput",,,,1,3,0
+Public Class,"io.sailrocket.core.client.Pacer",2,76,55,15,67,14
+Public Constructor,"io.sailrocket.core.client.Pacer.Pacer",,,,1,3,1
+Public Constructor,"io.sailrocket.core.client.Pacer.Pacer",,,,1,5,0
+Public Method,"io.sailrocket.core.client.Pacer.acquire",,,,2,7,5
+Method,"io.sailrocket.core.client.Pacer.expectedNextOperationNanoTime",,,,1,3,3
+Private Method,"io.sailrocket.core.client.Pacer.nsecToNextOperation",,,,5,23,5
+Private Method,"io.sailrocket.core.client.Pacer.setCatchupRateMultiple",,,,1,4,0
+Public Method,"io.sailrocket.core.client.Pacer.setInitialStartTime",,,,1,3,0
+Private Method,"io.sailrocket.core.client.Pacer.setThroughout",,,,1,4,0
+Static Method,"io.sailrocket.core.client.Pacer.sleepNs",,,,2,6,0
+Class,"io.sailrocket.core.client.Report",15,75,72,20,128,3
+Public Constructor,"io.sailrocket.core.client.Report.Report",,,,1,5,0
+Method,"io.sailrocket.core.client.Report.columns",,,,1,6,0
+Method,"io.sailrocket.core.client.Report.format",,,,10,36,0
+Method,"io.sailrocket.core.client.Report.getMaxResponseTimeMillis",,,,1,3,0
+Method,"io.sailrocket.core.client.Report.getMinResponseTimeMillis",,,,1,3,0
+Method,"io.sailrocket.core.client.Report.getResponseTimeMillisPercentile",,,,1,3,0
+Method,"io.sailrocket.core.client.Report.header",,,,1,3,0
+Public Method,"io.sailrocket.core.client.Report.measures",,,,1,26,0
+Method,"io.sailrocket.core.client.Report.prettyPrint",,,,1,16,0
+Method,"io.sailrocket.core.client.Report.save",,,,2,7,0
+Package,"io.sailrocket.core.client.netty",,,,141,837,37
+Class,"io.sailrocket.core.client.netty.Http1xClient",13,40,40,7,44,3
+Constructor,"io.sailrocket.core.client.netty.Http1xClient.Http1xClient",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http1xClient.bytesRead",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http1xClient.bytesWritten",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.Http1xClient.connect",,,,3,29,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http1xClient.connect.(Anon_1)",9,0,0,2,12,0
+Protected Method,"io.sailrocket.core.client.netty.Http1xClient.connect.(Anon_1).initChannel",,,,2,11,0
+Lambda Method,"io.sailrocket.core.client.netty.Http1xClient.connect.(lambda_expr_1)",,,,2,7,0
+Public Method,"io.sailrocket.core.client.netty.Http1xClient.resetStatistics",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http1xConnection",17,67,67,11,110,4
+Constructor,"io.sailrocket.core.client.netty.Http1xConnection.Http1xConnection",,,,1,3,0
+Private Class,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl",14,63,63,7,43,0
+Constructor,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.HttpRequestImpl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.end",,,,2,10,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.endHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.headersHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.putHeader",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpRequestImpl.resetHandler",,,,1,5,0
+Private Class,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream",6,37,37,2,17,0
+Constructor,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream.HttpStream",,,,1,6,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream.run",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.channelRead",,,,5,18,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.channelRegistered",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.context",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.inflight",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.isAvailable",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.request",,,,1,6,0
+Class,"io.sailrocket.core.client.netty.Http2Client",15,83,73,12,138,6
+Method,"io.sailrocket.core.client.netty.Http2Client.GET",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.Http2Client.GET",,,,1,3,0
+Constructor,"io.sailrocket.core.client.netty.Http2Client.Http2Client",,,,1,4,0
+Method,"io.sailrocket.core.client.netty.Http2Client.POST",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http2Client.TestClientHandler",10,62,12,6,32,1
+Public Constructor,"io.sailrocket.core.client.netty.Http2Client.TestClientHandler.TestClientHandler",,,,1,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.TestClientHandler.channelActive",,,,1,5,0
+Private Method,"io.sailrocket.core.client.netty.Http2Client.TestClientHandler.checkHandle",,,,2,8,1
+Public Method,"io.sailrocket.core.client.netty.Http2Client.TestClientHandler.handlerAdded",,,,2,7,0
+Class,"io.sailrocket.core.client.netty.Http2Client.TestClientHandlerBuilder",9,33,33,3,16,1
+Public Constructor,"io.sailrocket.core.client.netty.Http2Client.TestClientHandlerBuilder.TestClientHandlerBuilder",,,,1,3,0
+Protected Method,"io.sailrocket.core.client.netty.Http2Client.TestClientHandlerBuilder.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.TestClientHandlerBuilder.build",,,,1,6,1
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Client.TestClientHandlerBuilder.build.(Anon_1)",0,0,0,0,0,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.bytesRead",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.bytesWritten",,,,1,3,0
+Protected Method,"io.sailrocket.core.client.netty.Http2Client.channelInitializer",,,,1,46,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2)",14,0,0,2,43,0
+Protected Method,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel",,,,2,42,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_3)",11,0,0,2,13,0
+Protected Method,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_3).configurePipeline",,,,2,12,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_4)",6,0,0,1,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.channelInitializer.(Anon_2).initChannel.(Anon_4).channelActive",,,,1,7,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.connect",,,,3,14,1
+Lambda Method,"io.sailrocket.core.client.netty.Http2Client.connect.(lambda_expr_1)",,,,2,5,0
+Method,"io.sailrocket.core.client.netty.Http2Client.headers",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2Client.resetStatistics",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http2Connection",17,75,75,11,134,4
+Constructor,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection",,,,1,70,1
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1)",15,0,0,16,56,0
+Private Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).endStream",,,,2,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onDataRead",,,,4,14,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onHeadersRead",,,,5,17,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onRstStreamRead",,,,3,10,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onSettingsRead",,,,2,6,0
+Static Class,"io.sailrocket.core.client.netty.Http2Connection.Http2Stream",4,14,14,1,17,0
+Constructor,"io.sailrocket.core.client.netty.Http2Connection.Http2Stream.Http2Stream",,,,1,8,0
+Method,"io.sailrocket.core.client.netty.Http2Connection.bilto",,,,3,11,0
+Lambda Method,"io.sailrocket.core.client.netty.Http2Connection.bilto.(lambda_expr_1)",,,,2,9,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.context",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.incrementConnectionWindowSize",,,,2,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.inflight",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.isAvailable",,,,1,4,0
+Private Method,"io.sailrocket.core.client.netty.Http2Connection.nextStreamId",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.request",,,,1,4,0
+Class,"io.sailrocket.core.client.netty.Http2Request",12,73,73,8,44,3
+Constructor,"io.sailrocket.core.client.netty.Http2Request.Http2Request",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.dataHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.end",,,,2,7,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.endHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.headersHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.putHeader",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.resetHandler",,,,1,5,0
+Abstract Class,"io.sailrocket.core.client.netty.HttpClientImpl",36,83,77,27,140,11
+Constructor,"io.sailrocket.core.client.netty.HttpClientImpl.HttpClientImpl",,,,1,9,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientImpl.bytesRead",,,,0,1,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientImpl.bytesWritten",,,,0,1,0
+Private Method,"io.sailrocket.core.client.netty.HttpClientImpl.checkCreateConnections",,,,9,44,1
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_1)",,,,7,33,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_1).(lambda_expr_2)",,,,2,9,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.checkCreateConnections.(lambda_expr_3)",,,,1,3,0
+Private Method,"io.sailrocket.core.client.netty.HttpClientImpl.choose",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.choose.(lambda_expr_1)",,,,1,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpClientImpl.connect",,,,0,1,0
+Method,"io.sailrocket.core.client.netty.HttpClientImpl.count",,,,1,3,0
+Static Method,"io.sailrocket.core.client.netty.HttpClientImpl.create",,,,5,25,4
+Public Method,"io.sailrocket.core.client.netty.HttpClientImpl.inflight",,,,2,4,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.inflight.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.netty.HttpClientImpl.request",,,,2,8,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientImpl.resetStatistics",,,,0,1,0
+Public Method,"io.sailrocket.core.client.netty.HttpClientImpl.shutdown",,,,3,14,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientImpl.shutdown.(lambda_expr_1)",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.HttpClientImpl.start",,,,2,9,0
+Public Interface,"io.sailrocket.core.client.netty.HttpConnection",4,0,0,0,6,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.context",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.inflight",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.isAvailable",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.request",,,,0,1,0
+Public Class,"io.sailrocket.core.client.netty.NettyHttpClientBuilder",11,79,79,10,51,0
+Lambda Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.concurrency",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.host",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.port",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.protocol",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.shutdown",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.size",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.ssl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientBuilder.threads",,,,2,8,0
+Class,"io.sailrocket.core.client.netty.StatisticsHandler",8,50,50,10,40,3
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.bytesRead",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.bytesWritten",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.StatisticsHandler.channelRead",,,,2,8,0
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.reset",,,,1,4,0
+Private Method,"io.sailrocket.core.client.netty.StatisticsHandler.sizeOf",,,,3,9,0
+Public Method,"io.sailrocket.core.client.netty.StatisticsHandler.write",,,,2,8,0
+Package,"io.sailrocket.core.client.vertx",,,,38,220,0
+Public Class,"io.sailrocket.core.client.vertx.VertxHttpClient",14,87,87,11,140,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClient.(lambda_expr_1)",,,,1,1,0
+Private Class,"io.sailrocket.core.client.vertx.VertxHttpClient.Slot",3,50,50,1,7,0
+Constructor,"io.sailrocket.core.client.vertx.VertxHttpClient.Slot.Slot",,,,1,3,0
+Public Constructor,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpClient",,,,3,23,0
+Private Class,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest",16,85,85,9,72,0
+Constructor,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.VertxHttpRequest",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.end",,,,3,36,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.end.(lambda_expr_1)",,,,7,32,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.end.(lambda_expr_1).(lambda_expr_2)",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.end.(lambda_expr_1).(lambda_expr_3)",,,,4,14,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.end.(lambda_expr_1).(lambda_expr_3).(lambda_expr_4)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.endHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.headersHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.putHeader",,,,2,8,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.VertxHttpRequest.resetHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.bytesRead",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.bytesWritten",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.inflight",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.request",,,,2,8,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.resetStatistics",,,,1,3,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.shutdown",,,,1,3,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClient.start",,,,1,4,0
+Public Class,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder",8,87,87,10,57,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.concurrency",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.host",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.port",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.protocol",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.shutdown",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.size",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.ssl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientBuilder.threads",,,,2,9,0
+Package,"io.sailrocket.core.workers",,,,18,92,89
+Public Class,"io.sailrocket.core.workers.MainWorkerVerticle",12,60,60,14,56,13
+Public Constructor,"io.sailrocket.core.workers.MainWorkerVerticle.MainWorkerVerticle",,,,1,3,0
+Public Method,"io.sailrocket.core.workers.MainWorkerVerticle.init",,,,3,12,0
+Lambda Method,"io.sailrocket.core.workers.MainWorkerVerticle.init.(lambda_expr_1)",,,,2,8,0
+Public Method,"io.sailrocket.core.workers.MainWorkerVerticle.start",,,,4,17,0
+Lambda Method,"io.sailrocket.core.workers.MainWorkerVerticle.start.(lambda_expr_1)",,,,2,9,0
+Public Method,"io.sailrocket.core.workers.MainWorkerVerticle.stop",,,,3,10,0
+Lambda Method,"io.sailrocket.core.workers.MainWorkerVerticle.stop.(lambda_expr_1)",,,,2,8,0
+Public Method,"io.sailrocket.core.workers.MainWorkerVerticle.updateWorkerStatus",,,,3,9,0
+Lambda Method,"io.sailrocket.core.workers.MainWorkerVerticle.updateWorkerStatus.(lambda_expr_1)",,,,2,7,0
+Public Enum Type,"io.sailrocket.core.workers.ResultStatus",1,,,0,3,0
+Public Implicit Method,"io.sailrocket.core.workers.ResultStatus.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.core.workers.ResultStatus.values",,,,0,,
+Public Abstract Class,"io.sailrocket.core.workers.VerticleWorker",1,0,0,0,3,0
+Public Abstract Method,"io.sailrocket.core.workers.VerticleWorker.name",,,,0,1,0
+Public Enum Type,"io.sailrocket.core.workers.WorkerStatus",1,,,4,16,0
+Constructor,"io.sailrocket.core.workers.WorkerStatus.WorkerStatus",,,,1,3,0
+Public Static Method,"io.sailrocket.core.workers.WorkerStatus.find",,,,3,6,0
+Public Implicit Method,"io.sailrocket.core.workers.WorkerStatus.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.core.workers.WorkerStatus.values",,,,0,,
+Package,"io.sailrocket.core.workers.util",,,,9,64,54
+Public Class,"io.sailrocket.core.workers.util.WorkerMessage",4,25,25,4,23,0
+Public Constructor,"io.sailrocket.core.workers.util.WorkerMessage.WorkerMessage",,,,1,5,0
+Public Method,"io.sailrocket.core.workers.util.WorkerMessage.senderId",,,,1,3,0
+Public Method,"io.sailrocket.core.workers.util.WorkerMessage.statusCode",,,,1,3,0
+Public Method,"io.sailrocket.core.workers.util.WorkerMessage.toString",,,,1,8,0
+Public Class,"io.sailrocket.core.workers.util.WorkerMessageCodec",7,0,0,5,34,16
+Public Method,"io.sailrocket.core.workers.util.WorkerMessageCodec.decodeFromWire",,,,1,10,6
+Public Method,"io.sailrocket.core.workers.util.WorkerMessageCodec.encodeToWire",,,,1,10,5
+Public Method,"io.sailrocket.core.workers.util.WorkerMessageCodec.name",,,,1,4,2
+Public Method,"io.sailrocket.core.workers.util.WorkerMessageCodec.systemCodecID",,,,1,4,1
+Public Method,"io.sailrocket.core.workers.util.WorkerMessageCodec.transform",,,,1,4,2
+Package,"io.sailrocket.distributed",,,,2,20,0
+Public Class,"io.sailrocket.distributed.BenchmarkDistributionTestCase",5,50,50,2,13,0
+Public Method,"io.sailrocket.distributed.BenchmarkDistributionTestCase.before",,,,2,7,0
+Lambda Method,"io.sailrocket.distributed.BenchmarkDistributionTestCase.before.(lambda_expr_1)",,,,1,3,0
+Package,"io.sailrocket.exec",,,,13,67,28
+Public Class,"io.sailrocket.exec.SailRocketMain",9,60,40,11,60,9
+Public Constructor,"io.sailrocket.exec.SailRocketMain.SailRocketMain",,,,1,3,3
+Public Static Method,"io.sailrocket.exec.SailRocketMain.main",,,,1,3,0
+Public Method,"io.sailrocket.exec.SailRocketMain.run",,,,3,22,2
+Lambda Method,"io.sailrocket.exec.SailRocketMain.run.(lambda_expr_1)",,,,4,18,1
+Lambda Method,"io.sailrocket.exec.SailRocketMain.run.(lambda_expr_1).(lambda_expr_2)",,,,2,8,0
+Public Method,"io.sailrocket.exec.SailRocketMain.start",,,,3,13,0
+Lambda Method,"io.sailrocket.exec.SailRocketMain.start.(lambda_expr_1)",,,,2,8,0
+Public Method,"io.sailrocket.exec.SailRocketMain.stop",,,,3,14,1
+Lambda Method,"io.sailrocket.exec.SailRocketMain.stop.(lambda_expr_1)",,,,2,10,0
+Package,"io.sailrocket.http",,,,22,111,118
+Public Class,"io.sailrocket.http.HttpProtocol",3,33,33,3,16,0
+Constructor,"io.sailrocket.http.HttpProtocol.HttpProtocol",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpProtocol.baseUrl",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpProtocol.headers",,,,1,4,0
+Public Class,"io.sailrocket.http.HttpSequence",3,0,0,2,10,0
+Public Method,"io.sailrocket.http.HttpSequence.protocol",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpSequence.validators",,,,1,4,0
+Public Class,"io.sailrocket.http.HttpValidator",1,0,0,1,6,0
+Public Method,"io.sailrocket.http.HttpValidator.validate",,,,1,4,0
+Public Class,"io.sailrocket.http.HttpVerticle",9,0,0,5,25,4
+Public Method,"io.sailrocket.http.HttpVerticle.name",,,,1,4,0
+Private Method,"io.sailrocket.http.HttpVerticle.parseWorkerMessage",,,,1,4,1
+Public Method,"io.sailrocket.http.HttpVerticle.start",,,,2,9,1
+Lambda Method,"io.sailrocket.http.HttpVerticle.start.(lambda_expr_1)",,,,1,5,1
+Public Method,"io.sailrocket.http.HttpVerticle.stop",,,,1,4,2
+Public Class,"io.sailrocket.http.HttpWorkload",3,50,50,3,15,0
+Constructor,"io.sailrocket.http.HttpWorkload.HttpWorkload",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpWorkload.name",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpWorkload.run",,,,1,3,0
+Public Class,"io.sailrocket.http.HttpWorkloadBuilder",4,83,83,8,22,0
+Private Constructor,"io.sailrocket.http.HttpWorkloadBuilder.HttpWorkloadBuilder",,,,1,2,0
+Private Method,"io.sailrocket.http.HttpWorkloadBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.http.HttpWorkloadBuilder.build",,,,1,3,0
+Public Static Method,"io.sailrocket.http.HttpWorkloadBuilder.builder",,,,1,3,0
+Public Method,"io.sailrocket.http.HttpWorkloadBuilder.name",,,,2,3,0
+Lambda Method,"io.sailrocket.http.HttpWorkloadBuilder.name.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.http.HttpWorkloadBuilder.sequence",,,,2,3,0
+Lambda Method,"io.sailrocket.http.HttpWorkloadBuilder.sequence.(lambda_expr_1)",,,,1,1,0
+Package,"io.sailrocket.http.client",,,,1,9,19
+Public Class,"io.sailrocket.http.client.HttpClient",2,100,100,1,6,0
+Public Constructor,"io.sailrocket.http.client.HttpClient.HttpClient",,,,1,2,0
+Package,"io.sailrocket.spi",,,,0,7,0
+Public Interface,"io.sailrocket.spi.PacerStrategy",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.spi.PacerStrategy.name",,,,0,1,0
+Public Interface,"io.sailrocket.spi.Protocol",0,0,0,0,2,0
+Package,"io.sailrocket.util",,,,0,0,0
+Package,"io.sailrocket.util.url",,,,19,67,1
+Public Class,"io.sailrocket.util.url.Url",6,50,33,7,30,1
+Public Constructor,"io.sailrocket.util.url.Url.Url",,,,1,5,0
+Public Method,"io.sailrocket.util.url.Url.host",,,,1,3,0
+Public Method,"io.sailrocket.util.url.Url.path",,,,1,3,0
+Public Method,"io.sailrocket.util.url.Url.protocol",,,,1,3,0
+Public Method,"io.sailrocket.util.url.Url.toString",,,,2,8,1
+Public Method,"io.sailrocket.util.url.Url.toURL",,,,1,3,0
+Public Class,"io.sailrocket.util.url.UrlBuilder",3,87,87,12,30,0
+Private Constructor,"io.sailrocket.util.url.UrlBuilder.UrlBuilder",,,,1,2,0
+Private Method,"io.sailrocket.util.url.UrlBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.util.url.UrlBuilder.build",,,,1,3,0
+Public Static Method,"io.sailrocket.util.url.UrlBuilder.builder",,,,1,3,0
+Public Method,"io.sailrocket.util.url.UrlBuilder.host",,,,2,3,0
+Lambda Method,"io.sailrocket.util.url.UrlBuilder.host.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.util.url.UrlBuilder.path",,,,2,3,0
+Lambda Method,"io.sailrocket.util.url.UrlBuilder.path.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.util.url.UrlBuilder.port",,,,2,3,0
+Lambda Method,"io.sailrocket.util.url.UrlBuilder.port.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.util.url.UrlBuilder.protocol",,,,2,3,0
+Lambda Method,"io.sailrocket.util.url.UrlBuilder.protocol.(lambda_expr_1)",,,,1,1,0
+Package,"io.sailrocket.util.url.protocol",,,,16,69,0
+Public Class,"io.sailrocket.util.url.protocol.HttpProtocol",2,40,40,5,21,0
+Public Constructor,"io.sailrocket.util.url.protocol.HttpProtocol.HttpProtocol",,,,1,3,0
+Public Constructor,"io.sailrocket.util.url.protocol.HttpProtocol.HttpProtocol",,,,1,3,0
+Public Method,"io.sailrocket.util.url.protocol.HttpProtocol.name",,,,1,4,0
+Public Method,"io.sailrocket.util.url.protocol.HttpProtocol.port",,,,1,4,0
+Public Method,"io.sailrocket.util.url.protocol.HttpProtocol.secure",,,,1,4,0
+Public Class,"io.sailrocket.util.url.protocol.HttpsProtocol",2,40,40,5,21,0
+Public Constructor,"io.sailrocket.util.url.protocol.HttpsProtocol.HttpsProtocol",,,,1,3,0
+Public Constructor,"io.sailrocket.util.url.protocol.HttpsProtocol.HttpsProtocol",,,,1,3,0
+Public Method,"io.sailrocket.util.url.protocol.HttpsProtocol.name",,,,1,4,0
+Public Method,"io.sailrocket.util.url.protocol.HttpsProtocol.port",,,,1,4,0
+Public Method,"io.sailrocket.util.url.protocol.HttpsProtocol.secure",,,,1,4,0
+Public Interface,"io.sailrocket.util.url.protocol.Protocol",1,0,0,0,5,0
+Abstract Method,"io.sailrocket.util.url.protocol.Protocol.name",,,,0,1,0
+Abstract Method,"io.sailrocket.util.url.protocol.Protocol.port",,,,0,1,0
+Abstract Method,"io.sailrocket.util.url.protocol.Protocol.secure",,,,0,1,0
+Public Class,"io.sailrocket.util.url.protocol.Protocols",5,0,0,6,18,0
+Public Static Method,"io.sailrocket.util.url.protocol.Protocols.protocol",,,,3,8,0
+Public Static Method,"io.sailrocket.util.url.protocol.Protocols.protocol",,,,3,8,0

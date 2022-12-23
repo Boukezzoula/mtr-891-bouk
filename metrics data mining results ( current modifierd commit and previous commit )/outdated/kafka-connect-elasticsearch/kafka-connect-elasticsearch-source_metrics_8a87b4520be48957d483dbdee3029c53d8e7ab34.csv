@@ -1,0 +1,158 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AvroName.java",,,,6,16,15
+File,"AvroNameTest.java",,,,1,15,18
+File,"DocumentFilter.java",,,,0,5,0
+File,"ElasticConnection.java",,,,12,71,15
+File,"ElasticConnectionBuilder.java",,,,7,37,15
+File,"ElasticRepository.java",,,,16,104,15
+File,"ElasticRepositoryTest.java",,,,1,27,15
+File,"ElasticSourceConnector.java",,,,12,99,16
+File,"ElasticSourceConnectorConfig.java",,,,6,252,15
+File,"ElasticSourceConnectorTest.java",,,,1,23,18
+File,"ElasticSourceTask.java",,,,22,162,21
+File,"ElasticSourceTaskConfig.java",,,,1,13,19
+File,"ElasticSourceTaskTest.java",,,,5,99,27
+File,"MockOffsetFactory.java",,,,6,34,15
+File,"PageResult.java",,,,5,27,15
+File,"SchemaConverter.java",,,,21,99,16
+File,"SchemaConverterTest.java",,,,6,101,27
+File,"StructConverter.java",,,,14,86,16
+File,"TestContainersContext.java",,,,9,87,16
+File,"Version.java",,,,0,4,15
+File,"WhitelistFilter.java",,,,4,19,0
+File,"WhitelistFilterTest.java",,,,1,32,19
+Package,"com",,,,0,0,0
+Package,"com.github",,,,0,0,0
+Package,"com.github.dariobalinzo",,,,28,465,80
+Public Class,"com.github.dariobalinzo.ElasticSourceConnector",21,74,74,12,83,16
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.config",,,,1,4,0
+Private Method,"com.github.dariobalinzo.ElasticSourceConnector.groupPartitions",,,,3,10,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.start",,,,3,33,1
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.stop",,,,1,5,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.taskClass",,,,1,4,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.taskConfigs",,,,2,16,0
+Public Method,"com.github.dariobalinzo.ElasticSourceConnector.version",,,,1,4,0
+Public Class,"com.github.dariobalinzo.ElasticSourceConnectorConfig",7,0,0,6,244,0
+Public Constructor,"com.github.dariobalinzo.ElasticSourceConnectorConfig.ElasticSourceConnectorConfig",,,,1,3,0
+Protected Constructor,"com.github.dariobalinzo.ElasticSourceConnectorConfig.ElasticSourceConnectorConfig",,,,1,3,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addConnectorOptions",,,,1,33,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addDatabaseOptions",,,,1,94,0
+Private Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.addModeOptions",,,,1,34,0
+Protected Static Method,"com.github.dariobalinzo.ElasticSourceConnectorConfig.baseConfigDef",,,,1,7,0
+Public Class,"com.github.dariobalinzo.ElasticSourceConnectorTest",4,0,0,1,16,3
+Public Method,"com.github.dariobalinzo.ElasticSourceConnectorTest.shouldGetAListOfTasks",,,,1,14,3
+Public Class,"com.github.dariobalinzo.TestContainersContext",21,61,57,9,68,16
+Protected Method,"com.github.dariobalinzo.TestContainersContext.deleteTestIndex",,,,2,6,0
+Protected Method,"com.github.dariobalinzo.TestContainersContext.getConf",,,,1,14,0
+Protected Method,"com.github.dariobalinzo.TestContainersContext.insertMockData",,,,1,13,0
+Protected Method,"com.github.dariobalinzo.TestContainersContext.insertMockData",,,,1,3,0
+Protected Method,"com.github.dariobalinzo.TestContainersContext.refreshIndex",,,,1,3,0
+Public Static Method,"com.github.dariobalinzo.TestContainersContext.setupElastic",,,,1,12,1
+Public Static Method,"com.github.dariobalinzo.TestContainersContext.stopElastic",,,,2,6,0
+Public Class,"com.github.dariobalinzo.Version",1,0,0,0,3,15
+Package,"com.github.dariobalinzo.elastic",,,,41,266,75
+Public Class,"com.github.dariobalinzo.elastic.ElasticConnection",15,66,62,12,59,15
+Constructor,"com.github.dariobalinzo.elastic.ElasticConnection.ElasticConnection",,,,2,14,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnection.closeQuietly",,,,2,7,0
+Private Method,"com.github.dariobalinzo.elastic.ElasticConnection.createConnectionUsingAuth",,,,2,13,0
+Lambda Method,"com.github.dariobalinzo.elastic.ElasticConnection.createConnectionUsingAuth.(lambda_expr_1)",,,,1,1,0
+Private Method,"com.github.dariobalinzo.elastic.ElasticConnection.createConnectionWithNoAuth",,,,1,5,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnection.getClient",,,,1,3,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnection.getConnectionRetryBackoff",,,,1,3,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnection.getMaxConnectionAttempts",,,,1,3,0
+Private Method,"com.github.dariobalinzo.elastic.ElasticConnection.parseHosts",,,,2,5,0
+Lambda Method,"com.github.dariobalinzo.elastic.ElasticConnection.parseHosts.(lambda_expr_1)",,,,1,1,0
+Public Class,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder",2,85,85,7,36,15
+Public Constructor,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.ElasticConnectionBuilder",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.build",,,,1,3,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.withBackoff",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.withMaxAttempts",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.withPassword",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.withProtocol",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticConnectionBuilder.withUser",,,,1,4,0
+Public Final Class,"com.github.dariobalinzo.elastic.ElasticRepository",24,52,47,16,84,15
+Public Constructor,"com.github.dariobalinzo.elastic.ElasticRepository.ElasticRepository",,,,1,4,0
+Public Constructor,"com.github.dariobalinzo.elastic.ElasticRepository.ElasticRepository",,,,1,4,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticRepository.catIndices",,,,5,24,0
+Private Method,"com.github.dariobalinzo.elastic.ElasticRepository.executeSearch",,,,4,17,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticRepository.refreshIndex",,,,2,10,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticRepository.searchAfter",,,,2,16,0
+Public Method,"com.github.dariobalinzo.elastic.ElasticRepository.setPageSize",,,,1,3,0
+Public Class,"com.github.dariobalinzo.elastic.ElasticRepositoryTest",7,0,0,1,20,15
+Public Method,"com.github.dariobalinzo.elastic.ElasticRepositoryTest.shouldFetchDataFromElastic",,,,1,18,0
+Public Class,"com.github.dariobalinzo.elastic.PageResult",3,50,50,5,24,15
+Public Constructor,"com.github.dariobalinzo.elastic.PageResult.PageResult",,,,2,10,0
+Public Method,"com.github.dariobalinzo.elastic.PageResult.getDocuments",,,,1,3,0
+Public Method,"com.github.dariobalinzo.elastic.PageResult.getIndex",,,,1,3,0
+Public Method,"com.github.dariobalinzo.elastic.PageResult.getLastCursor",,,,1,3,0
+Package,"com.github.dariobalinzo.filter",,,,5,56,19
+Public Interface,"com.github.dariobalinzo.filter.DocumentFilter",1,0,0,0,3,0
+Public Abstract Method,"com.github.dariobalinzo.filter.DocumentFilter.filter",,,,0,1,0
+Public Class,"com.github.dariobalinzo.filter.WhitelistFilter",7,33,33,4,15,0
+Public Constructor,"com.github.dariobalinzo.filter.WhitelistFilter.WhitelistFilter",,,,1,3,0
+Public Method,"com.github.dariobalinzo.filter.WhitelistFilter.filter",,,,2,6,0
+Lambda Method,"com.github.dariobalinzo.filter.WhitelistFilter.filter.(lambda_expr_1)",,,,1,1,0
+Public Method,"com.github.dariobalinzo.filter.WhitelistFilter.getAllowedValues",,,,1,3,0
+Public Class,"com.github.dariobalinzo.filter.WhitelistFilterTest",11,100,100,1,22,4
+Private Static Class,"com.github.dariobalinzo.filter.WhitelistFilterTest.NotSupported",0,0,0,0,2,0
+Public Method,"com.github.dariobalinzo.filter.WhitelistFilterTest.shouldConvertSimpleSchema",,,,1,16,4
+Package,"com.github.dariobalinzo.schema",,,,48,317,92
+Public Class,"com.github.dariobalinzo.schema.AvroName",2,0,0,6,15,15
+Private Static Method,"com.github.dariobalinzo.schema.AvroName.filterInvalidCharacters",,,,2,7,0
+Public Static Method,"com.github.dariobalinzo.schema.AvroName.from",,,,2,3,0
+Public Static Method,"com.github.dariobalinzo.schema.AvroName.from",,,,2,3,0
+Public Class,"com.github.dariobalinzo.schema.AvroNameTest",4,0,0,1,12,3
+Public Method,"com.github.dariobalinzo.schema.AvroNameTest.shouldCreateValidAvroNames",,,,1,10,3
+Public Class,"com.github.dariobalinzo.schema.SchemaConverter",14,0,0,21,91,1
+Public Method,"com.github.dariobalinzo.schema.SchemaConverter.convert",,,,1,6,0
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertDocumentSchema",,,,11,29,1
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertListSchema",,,,8,45,0
+Private Method,"com.github.dariobalinzo.schema.SchemaConverter.convertMapSchema",,,,1,9,0
+Public Class,"com.github.dariobalinzo.schema.SchemaConverterTest",15,16,16,6,94,12
+Private Static Class,"com.github.dariobalinzo.schema.SchemaConverterTest.NotSupported",0,0,0,0,2,0
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertLists",,,,1,21,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertListsOfObject",,,,1,11,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertNestedObject",,,,1,25,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldConvertSimpleSchema",,,,1,19,3
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldRejectInvalidDocuments",,,,1,6,0
+Public Method,"com.github.dariobalinzo.schema.SchemaConverterTest.shouldRejectInvalidDocumentsInStructs",,,,1,6,0
+Public Class,"com.github.dariobalinzo.schema.StructConverter",18,0,0,14,79,1
+Public Method,"com.github.dariobalinzo.schema.StructConverter.convert",,,,1,5,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertDocumentStruct",,,,5,15,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertListOfObject",,,,1,16,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.convertListToAvroArray",,,,5,20,1
+Lambda Method,"com.github.dariobalinzo.schema.StructConverter.convertListToAvroArray.(lambda_expr_1)",,,,1,1,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.covertMapToAvroStruct",,,,1,13,0
+Private Method,"com.github.dariobalinzo.schema.StructConverter.isScalar",,,,1,8,0
+Package,"com.github.dariobalinzo.task",,,,34,308,82
+Public Class,"com.github.dariobalinzo.task.ElasticSourceTask",34,77,70,22,141,6
+Public Constructor,"com.github.dariobalinzo.task.ElasticSourceTask.ElasticSourceTask",,,,1,2,0
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.fetchLastOffset",,,,3,11,2
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.initConnectorFilter",,,,2,8,0
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.initEsConnection",,,,2,27,0
+Private Method,"com.github.dariobalinzo.task.ElasticSourceTask.parseResult",,,,3,24,2
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.poll",,,,5,23,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.start",,,,3,18,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.stop",,,,2,6,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTask.version",,,,1,4,0
+Public Class,"com.github.dariobalinzo.task.ElasticSourceTaskConfig",4,0,0,1,7,4
+Public Constructor,"com.github.dariobalinzo.task.ElasticSourceTaskConfig.ElasticSourceTaskConfig",,,,1,3,0
+Public Class,"com.github.dariobalinzo.task.ElasticSourceTaskTest",14,19,19,5,84,27
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTaskTest.init",,,,1,4,0
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTaskTest.shouldRunSourceTaskWhitelistMultiFilter",,,,1,18,2
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTaskTest.shouldRunSourceTaskWhitelistSingleFilter",,,,1,18,2
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTaskTest.shouldRunSourceTaskWithInitialOffset",,,,1,20,4
+Public Method,"com.github.dariobalinzo.task.ElasticSourceTaskTest.shouldRunSourceTaskWithoutInitialOffset",,,,1,20,4
+Public Class,"com.github.dariobalinzo.task.MockOffsetFactory",5,50,50,2,29,15
+Anonymous Class,"com.github.dariobalinzo.task.MockOffsetFactory.(Anon_2)",4,0,0,2,9,0
+Public Generic Method,"com.github.dariobalinzo.task.MockOffsetFactory.(Anon_2).offset",,,,1,4,0
+TypeVariable,"com.github.dariobalinzo.task.MockOffsetFactory.(Anon_2).offset.T",0,0,0,0,0,0
+Public Generic Method,"com.github.dariobalinzo.task.MockOffsetFactory.(Anon_2).offsets",,,,1,4,0
+TypeVariable,"com.github.dariobalinzo.task.MockOffsetFactory.(Anon_2).offsets.T",0,0,0,0,0,0
+Static Method,"com.github.dariobalinzo.task.MockOffsetFactory.empty",,,,1,3,0
+Static Method,"com.github.dariobalinzo.task.MockOffsetFactory.from",,,,1,14,0
+Anonymous Class,"com.github.dariobalinzo.task.MockOffsetFactory.from.(Anon_1)",4,0,0,2,9,0
+Public Generic Method,"com.github.dariobalinzo.task.MockOffsetFactory.from.(Anon_1).offset",,,,1,4,0
+TypeVariable,"com.github.dariobalinzo.task.MockOffsetFactory.from.(Anon_1).offset.T",0,0,0,0,0,0
+Public Generic Method,"com.github.dariobalinzo.task.MockOffsetFactory.from.(Anon_1).offsets",,,,1,4,0
+TypeVariable,"com.github.dariobalinzo.task.MockOffsetFactory.from.(Anon_1).offsets.T",0,0,0,0,0,0

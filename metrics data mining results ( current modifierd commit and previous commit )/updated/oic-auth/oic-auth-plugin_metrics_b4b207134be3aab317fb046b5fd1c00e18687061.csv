@@ -1,0 +1,123 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"OicSecurityRealm.java",,,,88,438,48
+File,"OicSession.java",,,,12,70,59
+File,"OicUserDetails.java",,,,8,41,1
+File,"OicUserProperty.java",,,,10,48,0
+File,"PluginTest.java",,,,9,146,14
+File,"TokenResponse.java",,,,13,60,101
+File,"TokenResponseTest.java",,,,2,42,6
+Package,"com",,,,0,0,0
+Package,"com.google",,,,0,0,0
+Package,"com.google.api",,,,0,0,0
+Package,"com.google.api.client",,,,0,0,0
+Package,"com.google.api.client.auth",,,,0,0,0
+Package,"com.google.api.client.auth.oauth2",,,,13,60,101
+Public Class,"com.google.api.client.auth.oauth2.TokenResponse",6,83,83,13,54,88
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.clone",,,,1,4,0
+Public Final Method,"com.google.api.client.auth.oauth2.TokenResponse.getAccessToken",,,,1,3,1
+Public Final Method,"com.google.api.client.auth.oauth2.TokenResponse.getExpiresInSeconds",,,,2,3,4
+Public Final Method,"com.google.api.client.auth.oauth2.TokenResponse.getRefreshToken",,,,1,3,4
+Public Final Method,"com.google.api.client.auth.oauth2.TokenResponse.getScope",,,,1,3,3
+Public Final Method,"com.google.api.client.auth.oauth2.TokenResponse.getTokenType",,,,1,3,4
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.set",,,,1,4,0
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.setAccessToken",,,,1,4,8
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.setExpiresInSeconds",,,,1,4,9
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.setRefreshToken",,,,1,4,9
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.setScope",,,,1,4,8
+Public Method,"com.google.api.client.auth.oauth2.TokenResponse.setTokenType",,,,1,4,9
+Package,"org",,,,0,0,0
+Package,"org.jenkinsci",,,,0,0,0
+Package,"org.jenkinsci.plugins",,,,0,0,0
+Package,"org.jenkinsci.plugins.oic",,,,129,785,128
+Public Class,"org.jenkinsci.plugins.oic.OicSecurityRealm",50,90,90,55,392,25
+Public Static Final Class,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl",6,0,0,22,77,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckAuthorizationServerUrl",,,,3,11,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckClientId",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckClientSecret",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckEndSessionUrl",,,,3,11,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckPostLogoutRedirectUrl",,,,3,11,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckScopes",,,,3,9,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckTokenServerUrl",,,,3,11,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.doCheckUserNameField",,,,2,6,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Constructor,"org.jenkinsci.plugins.oic.OicSecurityRealm.OicSecurityRealm",,,,3,23,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.buildOAuthRedirectUrl",,,,2,9,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.constructHttpTransport",,,,3,10,1
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.createSecurityComponents",,,,1,33,1
+Anonymous Class,"org.jenkinsci.plugins.oic.OicSecurityRealm.createSecurityComponents.(Anon_1)",4,0,0,2,6,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.createSecurityComponents.(Anon_1).authenticate",,,,2,5,0
+Anonymous Class,"org.jenkinsci.plugins.oic.OicSecurityRealm.createSecurityComponents.(Anon_2)",13,0,0,3,21,1
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.createSecurityComponents.(Anon_2).loadUserByUsername",,,,3,19,1
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.determineAuthorities",,,,4,21,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.determineRedirectTarget",,,,3,12,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.doCommenceLogin",,,,1,47,3
+Anonymous Class,"org.jenkinsci.plugins.oic.OicSecurityRealm.doCommenceLogin.(Anon_3)",11,0,0,5,29,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.doCommenceLogin.(Anon_3).onSuccess",,,,5,28,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.doFinishLogin",,,,1,3,3
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.doLogout",,,,1,6,1
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.failedCheckOfTokenField",,,,3,10,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getAuthorizationServerUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getClientId",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getClientSecret",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getEmailFieldName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getEndSessionUrl",,,,1,3,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getField",,,,2,7,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getFullNameFieldName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getGroupsFieldName",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getLoginUrl",,,,1,4,3
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getPostLogOutUrl",,,,3,13,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getPostLogoutRedirectUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getScopes",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getTokenFieldToCheckKey",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getTokenFieldToCheckValue",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getTokenServerUrl",,,,1,3,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getUserInfo",,,,2,16,0
+Anonymous Class,"org.jenkinsci.plugins.oic.OicSecurityRealm.getUserInfo.(Anon_4)",4,0,0,1,5,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getUserInfo.(Anon_4).initialize",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getUserInfoServerUrl",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.getUserNameField",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.isDisableSslVerification",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.isLogoutFromOpenidProvider",,,,1,3,0
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.loginAndSetUserData",,,,7,24,1
+Private Method,"org.jenkinsci.plugins.oic.OicSecurityRealm.readResolve",,,,2,6,0
+Abstract Class,"org.jenkinsci.plugins.oic.OicSession",15,72,72,12,56,36
+Constructor,"org.jenkinsci.plugins.oic.OicSession.OicSession",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.oic.OicSession.doCommenceLogin",,,,1,6,4
+Public Method,"org.jenkinsci.plugins.oic.OicSession.doFinishLogin",,,,5,20,3
+Public Static Method,"org.jenkinsci.plugins.oic.OicSession.getCurrent",,,,1,3,3
+Protected Method,"org.jenkinsci.plugins.oic.OicSession.getFrom",,,,1,3,5
+Public Method,"org.jenkinsci.plugins.oic.OicSession.getIdToken",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicSession.getState",,,,1,3,0
+Protected Abstract Method,"org.jenkinsci.plugins.oic.OicSession.onSuccess",,,,0,1,0
+Public Method,"org.jenkinsci.plugins.oic.OicSession.setIdToken",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.oic.OicUserDetails",3,75,75,8,37,1
+Public Constructor,"org.jenkinsci.plugins.oic.OicUserDetails.OicUserDetails",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.getAuthorities",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.getPassword",,,,1,4,1
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.getUsername",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.isAccountNonExpired",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.isAccountNonLocked",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.isCredentialsNonExpired",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserDetails.isEnabled",,,,1,4,0
+Public Class,"org.jenkinsci.plugins.oic.OicUserProperty",9,40,40,8,39,0
+Public Static Class,"org.jenkinsci.plugins.oic.OicUserProperty.Descriptor",7,0,0,2,11,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.Descriptor.getDisplayName",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.Descriptor.newInstance",,,,1,5,0
+Public Constructor,"org.jenkinsci.plugins.oic.OicUserProperty.OicUserProperty",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.getAllGrantedAuthorities",,,,4,10,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.getAuthorities",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.getDescriptor",,,,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.OicUserProperty.getUserName",,,,1,3,0
+Public Class,"org.jenkinsci.plugins.oic.PluginTest",25,56,56,5,112,14
+Public Static Class,"org.jenkinsci.plugins.oic.PluginTest.TestRealm",11,0,0,3,33,2
+Public Constructor,"org.jenkinsci.plugins.oic.PluginTest.TestRealm.TestRealm",,,,1,20,2
+Public Method,"org.jenkinsci.plugins.oic.PluginTest.TestRealm.doFinishLogin",,,,2,11,0
+Private Method,"org.jenkinsci.plugins.oic.PluginTest.createIdToken",,,,1,14,0
+Private Method,"org.jenkinsci.plugins.oic.PluginTest.getAuthentication",,,,2,11,6
+Anonymous Class,"org.jenkinsci.plugins.oic.PluginTest.getAuthentication.(Anon_1)",3,0,0,1,4,0
+Public Method,"org.jenkinsci.plugins.oic.PluginTest.getAuthentication.(Anon_1).call",,,,1,3,0
+Public Method,"org.jenkinsci.plugins.oic.PluginTest.setUp",,,,1,5,0
+Public Method,"org.jenkinsci.plugins.oic.PluginTest.testLogin",,,,1,34,0
+Public Class,"org.jenkinsci.plugins.oic.TokenResponseTest",8,0,0,2,30,6
+Public Method,"org.jenkinsci.plugins.oic.TokenResponseTest.parseLongLiteral",,,,1,10,0
+Public Method,"org.jenkinsci.plugins.oic.TokenResponseTest.parseStringWithLong",,,,1,10,0

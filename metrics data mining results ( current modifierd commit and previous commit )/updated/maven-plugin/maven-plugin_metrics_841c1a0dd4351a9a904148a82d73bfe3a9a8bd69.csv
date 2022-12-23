@@ -1,0 +1,1853 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbortedMavenBuildTest.java",,,,2,31,0
+File,"AbstractMaven3xBuildTest.java",,,,21,236,30
+File,"AbstractMavenBuild.java",,,,10,52,37
+File,"AbstractMavenBuilder.java",,,,37,156,80
+File,"AbstractMavenJavadocArchiver.java",,,,19,106,39
+File,"AbstractMavenProcessFactory.java",,,,74,399,164
+File,"AbstractMavenProject.java",,,,30,134,87
+File,"AbstractMavenTestCase.java",,,,3,25,14
+File,"AggregatableAction.java",,,,0,8,44
+File,"AggregatingClassLoader.java",,,,9,41,10
+File,"BuildInfoRecorder.java",,,,7,67,29
+File,"CaseResultTest.java",,,,1,31,26
+File,"DefaultLocalRepositoryLocator.java",,,,3,21,5
+File,"ExecutedMojo.java",,,,26,125,83
+File,"ExecutedMojoTest.java",,,,4,52,8
+File,"ExecutionEventLogger.java",,,,8,57,23
+File,"ExtractResourceWithChangesSCM2.java",,,,4,19,24
+File,"FilteredChangeLogSet.java",,,,5,30,29
+File,"LocalRepositoryLocator.java",,,,1,12,14
+File,"LocalRepositoryLocatorDescriptor.java",,,,0,4,5
+File,"Maven2Builder.java",,,,31,129,36
+File,"Maven30xBuildTest.java",,,,2,15,23
+File,"Maven31ProcessFactory.java",,,,10,56,29
+File,"Maven31xBuildTest.java",,,,1,16,22
+File,"Maven32ProcessFactory.java",,,,10,56,29
+File,"Maven33ProcessFactory.java",,,,10,56,29
+File,"Maven35ProcessFactory.java",,,,10,56,29
+File,"Maven3Builder.java",,,,121,508,112
+File,"Maven3ConsoleFormatter.java",,,,4,29,32
+File,"Maven3FailureLogger.java",,,,21,120,14
+File,"Maven3ProcessFactory.java",,,,15,87,45
+File,"MavenAbstractArtifactRecord.java",,,,32,182,74
+File,"MavenAggregatedArtifactRecord.java",,,,12,55,31
+File,"MavenAggregatedReport.java",,,,0,10,63
+File,"MavenArgumentInterceptorAction.java",,,,0,7,69
+File,"MavenArgumentInterceptorTest.java",,,,20,112,32
+File,"MavenArtifact.java",,,,33,194,120
+File,"MavenArtifactArchiver.java",,,,23,107,52
+File,"MavenArtifactRecord.java",,,,16,125,68
+File,"MavenBuild.java",,,,159,706,146
+File,"MavenBuildInformation.java",,,,6,33,40
+File,"MavenBuildProxy.java",,,,21,108,150
+File,"MavenBuildProxy2.java",,,,4,21,53
+File,"MavenBuildSurefireFailedTest.java",,,,7,71,6
+File,"MavenBuildTest.java",,,,29,322,33
+File,"MavenBuilder.java",,,,33,217,109
+File,"MavenEmbedderRequest.java",,,,43,187,98
+File,"MavenEmptyModuleTest.java",,,,2,26,6
+File,"MavenEnvironmentContributingActionFromBuilderTest.java",,,,10,87,18
+File,"MavenEnvironmentContributingActionTest.java",,,,12,100,15
+File,"MavenFingerprinter.java",,,,31,161,68
+File,"MavenJavadocArchiver.java",,,,6,38,29
+File,"MavenJenkinsRule.java",,,,3,23,14
+File,"MavenMailer.java",,,,10,59,29
+File,"MavenMailerTest.java",,,,11,168,44
+File,"MavenModule.java",,,,112,466,236
+File,"MavenModuleSet.java",,,,221,882,407
+File,"MavenModuleSetBuild.java",,,,232,1098,259
+File,"MavenModuleSetTest.java",,,,4,78,11
+File,"MavenModuleTest.java",,,,17,277,26
+File,"MavenMultiLevelModuleTest.java",,,,8,61,18
+File,"MavenMultiModuleLogRotatorCleanArtifactsTest.java",,,,4,77,20
+File,"MavenMultiModuleTest.java",,,,76,466,98
+File,"MavenMultiModuleTestIncremental.java",,,,7,53,4
+File,"MavenOptsTest.java",,,,9,109,7
+File,"MavenProbeAction.java",,,,17,72,49
+File,"MavenProcessFactory.java",,,,17,109,59
+File,"MavenProjectActionBuilder.java",,,,0,7,49
+File,"MavenProjectTest.java",,,,19,191,51
+File,"MavenReportInfo.java",,,,1,14,40
+File,"MavenReporter.java",,,,13,58,245
+File,"MavenReporterDescriptor.java",,,,7,37,62
+File,"MavenReporters.java",,,,3,16,36
+File,"MavenSiteArchiver.java",,,,21,116,49
+File,"MavenSiteArchiverTest.java",,,,1,8,7
+File,"MavenSnapshotTriggerTest.java",,,,7,152,50
+File,"MavenTestDataPublisher.java",,,,14,83,27
+File,"MavenTestJavadocArchiver.java",,,,6,38,29
+File,"MavenUtil.java",,,,41,205,80
+File,"MavenUtilTest.java",,,,7,34,23
+File,"MavenVersionCallable.java",,,,6,39,29
+File,"MockHelper.java",,,,1,11,0
+File,"ModuleDependency.java",,,,38,157,103
+File,"ModuleDependencyLocator.java",,,,3,24,55
+File,"ModuleName.java",,,,22,79,40
+File,"MojoInfo.java",,,,23,136,157
+File,"MojoInfoBuilder.java",,,,12,80,0
+File,"NeedsFullBuildAction.java",,,,3,13,6
+File,"PerExecutorLocalRepositoryLocator.java",,,,5,28,3
+File,"PerJobLocalRepositoryLocator.java",,,,6,33,5
+File,"PlexusModuleContributor.java",,,,8,48,24
+File,"PlexusModuleContributorFactory.java",,,,7,40,27
+File,"PlexusModuleContributorTest.java",,,,4,56,7
+File,"PluginImpl.java",,,,2,24,32
+File,"PluginName.java",,,,8,36,32
+File,"PomInfo.java",,,,31,127,98
+File,"ProcessCache.java",,,,24,174,79
+File,"RedeployPublisher.java",,,,77,379,89
+File,"RedeployPublisherTest.java",,,,20,204,66
+File,"ReportAction.java",,,,6,32,31
+File,"ReportCollector.java",,,,11,64,32
+File,"ResultExposingBuilder.java",,,,3,20,26
+File,"SplittableBuildListener.java",,,,26,152,73
+File,"SurefireAggregatedReport.java",,,,10,54,31
+File,"SurefireArchiver.java",,,,45,226,76
+File,"SurefireArchiverDetectTestMojosTest.java",,,,23,181,7
+File,"SurefireArchiverFilterReportsFileTest.java",,,,6,73,3
+File,"SurefireArchiverTest.java",,,,4,31,26
+File,"SurefireArchiverUnitTest.java",,,,46,305,8
+File,"SurefireReport.java",,,,2,20,27
+File,"TcpSocketHostLocator.java",,,,1,13,16
+File,"TestFailureDetector.java",,,,0,6,11
+File,"TestMojo.java",,,,57,243,49
+File,"TestMojoTest.java",,,,28,233,2
+File,"TransferListenerImpl.java",,,,8,40,38
+File,"UnbuiltModuleAction.java",,,,6,26,17
+Package,"hudson",,,,0,0,0
+Package,"hudson.maven",,,,1978,10909,4759
+Public Class,"hudson.maven.AbortedMavenBuildTest",10,0,0,1,22,0
+Private Static Class,"hudson.maven.AbortedMavenBuildTest.AbortingReporter",5,0,0,1,7,0
+Public Method,"hudson.maven.AbortedMavenBuildTest.AbortingReporter.end",,,,1,4,0
+Public Method,"hudson.maven.AbortedMavenBuildTest.testBuildWrapperSeesAbortedStatus",,,,1,13,0
+Public Abstract Class,"hudson.maven.AbstractMaven3xBuildTest",29,0,0,19,217,11
+Private Static Class,"hudson.maven.AbstractMaven3xBuildTest.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.TestReporter.end",,,,1,6,0
+Public Abstract Method,"hudson.maven.AbstractMaven3xBuildTest.configureMaven3x",,,,0,1,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testBuildTimeStampProperty",,,,1,13,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testDuplicateTestResults",,,,1,13,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMaven3BuildWrongInheritence",,,,1,13,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMaven3BuildWrongScope",,,,1,14,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMavenSeveralModulesInDirectory",,,,1,11,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMavenWithDependencyVersionInEnvVar",,,,1,14,1
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMultiModMavenNonRecursive",,,,1,12,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testMultiModuleInvalidRecursivePom",,,,1,11,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testSimpleMaven3Build",,,,1,10,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testSimpleMaven3BuildRedeployPublisher",,,,1,24,0
+Anonymous Class,"hudson.maven.AbstractMaven3xBuildTest.testSimpleMaven3BuildRedeployPublisher.(Anon_1)",4,0,0,1,6,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testSimpleMaven3BuildRedeployPublisher.(Anon_1).accept",,,,1,5,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testSingleModuleBuild",,,,2,20,5
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testSiteBuildWithForkedMojo",,,,1,10,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testTychoEclipseTestResults",,,,3,20,0
+Public Method,"hudson.maven.AbstractMaven3xBuildTest.testTychoTestResults",,,,3,20,2
+Public Abstract Generic Class,"hudson.maven.AbstractMavenBuild",15,0,0,10,39,14
+Protected Constructor,"hudson.maven.AbstractMavenBuild.AbstractMavenBuild",,,,1,3,0
+Public Constructor,"hudson.maven.AbstractMavenBuild.AbstractMavenBuild",,,,1,3,0
+Public Constructor,"hudson.maven.AbstractMavenBuild.AbstractMavenBuild",,,,1,3,0
+TypeVariable,"hudson.maven.AbstractMavenBuild.B",1,0,0,0,0,0
+TypeVariable,"hudson.maven.AbstractMavenBuild.P",1,0,0,0,0,0
+Protected Final Method,"hudson.maven.AbstractMavenBuild.expandTokens",,,,4,16,6
+Public Method,"hudson.maven.AbstractMavenBuild.getEnvironment",,,,3,10,0
+Public Abstract Method,"hudson.maven.AbstractMavenBuild.getMavenOpts",,,,0,1,8
+Public Abstract Class,"hudson.maven.AbstractMavenBuilder",26,80,80,30,136,57
+Protected Constructor,"hudson.maven.AbstractMavenBuilder.AbstractMavenBuilder",,,,2,8,0
+Protected Static Class,"hudson.maven.AbstractMavenBuilder.FilterImpl",8,55,55,7,34,7
+Public Constructor,"hudson.maven.AbstractMavenBuilder.FilterImpl.FilterImpl",,,,1,4,0
+Public Constructor,"hudson.maven.AbstractMavenBuilder.FilterImpl.FilterImpl",,,,2,8,0
+Public Method,"hudson.maven.AbstractMavenBuilder.FilterImpl.executeAsync",,,,1,6,0
+Public Method,"hudson.maven.AbstractMavenBuilder.FilterImpl.getMavenBuildInformation",,,,1,3,0
+Public Method,"hudson.maven.AbstractMavenBuilder.FilterImpl.readResolve",,,,1,4,0
+Public Method,"hudson.maven.AbstractMavenBuilder.FilterImpl.setFutures",,,,1,3,0
+Method,"hudson.maven.AbstractMavenBuilder.end",,,,3,10,5
+Protected Method,"hudson.maven.AbstractMavenBuilder.format",,,,1,3,0
+Protected Method,"hudson.maven.AbstractMavenBuilder.formatArgs",,,,3,12,1
+Public Method,"hudson.maven.AbstractMavenBuilder.getClassLoader",,,,1,3,0
+Protected Method,"hudson.maven.AbstractMavenBuilder.initializeAsynchronousExecutions",,,,3,8,4
+Protected Method,"hudson.maven.AbstractMavenBuilder.isDebug",,,,3,6,0
+Protected Method,"hudson.maven.AbstractMavenBuilder.isQuiet",,,,3,6,0
+Protected Method,"hudson.maven.AbstractMavenBuilder.recordAsynchronousExecution",,,,1,3,3
+Protected Method,"hudson.maven.AbstractMavenBuilder.registerSystemProperties",,,,4,9,7
+Protected Method,"hudson.maven.AbstractMavenBuilder.waitForAsynchronousExecutions",,,,6,24,6
+Public Abstract Class,"hudson.maven.AbstractMavenProcessFactory",50,82,72,54,347,141
+Constructor,"hudson.maven.AbstractMavenProcessFactory.AbstractMavenProcessFactory",,,,1,8,0
+Interface,"hudson.maven.AbstractMavenProcessFactory.Acceptor",3,0,0,0,4,0
+Abstract Method,"hudson.maven.AbstractMavenProcessFactory.Acceptor.accept",,,,0,1,0
+Abstract Method,"hudson.maven.AbstractMavenProcessFactory.Acceptor.getPort",,,,0,1,0
+Private Static Final Class,"hudson.maven.AbstractMavenProcessFactory.ConfigureOriginalJDK",5,0,0,5,15,2
+Constructor,"hudson.maven.AbstractMavenProcessFactory.ConfigureOriginalJDK.ConfigureOriginalJDK",,,,1,3,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.ConfigureOriginalJDK.call",,,,4,8,1
+Static Final Class,"hudson.maven.AbstractMavenProcessFactory.Connection",9,25,18,4,28,23
+Constructor,"hudson.maven.AbstractMavenProcessFactory.Connection.Connection",,,,1,5,0
+Private Constructor,"hudson.maven.AbstractMavenProcessFactory.Connection.Connection",,,,1,4,0
+Private Method,"hudson.maven.AbstractMavenProcessFactory.Connection.readResolve",,,,1,7,0
+Private Method,"hudson.maven.AbstractMavenProcessFactory.Connection.writeReplace",,,,1,5,1
+Private Static Final Class,"hudson.maven.AbstractMavenProcessFactory.FindJavaHome",3,0,0,2,7,2
+Public Method,"hudson.maven.AbstractMavenProcessFactory.FindJavaHome.call",,,,2,4,1
+Private Static Final Class,"hudson.maven.AbstractMavenProcessFactory.GetCharset",3,0,0,1,6,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.GetCharset.call",,,,1,3,0
+Protected Static Final Class,"hudson.maven.AbstractMavenProcessFactory.GetRemotingJar",3,0,0,1,6,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.GetRemotingJar.call",,,,1,3,0
+Private Static Final Class,"hudson.maven.AbstractMavenProcessFactory.SocketHandler",3,0,0,1,28,12
+Static Final Class,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.AcceptorImpl",8,50,50,4,22,8
+Constructor,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.AcceptorImpl.AcceptorImpl",,,,1,5,4
+Public Method,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.AcceptorImpl.accept",,,,1,5,1
+Public Method,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.AcceptorImpl.getPort",,,,1,4,0
+Private Method,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.AcceptorImpl.writeReplace",,,,1,3,3
+Public Method,"hudson.maven.AbstractMavenProcessFactory.SocketHandler.call",,,,1,3,0
+Public Static Class,"hudson.maven.AbstractMavenProcessFactory.UserInetTcpSocketHostLocator",6,0,0,2,11,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.UserInetTcpSocketHostLocator.getTcpSocketHost",,,,2,8,0
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.addRunHeadLessOption",,,,4,13,5
+Protected Abstract Method,"hudson.maven.AbstractMavenProcessFactory.applyPlexusModuleContributor",,,,0,1,10
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.buildMavenAgentCmdLine",,,,1,3,3
+Private Method,"hudson.maven.AbstractMavenProcessFactory.buildMavenAgentCmdLine",,,,10,47,6
+Protected Final Method,"hudson.maven.AbstractMavenProcessFactory.classPathEntry",,,,2,7,13
+Static Method,"hudson.maven.AbstractMavenProcessFactory.copyJar",,,,3,20,8
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.getCurrentNode",,,,1,3,3
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.getEnvVars",,,,1,3,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.getJava",,,,2,6,0
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.getLauncher",,,,1,3,0
+Protected Abstract Method,"hudson.maven.AbstractMavenProcessFactory.getMainClassName",,,,0,1,3
+Protected Abstract Method,"hudson.maven.AbstractMavenProcessFactory.getMavenAgentClassPath",,,,0,1,3
+Public Method,"hudson.maven.AbstractMavenProcessFactory.getMavenInstallation",,,,2,5,0
+Protected Abstract Method,"hudson.maven.AbstractMavenProcessFactory.getMavenInterceptorClassPath",,,,0,1,3
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,4
+Protected Abstract Method,"hudson.maven.AbstractMavenProcessFactory.getMavenInterceptorOverride",,,,0,1,3
+Protected Method,"hudson.maven.AbstractMavenProcessFactory.getMavenModuleSet",,,,1,3,0
+Public Method,"hudson.maven.AbstractMavenProcessFactory.getMavenOpts",,,,7,20,2
+Public Method,"hudson.maven.AbstractMavenProcessFactory.newProcess",,,,17,75,10
+Public Abstract Generic Class,"hudson.maven.AbstractMavenProject",6,0,0,3,116,64
+Protected Constructor,"hudson.maven.AbstractMavenProject.AbstractMavenProject",,,,1,3,0
+Protected Static Class,"hudson.maven.AbstractMavenProject.MavenModuleDependency",13,0,0,27,100,51
+Public Constructor,"hudson.maven.AbstractMavenProject.MavenModuleDependency.MavenModuleDependency",,,,1,4,0
+Private Method,"hudson.maven.AbstractMavenProject.MavenModuleDependency.areUpstreamsBuilding",,,,4,19,18
+Private Method,"hudson.maven.AbstractMavenProject.MavenModuleDependency.ignoreUnsuccessfulUpstreams",,,,4,13,10
+Private Method,"hudson.maven.AbstractMavenProject.MavenModuleDependency.inDownstreamProjects",,,,4,12,0
+Public Method,"hudson.maven.AbstractMavenProject.MavenModuleDependency.shouldTriggerBuild",,,,14,50,23
+TypeVariable,"hudson.maven.AbstractMavenProject.P",0,0,0,0,0,0
+TypeVariable,"hudson.maven.AbstractMavenProject.R",0,0,0,0,0,0
+Protected Abstract Method,"hudson.maven.AbstractMavenProject.addTransientActionsFromBuild",,,,0,1,4
+Protected Method,"hudson.maven.AbstractMavenProject.createTransientActions",,,,2,9,4
+Public Abstract Class,"hudson.maven.AbstractMavenTestCase",13,0,0,3,18,14
+Public Method,"hudson.maven.AbstractMavenTestCase.createComputerLauncher",,,,2,8,3
+Protected Method,"hudson.maven.AbstractMavenTestCase.setUp",,,,1,6,3
+Public Interface,"hudson.maven.AggregatableAction",3,0,0,0,4,12
+Abstract Method,"hudson.maven.AggregatableAction.createAggregatedAction",,,,0,2,12
+Class,"hudson.maven.AggregatingClassLoader",10,0,0,9,34,10
+Public Constructor,"hudson.maven.AggregatingClassLoader.AggregatingClassLoader",,,,1,4,0
+Protected Method,"hudson.maven.AggregatingClassLoader.findClass",,,,3,10,2
+Protected Method,"hudson.maven.AggregatingClassLoader.findResource",,,,3,9,0
+Protected Method,"hudson.maven.AggregatingClassLoader.findResources",,,,2,8,0
+Public Class,"hudson.maven.CaseResultTest",17,0,0,1,19,3
+Public Method,"hudson.maven.CaseResultTest.mavenErrorMsgAndStacktraceRender",,,,1,16,3
+Public Final Class,"hudson.maven.ExecutedMojo",22,55,55,23,107,60
+Public Static Final Class,"hudson.maven.ExecutedMojo.Cache",7,0,0,3,10,6
+Public Constructor,"hudson.maven.ExecutedMojo.Cache.Cache",,,,2,4,0
+Public Method,"hudson.maven.ExecutedMojo.Cache.get",,,,1,3,0
+Public Constructor,"hudson.maven.ExecutedMojo.ExecutedMojo",,,,6,31,2
+Private Constructor,"hudson.maven.ExecutedMojo.ExecutedMojo",,,,1,9,3
+Public Method,"hudson.maven.ExecutedMojo.getDurationString",,,,1,3,3
+Public Method,"hudson.maven.ExecutedMojo.getGoalLink",,,,3,7,2
+Private Method,"hudson.maven.ExecutedMojo.getMojoClass",,,,3,8,1
+Private Method,"hudson.maven.ExecutedMojo.getMojoClassForMaven2",,,,2,11,0
+Public Method,"hudson.maven.ExecutedMojo.getPluginLink",,,,4,10,6
+Public Method,"hudson.maven.ExecutedMojo.getReadableExecutionId",,,,2,4,0
+Protected Method,"hudson.maven.ExecutedMojo.readResolve",,,,1,3,6
+Public Class,"hudson.maven.ExecutedMojoTest",16,37,37,4,39,8
+Public Method,"hudson.maven.ExecutedMojoTest.after",,,,1,4,0
+Public Method,"hudson.maven.ExecutedMojoTest.before",,,,1,14,1
+Public Method,"hudson.maven.ExecutedMojoTest.testMojoFromClassesDirectory",,,,1,9,1
+Public Method,"hudson.maven.ExecutedMojoTest.testMojoFromJarFile",,,,1,8,1
+Public Class,"hudson.maven.ExtractResourceWithChangesSCM2",5,0,0,3,15,1
+Public Constructor,"hudson.maven.ExtractResourceWithChangesSCM2.ExtractResourceWithChangesSCM2",,,,1,3,0
+Public Constructor,"hudson.maven.ExtractResourceWithChangesSCM2.ExtractResourceWithChangesSCM2",,,,1,3,0
+Public Method,"hudson.maven.ExtractResourceWithChangesSCM2.getDescriptor",,,,1,7,0
+Anonymous Class,"hudson.maven.ExtractResourceWithChangesSCM2.getDescriptor.(Anon_1)",2,0,0,1,4,0
+Public Method,"hudson.maven.ExtractResourceWithChangesSCM2.getDescriptor.(Anon_1).getDisplayName",,,,1,3,0
+Public Class,"hudson.maven.FilteredChangeLogSet",5,37,37,5,24,6
+Constructor,"hudson.maven.FilteredChangeLogSet.FilteredChangeLogSet",,,,2,11,1
+Public Method,"hudson.maven.FilteredChangeLogSet.getLogs",,,,1,3,0
+Public Method,"hudson.maven.FilteredChangeLogSet.isEmptySet",,,,1,3,0
+Public Method,"hudson.maven.FilteredChangeLogSet.iterator",,,,1,3,0
+Final Class,"hudson.maven.Maven2Builder",36,80,80,31,107,12
+Public Constructor,"hudson.maven.Maven2Builder.Maven2Builder",,,,2,8,0
+Public Method,"hudson.maven.Maven2Builder.call",,,,3,12,0
+Public Method,"hudson.maven.Maven2Builder.hasBuildFailures",,,,1,4,0
+Method,"hudson.maven.Maven2Builder.onReportGenerated",,,,3,7,0
+Method,"hudson.maven.Maven2Builder.postBuild",,,,1,2,1
+Method,"hudson.maven.Maven2Builder.postExecute",,,,7,19,0
+Method,"hudson.maven.Maven2Builder.postModule",,,,4,15,2
+Method,"hudson.maven.Maven2Builder.preBuild",,,,4,16,1
+Method,"hudson.maven.Maven2Builder.preExecute",,,,3,8,0
+Method,"hudson.maven.Maven2Builder.preModule",,,,3,9,1
+Public Class,"hudson.maven.Maven30xBuildTest",4,0,0,2,12,4
+Public Method,"hudson.maven.Maven30xBuildTest.configureMaven3x",,,,1,6,0
+Public Method,"hudson.maven.Maven30xBuildTest.testSiteBuildWithForkedMojo",,,,1,3,1
+Public Class,"hudson.maven.Maven31ProcessFactory",17,0,0,8,43,6
+Private Static Final Class,"hudson.maven.Maven31ProcessFactory.InstallPlexusModulesTask",9,0,0,2,12,0
+Public Constructor,"hudson.maven.Maven31ProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.Maven31ProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.Maven31ProcessFactory.Maven31ProcessFactory",,,,1,4,0
+Protected Method,"hudson.maven.Maven31ProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.Maven31ProcessFactory.getMainClassName",,,,1,5,0
+Protected Method,"hudson.maven.Maven31ProcessFactory.getMavenAgentClassPath",,,,3,8,1
+Protected Method,"hudson.maven.Maven31ProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.Maven31ProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,0
+Public Class,"hudson.maven.Maven31xBuildTest",5,0,0,1,12,3
+Public Method,"hudson.maven.Maven31xBuildTest.configureMaven3x",,,,1,9,0
+Public Class,"hudson.maven.Maven32ProcessFactory",17,0,0,8,43,6
+Private Static Final Class,"hudson.maven.Maven32ProcessFactory.InstallPlexusModulesTask",9,0,0,2,12,0
+Public Constructor,"hudson.maven.Maven32ProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.Maven32ProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.Maven32ProcessFactory.Maven32ProcessFactory",,,,1,4,0
+Protected Method,"hudson.maven.Maven32ProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.Maven32ProcessFactory.getMainClassName",,,,1,5,0
+Protected Method,"hudson.maven.Maven32ProcessFactory.getMavenAgentClassPath",,,,3,8,1
+Protected Method,"hudson.maven.Maven32ProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.Maven32ProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,0
+Public Class,"hudson.maven.Maven33ProcessFactory",17,0,0,8,43,6
+Private Static Final Class,"hudson.maven.Maven33ProcessFactory.InstallPlexusModulesTask",9,0,0,2,12,0
+Public Constructor,"hudson.maven.Maven33ProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.Maven33ProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.Maven33ProcessFactory.Maven33ProcessFactory",,,,1,4,0
+Protected Method,"hudson.maven.Maven33ProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.Maven33ProcessFactory.getMainClassName",,,,1,5,0
+Protected Method,"hudson.maven.Maven33ProcessFactory.getMavenAgentClassPath",,,,3,8,1
+Protected Method,"hudson.maven.Maven33ProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.Maven33ProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,0
+Public Class,"hudson.maven.Maven35ProcessFactory",17,0,0,8,43,6
+Private Static Final Class,"hudson.maven.Maven35ProcessFactory.InstallPlexusModulesTask",9,0,0,2,12,0
+Public Constructor,"hudson.maven.Maven35ProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.Maven35ProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.Maven35ProcessFactory.Maven35ProcessFactory",,,,1,4,0
+Protected Method,"hudson.maven.Maven35ProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.Maven35ProcessFactory.getMainClassName",,,,1,5,0
+Protected Method,"hudson.maven.Maven35ProcessFactory.getMavenAgentClassPath",,,,3,8,1
+Protected Method,"hudson.maven.Maven35ProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.Maven35ProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,0
+Public Class,"hudson.maven.Maven3Builder",32,54,54,14,470,89
+Private Static Final Class,"hudson.maven.Maven3Builder.JenkinsEventSpy",6,0,0,22,116,4
+Constructor,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy",,,,1,39,2
+Anonymous Class,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1)",2,0,0,17,35,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkFailed",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkSucceeded",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkedProjectFailed",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkedProjectStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).forkedProjectSucceeded",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).mojoFailed",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).mojoSkipped",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).mojoStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).mojoSucceeded",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).projectDiscoveryStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).projectFailed",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).projectSkipped",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).projectStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).projectSucceeded",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).sessionEnded",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.JenkinsEventSpy.(Anon_1).sessionStarted",,,,1,2,0
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.close",,,,1,5,1
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.init",,,,1,5,1
+Public Method,"hudson.maven.Maven3Builder.JenkinsEventSpy.onEvent",,,,19,64,0
+Protected Constructor,"hudson.maven.Maven3Builder.Maven3Builder",,,,2,13,0
+Protected Static Class,"hudson.maven.Maven3Builder.Maven3BuilderRequest",5,0,0,0,11,0
+Private Static Class,"hudson.maven.Maven3Builder.MavenExecutionListener",35,87,70,68,257,74
+Constructor,"hudson.maven.Maven3Builder.MavenExecutionListener.MavenExecutionListener",,,,2,9,1
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.debug",,,,1,3,0
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkFailed",,,,1,4,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkStarted",,,,1,4,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkSucceeded",,,,1,4,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkedProjectFailed",,,,1,3,1
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkedProjectStarted",,,,1,4,1
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.forkedProjectSucceeded",,,,1,4,1
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.gav",,,,1,3,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.getExecutionException",,,,2,7,3
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.getMavenBuildProxy2",,,,3,8,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.getMavenReporters",,,,1,3,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.getMojoStartTime",,,,1,3,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.getSessionProjects",,,,2,9,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.hasTestFailures",,,,1,3,4
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.initMojoStartTime",,,,1,5,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.mojoExec",,,,1,4,0
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.mojoFailed",,,,1,5,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.mojoSkipped",,,,1,4,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.mojoStarted",,,,1,5,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.mojoSucceeded",,,,1,5,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.projectDiscoveryStarted",,,,1,3,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.projectFailed",,,,1,5,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.projectSkipped",,,,1,4,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.projectStarted",,,,1,5,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.projectSucceeded",,,,1,5,3
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.recordExecutionTime",,,,3,8,4
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.recordMojoEnded",,,,7,24,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.recordMojoStarted",,,,5,17,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.recordProjectEnded",,,,5,16,0
+Private Method,"hudson.maven.Maven3Builder.MavenExecutionListener.recordProjectStarted",,,,5,16,0
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.sessionEnded",,,,6,19,3
+Public Method,"hudson.maven.Maven3Builder.MavenExecutionListener.sessionStarted",,,,6,24,4
+Public Method,"hudson.maven.Maven3Builder.call",,,,9,52,2
+Private Method,"hudson.maven.Maven3Builder.configureConsoleLogging",,,,3,9,0
+Class,"hudson.maven.Maven3ConsoleFormatter",9,0,0,4,23,9
+Public Method,"hudson.maven.Maven3ConsoleFormatter.format",,,,4,20,1
+Class,"hudson.maven.Maven3FailureLogger",17,53,53,21,105,14
+Public Constructor,"hudson.maven.Maven3FailureLogger.Maven3FailureLogger",,,,1,4,0
+Private Method,"hudson.maven.Maven3FailureLogger.convert",,,,1,8,0
+Public Method,"hudson.maven.Maven3FailureLogger.logFailures",,,,10,46,1
+Private Method,"hudson.maven.Maven3FailureLogger.logSummary",,,,8,38,0
+Public Method,"hudson.maven.Maven3FailureLogger.setOptions",,,,1,5,1
+Public Class,"hudson.maven.Maven3ProcessFactory",18,0,0,8,70,22
+Anonymous Class,"hudson.maven.Maven3ProcessFactory.(Anon_1)",2,0,0,1,4,0
+Public Method,"hudson.maven.Maven3ProcessFactory.(Anon_1).accept",,,,1,3,0
+Protected Static Final Class,"hudson.maven.Maven3ProcessFactory.GetClassWorldsJar",6,0,0,4,21,3
+Protected Constructor,"hudson.maven.Maven3ProcessFactory.GetClassWorldsJar.GetClassWorldsJar",,,,1,4,0
+Public Method,"hudson.maven.Maven3ProcessFactory.GetClassWorldsJar.call",,,,3,12,0
+Private Static Final Class,"hudson.maven.Maven3ProcessFactory.InstallPlexusModulesTask",9,0,0,2,11,0
+Public Constructor,"hudson.maven.Maven3ProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.Maven3ProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.Maven3ProcessFactory.Maven3ProcessFactory",,,,1,3,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.getMainClassName",,,,1,4,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.getMavenAgentClassPath",,,,2,6,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.getMavenInterceptorCommonClassPath",,,,1,3,0
+Protected Method,"hudson.maven.Maven3ProcessFactory.getMavenInterceptorOverride",,,,1,6,0
+Public Interface,"hudson.maven.MavenAggregatedReport",4,0,0,0,5,21
+Abstract Method,"hudson.maven.MavenAggregatedReport.getIndividualActionType",,,,0,1,6
+Abstract Method,"hudson.maven.MavenAggregatedReport.getProjectAction",,,,0,1,4
+Abstract Method,"hudson.maven.MavenAggregatedReport.update",,,,0,1,11
+Public Interface,"hudson.maven.MavenArgumentInterceptorAction",3,0,0,0,4,38
+Public Abstract Method,"hudson.maven.MavenArgumentInterceptorAction.getGoalsAndOptions",,,,0,1,16
+Public Abstract Method,"hudson.maven.MavenArgumentInterceptorAction.intercept",,,,0,1,22
+Public Class,"hudson.maven.MavenArgumentInterceptorTest",10,0,0,2,93,9
+Private Static Class,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor",4,71,71,9,30,0
+Public Constructor,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.TestMvnArgInterceptor",,,,1,3,0
+Public Constructor,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.TestMvnArgInterceptor",,,,1,3,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.getGoalsAndOptions",,,,1,3,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.getIconFileName",,,,1,3,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.getUrlName",,,,1,3,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnArgInterceptor.intercept",,,,3,8,0
+Public Static Class,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper",9,55,55,5,41,0
+Public Constructor,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapper",,,,1,3,0
+Public Constructor,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapper",,,,1,3,0
+Public Static Class,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor",8,0,0,3,15,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.getDisplayName",,,,1,4,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.isApplicable",,,,1,4,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.newInstance",,,,1,4,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.setUp",,,,3,15,0
+Anonymous Class,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.setUp.(Anon_1)",4,0,0,1,6,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.TestMvnBuildWrapper.setUp.(Anon_1).tearDown",,,,1,5,0
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.testSimpleMaven3BuildWithArgInterceptor_ArgBuilder",,,,1,10,3
+Public Method,"hudson.maven.MavenArgumentInterceptorTest.testSimpleMaven3BuildWithArgInterceptor_Goals",,,,1,10,3
+Public Class,"hudson.maven.MavenBuild",32,92,92,39,636,123
+Private Static Final Class,"hudson.maven.MavenBuild.Builder",26,51,51,23,76,6
+Public Constructor,"hudson.maven.MavenBuild.Builder.Builder",,,,1,5,0
+Private Class,"hudson.maven.MavenBuild.Builder.FilterImpl",6,0,0,2,10,0
+Public Constructor,"hudson.maven.MavenBuild.Builder.FilterImpl.FilterImpl",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.Builder.FilterImpl.executeAsync",,,,1,4,0
+Public Method,"hudson.maven.MavenBuild.Builder.hasBuildFailures",,,,1,4,0
+Method,"hudson.maven.MavenBuild.Builder.onReportGenerated",,,,3,6,0
+Method,"hudson.maven.MavenBuild.Builder.postBuild",,,,2,6,0
+Method,"hudson.maven.MavenBuild.Builder.postExecute",,,,5,13,0
+Method,"hudson.maven.MavenBuild.Builder.postModule",,,,3,6,0
+Method,"hudson.maven.MavenBuild.Builder.preBuild",,,,2,5,0
+Method,"hudson.maven.MavenBuild.Builder.preExecute",,,,3,7,0
+Method,"hudson.maven.MavenBuild.Builder.preModule",,,,3,6,0
+Private Static Final Class,"hudson.maven.MavenBuild.CanonicalPath",6,0,0,1,6,0
+Public Method,"hudson.maven.MavenBuild.CanonicalPath.invoke",,,,1,3,0
+Public Constructor,"hudson.maven.MavenBuild.MavenBuild",,,,1,3,0
+Public Constructor,"hudson.maven.MavenBuild.MavenBuild",,,,1,3,0
+Public Constructor,"hudson.maven.MavenBuild.MavenBuild",,,,1,4,0
+Private Class,"hudson.maven.MavenBuild.MavenBuildExecution",56,66,66,29,164,7
+Private Method,"hudson.maven.MavenBuild.MavenBuildExecution.createRequest",,,,4,34,0
+Protected Method,"hudson.maven.MavenBuild.MavenBuildExecution.decideWorkspace",,,,1,4,0
+Protected Method,"hudson.maven.MavenBuild.MavenBuildExecution.doRun",,,,19,108,7
+Public Method,"hudson.maven.MavenBuild.MavenBuildExecution.getBuild",,,,1,4,0
+Public Method,"hudson.maven.MavenBuild.MavenBuildExecution.getProject",,,,1,4,0
+Public Method,"hudson.maven.MavenBuild.MavenBuildExecution.post2",,,,3,7,0
+Class,"hudson.maven.MavenBuild.ProxyImpl",33,89,89,27,97,15
+Public Generic Method,"hudson.maven.MavenBuild.ProxyImpl.execute",,,,1,3,0
+TypeVariable,"hudson.maven.MavenBuild.ProxyImpl.execute.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.MavenBuild.ProxyImpl.execute.V",0,0,0,0,0,0
+Public Final Method,"hudson.maven.MavenBuild.ProxyImpl.executeAsync",,,,1,3,7
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getArtifactsDir",,,,1,4,3
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getMavenBuildInformation",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getMilliSecsSinceBuildStart",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getModuleSetRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getProjectRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.getTimestamp",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.isArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.isSiteArchivingDisabled",,,,1,3,0
+Method,"hudson.maven.MavenBuild.ProxyImpl.performArchiving",,,,7,32,2
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.queueArchiving",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.registerAsAggregatedProjectAction",,,,2,5,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.setExecutedMojos",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl.setResult",,,,2,7,0
+Private Method,"hudson.maven.MavenBuild.ProxyImpl.writeReplace",,,,1,3,0
+Public Class,"hudson.maven.MavenBuild.ProxyImpl2",23,68,65,34,157,28
+Constructor,"hudson.maven.MavenBuild.ProxyImpl2.ProxyImpl2",,,,1,5,1
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.appendLastLog",,,,2,9,3
+Protected Method,"hudson.maven.MavenBuild.ProxyImpl2.close",,,,4,30,8
+Anonymous Class,"hudson.maven.MavenBuild.ProxyImpl2.close.(Anon_1)",2,0,0,1,5,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.close.(Anon_1).run",,,,1,4,0
+Anonymous Class,"hudson.maven.MavenBuild.ProxyImpl2.close.(Anon_2)",2,0,0,1,6,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.close.(Anon_2).run",,,,1,5,0
+Abstract Class,"hudson.maven.MavenBuild.ProxyImpl2.close.Terminate",1,0,0,2,4,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.close.Terminate.cleanUp",,,,1,1,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.close.Terminate.post",,,,1,1,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.end",,,,5,21,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.owner",,,,1,3,3
+Private Method,"hudson.maven.MavenBuild.ProxyImpl2.rememberModulesToBuildAgainNextTime",,,,13,53,7
+Protected Method,"hudson.maven.MavenBuild.ProxyImpl2.setBlockBuildEvents",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.ProxyImpl2.start",,,,3,12,0
+Private Method,"hudson.maven.MavenBuild.ProxyImpl2.sync",,,,3,9,5
+Private Method,"hudson.maven.MavenBuild.ProxyImpl2.writeReplace",,,,1,4,1
+Public Static Method,"hudson.maven.MavenBuild.createExecutedMojoCache",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.getChangeSet",,,,1,4,0
+Public Method,"hudson.maven.MavenBuild.getDisplayName",,,,5,15,1
+Public Method,"hudson.maven.MavenBuild.getEnvironment",,,,2,10,10
+Public Method,"hudson.maven.MavenBuild.getExecutedMojos",,,,2,6,0
+Public Method,"hudson.maven.MavenBuild.getMavenArtifacts",,,,1,4,3
+Public Method,"hudson.maven.MavenBuild.getMavenOpts",,,,1,3,0
+Public Method,"hudson.maven.MavenBuild.getModuleSetBuild",,,,1,3,9
+Public Method,"hudson.maven.MavenBuild.getParent",,,,1,4,1
+Public Method,"hudson.maven.MavenBuild.getParentBuild",,,,1,3,8
+Public Method,"hudson.maven.MavenBuild.getProjectActionBuilders",,,,2,5,0
+Public Method,"hudson.maven.MavenBuild.getRootBuild",,,,2,5,3
+Public Method,"hudson.maven.MavenBuild.getUpUrl",,,,5,15,1
+Public Method,"hudson.maven.MavenBuild.getWhyKeepLog",,,,2,7,3
+Public Method,"hudson.maven.MavenBuild.hasChangeSetComputed",,,,1,4,3
+Public Method,"hudson.maven.MavenBuild.registerAsProjectAction",,,,2,5,0
+Public Method,"hudson.maven.MavenBuild.registerAsProjectAction",,,,2,5,0
+Public Method,"hudson.maven.MavenBuild.run",,,,2,8,0
+Protected Method,"hudson.maven.MavenBuild.setBuiltOnStr",,,,1,4,0
+Protected Method,"hudson.maven.MavenBuild.setWorkspace",,,,1,4,3
+Public Class,"hudson.maven.MavenBuildInformation",7,50,50,6,25,21
+Public Constructor,"hudson.maven.MavenBuildInformation.MavenBuildInformation",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildInformation.getMavenVersion",,,,1,4,0
+Public Method,"hudson.maven.MavenBuildInformation.isAtLeastMavenVersion",,,,2,6,6
+Public Method,"hudson.maven.MavenBuildInformation.isMaven3OrLater",,,,1,3,3
+Public Method,"hudson.maven.MavenBuildInformation.toString",,,,1,4,0
+Public Interface,"hudson.maven.MavenBuildProxy",12,0,0,0,97,118
+Generic Interface,"hudson.maven.MavenBuildProxy.BuildCallable",3,0,0,0,3,11
+TypeVariable,"hudson.maven.MavenBuildProxy.BuildCallable.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.MavenBuildProxy.BuildCallable.V",0,0,0,0,0,0
+Abstract Method,"hudson.maven.MavenBuildProxy.BuildCallable.call",,,,0,1,11
+Abstract Generic Class,"hudson.maven.MavenBuildProxy.Filter",12,0,0,18,74,11
+Protected Static Final Class,"hudson.maven.MavenBuildProxy.Filter.AsyncInvoker",5,16,16,3,16,5
+Public Constructor,"hudson.maven.MavenBuildProxy.Filter.AsyncInvoker.AsyncInvoker",,,,1,4,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.AsyncInvoker.call",,,,1,4,2
+Public Method,"hudson.maven.MavenBuildProxy.Filter.AsyncInvoker.getClassLoader",,,,1,3,0
+TypeVariable,"hudson.maven.MavenBuildProxy.Filter.CORE",1,0,0,0,0,0
+Protected Constructor,"hudson.maven.MavenBuildProxy.Filter.Filter",,,,1,3,0
+Public Generic Method,"hudson.maven.MavenBuildProxy.Filter.execute",,,,1,3,0
+TypeVariable,"hudson.maven.MavenBuildProxy.Filter.execute.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.MavenBuildProxy.Filter.execute.V",0,0,0,0,0,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.executeAsync",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getArtifactsDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getMavenBuildInformation",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getMilliSecsSinceBuildStart",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getModuleSetRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getProjectRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getRootDir",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.getTimestamp",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.isArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.isSiteArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.queueArchiving",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.registerAsAggregatedProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.setExecutedMojos",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy.Filter.setResult",,,,1,3,0
+Abstract Generic Method,"hudson.maven.MavenBuildProxy.execute",,,,0,1,18
+TypeVariable,"hudson.maven.MavenBuildProxy.execute.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.MavenBuildProxy.execute.V",0,0,0,0,0,0
+Abstract Method,"hudson.maven.MavenBuildProxy.executeAsync",,,,0,1,10
+Abstract Method,"hudson.maven.MavenBuildProxy.getArtifactsDir",,,,0,2,3
+Abstract Method,"hudson.maven.MavenBuildProxy.getMavenBuildInformation",,,,0,1,0
+Abstract Method,"hudson.maven.MavenBuildProxy.getMilliSecsSinceBuildStart",,,,0,1,7
+Abstract Method,"hudson.maven.MavenBuildProxy.getModuleSetRootDir",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.getProjectRootDir",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.getRootDir",,,,0,1,5
+Abstract Method,"hudson.maven.MavenBuildProxy.getTimestamp",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.isArchivingDisabled",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.isSiteArchivingDisabled",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.queueArchiving",,,,0,1,6
+Abstract Method,"hudson.maven.MavenBuildProxy.registerAsAggregatedProjectAction",,,,0,1,8
+Abstract Method,"hudson.maven.MavenBuildProxy.registerAsProjectAction",,,,0,1,8
+Abstract Method,"hudson.maven.MavenBuildProxy.registerAsProjectAction",,,,0,1,10
+Abstract Method,"hudson.maven.MavenBuildProxy.setExecutedMojos",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy.setResult",,,,0,1,3
+Public Interface,"hudson.maven.MavenBuildProxy2",0,0,0,0,20,23
+Abstract Generic Class,"hudson.maven.MavenBuildProxy2.Filter",0,0,0,4,15,6
+TypeVariable,"hudson.maven.MavenBuildProxy2.Filter.CORE",1,0,0,0,0,0
+Protected Constructor,"hudson.maven.MavenBuildProxy2.Filter.Filter",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy2.Filter.appendLastLog",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy2.Filter.end",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildProxy2.Filter.start",,,,1,3,0
+Abstract Method,"hudson.maven.MavenBuildProxy2.appendLastLog",,,,0,1,6
+Abstract Method,"hudson.maven.MavenBuildProxy2.end",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuildProxy2.start",,,,0,1,8
+Public Class,"hudson.maven.MavenBuildSurefireFailedTest",10,0,0,6,62,6
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven2Failed",,,,1,16,1
+Anonymous Class,"hudson.maven.MavenBuildSurefireFailedTest.testMaven2Failed.(Anon_1)",4,0,0,1,4,0
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven2Failed.(Anon_1).call",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven2SkipPostBuilder",,,,1,10,1
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven2Unstable",,,,1,8,0
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven3Failed",,,,1,8,0
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven3SkipPostBuilder",,,,1,10,1
+Public Method,"hudson.maven.MavenBuildSurefireFailedTest.testMaven3Unstable",,,,1,8,0
+Public Class,"hudson.maven.MavenBuildTest",37,6,6,17,283,33
+Private Static Class,"hudson.maven.MavenBuildTest.AbortInTheMiddleOfModuleB",8,0,0,3,24,1
+Public Method,"hudson.maven.MavenBuildTest.AbortInTheMiddleOfModuleB.postExecute",,,,2,7,0
+Private Method,"hudson.maven.MavenBuildTest.AbortInTheMiddleOfModuleB.stop",,,,1,14,0
+Anonymous Class,"hudson.maven.MavenBuildTest.AbortInTheMiddleOfModuleB.stop.(Anon_1)",7,0,0,2,11,0
+Public Method,"hudson.maven.MavenBuildTest.AbortInTheMiddleOfModuleB.stop.(Anon_1).call",,,,2,9,0
+Private Static Class,"hudson.maven.MavenBuildTest.FailingBuildWrapper",5,0,0,1,6,0
+Public Method,"hudson.maven.MavenBuildTest.FailingBuildWrapper.setUp",,,,1,4,0
+Private Static Class,"hudson.maven.MavenBuildTest.TearingDownBuildWrapper",5,100,100,1,12,0
+Public Method,"hudson.maven.MavenBuildTest.TearingDownBuildWrapper.setUp",,,,1,9,0
+Anonymous Class,"hudson.maven.MavenBuildTest.TearingDownBuildWrapper.setUp.(Anon_2)",1,0,0,1,5,0
+Public Method,"hudson.maven.MavenBuildTest.TearingDownBuildWrapper.setUp.(Anon_2).tearDown",,,,1,4,0
+Private Static Class,"hudson.maven.MavenBuildTest.TestAction",0,0,0,0,2,0
+Private Static Class,"hudson.maven.MavenBuildTest.TestBuilder",3,33,33,3,13,0
+Public Method,"hudson.maven.MavenBuildTest.TestBuilder.getProjectAction",,,,1,3,0
+Public Method,"hudson.maven.MavenBuildTest.TestBuilder.getProjectActions",,,,1,4,0
+Public Method,"hudson.maven.MavenBuildTest.TestBuilder.projectActionsGotRequested",,,,1,3,0
+Private Static Class,"hudson.maven.MavenBuildTest.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.MavenBuildTest.TestReporter.end",,,,1,5,0
+Private Method,"hudson.maven.MavenBuildTest.getModuleBuild",,,,1,6,0
+Public Method,"hudson.maven.MavenBuildTest.stopBuildAndAllSubmoduleBuilds",,,,2,21,0
+Public Method,"hudson.maven.MavenBuildTest.testActionsOfPreAndPostBuildersMustBeExposed",,,,1,21,5
+Public Method,"hudson.maven.MavenBuildTest.testBuildTimeStampProperty",,,,1,15,0
+Public Method,"hudson.maven.MavenBuildTest.testBuildWrappersTeardown",,,,1,13,0
+Public Method,"hudson.maven.MavenBuildTest.testCompilationFailure",,,,1,8,3
+Public Method,"hudson.maven.MavenBuildTest.testCorrectModuleBuildStatus",,,,1,17,6
+Public Method,"hudson.maven.MavenBuildTest.testExtensionsConflictingWithCore",,,,1,13,0
+Public Method,"hudson.maven.MavenBuildTest.testMaven2BuildWrongInheritence",,,,1,12,0
+Public Method,"hudson.maven.MavenBuildTest.testMaven2BuildWrongScope",,,,1,13,0
+Public Method,"hudson.maven.MavenBuildTest.testMaven2SeveralModulesInDirectory",,,,1,12,0
+Public Method,"hudson.maven.MavenBuildTest.testMavenFailsafePluginTestResultsAreRecorded",,,,1,20,3
+Public Method,"hudson.maven.MavenBuildTest.testMavenWithDependencyVersionInEnvVar",,,,1,15,1
+Public Method,"hudson.maven.MavenBuildTest.testMavenWorkspaceExists",,,,1,9,3
+Public Method,"hudson.maven.MavenBuildTest.testParallelModuleBuild",,,,1,11,4
+Public Method,"hudson.maven.MavenBuildTest.testTestFailureInEarlyTaskSegment",,,,1,9,4
+Public Abstract Class,"hudson.maven.MavenBuilder",38,75,50,17,184,85
+Private Static Final Class,"hudson.maven.MavenBuilder.Adapter",27,61,53,16,75,12
+Public Constructor,"hudson.maven.MavenBuilder.Adapter.Adapter",,,,1,3,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.endModule",,,,1,5,0
+Private Method,"hudson.maven.MavenBuilder.Adapter.fireEnterModule",,,,1,4,0
+Private Method,"hudson.maven.MavenBuilder.Adapter.fireLeaveModule",,,,2,6,0
+Private Method,"hudson.maven.MavenBuilder.Adapter.getMojoStartTime",,,,1,3,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.hasBuildFailures",,,,1,3,0
+Private Method,"hudson.maven.MavenBuilder.Adapter.initMojoStartTime",,,,1,5,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.onReportGenerated",,,,1,6,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.postBuild",,,,2,11,1
+Public Method,"hudson.maven.MavenBuilder.Adapter.postExecute",,,,2,7,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.preBuild",,,,1,5,0
+Public Method,"hudson.maven.MavenBuilder.Adapter.preExecute",,,,2,10,1
+Protected Constructor,"hudson.maven.MavenBuilder.MavenBuilder",,,,1,3,0
+Public Method,"hudson.maven.MavenBuilder.call",,,,6,38,12
+Private Method,"hudson.maven.MavenBuilder.callSetListenerWithReflectOnInterceptors",,,,3,21,0
+Private Method,"hudson.maven.MavenBuilder.callSetListenerWithReflectOnInterceptorsQuietly",,,,7,31,0
+Public Abstract Method,"hudson.maven.MavenBuilder.hasBuildFailures",,,,0,1,4
+Abstract Method,"hudson.maven.MavenBuilder.onReportGenerated",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.postBuild",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.postExecute",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.postModule",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.preBuild",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.preExecute",,,,0,1,3
+Abstract Method,"hudson.maven.MavenBuilder.preModule",,,,0,1,3
+Public Class,"hudson.maven.MavenEmbedderRequest",10,91,91,30,174,80
+Private Static Final Class,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader",3,0,0,2,48,18
+Public Constructor,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.MaskingClassLoader",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources",,,,1,43,5
+Anonymous Class,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources.(Anon_1)",7,25,25,11,39,5
+Private Method,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources.(Anon_1).fetch",,,,3,7,0
+Public Method,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources.(Anon_1).hasMoreElements",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources.(Anon_1).nextElement",,,,1,6,0
+Private Method,"hudson.maven.MavenEmbedderRequest.MaskingClassLoader.getResources.(Anon_1).shouldBeIgnored",,,,6,20,5
+Public Constructor,"hudson.maven.MavenEmbedderRequest.MavenEmbedderRequest",,,,1,9,15
+Public Method,"hudson.maven.MavenEmbedderRequest.getAlternateSettings",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getClassLoader",,,,1,3,0
+Public Static Method,"hudson.maven.MavenEmbedderRequest.getDefaultMavenClassLoader",,,,1,3,4
+Public Method,"hudson.maven.MavenEmbedderRequest.getGlobalSettings",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getListener",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getMavenHome",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getPrivateRepository",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getProfiles",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getSystemProperties",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getTransferListener",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getValidationLevel",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.getWorkspaceReader",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.isProcessPlugins",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.isResolveDependencies",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.isUpdateSnapshots",,,,1,3,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setAlternateSettings",,,,1,4,3
+Public Method,"hudson.maven.MavenEmbedderRequest.setClassLoader",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setGlobalSettings",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setListener",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setMavenHome",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setPrivateRepository",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setProcessPlugins",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setProfiles",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setResolveDependencies",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setSystemProperties",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setTransferListener",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setUpdateSnapshots",,,,1,4,0
+Public Method,"hudson.maven.MavenEmbedderRequest.setValidationLevel",,,,1,4,5
+Public Method,"hudson.maven.MavenEmbedderRequest.setWorkspaceReader",,,,1,3,0
+Public Class,"hudson.maven.MavenEmptyModuleTest",7,0,0,1,17,6
+Private Static Class,"hudson.maven.MavenEmptyModuleTest.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.MavenEmptyModuleTest.TestReporter.end",,,,1,5,0
+Public Method,"hudson.maven.MavenEmptyModuleTest.testEmptyModuleParsesAndBuilds",,,,1,8,3
+Public Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest",15,0,0,1,67,18
+Public Static Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.AssertingBuildWrapper",7,0,0,2,11,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.AssertingBuildWrapper.AssertingBuildWrapper",,,,1,3,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.AssertingBuildWrapper.setUp",,,,1,5,0
+Anonymous Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.AssertingBuildWrapper.setUp.(Anon_1)",0,0,0,0,0,0
+Private Static Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.MvnCmdLineVerifier",5,33,33,3,17,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.MvnCmdLineVerifier.MvnCmdLineVerifier",,,,1,3,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.MvnCmdLineVerifier.getGoalsAndOptions",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.MvnCmdLineVerifier.intercept",,,,1,7,0
+Private Static Final Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestAction",3,0,0,2,11,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestAction.TestAction",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestAction.buildEnvVars",,,,1,4,0
+Public Static Class,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestMvnBuilder",6,0,0,2,11,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestMvnBuilder.TestMvnBuilder",,,,1,3,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.TestMvnBuilder.perform",,,,1,5,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionFromBuilderTest.builderInjectedVariableFromEnvironmentContributingActionMustBeAvailableInMavenModuleSetBuild",,,,1,13,0
+Public Class,"hudson.maven.MavenEnvironmentContributingActionTest",13,0,0,1,73,15
+Private Static Class,"hudson.maven.MavenEnvironmentContributingActionTest.MvnCmdLineVerifier",5,33,33,3,16,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionTest.MvnCmdLineVerifier.MvnCmdLineVerifier",,,,1,3,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.MvnCmdLineVerifier.getGoalsAndOptions",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.MvnCmdLineVerifier.intercept",,,,1,6,0
+Private Static Final Class,"hudson.maven.MavenEnvironmentContributingActionTest.TestAction",3,0,0,2,11,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionTest.TestAction.TestAction",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestAction.buildEnvVars",,,,1,4,0
+Public Static Class,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper",10,33,33,3,31,3
+Public Constructor,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.TestMvnBuildWrapper",,,,1,3,0
+Public Static Class,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor",8,0,0,3,15,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.getDisplayName",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.isApplicable",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.TestMvnBuildWrapperDescriptor.newInstance",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.getProjectActions",,,,1,4,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.setUp",,,,1,6,0
+Anonymous Class,"hudson.maven.MavenEnvironmentContributingActionTest.TestMvnBuildWrapper.setUp.(Anon_1)",0,0,0,0,1,0
+Public Method,"hudson.maven.MavenEnvironmentContributingActionTest.envVariableFromEnvironmentContributingActionMustBeAvailableInMavenModuleSetBuild",,,,1,11,0
+Public Class,"hudson.maven.MavenJenkinsRule",12,0,0,3,16,14
+Public Method,"hudson.maven.MavenJenkinsRule.before",,,,1,5,4
+Public Method,"hudson.maven.MavenJenkinsRule.createComputerLauncher",,,,2,8,3
+Public Class,"hudson.maven.MavenModule",50,93,88,107,421,213
+Private Static Class,"hudson.maven.MavenModule.MavenDependencyComputationData",4,50,50,3,14,10
+Public Constructor,"hudson.maven.MavenModule.MavenDependencyComputationData.MavenDependencyComputationData",,,,1,3,0
+Private Method,"hudson.maven.MavenModule.MavenDependencyComputationData.byName",,,,2,7,6
+Constructor,"hudson.maven.MavenModule.MavenModule",,,,1,5,1
+Protected Method,"hudson.maven.MavenModule.addTransientActionsFromBuild",,,,6,15,1
+Public Method,"hudson.maven.MavenModule.asDependency",,,,1,4,3
+Protected Method,"hudson.maven.MavenModule.buildDependencyGraph",,,,18,76,17
+Private Method,"hudson.maven.MavenModule.chooseMoreRelevantModule",,,,6,21,1
+Protected Method,"hudson.maven.MavenModule.createReporters",,,,4,21,4
+Anonymous Class,"hudson.maven.MavenModule.createReporters.(Anon_1)",2,0,0,2,8,0
+Public Method,"hudson.maven.MavenModule.createReporters.(Anon_1).compare",,,,2,7,0
+Protected Method,"hudson.maven.MavenModule.doSetName",,,,1,5,0
+Protected Method,"hudson.maven.MavenModule.getAllMavenModules",,,,1,3,3
+Public Method,"hudson.maven.MavenModule.getArtifactId",,,,1,3,4
+Public Method,"hudson.maven.MavenModule.getAssignedLabel",,,,2,6,4
+Protected Method,"hudson.maven.MavenModule.getBuildClass",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.getChildren",,,,4,11,9
+Private Method,"hudson.maven.MavenModule.getCiManagementNotifier",,,,3,9,0
+Public Method,"hudson.maven.MavenModule.getDependencies",,,,1,3,4
+Private Method,"hudson.maven.MavenModule.getDependencyRelevancy",,,,7,20,7
+Public Method,"hudson.maven.MavenModule.getDisplayName",,,,1,5,0
+Public Method,"hudson.maven.MavenModule.getGoals",,,,2,4,3
+Public Method,"hudson.maven.MavenModule.getGroupId",,,,1,3,4
+Public Method,"hudson.maven.MavenModule.getJDK",,,,1,4,1
+Public Method,"hudson.maven.MavenModule.getLogRotator",,,,1,4,3
+Public Method,"hudson.maven.MavenModule.getModuleName",,,,1,3,0
+Private Method,"hudson.maven.MavenModule.getOrCreateMavenMailer",,,,2,8,0
+Public Method,"hudson.maven.MavenModule.getPackaging",,,,1,3,7
+Public Method,"hudson.maven.MavenModule.getParent",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.getPronoun",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.getPublishersList",,,,1,3,1
+Public Method,"hudson.maven.MavenModule.getRelativePath",,,,1,3,6
+Public Method,"hudson.maven.MavenModule.getReporters",,,,1,3,3
+Public Method,"hudson.maven.MavenModule.getShortUrl",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.getSubsidiaries",,,,3,7,8
+Public Method,"hudson.maven.MavenModule.getUserConfiguredGoals",,,,1,3,9
+Public Method,"hudson.maven.MavenModule.getVersion",,,,1,3,9
+Public Method,"hudson.maven.MavenModule.getWorkspaceResource",,,,1,4,8
+Private Method,"hudson.maven.MavenModule.hasDependenciesWithUnknownVersion",,,,3,8,4
+Public Method,"hudson.maven.MavenModule.inferMavenInstallation",,,,1,3,0
+Public Method,"hudson.maven.MavenModule.isBuildable",,,,1,4,1
+Public Method,"hudson.maven.MavenModule.isFingerprintConfigured",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.isNameEditable",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.isSameModule",,,,1,3,5
+Protected Method,"hudson.maven.MavenModule.newBuild",,,,1,4,0
+Private Static Method,"hudson.maven.MavenModule.nodeOf",,,,2,3,5
+Public Method,"hudson.maven.MavenModule.onLoad",,,,5,20,1
+Protected Method,"hudson.maven.MavenModule.performDelete",,,,1,5,0
+Method,"hudson.maven.MavenModule.reconfigure",,,,6,33,11
+Public Method,"hudson.maven.MavenModule.setLogRotator",,,,1,4,4
+Protected Method,"hudson.maven.MavenModule.submit",,,,1,7,1
+Public Method,"hudson.maven.MavenModule.supportsLogRotator",,,,1,4,0
+Public Method,"hudson.maven.MavenModule.toString",,,,1,3,3
+Protected Method,"hudson.maven.MavenModule.updateTransientActions",,,,1,4,1
+Public Class,"hudson.maven.MavenModuleSet",86,96,96,192,792,383
+Public Static Final Class,"hudson.maven.MavenModuleSet.DescriptorImpl",29,85,85,21,103,43
+Public Constructor,"hudson.maven.MavenModuleSet.DescriptorImpl.DescriptorImpl",,,,1,10,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.configure",,,,1,7,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getCategoryId",,,,1,3,7
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getDescription",,,,1,3,7
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getGlobalMavenOpts",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getGlobalSettingsProviders",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getHelpFile",,,,3,9,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getIconClassName",,,,1,4,3
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getIconFilePathPattern",,,,1,3,7
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getLocalRepository",,,,2,3,3
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getMavenDescriptor",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getMavenValidationLevels",,,,1,3,4
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.getSettingsProviders",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.isApplicable",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.newInstance",,,,1,6,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.setGlobalMavenOpts",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.DescriptorImpl.setLocalRepository",,,,1,4,0
+Public Constructor,"hudson.maven.MavenModuleSet.MavenModuleSet",,,,1,3,18
+Public Constructor,"hudson.maven.MavenModuleSet.MavenModuleSet",,,,1,3,0
+Method,"hudson.maven.MavenModuleSet.addPostBuilder",,,,1,3,0
+Protected Method,"hudson.maven.MavenModuleSet.addTransientActionsFromBuild",,,,9,15,1
+Public Method,"hudson.maven.MavenModuleSet.asProject",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.assignBuildNumber",,,,1,4,11
+Protected Method,"hudson.maven.MavenModuleSet.buildDependencyGraph",,,,1,7,5
+Private Method,"hudson.maven.MavenModuleSet.checkMavenOption",,,,3,7,0
+Public Method,"hudson.maven.MavenModuleSet.createIndenter",,,,1,7,0
+Anonymous Class,"hudson.maven.MavenModuleSet.createIndenter.(Anon_1)",1,0,0,1,4,0
+Protected Method,"hudson.maven.MavenModuleSet.createIndenter.(Anon_1).getNestLevel",,,,1,3,0
+Protected Method,"hudson.maven.MavenModuleSet.createTransientActions",,,,10,19,2
+Public Method,"hudson.maven.MavenModuleSet.doCheckFileInWorkspace",,,,3,9,3
+Public Method,"hudson.maven.MavenModuleSet.doChildrenContextMenu",,,,2,8,0
+Public Method,"hudson.maven.MavenModuleSet.doDoDeleteAllDisabledModules",,,,2,6,3
+Private Method,"hudson.maven.MavenModuleSet.filter",,,,3,9,0
+Public Method,"hudson.maven.MavenModuleSet.getAllJobs",,,,1,5,0
+Public Method,"hudson.maven.MavenModuleSet.getAlternateSettings",,,,1,3,4
+Public Method,"hudson.maven.MavenModuleSet.getApproximateQueueItemsQuickly",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.getBlockTriggerWhenBuilding",,,,1,3,0
+Protected Method,"hudson.maven.MavenModuleSet.getBuildClass",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.getBuildWrappers",,,,1,3,6
+Public Method,"hudson.maven.MavenModuleSet.getBuildWrappersList",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getDescriptor",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getDisabledModules",,,,4,10,4
+Public Method,"hudson.maven.MavenModuleSet.getDynamic",,,,2,5,0
+Protected Method,"hudson.maven.MavenModuleSet.getEstimatedDurationCandidates",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.getExplicitLocalRepository",,,,1,3,3
+Private Method,"hudson.maven.MavenModuleSet.getFormattedMavenOpts",,,,2,3,0
+Public Method,"hudson.maven.MavenModuleSet.getGlobalSettings",,,,2,3,3
+Public Method,"hudson.maven.MavenModuleSet.getGoals",,,,3,7,3
+Public Method,"hudson.maven.MavenModuleSet.getItem",,,,2,7,1
+Public Method,"hudson.maven.MavenModuleSet.getItems",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getLocalRepository",,,,2,3,4
+Public Method,"hudson.maven.MavenModuleSet.getMaven",,,,4,10,4
+Private Method,"hudson.maven.MavenModuleSet.getMavenArgument",,,,6,22,0
+Public Method,"hudson.maven.MavenModuleSet.getMavenOpts",,,,3,14,11
+Public Method,"hudson.maven.MavenModuleSet.getMavenProperties",,,,3,9,3
+Public Method,"hudson.maven.MavenModuleSet.getMavenValidationLevel",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getModule",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getModules",,,,1,4,0
+Private Method,"hudson.maven.MavenModuleSet.getModulesDir",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getPostbuilders",,,,1,3,5
+Public Method,"hudson.maven.MavenModuleSet.getPrebuilders",,,,1,3,5
+Public Method,"hudson.maven.MavenModuleSet.getProfiles",,,,1,3,4
+Public Method,"hudson.maven.MavenModuleSet.getPronoun",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.getPublishers",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.getPublishersList",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.getQueueItems",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.getReporters",,,,1,3,3
+Protected Method,"hudson.maven.MavenModuleSet.getResourceActivities",,,,1,10,0
+Public Method,"hudson.maven.MavenModuleSet.getRootDirFor",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.getRootModule",,,,2,4,0
+Public Method,"hudson.maven.MavenModuleSet.getRootPOM",,,,3,5,5
+Public Method,"hudson.maven.MavenModuleSet.getRootPOM",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.getRunPostStepsIfResult",,,,1,3,7
+Public Method,"hudson.maven.MavenModuleSet.getSettings",,,,2,3,3
+Public Method,"hudson.maven.MavenModuleSet.getTestResultAction",,,,2,4,0
+Public Method,"hudson.maven.MavenModuleSet.getUrlChildPrefix",,,,1,3,1
+Public Method,"hudson.maven.MavenModuleSet.getUserConfiguredGoals",,,,1,3,9
+Public Method,"hudson.maven.MavenModuleSet.hasDisabledModule",,,,3,7,3
+Public Method,"hudson.maven.MavenModuleSet.ignoreUnsuccessfulUpstreams",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.ignoreUpstremChanges",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.inferMavenInstallation",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isAggregatorStyleBuild",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isDisableTriggerDownstreamProjects",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isFingerprintConfigured",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.isFingerprintingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isIncrementalBuild",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isNonRecursive",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.isPerModuleEmail",,,,2,5,1
+Public Method,"hudson.maven.MavenModuleSet.isProcessPlugins",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.isResolveDependencies",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.isSiteArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.logRotate",,,,2,5,1
+Protected Method,"hudson.maven.MavenModuleSet.makeSearchIndex",,,,1,20,1
+Anonymous Class,"hudson.maven.MavenModuleSet.makeSearchIndex.(Anon_2)",6,0,0,6,15,1
+Protected Method,"hudson.maven.MavenModuleSet.makeSearchIndex.(Anon_2).all",,,,1,3,0
+Protected Method,"hudson.maven.MavenModuleSet.makeSearchIndex.(Anon_2).get",,,,4,8,0
+Protected Method,"hudson.maven.MavenModuleSet.makeSearchIndex.(Anon_2).getName",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.onDeleted",,,,1,2,1
+Public Method,"hudson.maven.MavenModuleSet.onLoad",,,,13,63,4
+Anonymous Class,"hudson.maven.MavenModuleSet.onLoad.(Anon_3)",2,0,0,1,4,0
+Public Method,"hudson.maven.MavenModuleSet.onLoad.(Anon_3).call",,,,1,3,0
+Method,"hudson.maven.MavenModuleSet.onModuleDeleted",,,,1,3,6
+Public Method,"hudson.maven.MavenModuleSet.onRenamed",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.readResolve",,,,8,37,6
+Method,"hudson.maven.MavenModuleSet.reconfigure",,,,2,7,2
+Public Method,"hudson.maven.MavenModuleSet.runHeadless",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setAggregatorStyleBuild",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setAlternateSettings",,,,1,3,4
+Public Method,"hudson.maven.MavenModuleSet.setBlockTriggerWhenBuilding",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setDisableTriggerDownstreamProjects",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setGlobalSettings",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.setGoals",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIgnoreUnsuccessfulUpstreams",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIgnoreUpstremChanges",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIncrementalBuild",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIsArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIsFingerprintingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setIsSiteArchivingDisabled",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setLocalRepository",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setMaven",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setMavenOpts",,,,2,8,4
+Public Method,"hudson.maven.MavenModuleSet.setProcessPlugins",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setResolveDependencies",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setRootPOM",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setRunHeadless",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setRunPostStepsIfResult",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSet.setSettings",,,,1,3,3
+Public Method,"hudson.maven.MavenModuleSet.setUsePrivateRepository",,,,2,3,4
+Protected Method,"hudson.maven.MavenModuleSet.submit",,,,5,45,1
+Method,"hudson.maven.MavenModuleSet.updateNextBuildNumber",,,,3,9,5
+Protected Method,"hudson.maven.MavenModuleSet.updateTransientActions",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSet.usesPrivateRepository",,,,1,3,4
+Public Class,"hudson.maven.MavenModuleSetBuild",40,93,93,81,1017,235
+Private Static Final Class,"hudson.maven.MavenModuleSetBuild.MavenExecutionException",1,0,0,2,10,3
+Private Constructor,"hudson.maven.MavenModuleSetBuild.MavenExecutionException.MavenExecutionException",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSetBuild.MavenExecutionException.getCause",,,,1,4,0
+Public Constructor,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuild",,,,1,3,0
+Public Constructor,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuild",,,,1,3,0
+Private Class,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution",77,83,83,76,369,54
+Private Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.build",,,,3,9,0
+Public Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.cleanUp",,,,2,12,1
+Protected Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.doRun",,,,48,249,22
+Private Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.getUnbuiltModulesSinceLastSuccessfulBuild",,,,4,20,7
+Private Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.parsePoms",,,,15,67,11
+Protected Method,"hudson.maven.MavenModuleSetBuild.MavenModuleSetBuildExecution.post2",,,,4,9,9
+Private Static Final Class,"hudson.maven.MavenModuleSetBuild.PomParser",48,64,63,55,259,41
+Constructor,"hudson.maven.MavenModuleSetBuild.PomParser.PomParser",,,,8,42,3
+Public Static Final Class,"hudson.maven.MavenModuleSetBuild.PomParser.Result",2,0,0,1,9,0
+Public Constructor,"hudson.maven.MavenModuleSetBuild.PomParser.Result.Result",,,,1,4,0
+Private Method,"hudson.maven.MavenModuleSetBuild.PomParser.getRootPath",,,,2,5,6
+Public Method,"hudson.maven.MavenModuleSetBuild.PomParser.invoke",,,,32,132,17
+Private Method,"hudson.maven.MavenModuleSetBuild.PomParser.isUpdateSnapshots",,,,1,3,0
+Private Method,"hudson.maven.MavenModuleSetBuild.PomParser.readChilds",,,,5,19,1
+Private Method,"hudson.maven.MavenModuleSetBuild.PomParser.toPomInfo",,,,7,27,5
+Public Static Class,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener",2,57,57,7,34,9
+Public Constructor,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.SimpleTransferListener",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferCorrupted",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferFailed",,,,1,4,0
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferInitiated",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferProgressed",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferStarted",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSetBuild.SimpleTransferListener.transferSucceeded",,,,1,6,0
+Private Method,"hudson.maven.MavenModuleSetBuild.computeResult",,,,9,27,1
+Public Method,"hudson.maven.MavenModuleSetBuild.delete",,,,3,7,1
+Public Method,"hudson.maven.MavenModuleSetBuild.deleteArtifacts",,,,3,7,0
+Private Method,"hudson.maven.MavenModuleSetBuild.estimateModuleSetBuildDurationOverhead",,,,5,18,4
+Public Generic Method,"hudson.maven.MavenModuleSetBuild.findModuleBuildActions",,,,5,18,6
+TypeVariable,"hudson.maven.MavenModuleSetBuild.findModuleBuildActions.T",0,0,0,0,0,0
+Method,"hudson.maven.MavenModuleSetBuild.getChangeSetFor",,,,1,46,10
+Anonymous Class,"hudson.maven.MavenModuleSetBuild.getChangeSetFor.(Anon_1)",7,100,100,10,43,6
+Private Method,"hudson.maven.MavenModuleSetBuild.getChangeSetFor.(Anon_1).belongsToSubsidiary",,,,3,6,0
+Private Method,"hudson.maven.MavenModuleSetBuild.getChangeSetFor.(Anon_1).isDescendantOf",,,,3,7,3
+Private Method,"hudson.maven.MavenModuleSetBuild.getChangeSetFor.(Anon_1).isDescendantOf",,,,1,3,0
+Private Method,"hudson.maven.MavenModuleSetBuild.getChangeSetFor.(Anon_1).notInSubsidiary",,,,3,6,0
+Public Method,"hudson.maven.MavenModuleSetBuild.getDownstreamRelationship",,,,3,8,0
+Public Method,"hudson.maven.MavenModuleSetBuild.getDynamic",,,,3,8,1
+Public Method,"hudson.maven.MavenModuleSetBuild.getEnvironment",,,,5,25,16
+Public Method,"hudson.maven.MavenModuleSetBuild.getEstimatedDuration",,,,7,23,10
+Public Method,"hudson.maven.MavenModuleSetBuild.getMavenArtifacts",,,,1,4,3
+Public Method,"hudson.maven.MavenModuleSetBuild.getMavenOpts",,,,1,3,0
+Public Method,"hudson.maven.MavenModuleSetBuild.getMavenVersionUsed",,,,1,4,7
+Public Method,"hudson.maven.MavenModuleSetBuild.getModuleBuilds",,,,4,16,8
+Public Method,"hudson.maven.MavenModuleSetBuild.getModuleLastBuilds",,,,4,12,7
+Public Method,"hudson.maven.MavenModuleSetBuild.getParent",,,,1,4,1
+Public Method,"hudson.maven.MavenModuleSetBuild.getResult",,,,3,12,6
+Protected Method,"hudson.maven.MavenModuleSetBuild.isRelease",,,,3,9,7
+Private Static Method,"hudson.maven.MavenModuleSetBuild.normalizePath",,,,4,21,0
+Method,"hudson.maven.MavenModuleSetBuild.notifyModuleBuild",,,,8,40,15
+Protected Method,"hudson.maven.MavenModuleSetBuild.onLoad",,,,1,5,0
+Public Method,"hudson.maven.MavenModuleSetBuild.registerAsProjectAction",,,,2,5,0
+Public Method,"hudson.maven.MavenModuleSetBuild.run",,,,1,5,0
+Public Method,"hudson.maven.MavenModuleSetBuild.setMavenVersionUsed",,,,1,4,0
+Public Class,"hudson.maven.MavenModuleSetTest",15,0,0,4,67,11
+Public Method,"hudson.maven.MavenModuleSetTest.testConfigRoundtripLocalRepository",,,,1,10,1
+Public Method,"hudson.maven.MavenModuleSetTest.testConfigRoundtripTriggers",,,,1,17,4
+Public Method,"hudson.maven.MavenModuleSetTest.testExplicitFingerprints",,,,1,34,3
+Public Method,"hudson.maven.MavenModuleSetTest.testGetItem",,,,1,4,0
+Public Class,"hudson.maven.MavenModuleTest",27,90,90,17,250,26
+Private Static Class,"hudson.maven.MavenModuleTest.TestComponents",1,0,0,0,5,0
+Private Static Method,"hudson.maven.MavenModuleTest.addModuleAsPluginDependency",,,,1,15,0
+Private Static Method,"hudson.maven.MavenModuleTest.basicMocking",,,,1,13,0
+Public Method,"hudson.maven.MavenModuleTest.before",,,,1,14,0
+Private Static Method,"hudson.maven.MavenModuleTest.createDependency",,,,1,7,0
+Private Static Method,"hudson.maven.MavenModuleTest.createLibrary",,,,1,9,0
+Private Static Method,"hudson.maven.MavenModuleTest.createMavenProject",,,,1,13,0
+Private Static Method,"hudson.maven.MavenModuleTest.createPluginProject",,,,1,13,0
+Private Method,"hudson.maven.MavenModuleTest.createTestComponents",,,,1,24,0
+Private Static Method,"hudson.maven.MavenModuleTest.enhanceMavenModuleMock",,,,1,6,0
+Private Static Method,"hudson.maven.MavenModuleTest.mockMavenModule",,,,1,9,0
+Public Method,"hudson.maven.MavenModuleTest.testMavenModuleAsPluginDependency",,,,1,14,5
+Public Method,"hudson.maven.MavenModuleTest.testMultipleDependencies",,,,2,40,6
+Public Method,"hudson.maven.MavenModuleTest.testProjectWithSpecifiedVersionAndNoDependencies",,,,2,30,6
+Public Method,"hudson.maven.MavenModuleTest.testSimpleVersion",,,,1,16,4
+Public Method,"hudson.maven.MavenModuleTest.testSimpleVersionRange",,,,1,16,5
+Public Class,"hudson.maven.MavenMultiLevelModuleTest",18,0,0,7,45,18
+Private Static Class,"hudson.maven.MavenMultiLevelModuleTest.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.MavenMultiLevelModuleTest.TestReporter.end",,,,1,5,0
+Public Method,"hudson.maven.MavenMultiLevelModuleTest.testIncrementalBuildWithMultiModuleChangeSet",,,,7,33,13
+Public Class,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest",24,22,22,3,58,20
+Private Static Class,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest.TestReporter",6,0,0,1,11,3
+Public Method,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest.TestReporter.end",,,,1,8,0
+Public Method,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest.setUp",,,,1,17,1
+Public Method,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest.testArtifactsAreDeletedInBuildOneWhenBuildDiscarderRun",,,,1,16,0
+Public Method,"hudson.maven.MavenMultiModuleLogRotatorCleanArtifactsTest.testArtifactsOldBuildsDeletedWhenBuildDiscarderRun",,,,1,8,4
+Public Class,"hudson.maven.MavenMultiModuleTest",46,17,17,63,426,98
+Private Static Class,"hudson.maven.MavenMultiModuleTest.DummyRedeployPublisher",4,0,0,2,11,0
+Public Constructor,"hudson.maven.MavenMultiModuleTest.DummyRedeployPublisher.DummyRedeployPublisher",,,,1,3,0
+Public Method,"hudson.maven.MavenMultiModuleTest.DummyRedeployPublisher.perform",,,,1,6,0
+Public Static Final Class,"hudson.maven.MavenMultiModuleTest.TestAM",11,60,40,9,35,3
+Constructor,"hudson.maven.MavenMultiModuleTest.TestAM.TestAM",,,,1,3,0
+Public Method,"hudson.maven.MavenMultiModuleTest.TestAM.archive",,,,5,19,2
+Public Method,"hudson.maven.MavenMultiModuleTest.TestAM.delete",,,,1,3,0
+Public Method,"hudson.maven.MavenMultiModuleTest.TestAM.onLoad",,,,1,3,0
+Public Method,"hudson.maven.MavenMultiModuleTest.TestAM.root",,,,1,3,0
+Public Static Final Class,"hudson.maven.MavenMultiModuleTest.TestAMF",3,0,0,1,5,0
+Public Method,"hudson.maven.MavenMultiModuleTest.TestAMF.managerFor",,,,1,3,0
+Private Static Class,"hudson.maven.MavenMultiModuleTest.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.MavenMultiModuleTest.TestReporter.end",,,,1,6,0
+Public Method,"hudson.maven.MavenMultiModuleTest.artifactArchiving",,,,2,31,5
+Private Method,"hudson.maven.MavenMultiModuleTest.assertFingerprintWereRecorded",,,,4,14,0
+Private Method,"hudson.maven.MavenMultiModuleTest.assertFingerprintWereRecorded",,,,1,10,2
+Public Method,"hudson.maven.MavenMultiModuleTest.estimatedDurationForIncrementalMultiModMaven",,,,1,20,7
+Public Method,"hudson.maven.MavenMultiModuleTest.incrRelMultiModMaven",,,,6,33,1
+Public Method,"hudson.maven.MavenMultiModuleTest.incrementalMultiModMaven",,,,6,33,1
+Public Method,"hudson.maven.MavenMultiModuleTest.incrementalMultiModWithErrorsMaven",,,,11,46,10
+Public Method,"hudson.maven.MavenMultiModuleTest.incrementalRedeployAfterAggregatorError",,,,11,47,10
+Public Method,"hudson.maven.MavenMultiModuleTest.modulesPageLinks",,,,1,13,0
+Public Method,"hudson.maven.MavenMultiModuleTest.multiModMavenNonRecursive",,,,1,11,0
+Public Method,"hudson.maven.MavenMultiModuleTest.multiModMavenNonRecursiveParsing",,,,6,25,3
+Public Method,"hudson.maven.MavenMultiModuleTest.multiModMavenWsExists",,,,1,9,3
+Public Method,"hudson.maven.MavenMultiModuleTest.multiModWithTestFailuresMaven",,,,6,25,3
+Public Method,"hudson.maven.MavenMultiModuleTest.newModMultiModMaven",,,,1,9,4
+Private Static Method,"hudson.maven.MavenMultiModuleTest.permalinks",,,,3,9,0
+Public Method,"hudson.maven.MavenMultiModuleTest.symlinksUpdated",,,,1,18,4
+Public Method,"hudson.maven.MavenMultiModuleTest.testMultiModulesFailureWithParallelThreads",,,,1,11,2
+Public Class,"hudson.maven.MavenMultiModuleTestIncremental",16,0,0,6,43,4
+Private Static Class,"hudson.maven.MavenMultiModuleTestIncremental.TestReporter",5,0,0,1,8,0
+Public Method,"hudson.maven.MavenMultiModuleTestIncremental.TestReporter.end",,,,1,5,0
+Public Method,"hudson.maven.MavenMultiModuleTestIncremental.testRelRootPom",,,,6,33,1
+Public Class,"hudson.maven.MavenOptsTest",13,44,44,9,101,7
+Protected Method,"hudson.maven.MavenOptsTest.setUp",,,,1,6,1
+Public Method,"hudson.maven.MavenOptsTest.testEnvAndGlobalMavenOptsOverriddenByProject",,,,1,11,0
+Public Method,"hudson.maven.MavenOptsTest.testEnvMavenOptsNoneInProject",,,,1,9,0
+Public Method,"hudson.maven.MavenOptsTest.testEnvMavenOptsOverriddenByProject",,,,1,10,0
+Public Method,"hudson.maven.MavenOptsTest.testEnvironmentVariableExpansion",,,,1,10,3
+Public Method,"hudson.maven.MavenOptsTest.testGlobalMavenOpts",,,,1,9,0
+Public Method,"hudson.maven.MavenOptsTest.testGlobalMavenOptsOverridenByProject",,,,1,10,0
+Public Method,"hudson.maven.MavenOptsTest.testMustnt_store_global_maven_opts_in_job_maven_opts",,,,1,22,0
+Public Method,"hudson.maven.MavenOptsTest.testNewlinesInOptsRemoved",,,,1,11,0
+Public Final Class,"hudson.maven.MavenProbeAction",14,48,48,13,56,26
+Constructor,"hudson.maven.MavenProbeAction.MavenProbeAction",,,,1,5,0
+Public Method,"hudson.maven.MavenProbeAction.doScript",,,,1,3,0
+Public Method,"hudson.maven.MavenProbeAction.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.MavenProbeAction.getEnvVars",,,,2,13,4
+Anonymous Class,"hudson.maven.MavenProbeAction.getEnvVars.(Anon_2)",3,0,0,2,4,0
+Public Method,"hudson.maven.MavenProbeAction.getEnvVars.(Anon_2).transformEntry",,,,2,3,0
+Public Method,"hudson.maven.MavenProbeAction.getHeapDump",,,,1,3,3
+Public Method,"hudson.maven.MavenProbeAction.getIconFileName",,,,2,4,0
+Public Method,"hudson.maven.MavenProbeAction.getSystemProperties",,,,2,13,4
+Anonymous Class,"hudson.maven.MavenProbeAction.getSystemProperties.(Anon_1)",2,0,0,2,4,0
+Public Method,"hudson.maven.MavenProbeAction.getSystemProperties.(Anon_1).transformEntry",,,,2,3,0
+Public Method,"hudson.maven.MavenProbeAction.getThreadDump",,,,1,3,5
+Public Method,"hudson.maven.MavenProbeAction.getUrlName",,,,2,4,0
+Final Class,"hudson.maven.MavenProcessFactory",23,100,100,10,91,36
+Anonymous Class,"hudson.maven.MavenProcessFactory.(Anon_1)",2,0,0,1,4,0
+Public Method,"hudson.maven.MavenProcessFactory.(Anon_1).accept",,,,1,3,0
+Private Static Final Class,"hudson.maven.MavenProcessFactory.GetClassWorldsJar",5,0,0,4,23,4
+Private Constructor,"hudson.maven.MavenProcessFactory.GetClassWorldsJar.GetClassWorldsJar",,,,1,4,0
+Public Method,"hudson.maven.MavenProcessFactory.GetClassWorldsJar.call",,,,3,14,1
+Private Static Final Class,"hudson.maven.MavenProcessFactory.InstallPlexusModulesTask",9,0,0,2,10,0
+Public Constructor,"hudson.maven.MavenProcessFactory.InstallPlexusModulesTask.InstallPlexusModulesTask",,,,1,3,0
+Public Method,"hudson.maven.MavenProcessFactory.InstallPlexusModulesTask.call",,,,1,4,0
+Constructor,"hudson.maven.MavenProcessFactory.MavenProcessFactory",,,,1,3,0
+Protected Method,"hudson.maven.MavenProcessFactory.applyPlexusModuleContributor",,,,1,4,0
+Protected Method,"hudson.maven.MavenProcessFactory.getMainClassName",,,,1,3,0
+Protected Method,"hudson.maven.MavenProcessFactory.getMavenAgentClassPath",,,,4,25,5
+Protected Method,"hudson.maven.MavenProcessFactory.getMavenInterceptorClassPath",,,,1,4,0
+Protected Method,"hudson.maven.MavenProcessFactory.getMavenInterceptorOverride",,,,2,9,0
+Public Interface,"hudson.maven.MavenProjectActionBuilder",2,0,0,0,3,19
+Abstract Method,"hudson.maven.MavenProjectActionBuilder.getProjectActions",,,,0,1,19
+Public Class,"hudson.maven.MavenProjectTest",29,0,0,19,170,28
+Private Method,"hudson.maven.MavenProjectTest.createProject",,,,1,9,0
+Private Method,"hudson.maven.MavenProjectTest.createSimpleProject",,,,1,3,0
+Public Method,"hudson.maven.MavenProjectTest.testAbsolutePathPom",,,,1,10,0
+Public Method,"hudson.maven.MavenProjectTest.testConfigRoundtrip",,,,2,19,3
+Public Method,"hudson.maven.MavenProjectTest.testCopyFromExistingMavenProject",,,,1,9,0
+Public Method,"hudson.maven.MavenProjectTest.testCorrectResultInPostStepAfterFailedPreBuildStep",,,,1,13,1
+Public Method,"hudson.maven.MavenProjectTest.testDefaultSettingsProvider",,,,1,18,0
+Public Method,"hudson.maven.MavenProjectTest.testDeleteSetBuildDeletesModuleBuilds",,,,1,13,2
+Public Method,"hudson.maven.MavenProjectTest.testMultiModuleSiteBuild",,,,3,21,8
+Public Method,"hudson.maven.MavenProjectTest.testMultiModuleSiteBuildOnSlave",,,,2,15,5
+Public Method,"hudson.maven.MavenProjectTest.testNestedMultiModuleSiteBuild",,,,2,15,2
+Public Method,"hudson.maven.MavenProjectTest.testOnMaster",,,,1,8,0
+Public Method,"hudson.maven.MavenProjectTest.testOnSlave",,,,1,6,0
+Public Method,"hudson.maven.MavenProjectTest.testSiteBuild",,,,1,9,4
+Public Final Class,"hudson.maven.MavenReportInfo",5,0,0,1,8,17
+Public Constructor,"hudson.maven.MavenReportInfo.MavenReportInfo",,,,1,5,0
+Public Abstract Class,"hudson.maven.MavenReporter",15,0,0,13,41,222
+Public Method,"hudson.maven.MavenReporter.end",,,,1,3,7
+Public Method,"hudson.maven.MavenReporter.enterModule",,,,1,3,19
+Public Method,"hudson.maven.MavenReporter.getAggregatedProjectAction",,,,1,3,11
+Public Method,"hudson.maven.MavenReporter.getDescriptor",,,,1,3,0
+Public Method,"hudson.maven.MavenReporter.getProjectAction",,,,1,3,21
+Public Method,"hudson.maven.MavenReporter.getProjectActions",,,,2,5,21
+Public Method,"hudson.maven.MavenReporter.leaveModule",,,,1,3,5
+Public Method,"hudson.maven.MavenReporter.postBuild",,,,1,3,13
+Public Method,"hudson.maven.MavenReporter.postExecute",,,,1,3,11
+Public Method,"hudson.maven.MavenReporter.preBuild",,,,1,3,20
+Public Method,"hudson.maven.MavenReporter.preExecute",,,,1,3,13
+Public Method,"hudson.maven.MavenReporter.reportGenerated",,,,1,3,27
+Public Abstract Class,"hudson.maven.MavenReporterDescriptor",12,0,0,7,26,39
+Protected Constructor,"hudson.maven.MavenReporterDescriptor.MavenReporterDescriptor",,,,1,3,0
+Protected Constructor,"hudson.maven.MavenReporterDescriptor.MavenReporterDescriptor",,,,1,2,7
+Public Static Method,"hudson.maven.MavenReporterDescriptor.all",,,,1,3,4
+Public Final Method,"hudson.maven.MavenReporterDescriptor.hasConfigScreen",,,,2,9,3
+Public Method,"hudson.maven.MavenReporterDescriptor.newAutoInstance",,,,1,3,16
+Public Method,"hudson.maven.MavenReporterDescriptor.newInstance",,,,1,4,4
+Public Final Class,"hudson.maven.MavenReporters",6,0,0,3,11,13
+Public Static Method,"hudson.maven.MavenReporters.getConfigurableList",,,,3,8,3
+Public Class,"hudson.maven.MavenSnapshotTriggerTest",9,0,0,7,143,50
+Public Method,"hudson.maven.MavenSnapshotTriggerTest.testMixedTransitiveSnapshotTrigger",,,,1,24,6
+Public Method,"hudson.maven.MavenSnapshotTriggerTest.testMultipleDependencySnapshotTrigger",,,,2,45,10
+Public Method,"hudson.maven.MavenSnapshotTriggerTest.testMultipleDependencySnapshotTriggerIgnoreUnsuccessfullUpstreams",,,,3,55,24
+Public Method,"hudson.maven.MavenSnapshotTriggerTest.testSnapshotDependencyBuildTrigger",,,,1,17,5
+Public Class,"hudson.maven.MavenTestDataPublisher",14,50,25,10,61,4
+Public Static Class,"hudson.maven.MavenTestDataPublisher.DescriptorImpl",15,0,0,4,22,0
+Public Method,"hudson.maven.MavenTestDataPublisher.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"hudson.maven.MavenTestDataPublisher.DescriptorImpl.isApplicable",,,,1,4,0
+Public Method,"hudson.maven.MavenTestDataPublisher.DescriptorImpl.newInstance",,,,2,11,0
+Public Constructor,"hudson.maven.MavenTestDataPublisher.MavenTestDataPublisher",,,,1,5,0
+Public Method,"hudson.maven.MavenTestDataPublisher.getRequiredMonitorService",,,,1,3,0
+Public Method,"hudson.maven.MavenTestDataPublisher.getTestDataPublishers",,,,1,3,0
+Public Method,"hudson.maven.MavenTestDataPublisher.perform",,,,7,25,0
+Public Class,"hudson.maven.MavenUtil",35,90,45,41,176,57
+Public Enum Type,"hudson.maven.MavenUtil.MavenVersion",1,,,0,3,0
+Public Implicit Method,"hudson.maven.MavenUtil.MavenVersion.valueOf",,,,0,,
+Public Implicit Method,"hudson.maven.MavenUtil.MavenVersion.values",,,,0,,
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,10,49,10
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,6,28,5
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,1,3,5
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,3,6,5
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,1,3,0
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,1,3,0
+Public Static Method,"hudson.maven.MavenUtil.createEmbedder",,,,1,7,0
+Public Static Method,"hudson.maven.MavenUtil.getMavenVersion",,,,7,28,1
+Public Static Method,"hudson.maven.MavenUtil.maven3orLater",,,,2,6,1
+Public Static Method,"hudson.maven.MavenUtil.resolveModules",,,,7,30,17
+Public Static Method,"hudson.maven.MavenUtil.supportEventSpy",,,,2,6,7
+Public Class,"hudson.maven.MavenUtilTest",4,0,0,7,31,3
+Public Method,"hudson.maven.MavenUtilTest.eventSpy2x",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.eventSpy301",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.eventSpy302",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.eventSpy31x",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.testMaven2",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.testMaven301",,,,1,4,0
+Public Method,"hudson.maven.MavenUtilTest.testMaven31",,,,1,4,0
+Public Class,"hudson.maven.MavenVersionCallable",7,0,0,6,33,6
+Public Constructor,"hudson.maven.MavenVersionCallable.MavenVersionCallable",,,,2,7,0
+Public Method,"hudson.maven.MavenVersionCallable.call",,,,4,20,0
+Public Final Class,"hudson.maven.ModuleDependency",18,78,60,38,142,80
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,2,9,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,2,13,0
+Public Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,3,0
+Private Constructor,"hudson.maven.ModuleDependency.ModuleDependency",,,,1,6,3
+Public Method,"hudson.maven.ModuleDependency.contains",,,,4,11,8
+Public Method,"hudson.maven.ModuleDependency.equals",,,,3,9,0
+Public Method,"hudson.maven.ModuleDependency.findHighestFrom",,,,4,11,11
+Public Method,"hudson.maven.ModuleDependency.getName",,,,1,3,0
+Public Method,"hudson.maven.ModuleDependency.getVersionAsRange",,,,2,5,0
+Public Method,"hudson.maven.ModuleDependency.hashCode",,,,2,8,0
+Private Method,"hudson.maven.ModuleDependency.intern",,,,2,3,0
+Public Method,"hudson.maven.ModuleDependency.isVersionRange",,,,1,3,5
+Public Method,"hudson.maven.ModuleDependency.parseVersion",,,,2,5,0
+Protected Method,"hudson.maven.ModuleDependency.readResolve",,,,1,3,3
+Public Method,"hudson.maven.ModuleDependency.toString",,,,1,9,0
+Public Method,"hudson.maven.ModuleDependency.withUnknownVersion",,,,2,6,3
+Public Abstract Class,"hudson.maven.ModuleDependencyLocator",6,0,0,1,15,32
+Static Class,"hudson.maven.ModuleDependencyLocator.ModuleDependencyLocatorFacade",7,0,0,2,9,4
+Public Method,"hudson.maven.ModuleDependencyLocator.ModuleDependencyLocatorFacade.find",,,,2,7,0
+Public Static Method,"hudson.maven.ModuleDependencyLocator.all",,,,1,3,3
+Public Abstract Method,"hudson.maven.ModuleDependencyLocator.find",,,,0,1,10
+Public Class,"hudson.maven.ModuleName",11,60,13,22,70,17
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,3,10,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Constructor,"hudson.maven.ModuleName.ModuleName",,,,1,3,0
+Public Method,"hudson.maven.ModuleName.compareTo",,,,2,5,0
+Public Method,"hudson.maven.ModuleName.equals",,,,3,7,0
+Public Static Method,"hudson.maven.ModuleName.fromFileSystemName",,,,2,5,0
+Public Static Method,"hudson.maven.ModuleName.fromString",,,,2,5,0
+Public Method,"hudson.maven.ModuleName.hashCode",,,,1,6,0
+Public Static Method,"hudson.maven.ModuleName.isValid",,,,1,3,4
+Public Method,"hudson.maven.ModuleName.toFileSystemName",,,,1,3,4
+Public Method,"hudson.maven.ModuleName.toString",,,,1,3,3
+Public Class,"hudson.maven.MojoInfo",29,76,58,20,111,134
+Public Static Class,"hudson.maven.MojoInfo.Maven3ProvidesNoAccessToMojo",3,0,0,1,5,3
+Public Method,"hudson.maven.MojoInfo.Maven3ProvidesNoAccessToMojo.execute",,,,1,3,0
+Public Constructor,"hudson.maven.MojoInfo.MojoInfo",,,,1,5,0
+Public Constructor,"hudson.maven.MojoInfo.MojoInfo",,,,2,10,2
+Public Generic Method,"hudson.maven.MojoInfo.getConfigurationValue",,,,3,19,27
+Public Generic Method,"hudson.maven.MojoInfo.getConfigurationValue",,,,2,4,23
+TypeVariable,"hudson.maven.MojoInfo.getConfigurationValue.T",0,0,0,0,0,0
+TypeVariable,"hudson.maven.MojoInfo.getConfigurationValue.T",0,0,0,0,0,0
+Public Method,"hudson.maven.MojoInfo.getGoal",,,,1,3,4
+Public Method,"hudson.maven.MojoInfo.getStartTime",,,,1,3,0
+Public Generic Method,"hudson.maven.MojoInfo.inject",,,,4,19,11
+TypeVariable,"hudson.maven.MojoInfo.inject.T",0,0,0,0,0,0
+Public Method,"hudson.maven.MojoInfo.intercept",,,,5,31,20
+Anonymous Class,"hudson.maven.MojoInfo.intercept.(Anon_1)",3,0,0,1,8,0
+Public Method,"hudson.maven.MojoInfo.intercept.(Anon_1).invoke",,,,1,7,0
+Anonymous Class,"hudson.maven.MojoInfo.intercept.(Anon_1).invoke.(Anon_2)",3,0,0,1,4,0
+Public Method,"hudson.maven.MojoInfo.intercept.(Anon_1).invoke.(Anon_2).invoke",,,,1,3,0
+Public Method,"hudson.maven.MojoInfo.is",,,,1,3,3
+Public Class,"hudson.maven.MojoInfoBuilder",12,68,63,10,69,0
+Anonymous Class,"hudson.maven.MojoInfoBuilder.(Anon_1)",3,0,0,2,9,0
+Public Method,"hudson.maven.MojoInfoBuilder.(Anon_1).alignToBaseDirectory",,,,1,4,0
+Public Method,"hudson.maven.MojoInfoBuilder.(Anon_1).evaluate",,,,1,4,0
+Private Constructor,"hudson.maven.MojoInfoBuilder.MojoInfoBuilder",,,,1,5,0
+Public Method,"hudson.maven.MojoInfoBuilder.build",,,,2,16,0
+Public Method,"hudson.maven.MojoInfoBuilder.configValue",,,,1,4,0
+Public Method,"hudson.maven.MojoInfoBuilder.copy",,,,1,6,0
+Public Method,"hudson.maven.MojoInfoBuilder.evaluator",,,,1,4,0
+Public Method,"hudson.maven.MojoInfoBuilder.executionId",,,,1,4,0
+Public Static Method,"hudson.maven.MojoInfoBuilder.mojoBuilder",,,,1,3,0
+Public Method,"hudson.maven.MojoInfoBuilder.startTime",,,,1,4,0
+Public Method,"hudson.maven.MojoInfoBuilder.version",,,,1,4,0
+Public Class,"hudson.maven.NeedsFullBuildAction",1,0,0,3,11,6
+Public Method,"hudson.maven.NeedsFullBuildAction.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.NeedsFullBuildAction.getIconFileName",,,,1,3,0
+Public Method,"hudson.maven.NeedsFullBuildAction.getUrlName",,,,1,3,0
+Public Abstract Class,"hudson.maven.PlexusModuleContributor",7,66,66,4,38,24
+Private Static Class,"hudson.maven.PlexusModuleContributor.PlexusModuleContributorOfPaths",9,0,0,4,19,0
+Public Constructor,"hudson.maven.PlexusModuleContributor.PlexusModuleContributorOfPaths.PlexusModuleContributorOfPaths",,,,1,3,0
+Public Method,"hudson.maven.PlexusModuleContributor.PlexusModuleContributorOfPaths.getPlexusComponentJars",,,,3,12,0
+Public Abstract Method,"hudson.maven.PlexusModuleContributor.getPlexusComponentJars",,,,0,1,4
+Public Static Method,"hudson.maven.PlexusModuleContributor.of",,,,1,3,0
+Public Static Method,"hudson.maven.PlexusModuleContributor.of",,,,2,7,6
+Protected Method,"hudson.maven.PlexusModuleContributor.readResolve",,,,1,4,0
+Public Abstract Class,"hudson.maven.PlexusModuleContributorFactory",9,0,0,4,30,27
+Private Static Class,"hudson.maven.PlexusModuleContributorFactory.AggregatedPlexusModuleContributor",4,0,0,3,15,0
+Public Constructor,"hudson.maven.PlexusModuleContributorFactory.AggregatedPlexusModuleContributor.AggregatedPlexusModuleContributor",,,,1,3,0
+Public Method,"hudson.maven.PlexusModuleContributorFactory.AggregatedPlexusModuleContributor.getPlexusComponentJars",,,,2,8,0
+Public Static Method,"hudson.maven.PlexusModuleContributorFactory.aggregate",,,,3,9,5
+Public Static Method,"hudson.maven.PlexusModuleContributorFactory.all",,,,1,3,3
+Public Abstract Method,"hudson.maven.PlexusModuleContributorFactory.createFor",,,,0,1,0
+Public Class,"hudson.maven.PlexusModuleContributorTest",11,0,0,3,41,7
+Public Static Class,"hudson.maven.PlexusModuleContributorTest.PlexusLoader",10,0,0,1,10,0
+Public Method,"hudson.maven.PlexusModuleContributorTest.PlexusLoader.createFor",,,,1,7,0
+Public Method,"hudson.maven.PlexusModuleContributorTest.testCustomPlexusComponent",,,,1,8,4
+Public Method,"hudson.maven.PlexusModuleContributorTest.testCustomPlexusComponent_Maven3",,,,1,8,0
+Public Method,"hudson.maven.PlexusModuleContributorTest.testCustomPlexusComponent_Maven3_slave",,,,1,11,0
+Public Class,"hudson.maven.PluginImpl",12,0,0,2,15,9
+Public Static Method,"hudson.maven.PluginImpl.init",,,,1,4,4
+Public Method,"hudson.maven.PluginImpl.start",,,,1,9,1
+Public Final Class,"hudson.maven.PluginName",2,22,5,8,34,9
+Public Constructor,"hudson.maven.PluginName.PluginName",,,,1,3,0
+Public Constructor,"hudson.maven.PluginName.PluginName",,,,1,5,0
+Public Method,"hudson.maven.PluginName.equals",,,,3,8,0
+Public Method,"hudson.maven.PluginName.hashCode",,,,1,7,0
+Public Method,"hudson.maven.PluginName.matches",,,,1,3,0
+Public Method,"hudson.maven.PluginName.toString",,,,1,3,3
+Final Class,"hudson.maven.PomInfo",17,76,74,31,112,75
+Public Constructor,"hudson.maven.PomInfo.PomInfo",,,,10,39,2
+Private Method,"hudson.maven.PomInfo.addPluginsAsDependencies",,,,3,5,0
+Private Method,"hudson.maven.PomInfo.addReportPluginsAsDependencies",,,,3,5,0
+Private Method,"hudson.maven.PomInfo.asDependency",,,,1,3,3
+Method,"hudson.maven.PomInfo.cutCycle",,,,3,7,9
+Public Method,"hudson.maven.PomInfo.equals",,,,4,16,0
+Public Method,"hudson.maven.PomInfo.getNestLevel",,,,2,6,4
+Public Method,"hudson.maven.PomInfo.hashCode",,,,3,7,0
+Public Method,"hudson.maven.PomInfo.isSimilar",,,,1,5,3
+Public Method,"hudson.maven.PomInfo.toString",,,,1,3,3
+Public Final Class,"hudson.maven.ProcessCache",18,77,66,7,151,56
+Interface,"hudson.maven.ProcessCache.Factory",6,0,0,0,6,4
+Abstract Method,"hudson.maven.ProcessCache.Factory.getJava",,,,0,1,0
+Abstract Method,"hudson.maven.ProcessCache.Factory.getMavenInstallation",,,,0,1,0
+Abstract Method,"hudson.maven.ProcessCache.Factory.getMavenOpts",,,,0,1,0
+Abstract Method,"hudson.maven.ProcessCache.Factory.newProcess",,,,0,1,4
+Private Static Class,"hudson.maven.ProcessCache.GetSystemProperties",2,0,0,1,6,0
+Public Method,"hudson.maven.ProcessCache.GetSystemProperties.call",,,,1,3,0
+Class,"hudson.maven.ProcessCache.MavenProcess",21,66,64,11,62,26
+Constructor,"hudson.maven.ProcessCache.MavenProcess.MavenProcess",,,,1,10,4
+Public Generic Method,"hudson.maven.ProcessCache.MavenProcess.call",,,,3,14,6
+TypeVariable,"hudson.maven.ProcessCache.MavenProcess.call.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.ProcessCache.MavenProcess.call.V",0,0,0,0,0,0
+Public Method,"hudson.maven.ProcessCache.MavenProcess.discard",,,,2,7,4
+Public Method,"hudson.maven.ProcessCache.MavenProcess.getMavenOpts",,,,1,3,0
+Method,"hudson.maven.ProcessCache.MavenProcess.matches",,,,1,5,0
+Public Method,"hudson.maven.ProcessCache.MavenProcess.recycle",,,,3,12,1
+Public Static Class,"hudson.maven.ProcessCache.NewProcess",2,0,0,1,8,4
+Public Constructor,"hudson.maven.ProcessCache.NewProcess.NewProcess",,,,1,4,0
+Static Class,"hudson.maven.ProcessCache.PerChannel",2,0,0,0,3,3
+Protected Constructor,"hudson.maven.ProcessCache.ProcessCache",,,,1,3,4
+Static Class,"hudson.maven.ProcessCache.RedirectableOutputStream",1,0,0,2,8,0
+Public Constructor,"hudson.maven.ProcessCache.RedirectableOutputStream.RedirectableOutputStream",,,,1,3,0
+Public Method,"hudson.maven.ProcessCache.RedirectableOutputStream.set",,,,1,3,0
+Private Static Class,"hudson.maven.ProcessCache.SetSystemProperties",2,0,0,2,11,3
+Public Constructor,"hudson.maven.ProcessCache.SetSystemProperties.SetSystemProperties",,,,1,3,0
+Public Method,"hudson.maven.ProcessCache.SetSystemProperties.call",,,,1,4,0
+Public Method,"hudson.maven.ProcessCache.get",,,,4,27,5
+Private Method,"hudson.maven.ProcessCache.get",,,,2,6,0
+Public Class,"hudson.maven.RedeployPublisher",39,80,56,40,335,66
+Public Static Class,"hudson.maven.RedeployPublisher.DescriptorImpl",8,0,0,6,20,5
+Public Constructor,"hudson.maven.RedeployPublisher.DescriptorImpl.DescriptorImpl",,,,1,2,0
+Protected Constructor,"hudson.maven.RedeployPublisher.DescriptorImpl.DescriptorImpl",,,,1,3,4
+Public Method,"hudson.maven.RedeployPublisher.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.RedeployPublisher.DescriptorImpl.isApplicable",,,,1,3,0
+Public Method,"hudson.maven.RedeployPublisher.DescriptorImpl.newInstance",,,,1,3,0
+Public Method,"hudson.maven.RedeployPublisher.DescriptorImpl.showEvenIfUnstableOption",,,,1,3,1
+Private Static Final Class,"hudson.maven.RedeployPublisher.GetUserHome",3,0,0,1,6,0
+Public Method,"hudson.maven.RedeployPublisher.GetUserHome.call",,,,1,3,0
+Public Constructor,"hudson.maven.RedeployPublisher.RedeployPublisher",,,,1,4,3
+Public Constructor,"hudson.maven.RedeployPublisher.RedeployPublisher",,,,1,4,3
+Public Constructor,"hudson.maven.RedeployPublisher.RedeployPublisher",,,,1,8,0
+Public Static Class,"hudson.maven.RedeployPublisher.WrappedArtifactRepository",10,51,51,30,124,2
+Public Constructor,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.WrappedArtifactRepository",,,,1,5,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.find",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.findVersions",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getAuthentication",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getBasedir",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getId",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getKey",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getLayout",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getMirroredRepositories",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getProtocol",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getProxy",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getReleases",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getSnapshots",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.getUrl",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.isBlacklisted",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.isProjectAware",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.isUniqueVersion",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.pathOf",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.pathOfLocalRepositoryMetadata",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.pathOfRemoteRepositoryMetadata",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setAuthentication",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setBlacklisted",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setId",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setLayout",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setMirroredRepositories",,,,1,3,1
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setProxy",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setReleaseUpdatePolicy",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setSnapshotUpdatePolicy",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setUniqueVersion",,,,1,3,0
+Public Method,"hudson.maven.RedeployPublisher.WrappedArtifactRepository.setUrl",,,,1,4,0
+Private Method,"hudson.maven.RedeployPublisher.createEmbedder",,,,13,67,21
+Protected Method,"hudson.maven.RedeployPublisher.getActions",,,,4,16,0
+Private Method,"hudson.maven.RedeployPublisher.getDeploymentRepository",,,,2,6,0
+Protected Method,"hudson.maven.RedeployPublisher.getMavenBuild",,,,2,5,5
+Public Method,"hudson.maven.RedeployPublisher.getRequiredMonitorService",,,,1,3,0
+Protected Method,"hudson.maven.RedeployPublisher.getTreshold",,,,2,7,0
+Public Method,"hudson.maven.RedeployPublisher.perform",,,,13,58,9
+Public Class,"hudson.maven.RedeployPublisherTest",40,37,37,17,184,43
+Public Method,"hudson.maven.RedeployPublisherTest.testBug2593",,,,1,13,4
+Public Method,"hudson.maven.RedeployPublisherTest.testConfigRoundtrip",,,,1,8,1
+Public Method,"hudson.maven.RedeployPublisherTest.testDeployUnstable",,,,1,13,2
+Public Method,"hudson.maven.RedeployPublisherTest.testSettingsInsidePromotion",,,,2,28,11
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGz",,,,1,13,5
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzMaven3",,,,1,22,1
+Anonymous Class,"hudson.maven.RedeployPublisherTest.testTarGzMaven3.(Anon_2)",2,0,0,1,5,0
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzMaven3.(Anon_2).accept",,,,1,4,0
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrue",,,,5,42,1
+Anonymous Class,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrue.(Anon_1)",4,0,0,1,6,0
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrue.(Anon_1).accept",,,,1,5,0
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrueMaven3",,,,5,40,1
+Anonymous Class,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrueMaven3.(Anon_3)",2,0,0,1,5,0
+Public Method,"hudson.maven.RedeployPublisherTest.testTarGzUniqueVersionTrueMaven3.(Anon_3).accept",,,,1,4,0
+Public Class,"hudson.maven.ResultExposingBuilder",5,33,33,3,12,3
+Public Constructor,"hudson.maven.ResultExposingBuilder.ResultExposingBuilder",,,,1,2,0
+Public Method,"hudson.maven.ResultExposingBuilder.getResult",,,,1,3,0
+Public Method,"hudson.maven.ResultExposingBuilder.perform",,,,1,5,0
+Final Class,"hudson.maven.SplittableBuildListener",19,80,80,20,130,50
+Private Static Class,"hudson.maven.SplittableBuildListener.SendMark",5,0,0,1,7,1
+Public Method,"hudson.maven.SplittableBuildListener.SendMark.call",,,,1,5,1
+Public Constructor,"hudson.maven.SplittableBuildListener.SplittableBuildListener",,,,1,39,0
+Anonymous Class,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_1)",2,0,0,4,25,0
+Public Method,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_1).close",,,,1,6,0
+Public Method,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_1).flush",,,,1,6,0
+Public Method,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_1).write",,,,1,6,0
+Public Method,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_1).write",,,,1,6,0
+Anonymous Class,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_2)",2,0,0,1,8,0
+Protected Method,"hudson.maven.SplittableBuildListener.SplittableBuildListener.(Anon_2).onMarkFound",,,,1,7,0
+Public Method,"hudson.maven.SplittableBuildListener.annotate",,,,1,3,0
+Public Method,"hudson.maven.SplittableBuildListener.error",,,,1,4,0
+Public Method,"hudson.maven.SplittableBuildListener.error",,,,1,4,0
+Public Method,"hudson.maven.SplittableBuildListener.fatalError",,,,1,4,0
+Public Method,"hudson.maven.SplittableBuildListener.fatalError",,,,1,4,0
+Public Method,"hudson.maven.SplittableBuildListener.finished",,,,1,3,0
+Public Method,"hudson.maven.SplittableBuildListener.getLogger",,,,1,3,0
+Private Method,"hudson.maven.SplittableBuildListener.lock",,,,1,3,7
+Private Method,"hudson.maven.SplittableBuildListener.newLog",,,,1,3,0
+Public Method,"hudson.maven.SplittableBuildListener.setSideOutputStream",,,,3,14,0
+Public Method,"hudson.maven.SplittableBuildListener.started",,,,1,3,0
+Public Method,"hudson.maven.SplittableBuildListener.synchronizeOnMark",,,,3,15,21
+Private Static Method,"hudson.maven.SplittableBuildListener.toUTF8",,,,2,7,0
+Private Method,"hudson.maven.SplittableBuildListener.writeReplace",,,,1,3,0
+Public Abstract Class,"hudson.maven.TcpSocketHostLocator",6,0,0,1,6,16
+Public Static Method,"hudson.maven.TcpSocketHostLocator.all",,,,1,3,0
+Public Abstract Method,"hudson.maven.TcpSocketHostLocator.getTcpSocketHost",,,,0,1,5
+Final Class,"hudson.maven.TransferListenerImpl",3,42,42,8,35,15
+Public Constructor,"hudson.maven.TransferListenerImpl.TransferListenerImpl",,,,1,3,0
+Public Method,"hudson.maven.TransferListenerImpl.debug",,,,1,2,0
+Public Method,"hudson.maven.TransferListenerImpl.transferCompleted",,,,1,3,0
+Public Method,"hudson.maven.TransferListenerImpl.transferError",,,,1,4,0
+Public Method,"hudson.maven.TransferListenerImpl.transferInitiated",,,,2,9,0
+Public Method,"hudson.maven.TransferListenerImpl.transferProgress",,,,1,4,0
+Public Method,"hudson.maven.TransferListenerImpl.transferStarted",,,,1,5,0
+Public Class,"hudson.maven.UnbuiltModuleAction",5,50,50,6,21,17
+Public Method,"hudson.maven.UnbuiltModuleAction.addUnbuiltModule",,,,1,3,0
+Public Method,"hudson.maven.UnbuiltModuleAction.getDisplayName",,,,1,3,3
+Public Method,"hudson.maven.UnbuiltModuleAction.getIconFileName",,,,1,3,3
+Public Method,"hudson.maven.UnbuiltModuleAction.getUnbuildModules",,,,1,3,0
+Public Method,"hudson.maven.UnbuiltModuleAction.getUrlName",,,,1,3,3
+Public Method,"hudson.maven.UnbuiltModuleAction.removeUnbuildModule",,,,1,3,0
+Package,"hudson.maven.local_repo",,,,15,98,32
+Public Class,"hudson.maven.local_repo.DefaultLocalRepositoryLocator",4,0,0,2,16,5
+Public Constructor,"hudson.maven.local_repo.DefaultLocalRepositoryLocator.DefaultLocalRepositoryLocator",,,,1,3,0
+Public Static Class,"hudson.maven.local_repo.DefaultLocalRepositoryLocator.DescriptorImpl",3,0,0,1,7,0
+Public Method,"hudson.maven.local_repo.DefaultLocalRepositoryLocator.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Method,"hudson.maven.local_repo.DefaultLocalRepositoryLocator.locate",,,,1,4,0
+Public Abstract Class,"hudson.maven.local_repo.LocalRepositoryLocator",4,0,0,1,7,14
+Public Method,"hudson.maven.local_repo.LocalRepositoryLocator.getDescriptor",,,,1,4,0
+Public Abstract Method,"hudson.maven.local_repo.LocalRepositoryLocator.locate",,,,0,1,7
+Public Abstract Class,"hudson.maven.local_repo.LocalRepositoryLocatorDescriptor",0,0,0,0,2,5
+Public Class,"hudson.maven.local_repo.PerExecutorLocalRepositoryLocator",4,0,0,4,21,3
+Public Static Class,"hudson.maven.local_repo.PerExecutorLocalRepositoryLocator.DescriptorImpl",3,0,0,1,7,0
+Public Method,"hudson.maven.local_repo.PerExecutorLocalRepositoryLocator.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Constructor,"hudson.maven.local_repo.PerExecutorLocalRepositoryLocator.PerExecutorLocalRepositoryLocator",,,,1,2,0
+Public Method,"hudson.maven.local_repo.PerExecutorLocalRepositoryLocator.locate",,,,3,10,0
+Public Class,"hudson.maven.local_repo.PerJobLocalRepositoryLocator",6,0,0,5,26,5
+Public Static Class,"hudson.maven.local_repo.PerJobLocalRepositoryLocator.DescriptorImpl",3,0,0,1,7,0
+Public Method,"hudson.maven.local_repo.PerJobLocalRepositoryLocator.DescriptorImpl.getDisplayName",,,,1,4,0
+Public Constructor,"hudson.maven.local_repo.PerJobLocalRepositoryLocator.PerJobLocalRepositoryLocator",,,,1,3,0
+Public Method,"hudson.maven.local_repo.PerJobLocalRepositoryLocator.locate",,,,4,14,0
+Package,"hudson.maven.reporters",,,,466,2892,971
+Public Abstract Class,"hudson.maven.reporters.AbstractMavenJavadocArchiver",19,50,16,12,92,15
+Protected Static Class,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction",4,60,56,7,34,0
+Public Constructor,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction.MavenJavadocAction",,,,1,8,0
+Protected Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction.dir",,,,2,4,0
+Public Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction.getDisplayName",,,,2,7,0
+Protected Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction.getTitle",,,,1,4,0
+Public Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.MavenJavadocAction.getUrlName",,,,1,4,0
+Public Abstract Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.checkIsJavadocMojo",,,,0,1,5
+Public Abstract Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.getAggregatedProjectAction",,,,0,1,0
+Public Abstract Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.getArchiveTargetPath",,,,0,1,0
+Public Abstract Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.getProjectActions",,,,0,1,0
+Public Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.getTarget",,,,1,3,0
+Public Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.postExecute",,,,10,42,5
+Public Method,"hudson.maven.reporters.AbstractMavenJavadocArchiver.reportGenerated",,,,1,4,0
+Public Class,"hudson.maven.reporters.BuildInfoRecorder",14,0,0,4,46,6
+Public Static Final Class,"hudson.maven.reporters.BuildInfoRecorder.DescriptorImpl",4,0,0,2,9,0
+Public Method,"hudson.maven.reporters.BuildInfoRecorder.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.BuildInfoRecorder.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Method,"hudson.maven.reporters.BuildInfoRecorder.preExecute",,,,4,28,3
+Anonymous Class,"hudson.maven.reporters.BuildInfoRecorder.preExecute.(Anon_1)",8,0,0,1,12,1
+Public Method,"hudson.maven.reporters.BuildInfoRecorder.preExecute.(Anon_1).call",,,,1,10,1
+Public Abstract Generic Class,"hudson.maven.reporters.MavenAbstractArtifactRecord",26,85,85,14,141,51
+Anonymous Class,"hudson.maven.reporters.MavenAbstractArtifactRecord.(Anon_2)",3,0,0,4,13,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.(Anon_2).compare",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.(Anon_2).getKey",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.(Anon_2).getNextKey",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.(Anon_2).isBuilding",,,,1,3,0
+Private Final Class,"hudson.maven.reporters.MavenAbstractArtifactRecord.HistoryWidgetImpl",3,0,0,2,8,0
+Private Constructor,"hudson.maven.reporters.MavenAbstractArtifactRecord.HistoryWidgetImpl.HistoryWidgetImpl",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.HistoryWidgetImpl.getDisplayName",,,,1,3,0
+Public Final Class,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record",13,77,72,10,47,16
+Public Constructor,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.Record",,,,1,5,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.doIndex",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getBuildStatusUrl",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getIconColor",,,,2,7,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getLog",,,,1,3,3
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getNumber",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getResult",,,,1,4,3
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.getTimestamp",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.Record.isBuilding",,,,1,4,0
+TypeVariable,"hudson.maven.reporters.MavenAbstractArtifactRecord.T",0,0,0,0,0,0
+Public Abstract Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.deploy",,,,0,1,10
+Public Final Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.doRedeploy",,,,1,31,4
+Anonymous Class,"hudson.maven.reporters.MavenAbstractArtifactRecord.doRedeploy.(Anon_1)",10,0,0,2,19,1
+Protected Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.doRedeploy.(Anon_1).perform",,,,2,18,1
+Protected Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getACL",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getApi",,,,1,3,0
+Public Abstract Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getBuild",,,,0,1,3
+Public Final Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getDynamic",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getHistoryWidget",,,,1,3,0
+Public Final Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getIconFileName",,,,2,3,0
+Protected Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getPermission",,,,1,3,0
+Public Final Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.getUrlName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAbstractArtifactRecord.hasBadge",,,,4,9,0
+Public Class,"hudson.maven.reporters.MavenAggregatedArtifactRecord",14,42,42,12,36,8
+Public Constructor,"hudson.maven.reporters.MavenAggregatedArtifactRecord.MavenAggregatedArtifactRecord",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.deploy",,,,4,9,0
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.getBuild",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.getIndividualActionType",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.getModuleRecords",,,,3,9,3
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.getProjectAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenAggregatedArtifactRecord.update",,,,1,2,0
+Public Final Class,"hudson.maven.reporters.MavenArtifact",26,67,50,20,163,97
+Public Static Final Class,"hudson.maven.reporters.MavenArtifact.CloseableArtifact",3,33,33,3,14,4
+Constructor,"hudson.maven.reporters.MavenArtifact.CloseableArtifact.CloseableArtifact",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenArtifact.CloseableArtifact.close",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifact.CloseableArtifact.get",,,,1,3,0
+Public Constructor,"hudson.maven.reporters.MavenArtifact.MavenArtifact",,,,2,15,1
+Public Constructor,"hudson.maven.reporters.MavenArtifact.MavenArtifact",,,,1,10,0
+Public Final Class,"hudson.maven.reporters.MavenArtifact.TemporaryFile",10,37,37,8,39,15
+Constructor,"hudson.maven.reporters.MavenArtifact.TemporaryFile.TemporaryFile",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifact.TemporaryFile.close",,,,3,11,0
+Public Method,"hudson.maven.reporters.MavenArtifact.TemporaryFile.getFile",,,,3,18,5
+Public Method,"hudson.maven.reporters.MavenArtifact.TemporaryFile.getVirtualFile",,,,1,3,5
+Public Method,"hudson.maven.reporters.MavenArtifact.archive",,,,2,8,3
+Private Method,"hudson.maven.reporters.MavenArtifact.artifactPath",,,,1,3,0
+Public Static Method,"hudson.maven.reporters.MavenArtifact.create",,,,3,8,6
+Public Method,"hudson.maven.reporters.MavenArtifact.doFile",,,,1,8,5
+Anonymous Class,"hudson.maven.reporters.MavenArtifact.doFile.(Anon_2)",8,0,0,1,5,0
+Public Method,"hudson.maven.reporters.MavenArtifact.doFile.(Anon_2).generateResponse",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenArtifact.getApi",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifact.getFile",,,,2,9,5
+Private Method,"hudson.maven.reporters.MavenArtifact.getSeed",,,,2,7,3
+Public Method,"hudson.maven.reporters.MavenArtifact.getTemporaryFile",,,,1,3,6
+Public Method,"hudson.maven.reporters.MavenArtifact.isPOM",,,,1,3,1
+Public Method,"hudson.maven.reporters.MavenArtifact.toArtifact",,,,1,4,3
+Public Method,"hudson.maven.reporters.MavenArtifact.toCloseableArtifact",,,,2,16,6
+Anonymous Class,"hudson.maven.reporters.MavenArtifact.toCloseableArtifact.(Anon_1)",2,0,0,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifact.toCloseableArtifact.(Anon_1).getExtension",,,,1,2,0
+Public Class,"hudson.maven.reporters.MavenArtifactArchiver",17,0,0,16,91,29
+Public Static Final Class,"hudson.maven.reporters.MavenArtifactArchiver.DescriptorImpl",5,0,0,2,9,0
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.postBuild",,,,11,51,12
+Anonymous Class,"hudson.maven.reporters.MavenArtifactArchiver.postBuild.(Anon_2)",8,0,0,2,12,1
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.postBuild.(Anon_2).call",,,,2,10,1
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.preBuild",,,,1,5,1
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.preExecute",,,,4,22,2
+Anonymous Class,"hudson.maven.reporters.MavenArtifactArchiver.preExecute.(Anon_1)",8,0,0,3,10,1
+Public Method,"hudson.maven.reporters.MavenArtifactArchiver.preExecute.(Anon_1).invoke",,,,3,9,1
+Public Class,"hudson.maven.reporters.MavenArtifactRecord",28,70,58,16,103,45
+Public Constructor,"hudson.maven.reporters.MavenArtifactRecord.MavenArtifactRecord",,,,1,4,0
+Public Constructor,"hudson.maven.reporters.MavenArtifactRecord.MavenArtifactRecord",,,,2,13,0
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.createAggregatedAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.deploy",,,,8,57,1
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.getAbsoluteUrl",,,,1,4,8
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.getBuild",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.getUrl",,,,1,3,8
+Public Method,"hudson.maven.reporters.MavenArtifactRecord.isPOM",,,,1,3,0
+Public Class,"hudson.maven.reporters.MavenFingerprinter",34,76,56,24,126,45
+Public Static Final Class,"hudson.maven.reporters.MavenFingerprinter.DescriptorImpl",6,0,0,3,9,0
+Public Method,"hudson.maven.reporters.MavenFingerprinter.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenFingerprinter.DescriptorImpl.newAutoInstance",,,,2,3,0
+Public Static Method,"hudson.maven.reporters.MavenFingerprinter.aggregate",,,,6,16,4
+Private Method,"hudson.maven.reporters.MavenFingerprinter.getArtifactRepositoryMaven21",,,,3,15,2
+Private Method,"hudson.maven.reporters.MavenFingerprinter.getLocalRepository",,,,4,12,2
+Public Method,"hudson.maven.reporters.MavenFingerprinter.postBuild",,,,1,22,5
+Anonymous Class,"hudson.maven.reporters.MavenFingerprinter.postBuild.(Anon_1)",13,0,0,4,17,2
+Public Method,"hudson.maven.reporters.MavenFingerprinter.postBuild.(Anon_1).call",,,,4,13,1
+Public Method,"hudson.maven.reporters.MavenFingerprinter.postExecute",,,,1,7,5
+Public Method,"hudson.maven.reporters.MavenFingerprinter.preBuild",,,,1,6,0
+Private Method,"hudson.maven.reporters.MavenFingerprinter.record",,,,2,4,0
+Private Method,"hudson.maven.reporters.MavenFingerprinter.record",,,,1,4,3
+Private Method,"hudson.maven.reporters.MavenFingerprinter.record",,,,2,7,8
+Private Method,"hudson.maven.reporters.MavenFingerprinter.recordParents",,,,3,17,2
+Public Class,"hudson.maven.reporters.MavenJavadocArchiver",8,0,0,4,29,5
+Public Static Final Class,"hudson.maven.reporters.MavenJavadocArchiver.DescriptorImpl",4,0,0,2,9,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.checkIsJavadocMojo",,,,1,5,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.getAggregatedProjectAction",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.getArchiveTargetPath",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenJavadocArchiver.getProjectActions",,,,1,4,0
+Public Class,"hudson.maven.reporters.MavenMailer",12,52,52,9,46,6
+Public Static Final Class,"hudson.maven.reporters.MavenMailer.DescriptorImpl",2,0,0,1,6,0
+Public Method,"hudson.maven.reporters.MavenMailer.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Constructor,"hudson.maven.reporters.MavenMailer.MavenMailer",,,,1,1,0
+Public Constructor,"hudson.maven.reporters.MavenMailer.MavenMailer",,,,1,6,0
+Public Method,"hudson.maven.reporters.MavenMailer.end",,,,3,10,0
+Public Method,"hudson.maven.reporters.MavenMailer.getAllRecipients",,,,3,11,0
+Public Method,"hudson.maven.reporters.MavenMailer.isNotifyEveryUnstableBuild",,,,1,3,0
+Public Class,"hudson.maven.reporters.MavenMailerTest",20,66,44,11,149,21
+Private Method,"hudson.maven.reporters.MavenMailerTest.assertContainsRecipient",,,,3,12,0
+Public Method,"hudson.maven.reporters.MavenMailerTest.runMailTest",,,,1,21,1
+Public Method,"hudson.maven.reporters.MavenMailerTest.testCiManagementNotificationModule",,,,1,37,7
+Public Method,"hudson.maven.reporters.MavenMailerTest.testCiManagementNotificationRoot",,,,1,36,6
+Public Method,"hudson.maven.reporters.MavenMailerTest.testMavenRecipientsAndRecipientsNotNull",,,,1,8,0
+Public Method,"hudson.maven.reporters.MavenMailerTest.testMavenRecipientsNotNullAndRecipientsNull",,,,1,8,0
+Public Method,"hudson.maven.reporters.MavenMailerTest.testMulipleMails",,,,1,6,1
+Public Method,"hudson.maven.reporters.MavenMailerTest.testRecipientsNotNullAndMavenRecipientsNull",,,,1,8,0
+Public Method,"hudson.maven.reporters.MavenMailerTest.testSingleMails",,,,1,6,0
+Public Class,"hudson.maven.reporters.MavenSiteArchiver",18,0,0,11,91,26
+Public Static Final Class,"hudson.maven.reporters.MavenSiteArchiver.DescriptorImpl",4,0,0,2,9,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Static Class,"hudson.maven.reporters.MavenSiteArchiver.SiteAction",5,40,40,6,22,4
+Public Constructor,"hudson.maven.reporters.MavenSiteArchiver.SiteAction.SiteAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.SiteAction.doDynamic",,,,1,4,3
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.SiteAction.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.SiteAction.getIconFileName",,,,2,6,1
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.SiteAction.getUrlName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.getAggregatedProjectAction",,,,1,3,0
+Private Method,"hudson.maven.reporters.MavenSiteArchiver.getModulePath",,,,2,19,13
+Anonymous Class,"hudson.maven.reporters.MavenSiteArchiver.getModulePath.(Anon_1)",7,0,0,2,9,1
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.getModulePath.(Anon_1).call",,,,2,7,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.getProjectActions",,,,1,3,0
+Private Static Method,"hudson.maven.reporters.MavenSiteArchiver.getSiteDir",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenSiteArchiver.postExecute",,,,6,29,1
+Public Class,"hudson.maven.reporters.MavenSiteArchiverTest",1,0,0,1,4,7
+Public Method,"hudson.maven.reporters.MavenSiteArchiverTest.testSiteArchiving",,,,1,2,4
+Public Class,"hudson.maven.reporters.MavenTestJavadocArchiver",8,0,0,4,29,5
+Public Static Final Class,"hudson.maven.reporters.MavenTestJavadocArchiver.DescriptorImpl",4,0,0,2,9,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.checkIsJavadocMojo",,,,1,5,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.getAggregatedProjectAction",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.getArchiveTargetPath",,,,1,4,0
+Public Method,"hudson.maven.reporters.MavenTestJavadocArchiver.getProjectActions",,,,1,4,0
+Public Final Class,"hudson.maven.reporters.ReportAction",4,80,80,5,26,8
+Public Static Final Class,"hudson.maven.reporters.ReportAction.Entry",1,0,0,1,8,3
+Public Constructor,"hudson.maven.reporters.ReportAction.Entry.Entry",,,,1,4,0
+Public Constructor,"hudson.maven.reporters.ReportAction.ReportAction",,,,1,2,0
+Protected Method,"hudson.maven.reporters.ReportAction.add",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportAction.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportAction.getIconFileName",,,,1,3,1
+Public Method,"hudson.maven.reporters.ReportAction.getUrlName",,,,1,3,0
+Public Class,"hudson.maven.reporters.ReportCollector",14,33,33,7,51,9
+Private Static Final Class,"hudson.maven.reporters.ReportCollector.AddActionTask",5,0,0,2,11,0
+Public Constructor,"hudson.maven.reporters.ReportCollector.AddActionTask.AddActionTask",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportCollector.AddActionTask.call",,,,1,4,0
+Public Static Final Class,"hudson.maven.reporters.ReportCollector.DescriptorImpl",3,0,0,2,9,0
+Public Method,"hudson.maven.reporters.ReportCollector.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportCollector.DescriptorImpl.newAutoInstance",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportCollector.getDescriptor",,,,1,3,0
+Public Method,"hudson.maven.reporters.ReportCollector.leaveModule",,,,2,7,1
+Public Method,"hudson.maven.reporters.ReportCollector.postExecute",,,,4,17,3
+Public Class,"hudson.maven.reporters.SurefireAggregatedReport",15,0,0,10,41,8
+Constructor,"hudson.maven.reporters.SurefireAggregatedReport.SurefireAggregatedReport",,,,1,3,0
+Protected Method,"hudson.maven.reporters.SurefireAggregatedReport.getChildName",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.getChildReport",,,,2,5,0
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.getIndividualActionType",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.getProjectAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.getTestResultPath",,,,1,10,3
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.resolveChild",,,,2,8,0
+Public Method,"hudson.maven.reporters.SurefireAggregatedReport.update",,,,1,3,0
+Public Class,"hudson.maven.reporters.SurefireArchiver",36,80,76,32,188,53
+Public Static Final Class,"hudson.maven.reporters.SurefireArchiver.DescriptorImpl",4,0,0,2,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.DescriptorImpl.getDisplayName",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.DescriptorImpl.newAutoInstance",,,,1,3,0
+Static Final Class,"hudson.maven.reporters.SurefireArchiver.FactoryImpl",4,0,0,1,5,3
+Public Method,"hudson.maven.reporters.SurefireArchiver.FactoryImpl.getProjectActions",,,,1,3,0
+Static Class,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable",6,58,58,3,39,8
+Constructor,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.FilteredReportsFileIterable",,,,1,7,3
+Method,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.getFile",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.iterator",,,,1,23,0
+Anonymous Class,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.iterator.(Anon_3)",3,0,0,2,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.iterator.(Anon_3).apply",,,,2,8,0
+Anonymous Class,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.iterator.(Anon_4)",4,0,0,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.FilteredReportsFileIterable.iterator.(Anon_4).apply",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.end",,,,4,12,1
+Public Static Method,"hudson.maven.reporters.SurefireArchiver.fixUp",,,,4,8,7
+Private Method,"hudson.maven.reporters.SurefireArchiver.getTestMojo",,,,5,17,1
+Public Method,"hudson.maven.reporters.SurefireArchiver.hasTestFailures",,,,1,4,0
+Method,"hudson.maven.reporters.SurefireArchiver.isTestMojo",,,,1,3,0
+Private Method,"hudson.maven.reporters.SurefireArchiver.markBuildAsSuccess",,,,2,8,1
+Public Method,"hudson.maven.reporters.SurefireArchiver.postExecute",,,,7,48,8
+Anonymous Class,"hudson.maven.reporters.SurefireArchiver.postExecute.(Anon_1)",4,0,0,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.postExecute.(Anon_1).apply",,,,1,4,0
+Anonymous Class,"hudson.maven.reporters.SurefireArchiver.postExecute.(Anon_2)",9,0,0,3,13,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.postExecute.(Anon_2).call",,,,3,11,0
+Public Method,"hudson.maven.reporters.SurefireArchiver.preExecute",,,,5,20,6
+Protected Method,"hudson.maven.reporters.SurefireArchiver.readResolve",,,,1,4,0
+Private Method,"hudson.maven.reporters.SurefireArchiver.rememberCheckedFiles",,,,2,5,3
+Public Class,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest",6,0,0,20,169,7
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.before",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAndroidMavenPlugin",,,,1,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAnyMojoWithAJenkinsReportsDirectoryProperty",,,,1,19,0
+Anonymous Class,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAnyMojoWithAJenkinsReportsDirectoryProperty.(Anon_1)",4,0,0,3,11,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAnyMojoWithAJenkinsReportsDirectoryProperty.(Anon_1).alignToBaseDirectory",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAnyMojoWithAJenkinsReportsDirectoryProperty.(Anon_1).evaluate",,,,2,6,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectAnyMojoWithATestGoal",,,,1,6,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectFlexMojoMavenPlugin",,,,1,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectGwtMavenPlugin",,,,1,9,1
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenAndroidPlugin",,,,1,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenFailsafe",,,,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenFailsafe2",,,,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenJunitPlugin",,,,1,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenQunit",,,,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenSurefire",,,,1,5,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectMavenSurefireSkip",,,,1,18,1
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectOsgiTestPlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectSoapUiExtensionMavenPlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectSoapUiMavenPlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectSoapUiProMavenPlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectToolkitResolverPlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldDetectTychoSurefirePlugin",,,,1,8,0
+Public Method,"hudson.maven.reporters.SurefireArchiverDetectTestMojosTest.shouldNotDetectNonTestGoal",,,,1,6,0
+Public Class,"hudson.maven.reporters.SurefireArchiverFilterReportsFileTest",7,0,0,6,61,3
+Public Method,"hudson.maven.reporters.SurefireArchiverFilterReportsFileTest.shouldExcludeReportFileTooOld",,,,2,20,1
+Public Method,"hudson.maven.reporters.SurefireArchiverFilterReportsFileTest.shouldExcludeReportFileTooYoung",,,,2,20,1
+Public Method,"hudson.maven.reporters.SurefireArchiverFilterReportsFileTest.shouldIncludeAllReportFiles",,,,2,19,1
+Public Class,"hudson.maven.reporters.SurefireArchiverTest",14,0,0,4,20,3
+Public Method,"hudson.maven.reporters.SurefireArchiverTest.testSerialization",,,,4,18,0
+Public Class,"hudson.maven.reporters.SurefireArchiverUnitTest",30,28,28,11,265,8
+Private Class,"hudson.maven.reporters.SurefireArchiverUnitTest.ArchiverThread",5,16,16,4,18,0
+Public Constructor,"hudson.maven.reporters.SurefireArchiverUnitTest.ArchiverThread.ArchiverThread",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.ArchiverThread.run",,,,3,9,0
+Private Static Class,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener",10,0,0,9,36,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.annotate",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.error",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.error",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.fatalError",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.fatalError",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.finished",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.getLogger",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.hyperlink",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.NullBuildListener.started",,,,1,3,0
+Private Static Class,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy",14,83,83,19,72,0
+Public Constructor,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.TestBuildProxy",,,,1,3,0
+Public Generic Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.execute",,,,1,5,0
+TypeVariable,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.execute.T",1,0,0,0,0,0
+TypeVariable,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.execute.V",0,0,0,0,0,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.executeAsync",,,,2,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getArtifactsDir",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getMavenBuildInformation",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getMilliSecsSinceBuildStart",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getModuleSetRootDir",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getProjectRootDir",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getRootDir",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.getTimestamp",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.isArchivingDisabled",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.isSiteArchivingDisabled",,,,1,4,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.queueArchiving",,,,1,1,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.registerAsAggregatedProjectAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.registerAsProjectAction",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.setExecutedMojos",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.TestBuildProxy.setResult",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.before",,,,1,23,0
+Anonymous Class,"hudson.maven.reporters.SurefireArchiverUnitTest.before.(Anon_1)",5,0,0,3,10,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.before.(Anon_1).answer",,,,3,9,0
+Private Method,"hudson.maven.reporters.SurefireArchiverUnitTest.createMojoInfo",,,,1,7,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.testArchiveResults",,,,1,24,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.testMultiThreaded",,,,3,28,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.testNotArchivingEmptyResults",,,,1,9,0
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.testResultsAreNotCountedTwice",,,,1,15,1
+Public Method,"hudson.maven.reporters.SurefireArchiverUnitTest.testUpdatedExistingResultsAreCounted",,,,1,21,2
+Private Method,"hudson.maven.reporters.SurefireArchiverUnitTest.touchReportFiles",,,,2,6,0
+Public Class,"hudson.maven.reporters.SurefireReport",6,0,0,2,8,4
+Constructor,"hudson.maven.reporters.SurefireReport.SurefireReport",,,,1,3,0
+Public Method,"hudson.maven.reporters.SurefireReport.createAggregatedAction",,,,1,3,0
+Public Abstract Class,"hudson.maven.reporters.TestFailureDetector",0,0,0,0,4,11
+Public Abstract Method,"hudson.maven.reporters.TestFailureDetector.hasTestFailures",,,,0,1,5
+Enum Type,"hudson.maven.reporters.TestMojo",14,,,24,228,49
+Anonymous Class,"hudson.maven.reporters.TestMojo.(Anon_1)",2,0,0,1,5,1
+Protected Method,"hudson.maven.reporters.TestMojo.(Anon_1).is",,,,1,4,1
+Anonymous Class,"hudson.maven.reporters.TestMojo.(Anon_2)",8,0,0,3,14,0
+Public Method,"hudson.maven.reporters.TestMojo.(Anon_2).getReportFiles",,,,3,13,0
+Anonymous Class,"hudson.maven.reporters.TestMojo.(Anon_3)",9,0,0,2,11,1
+Public Method,"hudson.maven.reporters.TestMojo.(Anon_3).getReportFiles",,,,2,10,1
+Anonymous Class,"hudson.maven.reporters.TestMojo.(Anon_4)",8,0,0,5,21,6
+Public Method,"hudson.maven.reporters.TestMojo.(Anon_4).getReportFiles",,,,5,20,6
+Anonymous Class,"hudson.maven.reporters.TestMojo.(Anon_5)",6,0,0,2,10,1
+Public Method,"hudson.maven.reporters.TestMojo.(Anon_5).getReportFiles",,,,2,9,1
+Static Class,"hudson.maven.reporters.TestMojo.Key",2,0,0,18,48,0
+Public Constructor,"hudson.maven.reporters.TestMojo.Key.Key",,,,1,6,0
+Public Method,"hudson.maven.reporters.TestMojo.Key.equals",,,,13,26,0
+Public Method,"hudson.maven.reporters.TestMojo.Key.hashCode",,,,4,11,0
+Private Constructor,"hudson.maven.reporters.TestMojo.TestMojo",,,,1,5,0
+Private Constructor,"hudson.maven.reporters.TestMojo.TestMojo",,,,1,6,0
+Public Method,"hudson.maven.reporters.TestMojo.canRunTests",,,,2,6,4
+Private Method,"hudson.maven.reporters.TestMojo.getFileSet",,,,1,3,5
+Public Method,"hudson.maven.reporters.TestMojo.getKey",,,,1,3,0
+Public Method,"hudson.maven.reporters.TestMojo.getReportFiles",,,,2,7,0
+Private Method,"hudson.maven.reporters.TestMojo.getReportFiles",,,,1,15,0
+Anonymous Class,"hudson.maven.reporters.TestMojo.getReportFiles.(Anon_6)",3,0,0,1,11,0
+Public Method,"hudson.maven.reporters.TestMojo.getReportFiles.(Anon_6).iterator",,,,1,10,0
+Anonymous Class,"hudson.maven.reporters.TestMojo.getReportFiles.(Anon_6).iterator.(Anon_7)",4,0,0,1,5,0
+Public Method,"hudson.maven.reporters.TestMojo.getReportFiles.(Anon_6).iterator.(Anon_7).apply",,,,1,4,0
+Protected Method,"hudson.maven.reporters.TestMojo.getReportsDirectory",,,,4,11,9
+Private Static Method,"hudson.maven.reporters.TestMojo.getReportsDirectoryOverride",,,,3,11,14
+Protected Method,"hudson.maven.reporters.TestMojo.is",,,,1,4,0
+Public Static Method,"hudson.maven.reporters.TestMojo.lookup",,,,3,10,0
+Public Static Method,"hudson.maven.reporters.TestMojo.lookup",,,,4,11,0
+Public Implicit Method,"hudson.maven.reporters.TestMojo.valueOf",,,,0,,
+Public Implicit Method,"hudson.maven.reporters.TestMojo.values",,,,0,,
+Public Class,"hudson.maven.reporters.TestMojoTest",18,0,0,22,213,2
+Private Interface,"hudson.maven.reporters.TestMojoTest.ScalatestPluginTest",4,0,0,0,4,0
+Public Abstract Method,"hudson.maven.reporters.TestMojoTest.ScalatestPluginTest.run",,,,0,2,0
+Private Method,"hudson.maven.reporters.TestMojoTest.assertHasOneFile",,,,2,10,0
+Private Method,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTest",,,,1,26,0
+Private Method,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestNoEntries",,,,1,13,0
+Anonymous Class,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestNoEntries.(Anon_1)",8,0,0,2,10,0
+Public Method,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestNoEntries.(Anon_1).run",,,,2,9,0
+Private Method,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestOneEntry",,,,1,12,0
+Anonymous Class,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestOneEntry.(Anon_2)",8,0,0,1,8,0
+Public Method,"hudson.maven.reporters.TestMojoTest.runScalatestPluginTestOneEntry.(Anon_2).run",,,,1,7,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testGetReportFilesAndroidMavenPlugin",,,,2,36,1
+Public Method,"hudson.maven.reporters.TestMojoTest.testGetReportFilesThrowsNoException",,,,2,13,1
+Public Method,"hudson.maven.reporters.TestMojoTest.testGetReportFilesUnknownTestPlugin",,,,2,51,0
+Anonymous Class,"hudson.maven.reporters.TestMojoTest.testGetReportFilesUnknownTestPlugin.(Anon_3)",5,0,0,3,11,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testGetReportFilesUnknownTestPlugin.(Anon_3).alignToBaseDirectory",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testGetReportFilesUnknownTestPlugin.(Anon_3).evaluate",,,,2,6,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginEmptyJunitxml",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlEntryDoesntExist",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasListOfEmptyEntries",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasMultipleEntries",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasMultipleEntriesAndFirstOneInvalid",,,,1,5,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasMultipleEntriesWithEscapedCommas",,,,1,5,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasOneEntry",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasOneEntryAndDummiesOnBothEnds",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasOneEntryAndLeadingDummy",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginJunitxmlHasOneEntryAndTrailingDummy",,,,1,4,0
+Public Method,"hudson.maven.reporters.TestMojoTest.testScalatestMavenPluginNoJunitxml",,,,1,4,0
+Package,"hudson.maven.util",,,,8,57,23
+Public Class,"hudson.maven.util.ExecutionEventLogger",10,50,33,8,51,4
+Public Constructor,"hudson.maven.util.ExecutionEventLogger.ExecutionEventLogger",,,,1,6,0
+Public Constructor,"hudson.maven.util.ExecutionEventLogger.ExecutionEventLogger",,,,1,6,1
+Public Constructor,"hudson.maven.util.ExecutionEventLogger.ExecutionEventLogger",,,,1,5,0
+Private Method,"hudson.maven.util.ExecutionEventLogger.append",,,,2,9,0
+Private Method,"hudson.maven.util.ExecutionEventLogger.append",,,,1,4,0
+Public Method,"hudson.maven.util.ExecutionEventLogger.mojoStarted",,,,2,15,3
+Package,"hudson.model",,,,1,11,0
+Public Class,"hudson.model.MockHelper",2,0,0,1,8,0
+Public Static Method,"hudson.model.MockHelper.mockDependencyGraph",,,,1,6,0

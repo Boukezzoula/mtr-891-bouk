@@ -1,0 +1,1189 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AbstractHttpRequest.java",,,,12,69,0
+File,"Action.java",,,,1,7,3
+File,"ActionChain.java",,,,9,33,0
+File,"AgentControllerVerticle.java",,,,9,77,5
+File,"ArrayRecorder.java",,,,10,51,0
+File,"AsyncEnv.java",,,,9,62,0
+File,"AsyncSemaphore.java",,,,9,39,5
+File,"AsyncSemaphoreTestCase.java",,,,7,41,0
+File,"AsyncStep.java",,,,0,6,18
+File,"BaseBenchmarkTestCase.java",,,,3,30,0
+File,"Benchmark.java",,,,6,33,23
+File,"Benchmark.java",,,,0,3,3
+File,"BenchmarkBuilder.java",,,,1,7,8
+File,"BenchmarkBuilder.java",,,,9,31,22
+File,"BenchmarkCodec.java",,,,0,3,19
+File,"BenchmarkDefinitionException.java",,,,1,6,18
+File,"BenchmarkDistributionTestCase.java",,,,2,20,0
+File,"BenchmarkFactory.java",,,,1,6,18
+File,"BenchmarkImpl.java",,,,10,73,6
+File,"BodyExtractor.java",,,,2,7,18
+File,"BodyValidator.java",,,,0,8,22
+File,"BuilderTest.java",,,,1,41,24
+File,"ChainableEventsTestCase.java",,,,26,164,58
+File,"ChainedStepTestCase.java",,,,2,25,11
+File,"ClusterTestCase.java",,,,17,103,7
+File,"ConcurrentHistogramCodec.java",,,,0,3,19
+File,"ContextAwareClient.java",,,,1,10,21
+File,"CountRecorder.java",,,,5,24,0
+File,"CounterArrayRecorder.java",,,,8,48,0
+File,"CrewMember.java",,,,8,31,0
+File,"DebugProcessor.java",,,,3,21,0
+File,"DefragProcessor.java",,,,12,60,4
+File,"DelayAction.java",,,,2,14,0
+File,"DummyHttpRequest.java",,,,14,67,34
+File,"ExpectProcessor.java",,,,8,58,0
+File,"Fleet.java",,,,9,37,0
+File,"Header.java",,,,0,3,18
+File,"HeaderExtractor.java",,,,2,8,0
+File,"HeaderValidator.java",,,,0,7,22
+File,"HistogramCodec.java",,,,0,3,19
+File,"Http1XClientPool.java",,,,9,58,3
+File,"Http1xConnection.java",,,,18,92,4
+File,"Http1xRequest.java",,,,4,26,0
+File,"Http2ClientPool.java",,,,26,170,6
+File,"Http2Connection.java",,,,28,143,4
+File,"Http2Request.java",,,,4,27,3
+File,"HttpBase.java",,,,4,20,22
+File,"HttpBuilder.java",,,,10,33,22
+File,"HttpClientCommand.java",,,,10,90,7
+File,"HttpClientPool.java",,,,0,11,18
+File,"HttpClientPoolFactory.java",,,,0,14,0
+File,"HttpClientPoolHandlerTest.java",,,,10,71,18
+File,"HttpClientPoolImpl.java",,,,26,155,11
+File,"HttpClientProvider.java",,,,2,18,0
+File,"HttpClientRunner.java",,,,23,203,12
+File,"HttpConnection.java",,,,0,11,3
+File,"HttpHeader.java",,,,5,25,22
+File,"HttpMethod.java",,,,1,10,18
+File,"HttpProtocol.java",,,,7,33,0
+File,"HttpRequest.java",,,,0,15,37
+File,"HttpRequestAction.java",,,,8,62,2
+File,"HttpResponse.java",,,,0,3,18
+File,"HttpResponseHandler.java",,,,56,201,2
+File,"HttpResponseHandlers.java",,,,0,13,0
+File,"HttpStatus.java",,,,1,20,22
+File,"HttpVerticle.java",,,,5,30,23
+File,"HttpsProtocol.java",,,,7,33,0
+File,"JsonExtractor.java",,,,113,431,6
+File,"LoadGenerator.java",,,,0,4,18
+File,"Main.java",,,,4,30,33
+File,"MixStrategy.java",,,,0,4,18
+File,"NettyHttpClientPoolFactory.java",,,,11,59,0
+File,"NoHttpClientException.java",,,,0,3,0
+File,"NoOpClientProvider.java",,,,0,3,0
+File,"ObjectCodec.java",,,,11,66,26
+File,"Pacer.java",,,,17,77,19
+File,"PacerStrategy.java",,,,0,4,0
+File,"Protocol.java",,,,0,7,0
+File,"Protocols.java",,,,6,19,0
+File,"Report.java",,,,22,154,4
+File,"ReportStatisticsCollector.java",,,,5,58,21
+File,"RequestContext.java",,,,2,12,4
+File,"RequestQueue.java",,,,7,45,4
+File,"ResourceUtilizer.java",,,,0,4,0
+File,"Result.java",,,,0,3,18
+File,"ResultStatus.java",,,,0,4,19
+File,"RunnerVerticle.java",,,,5,38,3
+File,"SLA.java",,,,0,3,18
+File,"ScalingStrategy.java",,,,0,5,18
+File,"Scenario.java",,,,0,7,24
+File,"ScenarioBuilder.java",,,,8,31,22
+File,"ScenarioFactory.java",,,,2,13,29
+File,"ScenarioImpl.java",,,,3,21,18
+File,"ScenarioMixStrategy.java",,,,0,3,0
+File,"SearchExtractor.java",,,,36,184,6
+File,"SearchExtractorTest.java",,,,8,62,0
+File,"SearchValidator.java",,,,20,109,7
+File,"SearchValidatorTest.java",,,,16,61,0
+File,"Sequence.java",,,,0,7,27
+File,"SequenceBuilder.java",,,,8,31,22
+File,"SequenceContext.java",,,,0,7,20
+File,"SequenceContext.java",,,,0,8,18
+File,"SequenceContextImpl.java",,,,8,55,0
+File,"SequenceFactory.java",,,,7,26,1
+File,"SequenceImpl.java",,,,8,46,7
+File,"SequenceStatistics.java",,,,8,59,1
+File,"Session.java",,,,21,101,3
+File,"Session.java",,,,3,21,8
+File,"Ship.java",,,,9,37,0
+File,"SimpleBechmarkTestCase.java",,,,2,51,2
+File,"SimpleRecorder.java",,,,3,20,0
+File,"Simulation.java",,,,0,7,25
+File,"SimulationBuilder.java",,,,33,113,27
+File,"SimulationImpl.java",,,,25,131,26
+File,"State.java",,,,0,3,18
+File,"State.java",,,,12,49,5
+File,"StateMachineTest.java",,,,34,178,17
+File,"StatefulSequence.java",,,,0,4,18
+File,"StatisticsCollator.java",,,,1,8,18
+File,"StatisticsHandler.java",,,,10,48,3
+File,"StatusExtractor.java",,,,0,4,0
+File,"StatusValidator.java",,,,0,5,21
+File,"Step.java",,,,0,10,30
+File,"StepBuilder.java",,,,18,53,22
+File,"StepImpl.java",,,,22,100,3
+File,"StepResult.java",,,,0,3,0
+File,"Transition.java",,,,9,38,0
+File,"Url.java",,,,9,46,1
+File,"UrlBuilder.java",,,,15,39,0
+File,"User.java",,,,0,3,18
+File,"Utils.java",,,,10,55,16
+File,"ValidatorResults.java",,,,13,47,22
+File,"Validators.java",,,,7,29,22
+File,"Version.java",,,,0,6,0
+File,"VerticleWorker.java",,,,0,5,19
+File,"VertxHttpClientPool.java",,,,10,63,25
+File,"VertxHttpClientPoolFactory.java",,,,10,63,0
+File,"VertxHttpRequest.java",,,,20,87,23
+File,"Worker.java",,,,0,9,18
+File,"WorkerImpl.java",,,,11,65,6
+File,"WorkerMessage.java",,,,4,25,19
+File,"WorkerMessageCodec.java",,,,5,39,35
+File,"WorkerStatus.java",,,,4,17,19
+Package,"http2",,,,0,0,0
+Package,"http2.bench",,,,14,85,49
+Public Class,"http2.bench.Main",13,0,0,4,23,33
+Public Static Method,"http2.bench.Main.main",,,,4,21,30
+Public Class,"http2.bench.Utils",6,77,66,10,50,16
+Public Static Method,"http2.bench.Utils.blackholeCpu",,,,2,8,0
+Public Static Method,"http2.bench.Utils.calibrateBlackhole",,,,3,15,4
+Public Static Method,"http2.bench.Utils.parseSize",,,,5,22,0
+Package,"http2.bench.client",,,,10,90,7
+Public Class,"http2.bench.client.HttpClientCommand",17,0,0,2,75,7
+Public Static Class,"http2.bench.client.HttpClientCommand.HttpClientProviderConverter",5,0,0,4,12,1
+Public Method,"http2.bench.client.HttpClientCommand.HttpClientProviderConverter.convert",,,,4,10,1
+Public Static Class,"http2.bench.client.HttpClientCommand.HttpVersionConverter",4,0,0,4,11,0
+Public Method,"http2.bench.client.HttpClientCommand.HttpVersionConverter.convert",,,,4,9,0
+Public Method,"http2.bench.client.HttpClientCommand.execute",,,,2,24,0
+Package,"io",,,,0,0,0
+Package,"io.sailrocket",,,,0,0,0
+Package,"io.sailrocket.api",,,,52,457,500
+Public Abstract Class,"io.sailrocket.api.Benchmark",7,86,86,6,29,5
+Public Constructor,"io.sailrocket.api.Benchmark.Benchmark",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.agents",,,,1,4,0
+Public Abstract Method,"io.sailrocket.api.Benchmark.run",,,,0,1,0
+Public Method,"io.sailrocket.api.Benchmark.scale",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.simulation",,,,1,4,0
+Public Method,"io.sailrocket.api.Benchmark.sla",,,,1,3,0
+Public Method,"io.sailrocket.api.Benchmark.users",,,,1,4,0
+Public Class,"io.sailrocket.api.BenchmarkBuilder",1,0,0,1,5,8
+Public Method,"io.sailrocket.api.BenchmarkBuilder.BenchmarkBuilderTestCase",,,,1,3,1
+Public Class,"io.sailrocket.api.BenchmarkDefinitionException",1,0,0,1,5,0
+Public Constructor,"io.sailrocket.api.BenchmarkDefinitionException.BenchmarkDefinitionException",,,,1,3,0
+Public Class,"io.sailrocket.api.BenchmarkFactory",1,0,0,1,5,0
+Public Static Method,"io.sailrocket.api.BenchmarkFactory.buildBenchmark",,,,1,3,0
+Public Interface,"io.sailrocket.api.BodyExtractor",2,0,0,2,5,0
+Method,"io.sailrocket.api.BodyExtractor.afterData",,,,1,1,0
+Method,"io.sailrocket.api.BodyExtractor.beforeData",,,,1,1,0
+Abstract Method,"io.sailrocket.api.BodyExtractor.extractData",,,,0,1,0
+Public Interface,"io.sailrocket.api.Header",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.HeaderExtractor",2,0,0,2,7,0
+Method,"io.sailrocket.api.HeaderExtractor.afterHeaders",,,,1,2,0
+Method,"io.sailrocket.api.HeaderExtractor.beforeHeaders",,,,1,2,0
+Abstract Method,"io.sailrocket.api.HeaderExtractor.extractHeader",,,,0,1,0
+Public Interface,"io.sailrocket.api.HttpClientPool",5,0,0,0,8,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.bytesRead",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.bytesWritten",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.request",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.resetStatistics",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.shutdown",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpClientPool.start",,,,0,1,0
+Public Enum Type,"io.sailrocket.api.HttpMethod",3,,,1,9,0
+Constructor,"io.sailrocket.api.HttpMethod.HttpMethod",,,,1,4,0
+Public Implicit Method,"io.sailrocket.api.HttpMethod.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.api.HttpMethod.values",,,,0,,
+Public Interface,"io.sailrocket.api.HttpRequest",5,0,0,0,10,19
+Abstract Method,"io.sailrocket.api.HttpRequest.bodyPartHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpRequest.end",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpRequest.endHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpRequest.exceptionHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpRequest.headerHandler",,,,0,1,6
+Abstract Method,"io.sailrocket.api.HttpRequest.putHeader",,,,0,1,7
+Abstract Method,"io.sailrocket.api.HttpRequest.resetHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpRequest.statusHandler",,,,0,1,6
+Public Interface,"io.sailrocket.api.HttpResponse",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.HttpResponseHandlers",4,0,0,0,8,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.dataHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.endHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.exceptionHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.headerHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.resetHandler",,,,0,1,0
+Abstract Method,"io.sailrocket.api.HttpResponseHandlers.statusHandler",,,,0,1,0
+Public Class,"io.sailrocket.api.HttpVerticle",9,0,0,5,25,4
+Public Method,"io.sailrocket.api.HttpVerticle.name",,,,1,4,0
+Private Method,"io.sailrocket.api.HttpVerticle.parseWorkerMessage",,,,1,4,1
+Public Method,"io.sailrocket.api.HttpVerticle.start",,,,2,9,1
+Lambda Method,"io.sailrocket.api.HttpVerticle.start.(lambda_expr_1)",,,,1,5,1
+Public Method,"io.sailrocket.api.HttpVerticle.stop",,,,1,4,2
+Public Interface,"io.sailrocket.api.LoadGenerator",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.LoadGenerator.offer",,,,0,1,0
+Public Interface,"io.sailrocket.api.MixStrategy",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.MixStrategy.nextScenario",,,,0,1,0
+Public Class,"io.sailrocket.api.Report",16,72,69,22,144,4
+Public Constructor,"io.sailrocket.api.Report.Report",,,,1,5,0
+Method,"io.sailrocket.api.Report.columns",,,,1,6,0
+Public Method,"io.sailrocket.api.Report.format",,,,10,36,0
+Public Method,"io.sailrocket.api.Report.getMaxResponseTimeMillis",,,,1,3,0
+Method,"io.sailrocket.api.Report.getMinResponseTimeMillis",,,,1,3,0
+Public Method,"io.sailrocket.api.Report.getResponseTimeMillisPercentile",,,,1,3,0
+Public Method,"io.sailrocket.api.Report.header",,,,1,3,0
+Public Method,"io.sailrocket.api.Report.measures",,,,1,26,0
+Public Method,"io.sailrocket.api.Report.merge",,,,2,15,0
+Public Method,"io.sailrocket.api.Report.prettyPrint",,,,1,16,0
+Public Method,"io.sailrocket.api.Report.save",,,,2,7,0
+Public Interface,"io.sailrocket.api.Result",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.SLA",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.ScalingStrategy",1,0,0,0,4,0
+Abstract Method,"io.sailrocket.api.ScalingStrategy.then",,,,0,1,0
+Abstract Method,"io.sailrocket.api.ScalingStrategy.user",,,,0,1,0
+Public Interface,"io.sailrocket.api.Scenario",2,0,0,0,5,0
+Abstract Method,"io.sailrocket.api.Scenario.firstSequence",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Scenario.sequence",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Scenario.sequences",,,,0,1,0
+Public Interface,"io.sailrocket.api.Sequence",3,0,0,0,5,0
+Abstract Method,"io.sailrocket.api.Sequence.getSteps",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Sequence.statistics",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Sequence.step",,,,0,1,0
+Public Interface,"io.sailrocket.api.SequenceContext",3,0,0,0,6,2
+Abstract Method,"io.sailrocket.api.SequenceContext.clientPool",,,,0,1,0
+Abstract Method,"io.sailrocket.api.SequenceContext.getStartTime",,,,0,1,0
+Abstract Method,"io.sailrocket.api.SequenceContext.sequence",,,,0,1,0
+Abstract Method,"io.sailrocket.api.SequenceContext.sequenceStats",,,,0,1,0
+Public Class,"io.sailrocket.api.SequenceStatistics",9,33,33,8,52,0
+Public Method,"io.sailrocket.api.SequenceStatistics.addStatus",,,,5,18,0
+Public Method,"io.sailrocket.api.SequenceStatistics.statuses",,,,1,3,0
+Public Method,"io.sailrocket.api.SequenceStatistics.toString",,,,2,19,0
+Public Interface,"io.sailrocket.api.Session",0,0,0,1,19,8
+Interface,"io.sailrocket.api.Session.Processor",2,0,0,2,7,8
+Method,"io.sailrocket.api.Session.Processor.after",,,,1,2,4
+Method,"io.sailrocket.api.Session.Processor.before",,,,1,2,4
+Abstract Method,"io.sailrocket.api.Session.Processor.process",,,,0,1,0
+Method,"io.sailrocket.api.Session.addToInt",,,,1,4,0
+Abstract Method,"io.sailrocket.api.Session.declare",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Session.declareInt",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Session.getInt",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Session.getObject",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Session.setInt",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Session.setObject",,,,0,1,0
+Public Interface,"io.sailrocket.api.Simulation",3,0,0,0,5,0
+Abstract Method,"io.sailrocket.api.Simulation.mixStrategy",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Simulation.scenario",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Simulation.statisticsCollector",,,,0,1,0
+Public Interface,"io.sailrocket.api.State",0,0,0,0,2,0
+Public Interface,"io.sailrocket.api.StatefulSequence",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.StatefulSequence.request",,,,0,1,0
+Public Interface,"io.sailrocket.api.StatusExtractor",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.api.StatusExtractor.setStatus",,,,0,1,0
+Public Interface,"io.sailrocket.api.Step",4,0,0,0,7,5
+Abstract Method,"io.sailrocket.api.Step.httpMethod",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Step.param",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Step.path",,,,0,1,5
+Abstract Method,"io.sailrocket.api.Step.payload",,,,0,1,0
+Abstract Method,"io.sailrocket.api.Step.validators",,,,0,1,0
+Public Interface,"io.sailrocket.api.User",0,0,0,0,2,0
+Package,"io.sailrocket.benchmark",,,,0,0,0
+Package,"io.sailrocket.benchmark.standalone",,,,5,81,2
+Public Abstract Class,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase",6,50,50,3,19,0
+Public Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.after",,,,1,4,0
+Public Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.before",,,,2,9,0
+Lambda Method,"io.sailrocket.benchmark.standalone.BaseBenchmarkTestCase.before.(lambda_expr_1)",,,,1,4,0
+Public Class,"io.sailrocket.benchmark.standalone.SimpleBechmarkTestCase",14,0,0,2,36,2
+Public Method,"io.sailrocket.benchmark.standalone.SimpleBechmarkTestCase.runSimpleBenchmarkTest",,,,2,33,2
+Package,"io.sailrocket.core",,,,19,135,6
+Public Abstract Class,"io.sailrocket.core.AsyncEnv",21,84,84,8,40,0
+Public Constructor,"io.sailrocket.core.AsyncEnv.AsyncEnv",,,,1,3,0
+Public Method,"io.sailrocket.core.AsyncEnv.before",,,,2,9,0
+Lambda Method,"io.sailrocket.core.AsyncEnv.before.(lambda_expr_1)",,,,1,4,0
+Public Method,"io.sailrocket.core.AsyncEnv.requestCount",,,,1,3,0
+Public Method,"io.sailrocket.core.AsyncEnv.run",,,,4,10,0
+Lambda Method,"io.sailrocket.core.AsyncEnv.run.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.AsyncEnv.run.(lambda_expr_2)",,,,2,1,0
+Lambda Method,"io.sailrocket.core.AsyncEnv.run.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Public Class,"io.sailrocket.core.BenchmarkImpl",15,0,0,8,62,6
+Public Constructor,"io.sailrocket.core.BenchmarkImpl.BenchmarkImpl",,,,1,3,0
+Public Method,"io.sailrocket.core.BenchmarkImpl.run",,,,7,57,6
+Anonymous Class,"io.sailrocket.core.BenchmarkImpl.run.(Anon_1)",4,0,0,2,8,0
+Public Method,"io.sailrocket.core.BenchmarkImpl.run.(Anon_1).run",,,,2,7,0
+Package,"io.sailrocket.core.api",,,,0,26,54
+Public Interface,"io.sailrocket.core.api.AsyncStep",2,0,0,0,3,0
+Abstract Method,"io.sailrocket.core.api.AsyncStep.asyncExec",,,,0,1,0
+Public Interface,"io.sailrocket.core.api.SequenceContext",3,0,0,0,5,0
+Abstract Method,"io.sailrocket.core.api.SequenceContext.pacer",,,,0,1,0
+Abstract Method,"io.sailrocket.core.api.SequenceContext.validatorResults",,,,0,1,0
+Abstract Method,"io.sailrocket.core.api.SequenceContext.worker",,,,0,1,0
+Public Interface,"io.sailrocket.core.api.StepResult",0,0,0,0,2,0
+Public Interface,"io.sailrocket.core.api.Worker",3,0,0,0,4,0
+Abstract Method,"io.sailrocket.core.api.Worker.clientPool",,,,0,1,0
+Abstract Method,"io.sailrocket.core.api.Worker.runSlot",,,,0,1,0
+Package,"io.sailrocket.core.builder",,,,1,41,24
+Public Class,"io.sailrocket.core.builder.BuilderTest",9,0,0,1,30,5
+Public Method,"io.sailrocket.core.builder.BuilderTest.testBuilders",,,,1,28,2
+Package,"io.sailrocket.core.builders",,,,86,292,137
+Public Class,"io.sailrocket.core.builders.BenchmarkBuilder",6,85,85,9,27,3
+Private Constructor,"io.sailrocket.core.builders.BenchmarkBuilder.BenchmarkBuilder",,,,1,2,0
+Private Method,"io.sailrocket.core.builders.BenchmarkBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.BenchmarkBuilder.build",,,,1,5,0
+Public Static Method,"io.sailrocket.core.builders.BenchmarkBuilder.builder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.BenchmarkBuilder.name",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.BenchmarkBuilder.name.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.BenchmarkBuilder.simulation",,,,2,3,0
+Public Method,"io.sailrocket.core.builders.BenchmarkBuilder.simulation",,,,1,3,0
+Lambda Method,"io.sailrocket.core.builders.BenchmarkBuilder.simulation.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.builders.HttpBuilder",6,80,76,10,27,3
+Private Constructor,"io.sailrocket.core.builders.HttpBuilder.HttpBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.HttpBuilder.acceptHeader",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.HttpBuilder.acceptHeader.(lambda_expr_1)",,,,1,1,0
+Private Method,"io.sailrocket.core.builders.HttpBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.HttpBuilder.baseUrl",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.HttpBuilder.baseUrl.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.HttpBuilder.build",,,,1,3,0
+Public Static Method,"io.sailrocket.core.builders.HttpBuilder.httpBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.HttpBuilder.status",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.HttpBuilder.status.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.builders.ScenarioBuilder",6,66,50,8,25,3
+Private Constructor,"io.sailrocket.core.builders.ScenarioBuilder.ScenarioBuilder",,,,1,3,0
+Private Method,"io.sailrocket.core.builders.ScenarioBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.ScenarioBuilder.build",,,,2,6,0
+Public Static Method,"io.sailrocket.core.builders.ScenarioBuilder.scenarioBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.ScenarioBuilder.sequence",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.ScenarioBuilder.sequence",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.ScenarioBuilder.sequence.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.builders.SequenceBuilder",6,66,50,8,25,3
+Private Constructor,"io.sailrocket.core.builders.SequenceBuilder.SequenceBuilder",,,,1,3,0
+Private Method,"io.sailrocket.core.builders.SequenceBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.SequenceBuilder.build",,,,2,6,0
+Public Static Method,"io.sailrocket.core.builders.SequenceBuilder.sequenceBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.SequenceBuilder.step",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.SequenceBuilder.step",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SequenceBuilder.step.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.builders.SimulationBuilder",15,92,90,33,104,8
+Private Constructor,"io.sailrocket.core.builders.SimulationBuilder.SimulationBuilder",,,,1,2,0
+Private Method,"io.sailrocket.core.builders.SimulationBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.build",,,,1,3,0
+Private Method,"io.sailrocket.core.builders.SimulationBuilder.buildClientPoolFactory",,,,1,9,2
+Private Method,"io.sailrocket.core.builders.SimulationBuilder.buildTags",,,,1,12,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.concurrency",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.concurrency.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.connections",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.connections.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.duration",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.duration.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.http",,,,2,3,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.http",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.http.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.http.(lambda_expr_1)",,,,1,1,0
+Private Static Method,"io.sailrocket.core.builders.SimulationBuilder.parseDuration",,,,4,23,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.payload",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.payload.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.rampDown",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.rampDown.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.rampUp",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.rampUp.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.rate",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.rate.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.scenario",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.scenario",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.scenario.(lambda_expr_1)",,,,1,1,0
+Public Static Method,"io.sailrocket.core.builders.SimulationBuilder.simulationBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.SimulationBuilder.threads",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.SimulationBuilder.threads.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.builders.StepBuilder",9,88,88,18,45,3
+Private Constructor,"io.sailrocket.core.builders.StepBuilder.StepBuilder",,,,1,2,0
+Private Method,"io.sailrocket.core.builders.StepBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.build",,,,5,14,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.httpMethod",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.StepBuilder.httpMethod.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.params",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.StepBuilder.params.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.path",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.StepBuilder.path.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.payload",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.StepBuilder.payload.(lambda_expr_1)",,,,1,1,0
+Public Static Method,"io.sailrocket.core.builders.StepBuilder.stepBuilder",,,,1,3,0
+Public Method,"io.sailrocket.core.builders.StepBuilder.validators",,,,2,3,0
+Lambda Method,"io.sailrocket.core.builders.StepBuilder.validators.(lambda_expr_1)",,,,1,1,0
+Package,"io.sailrocket.core.client",,,,129,774,141
+Public Abstract Class,"io.sailrocket.core.client.AbstractHttpRequest",5,83,83,12,62,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.bodyPartHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.dataHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.endHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.endHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.exceptionHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.exceptionHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.headerHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.headerHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.resetHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.resetHandler",,,,1,4,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.statusHandler",,,,1,5,0
+Public Method,"io.sailrocket.core.client.AbstractHttpRequest.statusHandler",,,,1,4,0
+Public Class,"io.sailrocket.core.client.DummyHttpRequest",15,75,75,13,57,15
+Public Constructor,"io.sailrocket.core.client.DummyHttpRequest.DummyHttpRequest",,,,1,7,0
+Public Method,"io.sailrocket.core.client.DummyHttpRequest.end",,,,1,4,12
+Public Method,"io.sailrocket.core.client.DummyHttpRequest.putHeader",,,,2,8,0
+Private Method,"io.sailrocket.core.client.DummyHttpRequest.requestHandler",,,,9,31,0
+Lambda Method,"io.sailrocket.core.client.DummyHttpRequest.requestHandler.(lambda_expr_1)",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.DummyHttpRequest.requestHandler.(lambda_expr_2)",,,,7,19,0
+Lambda Method,"io.sailrocket.core.client.DummyHttpRequest.requestHandler.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Public Interface,"io.sailrocket.core.client.HttpClientPoolFactory",4,0,0,0,11,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.build",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.concurrency",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.host",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.port",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.protocol",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.shutdown",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.size",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.ssl",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.HttpClientPoolFactory.threads",,,,0,1,0
+Public Class,"io.sailrocket.core.client.HttpClientPoolHandlerTest",18,33,33,10,54,0
+Public Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.after",,,,1,4,0
+Public Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.before",,,,2,8,0
+Lambda Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.before.(lambda_expr_1)",,,,1,4,0
+Public Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.simpleHeaderRequest",,,,7,37,0
+Lambda Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.simpleHeaderRequest.(lambda_expr_1)",,,,1,4,0
+Lambda Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.simpleHeaderRequest.(lambda_expr_2)",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.simpleHeaderRequest.(lambda_expr_3)",,,,1,4,0
+Lambda Method,"io.sailrocket.core.client.HttpClientPoolHandlerTest.simpleHeaderRequest.(lambda_expr_4)",,,,1,3,0
+Public Enum Type,"io.sailrocket.core.client.HttpClientProvider",2,,,0,15,0
+Anonymous Class,"io.sailrocket.core.client.HttpClientProvider.(Anon_1)",3,0,0,1,5,0
+Public Method,"io.sailrocket.core.client.HttpClientProvider.(Anon_1).builder",,,,1,4,0
+Anonymous Class,"io.sailrocket.core.client.HttpClientProvider.(Anon_2)",3,0,0,1,5,0
+Public Method,"io.sailrocket.core.client.HttpClientProvider.(Anon_2).builder",,,,1,4,0
+Public Abstract Method,"io.sailrocket.core.client.HttpClientProvider.builder",,,,0,1,0
+Public Implicit Method,"io.sailrocket.core.client.HttpClientProvider.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.core.client.HttpClientProvider.values",,,,0,,
+Public Class,"io.sailrocket.core.client.HttpClientRunner",31,65,65,21,183,12
+Public Constructor,"io.sailrocket.core.client.HttpClientRunner.HttpClientRunner",,,,1,25,0
+Public Constructor,"io.sailrocket.core.client.HttpClientRunner.HttpClientRunner",,,,1,2,0
+Private Method,"io.sailrocket.core.client.HttpClientRunner.buildSimulation",,,,1,12,1
+Private Static Method,"io.sailrocket.core.client.HttpClientRunner.parseDuration",,,,4,23,0
+Public Method,"io.sailrocket.core.client.HttpClientRunner.run",,,,14,104,5
+Anonymous Class,"io.sailrocket.core.client.HttpClientRunner.run.(Anon_1)",4,0,0,2,8,0
+Public Method,"io.sailrocket.core.client.HttpClientRunner.run.(Anon_1).run",,,,2,7,0
+Public Class,"io.sailrocket.core.client.Pacer",2,80,65,17,75,17
+Public Constructor,"io.sailrocket.core.client.Pacer.Pacer",,,,1,3,1
+Public Constructor,"io.sailrocket.core.client.Pacer.Pacer",,,,1,5,0
+Public Method,"io.sailrocket.core.client.Pacer.acquire",,,,2,7,5
+Method,"io.sailrocket.core.client.Pacer.expectedNextOperationNanoTime",,,,1,3,3
+Public Method,"io.sailrocket.core.client.Pacer.getIntendedEndTime",,,,1,3,0
+Private Method,"io.sailrocket.core.client.Pacer.nsecToNextOperation",,,,5,23,5
+Private Method,"io.sailrocket.core.client.Pacer.setCatchupRateMultiple",,,,1,4,0
+Public Method,"io.sailrocket.core.client.Pacer.setInitialStartTime",,,,1,3,0
+Public Method,"io.sailrocket.core.client.Pacer.setIntendedEndTime",,,,1,3,0
+Private Method,"io.sailrocket.core.client.Pacer.setThroughout",,,,1,4,0
+Static Method,"io.sailrocket.core.client.Pacer.sleepNs",,,,2,7,0
+Public Class,"io.sailrocket.core.client.RequestContext",3,50,0,2,9,4
+Public Constructor,"io.sailrocket.core.client.RequestContext.RequestContext",,,,1,3,0
+Public Constructor,"io.sailrocket.core.client.RequestContext.RequestContext",,,,1,3,2
+Public Class,"io.sailrocket.core.client.SimulationImpl",28,83,81,22,110,26
+Public Constructor,"io.sailrocket.core.client.SimulationImpl.SimulationImpl",,,,2,16,0
+Private Method,"io.sailrocket.core.client.SimulationImpl.collateStatistics",,,,3,8,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.collateStatistics.(lambda_expr_1)",,,,2,3,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.collateStatistics.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.duration",,,,1,3,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.mixStrategy",,,,1,5,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.numOfScenarios",,,,1,3,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.printDetails",,,,3,14,11
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.printDetails.(lambda_expr_1)",,,,1,9,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.printDetails.(lambda_expr_2)",,,,2,3,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.printDetails.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.rate",,,,1,3,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.run",,,,6,28,4
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.run.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.run.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.run.(lambda_expr_3)",,,,2,1,0
+Lambda Method,"io.sailrocket.core.client.SimulationImpl.run.(lambda_expr_3).(lambda_expr_4)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.scenario",,,,1,5,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.shutdown",,,,1,3,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.statisticsCollector",,,,1,5,0
+Public Method,"io.sailrocket.core.client.SimulationImpl.tags",,,,1,3,0
+Public Class,"io.sailrocket.core.client.ValidatorResults",0,80,80,13,46,3
+Public Constructor,"io.sailrocket.core.client.ValidatorResults.ValidatorResults",,,,1,2,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.addBody",,,,2,6,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.addHeader",,,,2,6,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.addStatus",,,,2,6,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.bodyInvalid",,,,1,3,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.bodyValid",,,,1,3,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.headerInvalid",,,,1,3,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.headerValid",,,,1,3,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.statusInvalid",,,,1,3,0
+Public Method,"io.sailrocket.core.client.ValidatorResults.statusValid",,,,1,3,0
+Public Class,"io.sailrocket.core.client.WorkerImpl",14,72,50,11,54,6
+Public Constructor,"io.sailrocket.core.client.WorkerImpl.WorkerImpl",,,,1,3,0
+Public Constructor,"io.sailrocket.core.client.WorkerImpl.WorkerImpl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.WorkerImpl.clientPool",,,,1,4,0
+Private Method,"io.sailrocket.core.client.WorkerImpl.doSequenceInSlot",,,,4,19,2
+Lambda Method,"io.sailrocket.core.client.WorkerImpl.doSequenceInSlot.(lambda_expr_1)",,,,2,10,1
+Public Method,"io.sailrocket.core.client.WorkerImpl.runSlot",,,,1,6,0
+Private Method,"io.sailrocket.core.client.WorkerImpl.runSlot",,,,3,12,2
+Lambda Method,"io.sailrocket.core.client.WorkerImpl.runSlot.(lambda_expr_1)",,,,2,10,2
+Package,"io.sailrocket.core.client.netty",,,,136,789,37
+Class,"io.sailrocket.core.client.netty.Http1XClientPool",13,40,40,7,44,3
+Constructor,"io.sailrocket.core.client.netty.Http1XClientPool.Http1XClientPool",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http1XClientPool.bytesRead",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http1XClientPool.bytesWritten",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.Http1XClientPool.connect",,,,3,29,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http1XClientPool.connect.(Anon_1)",9,0,0,2,12,0
+Protected Method,"io.sailrocket.core.client.netty.Http1XClientPool.connect.(Anon_1).initChannel",,,,2,11,0
+Lambda Method,"io.sailrocket.core.client.netty.Http1XClientPool.connect.(lambda_expr_1)",,,,2,7,0
+Public Method,"io.sailrocket.core.client.netty.Http1XClientPool.resetStatistics",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http1xConnection",24,71,71,16,77,4
+Constructor,"io.sailrocket.core.client.netty.Http1xConnection.Http1xConnection",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream",5,25,25,2,13,0
+Constructor,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream.HttpStream",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.HttpStream.run",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.channelRead",,,,9,29,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.channelRegistered",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.context",,,,1,4,0
+Method,"io.sailrocket.core.client.netty.Http1xConnection.createStream",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.inflight",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.isAvailable",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xConnection.request",,,,1,6,0
+Class,"io.sailrocket.core.client.netty.Http1xRequest",9,16,16,4,18,0
+Constructor,"io.sailrocket.core.client.netty.Http1xRequest.Http1xRequest",,,,2,4,0
+Public Method,"io.sailrocket.core.client.netty.Http1xRequest.end",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http1xRequest.putHeader",,,,1,5,0
+Class,"io.sailrocket.core.client.netty.Http2ClientPool",15,83,73,12,138,6
+Method,"io.sailrocket.core.client.netty.Http2ClientPool.GET",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.Http2ClientPool.GET",,,,1,3,0
+Constructor,"io.sailrocket.core.client.netty.Http2ClientPool.Http2ClientPool",,,,1,4,0
+Method,"io.sailrocket.core.client.netty.Http2ClientPool.POST",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandler",10,62,12,6,32,1
+Public Constructor,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandler.TestClientHandler",,,,1,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandler.channelActive",,,,1,5,0
+Private Method,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandler.checkHandle",,,,2,8,1
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandler.handlerAdded",,,,2,7,0
+Class,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandlerBuilder",9,33,33,3,16,1
+Public Constructor,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandlerBuilder.TestClientHandlerBuilder",,,,1,3,0
+Protected Method,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandlerBuilder.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandlerBuilder.build",,,,1,6,1
+Anonymous Class,"io.sailrocket.core.client.netty.Http2ClientPool.TestClientHandlerBuilder.build.(Anon_1)",0,0,0,0,0,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.bytesRead",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.bytesWritten",,,,1,3,0
+Protected Method,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer",,,,1,46,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2)",14,0,0,2,43,0
+Protected Method,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2).initChannel",,,,2,42,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2).initChannel.(Anon_3)",11,0,0,2,13,0
+Protected Method,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2).initChannel.(Anon_3).configurePipeline",,,,2,12,0
+Anonymous Class,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2).initChannel.(Anon_4)",6,0,0,1,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.channelInitializer.(Anon_2).initChannel.(Anon_4).channelActive",,,,1,7,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.connect",,,,3,14,1
+Lambda Method,"io.sailrocket.core.client.netty.Http2ClientPool.connect.(lambda_expr_1)",,,,2,5,0
+Method,"io.sailrocket.core.client.netty.Http2ClientPool.headers",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2ClientPool.resetStatistics",,,,1,3,0
+Class,"io.sailrocket.core.client.netty.Http2Connection",18,75,75,11,128,4
+Constructor,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection",,,,1,70,1
+Anonymous Class,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1)",17,0,0,16,56,0
+Private Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).endStream",,,,2,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onDataRead",,,,4,14,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onHeadersRead",,,,5,17,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onRstStreamRead",,,,3,10,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.Http2Connection.(Anon_1).onSettingsRead",,,,2,6,0
+Static Class,"io.sailrocket.core.client.netty.Http2Connection.Http2Stream",3,25,25,1,11,0
+Constructor,"io.sailrocket.core.client.netty.Http2Connection.Http2Stream.Http2Stream",,,,1,5,0
+Method,"io.sailrocket.core.client.netty.Http2Connection.bilto",,,,3,11,0
+Lambda Method,"io.sailrocket.core.client.netty.Http2Connection.bilto.(lambda_expr_1)",,,,2,9,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.context",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.incrementConnectionWindowSize",,,,2,8,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.inflight",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.isAvailable",,,,1,4,0
+Private Method,"io.sailrocket.core.client.netty.Http2Connection.nextStreamId",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.Http2Connection.request",,,,1,4,0
+Class,"io.sailrocket.core.client.netty.Http2Request",9,33,33,4,22,3
+Constructor,"io.sailrocket.core.client.netty.Http2Request.Http2Request",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.end",,,,2,7,0
+Public Method,"io.sailrocket.core.client.netty.Http2Request.putHeader",,,,1,4,0
+Abstract Class,"io.sailrocket.core.client.netty.HttpClientPoolImpl",35,82,76,24,132,11
+Constructor,"io.sailrocket.core.client.netty.HttpClientPoolImpl.HttpClientPoolImpl",,,,1,9,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.bytesRead",,,,0,1,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.bytesWritten",,,,0,1,0
+Private Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.checkCreateConnections",,,,9,44,1
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.checkCreateConnections.(lambda_expr_1)",,,,7,33,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.checkCreateConnections.(lambda_expr_1).(lambda_expr_2)",,,,2,9,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.checkCreateConnections.(lambda_expr_3)",,,,1,3,0
+Private Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.choose",,,,2,6,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.choose.(lambda_expr_1)",,,,1,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.connect",,,,0,1,0
+Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.count",,,,1,3,0
+Static Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.create",,,,5,25,4
+Public Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.request",,,,1,4,0
+Public Abstract Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.resetStatistics",,,,0,1,0
+Public Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.shutdown",,,,3,14,0
+Lambda Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.shutdown.(lambda_expr_1)",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.HttpClientPoolImpl.start",,,,2,9,0
+Public Interface,"io.sailrocket.core.client.netty.HttpConnection",5,0,0,0,6,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.context",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.inflight",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.isAvailable",,,,0,1,0
+Abstract Method,"io.sailrocket.core.client.netty.HttpConnection.request",,,,0,1,0
+Public Class,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory",11,79,79,10,51,0
+Lambda Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.concurrency",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.host",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.port",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.protocol",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.shutdown",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.size",,,,1,4,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.ssl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.netty.NettyHttpClientPoolFactory.threads",,,,2,8,0
+Class,"io.sailrocket.core.client.netty.StatisticsHandler",8,50,50,10,40,3
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.bytesRead",,,,1,3,0
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.bytesWritten",,,,1,3,0
+Public Method,"io.sailrocket.core.client.netty.StatisticsHandler.channelRead",,,,2,8,0
+Method,"io.sailrocket.core.client.netty.StatisticsHandler.reset",,,,1,4,0
+Private Method,"io.sailrocket.core.client.netty.StatisticsHandler.sizeOf",,,,3,9,0
+Public Method,"io.sailrocket.core.client.netty.StatisticsHandler.write",,,,2,8,0
+Package,"io.sailrocket.core.client.vertx",,,,41,223,69
+Public Class,"io.sailrocket.core.client.vertx.ContextAwareClient",2,0,0,1,8,3
+Constructor,"io.sailrocket.core.client.vertx.ContextAwareClient.ContextAwareClient",,,,1,4,0
+Public Class,"io.sailrocket.core.client.vertx.VertxHttpClientPool",14,85,85,9,53,6
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.(lambda_expr_1)",,,,1,1,0
+Public Constructor,"io.sailrocket.core.client.vertx.VertxHttpClientPool.VertxHttpClientPool",,,,3,23,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.bytesRead",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.bytesWritten",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.request",,,,1,4,3
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.resetStatistics",,,,1,3,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.shutdown",,,,1,3,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPool.start",,,,1,4,0
+Public Class,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory",8,87,87,10,57,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.build",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.concurrency",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.host",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.port",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.protocol",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.shutdown",,,,1,4,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.size",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.ssl",,,,1,5,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpClientPoolFactory.threads",,,,2,9,0
+Public Class,"io.sailrocket.core.client.vertx.VertxHttpRequest",16,73,70,14,77,5
+Constructor,"io.sailrocket.core.client.vertx.VertxHttpRequest.VertxHttpRequest",,,,1,8,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.end",,,,2,13,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.end.(lambda_expr_1)",,,,3,10,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.end.(lambda_expr_1).(lambda_expr_2)",,,,2,9,0
+Private Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.exceptionally",,,,2,9,0
+Public Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.putHeader",,,,2,8,0
+Private Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.requestHandler",,,,7,31,2
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.requestHandler.(lambda_expr_1)",,,,10,28,2
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.requestHandler.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.client.vertx.VertxHttpRequest.requestHandler.(lambda_expr_1).(lambda_expr_3)",,,,3,11,2
+Package,"io.sailrocket.core.extractors",,,,206,959,16
+Public Class,"io.sailrocket.core.extractors.ArrayRecorder",11,30,19,10,43,0
+Public Constructor,"io.sailrocket.core.extractors.ArrayRecorder.ArrayRecorder",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.ArrayRecorder.before",,,,2,7,0
+Private Method,"io.sailrocket.core.extractors.ArrayRecorder.fetch",,,,3,9,0
+Public Method,"io.sailrocket.core.extractors.ArrayRecorder.process",,,,3,13,0
+Public Method,"io.sailrocket.core.extractors.ArrayRecorder.reserve",,,,1,5,0
+Public Class,"io.sailrocket.core.extractors.CountRecorder",5,0,0,5,19,0
+Public Constructor,"io.sailrocket.core.extractors.CountRecorder.CountRecorder",,,,1,3,0
+Public Method,"io.sailrocket.core.extractors.CountRecorder.before",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.CountRecorder.process",,,,2,6,0
+Public Method,"io.sailrocket.core.extractors.CountRecorder.reserve",,,,1,4,0
+Public Class,"io.sailrocket.core.extractors.CounterArrayRecorder",8,33,11,8,42,0
+Public Constructor,"io.sailrocket.core.extractors.CounterArrayRecorder.CounterArrayRecorder",,,,1,5,0
+Public Method,"io.sailrocket.core.extractors.CounterArrayRecorder.after",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.CounterArrayRecorder.before",,,,1,6,0
+Private Method,"io.sailrocket.core.extractors.CounterArrayRecorder.getIndex",,,,2,7,0
+Public Method,"io.sailrocket.core.extractors.CounterArrayRecorder.process",,,,2,8,0
+Public Method,"io.sailrocket.core.extractors.CounterArrayRecorder.reserve",,,,1,6,0
+Public Class,"io.sailrocket.core.extractors.DebugProcessor",7,0,0,3,15,0
+Public Method,"io.sailrocket.core.extractors.DebugProcessor.after",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.DebugProcessor.before",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.DebugProcessor.process",,,,1,4,0
+Public Class,"io.sailrocket.core.extractors.DefragProcessor",8,0,0,8,53,4
+Private Static Class,"io.sailrocket.core.extractors.DefragProcessor.Context",5,0,0,4,18,1
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.Context.buffer",,,,2,7,0
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.Context.flush",,,,1,5,1
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.Context.isBuffering",,,,1,3,0
+Public Constructor,"io.sailrocket.core.extractors.DefragProcessor.DefragProcessor",,,,1,3,0
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.after",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.before",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.process",,,,3,12,0
+Public Method,"io.sailrocket.core.extractors.DefragProcessor.reserve",,,,2,8,3
+Public Class,"io.sailrocket.core.extractors.ExpectProcessor",6,62,62,7,51,0
+Private Class,"io.sailrocket.core.extractors.ExpectProcessor.Invocation",1,0,0,1,12,0
+Private Constructor,"io.sailrocket.core.extractors.ExpectProcessor.Invocation.Invocation",,,,1,6,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.after",,,,1,5,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.before",,,,1,5,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.expect",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.expect",,,,1,4,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.process",,,,2,10,0
+Public Method,"io.sailrocket.core.extractors.ExpectProcessor.validate",,,,1,5,0
+Public Class,"io.sailrocket.core.extractors.JsonExtractor",15,61,61,27,423,6
+Private Class,"io.sailrocket.core.extractors.JsonExtractor.ArraySelector",4,50,50,2,11,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.ArraySelector.matches",,,,1,3,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.ArraySelector.newContext",,,,1,4,0
+Private Class,"io.sailrocket.core.extractors.JsonExtractor.ArraySelectorContext",1,0,0,1,9,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.ArraySelectorContext.reset",,,,1,5,0
+Private Class,"io.sailrocket.core.extractors.JsonExtractor.AttribSelector",3,33,33,5,17,0
+Public Constructor,"io.sailrocket.core.extractors.JsonExtractor.AttribSelector.AttribSelector",,,,1,3,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.AttribSelector.match",,,,3,7,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.AttribSelector.newContext",,,,1,4,0
+Private Class,"io.sailrocket.core.extractors.JsonExtractor.Context",10,61,60,78,275,6
+Public Constructor,"io.sailrocket.core.extractors.JsonExtractor.Context.Context",,,,2,5,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.buf",,,,2,6,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.current",,,,1,3,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.incrementValueStartPart",,,,2,7,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.onMatch",,,,2,9,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.parse",,,,43,140,2
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.Context.reset",,,,3,16,0
+Private Method,"io.sailrocket.core.extractors.JsonExtractor.Context.tryRecord",,,,23,73,4
+Public Constructor,"io.sailrocket.core.extractors.JsonExtractor.JsonExtractor",,,,15,49,0
+Private Interface,"io.sailrocket.core.extractors.JsonExtractor.Selector",1,0,0,0,6,0
+Interface,"io.sailrocket.core.extractors.JsonExtractor.Selector.Context",0,0,0,0,3,0
+Abstract Method,"io.sailrocket.core.extractors.JsonExtractor.Selector.Context.reset",,,,0,1,0
+Abstract Method,"io.sailrocket.core.extractors.JsonExtractor.Selector.newContext",,,,0,1,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.afterData",,,,3,10,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.beforeData",,,,1,6,0
+Private Static Method,"io.sailrocket.core.extractors.JsonExtractor.bytesToInt",,,,4,14,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.extractData",,,,1,5,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.reserve",,,,2,8,0
+Public Method,"io.sailrocket.core.extractors.JsonExtractor.toString",,,,1,7,0
+Public Class,"io.sailrocket.core.extractors.SearchExtractor",8,76,68,27,178,6
+Private Class,"io.sailrocket.core.extractors.SearchExtractor.Context",3,47,47,9,53,0
+Method,"io.sailrocket.core.extractors.SearchExtractor.Context.add",,,,3,14,0
+Method,"io.sailrocket.core.extractors.SearchExtractor.Context.byteRelative",,,,2,8,0
+Method,"io.sailrocket.core.extractors.SearchExtractor.Context.mark",,,,1,4,0
+Method,"io.sailrocket.core.extractors.SearchExtractor.Context.reset",,,,3,16,0
+Public Constructor,"io.sailrocket.core.extractors.SearchExtractor.SearchExtractor",,,,1,9,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractor.afterData",,,,1,6,1
+Public Method,"io.sailrocket.core.extractors.SearchExtractor.beforeData",,,,1,6,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.computeHash",,,,2,7,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractor.extractData",,,,6,26,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.fireProcessor",,,,5,22,1
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.initHash",,,,2,6,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.intPow",,,,2,7,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractor.reserve",,,,1,5,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.swap",,,,2,14,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractor.test",,,,4,11,0
+Public Class,"io.sailrocket.core.extractors.SearchExtractorTest",8,0,0,8,56,0
+Private Method,"io.sailrocket.core.extractors.SearchExtractorTest.runExtractor",,,,2,11,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testEmpty",,,,1,7,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testGreedy",,,,1,7,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testNotEnding",,,,1,6,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testSimple",,,,1,7,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testSplitMany",,,,1,9,0
+Public Method,"io.sailrocket.core.extractors.SearchExtractorTest.testStartEnd",,,,1,7,0
+Public Class,"io.sailrocket.core.extractors.SimpleRecorder",6,0,0,3,15,0
+Public Constructor,"io.sailrocket.core.extractors.SimpleRecorder.SimpleRecorder",,,,1,3,0
+Public Method,"io.sailrocket.core.extractors.SimpleRecorder.process",,,,1,5,0
+Public Method,"io.sailrocket.core.extractors.SimpleRecorder.reserve",,,,1,4,0
+Package,"io.sailrocket.core.impl",,,,56,330,97
+Public Class,"io.sailrocket.core.impl.NoHttpClientException",0,0,0,0,2,0
+Public Class,"io.sailrocket.core.impl.ReportStatisticsCollector",13,40,40,5,48,3
+Public Constructor,"io.sailrocket.core.impl.ReportStatisticsCollector.ReportStatisticsCollector",,,,1,7,0
+Public Method,"io.sailrocket.core.impl.ReportStatisticsCollector.accept",,,,1,23,2
+Public Method,"io.sailrocket.core.impl.ReportStatisticsCollector.getFirstReport",,,,1,3,0
+Private Method,"io.sailrocket.core.impl.ReportStatisticsCollector.ratio",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.ReportStatisticsCollector.reports",,,,1,3,0
+Public Class,"io.sailrocket.core.impl.ScenarioFactory",5,0,0,2,9,11
+Public Static Method,"io.sailrocket.core.impl.ScenarioFactory.buildScenario",,,,2,7,0
+Lambda Method,"io.sailrocket.core.impl.ScenarioFactory.buildScenario.(lambda_expr_1)",,,,1,2,0
+Public Class,"io.sailrocket.core.impl.ScenarioImpl",4,0,0,3,16,0
+Public Method,"io.sailrocket.core.impl.ScenarioImpl.firstSequence",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.ScenarioImpl.sequence",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.ScenarioImpl.sequences",,,,1,4,0
+Public Class,"io.sailrocket.core.impl.SequenceContextImpl",8,75,75,8,47,0
+Public Constructor,"io.sailrocket.core.impl.SequenceContextImpl.SequenceContextImpl",,,,1,10,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.clientPool",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.getStartTime",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.pacer",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.sequence",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.sequenceStats",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.validatorResults",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceContextImpl.worker",,,,1,4,0
+Public Class,"io.sailrocket.core.impl.SequenceFactory",11,0,0,6,19,1
+Public Static Method,"io.sailrocket.core.impl.SequenceFactory.buildSequence",,,,2,7,0
+Lambda Method,"io.sailrocket.core.impl.SequenceFactory.buildSequence.(lambda_expr_1)",,,,1,2,0
+Public Static Method,"io.sailrocket.core.impl.SequenceFactory.buildSequenceFuture",,,,4,10,0
+Lambda Method,"io.sailrocket.core.impl.SequenceFactory.buildSequenceFuture.(lambda_expr_1)",,,,1,2,0
+Lambda Method,"io.sailrocket.core.impl.SequenceFactory.buildSequenceFuture.(lambda_expr_2)",,,,2,1,0
+Lambda Method,"io.sailrocket.core.impl.SequenceFactory.buildSequenceFuture.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.impl.SequenceFactory.buildSequenceFuture.(lambda_expr_4)",,,,1,1,0
+Public Class,"io.sailrocket.core.impl.SequenceImpl",11,50,50,8,35,7
+Public Method,"io.sailrocket.core.impl.SequenceImpl.buildSequenceFuture",,,,3,12,0
+Public Method,"io.sailrocket.core.impl.SequenceImpl.context",,,,1,3,0
+Public Method,"io.sailrocket.core.impl.SequenceImpl.context",,,,1,3,0
+Public Method,"io.sailrocket.core.impl.SequenceImpl.getSteps",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceImpl.statistics",,,,1,4,0
+Public Method,"io.sailrocket.core.impl.SequenceImpl.step",,,,1,5,2
+Public Class,"io.sailrocket.core.impl.StatisticsCollator",2,0,0,1,5,0
+Public Method,"io.sailrocket.core.impl.StatisticsCollator.accept",,,,1,3,0
+Public Class,"io.sailrocket.core.impl.StepImpl",24,80,80,21,84,3
+Public Method,"io.sailrocket.core.impl.StepImpl.asyncExec",,,,15,46,3
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_1)",,,,2,5,0
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_2)",,,,3,5,2
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_2).(lambda_expr_3)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_4)",,,,1,3,1
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_5)",,,,3,9,0
+Lambda Method,"io.sailrocket.core.impl.StepImpl.asyncExec.(lambda_expr_6)",,,,2,6,0
+Public Method,"io.sailrocket.core.impl.StepImpl.httpMethod",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.StepImpl.param",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.StepImpl.params",,,,1,3,0
+Public Method,"io.sailrocket.core.impl.StepImpl.path",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.StepImpl.payload",,,,1,5,0
+Public Method,"io.sailrocket.core.impl.StepImpl.validators",,,,1,5,0
+Package,"io.sailrocket.core.machine",,,,159,733,83
+Public Interface,"io.sailrocket.core.machine.Action",1,0,0,1,6,3
+Abstract Method,"io.sailrocket.core.machine.Action.invoke",,,,0,1,0
+Method,"io.sailrocket.core.machine.Action.prepare",,,,1,3,3
+Public Class,"io.sailrocket.core.machine.ActionChain",2,0,0,9,32,0
+Public Constructor,"io.sailrocket.core.machine.ActionChain.ActionChain",,,,1,3,0
+Public Method,"io.sailrocket.core.machine.ActionChain.invoke",,,,2,6,0
+Public Method,"io.sailrocket.core.machine.ActionChain.prepare",,,,3,11,0
+Public Method,"io.sailrocket.core.machine.ActionChain.reserve",,,,3,9,0
+Public Class,"io.sailrocket.core.machine.DelayAction",4,0,0,2,12,0
+Public Constructor,"io.sailrocket.core.machine.DelayAction.DelayAction",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.DelayAction.invoke",,,,1,4,0
+Public Class,"io.sailrocket.core.machine.HttpRequestAction",18,44,44,8,54,2
+Public Constructor,"io.sailrocket.core.machine.HttpRequestAction.HttpRequestAction",,,,1,11,0
+Public Method,"io.sailrocket.core.machine.HttpRequestAction.invoke",,,,4,20,2
+Public Method,"io.sailrocket.core.machine.HttpRequestAction.prepare",,,,2,10,0
+Public Method,"io.sailrocket.core.machine.HttpRequestAction.reserve",,,,1,4,0
+Public Class,"io.sailrocket.core.machine.HttpResponseHandler",23,69,69,50,186,2
+Class,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances",6,0,0,6,14,0
+Private Constructor,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances",,,,6,7,0
+Lambda Method,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances.(lambda_expr_4)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.HttpResponseHandler.HandlerInstances.HandlerInstances.(lambda_expr_5)",,,,1,1,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addBodyExtractor",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addBodyValidator",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addHeaderExtractor",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addHeaderValidator",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addStatusExtractor",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.addStatusValidator",,,,1,4,0
+Private Static Generic Method,"io.sailrocket.core.machine.HttpResponseHandler.append",,,,2,11,0
+TypeVariable,"io.sailrocket.core.machine.HttpResponseHandler.append.T",0,0,0,0,0,0
+Private Method,"io.sailrocket.core.machine.HttpResponseHandler.handleBodyPart",,,,6,18,0
+Private Method,"io.sailrocket.core.machine.HttpResponseHandler.handleEnd",,,,9,31,1
+Private Method,"io.sailrocket.core.machine.HttpResponseHandler.handleHeader",,,,6,15,0
+Private Method,"io.sailrocket.core.machine.HttpResponseHandler.handleStatus",,,,14,38,1
+Private Method,"io.sailrocket.core.machine.HttpResponseHandler.handleThrowable",,,,2,5,0
+Public Method,"io.sailrocket.core.machine.HttpResponseHandler.reserve",,,,1,11,0
+Private Generic Method,"io.sailrocket.core.machine.HttpResponseHandler.reserveAll",,,,4,9,0
+TypeVariable,"io.sailrocket.core.machine.HttpResponseHandler.reserveAll.T",0,0,0,0,0,0
+Class,"io.sailrocket.core.machine.RequestQueue",5,16,16,7,42,4
+Static Class,"io.sailrocket.core.machine.RequestQueue.Request",0,0,0,0,3,0
+Constructor,"io.sailrocket.core.machine.RequestQueue.RequestQueue",,,,2,8,0
+Method,"io.sailrocket.core.machine.RequestQueue.complete",,,,2,11,0
+Method,"io.sailrocket.core.machine.RequestQueue.prepare",,,,3,13,4
+Public Interface,"io.sailrocket.core.machine.ResourceUtilizer",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.core.machine.ResourceUtilizer.reserve",,,,0,1,0
+Public Class,"io.sailrocket.core.machine.Session",14,85,85,21,92,3
+Private Static Class,"io.sailrocket.core.machine.Session.IntWrapper",0,0,0,0,3,0
+Public Constructor,"io.sailrocket.core.machine.Session.Session",,,,1,6,0
+Public Method,"io.sailrocket.core.machine.Session.addToInt",,,,1,7,0
+Public Method,"io.sailrocket.core.machine.Session.declare",,,,1,5,0
+Public Method,"io.sailrocket.core.machine.Session.declareInt",,,,1,5,0
+Method,"io.sailrocket.core.machine.Session.getHttpClientPool",,,,1,3,0
+Public Method,"io.sailrocket.core.machine.Session.getInt",,,,1,4,0
+Public Method,"io.sailrocket.core.machine.Session.getObject",,,,1,4,0
+Method,"io.sailrocket.core.machine.Session.getScheduledExecutor",,,,1,3,0
+Method,"io.sailrocket.core.machine.Session.progress",,,,1,3,0
+Method,"io.sailrocket.core.machine.Session.requestQueue",,,,1,3,0
+Method,"io.sailrocket.core.machine.Session.reset",,,,1,3,1
+Public Method,"io.sailrocket.core.machine.Session.run",,,,2,3,0
+Public Method,"io.sailrocket.core.machine.Session.setInt",,,,2,8,0
+Public Method,"io.sailrocket.core.machine.Session.setObject",,,,2,8,0
+Method,"io.sailrocket.core.machine.Session.setState",,,,2,6,0
+Public Method,"io.sailrocket.core.machine.Session.statistics",,,,1,3,0
+Public Method,"io.sailrocket.core.machine.Session.validatorResults",,,,1,3,0
+Public Class,"io.sailrocket.core.machine.State",9,40,40,12,45,5
+Public Constructor,"io.sailrocket.core.machine.State.State",,,,1,3,0
+Public Method,"io.sailrocket.core.machine.State.addTransition",,,,2,8,0
+Method,"io.sailrocket.core.machine.State.progress",,,,6,19,0
+Public Method,"io.sailrocket.core.machine.State.reserve",,,,2,5,0
+Public Method,"io.sailrocket.core.machine.State.toString",,,,1,4,0
+Public Class,"io.sailrocket.core.machine.StateMachineTest",45,71,71,33,146,17
+Public Static Method,"io.sailrocket.core.machine.StateMachineTest.before",,,,7,35,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.before.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.before.(lambda_expr_2)",,,,1,4,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.before.(lambda_expr_3)",,,,5,16,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.before.(lambda_expr_3).(lambda_expr_4)",,,,1,1,0
+Public Static Method,"io.sailrocket.core.machine.StateMachineTest.cleanup",,,,1,6,0
+Private Static Method,"io.sailrocket.core.machine.StateMachineTest.count",,,,3,6,0
+Private Method,"io.sailrocket.core.machine.StateMachineTest.currentCrewCount",,,,1,3,0
+Private Static Method,"io.sailrocket.core.machine.StateMachineTest.currentShipQuery",,,,1,5,1
+Private Static Method,"io.sailrocket.core.machine.StateMachineTest.encode",,,,2,7,0
+Public Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips",,,,18,66,16
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_10)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_11)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_12)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_13)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_14)",,,,2,7,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_15)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_16)",,,,1,5,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_2)",,,,1,5,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_3)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_4)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_5)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_6)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_7)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_8)",,,,1,1,0
+Lambda Method,"io.sailrocket.core.machine.StateMachineTest.testSinkEmptyShips.(lambda_expr_9)",,,,1,1,0
+Class,"io.sailrocket.core.machine.Transition",5,58,58,9,36,0
+Constructor,"io.sailrocket.core.machine.Transition.Transition",,,,1,6,0
+Method,"io.sailrocket.core.machine.Transition.invoke",,,,2,6,0
+Public Method,"io.sailrocket.core.machine.Transition.isBlocking",,,,1,3,0
+Method,"io.sailrocket.core.machine.Transition.prepare",,,,2,7,0
+Public Method,"io.sailrocket.core.machine.Transition.reserve",,,,2,5,0
+Method,"io.sailrocket.core.machine.Transition.test",,,,1,3,0
+Package,"io.sailrocket.core.sequence",,,,26,164,58
+Public Class,"io.sailrocket.core.sequence.ChainableEventsTestCase",22,0,0,19,139,57
+Class,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool",9,78,78,7,30,2
+Public Constructor,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.DummyHttpClientPool",,,,1,4,0
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.bytesRead",,,,1,4,0
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.bytesWritten",,,,1,4,0
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.request",,,,1,5,0
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.resetStatistics",,,,1,3,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.shutdown",,,,1,3,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.DummyHttpClientPool.start",,,,1,3,0
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequence",,,,1,12,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequenceBroke",,,,1,11,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequenceFoolish",,,,1,11,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequenceIterator",,,,1,11,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequenceReduce",,,,1,11,1
+Public Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.TestSequenceSemiFoolish",,,,1,11,1
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.addStep",,,,2,3,0
+Lambda Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.addStep.(lambda_expr_1)",,,,1,1,0
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildPipeline",,,,1,3,11
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildPipelineIterator",,,,1,3,15
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildPipelineLikeFool",,,,1,3,5
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildPipelineReduce",,,,1,3,5
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildPipelineSemiFoolishly",,,,1,3,13
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildSequence",,,,1,3,0
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildStep",,,,1,3,0
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.buildSteps",,,,1,3,0
+Public Static Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.data",,,,1,3,0
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.passSequence",,,,1,3,0
+Private Method,"io.sailrocket.core.sequence.ChainableEventsTestCase.runAssertions",,,,1,7,0
+Package,"io.sailrocket.core.step",,,,2,25,11
+Public Class,"io.sailrocket.core.step.ChainedStepTestCase",5,50,50,2,18,11
+Public Constructor,"io.sailrocket.core.step.ChainedStepTestCase.ChainedStepTestCase",,,,1,11,0
+Public Method,"io.sailrocket.core.step.ChainedStepTestCase.runChainedTest",,,,1,4,11
+Package,"io.sailrocket.core.test",,,,26,105,0
+Public Class,"io.sailrocket.core.test.CrewMember",1,62,62,8,30,0
+Public Constructor,"io.sailrocket.core.test.CrewMember.CrewMember",,,,1,5,0
+Public Constructor,"io.sailrocket.core.test.CrewMember.CrewMember",,,,1,2,0
+Public Method,"io.sailrocket.core.test.CrewMember.getFirstName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.CrewMember.getLastName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.CrewMember.getTitle",,,,1,3,0
+Public Method,"io.sailrocket.core.test.CrewMember.setFirstName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.CrewMember.setLastName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.CrewMember.setTitle",,,,1,3,0
+Public Class,"io.sailrocket.core.test.Fleet",4,66,66,9,34,0
+Public Constructor,"io.sailrocket.core.test.Fleet.Fleet",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.addBase",,,,1,4,0
+Public Method,"io.sailrocket.core.test.Fleet.addShip",,,,1,4,0
+Public Method,"io.sailrocket.core.test.Fleet.getBases",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.getName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.getShips",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.setBases",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.setName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Fleet.setShips",,,,1,3,0
+Public Class,"io.sailrocket.core.test.Ship",4,66,66,9,34,0
+Public Constructor,"io.sailrocket.core.test.Ship.Ship",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.addCrew",,,,1,4,0
+Public Method,"io.sailrocket.core.test.Ship.dwt",,,,1,4,0
+Public Method,"io.sailrocket.core.test.Ship.getCrew",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.getDwt",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.getName",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.setCrew",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.setDwt",,,,1,3,0
+Public Method,"io.sailrocket.core.test.Ship.setName",,,,1,3,0
+Package,"io.sailrocket.core.util",,,,16,83,5
+Public Class,"io.sailrocket.core.util.AsyncSemaphore",5,50,50,9,35,5
+Public Constructor,"io.sailrocket.core.util.AsyncSemaphore.AsyncSemaphore",,,,1,3,0
+Public Method,"io.sailrocket.core.util.AsyncSemaphore.acquire",,,,5,17,1
+Public Method,"io.sailrocket.core.util.AsyncSemaphore.release",,,,3,10,3
+Public Class,"io.sailrocket.core.util.AsyncSemaphoreTestCase",9,66,66,6,32,0
+Private Method,"io.sailrocket.core.util.AsyncSemaphoreTestCase.runTest",,,,3,15,0
+Lambda Method,"io.sailrocket.core.util.AsyncSemaphoreTestCase.runTest.(lambda_expr_1)",,,,3,13,0
+Lambda Method,"io.sailrocket.core.util.AsyncSemaphoreTestCase.runTest.(lambda_expr_1).(lambda_expr_2)",,,,1,1,0
+Public Method,"io.sailrocket.core.util.AsyncSemaphoreTestCase.testMultiThreaded",,,,3,10,0
+Lambda Method,"io.sailrocket.core.util.AsyncSemaphoreTestCase.testMultiThreaded.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.core.util.NoOpClientProvider",0,0,0,0,2,0
+Package,"io.sailrocket.core.validators",,,,36,170,7
+Public Class,"io.sailrocket.core.validators.SearchValidator",8,64,60,13,102,7
+Private Class,"io.sailrocket.core.validators.SearchValidator.Context",2,40,40,7,36,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.Context.add",,,,2,9,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.Context.byteRelative",,,,2,8,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.Context.reset",,,,3,12,0
+Public Constructor,"io.sailrocket.core.validators.SearchValidator.SearchValidator",,,,2,12,3
+Public Method,"io.sailrocket.core.validators.SearchValidator.beforeData",,,,1,5,0
+Private Method,"io.sailrocket.core.validators.SearchValidator.initHash",,,,2,6,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.reserve",,,,1,5,0
+Private Method,"io.sailrocket.core.validators.SearchValidator.test",,,,4,13,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.validate",,,,1,7,0
+Public Method,"io.sailrocket.core.validators.SearchValidator.validateData",,,,2,12,0
+Public Class,"io.sailrocket.core.validators.SearchValidatorTest",7,0,0,16,54,0
+Private Method,"io.sailrocket.core.validators.SearchValidatorTest.runValidator",,,,2,10,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testEnd",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testEnd.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testMany",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testMany.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testNegative",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testNegative.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testOverlapping",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testOverlapping.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testPositive",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testPositive.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testSplit",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testSplit.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.core.validators.SearchValidatorTest.testStart",,,,2,6,0
+Lambda Method,"io.sailrocket.core.validators.SearchValidatorTest.testStart.(lambda_expr_1)",,,,1,1,0
+Package,"io.sailrocket.distributed",,,,37,264,72
+Public Class,"io.sailrocket.distributed.AgentControllerVerticle",19,76,60,9,59,5
+Private Method,"io.sailrocket.distributed.AgentControllerVerticle.formatJsonHistogram",,,,1,12,0
+Private Method,"io.sailrocket.distributed.AgentControllerVerticle.getNodeCount",,,,1,3,0
+Private Method,"io.sailrocket.distributed.AgentControllerVerticle.handleAgentCount",,,,2,8,1
+Private Method,"io.sailrocket.distributed.AgentControllerVerticle.handleStartBenchmark",,,,2,11,1
+Public Method,"io.sailrocket.distributed.AgentControllerVerticle.start",,,,3,19,3
+Lambda Method,"io.sailrocket.distributed.AgentControllerVerticle.start.(lambda_expr_1)",,,,2,7,0
+Public Class,"io.sailrocket.distributed.BenchmarkDistributionTestCase",5,50,50,2,13,0
+Public Method,"io.sailrocket.distributed.BenchmarkDistributionTestCase.before",,,,2,7,0
+Lambda Method,"io.sailrocket.distributed.BenchmarkDistributionTestCase.before.(lambda_expr_1)",,,,1,3,0
+Public Class,"io.sailrocket.distributed.ClusterTestCase",25,85,78,15,78,7
+Public Method,"io.sailrocket.distributed.ClusterTestCase.before",,,,5,14,3
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.before.(lambda_expr_1)",,,,1,3,0
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.before.(lambda_expr_2)",,,,2,4,0
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.before.(lambda_expr_3)",,,,1,1,0
+Private Method,"io.sailrocket.distributed.ClusterTestCase.initiateClustered",,,,3,17,0
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.initiateClustered.(lambda_expr_1)",,,,4,15,0
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.initiateClustered.(lambda_expr_1).(lambda_expr_2)",,,,2,7,0
+Private Method,"io.sailrocket.distributed.ClusterTestCase.initiateController",,,,1,3,0
+Private Method,"io.sailrocket.distributed.ClusterTestCase.initiateRunner",,,,1,3,0
+Method,"io.sailrocket.distributed.ClusterTestCase.standalone",,,,1,5,0
+Public Method,"io.sailrocket.distributed.ClusterTestCase.startClusteredBenchmarkTest",,,,3,24,4
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.startClusteredBenchmarkTest.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"io.sailrocket.distributed.ClusterTestCase.startClusteredBenchmarkTest.(lambda_expr_2)",,,,1,4,0
+Public Method,"io.sailrocket.distributed.ClusterTestCase.teardown",,,,1,4,0
+Public Enum Type,"io.sailrocket.distributed.ResultStatus",1,,,0,3,0
+Public Implicit Method,"io.sailrocket.distributed.ResultStatus.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.distributed.ResultStatus.values",,,,0,,
+Public Class,"io.sailrocket.distributed.RunnerVerticle",13,75,75,5,25,3
+Public Method,"io.sailrocket.distributed.RunnerVerticle.start",,,,3,13,1
+Lambda Method,"io.sailrocket.distributed.RunnerVerticle.start.(lambda_expr_1)",,,,2,6,0
+Private Method,"io.sailrocket.distributed.RunnerVerticle.startRunner",,,,2,8,1
+Public Abstract Class,"io.sailrocket.distributed.VerticleWorker",1,0,0,0,3,0
+Public Abstract Method,"io.sailrocket.distributed.VerticleWorker.name",,,,0,1,0
+Public Enum Type,"io.sailrocket.distributed.WorkerStatus",1,,,4,16,0
+Constructor,"io.sailrocket.distributed.WorkerStatus.WorkerStatus",,,,1,3,0
+Public Static Method,"io.sailrocket.distributed.WorkerStatus.find",,,,3,6,0
+Public Implicit Method,"io.sailrocket.distributed.WorkerStatus.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.distributed.WorkerStatus.values",,,,0,,
+Package,"io.sailrocket.distributed.util",,,,20,139,137
+Public Class,"io.sailrocket.distributed.util.BenchmarkCodec",0,0,0,0,1,0
+Public Class,"io.sailrocket.distributed.util.ConcurrentHistogramCodec",0,0,0,0,1,0
+Public Class,"io.sailrocket.distributed.util.HistogramCodec",0,0,0,0,1,0
+Public Generic Class,"io.sailrocket.distributed.util.ObjectCodec",14,0,0,11,55,7
+TypeVariable,"io.sailrocket.distributed.util.ObjectCodec.T",0,0,0,0,0,0
+Public Method,"io.sailrocket.distributed.util.ObjectCodec.decodeFromWire",,,,5,23,1
+Public Method,"io.sailrocket.distributed.util.ObjectCodec.encodeToWire",,,,3,18,1
+Public Method,"io.sailrocket.distributed.util.ObjectCodec.name",,,,1,4,2
+Public Method,"io.sailrocket.distributed.util.ObjectCodec.systemCodecID",,,,1,4,1
+Public Method,"io.sailrocket.distributed.util.ObjectCodec.transform",,,,1,4,2
+Public Class,"io.sailrocket.distributed.util.WorkerMessage",4,25,25,4,23,0
+Public Constructor,"io.sailrocket.distributed.util.WorkerMessage.WorkerMessage",,,,1,5,0
+Public Method,"io.sailrocket.distributed.util.WorkerMessage.senderId",,,,1,3,0
+Public Method,"io.sailrocket.distributed.util.WorkerMessage.statusCode",,,,1,3,0
+Public Method,"io.sailrocket.distributed.util.WorkerMessage.toString",,,,1,8,0
+Public Class,"io.sailrocket.distributed.util.WorkerMessageCodec",7,0,0,5,34,16
+Public Method,"io.sailrocket.distributed.util.WorkerMessageCodec.decodeFromWire",,,,1,10,6
+Public Method,"io.sailrocket.distributed.util.WorkerMessageCodec.encodeToWire",,,,1,10,5
+Public Method,"io.sailrocket.distributed.util.WorkerMessageCodec.name",,,,1,4,2
+Public Method,"io.sailrocket.distributed.util.WorkerMessageCodec.systemCodecID",,,,1,4,1
+Public Method,"io.sailrocket.distributed.util.WorkerMessageCodec.transform",,,,1,4,2
+Package,"io.sailrocket.spi",,,,61,304,154
+Public Interface,"io.sailrocket.spi.BodyValidator",2,0,0,0,5,0
+Abstract Method,"io.sailrocket.spi.BodyValidator.beforeData",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.BodyValidator.validate",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.BodyValidator.validateData",,,,0,1,0
+Public Interface,"io.sailrocket.spi.HeaderValidator",2,0,0,0,5,0
+Abstract Method,"io.sailrocket.spi.HeaderValidator.beforeHeaders",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.HeaderValidator.validate",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.HeaderValidator.validateHeader",,,,0,1,0
+Public Class,"io.sailrocket.spi.HttpBase",3,50,50,4,19,3
+Public Constructor,"io.sailrocket.spi.HttpBase.HttpBase",,,,1,5,0
+Public Method,"io.sailrocket.spi.HttpBase.baseUrl",,,,1,3,0
+Public Method,"io.sailrocket.spi.HttpBase.header",,,,1,3,0
+Public Method,"io.sailrocket.spi.HttpBase.httpStatus",,,,1,3,0
+Public Class,"io.sailrocket.spi.HttpHeader",6,0,0,5,20,3
+Public Constructor,"io.sailrocket.spi.HttpHeader.HttpHeader",,,,1,3,0
+Public Constructor,"io.sailrocket.spi.HttpHeader.HttpHeader",,,,2,8,0
+Public Method,"io.sailrocket.spi.HttpHeader.getValue",,,,1,3,0
+Public Method,"io.sailrocket.spi.HttpHeader.hasKey",,,,1,3,0
+Public Class,"io.sailrocket.spi.HttpProtocol",3,42,42,7,32,0
+Public Constructor,"io.sailrocket.spi.HttpProtocol.HttpProtocol",,,,1,4,0
+Public Constructor,"io.sailrocket.spi.HttpProtocol.HttpProtocol",,,,1,4,0
+Public Constructor,"io.sailrocket.spi.HttpProtocol.HttpProtocol",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpProtocol.name",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpProtocol.port",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpProtocol.secure",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpProtocol.version",,,,1,4,0
+Public Enum Type,"io.sailrocket.spi.HttpStatus",1,,,1,19,3
+Constructor,"io.sailrocket.spi.HttpStatus.HttpStatus",,,,1,3,0
+Public Implicit Method,"io.sailrocket.spi.HttpStatus.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.spi.HttpStatus.values",,,,0,,
+Public Class,"io.sailrocket.spi.HttpsProtocol",3,42,42,7,32,0
+Public Constructor,"io.sailrocket.spi.HttpsProtocol.HttpsProtocol",,,,1,4,0
+Public Constructor,"io.sailrocket.spi.HttpsProtocol.HttpsProtocol",,,,1,4,0
+Public Constructor,"io.sailrocket.spi.HttpsProtocol.HttpsProtocol",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpsProtocol.name",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpsProtocol.port",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpsProtocol.secure",,,,1,4,0
+Public Method,"io.sailrocket.spi.HttpsProtocol.version",,,,1,4,0
+Public Interface,"io.sailrocket.spi.PacerStrategy",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.spi.PacerStrategy.name",,,,0,1,0
+Public Interface,"io.sailrocket.spi.Protocol",2,0,0,0,6,0
+Abstract Method,"io.sailrocket.spi.Protocol.name",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.Protocol.port",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.Protocol.secure",,,,0,1,0
+Abstract Method,"io.sailrocket.spi.Protocol.version",,,,0,1,0
+Public Class,"io.sailrocket.spi.Protocols",5,0,0,6,18,0
+Public Static Method,"io.sailrocket.spi.Protocols.protocol",,,,3,8,0
+Public Static Method,"io.sailrocket.spi.Protocols.protocol",,,,3,8,0
+Public Interface,"io.sailrocket.spi.ScenarioMixStrategy",0,0,0,0,2,0
+Public Interface,"io.sailrocket.spi.StatusValidator",1,0,0,0,3,0
+Abstract Method,"io.sailrocket.spi.StatusValidator.validate",,,,0,1,0
+Public Class,"io.sailrocket.spi.Url",9,42,28,9,41,1
+Public Constructor,"io.sailrocket.spi.Url.Url",,,,1,5,0
+Public Constructor,"io.sailrocket.spi.Url.Url",,,,2,11,0
+Public Method,"io.sailrocket.spi.Url.host",,,,1,3,0
+Public Method,"io.sailrocket.spi.Url.path",,,,1,3,0
+Public Method,"io.sailrocket.spi.Url.protocol",,,,1,3,0
+Public Method,"io.sailrocket.spi.Url.toString",,,,2,8,1
+Public Method,"io.sailrocket.spi.Url.toURL",,,,1,3,0
+Public Class,"io.sailrocket.spi.UrlBuilder",3,88,88,15,37,0
+Private Constructor,"io.sailrocket.spi.UrlBuilder.UrlBuilder",,,,1,2,0
+Private Method,"io.sailrocket.spi.UrlBuilder.apply",,,,1,4,0
+Public Method,"io.sailrocket.spi.UrlBuilder.build",,,,2,6,0
+Public Static Method,"io.sailrocket.spi.UrlBuilder.builder",,,,1,3,0
+Public Method,"io.sailrocket.spi.UrlBuilder.host",,,,2,3,0
+Lambda Method,"io.sailrocket.spi.UrlBuilder.host.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.spi.UrlBuilder.path",,,,2,3,0
+Lambda Method,"io.sailrocket.spi.UrlBuilder.path.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.spi.UrlBuilder.port",,,,2,3,0
+Lambda Method,"io.sailrocket.spi.UrlBuilder.port.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.spi.UrlBuilder.protocol",,,,2,3,0
+Lambda Method,"io.sailrocket.spi.UrlBuilder.protocol.(lambda_expr_1)",,,,1,1,0
+Public Method,"io.sailrocket.spi.UrlBuilder.url",,,,2,3,0
+Lambda Method,"io.sailrocket.spi.UrlBuilder.url.(lambda_expr_1)",,,,1,1,0
+Public Class,"io.sailrocket.spi.Validators",3,57,57,7,28,3
+Public Constructor,"io.sailrocket.spi.Validators.Validators",,,,1,5,0
+Public Method,"io.sailrocket.spi.Validators.bodyValidator",,,,1,3,0
+Public Method,"io.sailrocket.spi.Validators.hasBodyValidator",,,,1,3,0
+Public Method,"io.sailrocket.spi.Validators.hasHeaderValidator",,,,1,3,0
+Public Method,"io.sailrocket.spi.Validators.hasStatusValidator",,,,1,3,0
+Public Method,"io.sailrocket.spi.Validators.headerValidator",,,,1,3,0
+Public Method,"io.sailrocket.spi.Validators.statusValidator",,,,1,3,0
+Public Enum Type,"io.sailrocket.spi.Version",1,,,0,5,0
+Public Implicit Method,"io.sailrocket.spi.Version.valueOf",,,,0,,
+Public Implicit Method,"io.sailrocket.spi.Version.values",,,,0,,
+Package,"io.sailrocket.test",,,,0,3,3
+Public Interface,"io.sailrocket.test.Benchmark",0,0,0,0,2,3
+File,"package-info.java",,,,0,1,47

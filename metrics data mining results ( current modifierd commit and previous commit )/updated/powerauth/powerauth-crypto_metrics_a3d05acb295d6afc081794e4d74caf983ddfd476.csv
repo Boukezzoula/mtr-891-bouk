@@ -1,0 +1,267 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AESEncryptionUtils.java",,,,6,40,71
+File,"ActivationStatusBlobInfo.java",,,,10,38,63
+File,"ClientNonPersonalizedEncryptor.java",,,,4,33,23
+File,"CryptoProviderUtil.java",,,,0,14,70
+File,"CryptoProviderUtilBouncyCastle.java",,,,10,64,70
+File,"CryptoProviderUtilFactory.java",,,,4,19,25
+File,"CryptoProviderUtilsSpongyCastle.java",,,,10,70,70
+File,"EncryptedMessage.java",,,,12,45,21
+File,"GenerateVectorDataTest.java",,,,26,352,58
+File,"HMACHashUtilities.java",,,,4,35,32
+File,"IdentifierGenerator.java",,,,4,25,49
+File,"KeyConversionUtilsTest.java",,,,4,57,34
+File,"KeyGenerator.java",,,,14,92,72
+File,"NonPersonalizedEncryptedMessage.java",,,,4,17,5
+File,"NonPersonalizedEncryptor.java",,,,17,112,43
+File,"PersonalizedEncryptedMessage.java",,,,2,10,5
+File,"PowerAuthActivationTest.java",,,,5,107,47
+File,"PowerAuthClientActivation.java",,,,18,134,116
+File,"PowerAuthClientKeyFactory.java",,,,20,83,97
+File,"PowerAuthClientSignature.java",,,,1,14,34
+File,"PowerAuthClientVault.java",,,,6,53,46
+File,"PowerAuthConfiguration.java",,,,3,23,62
+File,"PowerAuthDerivedKey.java",,,,3,26,45
+File,"PowerAuthHttpBody.java",,,,6,29,31
+File,"PowerAuthHttpHeader.java",,,,6,45,60
+File,"PowerAuthRequestCanonizationUtils.java",,,,12,61,38
+File,"PowerAuthServerActivation.java",,,,21,154,153
+File,"PowerAuthServerKeyFactory.java",,,,13,79,77
+File,"PowerAuthServerSignature.java",,,,1,15,33
+File,"PowerAuthServerVault.java",,,,2,33,30
+File,"PowerAuthSignatureTest.java",,,,7,106,37
+File,"PowerAuthSignatureTypes.java",,,,6,36,50
+File,"SignatureUtils.java",,,,9,61,64
+File,"VaultTest.java",,,,3,58,35
+Package,"io",,,,0,0,0
+Package,"io.getlime",,,,0,0,0
+Package,"io.getlime.security",,,,0,0,0
+Package,"io.getlime.security.powerauth",,,,0,0,0
+Package,"io.getlime.security.powerauth.crypto",,,,0,0,0
+Package,"io.getlime.security.powerauth.crypto.activation",,,,5,107,47
+Public Class,"io.getlime.security.powerauth.crypto.activation.PowerAuthActivationTest",19,0,0,5,90,32
+Public Method,"io.getlime.security.powerauth.crypto.activation.PowerAuthActivationTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.crypto.activation.PowerAuthActivationTest.testActivationGenerate",,,,1,16,5
+Public Method,"io.getlime.security.powerauth.crypto.activation.PowerAuthActivationTest.testActivationProcess",,,,2,59,15
+Public Method,"io.getlime.security.powerauth.crypto.activation.PowerAuthActivationTest.testGenerateKeys",,,,1,8,4
+Package,"io.getlime.security.powerauth.crypto.client",,,,0,0,0
+Package,"io.getlime.security.powerauth.crypto.client.activation",,,,18,134,116
+Public Class,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation",26,77,77,18,116,101
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.computeApplicationSignature",,,,2,12,10
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.computeDevicePublicKeyFingerprint",,,,3,16,7
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.decryptServerPublicKey",,,,2,15,13
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.encryptDevicePublicKey",,,,2,15,12
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.generateActivationNonce",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.generateDeviceKeyPair",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.getStatusFromEncryptedBlob",,,,3,28,17
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.verifyActivationDataSignature",,,,2,9,13
+Public Method,"io.getlime.security.powerauth.crypto.client.activation.PowerAuthClientActivation.verifyServerDataSignature",,,,2,12,12
+Package,"io.getlime.security.powerauth.crypto.client.encryptor",,,,4,33,23
+Public Class,"io.getlime.security.powerauth.crypto.client.encryptor.ClientNonPersonalizedEncryptor",9,44,44,4,23,23
+Public Constructor,"io.getlime.security.powerauth.crypto.client.encryptor.ClientNonPersonalizedEncryptor.ClientNonPersonalizedEncryptor",,,,2,12,8
+Public Method,"io.getlime.security.powerauth.crypto.client.encryptor.ClientNonPersonalizedEncryptor.decrypt",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.client.encryptor.ClientNonPersonalizedEncryptor.encrypt",,,,1,3,5
+Package,"io.getlime.security.powerauth.crypto.client.keyfactory",,,,20,83,97
+Public Class,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory",10,25,12,20,73,82
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateClientMasterSecretKey",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignatureBiometryKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignatureKnowledgeKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateClientSignaturePossessionKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateServerEncryptedVaultKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.generateServerTransportKey",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.keysForSignatureType",,,,7,21,8
+Public Method,"io.getlime.security.powerauth.crypto.client.keyfactory.PowerAuthClientKeyFactory.keysForSignatureType",,,,7,31,11
+Package,"io.getlime.security.powerauth.crypto.client.signature",,,,1,14,34
+Public Class,"io.getlime.security.powerauth.crypto.client.signature.PowerAuthClientSignature",4,0,0,1,9,19
+Public Method,"io.getlime.security.powerauth.crypto.client.signature.PowerAuthClientSignature.signatureForData",,,,1,6,13
+Package,"io.getlime.security.powerauth.crypto.client.vault",,,,6,53,46
+Public Class,"io.getlime.security.powerauth.crypto.client.vault.PowerAuthClientVault",11,0,0,6,40,31
+Public Method,"io.getlime.security.powerauth.crypto.client.vault.PowerAuthClientVault.decryptDevicePrivateKey",,,,2,12,8
+Public Method,"io.getlime.security.powerauth.crypto.client.vault.PowerAuthClientVault.decryptVaultEncryptionKey",,,,2,14,9
+Public Method,"io.getlime.security.powerauth.crypto.client.vault.PowerAuthClientVault.encryptDevicePrivateKey",,,,2,12,8
+Package,"io.getlime.security.powerauth.crypto.lib",,,,0,0,0
+Package,"io.getlime.security.powerauth.crypto.lib.config",,,,3,23,62
+Public Enum Type,"io.getlime.security.powerauth.crypto.lib.config.PowerAuthConfiguration",3,,,3,21,47
+Public Method,"io.getlime.security.powerauth.crypto.lib.config.PowerAuthConfiguration.getKeyConvertor",,,,2,6,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.config.PowerAuthConfiguration.setKeyConvertor",,,,1,3,4
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.config.PowerAuthConfiguration.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.config.PowerAuthConfiguration.values",,,,0,,
+Package,"io.getlime.security.powerauth.crypto.lib.encryptor",,,,17,112,43
+Public Class,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor",13,71,71,17,98,28
+Public Constructor,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.NonPersonalizedEncryptor",,,,1,6,7
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.decrypt",,,,4,23,7
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.encrypt",,,,4,34,7
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.getApplicationKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.getEphemeralPublicKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.getSessionIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.getSessionRelatedSecretKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.setApplicationKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.setEphemeralPublicKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.setSessionIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.NonPersonalizedEncryptor.setSessionRelatedSecretKey",,,,1,3,0
+Package,"io.getlime.security.powerauth.crypto.lib.encryptor.model",,,,18,72,31
+Public Class,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage",0,83,83,12,44,6
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getAdHocIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getEncryptedData",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getMac",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getMacIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getNonce",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.getSessionIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setAdHocIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setEncryptedData",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setMac",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setMacIndex",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setNonce",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.EncryptedMessage.setSessionIndex",,,,1,3,0
+Public Class,"io.getlime.security.powerauth.crypto.lib.encryptor.model.NonPersonalizedEncryptedMessage",0,50,50,4,16,5
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.NonPersonalizedEncryptedMessage.getApplicationKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.NonPersonalizedEncryptedMessage.getEphemeralPublicKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.NonPersonalizedEncryptedMessage.setApplicationKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.NonPersonalizedEncryptedMessage.setEphemeralPublicKey",,,,1,3,0
+Public Class,"io.getlime.security.powerauth.crypto.lib.encryptor.model.PersonalizedEncryptedMessage",1,0,0,2,9,5
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.PersonalizedEncryptedMessage.getActivationId",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.encryptor.model.PersonalizedEncryptedMessage.setActivationId",,,,1,3,0
+Package,"io.getlime.security.powerauth.crypto.lib.enums",,,,9,62,95
+Public Enum Type,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey",3,,,3,22,30
+Private Constructor,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey.PowerAuthDerivedKey",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey.getIndex",,,,1,3,4
+Public Static Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey.valueOf",,,,1,3,5
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthDerivedKey.values",,,,0,,
+Public Enum Type,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes",4,,,6,32,35
+Private Constructor,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.PowerAuthSignatureTypes",,,,1,3,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.equalsName",,,,2,3,5
+Public Static Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.getEnumFromString",,,,2,8,6
+Public Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.toString",,,,1,4,0
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.valueOf",,,,0,,
+Public Implicit Method,"io.getlime.security.powerauth.crypto.lib.enums.PowerAuthSignatureTypes.values",,,,0,,
+Package,"io.getlime.security.powerauth.crypto.lib.generator",,,,18,117,121
+Public Class,"io.getlime.security.powerauth.crypto.lib.generator.IdentifierGenerator",4,50,50,4,21,34
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.IdentifierGenerator.generateActivationId",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.IdentifierGenerator.generateActivationIdShort",,,,1,5,7
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.IdentifierGenerator.generateActivationOTP",,,,1,5,7
+Private Method,"io.getlime.security.powerauth.crypto.lib.generator.IdentifierGenerator.generateBase32Token",,,,1,5,9
+Public Class,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator",25,87,75,14,77,57
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.computeSharedKey",,,,2,13,8
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.convert32Bto16B",,,,3,10,5
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.deriveSecretKey",,,,2,12,11
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.deriveSecretKeyFromPassword",,,,2,12,8
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.deriveSecretKeyHmac",,,,1,8,0
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.generateKeyPair",,,,2,11,6
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.generateRandomBytes",,,,1,5,6
+Public Method,"io.getlime.security.powerauth.crypto.lib.generator.KeyGenerator.generateRandomSecretKey",,,,1,3,5
+Package,"io.getlime.security.powerauth.crypto.lib.model",,,,10,38,63
+Public Class,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo",0,80,80,10,37,48
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.getActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.getCounter",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.getFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.getMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.isValid",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.setActivationStatus",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.setCounter",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.setFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.setMaxFailedAttempts",,,,1,3,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.model.ActivationStatusBlobInfo.setValid",,,,1,3,5
+Package,"io.getlime.security.powerauth.crypto.lib.util",,,,49,545,259
+Public Class,"io.getlime.security.powerauth.crypto.lib.util.AESEncryptionUtils",13,0,0,6,30,56
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.AESEncryptionUtils.decrypt",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.AESEncryptionUtils.decrypt",,,,2,11,13
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.AESEncryptionUtils.encrypt",,,,1,3,12
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.AESEncryptionUtils.encrypt",,,,2,11,13
+Public Class,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest",24,0,0,26,331,43
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testActivationAccept",,,,3,53,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testDerivedKeyDerivation",,,,3,32,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testEncryptDevicePublicKey",,,,3,41,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testMasterKeyDerivation",,,,3,30,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testSignatureValidation",,,,7,84,9
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testVerifyActivationData",,,,3,34,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.GenerateVectorDataTest.testVerifyServerPublicKeySignature",,,,3,50,4
+Public Class,"io.getlime.security.powerauth.crypto.lib.util.HMACHashUtilities",9,0,0,4,25,17
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.HMACHashUtilities.hash",,,,2,12,6
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.HMACHashUtilities.hash",,,,2,11,6
+Public Class,"io.getlime.security.powerauth.crypto.lib.util.KeyConversionUtilsTest",22,0,0,4,41,19
+Public Constructor,"io.getlime.security.powerauth.crypto.lib.util.KeyConversionUtilsTest.KeyConversionUtilsTest",,,,1,2,3
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.KeyConversionUtilsTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.KeyConversionUtilsTest.testConvertPublicKey",,,,2,32,6
+Public Class,"io.getlime.security.powerauth.crypto.lib.util.SignatureUtils",18,0,0,9,51,49
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.SignatureUtils.computeECDSASignature",,,,2,11,9
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.SignatureUtils.computePowerAuthSignature",,,,4,24,14
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.SignatureUtils.validateECDSASignature",,,,2,11,10
+Public Method,"io.getlime.security.powerauth.crypto.lib.util.SignatureUtils.validatePowerAuthSignature",,,,1,3,10
+Package,"io.getlime.security.powerauth.crypto.server",,,,0,0,0
+Package,"io.getlime.security.powerauth.crypto.server.activation",,,,21,154,153
+Public Class,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation",27,79,79,21,135,138
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.computeDevicePublicKeyFingerprint",,,,3,16,8
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.computeServerDataSignature",,,,2,13,11
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.decryptDevicePublicKey",,,,3,23,18
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.encryptServerPublicKey",,,,2,19,18
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.encryptedStatusBlob",,,,2,21,17
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateActivationId",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateActivationIdShort",,,,1,3,9
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateActivationNonce",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateActivationOTP",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateActivationSignature",,,,2,11,15
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.generateServerKeyPair",,,,1,3,5
+Public Method,"io.getlime.security.powerauth.crypto.server.activation.PowerAuthServerActivation.validateApplicationSignature",,,,2,13,11
+Package,"io.getlime.security.powerauth.crypto.server.keyfactory",,,,13,79,77
+Public Class,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory",10,14,0,13,69,62
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerEndryptedVaultKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerMasterSecretKey",,,,1,5,9
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignatureBiometryKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignatureKnowledgeKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerSignaturePossessionKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.generateServerTransportKey",,,,1,6,8
+Public Method,"io.getlime.security.powerauth.crypto.server.keyfactory.PowerAuthServerKeyFactory.keysForSignatureType",,,,7,31,7
+Package,"io.getlime.security.powerauth.crypto.server.signature",,,,1,15,33
+Public Class,"io.getlime.security.powerauth.crypto.server.signature.PowerAuthServerSignature",4,0,0,1,10,18
+Public Method,"io.getlime.security.powerauth.crypto.server.signature.PowerAuthServerSignature.verifySignatureForData",,,,1,7,11
+Package,"io.getlime.security.powerauth.crypto.server.vault",,,,2,33,30
+Public Class,"io.getlime.security.powerauth.crypto.server.vault.PowerAuthServerVault",13,0,0,2,19,15
+Public Method,"io.getlime.security.powerauth.crypto.server.vault.PowerAuthServerVault.encryptVaultEncryptionKey",,,,2,17,9
+Package,"io.getlime.security.powerauth.crypto.signature",,,,7,106,37
+Public Class,"io.getlime.security.powerauth.crypto.signature.PowerAuthSignatureTest",23,0,0,7,85,22
+Public Method,"io.getlime.security.powerauth.crypto.signature.PowerAuthSignatureTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.crypto.signature.PowerAuthSignatureTest.testSignatureForData",,,,6,78,12
+Package,"io.getlime.security.powerauth.crypto.vault",,,,3,58,35
+Public Class,"io.getlime.security.powerauth.crypto.vault.VaultTest",19,0,0,3,40,20
+Public Method,"io.getlime.security.powerauth.crypto.vault.VaultTest.setUp",,,,1,5,4
+Public Method,"io.getlime.security.powerauth.crypto.vault.VaultTest.testVault",,,,2,33,10
+Package,"io.getlime.security.powerauth.http",,,,24,135,129
+Public Class,"io.getlime.security.powerauth.http.PowerAuthHttpBody",3,0,0,6,26,16
+Public Static Method,"io.getlime.security.powerauth.http.PowerAuthHttpBody.getSignatureBaseString",,,,6,24,10
+Public Class,"io.getlime.security.powerauth.http.PowerAuthHttpHeader",5,0,0,6,40,45
+Public Static Method,"io.getlime.security.powerauth.http.PowerAuthHttpHeader.getPowerAuthSignatureHTTPHeader",,,,1,10,10
+Private Static Method,"io.getlime.security.powerauth.http.PowerAuthHttpHeader.headerField",,,,1,3,0
+Public Static Method,"io.getlime.security.powerauth.http.PowerAuthHttpHeader.parsePowerAuthSignatureHTTPHeader",,,,4,17,8
+Public Class,"io.getlime.security.powerauth.http.PowerAuthRequestCanonizationUtils",9,0,0,8,56,23
+Public Static Method,"io.getlime.security.powerauth.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters",,,,8,52,17
+Anonymous Class,"io.getlime.security.powerauth.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters.(Anon_1)",4,0,0,4,13,0
+Public Method,"io.getlime.security.powerauth.http.PowerAuthRequestCanonizationUtils.canonizeGetParameters.(Anon_1).compare",,,,4,12,0
+Package,"io.getlime.security.powerauth.provider",,,,24,167,235
+Public Interface,"io.getlime.security.powerauth.provider.CryptoProviderUtil",5,0,0,0,9,49
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertBytesToPrivateKey",,,,0,1,9
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertBytesToPublicKey",,,,0,1,9
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertBytesToSharedSecretKey",,,,0,1,7
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertPrivateKeyToBytes",,,,0,1,6
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertPublicKeyToBytes",,,,0,1,6
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.convertSharedSecretKeyToBytes",,,,0,1,7
+Abstract Method,"io.getlime.security.powerauth.provider.CryptoProviderUtil.getProviderName",,,,0,1,5
+Public Class,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle",22,0,0,10,48,55
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertBytesToPrivateKey",,,,2,13,9
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertBytesToPublicKey",,,,3,16,10
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertBytesToSharedSecretKey",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertPrivateKeyToBytes",,,,1,4,6
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertPublicKeyToBytes",,,,1,3,6
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.convertSharedSecretKeyToBytes",,,,1,3,7
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilBouncyCastle.getProviderName",,,,1,4,5
+Public Final Class,"io.getlime.security.powerauth.provider.CryptoProviderUtilFactory",5,0,0,4,17,10
+Public Static Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilFactory.getCryptoProviderUtils",,,,4,14,5
+Public Class,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle",22,0,0,10,54,55
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertBytesToPrivateKey",,,,2,14,9
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertBytesToPublicKey",,,,3,17,10
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertBytesToSharedSecretKey",,,,1,4,7
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertPrivateKeyToBytes",,,,1,5,6
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertPublicKeyToBytes",,,,1,4,6
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.convertSharedSecretKeyToBytes",,,,1,4,7
+Public Method,"io.getlime.security.powerauth.provider.CryptoProviderUtilsSpongyCastle.getProviderName",,,,1,4,5

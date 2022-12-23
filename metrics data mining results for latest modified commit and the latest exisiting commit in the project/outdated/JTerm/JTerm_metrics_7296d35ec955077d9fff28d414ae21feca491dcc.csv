@@ -1,0 +1,342 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"Clear.java",,,,1,9,15
+File,"Client.java",,,,11,56,15
+File,"CollectorPrinter.java",,,,14,62,0
+File,"Command.java",,,,0,12,0
+File,"CommandException.java",,,,2,9,0
+File,"CommandExecutor.java",,,,8,39,0
+File,"Date.java",,,,1,14,15
+File,"Dir.java",,,,32,112,19
+File,"Echo.java",,,,1,12,16
+File,"Exec.java",,,,6,31,15
+File,"Exit.java",,,,1,8,15
+File,"FileAutocomplete.java",,,,49,170,54
+File,"Files.java",,,,25,145,24
+File,"GuiPrinter.java",,,,22,97,0
+File,"HeadlessPrinter.java",,,,19,63,2
+File,"Help.java",,,,2,14,15
+File,"InputHandler.java",,,,55,218,39
+File,"InputHandlerTest.java",,,,2,17,0
+File,"JTerm.java",,,,33,165,22
+File,"Keys.java",,,,12,64,0
+File,"Pause.java",,,,5,28,16
+File,"Ping.java",,,,5,33,15
+File,"Printer.java",,,,0,13,0
+File,"ProtectedDocument.java",,,,38,147,81
+File,"ProtectedTextComponent.java",,,,5,32,32
+File,"Ps.java",,,,1,19,15
+File,"RawConsoleInput.java",,,,51,273,62
+File,"Regex.java",,,,9,53,0
+File,"Server.java",,,,16,82,15
+File,"Set.java",,,,6,31,22
+File,"Terminal.java",,,,18,81,20
+File,"TextColor.java",,,,3,24,6
+File,"Time.java",,,,1,14,15
+File,"Util.java",,,,8,32,9
+File,"UtilTest.java",,,,12,109,0
+File,"Window.java",,,,18,77,65
+Public Implicit Method,"clone",,,,0,,
+Package,"jterm",,,,60,303,52
+Public Class,"jterm.Client",14,0,0,11,51,0
+Public Static Method,"jterm.Client.connect",,,,7,36,0
+Public Method,"jterm.Client.run",,,,4,12,0
+Public Class,"jterm.JTerm",37,83,78,28,145,6
+Public Static Method,"jterm.JTerm.executeCommand",,,,5,17,0
+Public Static Method,"jterm.JTerm.getCommands",,,,1,3,0
+Public Static Method,"jterm.JTerm.getTerminal",,,,1,3,0
+Private Static Method,"jterm.JTerm.initCommands",,,,9,53,3
+Lambda Method,"jterm.JTerm.initCommands.(lambda_expr_1)",,,,4,11,0
+Lambda Method,"jterm.JTerm.initCommands.(lambda_expr_1).(lambda_expr_2)",,,,2,5,0
+Lambda Method,"jterm.JTerm.initCommands.(lambda_expr_3)",,,,2,19,0
+Lambda Method,"jterm.JTerm.initCommands.(lambda_expr_3).(lambda_expr_4)",,,,3,15,0
+Lambda Method,"jterm.JTerm.initCommands.(lambda_expr_3).(lambda_expr_4).(lambda_expr_5)",,,,2,8,0
+Public Static Method,"jterm.JTerm.isHeadless",,,,1,3,0
+Public Static Method,"jterm.JTerm.main",,,,5,27,0
+Private Static Method,"jterm.JTerm.setOS",,,,3,12,0
+Public Static Method,"jterm.JTerm.setPrompt",,,,1,3,0
+Public Static Method,"jterm.JTerm.setTerminal",,,,1,3,0
+Public Static Method,"jterm.JTerm.setheadless",,,,1,3,1
+Public Class,"jterm.Server",14,50,41,16,73,0
+Public Constructor,"jterm.Server.Server",,,,1,3,0
+Public Method,"jterm.Server.run",,,,4,17,0
+Public Static Method,"jterm.Server.start",,,,11,47,0
+Lambda Method,"jterm.Server.start.(lambda_expr_1)",,,,5,20,0
+Package,"jterm.command",,,,124,660,282
+Public Class,"jterm.command.Clear",4,0,0,1,6,0
+Public Static Method,"jterm.command.Clear.clearScreen",,,,1,4,0
+Public Annotation,"jterm.command.Command",3,0,0,0,7,0
+Abstract Method,"jterm.command.Command.minOptions",,,,0,1,0
+Abstract Method,"jterm.command.Command.name",,,,0,1,0
+Abstract Method,"jterm.command.Command.syntax",,,,0,1,0
+Public Class,"jterm.command.CommandException",1,0,0,2,8,0
+Public Constructor,"jterm.command.CommandException.CommandException",,,,1,3,0
+Public Constructor,"jterm.command.CommandException.CommandException",,,,1,3,0
+Public Class,"jterm.command.CommandExecutor",7,60,60,8,34,0
+Public Method,"jterm.command.CommandExecutor.execute",,,,4,12,0
+Public Method,"jterm.command.CommandExecutor.setCommand",,,,1,4,0
+Public Method,"jterm.command.CommandExecutor.setCommandName",,,,1,4,0
+Public Method,"jterm.command.CommandExecutor.setMinOptions",,,,1,4,0
+Public Method,"jterm.command.CommandExecutor.setSyntax",,,,1,4,0
+Public Class,"jterm.command.Date",8,0,0,1,7,0
+Public Static Method,"jterm.command.Date.printDate",,,,1,4,0
+Public Class,"jterm.command.Dir",18,0,0,24,100,4
+Lambda Method,"jterm.command.Dir.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"jterm.command.Dir.(lambda_expr_2)",,,,7,8,0
+Public Static Method,"jterm.command.Dir.cd",,,,10,34,3
+Public Static Method,"jterm.command.Dir.ls",,,,3,9,0
+Public Static Method,"jterm.command.Dir.md",,,,2,9,0
+Public Static Method,"jterm.command.Dir.pwd",,,,1,4,0
+Public Static Method,"jterm.command.Dir.rm",,,,8,33,0
+Lambda Method,"jterm.command.Dir.rm.(lambda_expr_1)",,,,2,10,0
+Lambda Method,"jterm.command.Dir.rm.(lambda_expr_2)",,,,5,18,0
+Public Class,"jterm.command.Echo",7,0,0,1,7,1
+Public Static Method,"jterm.command.Echo.echo",,,,1,5,0
+Public Class,"jterm.command.Exec",11,0,0,6,24,0
+Public Static Method,"jterm.command.Exec.execute",,,,2,8,0
+Public Static Method,"jterm.command.Exec.run",,,,4,15,0
+Public Class,"jterm.command.Exit",3,0,0,1,6,0
+Public Static Method,"jterm.command.Exit.exit",,,,1,4,0
+Public Class,"jterm.command.Files",26,0,0,25,132,9
+Public Static Method,"jterm.command.Files.delete",,,,3,11,0
+Public Static Method,"jterm.command.Files.download",,,,8,56,8
+Public Static Method,"jterm.command.Files.move",,,,2,12,0
+Public Static Method,"jterm.command.Files.read",,,,2,9,0
+Public Static Method,"jterm.command.Files.rename",,,,2,9,0
+Public Static Method,"jterm.command.Files.write",,,,8,34,0
+Public Class,"jterm.command.Help",7,0,0,2,9,0
+Public Static Method,"jterm.command.Help.printHelp",,,,2,7,0
+Lambda Method,"jterm.command.Help.printHelp.(lambda_expr_1)",,,,1,1,0
+Public Class,"jterm.command.Pause",10,0,0,5,21,1
+Public Method,"jterm.command.Pause.execute",,,,5,20,1
+Public Class,"jterm.command.Ping",12,0,0,5,26,0
+Public Static Method,"jterm.command.Ping.ping",,,,5,24,0
+Public Class,"jterm.command.Ps",7,0,0,1,15,0
+Public Static Method,"jterm.command.Ps.printRunningProcesses",,,,1,4,0
+Public Class,"jterm.command.Regex",11,0,0,9,45,0
+Public Static Method,"jterm.command.Regex.clearScreen",,,,9,42,0
+Public Class,"jterm.command.Set",11,0,0,6,24,7
+Public Static Method,"jterm.command.Set.set",,,,6,22,7
+Lambda Method,"jterm.command.Set.set.(lambda_expr_1)",,,,1,1,0
+Public Class,"jterm.command.Time",8,0,0,1,6,0
+Public Static Method,"jterm.command.Time.printTime",,,,1,4,0
+Public Class,"jterm.command.Window",10,66,63,18,70,50
+Public Constructor,"jterm.command.Window.Window",,,,12,45,1
+Public Static Method,"jterm.command.Window.closeAll",,,,2,6,2
+Public Method,"jterm.command.Window.getFrame",,,,1,3,0
+Public Method,"jterm.command.Window.getId",,,,1,3,0
+Public Method,"jterm.command.Window.getTitle",,,,1,3,0
+Public Method,"jterm.command.Window.toggleVisible",,,,1,3,0
+Package,"jterm.gui",,,,61,260,133
+Class,"jterm.gui.ProtectedDocument",11,33,33,4,137,66
+Constructor,"jterm.gui.ProtectedDocument.ProtectedDocument",,,,1,5,0
+Class,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter",9,0,0,17,53,28
+Public Method,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter.insertString",,,,2,8,0
+Private Method,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter.isInsertProtected",,,,4,11,0
+Private Method,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter.isRemoveProtected",,,,5,14,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter.remove",,,,3,8,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedDocumentFilter.replace",,,,3,10,0
+Class,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter",9,77,77,17,66,22
+Constructor,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.ProtectedNavigationFilter",,,,1,4,0
+Private Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.getBackwardDot",,,,3,9,0
+Private Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.getForwardDot",,,,3,9,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.mouseClicked",,,,1,2,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.mouseEntered",,,,1,2,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.mouseExited",,,,1,2,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.mousePressed",,,,1,4,2
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.mouseReleased",,,,1,3,0
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.moveDot",,,,3,14,3
+Public Method,"jterm.gui.ProtectedDocument.ProtectedNavigationFilter.setDot",,,,2,11,2
+Method,"jterm.gui.ProtectedDocument.clearProtections",,,,1,3,0
+Method,"jterm.gui.ProtectedDocument.protect",,,,2,7,0
+Public Class,"jterm.gui.ProtectedTextComponent",5,40,19,5,28,22
+Public Constructor,"jterm.gui.ProtectedTextComponent.ProtectedTextComponent",,,,1,4,5
+Public Method,"jterm.gui.ProtectedTextComponent.clearProtections",,,,1,3,0
+Public Method,"jterm.gui.ProtectedTextComponent.protectLine",,,,1,3,5
+Private Method,"jterm.gui.ProtectedTextComponent.protectLines",,,,1,12,6
+Public Method,"jterm.gui.ProtectedTextComponent.protectText",,,,1,3,6
+Public Class,"jterm.gui.Terminal",20,62,62,17,70,20
+Public Method,"jterm.gui.Terminal.$$$getRootComponent$$$",,,,1,3,3
+Private Method,"jterm.gui.Terminal.$$$setupUI$$$",,,,1,11,7
+Public Constructor,"jterm.gui.Terminal.Terminal",,,,2,18,2
+Anonymous Class,"jterm.gui.Terminal.Terminal.(Anon_1)",2,0,0,1,4,0
+Public Method,"jterm.gui.Terminal.Terminal.(Anon_1).windowClosing",,,,1,3,0
+Lambda Method,"jterm.gui.Terminal.Terminal.(lambda_expr_1)",,,,1,1,0
+Public Method,"jterm.gui.Terminal.getTextPane",,,,1,3,0
+Public Method,"jterm.gui.Terminal.keyPressed",,,,9,18,5
+Lambda Method,"jterm.gui.Terminal.keyPressed.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"jterm.gui.Terminal.keyPressed.(lambda_expr_2)",,,,1,1,0
+Public Method,"jterm.gui.Terminal.keyReleased",,,,1,3,0
+Public Method,"jterm.gui.Terminal.keyTyped",,,,1,3,0
+Private Method,"jterm.gui.Terminal.onCancel",,,,1,4,0
+Package,"jterm.io",,,,2,17,0
+Class,"jterm.io.InputHandlerTest",8,0,0,2,11,0
+Private Method,"jterm.io.InputHandlerTest.disassembleCommand",,,,1,5,0
+Method,"jterm.io.InputHandlerTest.testDissassembleCommand",,,,1,4,0
+Package,"jterm.io.input",,,,118,555,101
+Public Class,"jterm.io.input.InputHandler",14,80,67,55,211,39
+Static Method,"jterm.io.input.InputHandler.backspaceEvent",,,,4,14,0
+Static Method,"jterm.io.input.InputHandler.charEvent",,,,3,15,0
+Static Method,"jterm.io.input.InputHandler.ctrlCEvent",,,,1,3,0
+Static Method,"jterm.io.input.InputHandler.ctrlZEvent",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.decreaseCursorPos",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.disassembleCommand",,,,11,43,16
+Private Static Method,"jterm.io.input.InputHandler.fileAutocomplete",,,,4,14,4
+Private Static Method,"jterm.io.input.InputHandler.getCursorPos",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.getPrevCommands",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.increaseCursorPos",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.moveToCursorPos",,,,3,6,4
+Static Method,"jterm.io.input.InputHandler.newLineEvent",,,,2,15,0
+Private Static Method,"jterm.io.input.InputHandler.parse",,,,2,7,3
+Private Static Method,"jterm.io.input.InputHandler.prevCommandIterator",,,,4,16,7
+Public Static Method,"jterm.io.input.InputHandler.process",,,,2,6,0
+Static Method,"jterm.io.input.InputHandler.processDown",,,,1,4,0
+Static Method,"jterm.io.input.InputHandler.processLeft",,,,3,6,0
+Static Method,"jterm.io.input.InputHandler.processRight",,,,3,10,0
+Static Method,"jterm.io.input.InputHandler.processUp",,,,1,4,0
+Public Static Method,"jterm.io.input.InputHandler.read",,,,2,9,0
+Private Static Method,"jterm.io.input.InputHandler.setCommandListPosition",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.setCursorPos",,,,1,3,0
+Private Static Method,"jterm.io.input.InputHandler.setResetVars",,,,1,3,0
+Static Method,"jterm.io.input.InputHandler.tabEvent",,,,1,5,0
+Public Enum Type,"jterm.io.input.Keys",3,,,12,63,0
+Constructor,"jterm.io.input.Keys.Keys",,,,1,3,0
+Constructor,"jterm.io.input.Keys.Keys",,,,1,4,0
+Public Method,"jterm.io.input.Keys.executeAction",,,,2,3,0
+Public Static Method,"jterm.io.input.Keys.getKeyByValue",,,,3,8,0
+Public Method,"jterm.io.input.Keys.getValue",,,,1,3,0
+Public Static Method,"jterm.io.input.Keys.initGUI",,,,1,8,0
+Public Static Method,"jterm.io.input.Keys.initUnix",,,,1,8,0
+Public Static Method,"jterm.io.input.Keys.initWindows",,,,1,8,0
+Public Method,"jterm.io.input.Keys.setValue",,,,1,3,0
+Public Implicit Method,"jterm.io.input.Keys.valueOf",,,,0,,
+Public Implicit Method,"jterm.io.input.Keys.values",,,,0,,
+Public Class,"jterm.io.input.RawConsoleInput",24,82,56,48,260,50
+Private Interface,"jterm.io.input.RawConsoleInput.Kernel32",2,0,0,0,5,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Kernel32.GetConsoleMode",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Kernel32.GetStdHandle",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Kernel32.SetConsoleMode",,,,0,1,0
+Private Static Class,"jterm.io.input.RawConsoleInput.Kernel32Defs",1,0,0,0,8,0
+Private Interface,"jterm.io.input.RawConsoleInput.Libc",2,0,0,0,5,2
+Abstract Method,"jterm.io.input.RawConsoleInput.Libc.isatty",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Libc.tcgetattr",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Libc.tcsetattr",,,,0,1,0
+Private Static Class,"jterm.io.input.RawConsoleInput.LibcDefs",0,0,0,0,7,1
+Private Interface,"jterm.io.input.RawConsoleInput.Msvcrt",0,0,0,0,5,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Msvcrt._getwch",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Msvcrt._kbhit",,,,0,1,0
+Abstract Method,"jterm.io.input.RawConsoleInput.Msvcrt.getwchar",,,,0,1,0
+Protected Static Class,"jterm.io.input.RawConsoleInput.Termios",3,66,66,3,22,2
+Constructor,"jterm.io.input.RawConsoleInput.Termios.Termios",,,,1,2,0
+Constructor,"jterm.io.input.RawConsoleInput.Termios.Termios",,,,1,8,0
+Protected Method,"jterm.io.input.RawConsoleInput.Termios.getFieldOrder",,,,1,4,0
+Private Static Method,"jterm.io.input.RawConsoleInput.decodeCharFromBytes",,,,2,12,0
+Private Static Method,"jterm.io.input.RawConsoleInput.getConsoleMode",,,,2,8,0
+Private Static Method,"jterm.io.input.RawConsoleInput.getStdInputHandle",,,,2,7,0
+Private Static Method,"jterm.io.input.RawConsoleInput.getTerminalAttrs",,,,3,12,0
+Private Static Method,"jterm.io.input.RawConsoleInput.getwch",,,,4,14,3
+Private Static Method,"jterm.io.input.RawConsoleInput.initUnix",,,,3,17,1
+Private Static Method,"jterm.io.input.RawConsoleInput.initWindows",,,,4,18,0
+Public Static Method,"jterm.io.input.RawConsoleInput.read",,,,2,7,9
+Private Static Method,"jterm.io.input.RawConsoleInput.readSingleCharFromByteStream",,,,5,18,3
+Private Static Method,"jterm.io.input.RawConsoleInput.readUnix",,,,3,16,4
+Private Static Method,"jterm.io.input.RawConsoleInput.readWindows",,,,4,16,3
+Private Static Method,"jterm.io.input.RawConsoleInput.registerShutdownHook",,,,1,3,0
+Public Static Method,"jterm.io.input.RawConsoleInput.resetConsoleMode",,,,2,7,8
+Private Static Method,"jterm.io.input.RawConsoleInput.resetConsoleModeUnix",,,,2,7,0
+Private Static Method,"jterm.io.input.RawConsoleInput.resetConsoleModeWindows",,,,2,7,0
+Private Static Method,"jterm.io.input.RawConsoleInput.setConsoleMode",,,,2,6,0
+Private Static Method,"jterm.io.input.RawConsoleInput.setTerminalAttrs",,,,3,10,0
+Private Static Method,"jterm.io.input.RawConsoleInput.shutdownHook",,,,2,6,0
+Package,"jterm.io.output",,,,58,259,8
+Public Class,"jterm.io.output.CollectorPrinter",5,53,53,14,60,0
+Public Constructor,"jterm.io.output.CollectorPrinter.CollectorPrinter",,,,1,3,0
+Public Constructor,"jterm.io.output.CollectorPrinter.CollectorPrinter",,,,1,2,0
+Public Method,"jterm.io.output.CollectorPrinter.clearAll",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.clearLine",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.export",,,,1,5,0
+Public Method,"jterm.io.output.CollectorPrinter.exportArray",,,,1,5,0
+Public Method,"jterm.io.output.CollectorPrinter.print",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.print",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.printPrompt",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.printWithPrompt",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.printf",,,,1,5,0
+Public Method,"jterm.io.output.CollectorPrinter.println",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.println",,,,1,4,0
+Public Method,"jterm.io.output.CollectorPrinter.println",,,,1,4,0
+Public Class,"jterm.io.output.GuiPrinter",19,78,46,22,90,0
+Public Constructor,"jterm.io.output.GuiPrinter.GuiPrinter",,,,1,4,0
+Public Method,"jterm.io.output.GuiPrinter.clearAll",,,,1,5,0
+Public Method,"jterm.io.output.GuiPrinter.clearLine",,,,5,15,0
+Private Method,"jterm.io.output.GuiPrinter.invoke",,,,2,7,0
+Public Method,"jterm.io.output.GuiPrinter.print",,,,1,3,0
+Public Method,"jterm.io.output.GuiPrinter.print",,,,1,4,0
+Public Method,"jterm.io.output.GuiPrinter.print",,,,1,3,0
+Private Method,"jterm.io.output.GuiPrinter.print",,,,1,8,0
+Public Method,"jterm.io.output.GuiPrinter.printPrompt",,,,2,11,0
+Lambda Method,"jterm.io.output.GuiPrinter.printPrompt.(lambda_expr_1)",,,,1,8,0
+Public Method,"jterm.io.output.GuiPrinter.printWithPrompt",,,,1,5,0
+Public Method,"jterm.io.output.GuiPrinter.printf",,,,1,4,0
+Public Method,"jterm.io.output.GuiPrinter.printf",,,,1,4,0
+Public Method,"jterm.io.output.GuiPrinter.println",,,,1,3,0
+Public Method,"jterm.io.output.GuiPrinter.println",,,,1,3,0
+Public Method,"jterm.io.output.GuiPrinter.println",,,,1,4,0
+Public Method,"jterm.io.output.GuiPrinter.println",,,,1,3,0
+Public Class,"jterm.io.output.HeadlessPrinter",10,0,0,19,59,2
+Public Method,"jterm.io.output.HeadlessPrinter.clearAll",,,,4,13,2
+Public Method,"jterm.io.output.HeadlessPrinter.clearLine",,,,7,9,0
+Public Method,"jterm.io.output.HeadlessPrinter.print",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.print",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.printPrompt",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.printWithPrompt",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.printf",,,,1,5,0
+Public Method,"jterm.io.output.HeadlessPrinter.println",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.println",,,,1,4,0
+Public Method,"jterm.io.output.HeadlessPrinter.println",,,,1,4,0
+Public Interface,"jterm.io.output.Printer",2,0,0,0,12,0
+Abstract Method,"jterm.io.output.Printer.clearAll",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.clearLine",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.print",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.print",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.printPrompt",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.printWithPrompt",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.printf",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.println",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.println",,,,0,1,0
+Abstract Method,"jterm.io.output.Printer.println",,,,0,1,0
+Public Enum Type,"jterm.io.output.TextColor",2,,,3,22,6
+Public Method,"jterm.io.output.TextColor.getColor",,,,1,3,0
+Public Static Method,"jterm.io.output.TextColor.initGui",,,,1,7,0
+Public Static Method,"jterm.io.output.TextColor.initHeadless",,,,1,7,6
+Public Implicit Method,"jterm.io.output.TextColor.valueOf",,,,0,,
+Public Implicit Method,"jterm.io.output.TextColor.values",,,,0,,
+Package,"jterm.util",,,,69,311,63
+Public Class,"jterm.util.FileAutocomplete",11,69,63,49,161,54
+Private Static Method,"jterm.util.FileAutocomplete.autocomplete",,,,5,15,5
+Public Static Method,"jterm.util.FileAutocomplete.fileAutocomplete",,,,10,29,12
+Private Static Method,"jterm.util.FileAutocomplete.fileNamesIterator",,,,6,18,14
+Public Static Method,"jterm.util.FileAutocomplete.getCommand",,,,1,3,0
+Public Static Method,"jterm.util.FileAutocomplete.getCursorPos",,,,1,3,0
+Public Static Method,"jterm.util.FileAutocomplete.getFiles",,,,1,3,0
+Private Static Method,"jterm.util.FileAutocomplete.getPath",,,,11,23,8
+Public Static Method,"jterm.util.FileAutocomplete.init",,,,3,16,8
+Public Static Method,"jterm.util.FileAutocomplete.isBlockClear",,,,1,3,0
+Public Static Method,"jterm.util.FileAutocomplete.isLockTab",,,,1,3,0
+Public Static Method,"jterm.util.FileAutocomplete.isResetVars",,,,1,3,0
+Private Static Method,"jterm.util.FileAutocomplete.populateFileNames",,,,5,10,4
+Public Static Method,"jterm.util.FileAutocomplete.resetVars",,,,1,16,0
+Public Static Method,"jterm.util.FileAutocomplete.setCommand",,,,2,5,0
+Public Class,"jterm.util.Util",6,0,0,8,27,9
+Public Static Method,"jterm.util.Util.getAsArray",,,,1,3,0
+Public Static Method,"jterm.util.Util.getAsString",,,,1,3,0
+Public Static Method,"jterm.util.Util.getFullPath",,,,2,3,0
+Public Static Method,"jterm.util.Util.getRunTime",,,,4,16,9
+Class,"jterm.util.UtilTest",20,0,0,12,97,0
+Private Method,"jterm.util.UtilTest.averageTimeOfExecution",,,,2,11,0
+Method,"jterm.util.UtilTest.clearLineGUI",,,,1,28,0
+Method,"jterm.util.UtilTest.clearLineHeadless",,,,1,19,0
+Private Method,"jterm.util.UtilTest.compareTimes",,,,1,8,0
+Method,"jterm.util.UtilTest.getAsArray",,,,1,5,0
+Method,"jterm.util.UtilTest.getAsString",,,,1,5,0
+Method,"jterm.util.UtilTest.getFullPath",,,,1,6,0
+Method,"jterm.util.UtilTest.getRunTime",,,,1,4,0
+Private Method,"jterm.util.UtilTest.randomBranches",,,,3,10,0

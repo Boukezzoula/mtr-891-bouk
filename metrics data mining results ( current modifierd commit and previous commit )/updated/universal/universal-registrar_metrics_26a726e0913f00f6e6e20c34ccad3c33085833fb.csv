@@ -1,0 +1,451 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,0,47,5
+File,"AbstractDriver.java",,,,3,20,0
+File,"AbstractServlet.java",,,,3,20,0
+File,"BTCDRPCBitcoinConnection.java",,,,52,157,10
+File,"BitcoinConnection.java",,,,5,18,0
+File,"BitcoindRPCBitcoinConnection.java",,,,21,72,4
+File,"BitcoinjSPVBitcoinConnection.java",,,,4,20,0
+File,"BlockcypherAPIBitcoinConnection.java",,,,21,82,7
+File,"ClientUniRegistrar.java",,,,62,228,22
+File,"DIDDocContinuation.java",,,,0,8,0
+File,"DIDDocFileNameStrategy.java",,,,0,5,0
+File,"DidBtcrDriver.java",,,,89,354,28
+File,"DidERC725Driver.java",,,,18,74,3
+File,"DidSovDriver.java",,,,89,302,24
+File,"DidV1Driver.java",,,,40,146,7
+File,"Driver.java",,,,0,16,0
+File,"HttpDriver.java",,,,61,227,18
+File,"InitServlet.java",,,,9,36,0
+File,"LocalFileDIDDocContinuation.java",,,,17,68,3
+File,"LocalUniRegistrar.java",,,,31,110,18
+File,"PropertiesServlet.java",,,,8,41,4
+File,"PropertiesServlet.java",,,,7,39,4
+File,"RandomDIDDocFileNameStrategy.java",,,,1,9,0
+File,"RegisterRequest.java",,,,13,68,9
+File,"RegisterServlet.java",,,,9,45,4
+File,"RegisterServlet.java",,,,10,52,4
+File,"RegisterState.java",,,,19,90,9
+File,"RegisterStateAction.java",,,,5,17,3
+File,"RegisterStateActionDidBtcrFund.java",,,,9,22,3
+File,"RegisterStateActionDidSovTrustAnchor.java",,,,13,29,3
+File,"RegisterStateActionDidV1TrustAnchor.java",,,,13,29,3
+File,"RegisterStateFailed.java",,,,5,17,3
+File,"RegisterStateFinished.java",,,,9,27,3
+File,"RegisterStateWait.java",,,,9,26,3
+File,"RegisterStateWaitDidBtcrConfirm.java",,,,1,8,0
+File,"RegistrationException.java",,,,5,19,0
+File,"RevokeRequest.java",,,,13,68,9
+File,"RevokeServlet.java",,,,10,52,4
+File,"RevokeServlet.java",,,,9,45,4
+File,"RevokeState.java",,,,18,86,9
+File,"UniRegistrar.java",,,,0,15,0
+File,"UpdateRequest.java",,,,13,68,9
+File,"UpdateServlet.java",,,,10,52,4
+File,"UpdateServlet.java",,,,9,45,4
+File,"UpdateState.java",,,,19,90,9
+File,"WebUniRegistrar.java",,,,21,71,6
+File,"applicationContext.xml.java",,,,0,47,5
+Package,"uniregistrar",,,,5,34,0
+Public Class,"uniregistrar.RegistrationException",1,0,0,5,18,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Constructor,"uniregistrar.RegistrationException.RegistrationException",,,,1,3,0
+Public Interface,"uniregistrar.UniRegistrar",9,0,0,0,7,0
+Public Abstract Method,"uniregistrar.UniRegistrar.properties",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.register",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.revoke",,,,0,1,0
+Public Abstract Method,"uniregistrar.UniRegistrar.update",,,,0,1,0
+Package,"uniregistrar.client",,,,62,228,22
+Public Class,"uniregistrar.client.ClientUniRegistrar",32,85,78,62,200,22
+Public Constructor,"uniregistrar.client.ClientUniRegistrar.ClientUniRegistrar",,,,1,2,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getHttpClient",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.getUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.properties",,,,9,27,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.register",,,,12,36,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.revoke",,,,12,36,3
+Public Method,"uniregistrar.client.ClientUniRegistrar.setHttpClient",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.client.ClientUniRegistrar.update",,,,12,36,3
+Private Static Method,"uniregistrar.client.ClientUniRegistrar.urlEncode",,,,2,7,0
+Package,"uniregistrar.driver",,,,3,36,0
+Public Abstract Class,"uniregistrar.driver.AbstractDriver",5,0,0,3,16,0
+Protected Interface,"uniregistrar.driver.AbstractDriver.Job",0,0,0,0,2,0
+Protected Method,"uniregistrar.driver.AbstractDriver.continueJob",,,,1,3,0
+Protected Method,"uniregistrar.driver.AbstractDriver.finishJob",,,,1,3,0
+Protected Method,"uniregistrar.driver.AbstractDriver.newJob",,,,1,5,0
+Public Interface,"uniregistrar.driver.Driver",9,0,0,0,7,0
+Public Abstract Method,"uniregistrar.driver.Driver.properties",,,,0,1,0
+Public Abstract Method,"uniregistrar.driver.Driver.register",,,,0,1,0
+Public Abstract Method,"uniregistrar.driver.Driver.revoke",,,,0,1,0
+Public Abstract Method,"uniregistrar.driver.Driver.update",,,,0,1,0
+Package,"uniregistrar.driver.did",,,,0,0,0
+Package,"uniregistrar.driver.did.btcr",,,,89,354,28
+Public Class,"uniregistrar.driver.did.btcr.DidBtcrDriver",57,88,71,80,299,28
+Public Constructor,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrDriver",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrDriver",,,,1,3,0
+Private Static Class,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob",2,66,66,6,29,0
+Private Constructor,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.DidBtcrJob",,,,1,7,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.getChain",,,,1,3,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.getDidContinuationUri",,,,1,3,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.getPrivateKeyAsHex",,,,1,3,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.getPrivateKeyAsWif",,,,1,3,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.DidBtcrJob.getTransactionHash",,,,1,3,0
+Private Static Class,"uniregistrar.driver.did.btcr.DidBtcrDriver.URIScriptBuilder",6,0,0,2,13,0
+Private Constructor,"uniregistrar.driver.did.btcr.DidBtcrDriver.URIScriptBuilder.URIScriptBuilder",,,,1,4,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.URIScriptBuilder.build",,,,1,6,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.configureFromProperties",,,,16,37,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.continueRegisterJob",,,,6,41,6
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getBitcoinConnection",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getDIDDocContinuation",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getPeerMainnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getPeerTestnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getProperties",,,,1,3,0
+Private Static Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getPropertiesFromEnvironment",,,,11,25,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getWalletAppKitMainnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.getWalletAppKitTestnet",,,,1,3,0
+Private Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.openWalletAppKits",,,,9,24,7
+Anonymous Class,"uniregistrar.driver.did.btcr.DidBtcrDriver.openWalletAppKits.(Anon_1)",3,0,0,1,6,0
+Protected Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.openWalletAppKits.(Anon_1).onSetupCompleted",,,,1,5,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.properties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.register",,,,19,59,9
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.revoke",,,,1,4,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setBitcoinConnection",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setDIDDocContinuation",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setPeerMainnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setPeerTestnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setProperties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setWalletAppKitMainnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.setWalletAppKitTestnet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.DidBtcrDriver.update",,,,1,4,0
+Package,"uniregistrar.driver.did.btcr.bitcoinconnection",,,,103,349,21
+Public Class,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection",26,80,80,52,138,10
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection.BTCDRPCBitcoinConnection",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection.BTCDRPCBitcoinConnection",,,,1,3,0
+Public Static Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection.get",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection.getBtcrData",,,,44,110,7
+Private Static Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BTCDRPCBitcoinConnection.pubKeyToAddress",,,,5,13,0
+Public Interface,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection",4,0,0,0,14,0
+Public Static Class,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData",3,40,40,5,11,0
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData.BtcrData",,,,1,1,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData.getContinuationUri",,,,1,1,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData.getInputScriptPubKey",,,,1,1,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData.getSpentInTxid",,,,1,1,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.BtcrData.toString",,,,1,2,0
+Public Abstract Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinConnection.getBtcrData",,,,0,1,0
+Public Class,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoindRPCBitcoinConnection",18,75,75,21,56,4
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoindRPCBitcoinConnection.BitcoindRPCBitcoinConnection",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoindRPCBitcoinConnection.BitcoindRPCBitcoinConnection",,,,1,3,0
+Public Static Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoindRPCBitcoinConnection.get",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoindRPCBitcoinConnection.getBtcrData",,,,18,41,4
+Public Class,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinjSPVBitcoinConnection",7,0,0,4,16,0
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinjSPVBitcoinConnection.BitcoinjSPVBitcoinConnection",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinjSPVBitcoinConnection.BitcoinjSPVBitcoinConnection",,,,1,3,0
+Public Static Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinjSPVBitcoinConnection.get",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BitcoinjSPVBitcoinConnection.getBtcrData",,,,1,4,0
+Public Class,"uniregistrar.driver.did.btcr.bitcoinconnection.BlockcypherAPIBitcoinConnection",15,0,0,21,68,7
+Public Constructor,"uniregistrar.driver.did.btcr.bitcoinconnection.BlockcypherAPIBitcoinConnection.BlockcypherAPIBitcoinConnection",,,,1,2,0
+Public Static Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BlockcypherAPIBitcoinConnection.get",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.bitcoinconnection.BlockcypherAPIBitcoinConnection.getBtcrData",,,,19,60,7
+Package,"uniregistrar.driver.did.btcr.diddoccontinuation",,,,18,90,3
+Public Interface,"uniregistrar.driver.did.btcr.diddoccontinuation.DIDDocContinuation",3,0,0,0,4,0
+Public Abstract Method,"uniregistrar.driver.did.btcr.diddoccontinuation.DIDDocContinuation.prepareDIDDocContinuation",,,,0,1,0
+Public Abstract Method,"uniregistrar.driver.did.btcr.diddoccontinuation.DIDDocContinuation.storeDIDDocContinuation",,,,0,1,0
+Public Interface,"uniregistrar.driver.did.btcr.diddoccontinuation.DIDDocFileNameStrategy",2,0,0,0,3,0
+Public Abstract Method,"uniregistrar.driver.did.btcr.diddoccontinuation.DIDDocFileNameStrategy.createDIDDocFileName",,,,0,1,0
+Public Class,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation",14,75,67,17,59,3
+Public Constructor,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.LocalFileDIDDocContinuation",,,,1,4,0
+Public Constructor,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.LocalFileDIDDocContinuation",,,,1,2,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.getBasePath",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.getBaseUri",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.getDidDocFileNameStrategy",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.prepareDIDDocContinuation",,,,3,9,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.setBasePath",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.setBaseUri",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.setDidDocFileNameStrategy",,,,1,3,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.LocalFileDIDDocContinuation.storeDIDDocContinuation",,,,6,20,0
+Public Class,"uniregistrar.driver.did.btcr.diddoccontinuation.RandomDIDDocFileNameStrategy",4,0,0,1,6,0
+Public Method,"uniregistrar.driver.did.btcr.diddoccontinuation.RandomDIDDocFileNameStrategy.createDIDDocFileName",,,,1,4,0
+Package,"uniregistrar.driver.did.btcr.state",,,,10,30,3
+Public Class,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund",2,0,0,9,19,3
+Public Constructor,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund.RegisterStateActionDidBtcrFund",,,,1,5,0
+Public Final Method,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund.getBitcoinAddress",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund.getSatoshis",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund.setBitcoinAddress",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.btcr.state.RegisterStateActionDidBtcrFund.setSatoshis",,,,2,3,0
+Public Class,"uniregistrar.driver.did.btcr.state.RegisterStateWaitDidBtcrConfirm",2,0,0,1,5,0
+Public Constructor,"uniregistrar.driver.did.btcr.state.RegisterStateWaitDidBtcrConfirm.RegisterStateWaitDidBtcrConfirm",,,,1,3,0
+Package,"uniregistrar.driver.did.erc725",,,,18,74,3
+Public Class,"uniregistrar.driver.did.erc725.DidERC725Driver",19,83,52,18,60,3
+Public Constructor,"uniregistrar.driver.did.erc725.DidERC725Driver.DidERC725Driver",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.erc725.DidERC725Driver.DidERC725Driver",,,,1,3,0
+Private Method,"uniregistrar.driver.did.erc725.DidERC725Driver.configureFromProperties",,,,4,9,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.getProperties",,,,1,3,0
+Private Static Method,"uniregistrar.driver.did.erc725.DidERC725Driver.getPropertiesFromEnvironment",,,,4,11,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.getTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.properties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.register",,,,1,4,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.revoke",,,,1,4,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.setProperties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.setTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.erc725.DidERC725Driver.update",,,,1,4,0
+Package,"uniregistrar.driver.did.sov",,,,89,302,24
+Public Class,"uniregistrar.driver.did.sov.DidSovDriver",41,91,78,89,269,24
+Public Constructor,"uniregistrar.driver.did.sov.DidSovDriver.DidSovDriver",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.sov.DidSovDriver.DidSovDriver",,,,1,3,0
+Private Method,"uniregistrar.driver.did.sov.DidSovDriver.configureFromProperties",,,,8,17,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getLibIndyPath",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getPoolConfigs",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getPoolMap",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getPoolVersionMap",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getPoolVersions",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getProperties",,,,1,3,0
+Private Static Method,"uniregistrar.driver.did.sov.DidSovDriver.getPropertiesFromEnvironment",,,,8,19,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getTrustAnchorDid",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getWallet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.getWalletName",,,,1,3,0
+Private Method,"uniregistrar.driver.did.sov.DidSovDriver.openIndy",,,,30,89,8
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.properties",,,,1,6,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.register",,,,18,50,13
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.revoke",,,,1,4,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setLibIndyPath",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setPoolConfigs",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setPoolMap",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setPoolVersionMap",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setPoolVersions",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setProperties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setTrustAnchorDid",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setWallet",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.setWalletName",,,,1,3,0
+Public Method,"uniregistrar.driver.did.sov.DidSovDriver.update",,,,1,4,0
+Package,"uniregistrar.driver.did.sov.state",,,,13,29,3
+Public Class,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor",2,0,0,13,26,3
+Public Constructor,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.RegisterStateActionDidSovTrustAnchor",,,,1,6,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.getDid",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.getTrustAnchorUrl",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.getVerkey",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.setDid",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.setTrustAnchorUril",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.sov.state.RegisterStateActionDidSovTrustAnchor.setVerkey",,,,2,3,0
+Package,"uniregistrar.driver.did.v1",,,,40,146,7
+Public Class,"uniregistrar.driver.did.v1.DidV1Driver",30,80,50,40,122,7
+Public Constructor,"uniregistrar.driver.did.v1.DidV1Driver.DidV1Driver",,,,1,3,0
+Public Constructor,"uniregistrar.driver.did.v1.DidV1Driver.DidV1Driver",,,,1,3,0
+Private Method,"uniregistrar.driver.did.v1.DidV1Driver.configureFromProperties",,,,4,9,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.getProperties",,,,1,3,0
+Private Static Method,"uniregistrar.driver.did.v1.DidV1Driver.getPropertiesFromEnvironment",,,,4,11,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.getTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.properties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.register",,,,23,66,4
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.revoke",,,,1,4,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.setProperties",,,,1,4,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.setTrustAnchorSeed",,,,1,3,0
+Public Method,"uniregistrar.driver.did.v1.DidV1Driver.update",,,,1,4,0
+Package,"uniregistrar.driver.did.v1.state",,,,13,29,3
+Public Class,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor",2,0,0,13,26,3
+Public Constructor,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.RegisterStateActionDidV1TrustAnchor",,,,1,6,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.getDid",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.getTrustAnchorUrl",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.getVerkey",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.setDid",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.setTrustAnchorUril",,,,2,3,0
+Public Final Method,"uniregistrar.driver.did.v1.state.RegisterStateActionDidV1TrustAnchor.setVerkey",,,,2,3,0
+Package,"uniregistrar.driver.http",,,,61,227,18
+Public Class,"uniregistrar.driver.http.HttpDriver",29,85,73,61,200,18
+Public Constructor,"uniregistrar.driver.http.HttpDriver.HttpDriver",,,,1,2,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getHttpClient",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.getUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.properties",,,,6,13,3
+Public Method,"uniregistrar.driver.http.HttpDriver.register",,,,10,34,3
+Public Method,"uniregistrar.driver.http.HttpDriver.remoteProperties",,,,10,27,3
+Public Method,"uniregistrar.driver.http.HttpDriver.revoke",,,,10,34,3
+Public Method,"uniregistrar.driver.http.HttpDriver.setHttpClient",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setPropertiesUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setRegisterUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setRevokeUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.setUpdateUri",,,,1,3,0
+Public Method,"uniregistrar.driver.http.HttpDriver.update",,,,10,34,3
+Package,"uniregistrar.driver.servlet",,,,47,232,16
+Public Abstract Class,"uniregistrar.driver.servlet.AbstractServlet",4,0,0,3,14,0
+Static Method,"uniregistrar.driver.servlet.AbstractServlet.sendResponse",,,,3,11,0
+Public Class,"uniregistrar.driver.servlet.InitServlet",11,50,50,9,28,0
+Public Constructor,"uniregistrar.driver.servlet.InitServlet.InitServlet",,,,1,3,0
+Static Method,"uniregistrar.driver.servlet.InitServlet.getDriver",,,,1,3,0
+Public Method,"uniregistrar.driver.servlet.InitServlet.init",,,,7,17,0
+Public Class,"uniregistrar.driver.servlet.PropertiesServlet",15,50,50,8,30,4
+Public Constructor,"uniregistrar.driver.servlet.PropertiesServlet.PropertiesServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.PropertiesServlet.doGet",,,,7,22,4
+Public Class,"uniregistrar.driver.servlet.RegisterServlet",15,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.RegisterServlet.RegisterServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.RegisterServlet.doPost",,,,8,27,4
+Public Class,"uniregistrar.driver.servlet.RevokeServlet",15,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.RevokeServlet.RevokeServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.RevokeServlet.doPost",,,,8,27,4
+Public Class,"uniregistrar.driver.servlet.UpdateServlet",15,50,50,9,34,4
+Public Constructor,"uniregistrar.driver.servlet.UpdateServlet.UpdateServlet",,,,1,3,0
+Protected Method,"uniregistrar.driver.servlet.UpdateServlet.doPost",,,,8,27,4
+Package,"uniregistrar.local",,,,31,110,18
+Public Class,"uniregistrar.local.LocalUniRegistrar",22,66,38,31,93,18
+Public Constructor,"uniregistrar.local.LocalUniRegistrar.LocalUniRegistrar",,,,1,2,0
+Public Static Method,"uniregistrar.local.LocalUniRegistrar.getDefault",,,,1,3,0
+Public Generic Method,"uniregistrar.local.LocalUniRegistrar.getDriver",,,,3,7,0
+TypeVariable,"uniregistrar.local.LocalUniRegistrar.getDriver.T",1,0,0,0,0,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.getDrivers",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.properties",,,,6,13,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.register",,,,6,18,5
+Public Method,"uniregistrar.local.LocalUniRegistrar.revoke",,,,6,18,5
+Public Method,"uniregistrar.local.LocalUniRegistrar.setDrivers",,,,1,3,0
+Public Method,"uniregistrar.local.LocalUniRegistrar.update",,,,6,18,5
+Package,"uniregistrar.request",,,,39,204,27
+Public Class,"uniregistrar.request.RegisterRequest",13,75,75,13,57,9
+Public Constructor,"uniregistrar.request.RegisterRequest.RegisterRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.RegisterRequest.RegisterRequest",,,,1,5,0
+Public Static Method,"uniregistrar.request.RegisterRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.RegisterRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.RegisterRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.RegisterRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.RegisterRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.RegisterRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.RegisterRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.RegisterRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.RegisterRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.RegisterRequest.toString",,,,2,7,0
+Public Class,"uniregistrar.request.RevokeRequest",13,75,75,13,57,9
+Public Constructor,"uniregistrar.request.RevokeRequest.RevokeRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.RevokeRequest.RevokeRequest",,,,1,5,0
+Public Static Method,"uniregistrar.request.RevokeRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.RevokeRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.RevokeRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.RevokeRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.RevokeRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.RevokeRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.RevokeRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.RevokeRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.RevokeRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.RevokeRequest.toString",,,,2,7,0
+Public Class,"uniregistrar.request.UpdateRequest",13,75,75,13,57,9
+Public Constructor,"uniregistrar.request.UpdateRequest.UpdateRequest",,,,1,2,0
+Public Constructor,"uniregistrar.request.UpdateRequest.UpdateRequest",,,,1,5,0
+Public Static Method,"uniregistrar.request.UpdateRequest.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.request.UpdateRequest.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.getSecret",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setOptions",,,,1,4,0
+Public Final Method,"uniregistrar.request.UpdateRequest.setSecret",,,,1,4,0
+Public Method,"uniregistrar.request.UpdateRequest.toJson",,,,1,3,0
+Public Method,"uniregistrar.request.UpdateRequest.toString",,,,2,7,0
+Package,"uniregistrar.state",,,,84,353,39
+Public Class,"uniregistrar.state.RegisterState",15,81,78,19,77,9
+Public Constructor,"uniregistrar.state.RegisterState.RegisterState",,,,1,2,0
+Public Constructor,"uniregistrar.state.RegisterState.RegisterState",,,,1,7,0
+Public Static Method,"uniregistrar.state.RegisterState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.RegisterState.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.state.RegisterState.getDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.getMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.getRegistrarMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.getState",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterState.setDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.setMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.setRegistrarMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterState.setState",,,,2,4,0
+Public Method,"uniregistrar.state.RegisterState.toJson",,,,1,3,0
+Public Method,"uniregistrar.state.RegisterState.toString",,,,2,7,0
+Public Class,"uniregistrar.state.RegisterStateAction",3,0,0,5,14,3
+Public Constructor,"uniregistrar.state.RegisterStateAction.RegisterStateAction",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterStateAction.getAction",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateAction.setAction",,,,2,4,0
+Public Class,"uniregistrar.state.RegisterStateFailed",3,0,0,5,14,3
+Public Constructor,"uniregistrar.state.RegisterStateFailed.RegisterStateFailed",,,,1,4,0
+Public Final Method,"uniregistrar.state.RegisterStateFailed.getReason",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateFailed.setReason",,,,2,4,0
+Public Class,"uniregistrar.state.RegisterStateFinished",4,0,0,9,24,3
+Public Constructor,"uniregistrar.state.RegisterStateFinished.RegisterStateFinished",,,,1,5,0
+Public Final Method,"uniregistrar.state.RegisterStateFinished.getIdentifier",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateFinished.getSecret",,,,2,5,0
+Public Final Method,"uniregistrar.state.RegisterStateFinished.setIdentifier",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateFinished.setSecret",,,,2,4,0
+Public Class,"uniregistrar.state.RegisterStateWait",3,0,0,9,23,3
+Public Constructor,"uniregistrar.state.RegisterStateWait.RegisterStateWait",,,,1,5,0
+Public Final Method,"uniregistrar.state.RegisterStateWait.getWait",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateWait.getWaitTime",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateWait.setWait",,,,2,4,0
+Public Final Method,"uniregistrar.state.RegisterStateWait.setWaitTime",,,,2,4,0
+Public Class,"uniregistrar.state.RevokeState",15,81,78,18,73,9
+Public Constructor,"uniregistrar.state.RevokeState.RevokeState",,,,1,2,0
+Public Constructor,"uniregistrar.state.RevokeState.RevokeState",,,,1,7,0
+Public Static Method,"uniregistrar.state.RevokeState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.RevokeState.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.state.RevokeState.getDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.getMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.getState",,,,2,4,0
+Public Final Method,"uniregistrar.state.RevokeState.setDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.setMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.setRegistrarMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.RevokeState.setState",,,,2,4,0
+Public Method,"uniregistrar.state.RevokeState.toJson",,,,1,3,0
+Public Method,"uniregistrar.state.RevokeState.toString",,,,2,7,0
+Public Class,"uniregistrar.state.UpdateState",15,81,78,19,77,9
+Public Constructor,"uniregistrar.state.UpdateState.UpdateState",,,,1,2,0
+Public Constructor,"uniregistrar.state.UpdateState.UpdateState",,,,1,7,0
+Public Static Method,"uniregistrar.state.UpdateState.fromJson",,,,1,3,0
+Public Static Method,"uniregistrar.state.UpdateState.fromJson",,,,1,3,0
+Public Final Method,"uniregistrar.state.UpdateState.getDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.getJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.getMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.getRegistrarMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.getState",,,,2,4,0
+Public Final Method,"uniregistrar.state.UpdateState.setDidState",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.setJobId",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.setMethodMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.setRegistrarMetadata",,,,1,4,0
+Public Final Method,"uniregistrar.state.UpdateState.setState",,,,2,4,0
+Public Method,"uniregistrar.state.UpdateState.toJson",,,,1,3,0
+Public Method,"uniregistrar.state.UpdateState.toString",,,,2,7,0
+Package,"uniregistrar.web",,,,21,71,6
+Public Abstract Class,"uniregistrar.web.WebUniRegistrar",15,80,40,21,54,6
+Public Constructor,"uniregistrar.web.WebUniRegistrar.WebUniRegistrar",,,,1,3,0
+Protected Method,"uniregistrar.web.WebUniRegistrar.doOptions",,,,1,6,0
+Public Method,"uniregistrar.web.WebUniRegistrar.getUniRegistrar",,,,1,3,0
+Public Method,"uniregistrar.web.WebUniRegistrar.handleRequest",,,,6,8,0
+Public Method,"uniregistrar.web.WebUniRegistrar.properties",,,,2,4,0
+Public Method,"uniregistrar.web.WebUniRegistrar.register",,,,2,4,0
+Public Method,"uniregistrar.web.WebUniRegistrar.revoke",,,,2,4,0
+Protected Static Method,"uniregistrar.web.WebUniRegistrar.sendResponse",,,,3,11,0
+Public Method,"uniregistrar.web.WebUniRegistrar.setUniRegistrar",,,,1,3,0
+Public Method,"uniregistrar.web.WebUniRegistrar.update",,,,2,4,0
+Package,"uniregistrar.web.servlet",,,,37,195,16
+Public Class,"uniregistrar.web.servlet.PropertiesServlet",13,0,0,7,26,4
+Protected Method,"uniregistrar.web.servlet.PropertiesServlet.doGet",,,,7,22,4
+Public Class,"uniregistrar.web.servlet.RegisterServlet",15,0,0,10,39,4
+Protected Method,"uniregistrar.web.servlet.RegisterServlet.doPost",,,,10,35,4
+Public Class,"uniregistrar.web.servlet.RevokeServlet",15,0,0,10,39,4
+Protected Method,"uniregistrar.web.servlet.RevokeServlet.doPost",,,,10,35,4
+Public Class,"uniregistrar.web.servlet.UpdateServlet",15,0,0,10,39,4
+Protected Method,"uniregistrar.web.servlet.UpdateServlet.doPost",,,,10,35,4

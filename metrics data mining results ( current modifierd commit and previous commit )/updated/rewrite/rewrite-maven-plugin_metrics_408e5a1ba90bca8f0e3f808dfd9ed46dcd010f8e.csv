@@ -1,0 +1,29 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"EmptyBlockSample.java",,,,12,31,0
+File,"RewriteAction.java",,,,0,5,15
+File,"RewriteMojo.java",,,,28,160,7
+File,"SimplifyBooleanSample.java",,,,4,18,0
+Package,"org",,,,0,0,0
+Package,"org.openrewrite",,,,0,0,0
+Package,"org.openrewrite.maven",,,,28,165,22
+Public Enum Type,"org.openrewrite.maven.RewriteAction",1,,,0,4,0
+Public Implicit Method,"org.openrewrite.maven.RewriteAction.valueOf",,,,0,,
+Public Implicit Method,"org.openrewrite.maven.RewriteAction.values",,,,0,,
+Public Class,"org.openrewrite.maven.RewriteMojo",47,69,50,28,127,7
+Public Method,"org.openrewrite.maven.RewriteMojo.execute",,,,6,20,6
+Private Method,"org.openrewrite.maven.RewriteMojo.getMeterRegistry",,,,10,44,0
+Private Method,"org.openrewrite.maven.RewriteMojo.getWebsocketClientTransport",,,,3,8,0
+Lambda Method,"org.openrewrite.maven.RewriteMojo.getWebsocketClientTransport.(lambda_expr_1)",,,,1,2,0
+Private Method,"org.openrewrite.maven.RewriteMojo.rewriteSourceSet",,,,9,33,0
+Lambda Method,"org.openrewrite.maven.RewriteMojo.rewriteSourceSet.(lambda_expr_1)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.RewriteMojo.rewriteSourceSet.(lambda_expr_2)",,,,1,1,0
+Lambda Method,"org.openrewrite.maven.RewriteMojo.rewriteSourceSet.(lambda_expr_3)",,,,1,1,0
+Package,"sample",,,,16,49,0
+Public Class,"sample.EmptyBlockSample",4,75,75,12,27,0
+Method,"sample.EmptyBlockSample.boolSideEffect",,,,1,3,0
+Public Method,"sample.EmptyBlockSample.emptyTry",,,,2,7,0
+Public Method,"sample.EmptyBlockSample.lotsOfIfs",,,,8,10,0
+Method,"sample.EmptyBlockSample.sideEffect",,,,1,3,0
+Public Class,"sample.SimplifyBooleanSample",1,0,0,4,16,0
+Method,"sample.SimplifyBooleanSample.ifNoElse",,,,2,6,0
+Static Method,"sample.SimplifyBooleanSample.isOddMillis",,,,2,9,0

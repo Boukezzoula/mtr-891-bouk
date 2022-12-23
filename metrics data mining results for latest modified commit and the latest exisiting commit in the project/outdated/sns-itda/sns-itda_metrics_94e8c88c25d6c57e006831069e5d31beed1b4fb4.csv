@@ -1,0 +1,100 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+Package,"(Unnamed_Package)",,,,11,76,32
+File,"CheckLogin.java",,,,0,9,0
+File,"CheckLoginAspect.java",,,,2,24,0
+File,"InValidValueException.java",,,,2,9,0
+Public Class,"MavenWrapperDownloader",17,0,0,10,72,17
+Private Static Method,"MavenWrapperDownloader.downloadFileFromURL",,,,2,19,0
+Anonymous Class,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1)",3,0,0,1,5,0
+Protected Method,"MavenWrapperDownloader.downloadFileFromURL.(Anon_1).getPasswordAuthentication",,,,1,4,0
+File,"MavenWrapperDownloader.java",,,,11,76,32
+Public Static Method,"MavenWrapperDownloader.main",,,,8,43,3
+File,"MyBatisConfig.java",,,,2,29,17
+File,"MySQLConnectionTests.java",,,,2,19,5
+File,"NotUniqueIdException.java",,,,1,6,0
+File,"PasswordEncryptor.java",,,,2,10,1
+File,"SessionUtil.java",,,,3,16,0
+File,"SnsServerApplication.java",,,,1,9,0
+File,"SnsServerApplicationTests.java",,,,1,9,0
+File,"User.java",,,,0,16,8
+File,"UserController.java",,,,11,88,7
+File,"UserIdAndPassword.java",,,,0,9,0
+File,"UserMapper.java",,,,0,15,4
+File,"UserPasswordUpdateParam.java",,,,0,10,0
+File,"UserService.java",,,,0,15,0
+File,"UserServiceImpl.java",,,,11,88,5
+File,"UserUpdateInfo.java",,,,0,15,0
+File,"UserUpdateParam.java",,,,0,12,0
+Package,"me",,,,0,0,0
+Package,"me.liiot",,,,0,0,0
+Package,"me.liiot.snsserver",,,,4,37,5
+Public Class,"me.liiot.snsserver.MySQLConnectionTests",9,0,0,2,15,1
+Public Method,"me.liiot.snsserver.MySQLConnectionTests.connectionTest",,,,2,9,0
+Public Class,"me.liiot.snsserver.SnsServerApplication",4,0,0,1,6,0
+Public Static Method,"me.liiot.snsserver.SnsServerApplication.main",,,,1,3,0
+Class,"me.liiot.snsserver.SnsServerApplicationTests",2,0,0,1,6,0
+Method,"me.liiot.snsserver.SnsServerApplicationTests.contextLoads",,,,1,3,0
+Package,"me.liiot.snsserver.annotation",,,,0,9,0
+Public Annotation,"me.liiot.snsserver.annotation.CheckLogin",2,0,0,0,4,0
+Package,"me.liiot.snsserver.aspect",,,,2,24,0
+Public Class,"me.liiot.snsserver.aspect.CheckLoginAspect",10,0,0,2,13,0
+Public Method,"me.liiot.snsserver.aspect.CheckLoginAspect.checkLogin",,,,2,9,0
+Package,"me.liiot.snsserver.config",,,,2,29,17
+Public Class,"me.liiot.snsserver.config.MyBatisConfig",11,50,50,2,18,1
+Public Method,"me.liiot.snsserver.config.MyBatisConfig.sqlSessionFactory",,,,1,7,1
+Public Method,"me.liiot.snsserver.config.MyBatisConfig.sqlSessionTemplate",,,,1,4,0
+Package,"me.liiot.snsserver.controller",,,,11,88,7
+Public Class,"me.liiot.snsserver.controller.UserController",23,14,14,11,73,0
+Public Method,"me.liiot.snsserver.controller.UserController.checkUserIdDupe",,,,2,9,0
+Public Method,"me.liiot.snsserver.controller.UserController.deleteUser",,,,2,13,0
+Public Method,"me.liiot.snsserver.controller.UserController.loginUser",,,,2,10,0
+Public Method,"me.liiot.snsserver.controller.UserController.logoutUser",,,,1,5,0
+Public Method,"me.liiot.snsserver.controller.UserController.signUpUser",,,,1,5,0
+Public Method,"me.liiot.snsserver.controller.UserController.updateUser",,,,1,8,0
+Public Method,"me.liiot.snsserver.controller.UserController.updateUserPassword",,,,2,13,0
+Package,"me.liiot.snsserver.controller.util",,,,3,16,0
+Public Class,"me.liiot.snsserver.controller.util.SessionUtil",3,0,0,3,13,0
+Public Static Method,"me.liiot.snsserver.controller.util.SessionUtil.deleteAllAttribute",,,,1,3,0
+Public Static Method,"me.liiot.snsserver.controller.util.SessionUtil.getUser",,,,1,4,0
+Public Static Method,"me.liiot.snsserver.controller.util.SessionUtil.setUser",,,,1,3,0
+Package,"me.liiot.snsserver.exception",,,,3,15,0
+Public Class,"me.liiot.snsserver.exception.InValidValueException",1,0,0,2,8,0
+Public Constructor,"me.liiot.snsserver.exception.InValidValueException.InValidValueException",,,,1,3,0
+Public Constructor,"me.liiot.snsserver.exception.InValidValueException.InValidValueException",,,,1,3,0
+Public Class,"me.liiot.snsserver.exception.NotUniqueIdException",1,0,0,1,5,0
+Public Constructor,"me.liiot.snsserver.exception.NotUniqueIdException.NotUniqueIdException",,,,1,3,0
+Package,"me.liiot.snsserver.mapper",,,,0,15,4
+Public Interface,"me.liiot.snsserver.mapper.UserMapper",5,0,0,0,10,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.deleteUser",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.getPassword",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.getUser",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.insertUser",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.isExistUserId",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.updateUser",,,,0,1,0
+Abstract Method,"me.liiot.snsserver.mapper.UserMapper.updateUserPassword",,,,0,1,0
+Package,"me.liiot.snsserver.model",,,,0,62,8
+Public Class,"me.liiot.snsserver.model.User",5,0,0,0,11,0
+Public Class,"me.liiot.snsserver.model.UserIdAndPassword",3,0,0,0,6,0
+Public Class,"me.liiot.snsserver.model.UserPasswordUpdateParam",3,0,0,0,7,0
+Public Class,"me.liiot.snsserver.model.UserUpdateInfo",5,0,0,0,10,0
+Public Class,"me.liiot.snsserver.model.UserUpdateParam",4,0,0,0,8,0
+Package,"me.liiot.snsserver.service",,,,11,103,5
+Public Interface,"me.liiot.snsserver.service.UserService",6,0,0,0,9,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.checkUserIdDupe",,,,0,1,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.deleteUser",,,,0,1,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.getLoginUser",,,,0,1,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.signUpUser",,,,0,1,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.updateUser",,,,0,1,0
+Public Abstract Method,"me.liiot.snsserver.service.UserService.updateUserPassword",,,,0,2,0
+Public Class,"me.liiot.snsserver.service.UserServiceImpl",14,0,0,11,79,0
+Public Constructor,"me.liiot.snsserver.service.UserServiceImpl.UserServiceImpl",,,,1,4,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.checkUserIdDupe",,,,2,7,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.deleteUser",,,,2,10,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.getLoginUser",,,,2,10,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.signUpUser",,,,1,13,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.updateUser",,,,1,12,0
+Public Method,"me.liiot.snsserver.service.UserServiceImpl.updateUserPassword",,,,2,19,0
+Package,"me.liiot.snsserver.util",,,,2,10,1
+Public Class,"me.liiot.snsserver.util.PasswordEncryptor",2,0,0,2,8,1
+Public Static Method,"me.liiot.snsserver.util.PasswordEncryptor.encrypt",,,,1,3,0
+Public Static Method,"me.liiot.snsserver.util.PasswordEncryptor.isMatch",,,,1,3,0

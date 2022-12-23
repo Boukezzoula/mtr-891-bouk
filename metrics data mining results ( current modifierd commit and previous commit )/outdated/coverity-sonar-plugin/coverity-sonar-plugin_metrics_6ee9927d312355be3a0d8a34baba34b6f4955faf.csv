@@ -1,0 +1,2326 @@
+Kind,Name,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,SumCyclomatic,CountLineCode,CountLineComment
+File,"AttributeDefinitionDataObj.java",,,,18,85,161
+File,"AttributeDefinitionIdDataObj.java",,,,2,19,35
+File,"AttributeDefinitionSpecDataObj.java",,,,12,57,120
+File,"AttributeDefinitionValueFilterMapDataObj.java",,,,4,29,58
+File,"AttributeValueChangeSpecDataObj.java",,,,4,30,64
+File,"AttributeValueDataObj.java",,,,8,45,84
+File,"AttributeValueIdDataObj.java",,,,2,19,35
+File,"AttributeValueSpecDataObj.java",,,,4,27,52
+File,"BackupConfigurationDataObj.java",,,,18,81,115
+File,"CIMClient.java",,,,23,147,65
+File,"CLanguage.java",,,,2,17,32
+File,"ClientAuthenticationHandlerWSS.java",,,,13,85,16
+File,"CommitStateDataObj.java",,,,4,25,52
+File,"ComponentDataObj.java",,,,6,39,81
+File,"ComponentDefectRuleDataObj.java",,,,4,28,52
+File,"ComponentIdDataObj.java",,,,2,19,35
+File,"ComponentMapDataObj.java",,,,10,56,121
+File,"ComponentMapFilterSpecDataObj.java",,,,2,17,35
+File,"ComponentMapIdDataObj.java",,,,2,19,35
+File,"ComponentMapSpecDataObj.java",,,,10,55,121
+File,"ComponentMetricsDataObj.java",,,,22,102,133
+File,"ComponentPathRuleDataObj.java",,,,4,28,52
+File,"ConfigurationDataObj.java",,,,14,65,137
+File,"ConfigurationService.java",,,,0,685,651
+File,"ConfigurationServiceService.java",,,,5,43,15
+File,"CopyStream.java",,,,4,25,52
+File,"CopyStreamResponse.java",,,,2,19,35
+File,"CovRemoteServiceException.java",,,,4,25,44
+File,"CovRemoteServiceException_Exception.java",,,,3,19,27
+File,"CoverityFooter.java",,,,3,31,19
+File,"CoverityPlugin.java",,,,1,106,34
+File,"CoverityPluginMetrics.java",,,,1,47,20
+File,"CoverityPluginTest.java",,,,1,11,10
+File,"CoverityProfiles.java",,,,8,53,11
+File,"CoverityRules.java",,,,17,146,25
+File,"CoverityRulesRepositories.java",,,,1,33,13
+File,"CoveritySensor.java",,,,41,310,36
+File,"CoveritySensorTest.java",,,,9,86,15
+File,"CoverityUtil.java",,,,14,63,12
+File,"CoverityWidget.java",,,,3,19,11
+File,"CppLanguage.java",,,,2,17,32
+File,"CreateAttribute.java",,,,2,17,35
+File,"CreateAttributeResponse.java",,,,0,8,18
+File,"CreateComponentMap.java",,,,2,17,35
+File,"CreateComponentMapResponse.java",,,,0,8,18
+File,"CreateGroup.java",,,,2,17,35
+File,"CreateGroupResponse.java",,,,0,8,18
+File,"CreateLdapConfiguration.java",,,,2,17,35
+File,"CreateLdapConfigurationResponse.java",,,,0,8,18
+File,"CreateMergedDefect.java",,,,12,60,120
+File,"CreateMergedDefectResponse.java",,,,0,8,18
+File,"CreateProject.java",,,,2,17,35
+File,"CreateProjectResponse.java",,,,0,8,18
+File,"CreateRole.java",,,,2,17,35
+File,"CreateRoleResponse.java",,,,0,8,18
+File,"CreateStream.java",,,,2,17,35
+File,"CreateStreamInProject.java",,,,4,25,52
+File,"CreateStreamInProjectResponse.java",,,,0,8,18
+File,"CreateStreamResponse.java",,,,0,8,18
+File,"CreateTriageStore.java",,,,2,17,35
+File,"CreateTriageStoreResponse.java",,,,0,8,18
+File,"CreateUser.java",,,,2,17,35
+File,"CreateUserResponse.java",,,,0,8,18
+File,"CsLanguage.java",,,,2,17,32
+File,"CxxLanguage.java",,,,2,17,32
+File,"DefectChangeDataObj.java",,,,10,57,115
+File,"DefectDetectionHistoryDataObj.java",,,,12,64,126
+File,"DefectInstanceDataObj.java",,,,32,144,314
+File,"DefectInstanceIdDataObj.java",,,,2,17,27
+File,"DefectService.java",,,,0,182,149
+File,"DefectServiceService.java",,,,5,43,15
+File,"DefectStateAttributeValueDataObj.java",,,,4,25,52
+File,"DefectStateDataObj.java",,,,6,40,75
+File,"DefectStateSpecDataObj.java",,,,2,21,41
+File,"DeleteAttribute.java",,,,2,17,35
+File,"DeleteAttributeResponse.java",,,,0,8,18
+File,"DeleteComponentMap.java",,,,2,17,35
+File,"DeleteComponentMapResponse.java",,,,0,8,18
+File,"DeleteGroup.java",,,,2,17,35
+File,"DeleteGroupResponse.java",,,,0,8,18
+File,"DeleteLdapConfiguration.java",,,,2,17,35
+File,"DeleteLdapConfigurationResponse.java",,,,0,8,18
+File,"DeleteProject.java",,,,2,17,35
+File,"DeleteProjectResponse.java",,,,0,8,18
+File,"DeleteRole.java",,,,2,17,35
+File,"DeleteRoleResponse.java",,,,0,8,18
+File,"DeleteSnapshot.java",,,,2,19,41
+File,"DeleteSnapshotJobInfoDataObj.java",,,,4,25,44
+File,"DeleteSnapshotJobStatus.java",,,,2,17,17
+File,"DeleteSnapshotResponse.java",,,,0,8,18
+File,"DeleteStream.java",,,,4,25,44
+File,"DeleteStreamResponse.java",,,,0,8,18
+File,"DeleteTriageStore.java",,,,2,17,35
+File,"DeleteTriageStoreResponse.java",,,,0,8,18
+File,"DeleteUser.java",,,,2,17,35
+File,"DeleteUserResponse.java",,,,0,8,18
+File,"EventDataObj.java",,,,26,117,205
+File,"ExecuteNotification.java",,,,2,17,35
+File,"ExecuteNotificationResponse.java",,,,0,8,18
+File,"FeatureUpdateTimeDataObj.java",,,,4,28,52
+File,"FieldChangeDataObj.java",,,,6,33,69
+File,"FileContentsDataObj.java",,,,4,25,50
+File,"FileGenerator.java",,,,24,194,48
+File,"FileIdDataObj.java",,,,4,28,52
+File,"FunctionInfoDataObj.java",,,,8,41,86
+File,"GetAllLdapConfigurations.java",,,,0,8,18
+File,"GetAllLdapConfigurationsResponse.java",,,,2,21,41
+File,"GetAllPermissions.java",,,,0,8,18
+File,"GetAllPermissionsResponse.java",,,,2,21,41
+File,"GetAllRoles.java",,,,0,8,18
+File,"GetAllRolesResponse.java",,,,2,21,41
+File,"GetArchitectureAnalysisConfiguration.java",,,,0,8,18
+File,"GetArchitectureAnalysisConfigurationResponse.java",,,,2,19,35
+File,"GetAttribute.java",,,,2,17,35
+File,"GetAttributeResponse.java",,,,2,19,35
+File,"GetAttributes.java",,,,0,8,18
+File,"GetAttributesResponse.java",,,,2,21,41
+File,"GetBackupConfiguration.java",,,,0,8,18
+File,"GetBackupConfigurationResponse.java",,,,2,19,35
+File,"GetCategoryNames.java",,,,0,8,18
+File,"GetCategoryNamesResponse.java",,,,2,21,41
+File,"GetCheckerNames.java",,,,0,8,18
+File,"GetCheckerNamesResponse.java",,,,2,21,41
+File,"GetCommitState.java",,,,0,8,18
+File,"GetCommitStateResponse.java",,,,2,19,35
+File,"GetComponent.java",,,,2,17,35
+File,"GetComponentMaps.java",,,,2,17,35
+File,"GetComponentMapsResponse.java",,,,2,21,41
+File,"GetComponentMetricsForProject.java",,,,4,27,58
+File,"GetComponentMetricsForProjectResponse.java",,,,2,21,41
+File,"GetComponentResponse.java",,,,2,19,35
+File,"GetDefectStatuses.java",,,,0,8,18
+File,"GetDefectStatusesResponse.java",,,,2,21,41
+File,"GetDeleteSnapshotJobInfo.java",,,,2,19,41
+File,"GetDeleteSnapshotJobInfoResponse.java",,,,2,21,41
+File,"GetDeveloperStreamsProjects.java",,,,2,17,35
+File,"GetDeveloperStreamsProjectsResponse.java",,,,2,21,41
+File,"GetFileContents.java",,,,4,25,52
+File,"GetFileContentsResponse.java",,,,2,19,35
+File,"GetGroup.java",,,,2,17,35
+File,"GetGroupResponse.java",,,,2,19,35
+File,"GetGroups.java",,,,4,25,52
+File,"GetGroupsResponse.java",,,,2,19,35
+File,"GetLastUpdateTimes.java",,,,0,8,18
+File,"GetLastUpdateTimesResponse.java",,,,2,21,41
+File,"GetLdapServerDomains.java",,,,0,8,18
+File,"GetLdapServerDomainsResponse.java",,,,2,21,41
+File,"GetLicenseConfiguration.java",,,,0,8,18
+File,"GetLicenseConfigurationResponse.java",,,,2,19,35
+File,"GetLicenseState.java",,,,0,8,18
+File,"GetLicenseStateResponse.java",,,,2,19,35
+File,"GetLoggingConfiguration.java",,,,0,8,18
+File,"GetLoggingConfigurationResponse.java",,,,2,19,35
+File,"GetMergedDefectDetectionHistory.java",,,,4,27,58
+File,"GetMergedDefectDetectionHistoryResponse.java",,,,2,21,41
+File,"GetMergedDefectHistory.java",,,,4,27,58
+File,"GetMergedDefectHistoryResponse.java",,,,2,21,41
+File,"GetMergedDefectsForProjectScope.java",,,,6,33,69
+File,"GetMergedDefectsForProjectScopeResponse.java",,,,2,19,35
+File,"GetMergedDefectsForSnapshotScope.java",,,,8,41,86
+File,"GetMergedDefectsForSnapshotScopeResponse.java",,,,2,19,35
+File,"GetMergedDefectsForStreams.java",,,,8,43,92
+File,"GetMergedDefectsForStreamsResponse.java",,,,2,19,35
+File,"GetMessageOfTheDay.java",,,,0,8,18
+File,"GetMessageOfTheDayResponse.java",,,,2,19,35
+File,"GetOutputFileForSnapshot.java",,,,4,25,52
+File,"GetOutputFileForSnapshotResponse.java",,,,2,19,35
+File,"GetProjects.java",,,,2,17,35
+File,"GetProjectsResponse.java",,,,2,21,41
+File,"GetRole.java",,,,2,17,35
+File,"GetRoleResponse.java",,,,2,19,35
+File,"GetServerTime.java",,,,0,8,18
+File,"GetServerTimeResponse.java",,,,2,22,35
+File,"GetSignInConfiguration.java",,,,0,8,18
+File,"GetSignInConfigurationResponse.java",,,,2,19,35
+File,"GetSkeletonizationConfiguration.java",,,,0,8,18
+File,"GetSkeletonizationConfigurationResponse.java",,,,2,19,35
+File,"GetSnapshotInformation.java",,,,2,19,41
+File,"GetSnapshotInformationResponse.java",,,,2,21,41
+File,"GetSnapshotPurgeDetails.java",,,,0,8,18
+File,"GetSnapshotPurgeDetailsResponse.java",,,,2,19,35
+File,"GetSnapshotsForStream.java",,,,4,25,52
+File,"GetSnapshotsForStreamResponse.java",,,,2,21,41
+File,"GetStreamDefects.java",,,,4,27,58
+File,"GetStreamDefectsResponse.java",,,,2,21,41
+File,"GetStreams.java",,,,2,17,35
+File,"GetStreamsResponse.java",,,,2,21,41
+File,"GetSystemConfig.java",,,,0,8,18
+File,"GetSystemConfigResponse.java",,,,2,19,35
+File,"GetTrendRecordsForProject.java",,,,4,25,52
+File,"GetTrendRecordsForProjectResponse.java",,,,2,21,41
+File,"GetTriageHistory.java",,,,4,27,58
+File,"GetTriageHistoryResponse.java",,,,2,21,41
+File,"GetTriageStores.java",,,,2,17,35
+File,"GetTriageStoresResponse.java",,,,2,21,41
+File,"GetTypeNames.java",,,,0,8,18
+File,"GetTypeNamesResponse.java",,,,2,21,41
+File,"GetUser.java",,,,2,17,35
+File,"GetUserResponse.java",,,,2,19,35
+File,"GetUsers.java",,,,4,25,52
+File,"GetUsersResponse.java",,,,2,19,35
+File,"GetVersion.java",,,,0,8,18
+File,"GetVersionResponse.java",,,,2,19,35
+File,"GroupDataObj.java",,,,8,45,76
+File,"GroupFilterSpecDataObj.java",,,,8,45,92
+File,"GroupIdDataObj.java",,,,6,35,69
+File,"GroupSpecDataObj.java",,,,10,53,109
+File,"GroupsPageDataObj.java",,,,4,29,58
+File,"ImportLicense.java",,,,2,17,35
+File,"ImportLicenseResponse.java",,,,0,8,18
+File,"InternalRule.java",,,,17,66,6
+File,"LdapConfigurationDataObj.java",,,,44,185,352
+File,"LdapConfigurationSpecDataObj.java",,,,44,185,352
+File,"LicenseDataObj.java",,,,14,68,129
+File,"LicenseSpecDataObj.java",,,,2,17,35
+File,"LicenseStateDataObj.java",,,,2,17,27
+File,"LocalizedValueDataObj.java",,,,4,25,52
+File,"LoggingConfigurationDataObj.java",,,,36,153,324
+File,"MergeTriageStores.java",,,,8,43,76
+File,"MergeTriageStoresResponse.java",,,,0,8,18
+File,"MergedDefectDataObj.java",,,,62,267,551
+File,"MergedDefectFilterSpecDataObj.java",,,,82,372,835
+File,"MergedDefectIdDataObj.java",,,,4,25,52
+File,"MergedDefectsPageDataObj.java",,,,6,38,81
+File,"Notify.java",,,,6,35,75
+File,"NotifyResponse.java",,,,2,21,41
+File,"ObjectFactory.java",,,,96,353,456
+File,"OutputFileDataObj.java",,,,4,25,50
+File,"PageSpecDataObj.java",,,,8,41,62
+File,"PermissionDataObj.java",,,,2,19,35
+File,"ProjectDataObj.java",,,,20,99,206
+File,"ProjectFilterSpecDataObj.java",,,,8,41,86
+File,"ProjectIdDataObj.java",,,,2,19,35
+File,"ProjectMetricsDataObj.java",,,,26,118,151
+File,"ProjectScopeDefectFilterSpecDataObj.java",,,,42,201,465
+File,"ProjectSpecDataObj.java",,,,10,55,121
+File,"ProjectTrendRecordFilterSpecDataObj.java",,,,4,29,52
+File,"PropertyDataObj.java",,,,4,25,52
+File,"PropertySpecDataObj.java",,,,4,25,52
+File,"RoleAssignmentDataObj.java",,,,10,49,103
+File,"RoleDataObj.java",,,,10,53,109
+File,"RoleIdDataObj.java",,,,2,19,35
+File,"RoleSpecDataObj.java",,,,10,53,109
+File,"ServerDomainIdDataObj.java",,,,2,19,35
+File,"SetAcceptingNewCommits.java",,,,2,17,27
+File,"SetAcceptingNewCommitsResponse.java",,,,0,8,18
+File,"SetArchitectureAnalysisConfiguration.java",,,,2,17,35
+File,"SetArchitectureAnalysisConfigurationResponse.java",,,,0,8,18
+File,"SetBackupConfiguration.java",,,,2,17,35
+File,"SetBackupConfigurationResponse.java",,,,0,8,18
+File,"SetLoggingConfiguration.java",,,,2,17,35
+File,"SetLoggingConfigurationResponse.java",,,,0,8,18
+File,"SetMessageOfTheDay.java",,,,2,17,35
+File,"SetMessageOfTheDayResponse.java",,,,0,8,18
+File,"SetSkeletonizationConfiguration.java",,,,2,17,35
+File,"SetSkeletonizationConfigurationResponse.java",,,,0,8,18
+File,"SetSnapshotPurgeDetails.java",,,,2,17,35
+File,"SetSnapshotPurgeDetailsResponse.java",,,,0,8,18
+File,"SignInSettingsDataObj.java",,,,18,81,171
+File,"SkeletonizationConfigurationDataObj.java",,,,20,89,188
+File,"SnapshotFilterSpecDataObj.java",,,,14,70,137
+File,"SnapshotIdDataObj.java",,,,2,17,27
+File,"SnapshotInfoDataObj.java",,,,48,210,416
+File,"SnapshotPurgeDetailsObj.java",,,,20,89,116
+File,"SnapshotScopeDefectFilterSpecDataObj.java",,,,70,318,721
+File,"SnapshotScopeSpecDataObj.java",,,,8,46,86
+File,"StreamDataObj.java",,,,28,125,254
+File,"StreamDefectDataObj.java",,,,16,79,172
+File,"StreamDefectFilterSpecDataObj.java",,,,10,57,93
+File,"StreamDefectIdDataObj.java",,,,8,41,54
+File,"StreamFilterSpecDataObj.java",,,,6,37,75
+File,"StreamIdDataObj.java",,,,2,19,35
+File,"StreamSpecDataObj.java",,,,28,125,262
+File,"TriageHistoryDataObj.java",,,,4,29,58
+File,"TriageStoreDataObj.java",,,,8,46,98
+File,"TriageStoreFilterSpecDataObj.java",,,,4,25,52
+File,"TriageStoreIdDataObj.java",,,,2,19,35
+File,"TriageStoreSpecDataObj.java",,,,6,37,75
+File,"UpdateAttribute.java",,,,4,25,52
+File,"UpdateAttributeResponse.java",,,,0,8,18
+File,"UpdateComponentMap.java",,,,4,25,52
+File,"UpdateComponentMapResponse.java",,,,0,8,18
+File,"UpdateDefectInstanceProperties.java",,,,4,27,58
+File,"UpdateDefectInstancePropertiesResponse.java",,,,0,8,18
+File,"UpdateGroup.java",,,,4,25,52
+File,"UpdateGroupResponse.java",,,,0,8,18
+File,"UpdateLdapConfiguration.java",,,,4,25,52
+File,"UpdateLdapConfigurationResponse.java",,,,0,8,18
+File,"UpdateProject.java",,,,4,25,52
+File,"UpdateProjectResponse.java",,,,0,8,18
+File,"UpdateRole.java",,,,4,25,52
+File,"UpdateRoleResponse.java",,,,0,8,18
+File,"UpdateSignInConfiguration.java",,,,2,17,35
+File,"UpdateSignInConfigurationResponse.java",,,,0,8,18
+File,"UpdateSnapshotInfo.java",,,,4,25,52
+File,"UpdateSnapshotInfoResponse.java",,,,0,8,18
+File,"UpdateStream.java",,,,4,25,52
+File,"UpdateStreamDefects.java",,,,4,27,58
+File,"UpdateStreamDefectsResponse.java",,,,0,8,18
+File,"UpdateStreamResponse.java",,,,0,8,18
+File,"UpdateTriageForCIDsInTriageStore.java",,,,6,35,75
+File,"UpdateTriageForCIDsInTriageStoreResponse.java",,,,0,8,18
+File,"UpdateTriageStore.java",,,,4,25,52
+File,"UpdateTriageStoreResponse.java",,,,0,8,18
+File,"UpdateUser.java",,,,4,25,52
+File,"UpdateUserResponse.java",,,,0,8,18
+File,"UserDataObj.java",,,,38,172,353
+File,"UserFilterSpecDataObj.java",,,,18,85,177
+File,"UserSpecDataObj.java",,,,24,109,234
+File,"UsersPageDataObj.java",,,,4,29,58
+File,"VersionDataObj.java",,,,4,25,52
+Package,"com",,,,0,0,0
+Package,"com.coverity",,,,0,0,0
+Package,"com.coverity.ws",,,,0,0,0
+Package,"com.coverity.ws.v9",,,,1645,10513,19760
+Public Class,"com.coverity.ws.v9.AttributeDefinitionDataObj",8,88,88,18,78,161
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getAttributeType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getConfigurableValues",,,,2,6,22
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getDefaultValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getDisplayDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.getDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.isBuiltIn",,,,1,3,4
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.isShowInTriage",,,,1,3,4
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setAttributeType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setBuiltIn",,,,1,3,4
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setDefaultValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setDisplayDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionDataObj.setShowInTriage",,,,1,3,4
+Public Class,"com.coverity.ws.v9.AttributeDefinitionIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.AttributeDefinitionIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj",5,83,83,12,53,120
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.getAttributeName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.getAttributeType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.getAttributeValueChangeSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.getDefaultValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.isShowInTriage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setAttributeName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setAttributeType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setAttributeValueChangeSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setDefaultValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionSpecDataObj.setShowInTriage",,,,1,3,8
+Public Class,"com.coverity.ws.v9.AttributeDefinitionValueFilterMapDataObj",7,50,50,4,22,58
+Public Method,"com.coverity.ws.v9.AttributeDefinitionValueFilterMapDataObj.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeDefinitionValueFilterMapDataObj.getAttributeValueIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.AttributeDefinitionValueFilterMapDataObj.setAttributeDefinitionId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.AttributeValueChangeSpecDataObj",7,50,50,4,23,64
+Public Method,"com.coverity.ws.v9.AttributeValueChangeSpecDataObj.getAttributeValueIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.AttributeValueChangeSpecDataObj.getAttributeValues",,,,2,6,22
+Public Class,"com.coverity.ws.v9.AttributeValueDataObj",7,75,75,8,38,84
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.getAttributeValueId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.getDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.getIssueKindList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.isDeprecated",,,,1,3,4
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.setAttributeValueId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.setDeprecated",,,,1,3,4
+Public Method,"com.coverity.ws.v9.AttributeValueDataObj.setDisplayName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.AttributeValueIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.AttributeValueIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.AttributeValueSpecDataObj",5,50,50,4,22,52
+Public Method,"com.coverity.ws.v9.AttributeValueSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueSpecDataObj.isDeprecated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueSpecDataObj.setDeprecated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.AttributeValueSpecDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.BackupConfigurationDataObj",3,88,88,18,77,115
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.getBackupLocation",,,,1,3,8
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.getBackupTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isFridayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isMondayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isSaturdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isSundayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isThursdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isTuesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.isWednesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setBackupLocation",,,,1,3,8
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setBackupTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setFridayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setMondayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setSaturdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setSundayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setThursdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setTuesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.BackupConfigurationDataObj.setWednesdayEnabled",,,,1,3,4
+Public Class,"com.coverity.ws.v9.CommitStateDataObj",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.CommitStateDataObj.getCurrentCommitCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CommitStateDataObj.isIsAcceptingNewCommits",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CommitStateDataObj.setCurrentCommitCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CommitStateDataObj.setIsAcceptingNewCommits",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentDataObj",8,66,66,6,32,81
+Public Method,"com.coverity.ws.v9.ComponentDataObj.getComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentDataObj.getSubscribers",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentDataObj.setComponentId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentDefectRuleDataObj",5,50,50,4,23,52
+Public Method,"com.coverity.ws.v9.ComponentDefectRuleDataObj.getComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentDefectRuleDataObj.getDefaultOwner",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentDefectRuleDataObj.setComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentDefectRuleDataObj.setDefaultOwner",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.ComponentIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentMapDataObj",10,80,80,10,49,121
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.getComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.getComponentPathRules",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.getComponents",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.getDefectRules",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.setComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapDataObj.setDescription",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentMapFilterSpecDataObj",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.ComponentMapFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentMapIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.ComponentMapIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentMapSpecDataObj",9,80,80,10,48,121
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.getComponentMapName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.getComponentPathRules",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.getComponents",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.getDefectRules",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.setComponentMapName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMapSpecDataObj.setDescription",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ComponentMetricsDataObj",6,90,90,22,95,133
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getBlankLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getCodeLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getCommentLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getDismissedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getFixedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getMetricsDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getNewCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getOutstandingCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getTotalCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.getTriagedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setBlankLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setCodeLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setCommentLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setDismissedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setFixedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setMetricsDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setNewCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setOutstandingCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setTotalCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ComponentMetricsDataObj.setTriagedCount",,,,1,3,4
+Public Class,"com.coverity.ws.v9.ComponentPathRuleDataObj",5,50,50,4,23,52
+Public Method,"com.coverity.ws.v9.ComponentPathRuleDataObj.getComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentPathRuleDataObj.getPathPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentPathRuleDataObj.setComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ComponentPathRuleDataObj.setPathPattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ConfigurationDataObj",4,85,85,14,61,137
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getCommitPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getDbDialect",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getDbDriver",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getIssueExportUrl",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getMaindbName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getMaindbUrl",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.getMaindbUser",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setCommitPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setDbDialect",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setDbDriver",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setIssueExportUrl",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setMaindbName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setMaindbUrl",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ConfigurationDataObj.setMaindbUser",,,,1,3,8
+Public Interface,"com.coverity.ws.v9.ConfigurationService",58,0,0,0,676,645
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.copyStream",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createAttribute",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createComponentMap",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createGroup",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createLdapConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createProject",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createRole",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createStream",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createStreamInProject",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createTriageStore",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.createUser",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteAttribute",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteComponentMap",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteGroup",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteLdapConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteProject",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteRole",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteSnapshot",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteStream",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteTriageStore",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.deleteUser",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.executeNotification",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getAllLdapConfigurations",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getAllPermissions",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getAllRoles",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getArchitectureAnalysisConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getAttribute",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getAttributes",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getBackupConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getCategoryNames",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getCheckerNames",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getCommitState",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getComponent",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getComponentMaps",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getDefectStatuses",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getDeleteSnapshotJobInfo",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getDeveloperStreamsProjects",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getGroup",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getGroups",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getLastUpdateTimes",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getLdapServerDomains",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getLicenseConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getLicenseState",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getLoggingConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getMessageOfTheDay",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getOutputFileForSnapshot",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getProjects",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getRole",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getServerTime",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSignInConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSkeletonizationConfiguration",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSnapshotInformation",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSnapshotPurgeDetails",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSnapshotsForStream",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getStreams",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getSystemConfig",,,,0,5,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getTriageStores",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getTypeNames",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getUser",,,,0,9,9
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getUsers",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.getVersion",,,,0,7,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.importLicense",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.mergeTriageStores",,,,0,14,10
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.notify",,,,0,13,11
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setAcceptingNewCommits",,,,0,6,6
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setArchitectureAnalysisConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setBackupConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setLoggingConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setMessageOfTheDay",,,,0,6,6
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setSkeletonizationConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.setSnapshotPurgeDetails",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateAttribute",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateComponentMap",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateGroup",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateLdapConfiguration",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateProject",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateRole",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateSignInConfiguration",,,,0,8,7
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateSnapshotInfo",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateStream",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateTriageStore",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.ConfigurationService.updateUser",,,,0,10,8
+Public Class,"com.coverity.ws.v9.ConfigurationServiceService",8,0,0,5,35,15
+Public Constructor,"com.coverity.ws.v9.ConfigurationServiceService.ConfigurationServiceService",,,,1,3,0
+Public Constructor,"com.coverity.ws.v9.ConfigurationServiceService.ConfigurationServiceService",,,,1,3,0
+Private Static Method,"com.coverity.ws.v9.ConfigurationServiceService.__getWsdlLocation",,,,2,6,0
+Public Method,"com.coverity.ws.v9.ConfigurationServiceService.getConfigurationServicePort",,,,1,4,6
+Public Class,"com.coverity.ws.v9.CopyStream",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.CopyStream.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CopyStream.getSourceStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CopyStream.setProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CopyStream.setSourceStreamId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CopyStreamResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.CopyStreamResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CopyStreamResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CovRemoteServiceException",3,50,50,4,21,44
+Public Method,"com.coverity.ws.v9.CovRemoteServiceException.getErrorCode",,,,1,3,4
+Public Method,"com.coverity.ws.v9.CovRemoteServiceException.getMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CovRemoteServiceException.setErrorCode",,,,1,3,4
+Public Method,"com.coverity.ws.v9.CovRemoteServiceException.setMessage",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CovRemoteServiceException_Exception",3,0,0,3,17,27
+Public Constructor,"com.coverity.ws.v9.CovRemoteServiceException_Exception.CovRemoteServiceException_Exception",,,,1,4,5
+Public Constructor,"com.coverity.ws.v9.CovRemoteServiceException_Exception.CovRemoteServiceException_Exception",,,,1,4,6
+Public Method,"com.coverity.ws.v9.CovRemoteServiceException_Exception.getFaultInfo",,,,1,3,5
+Public Class,"com.coverity.ws.v9.CreateAttribute",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateAttribute.getAttributeDefinitionSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateAttribute.setAttributeDefinitionSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateAttributeResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateComponentMap",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateComponentMap.getComponentMapSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateComponentMap.setComponentMapSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateComponentMapResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateGroup",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateGroup.getGroupSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateGroup.setGroupSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateGroupResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateLdapConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateLdapConfiguration.getLdapConfigurationSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateLdapConfiguration.setLdapConfigurationSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateLdapConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateMergedDefect",5,83,83,12,54,120
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getDateOriginated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getDomainName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getExternalPreventVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getInternalPreventVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.getMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setDateOriginated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setDomainName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setExternalPreventVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setInternalPreventVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateMergedDefect.setMergeKey",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateMergedDefectResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateProject",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateProject.getProjectSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateProject.setProjectSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateProjectResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateRole",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateRole.getRoleSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateRole.setRoleSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateRoleResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateStream",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateStream.getStreamSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateStream.setStreamSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateStreamInProject",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.CreateStreamInProject.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateStreamInProject.getStreamSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateStreamInProject.setProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateStreamInProject.setStreamSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateStreamInProjectResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateStreamResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateTriageStore",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateTriageStore.getTriageStoreSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateTriageStore.setTriageStoreSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateTriageStoreResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.CreateUser",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.CreateUser.getUserSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.CreateUser.setUserSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.CreateUserResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DefectChangeDataObj",10,80,80,10,48,115
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.getAffectedStreams",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.getAttributeChanges",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.getComments",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.getDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.getUserModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.setComments",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.setDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectChangeDataObj.setUserModified",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DefectDetectionHistoryDataObj",11,83,83,12,55,126
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.getDefectDetection",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.getDetection",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.getSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.getStreams",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.getUserName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.isInCurrentSnapshot",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.setDefectDetection",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.setDetection",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.setInCurrentSnapshot",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.setSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectDetectionHistoryDataObj.setUserName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DefectInstanceDataObj",12,93,93,32,137,314
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getCategory",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getComponent",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getCwe",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getEventSetCaptions",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getEvents",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getExtra",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getFunction",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getImpact",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getIssueKinds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getLocalEffect",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getLongDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getProperties",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.getType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setCategory",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setComponent",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setCwe",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setExtra",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setFunction",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setImpact",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setLocalEffect",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setLongDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectInstanceDataObj.setType",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DefectInstanceIdDataObj",2,0,0,2,13,27
+Public Method,"com.coverity.ws.v9.DefectInstanceIdDataObj.getId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.DefectInstanceIdDataObj.setId",,,,1,3,4
+Public Interface,"com.coverity.ws.v9.DefectService",26,0,0,0,173,143
+Public Abstract Method,"com.coverity.ws.v9.DefectService.createMergedDefect",,,,0,18,12
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getComponentMetricsForProject",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getFileContents",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getMergedDefectDetectionHistory",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getMergedDefectHistory",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getMergedDefectsForProjectScope",,,,0,13,11
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getMergedDefectsForSnapshotScope",,,,0,15,12
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getMergedDefectsForStreams",,,,0,15,12
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getStreamDefects",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getTrendRecordsForProject",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.getTriageHistory",,,,0,11,10
+Public Abstract Method,"com.coverity.ws.v9.DefectService.updateDefectInstanceProperties",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.DefectService.updateStreamDefects",,,,0,10,8
+Public Abstract Method,"com.coverity.ws.v9.DefectService.updateTriageForCIDsInTriageStore",,,,0,12,9
+Public Class,"com.coverity.ws.v9.DefectServiceService",8,0,0,5,35,15
+Public Constructor,"com.coverity.ws.v9.DefectServiceService.DefectServiceService",,,,1,3,0
+Public Constructor,"com.coverity.ws.v9.DefectServiceService.DefectServiceService",,,,1,3,0
+Private Static Method,"com.coverity.ws.v9.DefectServiceService.__getWsdlLocation",,,,2,6,0
+Public Method,"com.coverity.ws.v9.DefectServiceService.getDefectServicePort",,,,1,4,6
+Public Class,"com.coverity.ws.v9.DefectStateAttributeValueDataObj",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.DefectStateAttributeValueDataObj.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateAttributeValueDataObj.getAttributeValueId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateAttributeValueDataObj.setAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateAttributeValueDataObj.setAttributeValueId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DefectStateDataObj",9,66,66,6,31,75
+Public Method,"com.coverity.ws.v9.DefectStateDataObj.getDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateDataObj.getDefectStateAttributeValues",,,,2,6,22
+Public Method,"com.coverity.ws.v9.DefectStateDataObj.getUserCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateDataObj.setDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DefectStateDataObj.setUserCreated",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DefectStateSpecDataObj",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.DefectStateSpecDataObj.getDefectStateAttributeValues",,,,2,6,22
+Public Class,"com.coverity.ws.v9.DeleteAttribute",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteAttribute.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteAttribute.setAttributeDefinitionId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteAttributeResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteComponentMap",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteComponentMap.getComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteComponentMap.setComponentMapId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteComponentMapResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteGroup",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteGroup.getGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteGroup.setGroupId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteGroupResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteLdapConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteLdapConfiguration.getServerDomainIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteLdapConfiguration.setServerDomainIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteLdapConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteProject",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteProject.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteProject.setProjectId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteProjectResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteRole",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteRole.getRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteRole.setRoleId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteRoleResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteSnapshot",5,0,0,2,13,41
+Public Method,"com.coverity.ws.v9.DeleteSnapshot.getSnapshotId",,,,2,6,22
+Public Class,"com.coverity.ws.v9.DeleteSnapshotJobInfoDataObj",3,50,50,4,21,44
+Public Method,"com.coverity.ws.v9.DeleteSnapshotJobInfoDataObj.getSnapshotId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.DeleteSnapshotJobInfoDataObj.getStatus",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteSnapshotJobInfoDataObj.setSnapshotId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.DeleteSnapshotJobInfoDataObj.setStatus",,,,1,3,8
+Public Enum Type,"com.coverity.ws.v9.DeleteSnapshotJobStatus",3,,,2,14,17
+Public Static Method,"com.coverity.ws.v9.DeleteSnapshotJobStatus.fromValue",,,,1,3,0
+Public Method,"com.coverity.ws.v9.DeleteSnapshotJobStatus.value",,,,1,3,0
+Public Implicit Method,"com.coverity.ws.v9.DeleteSnapshotJobStatus.valueOf",,,,0,,
+Public Implicit Method,"com.coverity.ws.v9.DeleteSnapshotJobStatus.values",,,,0,,
+Public Class,"com.coverity.ws.v9.DeleteSnapshotResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteStream",3,50,50,4,21,44
+Public Method,"com.coverity.ws.v9.DeleteStream.getStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteStream.isOnlyIfEmpty",,,,1,3,4
+Public Method,"com.coverity.ws.v9.DeleteStream.setOnlyIfEmpty",,,,1,3,4
+Public Method,"com.coverity.ws.v9.DeleteStream.setStreamId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteStreamResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteTriageStore",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteTriageStore.getTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteTriageStore.setTriageStoreId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteTriageStoreResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.DeleteUser",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.DeleteUser.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.DeleteUser.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.DeleteUserResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.EventDataObj",8,92,92,26,110,205
+Public Method,"com.coverity.ws.v9.EventDataObj.getEventDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getEventKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getEventNumber",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.getEventSet",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.getEventTag",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getEvents",,,,2,6,22
+Public Method,"com.coverity.ws.v9.EventDataObj.getFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getLineNumber",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.getMoreInformationId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.getPathCondition",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.isMain",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.isPolarity",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.setEventDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setEventKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setEventNumber",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.setEventSet",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.setEventTag",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setLineNumber",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.setMain",,,,1,3,4
+Public Method,"com.coverity.ws.v9.EventDataObj.setMoreInformationId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setPathCondition",,,,1,3,8
+Public Method,"com.coverity.ws.v9.EventDataObj.setPolarity",,,,1,3,4
+Public Class,"com.coverity.ws.v9.ExecuteNotification",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.ExecuteNotification.getViewname",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ExecuteNotification.setViewname",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ExecuteNotificationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.FeatureUpdateTimeDataObj",5,50,50,4,22,52
+Public Method,"com.coverity.ws.v9.FeatureUpdateTimeDataObj.getFeatureName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FeatureUpdateTimeDataObj.getLastUpdateDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FeatureUpdateTimeDataObj.setFeatureName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FeatureUpdateTimeDataObj.setLastUpdateDate",,,,1,3,8
+Public Class,"com.coverity.ws.v9.FieldChangeDataObj",3,66,66,6,29,69
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.getFieldName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.getNewValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.getOldValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.setFieldName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.setNewValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FieldChangeDataObj.setOldValue",,,,1,3,8
+Public Class,"com.coverity.ws.v9.FileContentsDataObj",3,50,50,4,21,50
+Public Method,"com.coverity.ws.v9.FileContentsDataObj.getContents",,,,1,3,7
+Public Method,"com.coverity.ws.v9.FileContentsDataObj.getFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FileContentsDataObj.setContents",,,,1,3,7
+Public Method,"com.coverity.ws.v9.FileContentsDataObj.setFileId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.FileIdDataObj",4,50,50,4,23,52
+Public Method,"com.coverity.ws.v9.FileIdDataObj.getContentsMD5",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FileIdDataObj.getFilePathname",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FileIdDataObj.setContentsMD5",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FileIdDataObj.setFilePathname",,,,1,3,8
+Public Class,"com.coverity.ws.v9.FunctionInfoDataObj",4,75,75,8,37,86
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.getFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.getFunctionDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.getFunctionMangledName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.getFunctionMergeName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.setFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.setFunctionDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.setFunctionMangledName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.FunctionInfoDataObj.setFunctionMergeName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetAllLdapConfigurations",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetAllLdapConfigurationsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetAllLdapConfigurationsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetAllPermissions",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetAllPermissionsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetAllPermissionsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetAllRoles",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetAllRolesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetAllRolesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetArchitectureAnalysisConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetArchitectureAnalysisConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetArchitectureAnalysisConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetArchitectureAnalysisConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetAttribute",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetAttribute.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetAttribute.setAttributeDefinitionId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetAttributeResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetAttributeResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetAttributeResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetAttributes",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetAttributesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetAttributesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetBackupConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetBackupConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetBackupConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetBackupConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetCategoryNames",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetCategoryNamesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetCategoryNamesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetCheckerNames",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetCheckerNamesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetCheckerNamesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetCommitState",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetCommitStateResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetCommitStateResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetCommitStateResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetComponent",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetComponent.getComponentId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetComponent.setComponentId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetComponentMaps",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetComponentMaps.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetComponentMaps.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetComponentMapsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetComponentMapsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetComponentMetricsForProject",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.GetComponentMetricsForProject.getComponentIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetComponentMetricsForProject.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetComponentMetricsForProject.setProjectId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetComponentMetricsForProjectResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetComponentMetricsForProjectResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetComponentResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetComponentResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetComponentResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetDefectStatuses",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetDefectStatusesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetDefectStatusesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetDeleteSnapshotJobInfo",5,0,0,2,13,41
+Public Method,"com.coverity.ws.v9.GetDeleteSnapshotJobInfo.getSnapshotId",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetDeleteSnapshotJobInfoResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetDeleteSnapshotJobInfoResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetDeveloperStreamsProjects",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetDeveloperStreamsProjects.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetDeveloperStreamsProjects.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetDeveloperStreamsProjectsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetDeveloperStreamsProjectsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetFileContents",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetFileContents.getFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetFileContents.getStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetFileContents.setFileId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetFileContents.setStreamId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetFileContentsResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetFileContentsResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetFileContentsResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetGroup",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetGroup.getGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroup.setGroupId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetGroupResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetGroupResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroupResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetGroups",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetGroups.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroups.getPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroups.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroups.setPageSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetGroupsResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetGroupsResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetGroupsResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetLastUpdateTimes",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetLastUpdateTimesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetLastUpdateTimesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetLdapServerDomains",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetLdapServerDomainsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetLdapServerDomainsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetLicenseConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetLicenseConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetLicenseConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetLicenseConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetLicenseState",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetLicenseStateResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetLicenseStateResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetLicenseStateResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetLoggingConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetLoggingConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetLoggingConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetLoggingConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectDetectionHistory",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.GetMergedDefectDetectionHistory.getMergedDefectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectDetectionHistory.getStreamIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetMergedDefectDetectionHistory.setMergedDefectIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectDetectionHistoryResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetMergedDefectDetectionHistoryResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetMergedDefectHistory",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.GetMergedDefectHistory.getMergedDefectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectHistory.getStreamIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetMergedDefectHistory.setMergedDefectIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectHistoryResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetMergedDefectHistoryResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForProjectScope",5,66,66,6,29,69
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.getPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.setPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScope.setProjectId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForProjectScopeResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScopeResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForProjectScopeResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope",6,75,75,8,37,86
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.getPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.getSnapshotScope",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.setPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.setProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScope.setSnapshotScope",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScopeResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScopeResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForSnapshotScopeResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForStreams",8,75,75,8,37,92
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.getPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.getSnapshotScope",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.getStreamIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.setPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreams.setSnapshotScope",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMergedDefectsForStreamsResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreamsResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMergedDefectsForStreamsResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetMessageOfTheDay",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetMessageOfTheDayResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetMessageOfTheDayResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetMessageOfTheDayResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetOutputFileForSnapshot",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshot.getFileName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshot.getSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshot.setFileName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshot.setSnapshotId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetOutputFileForSnapshotResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshotResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetOutputFileForSnapshotResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetProjects",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetProjects.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetProjects.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetProjectsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetProjectsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetRole",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetRole.getRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetRole.setRoleId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetRoleResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetRoleResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetRoleResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetServerTime",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetServerTimeResponse",5,0,0,2,15,35
+Public Method,"com.coverity.ws.v9.GetServerTimeResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetServerTimeResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetSignInConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetSignInConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetSignInConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSignInConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetSkeletonizationConfiguration",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetSkeletonizationConfigurationResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetSkeletonizationConfigurationResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSkeletonizationConfigurationResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetSnapshotInformation",5,0,0,2,13,41
+Public Method,"com.coverity.ws.v9.GetSnapshotInformation.getSnapshotIds",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetSnapshotInformationResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetSnapshotInformationResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetSnapshotPurgeDetails",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetSnapshotPurgeDetailsResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetSnapshotPurgeDetailsResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSnapshotPurgeDetailsResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetSnapshotsForStream",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetSnapshotsForStream.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSnapshotsForStream.getStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSnapshotsForStream.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSnapshotsForStream.setStreamId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetSnapshotsForStreamResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetSnapshotsForStreamResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetStreamDefects",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.GetStreamDefects.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetStreamDefects.getMergedDefectIdDataObjs",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetStreamDefects.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetStreamDefectsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetStreamDefectsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetStreams",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetStreams.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetStreams.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetStreamsResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetStreamsResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetSystemConfig",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetSystemConfigResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetSystemConfigResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetSystemConfigResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetTrendRecordsForProject",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetTrendRecordsForProject.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetTrendRecordsForProject.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetTrendRecordsForProject.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetTrendRecordsForProject.setProjectId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetTrendRecordsForProjectResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetTrendRecordsForProjectResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetTriageHistory",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.GetTriageHistory.getMergedDefectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetTriageHistory.getTriageStoreIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GetTriageHistory.setMergedDefectIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetTriageHistoryResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetTriageHistoryResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetTriageStores",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetTriageStores.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetTriageStores.setFilterSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetTriageStoresResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetTriageStoresResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetTypeNames",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetTypeNamesResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.GetTypeNamesResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.GetUser",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.GetUser.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUser.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetUserResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetUserResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUserResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetUsers",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.GetUsers.getFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUsers.getPageSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUsers.setFilterSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUsers.setPageSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetUsersResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetUsersResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetUsersResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GetVersion",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.GetVersionResponse",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.GetVersionResponse.getReturn",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GetVersionResponse.setReturn",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GroupDataObj",7,75,75,8,38,76
+Public Method,"com.coverity.ws.v9.GroupDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GroupDataObj.isLocal",,,,1,3,4
+Public Method,"com.coverity.ws.v9.GroupDataObj.isSyncEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.GroupDataObj.setLocal",,,,1,3,4
+Public Method,"com.coverity.ws.v9.GroupDataObj.setName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupDataObj.setSyncEnabled",,,,1,3,4
+Public Class,"com.coverity.ws.v9.GroupFilterSpecDataObj",8,75,75,8,38,92
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.getProjectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.getUserList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.isLdap",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.setLdap",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupFilterSpecDataObj.setProjectIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GroupIdDataObj",5,66,66,6,30,69
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.getDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.setDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GroupSpecDataObj",9,80,80,10,46,109
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.isLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.isSyncEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.setLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.setName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupSpecDataObj.setSyncEnabled",,,,1,3,8
+Public Class,"com.coverity.ws.v9.GroupsPageDataObj",7,50,50,4,22,58
+Public Method,"com.coverity.ws.v9.GroupsPageDataObj.getGroups",,,,2,6,22
+Public Method,"com.coverity.ws.v9.GroupsPageDataObj.getTotalNumberOfRecords",,,,1,3,8
+Public Method,"com.coverity.ws.v9.GroupsPageDataObj.setTotalNumberOfRecords",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ImportLicense",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.ImportLicense.getLicenseSpecDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ImportLicense.setLicenseSpecDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ImportLicenseResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.LdapConfigurationDataObj",5,95,95,44,181,352
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getBaseDN",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getBindName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getBindPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getGroupFilter",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getGroupMember",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getGroupName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getGroupObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getGroupSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getServerDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getServerDomainIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getServerPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserFirstName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserLastName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.getUserSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.isAnonymousBind",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.isGroupFullName",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.isPrimary",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.isSecureConnection",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.isTlsEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setAnonymousBind",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setBaseDN",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setBindName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setBindPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupFilter",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupFullName",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupMember",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setGroupSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setPrimary",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setSecureConnection",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setServerDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setServerDomainIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setServerPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setTlsEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserFirstName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserLastName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationDataObj.setUserSearchBase",,,,1,3,8
+Public Class,"com.coverity.ws.v9.LdapConfigurationSpecDataObj",4,95,95,44,181,352
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getBaseDN",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getBindName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getBindPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getGroupFilter",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getGroupMember",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getGroupName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getGroupObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getGroupSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getServerDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getServerPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserFirstName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserLastName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.getUserSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.isAnonymousBind",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.isGroupFullName",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.isPrimary",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.isSecureConnection",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.isTlsEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setAnonymousBind",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setBaseDN",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setBindName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setBindPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupFilter",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupFullName",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupMember",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setGroupSearchBase",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setPrimary",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setSecureConnection",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setServerDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setServerPort",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setTlsEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserFirstName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserLastName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserObjectClass",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LdapConfigurationSpecDataObj.setUserSearchBase",,,,1,3,8
+Public Class,"com.coverity.ws.v9.LicenseDataObj",6,85,85,14,62,129
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getCustomer",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getExpirationDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getLicenseEditionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getLoc",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getLocLimit",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getUserCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LicenseDataObj.getUserLimit",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setCustomer",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setExpirationDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setLicenseEditionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setLoc",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setLocLimit",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setUserCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LicenseDataObj.setUserLimit",,,,1,3,8
+Public Class,"com.coverity.ws.v9.LicenseSpecDataObj",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.LicenseSpecDataObj.getLicenseDataFile",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LicenseSpecDataObj.setLicenseDataFile",,,,1,3,8
+Public Class,"com.coverity.ws.v9.LicenseStateDataObj",2,0,0,2,13,27
+Public Method,"com.coverity.ws.v9.LicenseStateDataObj.isDesktopAnalysisEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.LicenseStateDataObj.setDesktopAnalysisEnabled",,,,1,3,4
+Public Class,"com.coverity.ws.v9.LocalizedValueDataObj",3,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.LocalizedValueDataObj.getDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LocalizedValueDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LocalizedValueDataObj.setDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LocalizedValueDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.LoggingConfigurationDataObj",3,94,94,36,149,324
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isAccessControlLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isBackgroundLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isCommitLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isConfigurationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isDatabaseLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isFrameworkLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isInternalLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isNotificationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isPerformanceLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isPolicyManagerLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isRemoteConfigLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isRequestPerformanceLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isSkeletonizationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isTestAdvisorLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isTriageLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isTriageSynchLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isWebLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.isWebServicesLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setAccessControlLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setBackgroundLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setCommitLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setConfigurationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setDatabaseLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setFrameworkLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setInternalLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setNotificationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setPerformanceLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setPolicyManagerLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setRemoteConfigLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setRequestPerformanceLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setSkeletonizationLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setTestAdvisorLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setTriageLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setTriageSynchLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setWebLogging",,,,1,3,8
+Public Method,"com.coverity.ws.v9.LoggingConfigurationDataObj.setWebServicesLogging",,,,1,3,8
+Public Class,"com.coverity.ws.v9.MergeTriageStores",5,75,75,8,37,76
+Public Method,"com.coverity.ws.v9.MergeTriageStores.getSrcTriageStoreIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergeTriageStores.getTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergeTriageStores.isAssignStreamsToTargetStore",,,,1,3,4
+Public Method,"com.coverity.ws.v9.MergeTriageStores.isDeleteSourceStores",,,,1,3,4
+Public Method,"com.coverity.ws.v9.MergeTriageStores.setAssignStreamsToTargetStore",,,,1,3,4
+Public Method,"com.coverity.ws.v9.MergeTriageStores.setDeleteSourceStores",,,,1,3,4
+Public Method,"com.coverity.ws.v9.MergeTriageStores.setTriageStoreId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.MergeTriageStoresResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.MergedDefectDataObj",11,96,96,62,258,551
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getComponentName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getCwe",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDefectStateAttributeValues",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDisplayCategory",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDisplayImpact",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDisplayIssueKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDisplayType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFilePathname",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetected",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedBy",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedStream",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedTarget",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFirstDetectedVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFunctionDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getFunctionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getIssueKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetected",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetectedDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetectedSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetectedStream",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetectedTarget",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastDetectedVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastFixed",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getLastTriaged",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.getOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setComponentName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setCwe",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setDisplayCategory",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setDisplayImpact",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setDisplayIssueKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setDisplayType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFilePathname",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetected",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedBy",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedStream",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedTarget",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFirstDetectedVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFunctionDisplayName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setFunctionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setIssueKind",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetected",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetectedDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetectedSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetectedStream",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetectedTarget",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastDetectedVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastFixed",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setLastTriaged",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectDataObj.setOccurrenceCount",,,,1,3,8
+Public Class,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj",15,97,97,82,363,835
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getActionNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getAttributeDefinitionValueFilterMap",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getCheckerCategoryList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getCheckerList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getCheckerTypeList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getCidList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getClassificationNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getComponentIdList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getCweList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getDefectPropertyKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getDefectPropertyPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getExternalReferencePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getFilenamePatternList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getFixTargetNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getFunctionNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getImpactList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getIssueKindList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastFixedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastFixedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastTriagedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLastTriagedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getLegacyNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getMaxCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getMaxOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getMergedDefectIdDataObjs",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getMinCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getMinOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getOwnerNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getOwnerNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getSeverityNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getSnapshotComparisonField",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getStatusNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getStreamExcludeNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getStreamExcludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getStreamIncludeNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.getStreamIncludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.isComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setDefectPropertyKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setDefectPropertyPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setExternalReferencePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setFunctionNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastFixedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastFixedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastTriagedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setLastTriagedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setMaxCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setMaxOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setMinCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setMinOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setOwnerNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setSnapshotComparisonField",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setStreamExcludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectFilterSpecDataObj.setStreamIncludeQualifier",,,,1,3,8
+Public Class,"com.coverity.ws.v9.MergedDefectIdDataObj",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.MergedDefectIdDataObj.getCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectIdDataObj.getMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectIdDataObj.setCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectIdDataObj.setMergeKey",,,,1,3,8
+Public Class,"com.coverity.ws.v9.MergedDefectsPageDataObj",8,66,66,6,31,81
+Public Method,"com.coverity.ws.v9.MergedDefectsPageDataObj.getMergedDefectIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectsPageDataObj.getMergedDefects",,,,2,6,22
+Public Method,"com.coverity.ws.v9.MergedDefectsPageDataObj.getTotalNumberOfRecords",,,,1,3,8
+Public Method,"com.coverity.ws.v9.MergedDefectsPageDataObj.setTotalNumberOfRecords",,,,1,3,8
+Public Class,"com.coverity.ws.v9.Notify",5,66,66,6,29,75
+Public Method,"com.coverity.ws.v9.Notify.getMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.Notify.getSubject",,,,1,3,8
+Public Method,"com.coverity.ws.v9.Notify.getUsernames",,,,2,6,22
+Public Method,"com.coverity.ws.v9.Notify.setMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.Notify.setSubject",,,,1,3,8
+Public Class,"com.coverity.ws.v9.NotifyResponse",6,0,0,2,14,41
+Public Method,"com.coverity.ws.v9.NotifyResponse.getReturn",,,,2,6,22
+Public Class,"com.coverity.ws.v9.ObjectFactory",71,0,0,96,348,456
+Public Constructor,"com.coverity.ws.v9.ObjectFactory.ObjectFactory",,,,1,2,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createAttributeDefinitionIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createAttributeDefinitionValueFilterMapDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createAttributeValueIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createComponentIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createComponentMetricsDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCovRemoteServiceException",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCoverityFault",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCreateMergedDefect",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCreateMergedDefect",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCreateMergedDefectResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createCreateMergedDefectResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectChangeDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectDetectionHistoryDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectInstanceDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectInstanceIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectStateAttributeValueDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectStateDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createDefectStateSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createEventDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createFieldChangeDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createFileContentsDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createFileIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createFunctionInfoDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetComponentMetricsForProject",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetComponentMetricsForProject",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetComponentMetricsForProjectResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetComponentMetricsForProjectResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetFileContents",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetFileContents",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetFileContentsResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetFileContentsResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectDetectionHistory",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectDetectionHistory",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectDetectionHistoryResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectDetectionHistoryResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectHistory",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectHistory",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectHistoryResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectHistoryResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForProjectScope",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForProjectScope",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForProjectScopeResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForProjectScopeResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForSnapshotScope",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForSnapshotScope",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForSnapshotScopeResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForSnapshotScopeResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForStreams",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForStreams",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForStreamsResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetMergedDefectsForStreamsResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetStreamDefects",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetStreamDefects",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetStreamDefectsResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetStreamDefectsResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTrendRecordsForProject",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTrendRecordsForProject",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTrendRecordsForProjectResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTrendRecordsForProjectResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTriageHistory",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTriageHistory",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTriageHistoryResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createGetTriageHistoryResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createLocalizedValueDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createMergedDefectDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createMergedDefectFilterSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createMergedDefectIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createMergedDefectsPageDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createPageSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createProjectIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createProjectMetricsDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createProjectScopeDefectFilterSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createProjectTrendRecordFilterSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createPropertyDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createPropertySpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createSnapshotScopeDefectFilterSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createSnapshotScopeSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createStreamDefectDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createStreamDefectFilterSpecDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createStreamDefectIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createStreamIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createTriageHistoryDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createTriageStoreIdDataObj",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateDefectInstanceProperties",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateDefectInstanceProperties",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateDefectInstancePropertiesResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateDefectInstancePropertiesResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateStreamDefects",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateStreamDefects",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateStreamDefectsResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateStreamDefectsResponse",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateTriageForCIDsInTriageStore",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateTriageForCIDsInTriageStore",,,,1,4,5
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateTriageForCIDsInTriageStoreResponse",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ObjectFactory.createUpdateTriageForCIDsInTriageStoreResponse",,,,1,4,5
+Public Class,"com.coverity.ws.v9.OutputFileDataObj",3,50,50,4,21,50
+Public Method,"com.coverity.ws.v9.OutputFileDataObj.getContents",,,,1,3,7
+Public Method,"com.coverity.ws.v9.OutputFileDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.OutputFileDataObj.setContents",,,,1,3,7
+Public Method,"com.coverity.ws.v9.OutputFileDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.PageSpecDataObj",3,75,75,8,37,62
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.getPageSize",,,,1,3,4
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.getSortField",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.getStartIndex",,,,1,3,4
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.isSortAscending",,,,1,3,4
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.setPageSize",,,,1,3,4
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.setSortAscending",,,,1,3,4
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.setSortField",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PageSpecDataObj.setStartIndex",,,,1,3,4
+Public Class,"com.coverity.ws.v9.PermissionDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.PermissionDataObj.getPermissionValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PermissionDataObj.setPermissionValue",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectDataObj",12,90,90,20,90,206
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getProjectKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getStreamLinks",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getStreams",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getUserCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.getUserModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setProjectKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setUserCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectDataObj.setUserModified",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectFilterSpecDataObj",4,75,75,8,37,86
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.getDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.isIncludeChildren",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.isIncludeStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.setDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.setIncludeChildren",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.setIncludeStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.ProjectIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectMetricsDataObj",6,92,92,26,111,151
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getBlankLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getCodeLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getCommentLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getDismissedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getFixedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getInspectedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getMetricsDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getNewCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getOutstandingCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getResolvedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getTotalCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.getTriagedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setBlankLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setCodeLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setCommentLineCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setDismissedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setFixedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setInspectedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setMetricsDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setNewCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setOutstandingCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setResolvedCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setTotalCount",,,,1,3,4
+Public Method,"com.coverity.ws.v9.ProjectMetricsDataObj.setTriagedCount",,,,1,3,4
+Public Class,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj",11,95,95,42,192,465
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getActionNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getCheckerCategoryList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getCheckerList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getCheckerTypeList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getCidList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getClassificationNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getComponentIdList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getCweList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getFirstDetectedBy",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getFixTargetNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getImpactNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getIssueKindList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getLegacyNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getOwnerNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getOwnerNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.getSeverityNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.isComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectScopeDefectFilterSpecDataObj.setOwnerNamePattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectSpecDataObj",8,80,80,10,48,121
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.getStreamLinks",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.getStreams",,,,2,6,22
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectSpecDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ProjectTrendRecordFilterSpecDataObj",4,50,50,4,23,52
+Public Method,"com.coverity.ws.v9.ProjectTrendRecordFilterSpecDataObj.getEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectTrendRecordFilterSpecDataObj.getStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectTrendRecordFilterSpecDataObj.setEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ProjectTrendRecordFilterSpecDataObj.setStartDate",,,,1,3,8
+Public Class,"com.coverity.ws.v9.PropertyDataObj",3,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.PropertyDataObj.getKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertyDataObj.getValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertyDataObj.setKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertyDataObj.setValue",,,,1,3,8
+Public Class,"com.coverity.ws.v9.PropertySpecDataObj",3,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.PropertySpecDataObj.getKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertySpecDataObj.getValue",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertySpecDataObj.setKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.PropertySpecDataObj.setValue",,,,1,3,8
+Public Class,"com.coverity.ws.v9.RoleAssignmentDataObj",5,80,80,10,45,103
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.getGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.getRoleAssignmentType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.getRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.getType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.setGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.setRoleAssignmentType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.setRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.setType",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleAssignmentDataObj.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.RoleDataObj",9,80,80,10,46,109
+Public Method,"com.coverity.ws.v9.RoleDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.getPermissionDataObjs",,,,2,6,22
+Public Method,"com.coverity.ws.v9.RoleDataObj.getRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.isDeletable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.isEditable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.setDeletable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.setEditable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleDataObj.setRoleId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.RoleIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.RoleIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.RoleSpecDataObj",8,80,80,10,46,109
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.getPermissionDataObjs",,,,2,6,22
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.isDeletable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.isEditable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.setDeletable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.setEditable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.RoleSpecDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.ServerDomainIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.ServerDomainIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.ServerDomainIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetAcceptingNewCommits",2,0,0,2,13,27
+Public Method,"com.coverity.ws.v9.SetAcceptingNewCommits.isAcceptNewCommits",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SetAcceptingNewCommits.setAcceptNewCommits",,,,1,3,4
+Public Class,"com.coverity.ws.v9.SetAcceptingNewCommitsResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetArchitectureAnalysisConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetArchitectureAnalysisConfiguration.getArchitectureAnalysisConfiguration",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetArchitectureAnalysisConfiguration.setArchitectureAnalysisConfiguration",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetArchitectureAnalysisConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetBackupConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetBackupConfiguration.getBackupConfigurationDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetBackupConfiguration.setBackupConfigurationDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetBackupConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetLoggingConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetLoggingConfiguration.getLoggingConfigurationDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetLoggingConfiguration.setLoggingConfigurationDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetLoggingConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetMessageOfTheDay",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetMessageOfTheDay.getMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetMessageOfTheDay.setMessage",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetMessageOfTheDayResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetSkeletonizationConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetSkeletonizationConfiguration.getSkeletonizationConfigurationDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetSkeletonizationConfiguration.setSkeletonizationConfigurationDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetSkeletonizationConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SetSnapshotPurgeDetails",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.SetSnapshotPurgeDetails.getPurgeDetailsSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SetSnapshotPurgeDetails.setPurgeDetailsSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SetSnapshotPurgeDetailsResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.SignInSettingsDataObj",4,88,88,18,77,171
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.getMaxFailedSignInAttempts",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.getMaxSessionIdleTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isAllowPasswordRecovery",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isDisableLocalPasswordAuth",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isEnableLdapAuth",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isEnableSessionTimeout",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isLdapUserAutoCreate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isLimitFailedSignIns",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.isRequireLdapGroupMembership",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setAllowPasswordRecovery",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setDisableLocalPasswordAuth",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setEnableLdapAuth",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setEnableSessionTimeout",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setLdapUserAutoCreate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setLimitFailedSignIns",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setMaxFailedSignInAttempts",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setMaxSessionIdleTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SignInSettingsDataObj.setRequireLdapGroupMembership",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj",5,90,90,20,85,188
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.getDaysBeforeSkeletonization",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.getMinSnapshotsToKeep",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.getTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isFridayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isMondayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isSaturdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isSundayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isThursdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isTuesdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.isWednesdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setDaysBeforeSkeletonization",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setFridayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setMinSnapshotsToKeep",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setMondayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setSaturdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setSundayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setThursdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setTuesdayEnabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SkeletonizationConfigurationDataObj.setWednesdayEnabled",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SnapshotFilterSpecDataObj",6,85,85,14,64,137
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getLastBeforeCodeVersionDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getTargetPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.getVersionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.isHasSummaries",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setHasSummaries",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setLastBeforeCodeVersionDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setTargetPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotFilterSpecDataObj.setVersionPattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SnapshotIdDataObj",2,0,0,2,13,27
+Public Method,"com.coverity.ws.v9.SnapshotIdDataObj.getId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotIdDataObj.setId",,,,1,3,4
+Public Class,"com.coverity.ws.v9.SnapshotInfoDataObj",11,95,95,48,201,416
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisCommandLine",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisConfiguration",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisHost",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisIntermediateDir",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisInternalVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getAnalysisVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getBuildCommandLine",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getBuildConfiguration",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getBuildHost",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getBuildIntermediateDir",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getBuildTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getCodeVersionDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getCommitUser",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getEnabledCheckers",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getImpactHashVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getPortableAnalysisSettings",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getSourceVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.getTarget",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.isHasSummaries",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.isPurgedOfDetails",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisCommandLine",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisConfiguration",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisHost",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisIntermediateDir",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisInternalVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setAnalysisVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setBuildCommandLine",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setBuildConfiguration",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setBuildHost",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setBuildIntermediateDir",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setBuildTime",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setCodeVersionDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setCommitUser",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setHasSummaries",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setImpactHashVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setPortableAnalysisSettings",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setPurgedOfDetails",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setSourceVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotInfoDataObj.setTarget",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SnapshotPurgeDetailsObj",3,90,90,20,85,116
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.getDaysBeforeSkeletonization",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.getMinSnapshotsToKeep",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.getTimeOfDay",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isFridayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isMondayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isSaturdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isSundayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isThursdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isTuesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.isWednesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setDaysBeforeSkeletonization",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setFridayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setMinSnapshotsToKeep",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setMondayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setSaturdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setSundayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setThursdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setTimeOfDay",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setTuesdayEnabled",,,,1,3,4
+Public Method,"com.coverity.ws.v9.SnapshotPurgeDetailsObj.setWednesdayEnabled",,,,1,3,4
+Public Class,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj",14,97,97,70,309,721
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getActionNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getAttributeDefinitionValueFilterMap",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getCheckerCategoryList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getCheckerList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getCheckerTypeList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getCidList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getClassificationNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getComponentIdList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getCweList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getExternalReference",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFileName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFixTargetNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFunctionMergeName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getFunctionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getImpactNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getIssueComparison",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getIssueKindList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getLegacyNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getMaxOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getMergeExtra",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getMinOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getOwnerNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getOwnerNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getSeverityNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getStatusNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getStreamExcludeNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getStreamExcludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getStreamIncludeNameList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.getStreamIncludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.isComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setComponentIdExclude",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setExternalReference",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setFileName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setFirstDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setFirstDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setFunctionMergeName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setFunctionName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setIssueComparison",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setLastDetectedEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setLastDetectedStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setMaxOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setMergeExtra",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setMergeKey",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setMinOccurrenceCount",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setOwnerNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setStreamExcludeQualifier",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeDefectFilterSpecDataObj.setStreamIncludeQualifier",,,,1,3,8
+Public Class,"com.coverity.ws.v9.SnapshotScopeSpecDataObj",5,75,75,8,41,86
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.getCompareSelector",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.getShowSelector",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.isCompareOutdatedStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.isShowOutdatedStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.setCompareOutdatedStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.setCompareSelector",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.setShowOutdatedStreams",,,,1,3,8
+Public Method,"com.coverity.ws.v9.SnapshotScopeSpecDataObj.setShowSelector",,,,1,3,8
+Public Class,"com.coverity.ws.v9.StreamDataObj",13,92,92,28,118,254
+Public Method,"com.coverity.ws.v9.StreamDataObj.getAnalysisVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getLanguage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getPluginVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getPrimaryProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamDataObj.getSummaryExpirationDays",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.getVersionMismatchMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.isAutoDeleteOnExpiry",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDataObj.isEnableDesktopAnalysis",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.isOutdated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setAnalysisVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setAutoDeleteOnExpiry",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDataObj.setComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setEnableDesktopAnalysis",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setLanguage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setOutdated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setPluginVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setPrimaryProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setSummaryExpirationDays",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDataObj.setVersionMismatchMessage",,,,1,3,8
+Public Class,"com.coverity.ws.v9.StreamDefectDataObj",12,87,87,16,72,172
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getDefectInstances",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getDefectStateAttributeValues",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getHistory",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.getStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.setCheckerName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.setCid",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.setId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectDataObj.setStreamId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj",8,80,80,10,48,93
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.getDefectStateEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.getDefectStateStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.getStreamIdList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.isIncludeDefectInstances",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.isIncludeHistory",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.setDefectStateEndDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.setDefectStateStartDate",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.setIncludeDefectInstances",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectFilterSpecDataObj.setIncludeHistory",,,,1,3,4
+Public Class,"com.coverity.ws.v9.StreamDefectIdDataObj",2,75,75,8,37,54
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.getDefectTriageId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.getDefectTriageVerNum",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.getId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.getVerNum",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.setDefectTriageId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.setDefectTriageVerNum",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.setId",,,,1,3,4
+Public Method,"com.coverity.ws.v9.StreamDefectIdDataObj.setVerNum",,,,1,3,4
+Public Class,"com.coverity.ws.v9.StreamFilterSpecDataObj",6,66,66,6,30,75
+Public Method,"com.coverity.ws.v9.StreamFilterSpecDataObj.getDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamFilterSpecDataObj.getLanguageList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamFilterSpecDataObj.setDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.StreamIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.StreamIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.StreamSpecDataObj",11,92,92,28,118,262
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getAnalysisVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getLanguage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getPluginVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getSummaryExpirationDays",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.getVersionMismatchMessage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.isAllowCommitWithoutPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.isAutoDeleteOnExpiry",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.isEnableDesktopAnalysis",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.isOutdated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setAllowCommitWithoutPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setAnalysisVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setAutoDeleteOnExpiry",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setEnableDesktopAnalysis",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setLanguage",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setOutdated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setPluginVersionOverride",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setSummaryExpirationDays",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.StreamSpecDataObj.setVersionMismatchMessage",,,,1,3,8
+Public Class,"com.coverity.ws.v9.TriageHistoryDataObj",7,50,50,4,22,58
+Public Method,"com.coverity.ws.v9.TriageHistoryDataObj.getAttributes",,,,2,6,22
+Public Method,"com.coverity.ws.v9.TriageHistoryDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageHistoryDataObj.setId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.TriageStoreDataObj",9,75,75,8,39,98
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.getId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.getStreamIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreDataObj.setId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.TriageStoreFilterSpecDataObj",3,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.TriageStoreFilterSpecDataObj.getDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreFilterSpecDataObj.setDescriptionPattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Class,"com.coverity.ws.v9.TriageStoreIdDataObj",4,0,0,2,14,35
+Public Method,"com.coverity.ws.v9.TriageStoreIdDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreIdDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.TriageStoreSpecDataObj",7,66,66,6,30,75
+Public Method,"com.coverity.ws.v9.TriageStoreSpecDataObj.getDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreSpecDataObj.getName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreSpecDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.TriageStoreSpecDataObj.setDescription",,,,1,3,8
+Public Method,"com.coverity.ws.v9.TriageStoreSpecDataObj.setName",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateAttribute",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateAttribute.getAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateAttribute.getAttributeDefinitionSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateAttribute.setAttributeDefinitionId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateAttribute.setAttributeDefinitionSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateAttributeResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateComponentMap",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateComponentMap.getComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateComponentMap.getComponentMapSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateComponentMap.setComponentMapId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateComponentMap.setComponentMapSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateComponentMapResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateDefectInstanceProperties",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.UpdateDefectInstanceProperties.getDefectInstanceId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateDefectInstanceProperties.getProperties",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UpdateDefectInstanceProperties.setDefectInstanceId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateDefectInstancePropertiesResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateGroup",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateGroup.getGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateGroup.getGroupSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateGroup.setGroupId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateGroup.setGroupSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateGroupResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateLdapConfiguration",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateLdapConfiguration.getLdapConfigurationSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateLdapConfiguration.getServerDomainIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateLdapConfiguration.setLdapConfigurationSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateLdapConfiguration.setServerDomainIdDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateLdapConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateProject",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateProject.getProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateProject.getProjectSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateProject.setProjectId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateProject.setProjectSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateProjectResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateRole",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateRole.getRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateRole.getRoleSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateRole.setRoleId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateRole.setRoleSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateRoleResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateSignInConfiguration",3,0,0,2,13,35
+Public Method,"com.coverity.ws.v9.UpdateSignInConfiguration.getSignInSettingsDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateSignInConfiguration.setSignInSettingsDataObj",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateSignInConfigurationResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateSnapshotInfo",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateSnapshotInfo.getSnapshotData",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateSnapshotInfo.getSnapshotId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateSnapshotInfo.setSnapshotData",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateSnapshotInfo.setSnapshotId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateSnapshotInfoResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateStream",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateStream.getStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateStream.getStreamSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateStream.setStreamId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateStream.setStreamSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateStreamDefects",6,50,50,4,21,58
+Public Method,"com.coverity.ws.v9.UpdateStreamDefects.getDefectStateSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateStreamDefects.getStreamDefectIds",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UpdateStreamDefects.setDefectStateSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateStreamDefectsResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateStreamResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore",7,66,66,6,29,75
+Public Method,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore.getDefectState",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore.getMergedDefectIdDataObjs",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore.getTriageStore",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore.setDefectState",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStore.setTriageStore",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateTriageForCIDsInTriageStoreResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateTriageStore",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateTriageStore.getTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageStore.getTriageStoreSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageStore.setTriageStoreId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateTriageStore.setTriageStoreSpec",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateTriageStoreResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UpdateUser",4,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.UpdateUser.getUserSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateUser.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateUser.setUserSpec",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UpdateUser.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UpdateUserResponse",2,0,0,0,4,18
+Public Class,"com.coverity.ws.v9.UserDataObj",11,94,94,38,163,353
+Public Method,"com.coverity.ws.v9.UserDataObj.getDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getDateDeleted",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getFamilyName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getGivenName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getGroups",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UserDataObj.getLocale",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getPasswordChanged",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UserDataObj.getUserCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getUserDeleted",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getUserModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.isDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.isLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.isLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.isSuperUser",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setDateCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setDateDeleted",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setDateModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setFamilyName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setGivenName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setLocale",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setPasswordChanged",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setSuperUser",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setUserCreated",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setUserDeleted",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setUserModified",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserDataObj.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UserFilterSpecDataObj",9,88,88,18,78,177
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.getGroupsList",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.getNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.getProjectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.getStartId",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.isAssignable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.isDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.isIncludeDetails",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.isLdap",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.isLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setAssignable",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setIncludeDetails",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setLdap",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setNamePattern",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setProjectIdDataObj",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserFilterSpecDataObj.setStartId",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UserSpecDataObj",10,91,91,24,102,234
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getFamilyName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getGivenName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getGroupNames",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getLocale",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getRoleAssignments",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.getUsername",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.isDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.isLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.isLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setDisabled",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setDomain",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setEmail",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setFamilyName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setGivenName",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setLocal",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setLocale",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setLocked",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setPassword",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UserSpecDataObj.setUsername",,,,1,3,8
+Public Class,"com.coverity.ws.v9.UsersPageDataObj",7,50,50,4,22,58
+Public Method,"com.coverity.ws.v9.UsersPageDataObj.getTotalNumberOfRecords",,,,1,3,8
+Public Method,"com.coverity.ws.v9.UsersPageDataObj.getUsers",,,,2,6,22
+Public Method,"com.coverity.ws.v9.UsersPageDataObj.setTotalNumberOfRecords",,,,1,3,8
+Public Class,"com.coverity.ws.v9.VersionDataObj",3,50,50,4,21,52
+Public Method,"com.coverity.ws.v9.VersionDataObj.getExternalVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.VersionDataObj.getInternalVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.VersionDataObj.setExternalVersion",,,,1,3,8
+Public Method,"com.coverity.ws.v9.VersionDataObj.setInternalVersion",,,,1,3,8
+Package,"org.sonar",,,,0,0,0
+Package,"org.sonar.plugins",,,,0,0,0
+Package,"org.sonar.plugins.coverity",,,,2,117,44
+Public Final Class,"org.sonar.plugins.coverity.CoverityPlugin",18,0,0,1,88,24
+Public Method,"org.sonar.plugins.coverity.CoverityPlugin.getExtensions",,,,1,76,23
+Public Class,"org.sonar.plugins.coverity.CoverityPluginTest",4,0,0,1,7,0
+Public Method,"org.sonar.plugins.coverity.CoverityPluginTest.testGetExtensions",,,,1,5,0
+Package,"org.sonar.plugins.coverity.base",,,,1,47,20
+Public Class,"org.sonar.plugins.coverity.base.CoverityPluginMetrics",5,100,100,1,42,8
+Public Method,"org.sonar.plugins.coverity.base.CoverityPluginMetrics.getMetrics",,,,1,4,0
+Package,"org.sonar.plugins.coverity.batch",,,,50,396,51
+Public Class,"org.sonar.plugins.coverity.batch.CoveritySensor",44,79,79,41,281,26
+Public Constructor,"org.sonar.plugins.coverity.batch.CoveritySensor.CoveritySensor",,,,1,10,4
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.analyse",,,,29,176,15
+Private Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getCoverityLogoMeasures",,,,1,44,0
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getDefectURL",,,,2,4,1
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getIssueMessage",,,,1,6,0
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getMainEvent",,,,4,11,1
+Protected Method,"org.sonar.plugins.coverity.batch.CoveritySensor.getResourceForFile",,,,1,6,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.shouldExecuteOnProject",,,,1,5,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensor.toString",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.batch.CoveritySensorTest",21,82,82,9,66,5
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.setUp",,,,1,8,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetCheckerProperties",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetCoverityLogoMeasures",,,,1,11,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetDefectURL",,,,1,13,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetIssueMessage",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetMainEvent",,,,2,14,0
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testGetResourceForFile",,,,1,3,1
+Public Method,"org.sonar.plugins.coverity.batch.CoveritySensorTest.testShouldExecuteOnProject",,,,1,4,1
+Package,"org.sonar.plugins.coverity.server",,,,51,366,183
+Public Class,"org.sonar.plugins.coverity.server.CLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CLanguage.CLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityProfiles",8,33,33,4,42,1
+Class,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile",7,0,0,4,19,1
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.CoverityProfile",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.createProfile",,,,2,9,1
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfile.toString",,,,1,4,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityProfiles.CoverityProfiles",,,,1,7,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.provide",,,,2,8,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityProfiles.toString",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityRules",27,83,75,17,123,9
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRules.CoverityRules",,,,1,2,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRules.CoverityRules",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityRules.define",,,,3,21,3
+Public Static Method,"org.sonar.plugins.coverity.server.CoverityRules.getMapOfRuleMaps",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.CoverityRules.parseRules",,,,11,67,0
+Public Class,"org.sonar.plugins.coverity.server.CoverityRulesRepositories",7,0,0,1,16,0
+Public Constructor,"org.sonar.plugins.coverity.server.CoverityRulesRepositories.CoverityRulesRepositories",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CppLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CppLanguage.CppLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CppLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CsLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CsLanguage.CsLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CsLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.CxxLanguage",2,0,0,2,14,22
+Public Constructor,"org.sonar.plugins.coverity.server.CxxLanguage.CxxLanguage",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.server.CxxLanguage.getFileSuffixes",,,,1,4,0
+Public Class,"org.sonar.plugins.coverity.server.InternalRule",3,75,75,17,65,6
+Public Constructor,"org.sonar.plugins.coverity.server.InternalRule.InternalRule",,,,1,0,0
+Public Constructor,"org.sonar.plugins.coverity.server.InternalRule.InternalRule",,,,1,7,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.equals",,,,4,14,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.getDescription",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.getKey",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.getLanguage",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.getName",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.getSeverity",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.hashCode",,,,1,6,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.setDescription",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.setKey",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.setLanguage",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.setName",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.server.InternalRule.setSeverity",,,,1,3,0
+Package,"org.sonar.plugins.coverity.ui",,,,6,50,30
+Public Final Class,"org.sonar.plugins.coverity.ui.CoverityFooter",4,0,0,3,26,9
+Public Constructor,"org.sonar.plugins.coverity.ui.CoverityFooter.CoverityFooter",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ui.CoverityFooter.getHtml",,,,2,20,9
+Public Class,"org.sonar.plugins.coverity.ui.CoverityWidget",7,0,0,3,15,1
+Public Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getId",,,,1,3,0
+Protected Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getTemplatePath",,,,1,4,1
+Public Method,"org.sonar.plugins.coverity.ui.CoverityWidget.getTitle",,,,1,3,0
+Package,"org.sonar.plugins.coverity.util",,,,38,257,60
+Public Class,"org.sonar.plugins.coverity.util.CoverityUtil",13,0,0,14,48,1
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,1,6,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.createURL",,,,3,6,1
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.flattenDefectInstanceCheckerName",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.getRuleKey",,,,1,3,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.getValue",,,,1,5,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.listFiles",,,,4,11,0
+Public Static Method,"org.sonar.plugins.coverity.util.CoverityUtil.listFiles",,,,2,9,0
+Public Class,"org.sonar.plugins.coverity.util.FileGenerator",32,40,30,24,176,38
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.generateRulesFromJSONFile",,,,13,72,18
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.loadRulesFromXMLFiles",,,,5,41,0
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.main",,,,1,20,12
+Public Static Method,"org.sonar.plugins.coverity.util.FileGenerator.writeRulesToFiles",,,,5,26,8
+Package,"org.sonar.plugins.coverity.ws",,,,36,232,81
+Public Class,"org.sonar.plugins.coverity.ws.CIMClient",32,84,54,23,134,55
+Public Constructor,"org.sonar.plugins.coverity.ws.CIMClient.CIMClient",,,,1,7,0
+Private Method,"org.sonar.plugins.coverity.ws.CIMClient.attachAuthenticationHandler",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getConfigurationService",,,,2,17,4
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getDefectService",,,,2,17,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getDefects",,,,2,17,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getHost",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getPassword",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getPort",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getProject",,,,2,10,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getProjects",,,,1,3,3
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getStreamDefectsForMergedDefects",,,,5,27,5
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getURL",,,,2,3,6
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.getUser",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.CIMClient.isUseSSL",,,,1,3,0
+Public Class,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS",22,75,75,12,66,6
+Public Constructor,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.ClientAuthenticationHandlerWSS",,,,2,19,1
+Private Class,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.SecurityEnvironmentHandler",2,0,0,1,4,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.SecurityEnvironmentHandler.handle",,,,1,2,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.close",,,,1,2,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.destroy",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.getHeaders",,,,1,6,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.handleFault",,,,1,3,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.handleMessage",,,,4,17,0
+Public Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.init",,,,1,3,0
+Private Method,"org.sonar.plugins.coverity.ws.ClientAuthenticationHandlerWSS.quote",,,,1,3,0
+File,"package-info.java",,,,0,2,1
