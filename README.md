@@ -4,9 +4,6 @@
 
 this readme will explain all the steps i made in my research.
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
 ## folders
 
