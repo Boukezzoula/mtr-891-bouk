@@ -2,7 +2,8 @@
 
 # Steps:
 
-1- i have created "checkVersions_to_confirm_project_updated_outdated.py" to check all github project and retrieve the version of dependencies in the pom file and the latest available version of the dependency online.
+1- i have created "checkVersions_to_confirm_project_updated_outdated.py" to check all github project and retrieve the version of dependencies in the pom file and the latest available version of the dependency online , the results are saved on check_versions_for_project_updated_or_outdate
+ folder .
 
 
 2- i have created this script : "https://github.com/Boukezzoula/PomXmlParser" to parse all github project and extract all the changes in the dependencies
