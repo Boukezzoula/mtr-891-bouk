@@ -7,5 +7,5 @@
 
  5.A- folder : metrics data mining results ( current modifierd commit and previous commit ) : contains the metrics collected for all the commits with dependency modification and the previous commit .
  
- 5.B- folder : metrics data mining results for latest modified commit and the latest exisiting commit in the project : contains the metrics collected to compare the commit with latest modified dependency and the latest commit available for the project .
+ 5.B- folder : metrics data mining results for latest modified commit and the latest exisiting commit in the project : contains the metrics collected to compare the commit with latest modified dependency and the latest commit available for the project , the results of the comparaison is available at comparaison folder.
  
