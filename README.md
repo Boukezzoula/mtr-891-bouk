@@ -11,9 +11,14 @@
 
 4- i have used this script "data_cleaning.py" to clean the data and collect information about number of added lines,deleted lines,modified files, and total number of changes .
 
-5- to generate the metrics i've developed this script  : https://github.com/Boukezzoula/Scitools-Understand-software-metrics-collector
+5- i have used this script "previous_current_commits.py" to prepare the commits we will use in sci-tools understand , i have generated csv file for each project and saved it on "metrics_dataframes" folder , which contains the commit with modified dependency hash and the previous commit hash
 
- 5.A- folder : metrics data mining results ( current modifierd commit and previous commit ) : contains the metrics collected for all the commits with dependency modification and the previous commit .
+6- to generate the metrics i've developed this script  : https://github.com/Boukezzoula/Scitools-Understand-software-metrics-collector
+
+ 6.A- folder : metrics data mining results ( current modifierd commit and previous commit ) : contains the metrics collected for all the commits with dependency modification and the previous commit .
  
- 5.B- folder : metrics data mining results for latest modified commit and the latest exisiting commit in the project : contains the metrics collected to compare the commit with latest modified dependency and the latest commit available for the project , the results of the comparaison is available at comparaison folder.
+ 6.B- folder : metrics data mining results for latest modified commit and the latest exisiting commit in the project : contains the metrics collected to compare the commit with latest modified dependency and the latest commit available for the project , the results of the comparaison is available at comparaison folder.
  
+7 - i have used "metrics-report-generator.py" to generate the mean of the metrics for all commits for each project and saved it on metrics report folder.
+
+8- in the end i have created jupyter notebook "datafinding.ipynb" to generate p-values and compare the metrics.
