@@ -1,0 +1,6 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+529b2f0e22ef1bca34a6852a6f4de8e2896902b9,2018-12-28 10:52:55+08:00,ADD,com.squareup.okhttp,okhttp,2.7.5,10442,0,49
+529b2f0e22ef1bca34a6852a6f4de8e2896902b9,2018-12-28 10:52:55+08:00,ADD,com.squareup.okhttp,logging-interceptor,2.7.5,10442,0,49
+529b2f0e22ef1bca34a6852a6f4de8e2896902b9,2018-12-28 10:52:55+08:00,ADD,com.google.code.gson,gson,2.8.1,10442,0,49
+529b2f0e22ef1bca34a6852a6f4de8e2896902b9,2018-12-28 10:52:55+08:00,ADD,io.gsonfire,gson-fire,1.8.0,10442,0,49
+529b2f0e22ef1bca34a6852a6f4de8e2896902b9,2018-12-28 10:52:55+08:00,ADD,junit,junit,4.12,10442,0,49

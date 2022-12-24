@@ -1,0 +1,22 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+693be024d163cf85e3fd7906d9591ac851a5b115,2013-03-12 11:24:26-06:00,MODIFY,io.netty,netty-all,None,49,9,6
+693be024d163cf85e3fd7906d9591ac851a5b115,2013-03-12 11:24:26-06:00,MODIFY,io.netty,netty-all,4.0.0.Beta2,49,9,6
+7e233f115b8ca62adb8d439313b9d3a8385c298a,2013-03-22 16:00:57-06:00,MODIFY,io.netty,netty-all,4.0.0.CR1,1,1,1
+bd2692279ce39a8707eefad61e1b15e785474432,2013-05-21 17:32:52-06:00,MODIFY,io.netty,netty-all,4.0.0.CR3,5,15,3
+b58ddeaf0c09f61e5954668256fb93c2937b247f,2013-06-25 11:52:05-06:00,MODIFY,io.netty,netty-all,4.0.0.CR6,40,121,10
+d58be7eb3c6cdbf57b933ad41918563473d15d12,2013-07-30 16:49:23-06:00,MODIFY,io.netty,netty-all,4.0.4.Final,32,25,6
+4b3130c49dce729dac09d74e9f33f681487ca640,2013-08-05 13:57:33-06:00,MODIFY,io.netty,netty-all,4.0.6.Final,1,1,1
+3304df2fec4b032353355f75bde5f55aa8b6e95b,2013-08-28 11:45:17-06:00,MODIFY,io.netty,netty-all,4.0.7.Final,41,14,5
+3a58e9fe448312706f4081a0fb816023f9a84123,2014-03-21 14:08:43-06:00,MODIFY,io.netty,netty-all,4.0.17.Final,2,2,2
+85577f509526b8c6293377e4400b397ff882276a,2015-03-23 22:19:05-06:00,MODIFY,io.netty,netty-all,4.0.26.Final,1,1,1
+defcc0fa61d880662d6f6c7927fc65264435a0a5,2016-09-02 13:38:45-06:00,MODIFY,io.netty,netty-all,4.1.4.Final,10,8,4
+3304df2fec4b032353355f75bde5f55aa8b6e95b,2013-08-28 11:45:17-06:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,None,41,14,5
+de47c97cfacd954eb1b0b343a359bb9241dc00db,2012-03-24 09:25:00-06:00,ADD,org.testng,testng,6.3.1,1690,0,17
+fcf885943a975d1762aa1f08e158db1bbe0037c9,2012-06-20 22:56:39-06:00,ADD,org.testng,testng,None,390,45,69
+fcf885943a975d1762aa1f08e158db1bbe0037c9,2012-06-20 22:56:39-06:00,ADD,org.springframework,spring-context,None,390,45,69
+fcf885943a975d1762aa1f08e158db1bbe0037c9,2012-06-20 22:56:39-06:00,MODIFY,org.springframework,spring-context,3.1.1.RELEASE,390,45,69
+b6ee96c6a249113757b5115e2570bc9da9bc244f,2013-01-25 17:08:37-07:00,MODIFY,org.slf4j,slf4j-api,None,182,908,29
+b6ee96c6a249113757b5115e2570bc9da9bc244f,2013-01-25 17:08:37-07:00,MODIFY,org.slf4j,slf4j-api,1.6.5,182,908,29
+5a75ae6792de928899ec177290bd0ef1dbb7bcb9,2013-01-26 21:30:39-07:00,MODIFY,ch.qos.logback,logback-classic,None,312,342,25
+fcf885943a975d1762aa1f08e158db1bbe0037c9,2012-06-20 22:56:39-06:00,ADD,com.github.jnats,nats-client,None,390,45,69
+fcf885943a975d1762aa1f08e158db1bbe0037c9,2012-06-20 22:56:39-06:00,MODIFY,com.github.jnats,nats-client,project.version,390,45,69

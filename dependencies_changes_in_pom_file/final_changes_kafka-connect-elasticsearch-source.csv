@@ -1,0 +1,17 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+a8aaae188f5905d3ea886c49f5ef095f4d71f82a,2018-05-13 19:37:32+02:00,ADD,org.apache.kafka,connect-api,1.1.0,901,1,9
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,org.apache.kafka,connect-api,2.6.0,381,357,13
+a8aaae188f5905d3ea886c49f5ef095f4d71f82a,2018-05-13 19:37:32+02:00,ADD,org.elasticsearch.client,elasticsearch-rest-high-level-client,6.2.3,901,1,9
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,org.elasticsearch.client,elasticsearch-rest-high-level-client,7.9.3,381,357,13
+a8aaae188f5905d3ea886c49f5ef095f4d71f82a,2018-05-13 19:37:32+02:00,ADD,org.elasticsearch.client,elasticsearch-rest-client,6.2.3,901,1,9
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,org.elasticsearch.client,elasticsearch-rest-client,7.9.3,381,357,13
+68764cfd831917e506d8111fd5c6fbfe62f69c92,2018-05-19 15:18:18+02:00,MODIFY,junit,junit,4.12,415,51,9
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,junit,junit,4.13.1,381,357,13
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,org.testcontainers,testcontainers,1.15.0-rc2,381,357,13
+243641dc094af17bd658ed37b3b8b0f17af48f3c,2020-11-01 11:58:25+01:00,MODIFY,org.testcontainers,elasticsearch,1.15.0-rc2,381,357,13
+cfb95f4aa822e437d2040db11704fdb181689e81,2020-11-10 22:49:13+01:00,MODIFY,ch.qos.logback,logback-core,1.2.3,209,13,7
+96ce0d91e6a9b789208e0f5ba087ed6ef4407dcd,2021-12-17 10:38:18+01:00,MODIFY,ch.qos.logback,logback-core,1.2.8,27,21,7
+cfb95f4aa822e437d2040db11704fdb181689e81,2020-11-10 22:49:13+01:00,MODIFY,ch.qos.logback,logback-classic,1.2.3,209,13,7
+473b1db0bd5aea66ebafa78e98ff0057ee6accfc,2020-12-06 23:03:44+01:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.11.1,172,0,5
+96ce0d91e6a9b789208e0f5ba087ed6ef4407dcd,2021-12-17 10:38:18+01:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.13.0,27,21,7
+89a3a994568bdd9795e33d03e5df7ee87d50a209,2022-10-09 20:54:04+02:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.13.2.1,7,6,2

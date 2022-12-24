@@ -1,0 +1,15 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+55aa412744818b725334f20cdb02f4f56611b36a,2017-12-13 23:45:13+01:00,MODIFY,com.fasterxml.jackson.core,jackson-core,2.9.2,1468,1567,224
+30682e88d659051983f8759bbf41b5f4c40760ca,2022-05-17 13:02:31+02:00,MODIFY,com.fasterxml.jackson.core,jackson-core,2.13.3,53462,2392,237
+55aa412744818b725334f20cdb02f4f56611b36a,2017-12-13 23:45:13+01:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.9.2,1468,1567,224
+535e037897cd5b4c0d023db5d7cb87ccc8a57588,2019-05-16 10:31:37+02:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.9.8,3,3,1
+96fc6bf55dd6113ec3f747feb72989990148dcb3,2021-12-09 20:32:59+00:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.9.10.8,1,1,1
+30682e88d659051983f8759bbf41b5f4c40760ca,2022-05-17 13:02:31+02:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.13.3,53462,2392,237
+89dc9f042694dfe988c631b90a79a05dc2fbd9d7,2022-10-11 00:02:19+02:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.13.4,94101,9770,543
+65fee1f274576c205e2b2e573b2a8880761290e8,2018-05-08 00:25:05+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.1.0,214,705,37
+ad64697406cb3041d433db1ce41e09a01d1d0930,2022-05-23 23:59:25+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.8.2,66312,11486,399
+ad64697406cb3041d433db1ce41e09a01d1d0930,2022-05-23 23:59:25+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.3.2,66312,11486,399
+792179a6f70506fee66702d9800416f4126a0e2e,2014-08-26 17:44:23+02:00,MODIFY,com.google.guava,guava-testlib,18.0,119,107,5
+65fee1f274576c205e2b2e573b2a8880761290e8,2018-05-08 00:25:05+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.1.0,214,705,37
+ad64697406cb3041d433db1ce41e09a01d1d0930,2022-05-23 23:59:25+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.8.2,66312,11486,399
+89dc9f042694dfe988c631b90a79a05dc2fbd9d7,2022-10-11 00:02:19+02:00,MODIFY,org.junit.jupiter,junit-jupiter-engine,5.9.0,94101,9770,543

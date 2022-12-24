@@ -1,0 +1,2 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+0f5dc82694d8d342c4a1637ee28a779a4eff2bb9,2017-11-11 00:19:10-08:00,MODIFY,com.intellij,forms_rt,6.0.5,39,0,2

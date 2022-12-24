@@ -1,0 +1,5 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+2fddc3741efe7702f1b3fefb2e63498672a2af98,2022-08-17 14:28:07+09:00,MODIFY,com.fasterxml.jackson,jackson-bom,2.7.9,16,3,3
+efba08d7ab306dd9c8f32bb81ed3cf4a5592a573,2022-08-17 14:33:14+09:00,MODIFY,com.fasterxml.jackson,jackson-bom,2.13.3,1,5,1
+738153d2b4b6d2144e359d4eb98fa851ba9a8b98,2022-09-03 22:56:17+00:00,MODIFY,com.fasterxml.jackson,jackson-bom,2.13.4,1,1,1
+05e77166fcea00aaa9e7cb4d495d9eb60d92ad51,2022-10-12 21:23:46+00:00,MODIFY,com.fasterxml.jackson,jackson-bom,2.13.4.20221012,1,1,1

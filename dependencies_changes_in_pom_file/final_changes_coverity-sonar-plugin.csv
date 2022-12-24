@@ -1,0 +1,21 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+9e9717b4cce5b0605e25f956d876aa2a0869c08a,2014-01-07 13:17:41-08:00,ADD,org.codehaus.sonar,sonar-plugin-api,2.6.1,2005,0,5
+a9c79170bf8dc36c86f7048650b906cb624eaa94,2014-01-07 13:17:46-08:00,MODIFY,org.codehaus.sonar,sonar-plugin-api,3.6,717,204,9
+7b4ca2ab131b34134caa87f63a85eaf7e01740d8,2014-01-07 13:17:51-08:00,MODIFY,org.codehaus.sonar,sonar-plugin-api,3.7,706,172,10
+b99cb54b55e3c4b71a4d37d027c61b687432c124,2014-07-02 15:33:36-07:00,MODIFY,org.codehaus.sonar,sonar-plugin-api,4.3.2,4627,4494,15
+71e79626e9950c679d36fd21953442b7bc1a7730,2014-12-17 15:01:49-08:00,MODIFY,org.codehaus.sonar,sonar-plugin-api,4.5.1,207,3,7
+0d7b7377f55644a355990da29e352371622c683b,2016-02-19 09:52:31-08:00,MODIFY,org.codehaus.sonar,sonar-plugin-api,5.1,1,1,1
+8d23e09be9cf02de79a7190fded8873a4aec3511,2017-02-28 10:35:05-07:00,MODIFY,org.sonarsource.sonarqube,sonar-plugin-api,5.5,13,13,1
+d33ebbe7d634effe0fc04224907855873c23679c,2017-02-28 13:18:05-07:00,MODIFY,org.sonarsource.sonarqube,sonar-plugin-api,5.6,4,47,1
+e568854d034af815cd1dd8e70001776cfc5d1cf0,2018-12-26 09:29:13-07:00,MODIFY,org.sonarsource.sonarqube,sonar-plugin-api,6.7.5,1,1,1
+a9c79170bf8dc36c86f7048650b906cb624eaa94,2014-01-07 13:17:46-08:00,MODIFY,org.codehaus.sonar,sonar-testing-harness,3.6,717,204,9
+7b4ca2ab131b34134caa87f63a85eaf7e01740d8,2014-01-07 13:17:51-08:00,MODIFY,org.codehaus.sonar,sonar-testing-harness,3.7,706,172,10
+b99cb54b55e3c4b71a4d37d027c61b687432c124,2014-07-02 15:33:36-07:00,MODIFY,org.codehaus.sonar,sonar-testing-harness,4.3.2,4627,4494,15
+71e79626e9950c679d36fd21953442b7bc1a7730,2014-12-17 15:01:49-08:00,MODIFY,org.codehaus.sonar,sonar-testing-harness,4.5.1,207,3,7
+0d7b7377f55644a355990da29e352371622c683b,2016-02-19 09:52:31-08:00,MODIFY,org.codehaus.sonar,sonar-testing-harness,5.1,1,1,1
+8d23e09be9cf02de79a7190fded8873a4aec3511,2017-02-28 10:35:05-07:00,MODIFY,org.sonarsource.sonarqube,sonar-testing-harness,5.5,13,13,1
+d33ebbe7d634effe0fc04224907855873c23679c,2017-02-28 13:18:05-07:00,MODIFY,org.sonarsource.sonarqube,sonar-testing-harness,5.6,4,47,1
+e568854d034af815cd1dd8e70001776cfc5d1cf0,2018-12-26 09:29:13-07:00,MODIFY,org.sonarsource.sonarqube,sonar-testing-harness,6.7.5,1,1,1
+9e9717b4cce5b0605e25f956d876aa2a0869c08a,2014-01-07 13:17:41-08:00,ADD,org.mockito,mockito-all,1.9.5,2005,0,5
+7443be8a8dbd4964395050838801796d2dbee54a,2015-10-09 16:51:48-07:00,MODIFY,org.codehaus.sonar,sonar-maven-plugin,5.1,65,2,2
+9e9717b4cce5b0605e25f956d876aa2a0869c08a,2014-01-07 13:17:41-08:00,ADD,javax.xml.ws,jaxws-api,2.2.8,2005,0,5

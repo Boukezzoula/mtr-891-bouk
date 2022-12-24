@@ -1,0 +1,2 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+a3eccd6bf3865baa523bc8aca9dc458e98b0c257,2019-12-21 01:26:35-08:00,MODIFY,com.fasterxml.jackson.core,jackson-databind,2.10.0,145,32,14

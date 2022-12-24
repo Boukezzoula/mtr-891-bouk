@@ -1,0 +1,14 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+b02e64b332e6e29ecf6db233835777693d00a431,2016-07-04 13:39:02+02:00,ADD,com.google.oauth-client,google-oauth-client,1.20.0,666,0,15
+d44f1332d556f346732f6248c98db5c83d1bcae4,2016-07-14 00:10:00+02:00,MODIFY,com.google.oauth-client,google-oauth-client,1.21.0,32,7,2
+fbbb8ee3b92a571397237181190e663f3a581042,2016-12-02 12:00:13+01:00,MODIFY,com.google.oauth-client,google-oauth-client,1.22.0,2,2,1
+ed52c4fafb7746a854923229dafb6bdad9cc7a82,2018-03-02 16:58:00+01:00,MODIFY,com.google.oauth-client,google-oauth-client,1.23.0,6,5,1
+b02e64b332e6e29ecf6db233835777693d00a431,2016-07-04 13:39:02+02:00,ADD,com.google.http-client,google-http-client-jackson2,1.20.0,666,0,15
+d44f1332d556f346732f6248c98db5c83d1bcae4,2016-07-14 00:10:00+02:00,MODIFY,com.google.http-client,google-http-client-jackson2,1.21.0,32,7,2
+fbbb8ee3b92a571397237181190e663f3a581042,2016-12-02 12:00:13+01:00,MODIFY,com.google.http-client,google-http-client-jackson2,1.22.0,2,2,1
+598df8f4ee379db01a0106708b1c32cad905737f,2018-03-02 16:11:41+01:00,MODIFY,com.google.http-client,google-http-client-jackson2,1.23.0,272,6,3
+67a12de5ce25bd50391692701c18945f4f31ea7d,2022-09-25 11:45:05+02:00,MODIFY,com.google.http-client,google-http-client-jackson2,1.42.1,152,142,11
+67a12de5ce25bd50391692701c18945f4f31ea7d,2022-09-25 11:45:05+02:00,MODIFY,com.google.http-client,google-http-client,1.42.1,152,142,11
+b02e64b332e6e29ecf6db233835777693d00a431,2016-07-04 13:39:02+02:00,ADD,org.jenkins-ci.plugins,mailer,1.6,666,0,15
+d44f1332d556f346732f6248c98db5c83d1bcae4,2016-07-14 00:10:00+02:00,MODIFY,org.apache.httpcomponents,httpclient,4.5.2,32,7,2
+b4b207134be3aab317fb046b5fd1c00e18687061,2018-03-04 21:00:59+01:00,MODIFY,com.github.tomakehurst,wiremock-standalone,2.15.0,188,0,2

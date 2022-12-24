@@ -1,0 +1,13 @@
+CommitHash,CommitDate,ChangeType,groupId,artifactId,version,NbrAddedLines,NbrDeletedLines,NbrModifiedFiles
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.springframework.boot,spring-boot-starter,None,71866,0,649
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.springframework.boot,spring-boot-starter-test,None,71866,0,649
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,mysql,mysql-connector-java,None,71866,0,649
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.springframework.boot,spring-boot-starter-web,None,71866,0,649
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.apache.shiro,shiro-core,1.4.0,71866,0,649
+66206a7b001f6ae0e12a48ac2a52d21bbd115cb2,2021-05-15 11:05:15+08:00,MODIFY,org.apache.shiro,shiro-core,1.6.0,12,141,2
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.apache.shiro,shiro-spring,1.4.0,71866,0,649
+37ddf5a1c1387c8babbfb8ce230bfcf68514af7b,2020-01-17 00:38:50+08:00,ADD,org.springframework.boot,spring-boot-devtools,None,71866,0,649
+4a0d8d8bf86644969fdc7e2c87ba97e1039ff606,2020-01-24 00:46:12+08:00,MODIFY,org.springframework.boot,spring-boot-starter-thymeleaf,None,86961,121,122
+297bcdff90b7b29d53d5bcf064b7a9e4ad9bfcfb,2020-01-25 19:32:29+08:00,MODIFY,commons-io,commons-io,2.6,1815,719,154
+45abcdb843d5657862f70b4b50bd85328a43dd11,2020-05-02 00:33:55+08:00,MODIFY,org.springframework.boot,spring-boot-starter-quartz,None,822,490,13
+60a5b4cf09adc827b92362c2ec731803ce83dcff,2020-05-24 14:06:44+08:00,MODIFY,org.springframework.boot,spring-boot-starter-tomcat,None,1161,512,26
