@@ -5,7 +5,11 @@
 1- i have created "checkVersions_to_confirm_project_updated_outdated.py" to check all github project and retrieve the version of dependencies in the pom file and the latest available version of the dependency online.
 
 
-2- using pom-parser to parse all github project and extract all the changes in the dependencies i have created this script : https://github.com/Boukezzoula/PomXmlParser
+2- i have created this script : "https://github.com/Boukezzoula/PomXmlParser" to parse all github project and extract all the changes in the dependencies
+
+3- i have created the script "countChanges.py" to clean the data collected from steps 1 and 2 , to generate csv files which contains all the dependencies changes in our projects .
+
+4- 
 
 5- to generate the metrics i've developed this script  : https://github.com/Boukezzoula/Scitools-Understand-software-metrics-collector
 
