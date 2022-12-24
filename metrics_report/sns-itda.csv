@@ -1,0 +1,5 @@
+CommitHash,CommitSituation,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,Cyclomatic,CountLineCode,CountLineComment
+b5121035d86b36b8b98d564c08ffba075384fb08,Current commit,8.0,6.0,6.0,3.0,161,19
+b0d5a1aae86d6407dc9361b52efcf495ee14b01b,Previous commit,8.0,0.0,0.0,4.0,84,17
+94e8c88c25d6c57e006831069e5d31beed1b4fb4,Current commit,7.0,4.0,4.0,3.0,358,20
+417f0110aa11736e52a04767b868b4da3cd18dfc,Previous commit,7.0,4.0,4.0,3.0,348,20
