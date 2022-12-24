@@ -9,7 +9,7 @@
 
 3- i have created the script "countChanges.py" to clean the data collected from steps 1 and 2 , to generate csv files which contains all the dependencies changes in our projects .
 
-4- 
+4- i have used this script "data_cleaning.py" to clean the data and collect information about number of added lines,deleted lines,modified files, and total number of changes .
 
 5- to generate the metrics i've developed this script  : https://github.com/Boukezzoula/Scitools-Understand-software-metrics-collector
 
