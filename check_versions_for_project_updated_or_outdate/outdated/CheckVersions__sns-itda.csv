@@ -1,0 +1,31 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-web,2020-06-12,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-web,2022-10-20 09:26:27,false,There are more than 2 versions between the current and the latest.
+2,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-jdbc,2020-06-12,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-jdbc,2022-10-20 09:26:25,false,There are more than 2 versions between the current and the latest.
+3,current pom version,8.0.20,mysql,mysql-connector-java,2020-03-09 06:19:05,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,8.0.31,mysql,mysql-connector-java,2022-09-03 17:54:30,false,There are more than 2 versions between the current and the latest.
+4,current pom version,3.5.5,org.mybatis,mybatis,2020-06-04 11:16:13,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,3.5.11,org.mybatis,mybatis,2022-09-18 16:36:38,false,There are more than 2 versions between the current and the latest.
+5,current pom version,2.0.5,org.mybatis,mybatis-spring,2020-06-04 20:38:58,false,Using old version More than 2 years between the latest and current version.
+5,latest pom version,2.0.7,org.mybatis,mybatis-spring,2022-01-29 05:58:04,false,Using old version More than 2 years between the latest and current version.
+7,current pom version,0.4,org.mindrot,jbcrypt,2017-02-13 13:23:31,true,Using the latest available version.
+7,latest pom version,0.4,org.mindrot,jbcrypt,2017-02-13 13:23:31,true,Using the latest available version.
+8,current pom version,3.10,org.apache.commons,commons-lang3,2020-03-23 09:39:36,false,Using old version More than 2 years between the latest and current version.
+8,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,false,Using old version More than 2 years between the latest and current version.
+9,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-aop,2020-06-12,false,There are more than 2 versions between the current and the latest.
+9,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-aop,2022-10-20 09:26:15,false,There are more than 2 versions between the current and the latest.
+10,current pom version,2.14.10,software.amazon.awssdk,s3,2020-09-02 15:04:09,false,Using old version More than 2 years between the latest and current version.
+10,latest pom version,2.18.11,software.amazon.awssdk,s3,2022-11-04 17:25:49,false,Using old version More than 2 years between the latest and current version.
+11,current pom version,2.3.1.RELEASE,org.springframework.session,spring-session-data-redis,2020-09-16,false,There are more than 2 versions between the current and the latest.
+11,latest pom version,2.7.0,org.springframework.session,spring-session-data-redis,2022-05-18 12:25:14,false,There are more than 2 versions between the current and the latest.
+12,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-data-redis,2020-06-12,false,There are more than 2 versions between the current and the latest.
+12,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-data-redis,2022-10-20 09:26:31,false,There are more than 2 versions between the current and the latest.
+13,current pom version,6.8.1,com.google.firebase,firebase-admin,2019-04-24 19:52:27,false,There are more than 2 versions between the current and the latest.
+13,latest pom version,9.1.0,com.google.firebase,firebase-admin,2022-10-17 15:23:44,false,There are more than 2 versions between the current and the latest.
+14,current pom version,3.0.3,com.github.ulisesbocchio,jasypt-spring-boot-starter,2020-06-01 00:47:35,false,Not updated recently and stable but the project uses old dependency.
+14,latest pom version,3.0.4,com.github.ulisesbocchio,jasypt-spring-boot-starter,2021-08-29 18:02:14,false,Not updated recently and stable but the project uses old dependency.
+15,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-validation,2020-06-12,false,There are more than 2 versions between the current and the latest.
+15,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-validation,2022-10-20 09:26:15,false,There are more than 2 versions between the current and the latest.
+16,current pom version,2.3.1.RELEASE,org.springframework.boot,spring-boot-starter-test,2020-06-12,false,There are more than 2 versions between the current and the latest.
+16,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-test,2022-10-20 09:26:31,false,There are more than 2 versions between the current and the latest.

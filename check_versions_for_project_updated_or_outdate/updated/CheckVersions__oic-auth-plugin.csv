@@ -1,0 +1,20 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.34.1,com.google.oauth-client,google-oauth-client,2022-06-09 15:33:36,true,latest available version
+1,latest pom version,1.34.1,com.google.oauth-client,google-oauth-client,2022-06-09 15:33:36,true,latest available version
+2,current pom version,1.42.3,com.google.http-client,google-http-client-jackson2,2022-10-27 16:41:16,true,latest available version
+2,latest pom version,1.42.3,com.google.http-client,google-http-client-jackson2,2022-10-27 16:41:16,true,latest available version
+3,current pom version,1.42.3,com.google.http-client,google-http-client,2022-10-27 16:53:21,true,latest available version
+3,latest pom version,1.42.3,com.google.http-client,google-http-client,2022-10-27 16:53:21,true,latest available version
+4,current pom version,1.34.2,org.jenkins-ci.plugins,mailer,2021-12-23,true,increment only
+4,latest pom version,1.34.2,org.jenkins-ci.plugins,mailer,2021-12-23,true,increment only
+5,current pom version,4.5.13,org.apache.httpcomponents,httpclient,2020-10-03 10:47:41,true,latest available version
+5,latest pom version,4.5.13,org.apache.httpcomponents,httpclient,2020-10-03 10:47:41,true,latest available version
+6,current pom version,2.27.2,com.github.tomakehurst,wiremock-standalone,2020-09-10 10:20:06,true,latest available version
+6,latest pom version,2.27.2,com.github.tomakehurst,wiremock-standalone,2020-09-10 10:20:06,true,latest available version
+7,current pom version,1559.v38a_b_2e3b_6b_b_7,io.jenkins.configuration-as-code,test-harness,2022-10-14,true,patch
+7,latest pom version,1570.ve76b_29b_9d059,io.jenkins.configuration-as-code,test-harness,2022-12-13,true,patch
+8,current pom version,10.3.3,com.puppycrawl.tools,checkstyle,2022-08-28 10:03:31,true,patch
+8,latest pom version,10.4,com.puppycrawl.tools,checkstyle,2022-10-30 12:26:14,true,patch
+9,current pom version,9.2,com.puppycrawl.tools,checkstyle,2021-11-28 11:44:17,false,There are more than 2 versions between the current and the latest.
+9,latest pom version,10.4,com.puppycrawl.tools,checkstyle,2022-10-30 12:26:14,false,There are more than 2 versions between the current and the latest.
+,,,,,,

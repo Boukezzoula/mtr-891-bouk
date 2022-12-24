@@ -1,0 +1,19 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,3.0.2,com.google.code.findbugs,jsr305,2017-03-31 00:55:48,true,Using the latest available version.
+1,latest pom version,3.0.2,com.google.code.findbugs,jsr305,2017-03-31 00:55:48,true,Using the latest available version.
+2,current pom version,3.14.7,com.squareup.okhttp3,okhttp,2020-02-24 22:11:27,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,5.0.0-alpha.10,com.squareup.okhttp3,okhttp,2022-06-27 09:54:48,false,There are more than 2 versions between the current and the latest.
+3,current pom version,3.14.7,com.squareup.okhttp3,logging-interceptor,2020-02-24 22:13:27,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,5.0.0-alpha.10,com.squareup.okhttp3,logging-interceptor,2022-06-27 09:54:18,false,There are more than 2 versions between the current and the latest.
+4,current pom version,2.8.6,com.google.code.gson,gson,2019-10-04 14:55:00,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,2.10,com.google.code.gson,gson,2022-10-24 21:09:40,false,There are more than 2 versions between the current and the latest.
+5,current pom version,1.8.4,io.gsonfire,gson-fire,2020-03-15 19:18:11,false,Not updated recently and stable but the project uses old dependency.
+5,latest pom version,1.8.5,io.gsonfire,gson-fire,2020-11-02 20:29:01,false,Not updated recently and stable but the project uses old dependency.
+6,current pom version,3.10,org.apache.commons,commons-lang3,2020-03-23 09:39:36,false,Not updated recently and stable but the project uses old dependency.
+6,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,false,Not updated recently and stable but the project uses old dependency.
+7,current pom version,1.14,commons-codec,commons-codec,2019-12-30 19:44:23,false,Not updated recently and stable but the project uses old dependency.
+7,latest pom version,1.15,commons-codec,commons-codec,2020-08-28 08:02:55,false,Not updated recently and stable but the project uses old dependency.
+8,current pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+8,latest pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+9,current pom version,4.13,junit,junit,2020-01-01 10:44:47,false,Not updated recently and stable but the project uses old dependency.
+9,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,Not updated recently and stable but the project uses old dependency.

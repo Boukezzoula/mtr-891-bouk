@@ -1,0 +1,32 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,5.0.0,io.github.bes2008.solution.langx,langx-java,2022-09-17,true ,patch
+1,latest pom version,5.0.3,io.github.bes2008.solution.langx,langx-java,2022-10-20 05:01:44,true ,patch
+2,current pom version,5.0.0,io.github.bes2008.solution.langx,langx-java8,2022-09-17,true ,patch
+2,latest pom version,5.0.3,io.github.bes2008.solution.langx,langx-java8,2022-10-20 05:02:03,true ,patch
+3,current pom version,5.0.0,io.github.bes2008.solution.langx,langx-java-reflect-aspectj,2022-09-17,true ,patch
+3,latest pom version,5.0.3,io.github.bes2008.solution.langx,langx-java-reflect-aspectj,2022-10-20 05:02:29,true ,patch
+4,current pom version,5.0.0,io.github.bes2008.solution.langx,langx-java-reflect-asm,2022-09-17,true ,patch
+4,latest pom version,5.0.3,io.github.bes2008.solution.langx,langx-java-reflect-asm,2022-10-20 05:02:26,true ,patch
+5,current pom version,5.0.0,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-bouncycastle,2022-09-17,true ,patch
+5,latest pom version,5.0.3,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-bouncycastle,2022-10-20 05:01:54,true ,patch
+6,current pom version,5.0.0,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-gmsslorg,2022-09-17,true ,patch
+6,latest pom version,5.0.3,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-gmsslorg,2022-10-20 05:01:30,true ,patch
+7,current pom version,5.0.0,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-jsse,2022-09-17,true,patch
+7,latest pom version,5.0.3,io.github.bes2008.solution.langx.security,langx-java-security-gm-jca-jsse,2022-10-20 05:01:30,true,patch
+8,current pom version,1.23,org.openjdk.jmh,jmh-core,2020-01-22 06:24:31,false,Not updated recently and stable but the project uses old dependency.
+8,latest pom version,1.35,org.openjdk.jmh,jmh-core,2022-03-28 06:28:02,false,Not updated recently and stable but the project uses old dependency.
+9,current pom version,1.23,org.openjdk.jmh,jmh-generator-annprocess,2020-01-22 06:25:01,false,Not updated recently and stable but the project uses old dependency.
+9,latest pom version,1.35,org.openjdk.jmh,jmh-generator-annprocess,2022-03-28 06:28:11,false,Not updated recently and stable but the project uses old dependency.
+10,current pom version,1.7.0,org.slf4j,slf4j-api,2012-09-06 17:54:47,false,Not updated recently and stable but the project uses old dependency.
+10,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,Not updated recently and stable but the project uses old dependency.
+11,current pom version,1.7.0,org.slf4j,jcl-over-slf4j,2012-09-06 17:56:11,false,Not updated recently and stable but the project uses old dependency.
+11,latest pom version,2.0.3,org.slf4j,jcl-over-slf4j,2022-09-28 06:19:26,false,Not updated recently and stable but the project uses old dependency.
+12,current pom version,1.7.0,org.slf4j,slf4j-simple,2012-09-06 17:54:59,false,Not updated recently and stable but the project uses old dependency.
+12,latest pom version,2.0.3,org.slf4j,slf4j-simple,2022-09-28 06:18:21,false,Not updated recently and stable but the project uses old dependency.
+13,current pom version,4.13.1,junit,junit,2020-10-11 11:19:50,false,Not updated recently and stable but the project uses old dependency.
+13,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,Not updated recently and stable but the project uses old dependency.
+14,current pom version,1.6,org.apache.maven.plugins,maven-gpg-plugin,2015-01-15 21:31:53,false,Not updated recently and stable but the project uses old dependency.
+14,latest pom version,3.0.1,org.apache.maven.plugins,maven-gpg-plugin,2021-05-05 12:40:21,false,Not updated recently and stable but the project uses old dependency.
+15,current pom version,1.10.0,org.apache.maven.plugins,maven-scm-plugin,2018-05-24 16:24:17,false,Not updated recently and stable but the project uses old dependency.
+15,latest pom version,2.0.0-M3,org.apache.maven.plugins,maven-scm-plugin,2022-10-25 15:49:43,false,Not updated recently and stable but the project uses old dependency.
+,,,,,,

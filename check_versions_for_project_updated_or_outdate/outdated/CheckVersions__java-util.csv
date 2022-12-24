@@ -1,0 +1,54 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.7.22,org.slf4j,slf4j-api,2016-12-13 12:05:25,false,Not updated recently and stable but the project uses old dependency.
+1,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,Not updated recently and stable but the project uses old dependency.
+2,current pom version,0.17,org.skife.config,config-magic,2013-03-12 18:15:43,false,Not updated recently and stable but the project uses old dependency.
+2,latest pom version,0.22,org.skife.config,config-magic,2021-11-08 18:57:30,false,Not updated recently and stable but the project uses old dependency.
+3,current pom version,16.0.1,com.google.guava,guava,2014-02-03 17:45:28,false,Not updated recently and stable but the project uses old dependency.
+3,latest pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,false,Not updated recently and stable but the project uses old dependency.
+4,current pom version,2.6.7,com.fasterxml.jackson.core,jackson-annotations,2016-06-04 13:51:05,false,Not updated recently and stable but the project uses old dependency.
+4,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-annotations,2022-11-05 16:16:23,false,Not updated recently and stable but the project uses old dependency.
+5,current pom version,2.6.7,com.fasterxml.jackson.core,jackson-core,2016-06-05 17:06:57,false,Not updated recently and stable but the project uses old dependency.
+5,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-core,2022-11-05 16:38:09,false,Not updated recently and stable but the project uses old dependency.
+6,current pom version,2.6.7,com.fasterxml.jackson.core,jackson-databind,2016-06-05 17:09:11,false,Not updated recently and stable but the project uses old dependency.
+6,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,false,Not updated recently and stable but the project uses old dependency.
+7,current pom version,2.3,net.sf.opencsv,opencsv,2011-07-28 01:00:18,true,Not updated recently and stable but the project uses old dependency.
+7,latest pom version,2.3,net.sf.opencsv,opencsv,2011-07-28 01:00:18,true,Not updated recently and stable but the project uses old dependency.
+8,current pom version,2.9.7,joda-time,joda-time,2016-12-19 17:55:23,false,Not updated recently and stable but the project uses old dependency.
+8,latest pom version,2.12.1,joda-time,joda-time,2022-10-29 18:24:00,false,Not updated recently and stable but the project uses old dependency.
+9,current pom version,1.7R5,org.mozilla,rhino,2015-01-29 19:14:20,false,Not updated recently and stable but the project uses old dependency.
+9,latest pom version,1.7.14,org.mozilla,rhino,2022-01-06 17:05:29,false,Not updated recently and stable but the project uses old dependency.
+10,current pom version,2.1.0,com.jayway.jsonpath,json-path,2015-11-22 10:08:45,false,Not updated recently and stable but the project uses old dependency.
+10,latest pom version,2.7.0,com.jayway.jsonpath,json-path,2022-01-30 09:35:28,false,Not updated recently and stable but the project uses old dependency.
+11,current pom version,3.10.6.Final,io.netty,netty,2016-06-29 08:45:28,true,Not updated recently and stable but the project uses old dependency.
+11,latest pom version,3.10.6.Final,io.netty,netty,2016-06-29 08:45:28,true,Not updated recently and stable but the project uses old dependency.
+12,current pom version,2.0.1,com.google.code.findbugs,jsr305,2012-07-29 18:17:59,false,Not updated recently and stable but the project uses old dependency.
+12,latest pom version,3.0.2,com.google.code.findbugs,jsr305,2017-03-31 00:55:48,false,Not updated recently and stable but the project uses old dependency.
+13,current pom version,1.1.0.Final,javax.validation,validation-api,2013-04-10 09:03:03,false,Not updated recently and stable but the project uses old dependency.
+13,latest pom version,2.0.1.Final,javax.validation,validation-api,2017-12-19 11:23:41,false,Not updated recently and stable but the project uses old dependency.
+14,current pom version,2.9.0,org.asynchttpclient,async-http-client,2019-05-21 05:59:23,false,Not updated recently and stable but the project uses old dependency.
+14,latest pom version,2.12.3,org.asynchttpclient,async-http-client,2021-03-27 11:28:39,false,Not updated recently and stable but the project uses old dependency.
+15,current pom version,1.6.5.132,org.hyperic,sigar,,,
+15,latest pom version,None,org.hyperic,sigar,None,,
+16,current pom version,1.6.5.132,org.hyperic,sigar-dist,,,
+16,latest pom version,None,org.hyperic,sigar-dist,None,,
+17,current pom version,1.2,org.gridkit.lab,jvm-attach-api,2014-08-19 16:51:48,false,Not updated recently and stable but the project uses old dependency.
+17,latest pom version,1.5,org.gridkit.lab,jvm-attach-api,2019-03-15 12:14:53,false,Not updated recently and stable but the project uses old dependency.
+18,current pom version,2.11.0,com.datadoghq,java-dogstatsd-client,2020-12-22 06:24:36,,
+18,latest pom version,4.1.0,com.datadoghq,java-dogstatsd-client,2022-10-06 07:14:12,,
+19,current pom version,4.12,junit,junit,2014-12-04 11:17:43,,
+19,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,,
+20,current pom version,1.7.25,org.slf4j,slf4j-simple,2017-03-16 12:36:40,false,Not updated recently and stable but the project uses old dependency.
+20,latest pom version,2.0.3,org.slf4j,slf4j-simple,2022-09-28 06:18:21,false,Not updated recently and stable but the project uses old dependency.
+21,current pom version,3.4,org.easymock,easymock,2015-09-06 22:03:02,false,Not updated recently and stable but the project uses old dependency.
+21,latest pom version,5.0.1,org.easymock,easymock,2022-10-23 23:56:21,false,Not updated recently and stable but the project uses old dependency.
+22,current pom version,1.2.17,log4j,log4j,2012-05-26 05:43:39,true,latest available version
+22,latest pom version,1.2.17,log4j,log4j,2012-05-26 05:43:39,true,latest availabe version
+23,current pom version,1.7.25,org.slf4j,slf4j-log4j12,2017-03-16 12:37:00,false,Not updated recently and stable but the project uses old dependency.
+23,latest pom version,2.0.3,org.slf4j,slf4j-log4j12,2022-09-28 06:18:56,false,Not updated recently and stable but the project uses old dependency.
+24,current pom version,9.2.21.v20170120,org.eclipse.jetty,jetty-server,2017-01-23 08:11:30,false,Not updated recently and stable but the project uses old dependency.
+24,latest pom version,12.0.0.alpha2,org.eclipse.jetty,jetty-server,2022-10-17 21:14:48,false,Not updated recently and stable but the project uses old dependency.
+25,current pom version,9.2.21.v20170120,org.eclipse.jetty,jetty-servlet,2017-01-23 08:12:17,false,Not updated recently and stable but the project uses old dependency.
+25,latest pom version,11.0.12,org.eclipse.jetty,jetty-servlet,2022-09-13 22:40:14,false,Not updated recently and stable but the project uses old dependency.
+26,current pom version,7.1.0,it.unimi.dsi,fastutil,2017-02-14 20:27:20,false,Not updated recently and stable but the project uses old dependency.
+26,latest pom version,8.5.9,it.unimi.dsi,fastutil,2022-09-26 12:46:27,false,Not updated recently and stable but the project uses old dependency.
+,,,,,,

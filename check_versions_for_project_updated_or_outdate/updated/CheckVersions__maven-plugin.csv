@@ -1,0 +1,103 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1370.vfa_e23fe119c3,io.jenkins.tools.bom,bom-2.332.x,2022-05-10,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,1683.vfa_87c051f837,io.jenkins.tools.bom,bom-2.332.x,2022-11-03,false,There are more than 2 versions between the current and the latest.
+2,current pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+2,latest pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+3,current pom version,217.v905b_86277a_2a_,org.jenkins-ci.plugins,javadoc,2022-02-08,true,Latest version is just Patch version or increment .
+3,latest pom version,226.v71211feb_e7e9,org.jenkins-ci.plugins,javadoc,2022-08-09,true,Latest version is just Patch version or increment .
+5,current pom version,1119.va_a_5e9068da_d7,org.jenkins-ci.plugins,junit,2022-05-31,true,Latest version is just Patch version or increment .
+5,latest pom version,1156.vcf492e95a_a_b_0	,org.jenkins-ci.plugins,junit,2022-10-17,true,Latest version is just Patch version or increment .
+6,current pom version,1.14,org.jenkins-ci.main.maven,maven-agent,2022-10-08,true,Using the latest available version.
+6,latest pom version,1.14,org.jenkins-ci.main.maven,maven-agent,2022-10-08,true,Using the latest available version.
+7,current pom version,1.14,org.jenkins-ci.main.maven,maven-interceptor,2022-10-08,true,Using the latest available version.
+7,latest pom version,1.14,org.jenkins-ci.main.maven,maven-interceptor,2022-10-08,true,Using the latest available version.
+8,current pom version,1.2,org.jvnet.hudson,maven2.1-interceptor,2009-05-27 16:47:01,true,Using the latest available version.
+8,latest pom version,1.2,org.jvnet.hudson,maven2.1-interceptor,2009-05-27 16:47:01,true,Using the latest available version.
+9,current pom version,1.14,org.jenkins-ci.main.maven,maven3-agent,2022-10-08,true,Using the latest available version.
+9,latest pom version,1.14,org.jenkins-ci.main.maven,maven3-agent,2022-10-08,true,Using the latest available version.
+10,current pom version,1.14,org.jenkins-ci.main.maven,maven31-agent,2022-10-08,true,Using the latest available version.
+10,latest pom version,1.14,org.jenkins-ci.main.maven,maven31-agent,2022-10-08,true,Using the latest available version.
+11,current pom version,1.14,org.jenkins-ci.main.maven,maven32-agent,2022-10-08,true,Using the latest available version.
+11,latest pom version,1.14,org.jenkins-ci.main.maven,maven32-agent,2022-10-08,true,Using the latest available version.
+12,current pom version,1.14,org.jenkins-ci.main.maven,maven33-agent,2022-10-08,true,Using the latest available version.
+12,latest pom version,1.14,org.jenkins-ci.main.maven,maven33-agent,2022-10-08,true,Using the latest available version.
+13,current pom version,1.14,org.jenkins-ci.main.maven,maven35-agent,2022-10-08,true,Using the latest available version.
+13,latest pom version,1.14,org.jenkins-ci.main.maven,maven35-agent,2022-10-08,true,Using the latest available version.
+14,current pom version,1.14,org.jenkins-ci.main.maven,maven3-interceptor,2022-10-08,true,Using the latest available version.
+14,latest pom version,1.14,org.jenkins-ci.main.maven,maven3-interceptor,2022-10-08,true,Using the latest available version.
+15,current pom version,1.14,org.jenkins-ci.main.maven,maven31-interceptor,2022-10-08,true,Using the latest available version.
+15,latest pom version,1.14,org.jenkins-ci.main.maven,maven31-interceptor,2022-10-08,true,Using the latest available version.
+16,current pom version,1.14,org.jenkins-ci.main.maven,maven32-interceptor,2022-10-08,true,Using the latest available version.
+16,latest pom version,1.14,org.jenkins-ci.main.maven,maven32-interceptor,2022-10-08,true,Using the latest available version.
+17,current pom version,1.14,org.jenkins-ci.main.maven,maven33-interceptor,2022-10-08,true,Using the latest available version.
+17,latest pom version,1.14,org.jenkins-ci.main.maven,maven33-interceptor,2022-10-08,true,Using the latest available version.
+18,current pom version,1.14,org.jenkins-ci.main.maven,maven35-interceptor,2022-10-08,true,Using the latest available version.
+18,latest pom version,1.14,org.jenkins-ci.main.maven,maven35-interceptor,2022-10-08,true,Using the latest available version.
+19,current pom version,1.14,org.jenkins-ci.main.maven,maven3-interceptor-commons,2022-10-08,true,Using the latest available version.
+19,latest pom version,1.14,org.jenkins-ci.main.maven,maven3-interceptor-commons,2022-10-08,true,Using the latest available version.
+20,current pom version,3.8.3,org.apache.maven,maven-core,2021-09-27 14:31:42,false,There are more than 2 versions between the current and the latest.
+20,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-core,2022-10-14 20:11:04,false,There are more than 2 versions between the current and the latest.
+21,current pom version,3.8.3,org.apache.maven,maven-compat,2021-09-27 14:32:37,false,There are more than 2 versions between the current and the latest.
+21,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-compat,2022-10-14 20:11:45,false,There are more than 2 versions between the current and the latest.
+22,current pom version,3.8.3,org.apache.maven,maven-repository-metadata,2021-09-27 14:30:31,false,There are more than 2 versions between the current and the latest.
+22,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-repository-metadata,2022-10-14 20:10:20,false,There are more than 2 versions between the current and the latest.
+23,current pom version,3.8.3,org.apache.maven,maven-resolver-provider,2021-09-27 14:30:46,false,There are more than 2 versions between the current and the latest.
+23,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-resolver-provider,2022-10-14 20:10:29,false,There are more than 2 versions between the current and the latest.
+24,current pom version,3.8.3,org.apache.maven,maven-embedder,2021-09-27 14:32:09,false,There are more than 2 versions between the current and the latest.
+24,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-embedder,2022-10-14 20:11:24,false,There are more than 2 versions between the current and the latest.
+25,current pom version,2.0,org.codehaus.plexus,plexus-cipher,2021-09-08 15:31:20,true,Using the latest available version.
+25,latest pom version,2.0,org.codehaus.plexus,plexus-cipher,2021-09-08 15:31:20,true,Using the latest available version.
+26,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-api,2021-12-19 13:52:02,false,There are more than 2 versions between the current and the latest.
+26,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-api,2022-07-25 12:26:56,false,There are more than 2 versions between the current and the latest.
+27,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-impl,2021-12-19 13:53:28,false,There are more than 2 versions between the current and the latest.
+27,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-impl,2022-07-25 12:28:08,false,There are more than 2 versions between the current and the latest.
+28,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-spi,2021-12-19 13:52:11,false,There are more than 2 versions between the current and the latest.
+28,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-spi,2022-07-25 12:27:06,false,There are more than 2 versions between the current and the latest.
+29,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-util,2021-12-19 13:52:33,false,There are more than 2 versions between the current and the latest.
+29,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-util,2022-07-25 12:27:23,false,There are more than 2 versions between the current and the latest.
+30,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-transport-wagon,2021-12-19 13:55:26,false,There are more than 2 versions between the current and the latest.
+30,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-transport-wagon,2022-07-25 12:29:02,false,There are more than 2 versions between the current and the latest.
+31,current pom version,1.7.3,org.apache.maven.resolver,maven-resolver-connector-basic,2021-12-19 13:54:08,false,There are more than 2 versions between the current and the latest.
+31,latest pom version,1.8.2,org.apache.maven.resolver,maven-resolver-connector-basic,2022-07-25 12:28:34,false,There are more than 2 versions between the current and the latest.
+32,current pom version,0.3.5,org.eclipse.sisu,org.eclipse.sisu.plexus,2021-09-12 18:56:11,false,There are more than 2 versions between the current and the latest.
+32,latest pom version,0.9.0.M1,org.eclipse.sisu,org.eclipse.sisu.plexus,2022-05-08 19:58:23,false,There are more than 2 versions between the current and the latest.
+33,current pom version,3.5.2,org.apache.maven.wagon,wagon-http,2022-06-23 17:00:49,true,Using the latest available version.
+33,latest pom version,3.5.2,org.apache.maven.wagon,wagon-http,2022-06-23 17:00:49,true,Using the latest available version.
+34,current pom version,1.15.3,org.jsoup,jsoup,2022-08-23 20:14:01,true,Using the latest available version.
+34,latest pom version,1.15.3,org.jsoup,jsoup,2022-08-23 20:14:01,true,Using the latest available version.
+37,current pom version,3.5.2,org.apache.maven.wagon,wagon-file,2022-06-23 16:56:02,true,Using the latest available version.
+37,latest pom version,3.5.2,org.apache.maven.wagon,wagon-file,2022-06-23 16:56:02,true,Using the latest available version.
+38,current pom version,3.5.2,org.apache.maven.wagon,wagon-ftp,2022-06-23 16:56:12,true,Using the latest available version.
+38,latest pom version,3.5.2,org.apache.maven.wagon,wagon-ftp,2022-06-23 16:56:12,true,Using the latest available version.
+39,current pom version,3.5.2,org.apache.maven.wagon,wagon-ssh,2022-06-23 17:04:40,true,Using the latest available version.
+39,latest pom version,3.5.2,org.apache.maven.wagon,wagon-ssh,2022-06-23 17:04:40,true,Using the latest available version.
+40,current pom version,3.5.2,org.apache.maven.wagon,wagon-ssh-external,2022-06-23 17:04:22,true,Using the latest available version.
+40,latest pom version,3.5.2,org.apache.maven.wagon,wagon-ssh-external,2022-06-23 17:04:22,true,Using the latest available version.
+41,current pom version,3.5.2,org.apache.maven.wagon,wagon-provider-api,2022-06-23 16:55:36,true,Using the latest available version.
+41,latest pom version,3.5.2,org.apache.maven.wagon,wagon-provider-api,2022-06-23 16:55:36,true,Using the latest available version.
+42,current pom version,3.0,org.apache.maven.reporting,maven-reporting-api,2010-05-09 14:50:51,false,Using the old version More than 2 years between the latest and current version.
+42,latest pom version,3.1.1,org.apache.maven.reporting,maven-reporting-api,2022-07-29 16:28:51,false,Using the old version More than 2 years between the latest and current version.
+43,current pom version,2.6.0,org.codehaus.plexus,plexus-classworlds,2018-12-28 14:21:23,true,Using the latest available version.
+43,latest pom version,2.6.0,org.codehaus.plexus,plexus-classworlds,2018-12-28 14:21:23,true,Using the latest available version.
+44,current pom version,3.4.1,org.codehaus.plexus,plexus-utils,2021-08-26 20:08:30,false,There are more than 2 versions between the current and the latest.
+44,latest pom version,3.5.0,org.codehaus.plexus,plexus-utils,2022-10-23 04:42:04,false,There are more than 2 versions between the current and the latest.
+45,current pom version,2.1.1,org.codehaus.plexus,plexus-component-annotations,2021-12-22 21:04:55,true,Using the latest available version.
+45,latest pom version,2.1.1,org.codehaus.plexus,plexus-component-annotations,2021-12-22 21:04:55,true,Using the latest available version.
+46,current pom version,1.2,org.jenkins-ci.lib,lib-jenkins-maven-artifact-manager,2013-10-23,true,Using the latest available version.
+46,latest pom version,1.2,org.jenkins-ci.lib,lib-jenkins-maven-artifact-manager,2013-10-23,true,Using the latest available version.
+47,current pom version,3.15,org.jenkins-ci.lib,lib-jenkins-maven-embedder,2020-04-08,true,Using the latest available version.
+47,latest pom version,3.15,org.jenkins-ci.lib,lib-jenkins-maven-embedder,2020-04-08,true,Using the latest available version.
+48,current pom version,3.5.2,org.apache.maven.wagon,wagon-webdav-jackrabbit,2022-06-23 17:06:39,true,Using the latest available version.
+48,latest pom version,3.5.2,org.apache.maven.wagon,wagon-webdav-jackrabbit,2022-06-23 17:06:39,true,Using the latest available version.
+49,current pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,Using the latest available version.
+49,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,Using the latest available version.
+53,current pom version,1.12,org.jvnet.mock-javamail,mock-javamail,2022-01-08,false,There are more than 2 versions between the current and the latest.
+53,latest pom version,2.0,org.jvnet.mock-javamail,mock-javamail,2022-01-08,false,There are more than 2 versions between the current and the latest.
+54,current pom version,1.0,org.jenkins-ci.test,sample-plexus-component,2013-10-23,true,Using the latest available version.
+54,latest pom version,1.0,org.jenkins-ci.test,sample-plexus-component,2013-10-23,true,Using the latest available version.
+55,current pom version,3.10.1,org.jenkins-ci.plugins,promoted-builds,2022-04-05,true,Latest version is just Patch version or increment .
+55,latest pom version,881.vb_72da_69ffca_1	,org.jenkins-ci.plugins,promoted-builds,2022-08-09,true,Latest version is just Patch version or increment .
+60,current pom version,1.14,org.jenkins-ci,annotation-indexer,2020-05-28,false,There are more than 2 versions between the current and the latest.
+60,latest pom version,1.16,org.jenkins-ci,annotation-indexer,2021-12-20,false,There are more than 2 versions between the current and the latest.
+62,current pom version,1.4.0,de.skuzzle.enforcer,restrict-imports-enforcer-rule,2021-10-24 04:43:47,false,There are more than 2 versions between the current and the latest.
+62,latest pom version,2.0.0,de.skuzzle.enforcer,restrict-imports-enforcer-rule,2021-12-02 03:52:47,false,There are more than 2 versions between the current and the latest.

@@ -1,0 +1,165 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.3.5,jakarta.annotation,jakarta.annotation-api,2019-08-02 07:10:45,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,2.1.1,jakarta.annotation,jakarta.annotation-api,2022-06-14 07:30:18,false,There are more than 2 versions between the current and the latest.
+2,current pom version,2.0.2,jakarta.enterprise,jakarta.enterprise.cdi-api,2019-08-10 11:38:08,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,4.0.1,jakarta.enterprise,jakarta.enterprise.cdi-api,2022-05-18 10:50:30,false,There are more than 2 versions between the current and the latest.
+3,current pom version,1.2.5,jakarta.interceptor,jakarta.interceptor-api,2019-09-10 00:23:16,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,2.1.0,jakarta.interceptor,jakarta.interceptor-api,2022-01-26 00:35:55,false,There are more than 2 versions between the current and the latest.
+4,current pom version,2.0,org.eclipse.microprofile.config,microprofile-config-api,2020-11-18 11:51:22,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,3.0.2,org.eclipse.microprofile.config,microprofile-config-api,2022-09-27 06:18:45,false,There are more than 2 versions between the current and the latest.
+5,current pom version,3.0,org.eclipse.microprofile.metrics,microprofile-metrics-api,2020-11-20 13:21:22,false,There are more than 2 versions between the current and the latest.
+5,latest pom version,5.0.0-RC4,org.eclipse.microprofile.metrics,microprofile-metrics-api,2022-10-25 18:03:58,false,There are more than 2 versions between the current and the latest.
+6,current pom version,1.2,org.eclipse.microprofile.context-propagation,microprofile-context-propagation-api,2021-02-24 14:38:14,false,Not updated recently and stable but the project uses old dependency.
+6,latest pom version,1.3,org.eclipse.microprofile.context-propagation,microprofile-context-propagation-api,2021-11-12 17:43:24,false,Not updated recently and stable but the project uses old dependency.
+7,current pom version,3.0,org.eclipse.microprofile.fault-tolerance,microprofile-fault-tolerance-api,2020-12-10 06:37:30,false,Not updated recently and stable but the project uses old dependency.
+7,latest pom version,4.0.2,org.eclipse.microprofile.fault-tolerance,microprofile-fault-tolerance-api,2022-10-06 05:10:11,false,Not updated recently and stable but the project uses old dependency.
+8,current pom version,3.0,org.eclipse.microprofile.fault-tolerance,microprofile-fault-tolerance-tck,2020-12-10 06:37:27,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+8,latest pom version,4.0.2,org.eclipse.microprofile.fault-tolerance,microprofile-fault-tolerance-tck,2022-10-06 05:10:08,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+9,current pom version,1.13.0,com.squareup,javapoet,2020-06-18 11:44:24,true,Using the latest available version.
+9,latest pom version,1.13.0,com.squareup,javapoet,2020-06-18 11:44:24,true,Using the latest available version.
+10,current pom version,1.9.5,io.micrometer,micrometer-core,2022-10-10 13:46:42,true,Using the latest available version.
+10,latest pom version,1.9.5,io.micrometer,micrometer-core,2022-10-10 13:46:42,true,Using the latest available version.
+11,current pom version,1.13.0,io.smallrye.common,smallrye-common-annotation,2022-06-28 15:01:54,true,All latest versions released recently less than 3 months
+11,latest pom version,1.13.2,io.smallrye.common,smallrye-common-annotation,2022-10-25 12:07:00,true,All latest versions released recently less than 3 months
+12,current pom version,1.7.0,io.smallrye.reactive,mutiny,2022-08-04 04:47:03,true,All latest versions released recently less than 3 months
+12,latest pom version,2.0.0-milestone2,io.smallrye.reactive,mutiny,2022-09-16 04:18:30,true,All latest versions released recently less than 3 months
+13,current pom version,0.33.0,io.opentracing,opentracing-api,2019-05-06 06:58:22,true,Using the latest available version.
+13,latest pom version,0.33.0,io.opentracing,opentracing-api,2019-05-06 06:58:22,true,Using the latest available version.
+14,current pom version,0.33.0,io.opentracing,opentracing-util,2019-05-06 06:58:50,true,Using the latest available version.
+14,latest pom version,0.33.0,io.opentracing,opentracing-util,2019-05-06 06:58:50,true,Using the latest available version.
+15,current pom version,0.33.0,io.opentracing,opentracing-mock,2019-05-06 06:57:51,true,Using the latest available version.
+15,latest pom version,0.33.0,io.opentracing,opentracing-mock,2019-05-06 06:57:51,true,Using the latest available version.
+16,current pom version,0.33.0,io.opentracing,opentracing-util,2019-05-06 06:58:50,true,Using the latest available version.
+16,latest pom version,0.33.0,io.opentracing,opentracing-util,2019-05-06 06:58:50,true,Using the latest available version.
+17,current pom version,3.1.5,io.reactivex.rxjava3,rxjava,2022-06-01 04:10:27,true,Using the latest available version.
+17,latest pom version,3.1.5,io.reactivex.rxjava3,rxjava,2022-06-01 04:10:27,true,Using the latest available version.
+18,current pom version,4.3.4,io.vertx,vertx-core,2022-09-30 05:52:09,true,All latest versions released recently less than 3 months
+18,latest pom version,3.9.14,io.vertx,vertx-core,2022-10-25 05:32:58,true,All latest versions released recently less than 3 months
+19,current pom version,3.4.3.Final,org.jboss.logging,jboss-logging,2022-01-11 16:54:14,true,There are only 2 versions or less between the current and the latest.
+19,latest pom version,3.5.0.Final,org.jboss.logging,jboss-logging,2022-04-28 12:10:16,true,There are only 2 versions or less between the current and the latest.
+20,current pom version,2.2.1.Final,org.jboss.logging,jboss-logging-annotations,2019-11-21 17:03:53,true,Using the latest available version.
+20,latest pom version,2.2.1.Final,org.jboss.logging,jboss-logging-annotations,2019-11-21 17:03:53,true,Using the latest available version.
+21,current pom version,2.2.1.Final,org.jboss.logging,jboss-logging-processor,2019-11-21 17:04:05,true,Using the latest available version.
+21,latest pom version,2.2.1.Final,org.jboss.logging,jboss-logging-processor,2019-11-21 17:04:05,true,Using the latest available version.
+22,current pom version,1.7.20,org.jetbrains.kotlin,kotlin-stdlib,2022-09-28 06:53:40,true,Using the latest available version.
+22,latest pom version,1.7.20,org.jetbrains.kotlin,kotlin-stdlib,2022-09-28 06:53:40,true,Using the latest available version.
+23,current pom version,2.12.0,io.smallrye.config,smallrye-config,2022-09-01 20:36:54,true,All latest versions released recently less than 3 months
+23,latest pom version,2.12.1,io.smallrye.config,smallrye-config,2022-09-20 05:17:59,true,All latest versions released recently less than 3 months
+24,current pom version,3.0.5,io.smallrye,smallrye-metrics,2022-05-27 03:30:04,true,All latest versions released recently less than 3 months
+24,latest pom version,5.0.0-M5,io.smallrye,smallrye-metrics,2022-10-27 11:06:04,true,All latest versions released recently less than 3 months
+25,current pom version,1.2.2,io.smallrye,smallrye-context-propagation,2021-09-06 05:12:44,true,All latest versions released recently less than 3 months
+25,latest pom version,2.0.0,io.smallrye,smallrye-context-propagation,2022-09-07 08:51:02,true,All latest versions released recently less than 3 months
+26,current pom version,1.2.2,io.smallrye,smallrye-context-propagation-cdi,2021-09-06 05:12:44,true,All latest versions released recently less than 3 months
+26,latest pom version,2.0.0,io.smallrye,smallrye-context-propagation-cdi,2022-09-07 08:50:50,true,All latest versions released recently less than 3 months
+27,current pom version,1.6.4,org.jetbrains.kotlinx,kotlinx-coroutines-jdk8,2022-07-13 06:24:04,true,Using the latest available version.
+27,latest pom version,1.6.4,org.jetbrains.kotlinx,kotlinx-coroutines-jdk8,2022-07-13 06:24:04,true,Using the latest available version.
+28,current pom version,3.23.1,org.assertj,assertj-core,2022-05-31 13:22:12,true,Using the latest available version.
+28,latest pom version,3.23.1,org.assertj,assertj-core,2022-05-31 13:22:12,true,Using the latest available version.
+29,current pom version,4.2.0,org.awaitility,awaitility,2022-03-04 08:49:44,true,Using the latest available version.
+29,latest pom version,4.2.0,org.awaitility,awaitility,2022-03-04 08:49:44,true,Using the latest available version.
+30,current pom version,1.6.0.Final,org.jboss.arquillian,arquillian-bom,2020-01-17 16:17:32,true,The latest versions are unstable.
+30,latest pom version,1.7.0.Alpha13,org.jboss.arquillian,arquillian-bom,2022-10-13 22:59:09,true,The latest versions are unstable.
+31,current pom version,2.1.0.Final,org.jboss.arquillian.container,arquillian-weld-embedded,2020-04-28 04:57:51,false,Not updated recently and stable but the project uses old dependency.
+31,latest pom version,3.0.2.Final,org.jboss.arquillian.container,arquillian-weld-embedded,2021-11-30 10:24:00,false,Not updated recently and stable but the project uses old dependency.
+32,current pom version,3.1.SP4,org.jboss.weld,weld-api,2021-03-18 05:19:01,false,There are more than 2 versions between the current and the latest.
+32,latest pom version,5.0.SP3,org.jboss.weld,weld-api,2022-09-30 07:24:53,false,There are more than 2 versions between the current and the latest.
+33,current pom version,3.1.SP4,org.jboss.weld,weld-spi,2021-03-18 05:19:18,false,There are more than 2 versions between the current and the latest.
+33,latest pom version,5.0.SP3,org.jboss.weld,weld-spi,2022-09-30 07:25:12,false,There are more than 2 versions between the current and the latest.
+34,current pom version,3.1.8.Final,org.jboss.weld,weld-core-impl,2021-07-14 07:30:50,false,There are more than 2 versions between the current and the latest.
+34,latest pom version,5.1.0.Final,org.jboss.weld,weld-core-impl,2022-10-01 06:42:05,false,There are more than 2 versions between the current and the latest.
+35,current pom version,3.1.8.Final,org.jboss.weld.se,weld-se-core,2021-07-14 07:37:46,false,There are more than 2 versions between the current and the latest.
+35,latest pom version,5.1.0.Final,org.jboss.weld.se,weld-se-core,2022-10-01 06:50:12,false,There are more than 2 versions between the current and the latest.
+36,current pom version,2.0.2.Final,org.jboss.weld,weld-junit5,2021-01-13 06:57:16,true,There are only 2 versions or less between the current and the latest.
+36,latest pom version,4.0.0.Final,org.jboss.weld,weld-junit5,2022-06-01 07:54:20,true,There are only 2 versions or less between the current and the latest.
+37,current pom version,5.9.1,org.junit,junit-bom,2022-09-20 14:34:30,true,Using the latest available version.
+37,latest pom version,5.9.1,org.junit,junit-bom,2022-09-20 14:34:30,true,Using the latest available version.
+38,current pom version,6.14.3,org.testng,testng,2018-04-09 12:44:38,false,Using the old version More than 2 years between the latest and current version.
+38,latest pom version,7.6.1,org.testng,testng,2022-06-20 23:17:40,false,Using the old version More than 2 years between the latest and current version.
+39,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-api,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+39,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-api,2022-10-25 13:46:10,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+40,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-core,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+40,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-core,2022-10-25 13:46:12,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+41,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-core,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+41,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-core,2022-10-25 13:46:12,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+42,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-kotlin,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+42,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-kotlin,2022-10-25 13:46:19,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+43,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-mutiny,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+43,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-mutiny,2022-10-25 13:46:23,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+44,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-rxjava3,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+44,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-rxjava3,2022-10-25 13:46:33,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+45,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-vertx,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+45,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-vertx,2022-10-25 13:46:36,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+46,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-autoconfig-core,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+46,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-autoconfig-core,2022-10-25 13:46:24,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+47,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-autoconfig-processor,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+47,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-autoconfig-processor,2022-10-25 13:46:25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+48,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+48,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance,2022-10-25 13:46:27,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+49,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-context-propagation,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+49,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-context-propagation,2022-10-25 13:46:35,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+50,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-tracing-propagation,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+50,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-tracing-propagation,2022-10-25 13:46:29,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+51,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-standalone,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+51,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-standalone,2022-10-25 13:46:06,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+52,current pom version,5.6.1-SNAPSHOT,io.smallrye,smallrye-fault-tolerance-standalone,2022-10-25,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"
+52,latest pom version,6.1.0,io.smallrye,smallrye-fault-tolerance-standalone,2022-10-25 13:46:06,true,"There are only 2 versions or less between the current and the latest.
+The latest versions are unstable.
+"

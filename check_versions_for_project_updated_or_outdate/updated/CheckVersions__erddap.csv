@@ -1,0 +1,57 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.17.250,software.amazon.awssdk,bom,2022-08-10 15:33:46,true,patch
+1,latest pom version,2.18.11,software.amazon.awssdk,bom,2022-11-04 17:25:22,true,patch
+2,current pom version,6.0.0,jakarta.servlet,jakarta.servlet-api,2022-05-12 03:19:33,true,using most recent version
+2,latest pom version,6.0.0,jakarta.servlet,jakarta.servlet-api,2022-05-12 03:19:33,true,using most recent version
+3,current pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,using most recent version
+3,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,using most recent version
+4,current pom version,1.1.4,gnu-regexp,gnu-regexp,2005-11-08 17:20:15,true,using most recent version
+4,latest pom version,1.1.4,gnu-regexp,gnu-regexp,2005-11-08 17:20:15,true,using most recent version
+5,current pom version,1.0.13,gnu.getopt,java-getopt,2010-05-19 20:44:09,true,using most recent version
+5,latest pom version,1.0.13,gnu.getopt,java-getopt,2010-05-19 20:44:09,true,using most recent version
+6,current pom version,1.3.1,com.lowagie,itext,2006-03-27 05:59:43,false,There is at least 2 years between the latest and current version
+6,latest pom version,4.2.1,com.lowagie,itext,2015-07-10 04:18:23,false,There is at least 2 years between the latest and current version
+7,current pom version,9.3.0,org.apache.lucene,lucene-core,2022-07-28 08:44:50,true,previous version which ony updated recently
+7,latest pom version,9.4.1,org.apache.lucene,lucene-core,2022-10-24 02:10:45,true,previous version which ony updated recently
+8,current pom version,9.3.0,org.apache.lucene,lucene-queryparser,2022-07-28 08:44:39,true,previous version which ony updated recently
+8,latest pom version,9.4.1,org.apache.lucene,lucene-queryparser,2022-10-24 02:10:32,true,previous version which ony updated recently
+9,current pom version,20220320,org.json,json,2022-03-20 10:38:07,true,previous version which ony updated recently
+9,latest pom version,20220924,org.json,json,2022-09-24 17:34:09,true,previous version which ony updated recently
+10,current pom version,2.0.1,com.sun.mail,jakarta.mail,2021-03-08 14:28:41,true,previous version which ony updated recently
+10,latest pom version,1.6.7,com.sun.mail,jakarta.mail,2021-04-08 04:36:16,true,previous version which ony updated recently
+11,current pom version,1.21,org.apache.commons,commons-compress,2021-07-09 13:11:50,true,previous version which ony updated recently
+11,latest pom version,1.22,org.apache.commons,commons-compress,2022-10-25 15:47:05,true,previous version which ony updated recently
+12,current pom version,1.2.0,jaxen,jaxen,2019-04-14 19:48:01,true,latest version available
+12,latest pom version,1.2.0,jaxen,jaxen,2019-04-14 19:48:01,true,latest version available
+13,current pom version,5.5.3,edu.ucar,netcdfAll,None,true,latest version available
+13,latest pom version,5.5.3,edu.ucar,netcdfAll,None,true,latest version available
+14,current pom version,3.2.1,org.apache.commons,commons-jexl3,2021-06-18 06:28:52,true,latest version available
+14,latest pom version,3.2.1,org.apache.commons,commons-jexl3,2021-06-18 06:28:52,true,latest version available
+15,current pom version,42.4.1,org.postgresql,postgresql,2022-08-03 08:57:06,true,updated recently
+15,latest pom version,42.3.7,org.postgresql,postgresql,2022-09-06 08:42:31,true,updated recently
+16,current pom version,3.11.2,com.datastax.cassandra,cassandra-driver-core,2022-04-28 15:20:39,true,previous version which ony updated recently
+16,latest pom version,3.11.3,com.datastax.cassandra,cassandra-driver-core,2022-09-20 00:59:40,true,previous version which ony updated recently
+17,current pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,true,latest version available
+17,latest pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,true,latest version available
+18,current pom version,1.3.0,net.jpountz.lz4,lz4,2014-11-26 15:40:14,true,latest version available
+18,latest pom version,1.3.0,net.jpountz.lz4,lz4,2014-11-26 15:40:14,true,latest version available
+19,current pom version,4.2.11,io.dropwizard.metrics,metrics-core,2022-08-04 17:20:16,true,previous version which ony updated recently
+19,latest pom version,4.2.12,io.dropwizard.metrics,metrics-core,2022-09-04 17:25:54,true,previous version which ony updated recently
+20,current pom version,4.1.79.Final,io.netty,netty-all,2022-07-11 17:24:21,true,latest version available
+20,latest pom version,4.1.84.Final,io.netty,netty-all,2022-10-11 21:02:01,true,latest version available
+21,current pom version,1.1.8.4,org.xerial.snappy,snappy-java,2021-01-25 10:26:17,true,latest version available
+21,latest pom version,1.1.8.4,org.xerial.snappy,snappy-java,2021-01-25 10:26:17,true,latest version available
+22,current pom version,2.17.250,software.amazon.awssdk,s3,2022-08-10 15:33:43,true,patch
+22,latest pom version,2.18.11,software.amazon.awssdk,s3,2022-11-04 17:25:49,true,patch
+23,current pom version,2.17.250,software.amazon.awssdk,regions,2022-08-10 15:34:46,true,patch
+23,latest pom version,2.18.11,software.amazon.awssdk,regions,2022-11-04 17:25:23,true,patch
+24,current pom version,2.17.250-PREVIEW,software.amazon.awssdk,s3-transfer-manager,2022-08-10 15:34:43,true,patch
+24,latest pom version,2.18.11-PREVIEW,software.amazon.awssdk,s3-transfer-manager,2022-11-04 17:26:00,true,patch
+25,current pom version,2.3.3,com.google.cloud,google-cloud-translate,2022-08-09 14:06:59,true,patch
+25,latest pom version,2.5.0,com.google.cloud,google-cloud-translate,2022-10-24 19:30:27,true,patch
+26,current pom version,2.3.3,com.google.api.grpc,proto-google-cloud-translate-v3,2022-08-09 14:07:13,true,patch
+26,latest pom version,2.5.0,com.google.api.grpc,proto-google-cloud-translate-v3,2022-10-24 18:57:58,true,patch
+27,current pom version,1.10.0,com.google.auth,google-auth-library-oauth2-http,2022-08-09 14:26:06,true,patch
+27,latest pom version,1.12.1,com.google.auth,google-auth-library-oauth2-http,2022-10-18 16:45:52,true,patch
+28,current pom version,2.18.7,com.google.api,gax,2022-08-01 16:32:50,true,patch
+28,latest pom version,2.19.4,com.google.api,gax,2022-10-19 13:59:20,true,patch

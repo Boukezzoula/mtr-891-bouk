@@ -1,0 +1,97 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-api,None,true,using development version that precedes the final release version.
+1,latest pom version,0.23,io.hyperfoil,hyperfoil-api,2022-10-31 08:30:00,true,using development version that precedes the final release version.
+2,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-cli,None,true,using development version that precedes the final release version.
+2,latest pom version,0.23,io.hyperfoil,hyperfoil-cli,2022-10-31 08:30:37,true,using development version that precedes the final release version.
+3,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-controller-api,None,true,using development version that precedes the final release version.
+3,latest pom version,0.23,io.hyperfoil,hyperfoil-controller-api,2022-10-31 08:30:14,true,using development version that precedes the final release version.
+4,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-core,None,true,using development version that precedes the final release version.
+4,latest pom version,0.23,io.hyperfoil,hyperfoil-core,2022-10-31 08:29:55,true,using development version that precedes the final release version.
+5,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-core,None,true,using development version that precedes the final release version.
+5,latest pom version,0.23,io.hyperfoil,hyperfoil-core,2022-10-31 08:29:55,true,using development version that precedes the final release version.
+6,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-http,None,true,using development version that precedes the final release version.
+6,latest pom version,0.23,io.hyperfoil,hyperfoil-http,2022-10-31 08:30:04,true,using development version that precedes the final release version.
+7,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-http,None,true,using development version that precedes the final release version.
+7,latest pom version,0.23,io.hyperfoil,hyperfoil-http,2022-10-31 08:30:04,true,using development version that precedes the final release version.
+8,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-hotrod,None,true,using development version that precedes the final release version.
+8,latest pom version,0.23,io.hyperfoil,hyperfoil-hotrod,2022-10-31 08:30:27,true,using development version that precedes the final release version.
+9,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-clustering,None,true,using development version that precedes the final release version.
+9,latest pom version,0.23,io.hyperfoil,hyperfoil-clustering,2022-10-31 08:30:35,true,using development version that precedes the final release version.
+10,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-k8s-deployer,None,true,using development version that precedes the final release version.
+10,latest pom version,0.23,io.hyperfoil,hyperfoil-k8s-deployer,2022-10-31 08:30:34,true,using development version that precedes the final release version.
+11,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-test-suite,None,true,using development version that precedes the final release version.
+11,latest pom version,0.2,io.hyperfoil,hyperfoil-test-suite,2019-04-18 09:04:31,true,using development version that precedes the final release version.
+12,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-codegen-maven-plugin,None,true,using development version that precedes the final release version.
+12,latest pom version,0.23,io.hyperfoil,hyperfoil-codegen-maven-plugin,2022-10-31 08:30:46,true,using development version that precedes the final release version.
+13,current pom version,0.24-SNAPSHOT,io.hyperfoil,hyperfoil-maven-plugin,None,true,using development version that precedes the final release version.
+13,latest pom version,0.23,io.hyperfoil,hyperfoil-maven-plugin,2022-10-31 08:30:18,true,using development version that precedes the final release version.
+14,current pom version,1.7.32,org.slf4j,slf4j-api,2021-07-20 07:56:54,false,There are more than 2 versions between the current and the latest.
+14,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,There are more than 2 versions between the current and the latest.
+15,current pom version,2.17.1,org.apache.logging.log4j,log4j-api,2021-12-27 18:30:22,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+15,latest pom version,2.19.0,org.apache.logging.log4j,log4j-api,2022-09-13 13:17:05,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+16,current pom version,2.17.1,org.apache.logging.log4j,log4j-core,2021-12-27 18:30:56,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+16,latest pom version,2.19.0,org.apache.logging.log4j,log4j-core,2022-09-13 13:18:16,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+17,current pom version,2.17.1,org.apache.logging.log4j,log4j-slf4j-impl,2021-12-27 18:32:27,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+17,latest pom version,2.19.0,org.apache.logging.log4j,log4j-slf4j-impl,2022-09-13 13:19:38,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+18,current pom version,2.1.11,org.hdrhistogram,HdrHistogram,2019-01-17 11:07:15,false,There are more than 2 versions between the current and the latest.
+18,latest pom version,2.1.12,org.hdrhistogram,HdrHistogram,2019-12-10 07:22:59,false,There are more than 2 versions between the current and the latest.
+19,current pom version,4.3.0,io.vertx,vertx-dependencies,2022-05-11 07:28:03,true,All latest versions released recently less than 3 months
+19,latest pom version,3.9.14,io.vertx,vertx-dependencies,2022-10-25 05:32:19,true,All latest versions released recently less than 3 months
+20,current pom version,13.0.8.Final,org.infinispan,infinispan-core,2022-03-11 11:49:24,true,All latest versions released recently less than 3 months
+20,latest pom version,14.0.2.Final,org.infinispan,infinispan-core,2022-10-24 06:54:09,true,All latest versions released recently less than 3 months
+21,current pom version,2.12.6.1,com.fasterxml.jackson.core,jackson-databind,2022-03-26 22:31:02,true,All latest versions released recently less than 3 months
+21,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,true,All latest versions released recently less than 3 months
+22,current pom version,1.32,org.yaml,snakeyaml,2022-09-12 12:20:02,true,Using the latest available version.
+22,latest pom version,1.33,org.yaml,snakeyaml,2022-09-26 02:52:45,true,Using the latest available version.
+23,current pom version,4.13.1,junit,junit,2020-10-11 11:19:50,false,There are more than 2 versions between the current and the latest.
+23,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,There are more than 2 versions between the current and the latest.
+24,current pom version,2.7.0,org.apache.sshd,sshd-core,2021-05-11 10:00:49,false,There are more than 2 versions between the current and the latest.
+24,latest pom version,2.9.1,org.apache.sshd,sshd-core,2022-08-22 08:19:01,false,There are more than 2 versions between the current and the latest.
+25,current pom version,2.7.0,org.apache.sshd,sshd-scp,2021-05-11 10:04:28,false,There are more than 2 versions between the current and the latest.
+25,latest pom version,2.9.1,org.apache.sshd,sshd-scp,2022-08-22 08:25:16,false,There are more than 2 versions between the current and the latest.
+26,current pom version,2.7.0,org.apache.sshd,sshd-sftp,2021-05-11 10:05:33,false,There are more than 2 versions between the current and the latest.
+26,latest pom version,2.9.1,org.apache.sshd,sshd-sftp,2022-08-22 08:26:57,false,There are more than 2 versions between the current and the latest.
+27,current pom version,0.3.0,net.i2p.crypto,eddsa,2018-05-05 17:26:38,true,Using the latest available version.
+27,latest pom version,0.3.0,net.i2p.crypto,eddsa,2018-05-05 17:26:38,true,Using the latest available version.
+28,current pom version,3.10.0,org.assertj,assertj-core,2018-05-12 02:37:55,false,There are more than 2 versions between the current and the latest.
+28,latest pom version,3.23.1,org.assertj,assertj-core,2022-05-31 13:22:12,false,There are more than 2 versions between the current and the latest.
+29,current pom version,2.7,org.aesh,aesh,2022-09-16 02:45:53.499000,true,Using the latest available version.
+29,latest pom version,2.7,org.aesh,aesh,2022-09-16 02:45:53.499000,true,Using the latest available version.
+30,current pom version,1.8,org.kohsuke.metainf-services,metainf-services,2018-06-21 16:28:41,true,There are only 2 versions or less between the current and the latest.
+30,latest pom version,1.9,org.kohsuke.metainf-services,metainf-services,2022-03-23 20:42:39,true,There are only 2 versions or less between the current and the latest.
+31,current pom version,2.0.42.Final,io.netty,netty-tcnative-boringssl-static,2021-09-09 07:20:04,false,There are more than 2 versions between the current and the latest.
+31,latest pom version,2.0.54.Final,io.netty,netty-tcnative-boringssl-static,2022-07-22 05:49:09,false,There are more than 2 versions between the current and the latest.
+32,current pom version,4.7.2,io.fabric8,kubernetes-client,2021-02-09 09:29:04,false,There are more than 2 versions between the current and the latest.
+32,latest pom version,6.2.0,io.fabric8,kubernetes-client,2022-10-20 02:29:03,false,There are more than 2 versions between the current and the latest.
+33,current pom version,3.5.4,org.apache.maven,maven-plugin-api,2018-06-17 14:31:13,false,Using the old version More than 2 years between the latest and current version.
+33,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-plugin-api,2022-10-14 20:09:28,false,Using the old version More than 2 years between the latest and current version.
+34,current pom version,3.5.4,org.apache.maven,maven-core,2018-06-17 14:33:54,false,Using the old version More than 2 years between the latest and current version.
+34,latest pom version,4.0.0-alpha-2,org.apache.maven,maven-core,2022-10-14 20:11:04,false,Using the old version More than 2 years between the latest and current version.
+35,current pom version,3.5.1,org.apache.maven.plugin-tools,maven-plugin-annotations,2018-01-19 13:01:05,false,Using the old version More than 2 years between the latest and current version.
+35,latest pom version,3.6.4,org.apache.maven.plugin-tools,maven-plugin-annotations,2022-01-10 18:07:06,false,Using the old version More than 2 years between the latest and current version.
+36,current pom version,3.14.12,com.github.javaparser,javaparser-core,2019-08-26 15:27:57,false,Using the old version More than 2 years between the latest and current version.
+36,latest pom version,3.24.7,com.github.javaparser,javaparser-core,2022-10-19 15:27:01,false,Using the old version More than 2 years between the latest and current version.
+37,current pom version,2.0.6.Final,org.jboss.marshalling,jboss-marshalling,2018-08-28 11:59:59,false,Using the old version More than 2 years between the latest and current version.
+37,latest pom version,2.0.13.Final,org.jboss.marshalling,jboss-marshalling,2022-09-30 16:31:10.453000,false,Using the old version More than 2 years between the latest and current version.
+38,current pom version,2.0.6.Final,org.jboss.marshalling,jboss-marshalling-river,2018-08-28 12:00:07,false,Using the old version More than 2 years between the latest and current version.
+38,latest pom version,2.0.13.Final,org.jboss.marshalling,jboss-marshalling-river,2022-09-30 16:31:31.962000,false,Using the old version More than 2 years between the latest and current version.
+39,current pom version,2.0.6.Final,org.jboss.marshalling,jboss-marshalling-serial,2018-08-28 12:00:13,false,Using the old version More than 2 years between the latest and current version.
+39,latest pom version,2.0.13.Final,org.jboss.marshalling,jboss-marshalling-serial,2022-09-30 16:31:51.140000,false,Using the old version More than 2 years between the latest and current version.
+40,current pom version,3.4.2.Final,org.jboss.threads,jboss-threads,2021-08-10 06:55:30,true,All latest versions released recently less than 3 months
+40,latest pom version,3.4.3.Final,org.jboss.threads,jboss-threads,2022-09-07 10:01:08.253000,true,All latest versions released recently less than 3 months
+41,current pom version,3.4.1.Final,org.jboss.logging,jboss-logging,2019-08-07 11:08:24,false,Using the old version More than 2 years between the latest and current version.
+41,latest pom version,3.5.0.Final,org.jboss.logging,jboss-logging,2022-04-28 12:10:16,false,Using the old version More than 2 years between the latest and current version.
+42,current pom version,1.5.4.Final,org.wildfly.common,wildfly-common,2020-03-06 15:47:33,false,Using the old version More than 2 years between the latest and current version.
+42,latest pom version,1.6.0.Final,org.wildfly.common,wildfly-common,2022-03-07 11:47:04,false,Using the old version More than 2 years between the latest and current version.

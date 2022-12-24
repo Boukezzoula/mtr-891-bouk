@@ -1,0 +1,16 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,3.8.0,commons-net,commons-net,2021-02-13 10:13:06,true,using latest available version
+1,latest pom version,3.8.0,commons-net,commons-net,2021-02-13 10:13:06,true,using latest available version
+2,current pom version,1654.vcb_69d035fa_20,io.jenkins.tools.bom,bom-2.346.x,2022-10-26,true,patch
+2,latest pom version,1683.vfa_87c051f837,io.jenkins.tools.bom,bom-2.346.x,2022-11-03,true,patch
+3,current pom version,31.v4757b_6987003,io.jenkins.plugins,ionicons-api,2022-10-14,true,patch
+3,latest pom version,34.vb_188a_07a_59b_c,io.jenkins.plugins,ionicons-api,2022-11-03,true,patch
+4,current pom version,2.9.0,org.xmlunit,xmlunit-core,2022-01-25 12:12:41,true,using latest available version
+4,latest pom version,2.9.0,org.xmlunit,xmlunit-core,2022-01-25 12:12:41,true,using latest available version
+5,current pom version,4.12,io.github.java-diff-utils,java-diff-utils,2022-07-22 19:37:56,true,using latest available version
+5,latest pom version,4.12,io.github.java-diff-utils,java-diff-utils,2022-07-22 19:37:56,true,using latest available version
+6,current pom version,3.20,org.jenkins-ci.main,maven-plugin,2022-10-13,true,using latest available version
+6,latest pom version,3.20,org.jenkins-ci.main,maven-plugin,2022-10-13,true,using latest available version
+7,current pom version,1.10.19,org.mockito,mockito-core,2014-12-31 11:43:35,false,There are more than 2 versions between the current and the latest.
+7,latest pom version,4.8.1,org.mockito,mockito-core,2022-10-17 16:31:57,false,There are more than 2 versions between the current and the latest.
+,,,,,,

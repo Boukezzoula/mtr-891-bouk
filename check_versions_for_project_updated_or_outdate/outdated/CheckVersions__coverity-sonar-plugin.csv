@@ -1,0 +1,45 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,7.9.6,org.sonarsource.sonarqube,sonar-plugin-api,2021-03-02 03:02:49,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,8.9.10.61524,org.sonarsource.sonarqube,sonar-plugin-api,2022-10-18 03:27:14,false,There are more than 2 versions between the current and the latest.
+2,current pom version,7.9.6,org.sonarsource.sonarqube,sonar-testing-harness,2021-03-02 03:02:48,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,9.7.1.62043,org.sonarsource.sonarqube,sonar-testing-harness,2022-10-28 05:43:22,false,There are more than 2 versions between the current and the latest.
+3,current pom version,4.11,junit,junit,2012-11-14 14:21:47,false,Using old version More than 2 years between the latest and current version
+3,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,Using old version More than 2 years between the latest and current version
+4,current pom version,1.4,org.easytesting,fest-assert,2011-02-22 02:45:59,true,using latest available version
+4,latest pom version,1.4,org.easytesting,fest-assert,2011-02-22 02:45:59,true,using latest available version
+5,current pom version,1.9.0,org.mockito,mockito-all,2011-12-19 20:24:59,false,Using old version More than 2 years between the latest and current version
+5,latest pom version,2.0.2-beta,org.mockito,mockito-all,2015-01-02 11:24:26,false,Using old version More than 2 years between the latest and current version
+6,current pom version,2.2.1,org.apache.maven,maven-project,2009-08-06 15:15:06,false,Not updated recently and stable but the project uses old dependency
+6,latest pom version,2.0.11,org.apache.maven,maven-project,2010-02-12 00:55:00,false,Not updated recently and stable but the project uses old dependency
+7,current pom version,3.0,com.sun.xml.wss,xws-security,2008-04-24 06:01:05,true,using latest available version
+7,latest pom version,3.0,com.sun.xml.wss,xws-security,2008-04-24 06:01:05,true,using latest available version
+8,current pom version,1.3.23,com.sun.xml.messaging.saaj,saaj-impl,2013-10-08 10:33:01,false,Using old version More than 2 years between the latest and current version
+8,latest pom version,3.0.0,com.sun.xml.messaging.saaj,saaj-impl,2022-06-08 08:13:01,false,Using old version More than 2 years between the latest and current version
+9,current pom version,1.3.5,javax.xml.soap,saaj-api,2013-03-21 14:34:42,true,using latest available version
+9,latest pom version,1.3.5,javax.xml.soap,saaj-api,2013-03-21 14:34:42,true,using latest available version
+10,current pom version,2.6,commons-lang,commons-lang,2011-01-16 17:21:47,true,using latest available version
+10,latest pom version,2.6,commons-lang,commons-lang,2011-01-16 17:21:47,true,using latest available version
+11,current pom version,1.0,javax.xml,xmldsig,2005-12-22 07:20:58,true,using latest available version
+11,latest pom version,1.0,javax.xml,xmldsig,2005-12-22 07:20:58,true,using latest available version
+12,current pom version,2.2,org.codehaus.mojo,sonar-maven-plugin,2013-11-08 11:05:04,false,Using old version More than 2 years between the latest and current version
+12,latest pom version,3.9.1.2184,org.codehaus.mojo,sonar-maven-plugin,2022-01-05 04:53:08,false,Using old version More than 2 years between the latest and current version
+13,current pom version,1.7.12,org.slf4j,slf4j-api,2015-03-26 16:50:05,false,Using old version More than 2 years between the latest and current version
+13,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,Using old version More than 2 years between the latest and current version
+14,current pom version,1.1.1,com.googlecode.json-simple,json-simple,2012-03-21 01:11:34,true,using latest available version
+14,latest pom version,1.1.1,com.googlecode.json-simple,json-simple,2012-03-21 01:11:34,true,using latest available version
+15,current pom version,15.0,com.google.guava,guava,2013-09-06 15:52:49,false,Using old version More than 2 years between the latest and current version
+15,latest pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,false,Using old version More than 2 years between the latest and current version
+16,current pom version,3.0.0,com.google.code.findbugs,annotations,2014-07-10 07:56:08,false,Not updated recently and stable but the project uses old dependency
+16,latest pom version,3.0.1u2,com.google.code.findbugs,annotations,2015-10-09 02:11:45,false,Not updated recently and stable but the project uses old dependency
+17,current pom version,2.3.2,com.sun.xml.ws,jaxws-rt,2019-01-18 10:38:36,false,Using old version More than 2 years between the latest and current version
+17,latest pom version,4.0.0,com.sun.xml.ws,jaxws-rt,2022-06-18 09:56:39,false,Using old version More than 2 years between the latest and current version
+18,current pom version,2.1,javax.xml.bind,jaxb-api,2007-10-01 03:52:13,false,Using old version More than 2 years between the latest and current version
+18,latest pom version,2.3.1,javax.xml.bind,jaxb-api,2018-09-12 09:28:52,false,Using old version More than 2 years between the latest and current version
+19,current pom version,2.3.1,javax.xml.ws,jaxws-api,2018-09-12 15:25:52,true,using latest available version
+19,latest pom version,2.3.1,javax.xml.ws,jaxws-api,2018-09-12 15:25:52,true,using latest available version
+20,current pom version,2.0.1,org.codehaus.staxmate,staxmate,2010-11-20 13:23:14,true,using latest available version
+20,latest pom version,2.0.1,org.codehaus.staxmate,staxmate,2010-11-20 13:23:14,true,using latest available version
+21,current pom version,0.7.9,org.jacoco,org.jacoco.ant,2017-02-05 16:59:58,false,Using old version More than 2 years between the latest and current version
+21,latest pom version,0.8.8,org.jacoco,org.jacoco.ant,2022-04-05 03:20:43,false,Using old version More than 2 years between the latest and current version
+22,current pom version,20020829,ant-contrib,ant-contrib,2005-11-08 16:52:24,false,Using old version More than 2 years between the latest and current version
+22,latest pom version,1.0b3,ant-contrib,ant-contrib,2010-10-20 03:47:05,false,Using old version More than 2 years between the latest and current version

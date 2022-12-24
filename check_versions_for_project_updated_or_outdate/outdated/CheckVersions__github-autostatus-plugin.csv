@@ -1,0 +1,111 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.9.9.1,org.jenkins-ci.plugins,jackson2-api,2019-07-11,false,Not updated recently and stable but the project uses old dependency.
+1,latest pom version,2.13.x,org.jenkins-ci.plugins,jackson2-api,2022-04-14,false,Not updated recently and stable but the project uses old dependency.
+2,current pom version,2.9.10,com.fasterxml.jackson.core,jackson-databind,2021-01-06,false,Not updated recently and stable but the project uses old dependency.
+2,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,false,Not updated recently and stable but the project uses old dependency.
+3,current pom version,3.7,org.apache.commons,commons-lang3,2017-11-04 14:16:19,false,Not updated recently and stable but the project uses old dependency.
+3,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,false,Not updated recently and stable but the project uses old dependency.
+4,current pom version,1.3,org.jenkins-ci.plugins,plain-credentials,2018-08-26,true,Using the latest available version.
+4,latest pom version,1.3,org.jenkins-ci.plugins,plain-credentials,2018-08-26,true,Using the latest available version.
+5,current pom version,1.20,org.jenkins-ci.plugins,structs,2019-07-30,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+5,latest pom version,1.24	,org.jenkins-ci.plugins,structs,2021-11-24,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+6,current pom version,3.0,org.apache.maven.reporting,maven-reporting-api,2010-05-09 14:50:51,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+6,latest pom version,3.1.1,org.apache.maven.reporting,maven-reporting-api,2022-07-29 16:28:51,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+7,current pom version,5.0.3,org.ow2.asm,asm,2014-05-24 04:30:12,false,Not updated recently and stable but the project uses old dependency.
+7,latest pom version,9.4,org.ow2.asm,asm,2022-10-02 03:17:11,false,Not updated recently and stable but the project uses old dependency.
+8,current pom version,4.4.9,org.apache.httpcomponents,httpcore,2018-01-11 22:42:27,false,Not updated recently and stable but the project uses old dependency.
+8,latest pom version,4.4.15,org.apache.httpcomponents,httpcore,2021-12-03 03:33:25,false,Not updated recently and stable but the project uses old dependency.
+9,current pom version,1.1.2,org.apache.maven.doxia,doxia-sink-api,2009-11-30 07:36:12,false,Not updated recently and stable but the project uses old dependency.
+9,latest pom version,2.0.0-M4,org.apache.maven.doxia,doxia-sink-api,2022-10-16 15:05:57,false,Not updated recently and stable but the project uses old dependency.
+10,current pom version,1.0-alpha-30,org.codehaus.plexus,plexus-container-default,2007-07-30 20:03:45,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+10,latest pom version,2.1.1,org.codehaus.plexus,plexus-container-default,2021-12-22 21:05:43,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+11,current pom version,2.22,org.jenkins-ci.plugins.workflow,workflow-step-api,2020-01-04,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+11,latest pom version,2.24,org.jenkins-ci.plugins.workflow,workflow-step-api,2021-07-12,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+12,current pom version,2.18,org.jenkins-ci.plugins.workflow,workflow-basic-steps,2019-06-06,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+12,latest pom version,2.24,org.jenkins-ci.plugins.workflow,workflow-basic-steps,2021-08-16,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+13,current pom version,2.31,org.jenkins-ci.plugins.workflow,workflow-durable-task-step,2019-06-06,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+13,latest pom version,2.40,org.jenkins-ci.plugins.workflow,workflow-durable-task-step,2022-09-22,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+14,current pom version,3.3,org.jenkins-ci.plugins.workflow,workflow-support,2019-04-26,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+14,latest pom version,3.8,org.jenkins-ci.plugins.workflow,workflow-support,2021-03-05,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+15,current pom version,1.58,org.jenkins-ci.plugins,script-security,2019-04-20,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+15,latest pom version,1.78.1,org.jenkins-ci.plugins,script-security,2022-04-06,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+16,current pom version,1.12.1,org.jenkins-ci.plugins,token-macro,2022-04-22,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+16,latest pom version,2.3,org.jenkins-ci.plugins,token-macro,2022-04-22,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+17,current pom version,2.8.5,com.google.code.gson,gson,2018-05-21 23:08:59,false,Not updated recently and stable but the project uses old dependency.
+17,latest pom version,2.10,com.google.code.gson,gson,2022-10-24 21:09:40,false,Not updated recently and stable but the project uses old dependency.
+19,current pom version,1.34,io.jenkins,configuration-as-code,2019-12-07,false,Not updated recently and stable but the project uses old dependency.
+19,latest pom version,1.55.1,io.jenkins,configuration-as-code,2021-12-20,false,Not updated recently and stable but the project uses old dependency.
+20,current pom version,2.5.8,org.jenkins-ci.plugins,github-branch-source,2019-09-28,false,Not updated recently and stable but the project uses old dependency.
+20,latest pom version,2.11.5,org.jenkins-ci.plugins,github-branch-source,2022-02-23,false,Not updated recently and stable but the project uses old dependency.
+21,current pom version,1.5.1,org.jenkinsci.plugins,pipeline-model-api,2020-01-31,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+21,latest pom version,1.9.3,org.jenkinsci.plugins,pipeline-model-api,2021-11-18,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+22,current pom version,1.5.1,org.jenkinsci.plugins,pipeline-model-definition,2020-01-31,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+22,latest pom version,1.9.3,org.jenkinsci.plugins,pipeline-model-definition,2021-11-18,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+23,current pom version,1.12.1,org.jenkins-ci.plugins,cobertura,2018-05-11,false,Not updated recently and stable but the project uses old dependency.
+23,latest pom version,1.17,org.jenkins-ci.plugins,cobertura,2021-11-08,false,Not updated recently and stable but the project uses old dependency.
+24,current pom version,2.2.1,org.jenkins-ci.plugins,jacoco,2018-04-21,true,Using the latest available version.
+24,latest pom version,2.2.1,org.jenkins-ci.plugins,jacoco,2018-04-21,true,Using the latest available version.
+25,current pom version,2.8.1,com.datadoghq,java-dogstatsd-client,2019-10-04 04:21:56,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+25,latest pom version,4.1.0,com.datadoghq,java-dogstatsd-client,2022-10-06 07:14:12,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+26,current pom version,2.43,org.jenkins-ci.plugins,support-core,2017-11-13,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+26,latest pom version,2.81,org.jenkins-ci.plugins,support-core,2022-02-24,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+27,current pom version,2.34,org.jenkins-ci.plugins.workflow,workflow-api,2019-05-18,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+27,latest pom version,2.47,org.jenkins-ci.plugins.workflow,workflow-api,2021-10-21,false,"Not updated recently and stable but the project uses old dependency.
+Using the old version More than 2 years between the latest and current version.
+"
+31,current pom version,2.2,org.hamcrest,hamcrest-core,2019-10-16 16:52:39,true,Using the latest available version.
+31,latest pom version,2.2,org.hamcrest,hamcrest-core,2019-10-16 16:52:39,true,Using the latest available version.

@@ -1,0 +1,39 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.0.2,cloudgene,cloudgene-java-sdk,2021-05-26,true,Using the latest available version.
+1,latest pom version,1.0.2,cloudgene,cloudgene-java-sdk,2021-05-26,true,Using the latest available version.
+2,current pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,Using the latest available version.
+2,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,Using the latest available version.
+3,current pom version,2.9.1,net.lingala.zip4j,zip4j,2021-11-17 22:19:13,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,2.11.2,net.lingala.zip4j,zip4j,2022-09-12 10:51:11,false,There are more than 2 versions between the current and the latest.
+4,current pom version,1.15,com.esotericsoftware.yamlbeans,yamlbeans,2020-08-12 21:56:44,true,Using the latest available version.
+4,latest pom version,1.15,com.esotericsoftware.yamlbeans,yamlbeans,2020-08-12 21:56:44,true,Using the latest available version.
+5,current pom version,1.2.0,genepi,genepi-io,None,true,Using the latest available version.
+5,latest pom version,1.2.0,genepi,genepi-io,None,true,Using the latest available version.
+6,current pom version,mr1-1.4.1,genepi,genepi-hadoop,None,true,Using the latest available version.
+6,latest pom version,mr1-1.4.1,genepi,genepi-hadoop,None,true,Using the latest available version.
+7,current pom version,2.24.1,com.github.samtools,htsjdk,2021-03-17 12:10:18,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+7,latest pom version,3.0.2,com.github.samtools,htsjdk,2022-10-12 15:19:12,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+8,current pom version,3.6.1,org.apache.commons,commons-math3,2016-03-17 13:35:11,true,Using the latest available version.
+8,latest pom version,3.6.1,org.apache.commons,commons-math3,2016-03-17 13:35:11,true,Using the latest available version.
+9,current pom version,2.6.0-cdh5.16.1,org.apache.hadoop,hadoop-hdfs,2016-10-05,false,There are more than 2 versions between the current and the latest.
+9,latest pom version,3.3.4,org.apache.hadoop,hadoop-hdfs,2022-07-29 08:41:28,false,There are more than 2 versions between the current and the latest.
+10,current pom version,2.6.0-cdh5.16.1,org.apache.hadoop,hadoop-common,2016-10-05,false,There are more than 2 versions between the current and the latest.
+10,latest pom version,3.3.4,org.apache.hadoop,hadoop-common,2022-07-29 08:34:43,false,There are more than 2 versions between the current and the latest.
+11,current pom version,2.6.0-mr1-cdh5.16.1,org.apache.hadoop,hadoop-test,2016-10-03,true,Using the latest available version.
+11,latest pom version,2.6.0-mr1-cdh5.16.1,org.apache.hadoop,hadoop-test,2016-10-03 16:41:56,true,Using the latest available version.
+12,current pom version,0.9.0,org.apache.sshd,sshd-sftp,2013-07-26 06:56:15,false,There are more than 2 versions between the current and the latest.
+12,latest pom version,2.9.1,org.apache.sshd,sshd-sftp,2022-08-22 08:26:57,false,There are more than 2 versions between the current and the latest.
+13,current pom version,3.0.9,org.codehaus.groovy,groovy,2021-09-06 10:41:31,false,There are more than 2 versions between the current and the latest.
+13,latest pom version,2.5.19,org.codehaus.groovy,groovy,2022-10-16 01:03:04,false,There are more than 2 versions between the current and the latest.
+14,current pom version,3.0.9,org.codehaus.groovy,groovy-templates,2021-09-06 10:32:19,false,There are more than 2 versions between the current and the latest.
+14,latest pom version,3.0.13,org.codehaus.groovy,groovy-templates,2022-09-18 01:20:48,false,There are more than 2 versions between the current and the latest.
+15,current pom version,1.4.0-beta7,lukfor,pgs-calc,2022-08-24,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"
+15,latest pom version,1.5.2,lukfor,pgs-calc,2022-10-04,true,"There are only 2 versions or less between the current and the latest.
+All latest versions released recently less than 3 months
+"

@@ -1,0 +1,27 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.19.0,org.apache.logging.log4j,log4j-api,2022-09-13 13:17:05,true,Using the latest available version.
+1,latest pom version,2.19.0,org.apache.logging.log4j,log4j-api,2022-09-13 13:17:05,true,Using the latest available version.
+2,current pom version,2.8.0,org.apache.kafka,connect-api,2021-04-14 13:17:45,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,3.3.1,org.apache.kafka,connect-api,2022-09-29 15:25:15,false,There are more than 2 versions between the current and the latest.
+3,current pom version,7.16.1,org.elasticsearch.client,elasticsearch-rest-high-level-client,2021-12-11 01:16:36,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,7.17.7,org.elasticsearch.client,elasticsearch-rest-high-level-client,2022-10-25 06:39:49,false,There are more than 2 versions between the current and the latest.
+4,current pom version,7.16.1,org.elasticsearch.client,elasticsearch-rest-client,2021-12-11 01:16:35,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,8.5.0,org.elasticsearch.client,elasticsearch-rest-client,2022-10-31 12:28:27,false,There are more than 2 versions between the current and the latest.
+5,current pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,Using the latest available version.
+5,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,true,Using the latest available version.
+6,current pom version,1.16.2,org.testcontainers,testcontainers,2021-10-22 11:37:08,false,There are more than 2 versions between the current and the latest.
+6,latest pom version,1.17.5,org.testcontainers,testcontainers,2022-10-04 11:01:45,false,There are more than 2 versions between the current and the latest.
+7,current pom version,1.16.2,org.testcontainers,elasticsearch,2021-10-22 11:36:02,false,There are more than 2 versions between the current and the latest.
+7,latest pom version,1.17.5,org.testcontainers,elasticsearch,2022-10-04 10:59:15,false,There are more than 2 versions between the current and the latest.
+8,current pom version,1.2.9,ch.qos.logback,logback-core,2021-12-16 21:35:32,false,There are more than 2 versions between the current and the latest.
+8,latest pom version,1.4.4,ch.qos.logback,logback-core,2022-10-10 04:13:40,false,There are more than 2 versions between the current and the latest.
+9,current pom version,1.2.8,ch.qos.logback,logback-classic,2021-12-14 06:57:45,false,There are more than 2 versions between the current and the latest.
+9,latest pom version,1.4.4,ch.qos.logback,logback-classic,2022-10-10 04:14:19,false,There are more than 2 versions between the current and the latest.
+10,current pom version,2.15.0,org.mockito,mockito-core,2018-02-10 10:53:37,false,Using old version More than 2 years between the latest and current version.
+10,latest pom version,4.8.1,org.mockito,mockito-core,2022-10-17 16:31:57,false,Using old version More than 2 years between the latest and current version.
+11,current pom version,2.14.0-rc1,com.fasterxml.jackson.core,jackson-databind,2022-09-25 19:04:15,true,There are only 2 versions or less between the current and the latest.
+11,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,true,There are only 2 versions or less between the current and the latest.
+12,current pom version,1.32,org.yaml,snakeyaml,2022-09-12 12:20:02,true,There are only 2 versions or less between the current and the latest.
+12,latest pom version,1.33,org.yaml,snakeyaml,2022-09-26 02:52:45,true,There are only 2 versions or less between the current and the latest.
+13,current pom version,4.5.13,org.apache.httpcomponents,httpclient,2020-10-03 10:47:41,true,Using the latest available version.
+13,latest pom version,4.5.13,org.apache.httpcomponents,httpclient,2020-10-03 10:47:41,true,Using the latest available version.

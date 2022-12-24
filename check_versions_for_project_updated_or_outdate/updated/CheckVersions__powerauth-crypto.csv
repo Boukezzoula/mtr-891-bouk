@@ -1,0 +1,11 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,true,Using the latest available version.
+1,latest pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,true,Using the latest available version.
+2,current pom version,1.7.36,org.slf4j,slf4j-api,2022-02-08 08:33:51,true,The latest versions are unstable
+2,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,true,The latest versions are unstable
+3,current pom version,1.7.36,org.slf4j,slf4j-simple,2022-02-08 08:34:01,true,The latest versions are unstable
+3,latest pom version,2.0.3,org.slf4j,slf4j-simple,2022-09-28 06:18:21,true,The latest versions are unstable
+4,current pom version,5.8.2,org.junit.jupiter,junit-jupiter-engine,2021-11-28 10:40:10,true,"There are only 2 versions between the current and the latest.
+The latest versions are unstable."
+4,latest pom version,5.9.1,org.junit.jupiter,junit-jupiter-engine,2022-09-20 14:34:31,true,"There are only 2 versions between the current and the latest.
+The latest versions are unstable."

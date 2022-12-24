@@ -1,0 +1,3 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.14.0,com.fasterxml.jackson,jackson-bom,2022-11-05 16:21:02,true,using latest version
+1,latest pom version,2.14.0,com.fasterxml.jackson,jackson-bom,2022-11-05 16:21:02,true,using latest version

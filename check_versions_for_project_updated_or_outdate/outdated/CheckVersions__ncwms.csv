@@ -1,0 +1,34 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.5.2,uk.ac.rdg.resc,edal-common,2022-03-03 07:05:21,true,Using the latest available version.
+1,latest pom version,1.5.2,uk.ac.rdg.resc,edal-common,2022-03-03 07:05:21,true,Using the latest available version.
+2,current pom version,1.5.2,uk.ac.rdg.resc,edal-graphics,2022-03-03 07:05:41,true,Using the latest available version.
+2,latest pom version,1.5.2,uk.ac.rdg.resc,edal-graphics,2022-03-03 07:05:41,true,Using the latest available version.
+3,current pom version,1.5.2,uk.ac.rdg.resc,edal-godiva,2022-03-03 07:05:46,true,Using the latest available version.
+3,latest pom version,1.5.2,uk.ac.rdg.resc,edal-godiva,2022-03-03 07:05:46,true,Using the latest available version.
+4,current pom version,2.17.0,org.apache.logging.log4j,log4j-core,2021-12-17 20:58:11,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,2.19.0,org.apache.logging.log4j,log4j-core,2022-09-13 13:18:16,false,There are more than 2 versions between the current and the latest.
+5,current pom version,2.8.2,com.google.gwt,gwt-dev,2017-10-18 13:55:44,false,Not updated recently and stable but the project uses old dependency
+5,latest pom version,2.10.0,com.google.gwt,gwt-dev,2022-06-22 06:58:19,false,Not updated recently and stable but the project uses old dependency
+6,current pom version,2.8.2,com.google.gwt,gwt-user,2017-10-18 13:55:58,false,Not updated recently and stable but the project uses old dependency
+6,latest pom version,2.10.0,com.google.gwt,gwt-user,2022-06-22 06:58:27,false,Not updated recently and stable but the project uses old dependency
+7,current pom version,1.5.2,uk.ac.rdg.resc,edal-cdm,2022-03-03 07:05:40,true,Using the latest available version.
+7,latest pom version,1.5.2,uk.ac.rdg.resc,edal-cdm,2022-03-03 07:05:40,true,Using the latest available version.
+8,current pom version,1.5.2,uk.ac.rdg.resc,edal-xml-catalogue,2022-03-03 07:05:45,true,Using the latest available version.
+8,latest pom version,1.5.2,uk.ac.rdg.resc,edal-xml-catalogue,2022-03-03 07:05:45,true,Using the latest available version.
+9,current pom version,1.5.2,uk.ac.rdg.resc,edal-wms,2022-03-03 07:05:37,true,Using the latest available version.
+9,latest pom version,1.5.2,uk.ac.rdg.resc,edal-wms,2022-03-03 07:05:37,true,Using the latest available version.
+10,current pom version,2.5,javax.servlet,servlet-api,2006-07-17 07:09:57,false,Not updated recently and stable but the project uses old dependency
+10,latest pom version,3.0-alpha-1,javax.servlet,servlet-api,2008-04-16 20:23:05,false,Not updated recently and stable but the project uses old dependency
+11,current pom version,1.8,com.thetransactioncompany,cors-filter,2013-11-05 05:08:46,false,Not updated recently and stable but the project uses old dependency
+11,latest pom version,2.10,com.thetransactioncompany,cors-filter,2021-04-12 12:10:15,false,Not updated recently and stable but the project uses old dependency
+12,current pom version,0.9.10,net.sourceforge.winstone,winstone,2008-01-28 00:09:52,true,Using the latest available version.
+12,latest pom version,0.9.10,net.sourceforge.winstone,winstone,2008-01-28 00:09:52,true,Using the latest available version.
+13,current pom version,2.8.2,com.google.gwt,gwt-codeserver,2017-10-18 13:56:40,false,Not updated recently and stable but the project uses old dependency
+13,latest pom version,2.10.0,com.google.gwt,gwt-codeserver,2022-06-22 06:58:41,false,Not updated recently and stable but the project uses old dependency
+14,current pom version,1.10.19,org.mockito,mockito-all,2014-12-31 11:43:36,false,Not updated recently and stable but the project uses old dependency
+14,latest pom version,2.0.2-beta,org.mockito,mockito-all,2015-01-02 11:24:26,false,Not updated recently and stable but the project uses old dependency
+15,current pom version,4.13.1,junit,junit,2020-10-11 11:19:50,false,Not updated recently and stable but the project uses old dependency
+15,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,Not updated recently and stable but the project uses old dependency
+16,current pom version,1.5.2,uk.ac.rdg.resc,edal-examples,2022-03-03 07:05:21,true,Using the latest available version.
+16,latest pom version,1.5.2,uk.ac.rdg.resc,edal-examples,2022-03-03 07:05:21,true,Using the latest available version.
+,,,,,,

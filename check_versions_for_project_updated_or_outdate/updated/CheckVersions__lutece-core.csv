@@ -1,0 +1,106 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,1.1.1,javax.activation,activation,2009-10-23 14:26:03,true,Using the latest available version.
+1,latest pom version,1.1.1,javax.activation,activation,2009-10-23 14:26:03,true,Using the latest available version.
+2,current pom version,0.9.5.4,com.mchange,c3p0,2019-03-24 02:01:47,false,Not updated recently and stable but the project uses old dependency.
+2,latest pom version,0.9.5.5,com.mchange,c3p0,2019-12-12 01:19:13,false,Not updated recently and stable but the project uses old dependency.
+3,current pom version,1.9.4,commons-beanutils,commons-beanutils,2019-07-28 18:16:54,true,Using the latest available version.
+3,latest pom version,1.9.4,commons-beanutils,commons-beanutils,2019-07-28 18:16:54,true,Using the latest available version.
+4,current pom version,1.8.1,commons-digester,commons-digester,2009-01-03 11:48:24,false,Not updated recently and stable but the project uses old dependency.
+4,latest pom version,2.1,commons-digester,commons-digester,2010-09-24 07:02:18,false,Not updated recently and stable but the project uses old dependency.
+5,current pom version,3.2,org.apache.commons,commons-digester3,2011-12-10 09:58:17,true,Using the latest available version.
+5,latest pom version,3.2,org.apache.commons,commons-digester3,2011-12-10 09:58:17,true,Using the latest available version.
+6,current pom version,1.3.3,commons-fileupload,commons-fileupload,2017-06-09 19:00:03,false,Not updated recently and stable but the project uses old dependency.
+6,latest pom version,1.4,commons-fileupload,commons-fileupload,2018-12-24 02:07:08,false,Not updated recently and stable but the project uses old dependency.
+7,current pom version,3.1,commons-httpclient,commons-httpclient,2007-08-21 09:44:07,true,Using the latest available version.
+7,latest pom version,3.1,commons-httpclient,commons-httpclient,2007-08-21 09:44:07,true,Using the latest available version.
+8,current pom version,2.11.0,commons-io,commons-io,2021-07-09 21:43:00,true,Using the latest available version.
+8,latest pom version,2.11.0,commons-io,commons-io,2021-07-09 21:43:00,true,Using the latest available version.
+9,current pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,Using the latest available version.
+9,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,Using the latest available version.
+10,current pom version,1.9,org.apache.commons,commons-text,2020-07-21 16:40:48,true,All latest versions released recently less than 3 months
+10,latest pom version,1.10.0,org.apache.commons,commons-text,2022-09-24 10:57:11,true,All latest versions released recently less than 3 months
+11,current pom version,2.1.1,org.apache.commons,commons-dbcp2,2015-08-02 20:39:19,false,Not updated recently and stable but the project uses old dependency.
+11,latest pom version,2.9.0,org.apache.commons,commons-dbcp2,2021-07-31 11:10:16,false,Not updated recently and stable but the project uses old dependency.
+12,current pom version,2.4.8,net.sf.ehcache,ehcache-core,2012-09-11 16:46:20,false,Not updated recently and stable but the project uses old dependency.
+12,latest pom version,2.6.11,net.sf.ehcache,ehcache-core,2015-04-22 13:19:31,false,Not updated recently and stable but the project uses old dependency.
+13,current pom version,2.0.4,net.sf.ehcache,ehcache-web,2011-10-26 21:18:10,true,Using the latest available version.
+13,latest pom version,2.0.4,net.sf.ehcache,ehcache-web,2011-10-26 21:18:10,true,Using the latest available version.
+14,current pom version,1.7.21,org.slf4j,slf4j-api,2016-04-04 14:36:40,false,Using the old version More than 2 years between the latest and current version.
+14,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,Using the old version More than 2 years between the latest and current version.
+15,current pom version,2.17.1,org.apache.logging.log4j,log4j-api,2021-12-27 18:30:22,true,"There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+"
+15,latest pom version,2.19.0,org.apache.logging.log4j,log4j-api,2022-09-13 13:17:05,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+16,current pom version,2.17.1,org.apache.logging.log4j,log4j-core,2021-12-27 18:30:56,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+16,latest pom version,2.19.0,org.apache.logging.log4j,log4j-core,2022-09-13 13:18:16,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+17,current pom version,2.17.1,org.apache.logging.log4j,log4j-web,2021-12-27 18:33:36,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+17,latest pom version,2.19.0,org.apache.logging.log4j,log4j-web,2022-09-13 13:21:01,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+18,current pom version,2.17.1,org.apache.logging.log4j,log4j-slf4j-impl,2021-12-27 18:32:27,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+18,latest pom version,2.19.0,org.apache.logging.log4j,log4j-slf4j-impl,2022-09-13 13:19:38,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+19,current pom version,2.17.1,org.apache.logging.log4j,log4j-1.2-api,2021-12-27 18:31:28,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+19,latest pom version,2.19.0,org.apache.logging.log4j,log4j-1.2-api,2022-09-13 13:18:42,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+20,current pom version,2.17.1,org.apache.logging.log4j,log4j-jcl,2021-12-27 18:32:59,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+20,latest pom version,2.19.0,org.apache.logging.log4j,log4j-jcl,2022-09-13 13:20:24,true,There are only 2 versions or less between the current and the latest.All latest versions released recently less than 3 months
+21,current pom version,1.2,commons-logging,commons-logging,2014-07-05 14:12:28,true,Using the latest available version.
+21,latest pom version,1.2,commons-logging,commons-logging,2014-07-05 14:12:28,true,Using the latest available version.
+22,current pom version,4aug2000r7-dev,jtidy,jtidy,2007-02-08 20:10:34,true,Using the latest available version.
+22,latest pom version,4aug2000r7-dev,jtidy,jtidy,2007-02-08 20:10:34,true,Using the latest available version.
+23,current pom version,1.14.2,org.jsoup,jsoup,2021-08-15 01:56:33,false,There are more than 2 versions between the current and the latest.
+23,latest pom version,1.15.3,org.jsoup,jsoup,2022-08-23 20:14:01,false,There are more than 2 versions between the current and the latest.
+24,current pom version,1.5.2,com.sun.mail,javax.mail,2014-05-02 19:15:01,false,Not updated recently and stable but the project uses old dependency.
+24,latest pom version,1.6.2,com.sun.mail,javax.mail,2018-08-29 18:30:52,false,Not updated recently and stable but the project uses old dependency.
+25,current pom version,8.0.31,mysql,mysql-connector-java,2022-09-03 17:54:30,true,Using the latest available version.
+25,latest pom version,8.0.31,mysql,mysql-connector-java,2022-09-03 17:54:30,true,Using the latest available version.
+26,current pom version,5.3.18,org.springframework,spring-aop,2022-03-31 05:40:21,true,All latest versions released recently less than 3 months
+26,latest pom version,5.3.23,org.springframework,spring-aop,2022-09-15 04:39:22,true,All latest versions released recently less than 3 months
+27,current pom version,5.3.18,org.springframework,spring-beans,2022-03-31 05:40:17,true,All latest versions released recently less than 3 months
+27,latest pom version,5.3.23,org.springframework,spring-beans,2022-09-15 04:39:18,true,All latest versions released recently less than 3 months
+28,current pom version,5.3.18,org.springframework,spring-context,2022-03-31 05:40:23,true,All latest versions released recently less than 3 months
+28,latest pom version,5.3.23,org.springframework,spring-context,2022-09-15 04:39:24,true,All latest versions released recently less than 3 months
+29,current pom version,5.3.18,org.springframework,spring-core,2022-03-31 05:40:22,true,All latest versions released recently less than 3 months
+29,latest pom version,5.3.23,org.springframework,spring-core,2022-09-15 04:39:23,true,All latest versions released recently less than 3 months
+30,current pom version,5.3.18,org.springframework,spring-orm,2022-03-31 05:40:20,true,All latest versions released recently less than 3 months
+30,latest pom version,5.3.23,org.springframework,spring-orm,2022-09-15 04:39:22,true,All latest versions released recently less than 3 months
+31,current pom version,5.3.18,org.springframework,spring-tx,2022-03-31 05:40:18,true,All latest versions released recently less than 3 months
+31,latest pom version,5.3.23,org.springframework,spring-tx,2022-09-15 04:39:19,true,All latest versions released recently less than 3 months
+32,current pom version,5.3.18,org.springframework,spring-web,2022-03-31 05:40:24,true,All latest versions released recently less than 3 months
+32,latest pom version,5.3.23,org.springframework,spring-web,2022-09-15 04:39:25,true,All latest versions released recently less than 3 months
+33,current pom version,5.3.18,org.springframework,spring-test,2022-03-31 05:40:19,true,All latest versions released recently less than 3 months
+33,latest pom version,5.3.23,org.springframework,spring-test,2022-09-15 04:39:20,true,All latest versions released recently less than 3 months
+34,current pom version,2.3.2,org.quartz-scheduler,quartz,2019-10-23 12:27:23,true,Using the latest available version.
+34,latest pom version,2.3.2,org.quartz-scheduler,quartz,2019-10-23 12:27:23,true,Using the latest available version.
+35,current pom version,1.0.3,org.scannotation,scannotation,2013-06-24 19:34:00,true,Using the latest available version.
+35,latest pom version,1.0.3,org.scannotation,scannotation,2013-06-24 19:34:00,true,Using the latest available version.
+36,current pom version,3.23.1-GA,org.javassist,javassist,2018-07-01 14:03:06,false,Not updated recently and stable but the project uses old dependency.
+36,latest pom version,3.29.2-GA,org.javassist,javassist,2022-09-13 17:36:13,false,Not updated recently and stable but the project uses old dependency.
+37,current pom version,2.11.0,com.fasterxml.jackson.core,jackson-databind,2020-04-25 20:17:31,false,There are more than 2 versions between the current and the latest.
+37,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,false,There are more than 2 versions between the current and the latest.
+38,current pom version,1,javax.inject,javax.inject,2009-10-13 19:35:00,true,Using the latest available version.
+38,latest pom version,1,javax.inject,javax.inject,2009-10-13 19:35:00,true,Using the latest available version.
+39,current pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+39,latest pom version,1.3.2,javax.annotation,javax.annotation-api,2018-02-21 05:24:24,true,Using the latest available version.
+40,current pom version,2.0.1.Final,javax.validation,validation-api,2017-12-19 11:23:41,true,Using the latest available version.
+40,latest pom version,2.0.1.Final,javax.validation,validation-api,2017-12-19 11:23:41,true,Using the latest available version.
+41,current pom version,6.0.22.Final,org.hibernate.validator,hibernate-validator,2020-12-16 10:28:53,false,There are more than 2 versions between the current and the latest.
+41,latest pom version,8.0.0.Final,org.hibernate.validator,hibernate-validator,2022-09-12 10:20:29,false,There are more than 2 versions between the current and the latest.
+42,current pom version,2.3,net.sf.opencsv,opencsv,2011-07-28 01:00:18,true,Using the latest available version.
+42,latest pom version,2.3,net.sf.opencsv,opencsv,2011-07-28 01:00:18,true,Using the latest available version.
+43,current pom version,2.2.1,org.eclipse.persistence,javax.persistence,2018-08-03 02:15:05,true,Using the latest available version.
+43,latest pom version,2.2.1,org.eclipse.persistence,javax.persistence,2018-08-03 02:15:05,true,Using the latest available version.
+44,current pom version,2.3.3,jakarta.xml.bind,jakarta.xml.bind-api,2020-01-27 04:35:28,false,There are more than 2 versions between the current and the latest.
+44,latest pom version,4.0.0,jakarta.xml.bind,jakarta.xml.bind-api,2022-03-15 09:24:29,false,There are more than 2 versions between the current and the latest.
+45,current pom version,2.3.3,org.glassfish.jaxb,jaxb-runtime,2020-04-07 13:51:15,false,There are more than 2 versions between the current and the latest.
+45,latest pom version,4.0.1,org.glassfish.jaxb,jaxb-runtime,2022-09-20 05:06:36,false,There are more than 2 versions between the current and the latest.
+46,current pom version,5.0.3,fr.paris.lutece.plugins,library-lucene,2022-01-19,true,Using the latest available version.
+46,latest pom version,5.0.3,fr.paris.lutece.plugins,library-lucene,2022-01-19,true,Using the latest available version.
+47,current pom version,1.0.1,fr.paris.lutece.plugins,library-user-api,2022-04-13,true,Using the latest available version.
+47,latest pom version,1.0.1,fr.paris.lutece.plugins,library-user-api,2022-04-13,true,Using the latest available version.
+48,current pom version,1.0.0,fr.paris.lutece.plugins,library-rbac-api,2013-03-13,true,Using the latest available version.
+48,latest pom version,1.0.0,fr.paris.lutece.plugins,library-rbac-api,2013-03-13,true,Using the latest available version.
+49,current pom version,2.0.4,fr.paris.lutece.plugins,library-workflow-core,None,true,Using the latest available version.
+49,latest pom version,2.0.4,fr.paris.lutece.plugins,library-workflow-core,None,true,Using the latest available version.
+50,current pom version,1.0.0,fr.paris.lutece.plugins,library-workgroup-api,None,true,Using the latest available version.
+50,latest pom version,1.0.0,fr.paris.lutece.plugins,library-workgroup-api,None,true,Using the latest available version.
+51,current pom version,1.3.4,fr.paris.lutece.plugins,library-freemarker,None,true,Using the latest available version.
+51,latest pom version,1.3.4,fr.paris.lutece.plugins,library-freemarker,None,true,Using the latest available version.
+52,current pom version,1.0.0,fr.paris.lutece.plugins,library-jmx-api,None,true,Using the latest available version.
+52,latest pom version,1.0.0,fr.paris.lutece.plugins,library-jmx-api,None,true,Using the latest available version.

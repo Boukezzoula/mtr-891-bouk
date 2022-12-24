@@ -1,0 +1,15 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,0.6.3,io.usethesource,capsule,2018-12-17,true,Using the latest available version.
+1,latest pom version,0.6.3,io.usethesource,capsule,2018-12-17,true,Using the latest available version.
+2,current pom version,2.13.4,com.fasterxml.jackson.core,jackson-core,2022-09-03 18:06:44,true,There are only 2 versions or less between the current and the latest.
+2,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-core,2022-11-05 16:38:09,true,There are only 2 versions or less between the current and the latest.
+3,current pom version,2.13.4.1,com.fasterxml.jackson.core,jackson-databind,2022-10-12 16:02:09,true,There are only 2 versions or less between the current and the latest.
+3,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,true,There are only 2 versions or less between the current and the latest.
+4,current pom version,5.9.0,org.junit.jupiter,junit-jupiter-engine,2022-07-26 15:09:22,true,There are only 2 versions or less between the current and the latest.
+4,latest pom version,5.9.1,org.junit.jupiter,junit-jupiter-engine,2022-09-20 14:34:31,true,There are only 2 versions or less between the current and the latest.
+5,current pom version,23.0,com.google.guava,guava-testlib,2017-08-04 17:25:36,false,There are more than 2 versions between the current and the latest.
+5,latest pom version,31.1-jre,com.google.guava,guava-testlib,2022-02-28 16:21:17,false,There are more than 2 versions between the current and the latest.
+6,current pom version,4.6.3,info.picocli,picocli,2022-02-09 04:27:39,true,There are only 2 versions or less between the current and the latest.
+6,latest pom version,4.7.0,info.picocli,picocli,2022-10-31 15:58:57,true,There are only 2 versions or less between the current and the latest.
+7,current pom version,5.3.2,org.junit.jupiter,junit-jupiter-engine,2018-11-25 14:10:57,false,There are more than 2 versions between the current and the latest.
+7,latest pom version,5.9.1,org.junit.jupiter,junit-jupiter-engine,2022-09-20 14:34:31,false,There are more than 2 versions between the current and the latest.

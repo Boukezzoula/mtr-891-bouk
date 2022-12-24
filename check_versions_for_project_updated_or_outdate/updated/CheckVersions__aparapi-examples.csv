@@ -1,0 +1,17 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,3.0.1-SNAPSHOT,com.aparapi,aparapi,not released yet,true,using development version that precedes the final release version.
+1,latest pom version,3.0.0,com.aparapi,aparapi,2021-07-12 12:12:08,true,using development version that precedes the final release version.
+2,current pom version,2.3.2,org.jogamp.gluegen,gluegen-rt-main,2015-10-10 10:29:28,true,using latest version
+2,latest pom version,2.3.2,org.jogamp.gluegen,gluegen-rt-main,2015-10-10 10:29:28,true,using latest version
+3,current pom version,2.3.2,org.jogamp.jogl,jogl-all-main,2015-10-10 10:37:43,true,using latest version
+3,latest pom version,2.3.2,org.jogamp.jogl,jogl-all-main,2015-10-10 10:37:43,true,using latest version
+4,current pom version,2.3.2,org.jogamp.gluegen,gluegen,2015-10-10 10:27:46,true,using latest version
+4,latest pom version,2.3.2,org.jogamp.gluegen,gluegen,2015-10-10 10:27:46,true,using latest version
+5,current pom version,8.9.0,org.apache.lucene,lucene-core,2021-06-16 08:48:05,false,There are more than 2 versions between the current and the latest.
+5,latest pom version,9.4.1,org.apache.lucene,lucene-core,2022-10-24 02:10:45,false,There are more than 2 versions between the current and the latest.
+6,current pom version,None,junit,junit,,false,There are more than 2 versions between the current and the latest.
+6,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,There are more than 2 versions between the current and the latest.
+7,current pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,using latest version
+7,latest pom version,3.12.0,org.apache.commons,commons-lang3,2021-02-26 15:40:52,true,using latest version
+8,current pom version,1.2.17,log4j,log4j,2012-05-26 05:43:39,true,using latest version
+8,latest pom version,1.2.17,log4j,log4j,2012-05-26 05:43:39,true,using latest version

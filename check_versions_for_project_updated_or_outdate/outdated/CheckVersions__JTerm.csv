@@ -1,0 +1,13 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.6,commons-io,commons-io,2017-10-15 06:00:52,false,"There are more than 2 versions between the current and the latest.
+Using old version More than 2 years between the latest and current version."
+1,latest pom version,2.11.0,commons-io,commons-io,2021-07-09 21:43:00,false,"There are more than 2 versions between the current and the latest.
+Using old version More than 2 years between the latest and current version."
+2,current pom version,1.8.3,com.github.waffle,waffle-jna,2017-02-06 21:13:21,false,"There are more than 2 versions between the current and the latest.
+Using old version More than 2 years between the latest and current version."
+2,latest pom version,3.2.0,com.github.waffle,waffle-jna,2022-07-24 19:59:39,false,"There are more than 2 versions between the current and the latest.
+Using old version More than 2 years between the latest and current version."
+3,current pom version,7.0.3,com.intellij,forms_rt,2008-07-20 14:43:42,true,Using the latest available version.
+3,latest pom version,7.0.3,com.intellij,forms_rt,2008-07-20 14:43:42,true,Using the latest available version.
+4,current pom version,RELEASE,org.junit.jupiter,junit-jupiter-api,None,true,Using latest or release : last non-snapshot release in the repository
+4,latest pom version,5.9.1,org.junit.jupiter,junit-jupiter-api,2022-09-20 14:34:31,true,Using latest or release : last non-snapshot release in the repository

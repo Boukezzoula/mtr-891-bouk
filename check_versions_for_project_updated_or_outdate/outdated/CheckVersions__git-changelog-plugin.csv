@@ -1,0 +1,25 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,14.0,com.google.guava,guava,2013-02-25 13:55:54,false,Not updated recently and stable but the project uses old dependency.
+1,latest pom version,31.1-jre,com.google.guava,guava,2022-02-28 16:18:58,false,Not updated recently and stable but the project uses old dependency.
+2,current pom version,1.168.4,se.bjurr.gitchangelog,git-changelog-lib,2022-10-24 13:40:52,true,Using the latest available version.
+2,latest pom version,1.168.4,se.bjurr.gitchangelog,git-changelog-lib,2022-10-24 13:40:52,true,Using the latest available version.
+3,current pom version,1.10,org.jenkins-ci.plugins,token-macro,2018-04-18,false,Not updated recently and stable but the project uses old dependency.
+3,latest pom version,2.3,org.jenkins-ci.plugins,token-macro,2018-04-22,false,Not updated recently and stable but the project uses old dependency.
+4,current pom version,2.3.5,org.jenkins-ci.plugins,git,2018-04-21,false,Not updated recently and stable but the project uses old dependency.
+4,latest pom version,3.6.0,org.jenkins-ci.plugins,git,2018-04-21,false,Not updated recently and stable but the project uses old dependency.
+5,current pom version,2.1.4,org.jenkins-ci.plugins,credentials,2018-04-21,false,Not updated recently and stable but the project uses old dependency.
+5,latest pom version,2.1.16,org.jenkins-ci.plugins,credentials,2018-04-21,false,Not updated recently and stable but the project uses old dependency.
+6,current pom version,1.2,org.jenkins-ci.plugins,plain-credentials,2016-05-19,false,Not updated recently and stable but the project uses old dependency.
+6,latest pom version,1.8,org.jenkins-ci.plugins,plain-credentials,2022-07-28,false,Not updated recently and stable but the project uses old dependency.
+7,current pom version,2.14,org.jenkins-ci.plugins.workflow,workflow-step-api,2017-11-21,false,Not updated recently and stable but the project uses old dependency.
+7,latest pom version,2.24,org.jenkins-ci.plugins.workflow,workflow-step-api,2021-07-22,false,Not updated recently and stable but the project uses old dependency.
+8,current pom version,1.46,org.jenkins-ci.plugins,script-security,2018-09-08,false,Using the old version More than 2 years between the latest and current version.
+8,latest pom version,1.78.1,org.jenkins-ci.plugins,script-security,2022-04-06,false,Using the old version More than 2 years between the latest and current version.
+9,current pom version,1.5,org.jenkins-ci.plugins,antisamy-markup-formatter,2018-04-21,true,Using the latest available version.
+9,latest pom version,1.5,org.jenkins-ci.plugins,antisamy-markup-formatter,2018-04-21,true,Using the latest available version.
+10,current pom version,4.12,junit,junit,2014-12-04 11:17:43,false,Using the old version More than 2 years between the latest and current version.
+10,latest pom version,4.13.2,junit,junit,2021-02-13 11:31:54,false,Using the old version More than 2 years between the latest and current version.
+11,current pom version,2.1.0,org.assertj,assertj-core,2015-06-10 04:38:14,false,Using the old version More than 2 years between the latest and current version.
+11,latest pom version,3.23.1,org.assertj,assertj-core,2022-05-31 13:22:12,false,Using the old version More than 2 years between the latest and current version.
+12,current pom version,4.1.6.RELEASE,org.springframework,spring-aop,2015-05-04 17:29:42,false,Using the old version More than 2 years between the latest and current version.
+12,latest pom version,5.3.23,org.springframework,spring-aop,2022-09-15 04:39:22,false,Using the old version More than 2 years between the latest and current version.

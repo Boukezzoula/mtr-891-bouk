@@ -1,0 +1,32 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter,2019-12-06,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter,2022-10-20 09:26:19,false,There are more than 2 versions between the current and the latest.
+2,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter-test,2019-12-06,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-test,2022-10-20 09:26:31,false,There are more than 2 versions between the current and the latest.
+3,current pom version,2.1.1,org.mybatis.spring.boot,mybatis-spring-boot-starter,2019-10-20 08:52:59,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,2.2.2,org.mybatis.spring.boot,mybatis-spring-boot-starter,2022-01-29 12:20:56,false,There are more than 2 versions between the current and the latest.
+4,current pom version,8.0.31,mysql,mysql-connector-java,2022-09-03 17:54:30,true,Using the latest available
+4,latest pom version,8.0.31,mysql,mysql-connector-java,2022-09-03 17:54:30,true,Using the latest available
+6,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter-web,,false,There are more than 2 versions between the current and the latest.
+6,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-web,2022-10-20 09:26:27,false,There are more than 2 versions between the current and the latest.
+7,current pom version,4.0.1,javax.servlet,javax.servlet-api,2018-04-20 03:19:20,true,Using the latest available
+7,latest pom version,4.0.1,javax.servlet,javax.servlet-api,2018-04-20 03:19:20,true,Using the latest available
+8,current pom version,1.1.21,com.alibaba,druid,2019-11-03 08:07:45,false,There are more than 2 versions between the current and the latest.
+8,latest pom version,1.2.14,com.alibaba,druid,2022-10-22 22:17:45,false,There are more than 2 versions between the current and the latest.
+9,current pom version,1.7.0,org.apache.shiro,shiro-core,2020-10-23 10:03:30,false,There are more than 2 versions between the current and the latest.
+9,latest pom version,1.10.0,org.apache.shiro,shiro-core,2022-10-07 11:35:31,false,There are more than 2 versions between the current and the latest.
+10,current pom version,1.7.0,org.apache.shiro,shiro-spring,2020-10-23 10:05:08,false,There are more than 2 versions between the current and the latest.
+10,latest pom version,1.10.0,org.apache.shiro,shiro-spring,2022-10-07 11:35:07,false,There are more than 2 versions between the current and the latest.
+11,current pom version,None,com.google.code.gson,gson,2022-10-24 21:09:40,true,Using the latest available version.
+11,latest pom version,2.10,com.google.code.gson,gson,2022-10-24 21:09:40,true,Using the latest available version.
+12,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-devtools,2019-12-06,false,There are more than 2 versions between the current and the latest.
+12,latest pom version,2.7.5,org.springframework.boot,spring-boot-devtools,2022-10-20 09:26:27,false,There are more than 2 versions between the current and the latest.
+13,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter-thymeleaf,2019-12-06,false,There are more than 2 versions between the current and the latest.
+13,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-thymeleaf,2022-10-20 09:26:21,false,There are more than 2 versions between the current and the latest.
+14,current pom version,2.8.0,commons-io,commons-io,2020-09-06 09:54:55,false,There are more than 2 versions between the current and the latest.
+14,latest pom version,2.11.0,commons-io,commons-io,2021-07-09 21:43:00,false,There are more than 2 versions between the current and the latest.
+15,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter-quartz,2019-12-06,false,There are more than 2 versions between the current and the latest.
+15,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-quartz,2022-10-20 09:26:22,false,There are more than 2 versions between the current and the latest.
+16,current pom version,2.2.2.RELEASE,org.springframework.boot,spring-boot-starter-tomcat,2019-12-06,false,There are more than 2 versions between the current and the latest.
+16,latest pom version,2.7.5,org.springframework.boot,spring-boot-starter-tomcat,2022-10-20 09:26:24,false,There are more than 2 versions between the current and the latest.
+,,,,,,

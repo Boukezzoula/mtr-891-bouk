@@ -1,0 +1,15 @@
+id,situation,version,groupId,artifactId,release_date,is_updated,justification
+1,current pom version,4.0.27.Final,io.netty,netty-all,2015-04-02 12:33:44,false,There are more than 2 versions between the current and the latest.
+1,latest pom version,4.1.84.Final,io.netty,netty-all,2022-10-11 21:02:01,false,There are more than 2 versions between the current and the latest.
+2,current pom version,2.2.2,com.fasterxml.jackson.core,jackson-databind,2013-05-27 01:26:30,false,There are more than 2 versions between the current and the latest.
+2,latest pom version,2.14.0,com.fasterxml.jackson.core,jackson-databind,2022-11-05 16:39:36,false,There are more than 2 versions between the current and the latest.
+3,current pom version,6.8.21,org.testng,testng,2015-02-02 12:28:43,false,There are more than 2 versions between the current and the latest.
+3,latest pom version,7.6.1,org.testng,testng,2022-06-20 23:17:40,false,There are more than 2 versions between the current and the latest.
+4,current pom version,3.2.2.RELEASE,org.springframework,spring-context,2013-03-13 17:56:15,false,There are more than 2 versions between the current and the latest.
+4,latest pom version,5.3.23,org.springframework,spring-context,2022-09-15 04:39:24,false,There are more than 2 versions between the current and the latest.
+5,current pom version,1.7.5,org.slf4j,slf4j-api,2013-03-25 16:52:15,false,There are more than 2 versions between the current and the latest.
+5,latest pom version,2.0.3,org.slf4j,slf4j-api,2022-09-28 06:18:09,false,There are more than 2 versions between the current and the latest.
+6,current pom version,1.0.6,ch.qos.logback,logback-classic,2012-06-07 16:42:39,false,There are more than 2 versions between the current and the latest.
+6,latest pom version,1.4.4,ch.qos.logback,logback-classic,2022-10-10 04:14:19,false,There are more than 2 versions between the current and the latest.
+7,current pom version,0.7-SNAPSHOT,com.github.cloudfoundry-community,nats-client,None,true,using the development version that precedes the final release version.
+7,latest pom version,0.6.7,com.github.cloudfoundry-community,nats-client,2017-07-27 14:47:38,true,using the development version that precedes the final release version.
