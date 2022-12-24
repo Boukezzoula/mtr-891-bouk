@@ -1,0 +1,3 @@
+CommitHash,CommitSituation,CountClassCoupled,PercentLackOfCohesion,PercentLackOfCohesionModified,Cyclomatic,CountLineCode,CountLineComment
+49a9ee4a5a0e48c4fe66082d084e97d3afdd92f7,latest commit with update,11.94,30.32,24.96,12.32,2244,219
+702e49dc0818b8d6e8305b4621ba71b512a8011f,last project commit ,11.94,30.32,24.96,12.32,2244,219
